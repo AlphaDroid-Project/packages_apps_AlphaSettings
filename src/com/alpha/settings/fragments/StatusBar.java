@@ -207,6 +207,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_CLOCK, 2, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
+                Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
                 Settings.System.VOLTE_ICON_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VOWIFI_ICON_STYLE, 0, UserHandle.USER_CURRENT);
