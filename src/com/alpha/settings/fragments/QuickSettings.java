@@ -42,6 +42,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.qs.QsHeaderImageSettings;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import lineageos.providers.LineageSettings;
@@ -166,6 +167,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 LineageSettings.Secure.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
+        QsHeaderImageSettings.reset(mContext);
     }
 
     private void updateAnimTileStyle(int tileAnimationStyle) {

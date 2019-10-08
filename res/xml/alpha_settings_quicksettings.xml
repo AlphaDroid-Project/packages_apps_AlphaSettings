@@ -24,15 +24,13 @@
     <PreferenceCategory
          android:title="@string/qs_misc_category">
 
-        <!-- QS Header Image
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        <!-- QS Header -->
+        <Preference
             android:key="qs_header_image"
             android:icon="@drawable/ic_header"
             android:title="@string/qs_header_image_title"
-            android:defaultValue="0"
-            settings:interval="1"
-            android:max="24"
-            android:min="0" /> -->
+            android:summary="@string/qs_header_image_summary"
+            android:fragment="com.alpha.settings.fragments.qs.QsHeaderImageSettings" />
 
         <!-- QS clock
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
