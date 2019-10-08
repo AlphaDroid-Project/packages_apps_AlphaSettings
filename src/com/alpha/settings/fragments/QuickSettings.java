@@ -37,6 +37,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.quicksettings.QsHeaderImageSettings;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import android.provider.Settings;
@@ -208,6 +209,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
         updateQsStyle(mContext);
         updateQsPanelStyle(mContext);
+        QsHeaderImageSettings.reset(mContext);
     }
 
     private void updateAnimTileStyle(int tileAnimationStyle) {
