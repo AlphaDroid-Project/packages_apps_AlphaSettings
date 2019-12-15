@@ -41,6 +41,7 @@ import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.lockscreen.DozeSettings;
 import com.alpha.settings.fragments.ui.MonetSettings;
 import com.alpha.settings.utils.DeviceUtils;
 
@@ -58,6 +59,7 @@ public class UserInterface extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        DozeSettings.reset(mContext);
         MonetSettings.reset(mContext);
     }
 
