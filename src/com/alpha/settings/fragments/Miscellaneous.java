@@ -34,6 +34,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.misc.SensorBlock;
 import com.alpha.settings.fragments.misc.SmartCharging;
 
 import java.util.List;
@@ -111,11 +112,10 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.SENSOR_BLOCK, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
         SystemProperties.set(SYS_GAMES_SPOOF, "false");
         SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
+        SensorBlock.reset(mContext);
         SmartCharging.reset(mContext);
     }
 
