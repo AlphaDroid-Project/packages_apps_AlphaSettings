@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018-2023 crDroid Android Project
+ * Copyright (C) 2018-2024 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -57,6 +57,7 @@ public class DozeSettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_DOZE_ENABLED = "doze_enabled";
     private static final String KEY_DOZE_ALWAYS_ON = "doze_always_on";
+    private static final String KEY_DOZE_ALWAYS_ON_SCHEDULE = "always_on_display_schedule";
 
     private static final String CATEG_DOZE_SENSOR = "doze_sensor";
 
@@ -76,6 +77,8 @@ public class DozeSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mRaiseToWakePreference;
     private SecureSettingSeekBarPreference mDozeVibratePreference;
 
+    private Preference mDozeAlwaysOnSchedulePreference;
+
     private SharedPreferences mPreferences;
 
     @Override
@@ -91,6 +94,7 @@ public class DozeSettings extends SettingsPreferenceFragment implements
 
         mDozeEnabledPreference = (SwitchPreference) findPreference(KEY_DOZE_ENABLED);
         mDozeAlwaysOnPreference = (SwitchPreference) findPreference(KEY_DOZE_ALWAYS_ON);
+        mDozeAlwaysOnSchedulePreference = findPreference(KEY_DOZE_ALWAYS_ON_SCHEDULE);
 
         boolean dozeEnabledDefault = context.getResources().getBoolean(
                 com.android.internal.R.bool.config_doze_enabled_by_default);
@@ -141,6 +145,7 @@ public class DozeSettings extends SettingsPreferenceFragment implements
         // Hides always on toggle if device doesn't support it (based on config_dozeAlwaysOnDisplayAvailable overlay)
         if (!Utils.isDozeAlwaysOnAvailable(context)) {
             getPreferenceScreen().removePreference(mDozeAlwaysOnPreference);
+            getPreferenceScreen().removePreference(mDozeAlwaysOnSchedulePreference);
         } else {
             boolean dozeAlwaysOnDefault = context.getResources().getBoolean(
                     com.android.internal.R.bool.config_dozeAlwaysOnEnabled);
@@ -251,6 +256,8 @@ public class DozeSettings extends SettingsPreferenceFragment implements
                 com.android.internal.R.bool.config_dozeAlwaysOnEnabled) ? 1 : 0,
                 UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.DOZE_ALWAYS_ON_AUTO_MODE, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.DOZE_TILT_GESTURE, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.DOZE_PICK_UP_GESTURE, mContext.getResources().getBoolean(
@@ -286,6 +293,7 @@ public class DozeSettings extends SettingsPreferenceFragment implements
 
                     if (!Utils.isDozeAlwaysOnAvailable(context)) {
                         keys.add(KEY_DOZE_ALWAYS_ON);
+                        keys.add(KEY_DOZE_ALWAYS_ON_SCHEDULE);
                     }
 
                     keys.add(KEY_DOZE_GESTURE_VIBRATE);
