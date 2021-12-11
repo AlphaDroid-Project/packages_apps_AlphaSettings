@@ -39,7 +39,9 @@ import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.statusbar.Clock;
 import com.alpha.settings.preferences.SystemSettingSeekBarPreference;
+import com.alpha.settings.utils.DeviceUtils;
 import com.alpha.settings.utils.TelephonyUtils;
 
 import lineageos.preference.LineageSystemSettingListPreference;
@@ -53,6 +55,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     public static final String TAG = "StatusBar";
 
+    private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String QUICK_PULLDOWN = "qs_quick_pulldown";
     private static final String SMART_PULLDOWN = "qs_smart_pulldown";
     private static final String KEY_VOLTE_ICON_STYLE = "volte_icon_style";
@@ -65,6 +68,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final int PULLDOWN_DIR_LEFT = 2;
     private static final int PULLDOWN_DIR_ALWAYS = 3;
 
+    private LineageSystemSettingListPreference mStatusBarClock;
     private LineageSystemSettingListPreference mQuickPulldown;
     private SystemSettingListPreference mSmartPulldown;
     private SystemSettingSeekBarPreference mVolteIconStyle;
@@ -78,7 +82,26 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.alpha_settings_statusbar);
 
+        Context mContext = getActivity().getApplicationContext();
+
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mStatusBarClock =
+                (LineageSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
+
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            if (DeviceUtils.hasNotch(mContext)) {
+                mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_notch_rtl);
+                mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_notch_rtl);
+            } else {
+                mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
+                mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_rtl);
+            }
+        } else if (DeviceUtils.hasNotch(mContext)) {
+            mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_notch);
+            mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_notch);
+        }
 
         mVolteIconStyle = (SystemSettingSeekBarPreference) findPreference(KEY_VOLTE_ICON_STYLE);
         mShowRoaming = (SwitchPreference) findPreference(KEY_SHOW_ROAMING);
@@ -129,6 +152,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
+                Settings.System.STATUS_BAR_CLOCK, 2, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
                 Settings.System.VOLTE_ICON_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.ROAMING_INDICATOR_ICON, 1, UserHandle.USER_CURRENT);
@@ -140,6 +165,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 Settings.System.BLUETOOTH_SHOW_BATTERY, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_SMART_PULLDOWN, 0, UserHandle.USER_CURRENT);
+        Clock.reset(mContext);
     }
 
     private void updateQuickPulldownSummary(int value) {
