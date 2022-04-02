@@ -228,6 +228,8 @@ public class Clock extends SettingsPreferenceFragment
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_CLOCK_CHIP, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
+                Settings.System.STATUS_BAR_CLOCK_SIZE, 14, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_AM_PM, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_CLOCK_AUTO_HIDE, 0, UserHandle.USER_CURRENT);
