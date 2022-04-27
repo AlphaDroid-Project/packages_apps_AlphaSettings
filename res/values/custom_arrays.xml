@@ -17,14 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="alphabet_summary">Goodies!</string>
-
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings style</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and Alphabet style</string>
-    <string name="settings_dashboard_style_aosp">AOSP</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_nad">NAD</string>
+    <!-- Settings dashboard styles-->
+    <string-array name="settings_dashboard_style_entries" translatable="false">
+        <item>@string/settings_dashboard_style_aosp</item>
+        <item>@string/settings_dashboard_style_dot</item>
+        <item>@string/settings_dashboard_style_nad</item>
+    </string-array>
+    <string-array name="settings_dashboard_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
 </resources>
-
