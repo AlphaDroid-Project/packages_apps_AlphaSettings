@@ -37,6 +37,8 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.List;
 import java.util.ArrayList;
 
+import android.provider.Settings;
+
 @SearchIndexable
 public class Miscellaneous extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
