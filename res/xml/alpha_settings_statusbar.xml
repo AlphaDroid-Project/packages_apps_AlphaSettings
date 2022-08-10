@@ -32,16 +32,6 @@
                 <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
 
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="max_visible_notification_icons"
-            android:title="@string/max_visible_notification_icons_title"
-            android:summary="@string/max_visible_notification_icons_summary"
-            android:defaultValue="5"
-            settings:defaultValueText="5"
-            android:max="10"
-            settings:min="0"
-            settings:units="" />
-
         <com.alpha.settings.preferences.SystemSettingPrimarySwitchPreference
             android:key="network_traffic_enabled"
             android:icon="@drawable/ic_traffic"
@@ -242,6 +232,34 @@
             android:entries="@array/smart_pulldown_entries"
             android:entryValues="@array/smart_pulldown_values"
             android:defaultValue="0" />-->
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="statusbar_padding"
+        android:title="@string/statusbar_padding">
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_top_padding"
+            android:icon="@drawable/ic_arrow_up_24"
+            android:max="10"
+            android:title="@string/statusbar_top_padding"
+            settings:min="-1" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_left_padding"
+            android:icon="@drawable/ic_arrow_left_24"
+            android:title="@string/statusbar_left_padding"
+            android:max="100"
+            android:min="0" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="statusbar_right_padding"
+            android:icon="@drawable/ic_arrow_right_24"
+            android:title="@string/statusbar_right_padding"
+            android:max="100"
+            android:min="0" />
 
     </PreferenceCategory>
 
