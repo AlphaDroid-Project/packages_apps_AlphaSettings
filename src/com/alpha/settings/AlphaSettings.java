@@ -47,11 +47,11 @@ import com.alpha.settings.fragments.LockScreen;
 import com.alpha.settings.fragments.QuickSettings;
 import com.alpha.settings.fragments.Navigation;
 import com.alpha.settings.fragments.StatusBar;
+import com.alpha.settings.fragments.UserInterface;
 /*
 import com.alpha.settings.fragments.Miscellaneous;
 import com.alpha.settings.fragments.Notifications;
 import com.alpha.settings.fragments.Sound;
-import com.alpha.settings.fragments.UserInterface;
 */
 
 public class AlphaSettings extends SettingsPreferenceFragment {
@@ -137,13 +137,13 @@ public class AlphaSettings extends SettingsPreferenceFragment {
             Miscellaneous.reset(rContext);
             Notifications.reset(rContext);
             Sound.reset(rContext);
-            UserInterface.reset(rContext);
 */
             Buttons.reset(rContext);
             LockScreen.reset(rContext);
             QuickSettings.reset(rContext);
             Navigation.reset(rContext);
             StatusBar.reset(rContext);
+            UserInterface.reset(rContext);
             finish();
             startActivity(getIntent());
             return null;
@@ -169,7 +169,6 @@ public class AlphaSettings extends SettingsPreferenceFragment {
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
 /*
-            frags[5] = new UserInterface();
             frags[6] = new Notifications();
             frags[7] = new Sound();
             frags[8] = new Miscellaneous();
@@ -179,7 +178,8 @@ public class AlphaSettings extends SettingsPreferenceFragment {
             frags[2] = new LockScreen();
             frags[3] = new Navigation();
             frags[4] = new Buttons();
-            frags[5] = new About();
+            frags[5] = new UserInterface();
+            frags[6] = new About();
         }
 
         @Override
@@ -202,7 +202,6 @@ public class AlphaSettings extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[] {
 /*
-            getString(R.string.ui_title),
             getString(R.string.notifications_title),
             getString(R.string.sound_title),
             getString(R.string.misc_title),
@@ -212,6 +211,7 @@ public class AlphaSettings extends SettingsPreferenceFragment {
             getString(R.string.lockscreen_title),
             getString(R.string.navigation_title),
             getString(R.string.button_title),
+            getString(R.string.ui_title),
             getString(R.string.about_alpha)
         };
         return titleString;
