@@ -128,6 +128,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_SHOW_DATA_USAGE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_SHAPE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.SHOW_MEDIA_SQUIGGLE_ANIMATION, 1, UserHandle.USER_CURRENT);
         LayoutSettings.reset(mContext);
         QsHeaderImageSettings.reset(mContext);
     }
