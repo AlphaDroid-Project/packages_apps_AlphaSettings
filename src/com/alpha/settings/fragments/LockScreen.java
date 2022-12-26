@@ -33,7 +33,6 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.crdroid.OmniJawsClient;
 import com.android.internal.util.crdroid.Utils;
 
 import com.android.settings.R;
@@ -59,7 +58,6 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String KEY_FP_SUCCESS_VIBRATE = "fp_success_vibrate";
     private static final String KEY_FP_ERROR_VIBRATE = "fp_error_vibrate";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
-    private static final String KEY_WEATHER = "lockscreen_weather_enabled";
     private static final String SHORTCUT_START_KEY = "lockscreen_shortcut_start";
     private static final String SHORTCUT_END_KEY = "lockscreen_shortcut_end";
 
@@ -70,7 +68,6 @@ public class LockScreen extends SettingsPreferenceFragment
     private Preference mFingerprintVib;
     private Preference mFingerprintVibErr;
     private Preference mRippleEffect;
-    private Preference mWeather;
     private ListPreference mStartShortcut;
     private ListPreference mEndShortcut;
 
@@ -99,14 +96,6 @@ public class LockScreen extends SettingsPreferenceFragment
             if (!Utils.isPackageInstalled(getContext(), "com.crdroid.udfps.icons")) {
                 interfaceCategory.removePreference(mUdfpsSettings);
             }
-        }
-
-        mWeather = (Preference) findPreference(KEY_WEATHER);
-        OmniJawsClient weatherClient = new OmniJawsClient(getContext());
-        boolean weatherEnabled = weatherClient.isOmniJawsEnabled();
-        if (!weatherEnabled) {
-            mWeather.setEnabled(false);
-            mWeather.setSummary(R.string.lockscreen_weather_enabled_info);
         }
 
         mStartShortcut = (ListPreference) findPreference(SHORTCUT_START_KEY);
@@ -192,10 +181,6 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.FP_SUCCESS_VIBRATE, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_ENABLE_POWER_MENU, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.LOCKSCREEN_WEATHER_ENABLED, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.LOCKSCREEN_WEATHER_LOCATION, 0, UserHandle.USER_CURRENT);
         Settings.System.putString(resolver,
                 Settings.System.KEYGUARD_QUICK_TOGGLES, "home,flashlight;wallet,qr,camera");
         UdfpsSettings.reset(mContext);
