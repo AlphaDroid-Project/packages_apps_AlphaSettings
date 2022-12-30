@@ -40,7 +40,7 @@
         android:summary="@string/network_traffic_autohide_summary"
         android:defaultValue="true" />
 
-    <com.crdroid.settings.preferences.LineageSecureSettingSeekBarPreference
+    <com.alpha.settings.preferences.LineageSecureSettingSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold"
         android:defaultValue="0"
@@ -50,7 +50,7 @@
         settings:interval="10"
         android:dependency="network_traffic_autohide" />
 
-    <com.crdroid.settings.preferences.LineageSecureSettingSeekBarPreference
+    <com.alpha.settings.preferences.LineageSecureSettingSeekBarPreference
         android:key="network_traffic_refresh_interval"
         android:title="@string/network_traffic_refresh_interval_title"
         android:summary="@string/network_traffic_refresh_interval_summary"
