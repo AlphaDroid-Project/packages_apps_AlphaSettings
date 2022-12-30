@@ -20,31 +20,31 @@
     android:key="monet_settings"
     android:title="@string/monet_title">
 
-    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_custom_color"
         android:title="@string/monet_engine_custom_color_title"
         android:summary="@string/monet_engine_custom_color_summary"
         android:defaultValue="false" />
 
-    <com.crdroid.settings.preferences.colorpicker.SecureSettingColorPickerPreference
+    <com.alpha.settings.preferences.colorpicker.SecureSettingColorPickerPreference
         android:key="monet_engine_color_override"
         android:title="@string/monet_engine_color_override_title"
         android:dependency="monet_engine_custom_color"
         android:defaultValue="0xFF1b6ef3" />
 
-    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_custom_bgcolor"
         android:title="@string/monet_engine_custom_bgcolor_title"
         android:summary="@string/monet_engine_custom_bgcolor_summary"
         android:defaultValue="false" />
 
-    <com.crdroid.settings.preferences.colorpicker.SecureSettingColorPickerPreference
+    <com.alpha.settings.preferences.colorpicker.SecureSettingColorPickerPreference
         android:key="monet_engine_bgcolor_override"
         android:title="@string/monet_engine_color_override_title"
         android:dependency="monet_engine_custom_bgcolor"
         android:defaultValue="0xFF1b6ef3" />
 
-    <com.crdroid.settings.preferences.SecureSettingSeekBarPreference
+    <com.alpha.settings.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_luminance_factor"
         android:title="@string/monet_engine_luminance_factor_title"
         android:summary="@string/monet_engine_luminance_factor_summary"
@@ -53,7 +53,7 @@
         settings:min="25"
         settings:interval="5"/>
 
-    <com.crdroid.settings.preferences.SecureSettingSeekBarPreference
+    <com.alpha.settings.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_chroma_factor"
         android:title="@string/monet_engine_chroma_factor_title"
         android:summary="@string/monet_engine_chroma_factor_summary"
@@ -62,7 +62,7 @@
         settings:min="25"
         settings:interval="5"/>
 
-    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="monet_engine_tint_background"
         android:title="@string/monet_engine_tint_background_title"
         android:summary="@string/monet_engine_tint_background_summary"
