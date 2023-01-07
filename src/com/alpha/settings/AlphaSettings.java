@@ -66,8 +66,8 @@ public class AlphaSettings extends DashboardFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         mContext = getActivity().getApplicationContext();
-        setAlphaDashboardStyle();
         hideToolbar();
+        setAlphaDashboardStyle();
     }
 
     private void hideToolbar() {
@@ -81,9 +81,8 @@ public class AlphaSettings extends DashboardFragment {
 
     public void onResume() {
         super.onResume();
-        if (mCollapsingToolbarLayout != null) {
-            hideToolbar();
-        }
+        hideToolbar();
+        setAlphaDashboardStyle();
     }
 
     private void setAlphaDashboardStyle() {
@@ -104,11 +103,11 @@ public class AlphaSettings extends DashboardFragment {
 
             if (mDashBoardStyle > 0) { // 0 = stock aosp style
                 if (mDashBoardStyle == 1 && mKey.equals("ui_settings_category")) {
-                    mPreference.setLayoutResource(R.layout.dot_dashboard_preference_full_accent);
+                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full_accent);
                 } else if (mDashBoardStyle == 2 && mKey.equals("ui_settings_category")) {
-                    mPreference.setLayoutResource(R.layout.dot_dashboard_preference_full_accent_2);
+                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full_accent_2);
                 } else {
-                    mPreference.setLayoutResource(R.layout.dot_dashboard_preference_full);
+                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full);
                 }
             }
         }
