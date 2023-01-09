@@ -89,7 +89,7 @@ public class LockScreen extends SettingsPreferenceFragment
             gestCategory.removePreference(mFingerprintVibErr);
             gestCategory.removePreference(mRippleEffect);
         } else {
-            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
+            if (!Utils.isPackageInstalled(getContext(), "com.crdroid.udfps.icons")) {
                 interfaceCategory.removePreference(mUdfpsSettings);
             }
         }
