@@ -41,7 +41,6 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.statusbar.BatteryBar;
 import com.alpha.settings.fragments.statusbar.Clock;
-import com.alpha.settings.fragments.statusbar.NetworkTrafficSettings;
 import com.alpha.settings.preferences.SystemSettingSeekBarPreference;
 import com.alpha.settings.utils.DeviceUtils;
 import com.alpha.settings.utils.TelephonyUtils;
@@ -236,7 +235,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
         BatteryBar.reset(mContext);
         Clock.reset(mContext);
-        NetworkTrafficSettings.reset(mContext);
     }
 
     private void updateQuickPulldownSummary(int value) {
