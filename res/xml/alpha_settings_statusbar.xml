@@ -32,6 +32,16 @@
                 <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
 
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="max_visible_notification_icons"
+            android:title="@string/max_visible_notification_icons_title"
+            android:summary="@string/max_visible_notification_icons_summary"
+            android:defaultValue="5"
+            settings:defaultValueText="5"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
+
         <lineageos.preference.LineageSystemSettingListPreference
             android:key="status_bar_clock"
             android:icon="@drawable/ic_clock"
