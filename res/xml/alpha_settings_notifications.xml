@@ -29,6 +29,17 @@
         android:summary="@string/theme_customization_notifications_summary"
         android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" /-->
 
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="max_visible_notification_icons"
+        android:icon="@drawable/ic_notification_peek"
+        android:title="@string/max_visible_notification_icons_title"
+        android:summary="@string/max_visible_notification_icons_summary"
+        android:defaultValue="5"
+        settings:defaultValueText="5"
+        android:max="10"
+        settings:min="0"
+        settings:units="" />
+
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
         android:icon="@drawable/ic_light_switch"
