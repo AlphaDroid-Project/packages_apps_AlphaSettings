@@ -32,6 +32,11 @@
         android:summary="@string/udfps_recog_animation_effect_summary"
         android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
 
+    <com.alpha.settings.preferences.colorpicker.SystemSettingColorPickerPreference
+        android:key="udfps_pressed_color"
+        android:title="@string/udfps_pressed_color_title"
+        android:defaultValue="0xff00ff00" />
+
     <!-- Screen Off UDFPS -->
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="screen_off_udfps_enabled"
