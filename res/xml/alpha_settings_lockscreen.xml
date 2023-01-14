@@ -19,6 +19,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     xmlns:lineage="http://schemas.android.com/apk/res-auto">
 
+    <!-- Ambient Display -->
+    <Preference
+        android:key="doze_fragment"
+        android:icon="@drawable/ic_ambient"
+        android:title="@string/doze_display_title"
+        android:summary="@string/doze_display_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.DozeSettings" />
+
     <PreferenceCategory
         android:key="lockscreen_clock_category"
         android:title="@string/qs_clock_title">
