@@ -41,6 +41,13 @@
         android:title="@string/pulse_on_new_tracks_title"
         android:summary="@string/pulse_on_new_tracks_summary" />
 
+    <Preference
+         android:key="ambient_customization"
+         android:icon="@drawable/ic_ambient"
+         android:title="@string/ambient_text_category_title"
+         android:summary="@string/ambient_text_category_summary"
+         android:fragment="com.alpha.settings.fragments.AmbientCustomizations" />
+
     <PreferenceCategory
         android:key="edge_lighting"
         android:title="@string/pulse_ambient_light_title" >
