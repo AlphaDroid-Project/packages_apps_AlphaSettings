@@ -21,6 +21,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -37,6 +38,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.development.SystemPropPoker;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.statusbar.BatteryBar;
@@ -69,6 +71,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final String KEY_STATUSBAR_TOP_PADDING = "statusbar_top_padding";
     private static final String KEY_STATUSBAR_LEFT_PADDING = "statusbar_left_padding";
     private static final String KEY_STATUSBAR_RIGHT_PADDING = "statusbar_right_padding";
+    private static final String KEY_COMBINED_SIGNAL_ICONS = "enable_combined_signal_icons";
+    private static final String SYS_COMBINED_SIGNAL_ICONS = "persist.sys.flags.combined_signal_icons";
 
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
@@ -88,6 +92,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private SwitchPreference mDataDisabled;
     private SwitchPreference mOldMobileType;
     private SwitchPreference mBatteryTextCharging;
+    private SwitchPreference mCombinedSignalIcons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -99,6 +104,10 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Context mContext = getActivity().getApplicationContext();
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mCombinedSignalIcons = (SwitchPreference) findPreference(KEY_COMBINED_SIGNAL_ICONS);
+        mCombinedSignalIcons.setChecked(SystemProperties.getBoolean(SYS_COMBINED_SIGNAL_ICONS, true));
+        mCombinedSignalIcons.setOnPreferenceChangeListener(this);
 
         mStatusBarClock =
                 (LineageSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
@@ -198,6 +207,13 @@ public class StatusBar extends SettingsPreferenceFragment implements
         } else if (preference == mQuickPulldown) {
             int value = Integer.parseInt((String) newValue);
             updateQuickPulldownSummary(value);
+            return true;
+        } else if (preference == mCombinedSignalIcons) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                Settings.Secure.ENABLE_COMBINED_SIGNAL_ICONS, value ? 1 : 0, UserHandle.USER_CURRENT);
+            SystemProperties.set(SYS_COMBINED_SIGNAL_ICONS, value ? "true" : "false");
+            SystemPropPoker.getInstance().poke();
             return true;
         }
         return false;
