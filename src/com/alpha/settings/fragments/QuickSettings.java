@@ -255,8 +255,20 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             setQsStyle(mOverlayService, "com.android.system.qs.outline");
         } else if (qsPanelStyle == 2 || qsPanelStyle == 3) {
             setQsStyle(mOverlayService, "com.android.system.qs.twotoneaccent");
+        } else if (qsPanelStyle == 4) {
+            setQsStyle(mOverlayService, "com.android.system.qs.shaded");
+        } else if (qsPanelStyle == 5) {
+            setQsStyle(mOverlayService, "com.android.system.qs.cyberpunk");
+        } else if (qsPanelStyle == 6) {
+            setQsStyle(mOverlayService, "com.android.system.qs.neumorph");
+        } else if (qsPanelStyle == 7) {
+            setQsStyle(mOverlayService, "com.android.system.qs.reflected");
+        } else if (qsPanelStyle == 8) {
+            setQsStyle(mOverlayService, "com.android.system.qs.surround");
+        } else if (qsPanelStyle == 9) {
+            setQsStyle(mOverlayService, "com.android.system.qs.thin");
         }
-    }
+    }       
 
     public static void setDefaultStyle(IOverlayManager overlayManager) {
         for (int i = 0; i < QS_STYLES.length; i++) {
@@ -287,7 +299,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     public static final String[] QS_STYLES = {
         "com.android.system.qs.outline",
-        "com.android.system.qs.twotoneaccent"
+        "com.android.system.qs.twotoneaccent",
+        "com.android.system.qs.shaded",
+        "com.android.system.qs.cyberpunk",
+        "com.android.system.qs.neumorph",
+        "com.android.system.qs.reflected",
+        "com.android.system.qs.surround",
+        "com.android.system.qs.thin"
     };
 
     @Override
