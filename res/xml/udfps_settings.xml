@@ -32,17 +32,16 @@
         android:summary="@string/udfps_recog_animation_effect_summary"
         android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
 
+    <Preference
+        android:key="udfps_pressedicon_picker"
+        android:title="@string/udfps_pressed_color_title"
+        android:summary="@string/udfps_pressed_color_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsPressedIconPicker" />
+
     <!-- Screen Off UDFPS -->
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="screen_off_udfps_enabled"
         android:title="@string/screen_off_udfps_title"
         android:summary="@string/screen_off_udfps_summary"
         android:defaultValue="false" />
-        
-    <Preference
-            android:key="udfps_pressedicon_picker"
-            android:title="@string/udfps_pressed_color_title"
-            android:summary="@string/udfps_pressed_color_summary"
-            android:fragment="com.alpha.settings.fragments.UdfpsPressedIconPicker" />
-
 </PreferenceScreen>

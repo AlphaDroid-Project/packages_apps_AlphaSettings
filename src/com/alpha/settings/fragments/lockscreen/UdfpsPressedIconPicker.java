@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alpha.settings.fragments;
+package com.alpha.settings.fragments.lockscreen;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -69,7 +69,7 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
 
     private Resources udfpsRes;
 
-    private String mPkg = "com.alpha.udfps.resources";
+    private String mPkg = "com.alpha.udfps.pressedicons";
 
     private String[] mIcons;
 
