@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2021 AospExtended ROM Project
+ * Copyright (C) 2023 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -89,8 +90,10 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
             e.printStackTrace();
         }
 
-        mIcons = udfpsRes.getStringArray(udfpsRes.getIdentifier("udfps_pressedicons",
-                "array", mPkg));
+        if (udfpsRes != null) {
+            mIcons = udfpsRes.getStringArray(udfpsRes.getIdentifier("udfps_pressedicons",
+                    "array", mPkg));
+        }
     }
 
     @Override
