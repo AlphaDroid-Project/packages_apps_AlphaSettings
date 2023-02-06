@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 
-<PreferenceScreen 
+<PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/udfps_settings_title" >
@@ -32,10 +32,11 @@
         android:summary="@string/udfps_recog_animation_effect_summary"
         android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
 
-    <com.alpha.settings.preferences.colorpicker.SystemSettingColorPickerPreference
-        android:key="udfps_pressed_color"
+    <Preference
+        android:key="udfps_pressedicon_picker"
         android:title="@string/udfps_pressed_color_title"
-        android:defaultValue="0xff00ff00" />
+        android:summary="@string/udfps_pressed_color_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsPressedIconPicker" />
 
     <!-- Screen Off UDFPS -->
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
@@ -43,11 +44,4 @@
         android:title="@string/screen_off_udfps_title"
         android:summary="@string/screen_off_udfps_summary"
         android:defaultValue="false" />
-        
-    <Preference
-            android:key="udfps_pressedicon_picker"
-            android:title="@string/udfps_pressed_color_title"
-            android:summary="@string/udfps_pressed_color_summary"
-            android:fragment="com.alpha.settings.fragments.UdfpsPressedIconPicker" />
-
 </PreferenceScreen>
