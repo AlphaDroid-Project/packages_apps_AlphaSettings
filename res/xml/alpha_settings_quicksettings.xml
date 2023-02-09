@@ -21,7 +21,7 @@
     android:title="@string/quicksettings_title">
 
     <PreferenceCategory
-         android:title="@string/qs_misc_category">
+         android:title="@string/preference_category_clock">
 
         <!-- QS clock -->
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -49,6 +49,11 @@
             android:title="@string/qs_date_title"
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/preference_category_battery">
 
         <!-- Battery styles -->
         <com.alpha.settings.preferences.SystemSettingListPreference
@@ -84,6 +89,11 @@
             android:title="@string/battery_estimate_title"
             android:summary="@string/battery_estimate_summary" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/preference_category_brightness">
+
         <!-- Brightness slider -->
         <lineageos.preference.LineageSecureSettingListPreference
             android:key="qs_show_brightness_slider"
@@ -107,12 +117,10 @@
             android:title="@string/qs_show_auto_brightness_title"
             android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
+    </PreferenceCategory>
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="secure_lockscreen_qs_disabled"
-            android:icon="@drawable/ic_lock_alert"
-            android:title="@string/disable_qs_title"
-            android:summary="@string/disable_qs_summary"/>
+    <PreferenceCategory
+         android:title="@string/preference_category_style">
 
         <!-- QS styles -->
         <com.alpha.settings.preferences.SystemSettingListPreference
@@ -274,6 +282,17 @@
             android:icon="@drawable/ic_settings_main"
             android:title="@string/qs_footer_settings_icon_title"
             android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/qs_misc_category">
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:icon="@drawable/ic_lock_alert"
+            android:title="@string/disable_qs_title"
+            android:summary="@string/disable_qs_summary"/>
 
     </PreferenceCategory>
 </PreferenceScreen>
