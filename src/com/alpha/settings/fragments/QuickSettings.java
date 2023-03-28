@@ -72,7 +72,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
     private static final String KEY_PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String KEY_PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
-    private static final String KEY_PREF_BATTERY_ESTIMATE = "qs_show_battery_estimate";
     private static final String KEY_QS_PANEL_STYLE  = "qs_panel_style";
     private static final String QS_PAGE_TRANSITIONS = "custom_transitions_page_tile";
 
@@ -86,7 +85,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private ListPreference mTileAnimationStyle;
     private CustomSeekBarPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
-    private SwitchPreference mBatteryEstimate;
     private SystemSettingListPreference mPageTransitions;
 
     @Override
@@ -94,7 +92,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.alpha_settings_quicksettings);
-        
+
         final Context mContext = getActivity().getApplicationContext();
         final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -104,7 +102,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mQsStyle = (SystemSettingListPreference) findPreference(KEY_QS_PANEL_STYLE);
         mCustomSettingsObserver.observe();
-        
+
         mPageTransitions = (SystemSettingListPreference) findPreference(QS_PAGE_TRANSITIONS);
         mPageTransitions.setOnPreferenceChangeListener(this);
         int customTransitions = Settings.System.getIntForUser(resolver,
@@ -139,12 +137,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         int tileAnimationStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         updateAnimTileStyle(tileAnimationStyle);
-
-        boolean turboInstalled = Utils.isPackageInstalled(getContext(),
-                "com.google.android.apps.turbo");
-        mBatteryEstimate = findPreference(KEY_PREF_BATTERY_ESTIMATE);
-        if (!turboInstalled)
-            prefScreen.removePreference(mBatteryEstimate);
     }
 
     private CustomSettingsObserver mCustomSettingsObserver = new CustomSettingsObserver(mHandler);
@@ -200,18 +192,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
-                Settings.System.SHOW_QS_CLOCK, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.SHOW_QS_DATE, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_BATTERY_STYLE, -1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_BATTERY_LOCATION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_SHOW_BATTERY_PERCENT, 2, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_SHOW_BATTERY_ESTIMATE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.SECURE_LOCKSCREEN_QS_DISABLED, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TRANSPARENCY, 100, UserHandle.USER_CURRENT);
@@ -233,8 +213,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_LABEL_SIZE, 14, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_HEADER_CLOCK_SIZE, 14, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
@@ -275,7 +253,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else if (qsPanelStyle == 9) {
             setQsStyle(mOverlayService, "com.android.system.qs.thin");
         }
-    }       
+    }
 
     public static void setDefaultStyle(IOverlayManager overlayManager) {
         for (int i = 0; i < QS_STYLES.length; i++) {
@@ -324,19 +302,5 @@ public class QuickSettings extends SettingsPreferenceFragment implements
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.alpha_settings_quicksettings) {
-
-                @Override
-                public List<String> getNonIndexableKeys(Context context) {
-                    List<String> keys = super.getNonIndexableKeys(context);
-
-                    boolean turboInstalled = Utils.isPackageInstalled(context,
-                            "com.google.android.apps.turbo");
-
-                    if (!turboInstalled)
-                        keys.add(KEY_PREF_BATTERY_ESTIMATE);
-
-                    return keys;
-                }
-            };
+            new BaseSearchIndexProvider(R.xml.alpha_settings_quicksettings);
 }
