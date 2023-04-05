@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Configuració de crDroid</string>
+    <string name="crdroid_settings_title">Configuració de AlphaDroid</string>
     <string name="crdroid_settings_summary">Obrir Goodness</string>
     <string name="reset_settings_title">Restableix la configuració</string>
-    <string name="reset_settings_message">La major part de la configuració de Alpha de l\'usuari actual es restablirà als valors per defecte. Voleu continuar?</string>
+    <string name="reset_settings_message">La major part de la configuració de AlphaDroid de l\'usuari actual es restablirà als valors per defecte. Voleu continuar?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Botons</string>
     <string name="lockscreen_title">Pantalla de bloqueig</string>
@@ -30,7 +30,7 @@
     <string name="sound_title">So</string>
     <string name="statusbar_title">Barra d\'estat</string>
     <string name="display_title">Pantalla</string>
-    <string name="ui_title">Interifície d\'usuari</string>
+    <string name="ui_title">Interfície d\'usuari</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selector de colors</string>
     <string name="press_color_to_apply">Premeu al color per aplicar</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Escull l\'aplicació</string>
     <string name="enable">Activa</string>
     <string name="disable">Desactiva</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">Color personalitzat</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Registre de canvis actual</string>
     <string name="changelog_crdroid_summary">Mostra els canvis de la ROM instal·lada</string>
     <string name="changelog_crdroid_error">No s\'ha pogut carregar el registre de canvis</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Sobre crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">Sobre AlphaDroid</string>
     <string name="about_device_name">Dispositiu</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Comparteix crDroid</string>
-    <string name="share_crdroid_summary">Feu saber a altres usuaris sobre crDroid</string>
-    <string name="share_message">Consulteu si #crDroidAndroid està disponible per al vostre dispositiu @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Comparteix crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">Comparteix AlphaDroid</string>
+    <string name="share_crdroid_summary">Feu saber a altres usuaris sobre AlphaDroid</string>
+    <string name="share_message">Consulteu si #AlphaDroidAndroid està disponible per al vostre dispositiu @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Comparteix AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Ens encanta el programari lliure, fes-nos una ullada</string>
-    <string name="crdroid_telegram_title">Comunitat crDroid</string>
+    <string name="crdroid_telegram_title">Comunitat AlphaDroid</string>
     <string name="crdroid_telegram_summary">Estem a Telegram. Uneix-te!</string>
     <string name="crdroid_telegram_channel_title">Canal d\'actualitzacions</string>
     <string name="crdroid_telegram_channel_summary">Rep notificacions de noves versions a Telegram</string>
@@ -76,13 +80,13 @@
     <string name="crdroid_translate_title">Traduccions</string>
     <string name="crdroid_translate_summary">Ajuda amb la traducció de la ROM a la vostra llengua!</string>
     <string name="crdroid_sponsor_summary">Visita la web del nostre col·laborador</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Dóna’ns suport</string>
     <string name="donate_crdroid_summary">Fes un donatiu per a ajudar al desenvolupament futur</string>
-    <string name="donate_team_title">Equip crDroid</string>
+    <string name="donate_team_title">Equip AlphaDroid</string>
     <string name="donate_team_summary">Fes una donació per a sostenir el hosting del servidor, el lloc web i la gestió general</string>
     <!-- The Drill -->
-    <string name="drill_title">The drill</string>
+    <string name="drill_title">Ja saps el que has de fer</string>
     <string name="drill_summary">Algun bug? Tens algun problema?</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Actualitzacions</string>
@@ -231,13 +235,17 @@
     <string name="monet_title">Configuració de Monet</string>
     <string name="monet_summary">Configurar motor de temes Monet</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Usa un color personalitzat</string>
-    <string name="monet_engine_custom_color_summary">Usar un color personalitzat per al motor Monet en comptes de colors de fons de pantalla</string>
+    <string name="monet_engine_custom_color_title">Color d\'èmfasi</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
+    <string name="monet_engine_custom_bgcolor_title">Background color</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">Color personalitzat</string>
-    <string name="monet_engine_white_luminance_user_title">Lluminositat blanca</string>
-    <string name="monet_engine_accurate_shades_title">Usar ombres precises</string>
+    <string name="monet_engine_luminance_factor_title">Luminance</string>
+    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="monet_engine_chroma_factor_title">Factor cromátic</string>
-    <string name="monet_engine_linear_lightness_title">Usar lluminositat lineal</string>
+    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="monet_engine_tint_background_title">Tint background</string>
+    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueig ràpid</string>
     <string name="unlock_quick_unlock_control_summary">Desbloqueja automàticament quan s\'introdueixi el PIN/contrasenya correcta</string>
@@ -260,15 +268,15 @@
     <string name="doze_vibrate">Vibrar</string>
     <string name="doze_vibrate_summary">Duració de la vibració amb notificacions polsants</string>
     <string name="sensor_warning_message">La configuració basada en sensors està subjecta a la compatibilitat del dispositiu. L\'activació dels sensors per a la visualització ambiental pot augmentar el consum d\'energia.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Il·luminació de vores</string>
-    <string name="pulse_ambient_light_summary">Il·lumina les vores laterals de la pantalla a la notificació pulsant</string>
-    <string name="pulse_ambient_light_color_title">Color de la llum de vores</string>
-    <string name="pulse_ambient_light_duration_title">Duració de la llum de vores</string>
-    <string name="pulse_ambient_light_duration_summary">Estableix la durada de l\'animació de la llum ambiental</string>
-    <string name="pulse_ambient_light_layout_title">Vista de il·luminació de vores</string>
-    <string name="pulse_ambient_light_layout_solid">Sòlid</string>
-    <string name="pulse_ambient_light_layout_faded">Esvair</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Ticker de música</string>
     <string name="pulse_on_new_tracks_summary">Mostra el ticker de música a la pantalla ambient durant el canvi de pista</string>
@@ -549,8 +557,8 @@
     <string name="qs_footer_show_power_menu_title">Drecera del menú d\'apagat</string>
     <string name="qs_footer_services_icon_title">Drecera dels serveis en execució</string>
     <string name="qs_footer_settings_icon_title">Drecera a la configuració</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Informació legal de crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">Informació legal de AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Barra de brillantor</string>
     <string name="qs_show_brightness_slider_never">No mostrar mai</string>
@@ -744,6 +752,8 @@
     <string name="bluetooth_timeout_summary">No apaguis automàticament el Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">El Bluetooth s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap dispositiu connectat</string>
     <string name="custom_timeout_summary_never">Mai</string>
+    <string name="custom_timeout_summary_5secs">5 segons</string>
+    <string name="custom_timeout_summary_10secs">10 segons</string>
     <string name="custom_timeout_summary_15secs">15 segons</string>
     <string name="custom_timeout_summary_30secs">30 segons</string>
     <string name="custom_timeout_summary_1min">1 minut</string>
@@ -788,9 +798,9 @@
     <string name="short_label">Breu</string>
     <string name="long_label">Llarga</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Gruix de la barra de navegació</string>
+    <string name="thin_label">Prim</string>
+    <string name="thick_label">Gruixut</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Complet</string>
     <string name="back_height_high_label">Part inferior</string>
@@ -951,6 +961,39 @@
     <string name="status_bar_logo_summary">Mostra un logotip personalitzat a la part dreta o esquerra de la barra d\'estat</string>
     <string name="status_bar_logo_position_title">Posició del logotip</string>
     <string name="status_bar_logo_style_title">Estil del logotip</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alienígena</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Venjadors</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman: El cavaller fosc</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cànnabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticona guai</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticona dimoni</string>
+    <string name="status_bar_logo_style_fire">Foc</string>
+    <string name="status_bar_logo_style_heart">Cor</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-Man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Fantasma</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Capità Amèrica</string>
+    <string name="status_bar_logo_style_flash">Flaix</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Instal·lat: %1$s</string>
     <string name="app_info_update_time">Actualitzat: %1$s</string>
@@ -1009,6 +1052,30 @@
     <string name="lockscreen_shortcut_flashlight">Llanterna</string>
     <string name="lockscreen_shortcut_qr">Escàner de codis QR</string>
     <string name="lockscreen_shortcut_camera">Càmera</string>
-    <string name="lockscreen_shortcut_remote">Google TV Remote</string>
+    <string name="lockscreen_shortcut_remote">Comandament de Google TV</string>
     <string name="lockscreen_shortcut_none">Cap</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Bloqueig d\'aplicacions</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicació protegida</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicacions protegides</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Desbloqueja</string>
+    <string name="enable_debugging">Activa la depuració</string>
+    <string name="disable_debugging">Desactiva la depuració</string>
+    <string name="app_lock_packages_title">Aplicacions protegides</string>
+    <string name="app_lock_packages_summary">Seleccioneu les aplicacions que es protegiran amb dades biomètriques o credencials del dispositiu</string>
+    <string name="app_lock_timeout_title">Temps d\'espera del bloqueig automàtic</string>
+    <string name="app_lock_timeout_summary">Durada del temps després del qual una aplicació desbloquejada en segon pla és bloquejada</string>
+    <string name="app_lock_notifications_title">Contraure notificacions</string>
+    <string name="app_lock_notifications_summary">El contingut de les notificacions s\'amagarà i es replegarà per a les aplicacions seleccionades si estan bloquejades. Les notificacions emergents es desactivaran automàticament.</string>
+    <string name="app_lock_notifications_disabled_summary">Protegiu primer una aplicació</string>
+    <string name="app_lock_biometrics_allowed_title">Activa la biometria per al desbloqueig</string>
+    <string name="app_lock_footer_text">Les bombolles es descartaran automàticament després del temps d\'espera</string>
+    <string name="enable_protection">Activa la protecció</string>
+    <string name="hide_from_launcher_title">Amaga al llançador</string>
+    <string name="hide_from_launcher_summary">Evita que aquesta aplicació es mostri al llançador. Requereix reiniciar el llançador perquè els canvis tinguin efecte.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>

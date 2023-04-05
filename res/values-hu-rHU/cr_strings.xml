@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">A crDroid beállításai</string>
+    <string name="crdroid_settings_title">A AlphaDroid beállításai</string>
     <string name="crdroid_settings_summary">Klassz dolgok lelőhelye</string>
     <string name="reset_settings_title">Beállítások visszaállítása</string>
-    <string name="reset_settings_message">Ez a legtöbb Alpha-beállításértéket visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
+    <string name="reset_settings_message">Ez a legtöbb AlphaDroid-beállításértéket visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Gombok</string>
     <string name="lockscreen_title">Záróképernyő</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Alkalmazásválasztás</string>
     <string name="enable">Engedélyezés</string>
     <string name="disable">Letiltás</string>
+    <string name="accent_color">Kiemelőszín (alapértelmezett)</string>
+    <string name="notification_color">Értesítési szín</string>
+    <string name="wallpaper_color">Háttérkép-szín</string>
+    <string name="custom_color">Egyéni szín</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Aktuális változáslista</string>
     <string name="changelog_crdroid_summary">Nézze meg a telepített ROM-ban végrehajtott változtatásokat</string>
     <string name="changelog_crdroid_error">Nem lehet betölteni a változáslistát</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">A crDroidról</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">A AlphaDroidról</string>
     <string name="about_device_name">Készülék</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">A crDroid ajánlása</string>
-    <string name="share_crdroid_summary">Tudassa másokkal a crDroid létezését</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">A AlphaDroid ajánlása</string>
+    <string name="share_crdroid_summary">Tudassa másokkal a AlphaDroid létezését</string>
     <string name="share_message">Nézze meg, hogy a #crDroid Android elkészült-e az Ön készülékéhez: @ https://crdroid.net/</string>
-    <string name="share_chooser_title">A crDroid ajánlása</string>
-    <!-- Sites crDroid -->
+    <string name="share_chooser_title">A AlphaDroid ajánlása</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Kedveljük a nyílt forráskódot, nézzen meg minket</string>
-    <string name="crdroid_telegram_title">crDroid közösség</string>
+    <string name="crdroid_telegram_title">AlphaDroid közösség</string>
     <string name="crdroid_telegram_summary">Jelen vagyunk a Telegramon. Csatlakozzon hozzánk!</string>
     <string name="crdroid_telegram_channel_title">Frissítési csatorna</string>
     <string name="crdroid_telegram_channel_summary">Küldjön értesítést, ha új kiadás érhető el a Telegramon</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">Fordítások</string>
     <string name="crdroid_translate_summary">Segítség a ROM lokalizálásában az Ön nyelvén!</string>
     <string name="crdroid_sponsor_summary">Látogasson el honlapunk host-partneréhez</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Támogasson bennünket</string>
     <string name="donate_crdroid_summary">Adomány a további fejlesztés támogatására</string>
-    <string name="donate_team_title">A crDroid csapata</string>
+    <string name="donate_team_title">A AlphaDroid csapata</string>
     <string name="donate_team_summary">Adományozzon, hogy támogassa a szerverbérlést, a weboldal-fenntarást és menedzselést</string>
     <!-- The Drill -->
     <string name="drill_title">The Drill (a fejlesztők)</string>
@@ -231,13 +235,17 @@
     <string name="monet_title">Monet-beállítások</string>
     <string name="monet_summary">A Monet-témamotor testreszabása</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Egyéni szín használata</string>
-    <string name="monet_engine_custom_color_summary">Ne a háttérkép alapján legyen a szín kiválasztva, használjon egyéni színeket</string>
+    <string name="monet_engine_custom_color_title">Kiemelőszín</string>
+    <string name="monet_engine_custom_color_summary">Válassza ki a kiemelés egyéni színét</string>
+    <string name="monet_engine_custom_bgcolor_title">Háttérszín</string>
+    <string name="monet_engine_custom_bgcolor_summary">Válassza ki a háttér egyéni színét</string>
     <string name="monet_engine_color_override_title">Egyéni szín</string>
-    <string name="monet_engine_white_luminance_user_title">Fehéregyensúly</string>
-    <string name="monet_engine_accurate_shades_title">Pontos árnyékolás használata</string>
+    <string name="monet_engine_luminance_factor_title">Fényerősség</string>
+    <string name="monet_engine_luminance_factor_summary">A magasabb értékek élénkebb színeket eredményeznek</string>
     <string name="monet_engine_chroma_factor_title">Chorma-faktor</string>
-    <string name="monet_engine_linear_lightness_title">Lineáris fényhasználat</string>
+    <string name="monet_engine_chroma_factor_summary">A magasabb értékek erősebb színeket eredményeznek</string>
+    <string name="monet_engine_tint_background_title">Háttérkitöltés</string>
+    <string name="monet_engine_tint_background_summary">A \'Fényerősség\' és a \'Színesség\' kiválasztása a háttérszíneket is befolyásolja</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
     <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadásakor</string>
@@ -260,15 +268,15 @@
     <string name="doze_vibrate">Rezgés</string>
     <string name="doze_vibrate_summary">Felvillanó értesítések közbeni rezgés időtartama</string>
     <string name="sensor_warning_message">Az érzékelőkön alapuló beállítások hardverkompatibilitás függők. A környezeti kijelző érzékelőinek engedélyezése növelheti a fogyasztást.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Szélek megvilágítása</string>
-    <string name="pulse_ambient_light_summary">A képernyő oldalsó széleit világítsa meg az értesítés villogó jelzése</string>
-    <string name="pulse_ambient_light_color_title">A szélek megvilágításának színe</string>
-    <string name="pulse_ambient_light_duration_title">Az oldalfények időtartama</string>
-    <string name="pulse_ambient_light_duration_summary">Az oldalsó fényanimáció hosszának beállítása</string>
-    <string name="pulse_ambient_light_layout_title">Megvilágított szélek</string>
-    <string name="pulse_ambient_light_layout_solid">Kitöltött</string>
-    <string name="pulse_ambient_light_layout_faded">Halványuló</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Oldalfény</string>
+    <string name="edge_light_summary">A képernyő oldalsó széleit világítsa meg az értesítés villogó jelzése</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Oldalfény-kapcsoló</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Itt dönthető el, hogy a környezeti kijelző megjelenésekor is megjelenjen az oldalfény, vagy csak az értesítéskor</string>
+    <string name="edge_light_repeat_animation_title">Animációismétlés</string>
+    <string name="edge_light_repeat_animation_summary_on">Ismétlődés egy időhatárig</string>
+    <string name="edge_light_repeat_animation_summary_off">Csak egyszer jelenjen meg</string>
+    <string name="edge_light_color_mode_title">Az oldalszín jellege</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Zene-jelzőszalag</string>
     <string name="pulse_on_new_tracks_summary">Zene-jelzőszalag megjelenítése a Környezeti kijelzőn számváltás közben</string>
@@ -549,8 +557,8 @@
     <string name="qs_footer_show_power_menu_title">Kikapcsolómenű-parancsikon</string>
     <string name="qs_footer_services_icon_title">\'Futó szolgáltatások\'-parancsikon</string>
     <string name="qs_footer_settings_icon_title">Beállítások-parancsikon</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid jogok</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroid jogok</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Fényerőszabályzó-csúszka</string>
     <string name="qs_show_brightness_slider_never">Sose jelenítse meg</string>
@@ -744,6 +752,8 @@
     <string name="bluetooth_timeout_summary">Ne kapcsolódjon ki automatikusan a Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Ha nincs csatlakoztatott eszköz, a Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> elteltével kapcsol ki</string>
     <string name="custom_timeout_summary_never">Soha</string>
+    <string name="custom_timeout_summary_5secs">5 másodperc</string>
+    <string name="custom_timeout_summary_10secs">10 másodperc</string>
     <string name="custom_timeout_summary_15secs">15 másodperc</string>
     <string name="custom_timeout_summary_30secs">30 másodperc</string>
     <string name="custom_timeout_summary_1min">1 perc</string>
@@ -951,6 +961,39 @@
     <string name="status_bar_logo_summary">Egyéni logo megjelenítése az állapotsor jobb vagy bal oldalán</string>
     <string name="status_bar_logo_position_title">A logó pozíciója</string>
     <string name="status_bar_logo_style_title">Logóstílus</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Földönkívüli</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Bosszúállók</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman a Sötét Lovag</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biológiai veszély</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Kannabisz</string>
+    <string name="status_bar_logo_style_emoticon_cool">Menő</string>
+    <string name="status_bar_logo_style_emoticon_devil">Ördög</string>
+    <string name="status_bar_logo_style_fire">Tűz</string>
+    <string name="status_bar_logo_style_heart">Szív</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-Man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Pókember</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Szellem</string>
+    <string name="status_bar_logo_style_ninja">Nindzsa</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Amerika Kapitány</string>
+    <string name="status_bar_logo_style_flash">Villám</string>
+    <string name="status_bar_logo_style_tux">TUX</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">%1$s -kor telepítve</string>
     <string name="app_info_update_time">%1$s -kor frissítve</string>
@@ -1011,4 +1054,30 @@
     <string name="lockscreen_shortcut_camera">Kamera</string>
     <string name="lockscreen_shortcut_remote">Googl TV távirányító</string>
     <string name="lockscreen_shortcut_none">Nincs</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Alkalmazás-zár</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Feloldás</string>
+    <string name="enable_debugging">Hibakeresés engedélyezése</string>
+    <string name="disable_debugging">Hibakeresés letiltása</string>
+    <string name="app_lock_packages_title">Zárolt alkalmazások</string>
+    <string name="app_lock_packages_summary">Kijelölheti a biometrikus- vagy készülékhitelesítő-adatokkal védeni kívánt alkalmazásokat</string>
+    <string name="app_lock_timeout_title">Az automatikus lezárás időkorlátja</string>
+    <string name="app_lock_timeout_summary">Az az időtartam, amely után a feloldott alkalmazás a háttérben visszazár</string>
+    <string name="app_lock_notifications_title">Összezárt értesítések</string>
+    <string name="app_lock_notifications_summary">A kiválasztott zárolt alkalmazások értesítései elrejtődnek és összecsukódnak. A lebegő értesítések automatikusan letiltódnak.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Előbb állítson be legalább egy zárolt alkalmazást</string>
+    <string name="app_lock_biometrics_allowed_title">Biometria-bekapcsolás a feloldáshoz</string>
+    <string name="app_lock_footer_text">A buborékok az időhatár letelte után automatikusan eltűnnek</string>
+    <string name="enable_protection">Védelem-engedélyezés</string>
+    <string name="hide_from_launcher_title">Elrejtés a Launcherből</string>
+    <string name="hide_from_launcher_summary">Megakadályozza hogy egy alkalmazás látszódjon a launcheren. A funkcióhoz újra kell indítani a launchert.
+    </string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Állandóan látszódik töltés közben</string>
+    <string name="doze_on_charge_summary">Megjelenítés készüléktöltéskor</string>
 </resources>

@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid 設定</string>
+    <string name="crdroid_settings_title">AlphaDroid 設定</string>
     <string name="crdroid_settings_summary">各項設定，一次滿足</string>
     <string name="reset_settings_title">恢復默認設置</string>
-    <string name="reset_settings_message">這會將大多數 Alpha 設定重設為目前使用者的預設值。您要繼續嗎？</string>
+    <string name="reset_settings_message">這會將大多數 AlphaDroid 設定重設為目前使用者的預設值。您要繼續嗎？</string>
     <!-- Personalization Categories -->
     <string name="button_title">按鍵</string>
     <string name="lockscreen_title">鎖定螢幕</string>
@@ -32,7 +32,7 @@
     <string name="display_title">顯示</string>
     <string name="ui_title">介面</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">颜色选取器</string>
+    <string name="dialog_color_picker">顏色選取器</string>
     <string name="press_color_to_apply">輕觸下方顏色以套用</string>
     <string name="hex">16進制色碼：</string>
     <string name="hex_hint">#ff000000</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">選擇應用程式</string>
     <string name="enable">啟用</string>
     <string name="disable">停用</string>
+    <string name="accent_color">強調色（預設）</string>
+    <string name="notification_color">通知顏色</string>
+    <string name="wallpaper_color">桌布顏色</string>
+    <string name="custom_color">自訂顏色</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">更新紀錄</string>
     <string name="changelog_crdroid_summary">查看此 ROM 的更新紀錄</string>
     <string name="changelog_crdroid_error">無法載入更新日誌</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">關於 crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">關於 AlphaDroid</string>
     <string name="about_device_name">裝置</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">分享 crDroid</string>
-    <string name="share_crdroid_summary">讓別人知道 crDroid</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">分享 AlphaDroid</string>
+    <string name="share_crdroid_summary">讓別人知道 AlphaDroid</string>
     <string name="share_message">在 https://crdroid.net/ 看看 #crDroid Android</string>
-    <string name="share_chooser_title">分享 crDroid</string>
-    <!-- Sites crDroid -->
+    <string name="share_chooser_title">分享 AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">我們愛開源，來看看吧</string>
-    <string name="crdroid_telegram_title">crDroid 社群</string>
+    <string name="crdroid_telegram_title">AlphaDroid 社群</string>
     <string name="crdroid_telegram_summary">我們也在 Telegram 上，快加入我們！</string>
     <string name="crdroid_telegram_channel_title">更新通道</string>
     <string name="crdroid_telegram_channel_summary">在 Telegram 上獲取新版本通知</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">翻譯</string>
     <string name="crdroid_translate_summary">幫忙將 ROM 翻譯成您的語言！</string>
     <string name="crdroid_sponsor_summary">造訪我們的網頁寄存服務提供者</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">贊助我們</string>
     <string name="donate_crdroid_summary">捐贈以支持開放原始碼開發。</string>
-    <string name="donate_team_title">crDroid 團隊</string>
+    <string name="donate_team_title">AlphaDroid 團隊</string>
     <string name="donate_team_summary">贊助以支援我們的伺服器代管，網站運作與總體管理</string>
     <!-- The Drill -->
     <string name="drill_title">測試</string>
@@ -230,13 +234,17 @@
     <string name="monet_title">Monet 設定</string>
     <string name="monet_summary">自定義 Monet 主題引擎</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">使用自訂顏色</string>
-    <string name="monet_engine_custom_color_summary">使用自訂色彩而非桌布取色</string>
+    <string name="monet_engine_custom_color_title">主題顏色</string>
+    <string name="monet_engine_custom_color_summary">自訂強調色</string>
+    <string name="monet_engine_custom_bgcolor_title">背景顏色</string>
+    <string name="monet_engine_custom_bgcolor_summary">自訂背景顏色</string>
     <string name="monet_engine_color_override_title">自訂顏色</string>
-    <string name="monet_engine_white_luminance_user_title">白亮度</string>
-    <string name="monet_engine_accurate_shades_title">精準色彩</string>
+    <string name="monet_engine_luminance_factor_title">亮度</string>
+    <string name="monet_engine_luminance_factor_summary">較高的亮度會使色彩看起來較亮</string>
     <string name="monet_engine_chroma_factor_title">色彩濃度</string>
-    <string name="monet_engine_linear_lightness_title">使用線性亮度</string>
+    <string name="monet_engine_chroma_factor_summary">較高的彩度會使色彩看起來更鮮明</string>
+    <string name="monet_engine_tint_background_title">背景著色</string>
+    <string name="monet_engine_tint_background_summary">使背景色彩也套用自訂的亮度及彩度</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解除鎖定</string>
     <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼／密碼時自動解鎖</string>
@@ -259,15 +267,15 @@
     <string name="doze_vibrate">振動</string>
     <string name="doze_vibrate_summary">通知時震動的持續時間</string>
     <string name="sensor_warning_message">有關感測器的設定可能會受到硬體相容性的限制。為「環境顯示」啟用感測器可能會增加功耗。</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">側光</string>
-    <string name="pulse_ambient_light_summary">顯示通知時使螢幕側邊閃爍</string>
-    <string name="pulse_ambient_light_color_title">邊光顏色</string>
-    <string name="pulse_ambient_light_duration_title">側光持續時間</string>
-    <string name="pulse_ambient_light_duration_summary">設定環境光動畫的持續時間</string>
-    <string name="pulse_ambient_light_layout_title">側邊閃爍畫面</string>
-    <string name="pulse_ambient_light_layout_solid">純色</string>
-    <string name="pulse_ambient_light_layout_faded">漸淡</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">側光</string>
+    <string name="edge_light_summary">通知閃爍時也使螢幕側邊閃爍</string>
+    <string name="edge_light_always_trigger_on_pulse_title">一律觸發</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">在使用環境顯示時一律顯示側光</string>
+    <string name="edge_light_repeat_animation_title">閃爍動畫</string>
+    <string name="edge_light_repeat_animation_summary_on">重複閃爍直到逾時</string>
+    <string name="edge_light_repeat_animation_summary_off">緩慢的閃爍一次</string>
+    <string name="edge_light_color_mode_title">側光顏色</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">音樂提示訊息</string>
     <string name="pulse_on_new_tracks_summary">切換曲目時在AOD上顯示</string>
@@ -548,8 +556,8 @@
     <string name="qs_footer_show_power_menu_title">電源選單圖示</string>
     <string name="qs_footer_services_icon_title">正在運作中的服務圖示</string>
     <string name="qs_footer_settings_icon_title">設定圖示</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid 條款</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroid 條款</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">亮度控制條</string>
     <string name="qs_show_brightness_slider_never">永不顯示</string>
@@ -598,7 +606,7 @@
     <string name="battery_light_enable_title">啟用電池指示燈</string>
     <string name="battery_light_summary">根據電量和電池狀態設定 LED 燈顏色</string>
     <string name="battery_low_pulse_title">電量不足時閃爍呼吸燈</string>
-    <string name="battery_light_full_charge_disabled_title">充完電后關閉呼吸燈</string>
+    <string name="battery_light_full_charge_disabled_title">充完電後關閉呼吸燈</string>
     <string name="battery_light_list_title">顏色</string>
     <string name="battery_light_low_color_title">低電量</string>
     <string name="battery_light_medium_color_title">充電中</string>
@@ -743,6 +751,8 @@
     <string name="bluetooth_timeout_summary">不要自動關閉藍牙</string>
     <string name="bluetooth_timeout_summary_auto">如果沒有連接任何裝置，則在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉藍牙</string>
     <string name="custom_timeout_summary_never">永不</string>
+    <string name="custom_timeout_summary_5secs">5 秒</string>
+    <string name="custom_timeout_summary_10secs">10 秒</string>
     <string name="custom_timeout_summary_15secs">15 秒</string>
     <string name="custom_timeout_summary_30secs">30 秒</string>
     <string name="custom_timeout_summary_1min">1 分鐘</string>
@@ -949,6 +959,39 @@
     <string name="status_bar_logo_summary">在狀態列左側顯示自訂圖示</string>
     <string name="status_bar_logo_position_title">圖示位置</string>
     <string name="status_bar_logo_style_title">圖示樣式</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">愛迪達</string>
+    <string name="status_bar_logo_style_alien">外星人</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">復仇者聯盟</string>
+    <string name="status_bar_logo_style_batman">蝙蝠俠</string>
+    <string name="status_bar_logo_style_batman_tdk">蝙蝠俠</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">生化危害</string>
+    <string name="status_bar_logo_style_blackberry">黑莓</string>
+    <string name="status_bar_logo_style_cannabis">大麻</string>
+    <string name="status_bar_logo_style_emoticon_cool">耍酷表情</string>
+    <string name="status_bar_logo_style_emoticon_devil">惡魔表情</string>
+    <string name="status_bar_logo_style_fire">火焰</string>
+    <string name="status_bar_logo_style_heart">愛心</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">小精靈</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">蜘蛛人</string>
+    <string name="status_bar_logo_style_superman">超人</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">幽靈</string>
+    <string name="status_bar_logo_style_ninja">忍者</string>
+    <string name="status_bar_logo_style_robot">機器人</string>
+    <string name="status_bar_logo_style_ironman">鋼鐵人</string>
+    <string name="status_bar_logo_style_captain_america">美國隊長</string>
+    <string name="status_bar_logo_style_flash">閃電</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">已安裝: %1$s</string>
     <string name="app_info_update_time">更新於：%1$s</string>
@@ -1009,4 +1052,27 @@
     <string name="lockscreen_shortcut_camera">相機</string>
     <string name="lockscreen_shortcut_remote">遙控 Google TV</string>
     <string name="lockscreen_shortcut_none">無</string>
+    <!-- App lock -->
+    <string name="app_lock_title">應用鎖</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 個應用程式已受到保護</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">解鎖</string>
+    <string name="enable_debugging">啟用偵錯功能</string>
+    <string name="disable_debugging">停用偵錯功能</string>
+    <string name="app_lock_packages_title">受保護的應用程式</string>
+    <string name="app_lock_packages_summary">選擇要上鎖的應用程式</string>
+    <string name="app_lock_timeout_title">逾時自動鎖定</string>
+    <string name="app_lock_timeout_summary">設定自動鎖定的時長</string>
+    <string name="app_lock_notifications_title">隱藏通知</string>
+    <string name="app_lock_notifications_summary">受保護的應用程式通知將會被隱藏，且不會在畫面上彈出通知</string>
+    <string name="app_lock_notifications_disabled_summary">請先選擇一個應用程式</string>
+    <string name="app_lock_biometrics_allowed_title">使用生物特徵辨識解鎖</string>
+    <string name="app_lock_footer_text">通知氣泡在鎖定後會自動消失</string>
+    <string name="enable_protection">啟用保護</string>
+    <string name="hide_from_launcher_title">從主畫面上隱藏所選應用程式</string>
+    <string name="hide_from_launcher_summary">防止受保護的應用程式在任何主畫面應用程式上出現，需要重新啟動主畫面來套用設定</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時一律顯示</string>
+    <string name="doze_on_charge_summary">在裝置充電時顯示</string>
 </resources>

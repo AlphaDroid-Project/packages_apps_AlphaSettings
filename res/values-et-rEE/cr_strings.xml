@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroidi seaded</string>
+    <string name="crdroid_settings_title">AlphaDroidi seaded</string>
     <string name="crdroid_settings_summary">Ava hea kraam</string>
     <string name="reset_settings_title">Lähtesta seaded</string>
     <string name="reset_settings_message">See lähtestab valitud kasutaja jaoks enamus CrDroidi seaded vaikeväärtustele. Kas soovid jätkata?</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Vali rakendus</string>
     <string name="enable">Luba</string>
     <string name="disable">Keela</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">Kohandatud värv</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Praegune muudatuste logi</string>
     <string name="changelog_crdroid_summary">Vaata paigaldatud ROMi muudatusi</string>
     <string name="changelog_crdroid_error">Muudatuste logi ei saanud laadida</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Info crDroidi kohta</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">Info AlphaDroidi kohta</string>
     <string name="about_device_name">Seade</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Jaga crDroidi</string>
-    <string name="share_crdroid_summary">Anna teistele teada crDroidist</string>
-    <string name="share_message">Uuri kas #crDroidAndroid on saadaval sinu seadmele https://crdroid.net/</string>
-    <string name="share_chooser_title">Jaga crDroidi</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">Jaga AlphaDroidi</string>
+    <string name="share_crdroid_summary">Anna teistele teada AlphaDroidist</string>
+    <string name="share_message">Uuri kas #AlphaDroidAndroid on saadaval sinu seadmele https://crdroid.net/</string>
+    <string name="share_chooser_title">Jaga AlphaDroidi</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Me armastame avatud tarkvara, tutvu meiega</string>
-    <string name="crdroid_telegram_title">crDroid kogukond</string>
+    <string name="crdroid_telegram_title">AlphaDroid kogukond</string>
     <string name="crdroid_telegram_summary">Liitu meie Telegrami kommuuniga!</string>
     <string name="crdroid_telegram_channel_title">Uuendustekanal</string>
     <string name="crdroid_telegram_channel_summary">Saa Telegramis uute versioonide teavitusi</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">Tõlked</string>
     <string name="crdroid_translate_summary">Aita ROM tõlkida oma emakeelde!</string>
     <string name="crdroid_sponsor_summary">Külasta meie veebisaidi hostpartnerit</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Toeta meid</string>
     <string name="donate_crdroid_summary">Anneta edasise arenduse toetamiseks</string>
-    <string name="donate_team_title">crDroidi meeskond</string>
+    <string name="donate_team_title">AlphaDroidi meeskond</string>
     <string name="donate_team_summary">Anneta, et toetada serveri majutust, veebilehe ülalpidamist ning üleüldist haldust</string>
     <!-- The Drill -->
     <string name="drill_title">Nagu ikka</string>
@@ -231,13 +235,17 @@
     <string name="monet_title">Monet\'i seaded</string>
     <string name="monet_summary">Kohanda Monet\' teemamootorit</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Kasuta kohandatud värvi</string>
-    <string name="monet_engine_custom_color_summary">Kasuta Monet\'is taustapildi värvide asemel kohandatud värvi</string>
+    <string name="monet_engine_custom_color_title">Aktsentvärv</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
+    <string name="monet_engine_custom_bgcolor_title">Background color</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">Kohandatud värv</string>
-    <string name="monet_engine_white_luminance_user_title">Valge heledus</string>
-    <string name="monet_engine_accurate_shades_title">Kasuta täpseid toone</string>
+    <string name="monet_engine_luminance_factor_title">Luminance</string>
+    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="monet_engine_chroma_factor_title">Kroomifaktor</string>
-    <string name="monet_engine_linear_lightness_title">Kasuta lineaarset heledust</string>
+    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="monet_engine_tint_background_title">Tint background</string>
+    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Kiiravamine</string>
     <string name="unlock_quick_unlock_control_summary">Ava õige PINi/parooli sisestamisel automaatselt</string>
@@ -260,15 +268,15 @@
     <string name="doze_vibrate">Vibreeri</string>
     <string name="doze_vibrate_summary">Vibreerimise kestus teavituste pulseerimisel</string>
     <string name="sensor_warning_message">Anduritel põhinevad sätted sõltuvad riistvara ühilduvusest. Säästliku ekraani jaoks andurite lubamine võib energiatarbimist suurendada.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Servavalgustus</string>
-    <string name="pulse_ambient_light_summary">Valgusta ekraani servasid teavituse pulseerimisel</string>
-    <string name="pulse_ambient_light_color_title">Servavalguse värv</string>
-    <string name="pulse_ambient_light_duration_title">Servavalguse kestus</string>
-    <string name="pulse_ambient_light_duration_summary">Määrab servavalguse animatsiooni kestuse</string>
-    <string name="pulse_ambient_light_layout_title">Servavalgustuse vaade</string>
-    <string name="pulse_ambient_light_layout_solid">Ühtlane</string>
-    <string name="pulse_ambient_light_layout_faded">Hajuv</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">Valgusta ekraani servasid teavituse saabumisel</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Muusika tiksuja</string>
     <string name="pulse_on_new_tracks_summary">Kuva säästlikul ekraanil muusikatiksujat, kui lugu vahetub</string>
@@ -549,8 +557,8 @@
     <string name="qs_footer_show_power_menu_title">Toitemenüü otsetee</string>
     <string name="qs_footer_services_icon_title">Töötavate teenuste otsetee</string>
     <string name="qs_footer_settings_icon_title">Seadete otsetee</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroidi legaalne</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroidi legaalne</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Heleduse liugur</string>
     <string name="qs_show_brightness_slider_never">Ära kuva kunagi</string>
@@ -744,6 +752,8 @@
     <string name="bluetooth_timeout_summary">Ära lülita Bluetoothi automaatselt välja</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth lülitatakse automaatselt pärast <xliff:g id="timeout_description">%1$s</xliff:g> välja, kui seadmeid pole ühendatud</string>
     <string name="custom_timeout_summary_never">Mitte kunagi</string>
+    <string name="custom_timeout_summary_5secs">5 sekundit</string>
+    <string name="custom_timeout_summary_10secs">10 sekundit</string>
     <string name="custom_timeout_summary_15secs">15 sekundit</string>
     <string name="custom_timeout_summary_30secs">30 sekundit</string>
     <string name="custom_timeout_summary_1min">1 minut</string>
@@ -788,9 +798,9 @@
     <string name="short_label">Lühike</string>
     <string name="long_label">Pikk</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="gesture_navbar_radius_title">Riba raadius</string>
     <string name="thin_label">Õhuke</string>
-    <string name="thick_label">Thick</string>
+    <string name="thick_label">Paks</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Täielik</string>
     <string name="back_height_high_label">Alumine</string>
@@ -951,6 +961,39 @@
     <string name="status_bar_logo_summary">Kuva kohandatud logo olekuribast vasakul või paremal</string>
     <string name="status_bar_logo_position_title">Logo asukoht</string>
     <string name="status_bar_logo_style_title">Logo stiil</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Bioloogiline oht</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Lahe emotikon</string>
+    <string name="status_bar_logo_style_emoticon_devil">Saatan emotikon</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">Süda</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Kummitus</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Välk</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installitud: %1$s</string>
     <string name="app_info_update_time">Uuendatud: %1$s</string>
@@ -1011,4 +1054,28 @@
     <string name="lockscreen_shortcut_camera">Kaamera</string>
     <string name="lockscreen_shortcut_remote">Google TV pult</string>
     <string name="lockscreen_shortcut_none">Puudub</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Lahtilukustamine</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>

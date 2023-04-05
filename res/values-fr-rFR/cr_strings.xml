@@ -16,16 +16,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Paramètres crDroid</string>
-    <string name="crdroid_settings_summary">Les trésors de crDroid</string>
+    <string name="crdroid_settings_title">Paramètres AlphaDroid</string>
+    <string name="crdroid_settings_summary">Les trésors de AlphaDroid</string>
     <string name="reset_settings_title">Réinitialiser les paramètres</string>
-    <string name="reset_settings_message">Cette action réinitialisera la plupart des paramètres Alpha à leurs valeurs par défaut pour l’utilisateur actuel. Souhaitez-vous continuer ?</string>
+    <string name="reset_settings_message">Cette action réinitialisera la plupart des paramètres AlphaDroid à leurs valeurs par défaut pour l’utilisateur actuel. Souhaitez-vous continuer ?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Boutons</string>
     <string name="lockscreen_title">Écran de verrouillage</string>
     <string name="misc_title">Divers</string>
     <string name="navigation_title">Menu principal</string>
-    <string name="notifications_title">Paramètres de la barre d\'état</string>
+    <string name="notifications_title">Notifications</string>
     <string name="quicksettings_title">Réglages rapides</string>
     <string name="sound_title">Son</string>
     <string name="statusbar_title">Barre d\'état</string>
@@ -52,34 +52,38 @@
     <string name="choose_app">Choisir une application</string>
     <string name="enable">Activer</string>
     <string name="disable">Désactiver</string>
+    <string name="accent_color">Couleur d\'accentuation (par défaut)</string>
+    <string name="notification_color">Couleurs des notifications</string>
+    <string name="wallpaper_color">Couleurs du fond d\'écran</string>
+    <string name="custom_color">Couleur personnalisée</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Liste des changements</string>
     <string name="changelog_crdroid_summary">Afficher les modifications de cette version</string>
     <string name="changelog_crdroid_error">Impossible de charger la liste des changements</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">À propos de crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">À propos de AlphaDroid</string>
     <string name="about_device_name">Appareil</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Partager crDroid</string>
-    <string name="share_crdroid_summary">Faire connaitre crDroid</string>
-    <string name="share_message">Vérifiez si #crDroidAndroid est disponible pour votre appareil @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Partager crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">Partager AlphaDroid</string>
+    <string name="share_crdroid_summary">Faire connaitre AlphaDroid</string>
+    <string name="share_message">Vérifiez si #AlphaDroidAndroid est disponible pour votre appareil @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Partager AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">Open source</string>
     <string name="crdroid_source_summary">Consulter notre Github</string>
-    <string name="crdroid_telegram_title">Communauté crDroid</string>
+    <string name="crdroid_telegram_title">Communauté AlphaDroid</string>
     <string name="crdroid_telegram_summary">Rejoindre la communauté sur Telegram</string>
     <string name="crdroid_telegram_channel_title">Salon de mise à jour</string>
     <string name="crdroid_telegram_channel_summary">Être informé des nouvelles versions via Telegram</string>
     <string name="crdroid_website_title">Site officiel</string>
     <string name="crdroid_website_summary">Visiter notre site web officiel</string>
     <string name="crdroid_translate_title">Traductions</string>
-    <string name="crdroid_translate_summary">Aider à la traduction de crDroid</string>
+    <string name="crdroid_translate_summary">Aider à la traduction de AlphaDroid</string>
     <string name="crdroid_sponsor_summary">Visiter notre partenaire hébergeur web</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Soutenez-nous</string>
     <string name="donate_crdroid_summary">Faire un don pour soutenir le développement</string>
-    <string name="donate_team_title">L\'équipe crDroid</string>
+    <string name="donate_team_title">L\'équipe AlphaDroid</string>
     <string name="donate_team_summary">Faire un don pour contribuer aux serveurs d’hébergement, à la maintenance du site et à la gestion globale du projet</string>
     <!-- The Drill -->
     <string name="drill_title">Oups !</string>
@@ -231,13 +235,17 @@
     <string name="monet_title">Paramètres de Monet</string>
     <string name="monet_summary">Personnaliser le thème Monet</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Utiliser une couleur personnalisée</string>
-    <string name="monet_engine_custom_color_summary">Utiliser une couleur personnalisée pour le moteur monet au lieu des couleurs de fond d\'écran</string>
+    <string name="monet_engine_custom_color_title">Couleur d\'accentuation</string>
+    <string name="monet_engine_custom_color_summary">Choisir une couleur personnalisée pour l\'accentuation</string>
+    <string name="monet_engine_custom_bgcolor_title">Couleur d\'arrière-plan</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choisir une couleur personnalisée pour l\'arrière-plan</string>
     <string name="monet_engine_color_override_title">Couleur personalisée</string>
-    <string name="monet_engine_white_luminance_user_title">Éclairage blanc</string>
-    <string name="monet_engine_accurate_shades_title">Utiliser des nuances précises</string>
+    <string name="monet_engine_luminance_factor_title">Luminosité</string>
+    <string name="monet_engine_luminance_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
     <string name="monet_engine_chroma_factor_title">Facteur Chroma</string>
-    <string name="monet_engine_linear_lightness_title">Utiliser la clarté linéaire</string>
+    <string name="monet_engine_chroma_factor_summary">Des valeurs plus élevées produisent des couleurs plus fortes</string>
+    <string name="monet_engine_tint_background_title">Teinte de l\'arrière-plan</string>
+    <string name="monet_engine_tint_background_summary">Faire en sorte que la Luminance et la sélection Chroma affectent aussi les couleurs d\'arrière-plan</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le bon code PIN/mot de passe est saisi</string>
@@ -260,15 +268,15 @@
     <string name="doze_vibrate">Vibration</string>
     <string name="doze_vibrate_summary">Définir la durée de vibration lors du clignotement du voyant de notifications</string>
     <string name="sensor_warning_message">Les paramètres basés sur les capteurs sont soumis à la compatibilité matérielle. L\'activation des capteurs pour l\'affichage ambiant peut augmenter la consommation d\'énergie.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Éclairage des bords d\'écran</string>
-    <string name="pulse_ambient_light_summary">Éclairer les bords de l\'écran lors d\'une notification</string>
-    <string name="pulse_ambient_light_color_title">Couleur</string>
-    <string name="pulse_ambient_light_duration_title">Durée</string>
-    <string name="pulse_ambient_light_duration_summary">Définir la durée de l\'animation</string>
-    <string name="pulse_ambient_light_layout_title">Style</string>
-    <string name="pulse_ambient_light_layout_solid">Plein</string>
-    <string name="pulse_ambient_light_layout_faded">Dégradé</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Éclairage des bords d\'écran</string>
+    <string name="edge_light_summary">Éclairer les bords de l\'écran si notification</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Toujours déclencher lors de l\'impulsion</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Afficher/Masquer la lumière des bords chaque fois que l\'affichage ambiant est affiché et pas seulement pour les notifications</string>
+    <string name="edge_light_repeat_animation_title">Répéter l\'animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Répéter jusqu\'à expiration</string>
+    <string name="edge_light_repeat_animation_summary_off">Afficher une seule fois</string>
+    <string name="edge_light_color_mode_title">Mode de couleur de la lumière des bords</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Informations musicales</string>
     <string name="pulse_on_new_tracks_summary">Afficher les informations musicales sur l\'affichage ambiant lors d\'un changement de piste</string>
@@ -549,8 +557,8 @@
     <string name="qs_footer_show_power_menu_title">Raccourci du menu marche/arrêt</string>
     <string name="qs_footer_services_icon_title">Services en cours d\'exécution</string>
     <string name="qs_footer_settings_icon_title">Paramètres Android</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Licence crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">Licence AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Curseur de luminosité</string>
     <string name="qs_show_brightness_slider_never">Ne jamais afficher</string>
@@ -744,6 +752,8 @@
     <string name="bluetooth_timeout_summary">Ne pas désactiver automatiquement le Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Le Bluetooth sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
     <string name="custom_timeout_summary_never">Jamais</string>
+    <string name="custom_timeout_summary_5secs">5 secondes</string>
+    <string name="custom_timeout_summary_10secs">10 secondes</string>
     <string name="custom_timeout_summary_15secs">15 secondes</string>
     <string name="custom_timeout_summary_30secs">30 secondes</string>
     <string name="custom_timeout_summary_1min">1 minute</string>
@@ -951,6 +961,39 @@
     <string name="status_bar_logo_summary">Afficher un logo personnalisé à gauche ou à droite de la barre d\'état</string>
     <string name="status_bar_logo_position_title">Position du logo</string>
     <string name="status_bar_logo_style_title">Style du logo</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman le Chevalier Noir</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticône cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Émoticône diable</string>
+    <string name="status_bar_logo_style_fire">Feu</string>
+    <string name="status_bar_logo_style_heart">Coeur</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-Man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Fantôme</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installé : %1$s</string>
     <string name="app_info_update_time">Mis à jour : %1$s</string>
@@ -1011,4 +1054,29 @@
     <string name="lockscreen_shortcut_camera">Appareil photo</string>
     <string name="lockscreen_shortcut_remote">Télécommande Google TV</string>
     <string name="lockscreen_shortcut_none">Aucun</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Verrouillage d\'applications</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Déverrouiller</string>
+    <string name="enable_debugging">Activer le déboggage</string>
+    <string name="disable_debugging">Désactiver le débogage</string>
+    <string name="app_lock_packages_title">Applications protégées</string>
+    <string name="app_lock_packages_summary">Sélectionnez les applications à protéger avec des données biométriques ou des identifiants de l\'appareil</string>
+    <string name="app_lock_timeout_title">Délai avant verrouillage automatique</string>
+    <string name="app_lock_timeout_summary">Durée après laquelle une application déverrouillée en arrière-plan doit être verrouillée</string>
+    <string name="app_lock_notifications_title">Effacer les notifications</string>
+    <string name="app_lock_notifications_summary">Le contenu des notifications sera masqué et réduit pour les applications sélectionnées quand elles seront verrouillées.
+Les notifications flottantes seront automatiquement désactivées.</string>
+    <string name="app_lock_notifications_disabled_summary">Choisissez d\'abord une application à protéger</string>
+    <string name="app_lock_biometrics_allowed_title">Activer le déverrouillage biométrique</string>
+    <string name="app_lock_footer_text">Les bulles seront automatiquement rejetées après l\'expiration du délai</string>
+    <string name="enable_protection">Activer la protection</string>
+    <string name="hide_from_launcher_title">Masquer l’icône dans le lanceur d\'applications</string>
+    <string name="hide_from_launcher_summary">Empêcher cette application d\'apparaître dans tous les lanceurs d\'applications. Nécessite un redémarrage du lanceur pour que les changements prennent effet.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Toujours allumé pendant la charge</string>
+    <string name="doze_on_charge_summary">L\'affichage de l\'appareil est en cours de chargement</string>
 </resources>

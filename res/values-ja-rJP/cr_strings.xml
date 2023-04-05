@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid の設定</string>
+    <string name="crdroid_settings_title">AlphaDroid の設定</string>
     <string name="crdroid_settings_summary">高度な設定</string>
     <string name="reset_settings_title">設定のリセット</string>
-    <string name="reset_settings_message">現在のユーザーのほとんどの Alpha 設定を初期設定に戻します。続行しますか？</string>
+    <string name="reset_settings_message">現在のユーザーのほとんどの AlphaDroid 設定を初期設定に戻します。続行しますか？</string>
     <!-- Personalization Categories -->
     <string name="button_title">ボタン</string>
     <string name="lockscreen_title">ロック画面</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">アプリを選択</string>
     <string name="enable">有効</string>
     <string name="disable">無効</string>
+    <string name="accent_color">アクセントカラー（デフォルト）</string>
+    <string name="notification_color">通知の色</string>
+    <string name="wallpaper_color">壁紙の色</string>
+    <string name="custom_color">カスタムカラー</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">最近の更新履歴</string>
     <string name="changelog_crdroid_summary">インストールされている ROM の更新内容を確認します</string>
     <string name="changelog_crdroid_error">更新履歴を読み込めませんでした</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">crDroid について</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">AlphaDroid について</string>
     <string name="about_device_name">デバイス</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">crDroid についてシェアする</string>
-    <string name="share_crdroid_summary">みんなに crDroid を知ってもらいましょう</string>
-    <string name="share_message">カスタム ROM #crDroidAndroid を使ってみて！ https://crdroid.net/</string>
-    <string name="share_chooser_title">crDroid をシェア</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">AlphaDroid についてシェアする</string>
+    <string name="share_crdroid_summary">みんなに AlphaDroid を知ってもらいましょう</string>
+    <string name="share_message">カスタム ROM #AlphaDroidAndroid を使ってみて！ https://crdroid.net/</string>
+    <string name="share_chooser_title">AlphaDroid をシェア</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">私たちはオープンソースを愛しています。見てみてください</string>
-    <string name="crdroid_telegram_title">crDroid コミュニティ</string>
+    <string name="crdroid_telegram_title">AlphaDroid コミュニティ</string>
     <string name="crdroid_telegram_summary">Telegram で話しましょう！</string>
     <string name="crdroid_telegram_channel_title">アップデートチャンネル</string>
     <string name="crdroid_telegram_channel_summary">Telegram で新しいビルドの通知を受けます</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">翻訳</string>
     <string name="crdroid_translate_summary">あなたの言語に翻訳するのを手伝ってください！</string>
     <string name="crdroid_sponsor_summary">ウェブサイトのホストパートナーを開きます</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">私たちを支援する</string>
     <string name="donate_crdroid_summary">さらなる開発を支援するために寄付をお願いします</string>
-    <string name="donate_team_title">crDroid チーム</string>
+    <string name="donate_team_title">AlphaDroid チーム</string>
     <string name="donate_team_summary">寄付でホスティングサーバーや全体的な管理を助けてください</string>
     <!-- The Drill -->
     <string name="drill_title">正しいやり方</string>
@@ -230,13 +234,17 @@
     <string name="monet_title">Monet 設定</string>
     <string name="monet_summary">Monet テーマエンジンをカスタマイズします</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">カスタム色を使用する</string>
-    <string name="monet_engine_custom_color_summary">Monet エンジンで、壁紙の色の代わりにカスタム色を使用します</string>
+    <string name="monet_engine_custom_color_title">アクセントカラー</string>
+    <string name="monet_engine_custom_color_summary">アクセントのカスタムカラーを選択</string>
+    <string name="monet_engine_custom_bgcolor_title">背景色</string>
+    <string name="monet_engine_custom_bgcolor_summary">カスタム背景色を選択</string>
     <string name="monet_engine_color_override_title">カスタム色</string>
-    <string name="monet_engine_white_luminance_user_title">白い輝き</string>
-    <string name="monet_engine_accurate_shades_title">正確な色合いを使用</string>
+    <string name="monet_engine_luminance_factor_title">輝度</string>
+    <string name="monet_engine_luminance_factor_summary">値が高いほど明るい色になります</string>
     <string name="monet_engine_chroma_factor_title">彩度係数</string>
-    <string name="monet_engine_linear_lightness_title">リニア明度を使用</string>
+    <string name="monet_engine_chroma_factor_summary">値が高いほど色が濃くなります</string>
+    <string name="monet_engine_tint_background_title">背景を明るくする</string>
+    <string name="monet_engine_tint_background_summary">選択した輝度と彩度が背景色にも影響するようにします</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
     <string name="unlock_quick_unlock_control_summary">正しい PIN / パスワードを入力すると自動的にロック解除します</string>
@@ -259,15 +267,15 @@
     <string name="doze_vibrate">バイブレーション</string>
     <string name="doze_vibrate_summary">通知を表示するときのバイブの動作時間を指定します</string>
     <string name="sensor_warning_message">センサーベースの設定はハードウェアの互換性に依存します。センサーを有効化するとバッテリー消費が増える可能性があります</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">エッジライト</string>
-    <string name="pulse_ambient_light_summary">通知の点滅で画面の両端をライトアップします</string>
-    <string name="pulse_ambient_light_color_title">エッジライトの色</string>
-    <string name="pulse_ambient_light_duration_title">エッジライトの長さ</string>
-    <string name="pulse_ambient_light_duration_summary">アンビエントライトアニメーションの長さを設定します</string>
-    <string name="pulse_ambient_light_layout_title">エッジライト</string>
-    <string name="pulse_ambient_light_layout_solid">ソリッド</string>
-    <string name="pulse_ambient_light_layout_faded">フェード</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">エッジライト</string>
+    <string name="edge_light_summary">通知パルスで画面の両端をライトアップします</string>
+    <string name="edge_light_always_trigger_on_pulse_title">パルスで常に起動</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">通知だけではなく、アンビエント画面が表示されればいつでもエッジライトを表示します</string>
+    <string name="edge_light_repeat_animation_title">アニメーションの繰り返し</string>
+    <string name="edge_light_repeat_animation_summary_on">指定時間まで繰り返します</string>
+    <string name="edge_light_repeat_animation_summary_off">1度だけ表示します</string>
+    <string name="edge_light_color_mode_title">エッジライトのカラーモード</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">音楽ティッカー</string>
     <string name="pulse_on_new_tracks_summary">再生中の音楽の変更時に、アンビエント表示に音楽ティッカーを表示します</string>
@@ -548,8 +556,8 @@
     <string name="qs_footer_show_power_menu_title">電源メニューのショートカット</string>
     <string name="qs_footer_services_icon_title">実行中サービスのショートカット</string>
     <string name="qs_footer_settings_icon_title">設定のショートカット</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid ライセンス</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroid ライセンス</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">明るさスライダー</string>
     <string name="qs_show_brightness_slider_never">表示しない</string>
@@ -743,6 +751,8 @@
     <string name="bluetooth_timeout_summary">Bluetooth を自動的にオフにしません</string>
     <string name="bluetooth_timeout_summary_auto">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth をオフにします</string>
     <string name="custom_timeout_summary_never">なし</string>
+    <string name="custom_timeout_summary_5secs">5 秒</string>
+    <string name="custom_timeout_summary_10secs">10 秒</string>
     <string name="custom_timeout_summary_15secs">15 秒</string>
     <string name="custom_timeout_summary_30secs">30 秒</string>
     <string name="custom_timeout_summary_1min">1 分</string>
@@ -949,6 +959,39 @@
     <string name="status_bar_logo_summary">ステータスバーの左右にカスタムロゴを表示します</string>
     <string name="status_bar_logo_position_title">ロゴの位置</string>
     <string name="status_bar_logo_style_title">ロゴのスタイル</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">宇宙人</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">アベンジャーズ</string>
+    <string name="status_bar_logo_style_batman">バットマン</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">バイオハザード</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">大麻</string>
+    <string name="status_bar_logo_style_emoticon_cool">Cool 絵文字</string>
+    <string name="status_bar_logo_style_emoticon_devil">Devil 絵文字</string>
+    <string name="status_bar_logo_style_fire">火</string>
+    <string name="status_bar_logo_style_heart">ハート</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">パックマン</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">スパイダーマン</string>
+    <string name="status_bar_logo_style_superman">スーパーマン</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">ゴースト</string>
+    <string name="status_bar_logo_style_ninja">忍者</string>
+    <string name="status_bar_logo_style_robot">ロボット</string>
+    <string name="status_bar_logo_style_ironman">アイアンマン</string>
+    <string name="status_bar_logo_style_captain_america">キャプテンアメリカ</string>
+    <string name="status_bar_logo_style_flash">稲妻</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">インストール日時: %1$s</string>
     <string name="app_info_update_time">更新日時: %1$s</string>
@@ -1009,4 +1052,27 @@
     <string name="lockscreen_shortcut_camera">カメラ</string>
     <string name="lockscreen_shortcut_remote">Google TV Remote</string>
     <string name="lockscreen_shortcut_none">なし</string>
+    <!-- App lock -->
+    <string name="app_lock_title">アプリのロック</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g>個のアプリを保護しています</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">保護中のアプリ</string>
+    <string name="app_lock_packages_summary">生体認証またはデバイス認証情報で保護するアプリを選択してください</string>
+    <string name="app_lock_timeout_title">アプリを自動ロックするまでの時間</string>
+    <string name="app_lock_timeout_summary">バックグラウンドでロック解除されているアプリを、いつロックするか時間を指定します</string>
+    <string name="app_lock_notifications_title">通知の消去</string>
+    <string name="app_lock_notifications_summary">選択したアプリがロックされると通知の内容は非表示にされ折りたたまれます。ヘッドアップ通知は自動的に無効になります。</string>
+    <string name="app_lock_notifications_disabled_summary">まずアプリを保護してください</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
+    <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
+    <string name="enable_protection">保護を有効化</string>
+    <string name="hide_from_launcher_title">ホームアプリから隠す</string>
+    <string name="hide_from_launcher_summary">このアプリがどのホームアプリにも表示されないようにします。変更を有効にするには、ホームアプリの再起動が必要です。</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時に常に表示する</string>
+    <string name="doze_on_charge_summary">充電中であることを表示します</string>
 </resources>

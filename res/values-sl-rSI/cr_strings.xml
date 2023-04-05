@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid nastavitve</string>
+    <string name="crdroid_settings_title">AlphaDroid nastavitve</string>
     <string name="crdroid_settings_summary">Odprte dobrote</string>
     <string name="reset_settings_title">Ponastavi nastavitve</string>
     <string name="reset_settings_message">To bo ponastavilo večino nastavitev na njihove privzete vrednosti za trenutnega uporabnika. Ali želite nadaljevati?</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Izberite aplikacijo</string>
     <string name="enable">Omogoči</string>
     <string name="disable">Onemogoči</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">Custom color</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Trenutni dnevnik sprememb</string>
     <string name="changelog_crdroid_summary">Pokaži spremembe v nameščenem ROM-u</string>
     <string name="changelog_crdroid_error">Dnevnika sprememb ni mogoče naložiti</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">O crDroid-u</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">O AlphaDroid-u</string>
     <string name="about_device_name">Naprava</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Deli crDroid</string>
-    <string name="share_crdroid_summary">Dajte drugim vedeti o crDroid-u</string>
-    <string name="share_message">Preverite, če je #crDroidAndroid na voljo za vašo napravo na https://crdroid.net/</string>
-    <string name="share_chooser_title">Deli crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">Deli AlphaDroid</string>
+    <string name="share_crdroid_summary">Dajte drugim vedeti o AlphaDroid-u</string>
+    <string name="share_message">Preverite, če je #AlphaDroidAndroid na voljo za vašo napravo na https://crdroid.net/</string>
+    <string name="share_chooser_title">Deli AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Radi imamo odprto kodo, preverite nas</string>
-    <string name="crdroid_telegram_title">crDroid skupnost</string>
+    <string name="crdroid_telegram_title">AlphaDroid skupnost</string>
     <string name="crdroid_telegram_summary">Smo na telegramu. Pridružite se nam!</string>
     <string name="crdroid_telegram_channel_title">Kanal s posodobitvami</string>
     <string name="crdroid_telegram_channel_summary">Bodite obveščeni o novih izgradnjah na Telegramu</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">Prevodi</string>
     <string name="crdroid_translate_summary">Pomagajte s prevajanjem ROM-a v vaš jezik!</string>
     <string name="crdroid_sponsor_summary">Obiščite gostitelja naše spletne strani</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Podprite nas</string>
     <string name="donate_crdroid_summary">Prispevajte, da podprete nadaljnji razvoj</string>
-    <string name="donate_team_title">crDroid ekipa</string>
+    <string name="donate_team_title">AlphaDroid ekipa</string>
     <string name="donate_team_summary">Prispevajte, da podprete gostovanje strežnika, čas delovanja strani in upravljanje na splošno</string>
     <!-- The Drill -->
     <string name="drill_title">Postopek</string>
@@ -88,7 +92,7 @@
     <string name="crdroid_update_title">Posodobitve</string>
     <string name="crdroid_update_summary">Preverite in prenesite zadnjo posodobitev</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Goovle Trgovina</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Vrednost: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">privzeto</string>
@@ -100,8 +104,8 @@
     <string name="unit_pixels">pik</string>
     <string name="unit_hz">hz</string>
     <!-- Clipboard -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Kopirano v odložišče</string>
+    <string name="longpress_to_clipboard">Pridrži za kopiranje</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platforma</string>
     <string name="total_ram">Skupno pomnilnika</string>
@@ -131,7 +135,7 @@
     <string name="lockscreen_battery_info_title">Podatki o bateriji</string>
     <string name="lockscreen_battery_info_summary">Prikaži podatke o bateriji med polnjenjem</string>
     <!-- Button settings -->
-    <string name="extras_title">Extras</string>
+    <string name="extras_title">Dodatno</string>
     <string name="additional_buttons_title">Dodatni gumbi</string>
     <string name="hardware_keys_power_key_title">Gumb za vklop</string>
     <string name="hardware_keys_home_key_title">Gumb Domov</string>
@@ -185,8 +189,8 @@
     <string name="button_wake_summary">Zbudi napravo s pritiskom gumba</string>
     <string name="volume_answer_call_title">Odgovori na klic</string>
     <string name="volume_answer_call_summary">Odgovori na dohodne klice s pritiskom na gumb za glasnost</string>
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_partial_screenshot_title">Klik za delno zaslonsko sliko</string>
+    <string name="click_partial_screenshot_summary">Na kratko kliknite gumb za povečanje glasnosti in gumb za vklop, da zajamete delno zaslonsko sliko</string>
     <!-- Key backlight -->
     <string name="button_backlight_title">Osvetlitev</string>
     <string name="button_backlight_summary">Prilagodite nastavitve osvetlitve gumbov</string>
@@ -201,10 +205,10 @@
     <string name="backlight_summary_enabled_with_timeout">Omogočena za <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Omogočena</string>
     <plurals name="backlight_timeout_time">
-        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> second</item>
-        <item quantity="two"><xliff:g id="seconds">%d</xliff:g> seconds</item>
-        <item quantity="few"><xliff:g id="seconds">%d</xliff:g> seconds</item>
-        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> seconds</item>
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> sekunde</item>
+        <item quantity="two"><xliff:g id="seconds">%d</xliff:g> sekunde</item>
+        <item quantity="few"><xliff:g id="seconds">%d</xliff:g> sekunde</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> sekunde</item>
     </plurals>
     <!-- Power menu -->
     <string name="power_menu_title">Gumb za vklop</string>
@@ -233,13 +237,17 @@
     <string name="monet_title">Monet nastavitve</string>
     <string name="monet_summary">Prilagodi Monet temski pogon</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Uporabi barvo po meri</string>
-    <string name="monet_engine_custom_color_summary">Uporabi barvo po meri za monet pogon namesto barv slike ozadja</string>
+    <string name="monet_engine_custom_color_title">Accent color</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
+    <string name="monet_engine_custom_bgcolor_title">Background color</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">Barva po meri</string>
-    <string name="monet_engine_white_luminance_user_title">Bela svetilnost</string>
-    <string name="monet_engine_accurate_shades_title">Uporabi natančne sence</string>
+    <string name="monet_engine_luminance_factor_title">Luminance</string>
+    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="monet_engine_chroma_factor_title">Dejavnik krome</string>
-    <string name="monet_engine_linear_lightness_title">Uporabi linearno svetlost</string>
+    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="monet_engine_tint_background_title">Tint background</string>
+    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Hiter odklep</string>
     <string name="unlock_quick_unlock_control_summary">Samodejno odkleni, ko je vnešen pravilen PIN/geslo</string>
@@ -262,15 +270,15 @@
     <string name="doze_vibrate">Vibriranje</string>
     <string name="doze_vibrate_summary">Trajanje vibriranja ob utripajočih obvestilih</string>
     <string name="sensor_warning_message">Nastavitve, ki temeljijo na tipalih so odvisne od združljivosti strojne opreme. Omogočenje tipal za okoliški zaslon lahko poveča porabo energije.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Razsvetljava roba</string>
-    <string name="pulse_ambient_light_summary">Osvetli robove zaslona ob utripajočih obvestilih</string>
-    <string name="pulse_ambient_light_color_title">Barva luči roba</string>
-    <string name="pulse_ambient_light_duration_title">Trajanje luči roba</string>
-    <string name="pulse_ambient_light_duration_summary">Nastavi trajanje animacije okoliške luči</string>
-    <string name="pulse_ambient_light_layout_title">Slog luči</string>
-    <string name="pulse_ambient_light_layout_solid">Polna</string>
-    <string name="pulse_ambient_light_layout_faded">Pojenjajoča</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Pokazatelj glasbe</string>
     <string name="pulse_on_new_tracks_summary">Prikaži pokazatelja glasbe na okoliškem zaslonu ob spremembi pesmi</string>
@@ -319,8 +327,8 @@
     <string name="theme_customization_wifi_icon_summary">Nastavi slog ikone WiFi po meri</string>
     <string name="theme_customization_navbar_title">Slog vrstice za krmarjenje</string>
     <string name="theme_customization_navbar_summary">Nastavite slog vrstice za krmarjenje po meri</string>
-    <string name="theme_customization_lock_clock_title">Clock font style</string>
-    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+    <string name="theme_customization_lock_clock_title">Slog pisave ure</string>
+    <string name="theme_customization_lock_clock_summary">Nastavi slog pisave ure zaklenjenega zaslona</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title_custom">Privzeta hitrost osveževanja</string>
     <string name="peak_refresh_rate_title_custom">Najvišja hitrost osveževanja</string>
@@ -362,7 +370,7 @@
     <string name="clock_date_position">Položaj datuma</string>
     <string name="clock_date_right">Desno od ure</string>
     <string name="clock_date_left">Levo od ure</string>
-    <string name="clock_font_size_title">Clock font size</string>
+    <string name="clock_font_size_title">Velikost pisave ure</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Slog baterije</string>
     <string name="status_bar_battery_style_icon_portrait">Pokončna ikona</string>
@@ -504,7 +512,7 @@
     <string name="navbar_invert_layout_summary">Obrne razporeditev vrstice za krmarjenje in drugih predmetov, kot je preklopnik IME</string>
     <string name="navbar_actions_category_title">Dejanja</string>
     <string name="navbar_back_long_press_title">Pridržanje Nazaj</string>
-    <string name="navbar_back_double_tap_title">Back double tap</string>
+    <string name="navbar_back_double_tap_title">Dvojni knik za Nazaj</string>
     <string name="navbar_home_long_press_title">Pridržanje Domov</string>
     <string name="navbar_home_double_tap_title">Dvojni tap Domov</string>
     <string name="navbar_app_switch_long_press_title">Pridržanje Nedavno</string>
@@ -551,8 +559,8 @@
     <string name="qs_footer_show_power_menu_title">Bližnjica menija za izklop</string>
     <string name="qs_footer_services_icon_title">Bližnjica storitev v izvajanju</string>
     <string name="qs_footer_settings_icon_title">Bližnjica nastavitev</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid pravo</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroid pravo</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Drsnik za svetlost</string>
     <string name="qs_show_brightness_slider_never">Nikoli ne prikaži</string>
@@ -746,6 +754,8 @@
     <string name="bluetooth_timeout_summary">Ne izklopi Bluetooth-a samodejno</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth se bo izklopil po <xliff:g id="timeout_description">%1$s</xliff:g>, če ni povezanih naprav</string>
     <string name="custom_timeout_summary_never">Nikoli</string>
+    <string name="custom_timeout_summary_5secs">5 seconds</string>
+    <string name="custom_timeout_summary_10secs">10 seconds</string>
     <string name="custom_timeout_summary_15secs">15 sekund</string>
     <string name="custom_timeout_summary_30secs">30 sekund</string>
     <string name="custom_timeout_summary_1min">1 minuta</string>
@@ -955,6 +965,39 @@
     <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
     <string name="status_bar_logo_position_title">Logo position</string>
     <string name="status_bar_logo_style_title">Logo style</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installed: %1$s</string>
     <string name="app_info_update_time">Updated: %1$s</string>
@@ -1015,4 +1058,30 @@
     <string name="lockscreen_shortcut_camera">Camera</string>
     <string name="lockscreen_shortcut_remote">Google TV Remote</string>
     <string name="lockscreen_shortcut_none">None</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="two"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>

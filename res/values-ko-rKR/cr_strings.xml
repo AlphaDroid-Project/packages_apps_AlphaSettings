@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid 설정</string>
+    <string name="crdroid_settings_title">AlphaDroid 설정</string>
     <string name="crdroid_settings_summary">커스텀 고급 설정 </string>
     <string name="reset_settings_title">설정 초기화</string>
-    <string name="reset_settings_message">대부분의 Alpha 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
+    <string name="reset_settings_message">대부분의 AlphaDroid 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
     <!-- Personalization Categories -->
     <string name="button_title">버튼</string>
     <string name="lockscreen_title">잠금 화면</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">어플을 선택합니다.</string>
     <string name="enable">활성화</string>
     <string name="disable">비활성화</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">사용자 지정 색상</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">현재 변경 내역</string>
     <string name="changelog_crdroid_summary">설치된 ROM의 변경 사항을 봅니다.</string>
     <string name="changelog_crdroid_error">변경 사항을 읽을 수 없습니다.</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">crDroid에 관하여</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">AlphaDroid에 관하여</string>
     <string name="about_device_name">기기</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">crDroid 공유</string>
-    <string name="share_crdroid_summary">crDroid에 대해 다른 사람들에게 알리기</string>
-    <string name="share_message">당신의 장치를 위한 #crDroidAndroid 이 있는지 확인하려면 @ https://crdroid.net을 확인하세요.</string>
-    <string name="share_chooser_title">crDroid 공유</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">AlphaDroid 공유</string>
+    <string name="share_crdroid_summary">AlphaDroid에 대해 다른 사람들에게 알리기</string>
+    <string name="share_message">당신의 장치를 위한 #AlphaDroidAndroid 이 있는지 확인하려면 @ https://crdroid.net을 확인하세요.</string>
+    <string name="share_chooser_title">AlphaDroid 공유</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">우리는 오픈 소스를 사랑합니다. 확인해 보세요.</string>
-    <string name="crdroid_telegram_title">crDroid 커뮤니티</string>
+    <string name="crdroid_telegram_title">AlphaDroid 커뮤니티</string>
     <string name="crdroid_telegram_summary">우리는 텔레그램에 있습니다. 가입하세요!</string>
     <string name="crdroid_telegram_channel_title">업데이트 채널</string>
     <string name="crdroid_telegram_channel_summary">새로운 빌드가 나오면 텔레그램으로 알림 받기</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">번역</string>
     <string name="crdroid_translate_summary">귀하의 언어로 ROM 현지화를 도와주세요!</string>
     <string name="crdroid_sponsor_summary">웹 사이트 호스팅 파트너 방문하기</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">지원하기</string>
     <string name="donate_crdroid_summary">기부해서 개발 지원하기</string>
-    <string name="donate_team_title">crDroid 팀</string>
+    <string name="donate_team_title">AlphaDroid 팀</string>
     <string name="donate_team_summary">서버 호스팅 지원, 가동 시간 및 전반적인 관리 사이트 기부</string>
     <!-- The Drill -->
     <string name="drill_title">The Drill</string>
@@ -100,8 +104,8 @@
     <string name="unit_pixels">dp</string>
     <string name="unit_hz">hz</string>
     <!-- Clipboard -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">클립보드에 복사됨</string>
+    <string name="longpress_to_clipboard">길게 눌러 복사</string>
     <!-- Hardware info -->
     <string name="platform_revision">플랫폼</string>
     <string name="total_ram">총 RAM</string>
@@ -201,7 +205,7 @@
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g>동안 켬</string>
     <string name="backlight_summary_enabled">활성화됨</string>
     <plurals name="backlight_timeout_time">
-        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> seconds</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 초</item>
     </plurals>
     <!-- Power menu -->
     <string name="power_menu_title">전원 메뉴</string>
@@ -230,13 +234,17 @@
     <string name="monet_title">Monet 설정</string>
     <string name="monet_summary">Monet 테마 엔진 설정</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">사용자 지정 색상 사용</string>
-    <string name="monet_engine_custom_color_summary">바탕 화면 색상 대신 monet 엔진에 사용자 정의 색상 사용</string>
+    <string name="monet_engine_custom_color_title">강조 색상</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
+    <string name="monet_engine_custom_bgcolor_title">Background color</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">사용자 지정 색상</string>
-    <string name="monet_engine_white_luminance_user_title">백색 휘도</string>
-    <string name="monet_engine_accurate_shades_title">정확한 음영 사용</string>
+    <string name="monet_engine_luminance_factor_title">Luminance</string>
+    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="monet_engine_chroma_factor_title">크로마 팩터</string>
-    <string name="monet_engine_linear_lightness_title">선형 밝기 사용</string>
+    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="monet_engine_tint_background_title">Tint background</string>
+    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">빠른 잠금해제</string>
     <string name="unlock_quick_unlock_control_summary">PIN/비밀번호를 올바르게 입력하면 자동으로 잠금을 해제합니다</string>
@@ -259,15 +267,15 @@
     <string name="doze_vibrate">진동</string>
     <string name="doze_vibrate_summary">알림시 진동하는 시간</string>
     <string name="sensor_warning_message">센서를 기반으로 한 설정은 하드웨어 호환성에 영향을 받습니다. Ambient Display 센서를 활성화하면 전력이 소모 될 수 있습니다.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">가장자리 조명</string>
-    <string name="pulse_ambient_light_summary">알림 펄스에서 화면의 측면 가장자리를 밝게합니다.</string>
-    <string name="pulse_ambient_light_color_title">가장자리 밝은 색</string>
-    <string name="pulse_ambient_light_duration_title">가장자리 조명 지속 시간</string>
-    <string name="pulse_ambient_light_duration_summary">주변 조명 애니메이션 지속 시간을 설정합니다</string>
-    <string name="pulse_ambient_light_layout_title">엣지 라이트 뷰</string>
-    <string name="pulse_ambient_light_layout_solid">두껍게</string>
-    <string name="pulse_ambient_light_layout_faded">사라짐</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">알림 펄스에서 화면의 측면 가장자리를 밝게합니다.</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">음악 티커</string>
     <string name="pulse_on_new_tracks_summary">재생 중인 음악을 변경할 때 Ambient Display에 음악 티커 표시</string>
@@ -317,7 +325,7 @@
     <string name="theme_customization_navbar_title">내비게이션 바 스타일</string>
     <string name="theme_customization_navbar_summary">커스텀 내비게이션 바 스타일 설정</string>
     <string name="theme_customization_lock_clock_title">시계 글꼴 스타일</string>
-    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+    <string name="theme_customization_lock_clock_summary">잠금 화면 시계 글꼴 스타일 설정</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title_custom">기본 화면 재생률</string>
     <string name="peak_refresh_rate_title_custom">최대 화면 재생률</string>
@@ -478,7 +486,7 @@
     <string name="pulse_color_accent">강조 색</string>
     <string name="pulse_color_custom">맞춤 설정</string>
     <string name="pulse_color_lava_lamp">라바 램프</string>
-    <string name="pulse_color_auto">Album</string>
+    <string name="pulse_color_auto">앨범</string>
     <string name="pulse_color_user_title">색상 선택</string>
     <string name="pulse_smoothing_enabled_title">펄스 스무딩 켜기</string>
     <string name="pulse_smoothing_enabled_summary">각각의 막대가 더 부드럽게 움직입니다</string>
@@ -548,8 +556,8 @@
     <string name="qs_footer_show_power_menu_title">전원 메뉴 바로 가기</string>
     <string name="qs_footer_services_icon_title">실행 중인 서비스 바로 가기</string>
     <string name="qs_footer_settings_icon_title">설정 바로 가기</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid 약관</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroid 약관</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">밝기 조절 슬라이더</string>
     <string name="qs_show_brightness_slider_never">절대 보여주지 않기</string>
@@ -641,7 +649,7 @@
     <string name="mic_camera_privacy_indicator_summary">앱에서 마이크 또는 카메라를 사용하는 경우 별도의 표시기 표시</string>
     <string name="location_privacy_indicator_title">위치 개인 정보 표시기</string>
     <string name="location_privacy_indicator_summary">앱에서 위치를 사용하는 경우 별도의 표시기 표시</string>
-    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+    <string name="projection_privacy_indicator_title">미디어 프로젝션 프라이버시 표시기</string>
     <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">딥 슬립</string>
@@ -743,6 +751,8 @@
     <string name="bluetooth_timeout_summary">블루투스를 자동으로 끄지 않습니다</string>
     <string name="bluetooth_timeout_summary_auto"><xliff:g id="timeout_description">%1$s</xliff:g> 동안 기기 연결이 없다면 블루투스를 끕니다</string>
     <string name="custom_timeout_summary_never">사용 안함</string>
+    <string name="custom_timeout_summary_5secs">5초</string>
+    <string name="custom_timeout_summary_10secs">10초</string>
     <string name="custom_timeout_summary_15secs">15초</string>
     <string name="custom_timeout_summary_30secs">30초</string>
     <string name="custom_timeout_summary_1min">1분</string>
@@ -949,6 +959,39 @@
     <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
     <string name="status_bar_logo_position_title">로고 위치</string>
     <string name="status_bar_logo_style_title">로고 스타일</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">안드로이드</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">애플</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">배트맨</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">바이오 하자드</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">이모티콘 쿨</string>
+    <string name="status_bar_logo_style_emoticon_devil">이모티콘 악마</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">하트</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">슈퍼맨</string>
+    <string name="status_bar_logo_style_windows">윈도우</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">유령</string>
+    <string name="status_bar_logo_style_ninja">닌자</string>
+    <string name="status_bar_logo_style_robot">로봇</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">플래시</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installed: %1$s</string>
     <string name="app_info_update_time">Updated: %1$s</string>
@@ -970,7 +1013,7 @@
     <string name="pattern_da_dzzz_da">윙-위이이잉-윙</string>
     <string name="pattern_custom">맞춤 설정</string>
     <string name="custom_vibration_pattern_title">Koreans can recognize text even in English. I don\'t think there is any meaning in translating because Koreans tend to mix English together.</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="custom_vibration_pattern_summary">진동 패턴 사용자 정의</string>
     <!-- Per-channel vibration pattern -->
     <string name="notification_custom_vibrate_title">Custom vibration pattern</string>
     <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
@@ -1009,4 +1052,27 @@
     <string name="lockscreen_shortcut_camera">카메라</string>
     <string name="lockscreen_shortcut_remote">Google TV Remote</string>
     <string name="lockscreen_shortcut_none">없음</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">잠금 해제</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>

@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Налаштування crDroid</string>
+    <string name="crdroid_settings_title">Налаштування AlphaDroid</string>
     <string name="crdroid_settings_summary">Додаткові налаштування</string>
     <string name="reset_settings_title">Скинути налаштування</string>
-    <string name="reset_settings_message">Буде здійснено скидання більшості параметрів Alpha до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
+    <string name="reset_settings_message">Буде здійснено скидання більшості параметрів AlphaDroid до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Кнопки</string>
     <string name="lockscreen_title">Блокування екрану</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Вибрати програму</string>
     <string name="enable">Увімкнено</string>
     <string name="disable">Вимкнено</string>
+    <string name="accent_color">Колір акценту (за замовчуванням)</string>
+    <string name="notification_color">Колір сповіщення</string>
+    <string name="wallpaper_color">Колір шпалер</string>
+    <string name="custom_color">Власний колір</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Поточний список змін</string>
     <string name="changelog_crdroid_summary">Переглянути список змін в поточній прошивці</string>
     <string name="changelog_crdroid_error">Помилка завантаження списку змін</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Про crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">Про AlphaDroid</string>
     <string name="about_device_name">Пристрій</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Поділитися crDroid</string>
-    <string name="share_crdroid_summary">Нехай інші знають про crDroid</string>
-    <string name="share_message">Перевірте, чи доступний #crDroidAndroid для Вашого пристрою @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Поділитися crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">Поділитися AlphaDroid</string>
+    <string name="share_crdroid_summary">Нехай інші знають про AlphaDroid</string>
+    <string name="share_message">Перевірте, чи доступний #AlphaDroidAndroid для Вашого пристрою @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Поділитися AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Ми любимо відкритий вихідний код, перевірте нас</string>
-    <string name="crdroid_telegram_title">crDroid спільнота</string>
+    <string name="crdroid_telegram_title">AlphaDroid спільнота</string>
     <string name="crdroid_telegram_summary">Ми також є в Telegram. Приєднуйтесь!</string>
     <string name="crdroid_telegram_channel_title">Канал оновлень</string>
     <string name="crdroid_telegram_channel_summary">Отримувати сповіщення про нові збірки в Telegram</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">Переклади</string>
     <string name="crdroid_translate_summary">Допоможіть з локалізацією ROM вашою мовою!</string>
     <string name="crdroid_sponsor_summary">Завітайте на наш веб-сайт партнера</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Підтримати нас</string>
     <string name="donate_crdroid_summary">Пожертвуйте для підтримки подальшого розвитку</string>
-    <string name="donate_team_title">crDroid команда</string>
+    <string name="donate_team_title">AlphaDroid команда</string>
     <string name="donate_team_summary">Пожертвувати на підтримку хостингу, сайту та розвитку проекту</string>
     <!-- The Drill -->
     <string name="drill_title">Від розробників</string>
@@ -233,13 +237,17 @@
     <string name="monet_title">Налаштування Monet</string>
     <string name="monet_summary">Налаштування рушія теми Monet</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Використовувати свій колір</string>
-    <string name="monet_engine_custom_color_summary">Використовувати користувацький колір для Monet замість кольору зі шпалер</string>
+    <string name="monet_engine_custom_color_title">Контрастний колір</string>
+    <string name="monet_engine_custom_color_summary">Вибрати спеціальний колір для відтінку</string>
+    <string name="monet_engine_custom_bgcolor_title">Колір фону</string>
+    <string name="monet_engine_custom_bgcolor_summary">Вибрати спеціальний колір для тла</string>
     <string name="monet_engine_color_override_title">Власний колір</string>
-    <string name="monet_engine_white_luminance_user_title">Світіння білого світла</string>
-    <string name="monet_engine_accurate_shades_title">Використовувати точно відтінки</string>
+    <string name="monet_engine_luminance_factor_title">Освітленість</string>
+    <string name="monet_engine_luminance_factor_summary">Високі значення дають яскравіші кольори</string>
     <string name="monet_engine_chroma_factor_title">Інтенсивність кольору</string>
-    <string name="monet_engine_linear_lightness_title">Використовувати лінійну яскравість</string>
+    <string name="monet_engine_chroma_factor_summary">Високі значення дають сильніші кольори</string>
+    <string name="monet_engine_tint_background_title">Відтінок фону</string>
+    <string name="monet_engine_tint_background_summary">Зробити освітленість і хромний вибір, що впливають на кольори фону</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
@@ -262,15 +270,15 @@
     <string name="doze_vibrate">Вібрація</string>
     <string name="doze_vibrate_summary">Тривалість вібрації при показі сповіщень</string>
     <string name="sensor_warning_message">Налаштування на основі сенсорів залежать від апаратної сумісності. Увімкнення сенсорів для активації екрана може збільшити споживання заряду батареї.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Підсвічування контуру</string>
-    <string name="pulse_ambient_light_summary">Підсвічувати краї екрана при імпульсі сповіщень</string>
-    <string name="pulse_ambient_light_color_title">Колір підсвічування контуру</string>
-    <string name="pulse_ambient_light_duration_title">Тривалість підсвітки краю екрану</string>
-    <string name="pulse_ambient_light_duration_summary">Встановлює тривалість підсвітки анімації</string>
-    <string name="pulse_ambient_light_layout_title">Підсвічування контуру</string>
-    <string name="pulse_ambient_light_layout_solid">Суцільний</string>
-    <string name="pulse_ambient_light_layout_faded">Затухання</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Яскравість підсвітки екрана</string>
+    <string name="edge_light_summary">Підсвічувати краї екрана при імпульсі сповіщень</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Завжди використовувати пульсацію</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Показувати перемикач світла, коли Активний дисплей, і не тільки для сповіщень</string>
+    <string name="edge_light_repeat_animation_title">Повторити анімацію</string>
+    <string name="edge_light_repeat_animation_summary_on">Час очікування повтору</string>
+    <string name="edge_light_repeat_animation_summary_off">Відтворити одноразово</string>
+    <string name="edge_light_color_mode_title">Колір підсвічування контуру</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Світломузика</string>
     <string name="pulse_on_new_tracks_summary">Показувати музичну візуалізацію на AOD під час зміни треку</string>
@@ -551,8 +559,8 @@
     <string name="qs_footer_show_power_menu_title">Меню живлення</string>
     <string name="qs_footer_services_icon_title">Піктограма запущених служб</string>
     <string name="qs_footer_settings_icon_title">Піктограма налаштувань</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Політика конфіденційності crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">Політика конфіденційності AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Повзунок яскравості</string>
     <string name="qs_show_brightness_slider_never">Завжди приховувати</string>
@@ -746,6 +754,8 @@
     <string name="bluetooth_timeout_summary">Не вимикати Bluetooth автоматично</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
     <string name="custom_timeout_summary_never">Ніколи</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
     <string name="custom_timeout_summary_15secs">15 секунд</string>
     <string name="custom_timeout_summary_30secs">30 секунд</string>
     <string name="custom_timeout_summary_1min">1 хвилина</string>
@@ -955,6 +965,39 @@
     <string name="status_bar_logo_summary">Відображати користувацький логотип ліворуч або праворуч від рядка стану</string>
     <string name="status_bar_logo_position_title">Позиція логотипу</string>
     <string name="status_bar_logo_style_title">Стиль логотипу</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Андроїд</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Чужий</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Месники</string>
+    <string name="status_bar_logo_style_batman">Бетмен</string>
+    <string name="status_bar_logo_style_batman_tdk">Бетмен Темний лицар</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Біогазард</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Коноплі</string>
+    <string name="status_bar_logo_style_emoticon_cool">Смайлик круто</string>
+    <string name="status_bar_logo_style_emoticon_devil">Смайлик лихий</string>
+    <string name="status_bar_logo_style_fire">Вогонь</string>
+    <string name="status_bar_logo_style_heart">Серце</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Пакман</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Людина-павук</string>
+    <string name="status_bar_logo_style_superman">Супермен</string>
+    <string name="status_bar_logo_style_windows">Вікна</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Привид</string>
+    <string name="status_bar_logo_style_ninja">Ніндзя</string>
+    <string name="status_bar_logo_style_robot">Робот</string>
+    <string name="status_bar_logo_style_ironman">Залізна людина</string>
+    <string name="status_bar_logo_style_captain_america">Капітан Америка</string>
+    <string name="status_bar_logo_style_flash">Блискавка</string>
+    <string name="status_bar_logo_style_tux">Тукс</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Встановлено: %1$s</string>
     <string name="app_info_update_time">Оновлено: %1$s</string>
@@ -1015,4 +1058,30 @@
     <string name="lockscreen_shortcut_camera">Камера</string>
     <string name="lockscreen_shortcut_remote">Пульт Google TV</string>
     <string name="lockscreen_shortcut_none">Жодної</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Блокування програм</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додаток захищено</item>
+        <item quantity="few"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додатки захищені</item>
+        <item quantity="many"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додатки захищено</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> Програма захищена</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Розблокувати</string>
+    <string name="enable_debugging">Увімкнути налагодження</string>
+    <string name="disable_debugging">Вимкнути налагодження</string>
+    <string name="app_lock_packages_title">Захищені програми</string>
+    <string name="app_lock_packages_summary">Виберіть програми для захисту за допомогою біометричних даних або облікових даних пристрою</string>
+    <string name="app_lock_timeout_title">Тайм-аут автоматичного блокування</string>
+    <string name="app_lock_timeout_summary">Тривалість часу, після якого розблокована програма у фоновому режимі має бути заблокована</string>
+    <string name="app_lock_notifications_title">Згорнути сповіщення</string>
+    <string name="app_lock_notifications_summary">Зміст сповіщень буде приховано і згорнуто для вибраних програм, коли вони будуть заблоковані. Спливаючі сповіщення будуть автоматично вимкнені.</string>
+    <string name="app_lock_notifications_disabled_summary">Спершу виберіть програму для захисту</string>
+    <string name="app_lock_biometrics_allowed_title">Увімкніть біометричні дані для розблокування</string>
+    <string name="app_lock_footer_text">Бульбашки будуть автоматично відхилені після тайм-ауту</string>
+    <string name="enable_protection">Увімкнути захист</string>
+    <string name="hide_from_launcher_title">Приховати від лаунчера</string>
+    <string name="hide_from_launcher_summary">Запобігає появі цього застосунку в будь-якому лаунчері. Для застосування змін потрібне перезавантаження.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Завжди показувати під час зарядки</string>
+    <string name="doze_on_charge_summary">Показати пристрій заряджається</string>
 </resources>

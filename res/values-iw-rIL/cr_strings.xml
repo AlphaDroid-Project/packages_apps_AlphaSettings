@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">הגדרות crDroid</string>
+    <string name="crdroid_settings_title">הגדרות AlphaDroid</string>
     <string name="crdroid_settings_summary">לפתוח את הטוב</string>
     <string name="reset_settings_title">איפוס הגדרות</string>
-    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות Alpha לערכי ברירת המחדל, להמשיך?</string>
+    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות AlphaDroid לערכי ברירת המחדל, להמשיך?</string>
     <!-- Personalization Categories -->
     <string name="button_title">מקשים</string>
     <string name="lockscreen_title">מסך נעילה</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">בחר יישום</string>
     <string name="enable">הפעל</string>
     <string name="disable">מושבת</string>
+    <string name="accent_color">צבע ההדגשה (ברירת המחדל)</string>
+    <string name="notification_color">צבע ההתראה</string>
+    <string name="wallpaper_color">שימוש בצבעי הטפט</string>
+    <string name="custom_color">צבע מותאם אישית</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">יומן השינויים הנוכחי</string>
     <string name="changelog_crdroid_summary">ראה שינויים ברום שהותקן</string>
     <string name="changelog_crdroid_error">טעינת יומן השינויים נכשלה</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">אודות crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">אודות AlphaDroid</string>
     <string name="about_device_name">מכשיר</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">שתף crDroid</string>
-    <string name="share_crdroid_summary">עזור לאנשים אחרים לדעת אודות crDroid</string>
-    <string name="share_message">בדוק האם crDroidAndroid# זמין למכשיר שלך https://crdroid.net/</string>
-    <string name="share_chooser_title">שתף crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">שתף AlphaDroid</string>
+    <string name="share_crdroid_summary">עזור לאנשים אחרים לדעת אודות AlphaDroid</string>
+    <string name="share_message">בדוק האם AlphaDroidAndroid# זמין למכשיר שלך https://crdroid.net/</string>
+    <string name="share_chooser_title">שתף AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">אנחנו אוהבים מקור פתוח, בדוק אותנו</string>
-    <string name="crdroid_telegram_title">קהילת crDroid</string>
+    <string name="crdroid_telegram_title">קהילת AlphaDroid</string>
     <string name="crdroid_telegram_summary">אנחנו גם בטלגרם, תצטרף אלינו!</string>
     <string name="crdroid_telegram_channel_title">ערוץ עדכונים</string>
     <string name="crdroid_telegram_channel_summary">קבל הודעה בטלגרם אודות עדכונים חדשים</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">תרגומים</string>
     <string name="crdroid_translate_summary">עזור לנו להתאים את ה-ROM לשפה שלך!</string>
     <string name="crdroid_sponsor_summary">בקרו במארח האתרים השותף שלנו</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">תמוך בנו</string>
     <string name="donate_crdroid_summary">תמוך בנו כדי לאפשר המשך פיתוח עתידי</string>
-    <string name="donate_team_title">צוות crDroid</string>
+    <string name="donate_team_title">צוות AlphaDroid</string>
     <string name="donate_team_summary">תירמו לתמיכה בשרתי האחסון, הפעלת האתר והניהול הכללי</string>
     <!-- The Drill -->
     <string name="drill_title">התהליך</string>
@@ -233,13 +237,17 @@
     <string name="monet_title">הגדרות monet</string>
     <string name="monet_summary">התאם אישית את מנגנון ה־Monet</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">שימוש בצבע מותאם אישית</string>
-    <string name="monet_engine_custom_color_summary">השתמש בצבעים מותאמים עבוד מערכת ה־Monet במקום בצבעי רקע המכשיר</string>
+    <string name="monet_engine_custom_color_title">צבע ההדגשה</string>
+    <string name="monet_engine_custom_color_summary">בחירת צבע מותאם להדגשה</string>
+    <string name="monet_engine_custom_bgcolor_title">צבע הרקע</string>
+    <string name="monet_engine_custom_bgcolor_summary">בחירת צבע מותאם לרקע</string>
     <string name="monet_engine_color_override_title">צבע מותאם אישית</string>
-    <string name="monet_engine_white_luminance_user_title">בהיקות לבנה</string>
-    <string name="monet_engine_accurate_shades_title">השתמש בהצללות מדויקות</string>
+    <string name="monet_engine_luminance_factor_title">הארה</string>
+    <string name="monet_engine_luminance_factor_summary">ערכים גבוהים יפיקו צבעים בוהקים יותר</string>
     <string name="monet_engine_chroma_factor_title">גורם כרומטיות</string>
-    <string name="monet_engine_linear_lightness_title">השתמש בבהיקות חדה</string>
+    <string name="monet_engine_chroma_factor_summary">ערכים גבוהים יפיקו צבעים עמוקים יותר</string>
+    <string name="monet_engine_tint_background_title">גון הרקע</string>
+    <string name="monet_engine_tint_background_summary">בחירות ההארה ועומק הצבע יחולו גם על צבעי הרקע</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">פתיחה מהירה</string>
     <string name="unlock_quick_unlock_control_summary">פתח אוטומטית כאשר הקוד/הסיסמא הנכונה הוכנסה</string>
@@ -262,15 +270,15 @@
     <string name="doze_vibrate">רטט</string>
     <string name="doze_vibrate_summary">אורך זמן הרטט בהתראה פועמת</string>
     <string name="sensor_warning_message">הגדרות המבוססות על חיישנים כפופות לתאימות החומרה. הפעלת חיישנים לתצוגת סביבה עשויה להגביר את צריכת החשמל.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">שוליים זוהרות</string>
-    <string name="pulse_ambient_light_summary">האר את שוליי המכשיר בעת כניסת התראה</string>
-    <string name="pulse_ambient_light_color_title">צבע שוליים מוארים</string>
-    <string name="pulse_ambient_light_duration_title">משך זמן הארת השוליים</string>
-    <string name="pulse_ambient_light_duration_summary">מגדיר את זמן אנימציית תאורת הסביבה</string>
-    <string name="pulse_ambient_light_layout_title">הראה שוליים זוהרות</string>
-    <string name="pulse_ambient_light_layout_solid">אחיד</string>
-    <string name="pulse_ambient_light_layout_faded">מעומעם</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">שוליים זוהרים</string>
+    <string name="edge_light_summary">הארת שולי המסך הצדדיים בפעימת התראה</string>
+    <string name="edge_light_always_trigger_on_pulse_title">הפעלה תמיד בפעימה</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">האם להציג תאורת שוליים בכל פעם שמוצגת תצוגת סביבה ולא רק עבור התראות</string>
+    <string name="edge_light_repeat_animation_title">חזרה על ההנפשה</string>
+    <string name="edge_light_repeat_animation_summary_on">חזרה עד סיום הזמן הקצוב</string>
+    <string name="edge_light_repeat_animation_summary_off">הצגה פעם אחת בלבד</string>
+    <string name="edge_light_color_mode_title">מצב צבע השוליים הזוהרים</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">מצב נגן מוזיקה</string>
     <string name="pulse_on_new_tracks_summary">הצג מידע על המוזיקה הנשמעת בתצוגת הסביבה בעת העברת רצועת שמע</string>
@@ -551,8 +559,8 @@
     <string name="qs_footer_show_power_menu_title">קיצור דרך לתפריט הפעלה</string>
     <string name="qs_footer_services_icon_title">קיצור דרך להפעלת שירותים</string>
     <string name="qs_footer_settings_icon_title">קיצור דרך להגדרות</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">חוקי crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">חוקי AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">מחוון בהירות</string>
     <string name="qs_show_brightness_slider_never">אל תציג אף פעם</string>
@@ -746,6 +754,8 @@
     <string name="bluetooth_timeout_summary">ללא כיבוי אוטומטי של Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">כיבוי Bluetooth אם אין מכשירים מחוברים כעבור <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="custom_timeout_summary_never">לעולם לא</string>
+    <string name="custom_timeout_summary_5secs">5 שניות</string>
+    <string name="custom_timeout_summary_10secs">10 שניות</string>
     <string name="custom_timeout_summary_15secs">15 שניות</string>
     <string name="custom_timeout_summary_30secs">30 שניות</string>
     <string name="custom_timeout_summary_1min">דקה אחת</string>
@@ -955,6 +965,39 @@
     <string name="status_bar_logo_summary">הצגת סמל מסחרי מותאם בימין או בשמאל שורת המצב</string>
     <string name="status_bar_logo_position_title">מיקום הסמל</string>
     <string name="status_bar_logo_style_title">סגנון הסמל</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">אנדרואיד</string>
+    <string name="status_bar_logo_style_adidas">אדידס</string>
+    <string name="status_bar_logo_style_alien">חייזר</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">הנוקמים</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">באטמן האביר האפל</string>
+    <string name="status_bar_logo_style_beats">ביטס</string>
+    <string name="status_bar_logo_style_biohazard">סכנה ביולוגית</string>
+    <string name="status_bar_logo_style_blackberry">בלאקברי</string>
+    <string name="status_bar_logo_style_cannabis">קנאביס</string>
+    <string name="status_bar_logo_style_emoticon_cool">אמוג\'י cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">אמוג\'י שטן</string>
+    <string name="status_bar_logo_style_fire">אש</string>
+    <string name="status_bar_logo_style_heart">לב</string>
+    <string name="status_bar_logo_style_nike">נייק</string>
+    <string name="status_bar_logo_style_pacman">פק־מן</string>
+    <string name="status_bar_logo_style_puma">פומה</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">ספיידרמן</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">רוח רפאים</string>
+    <string name="status_bar_logo_style_ninja">נינג\'ה</string>
+    <string name="status_bar_logo_style_robot">רובוט</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">קפטן אמריקה</string>
+    <string name="status_bar_logo_style_flash">פלאש</string>
+    <string name="status_bar_logo_style_tux">טַקס</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">הותקן: %1$s</string>
     <string name="app_info_update_time">עודכן: %1$s</string>
@@ -1017,4 +1060,30 @@
     <string name="lockscreen_shortcut_camera">מצלמה</string>
     <string name="lockscreen_shortcut_remote">שלט-רחוק של Google TV</string>
     <string name="lockscreen_shortcut_none">לא כלום</string>
+    <!-- App lock -->
+    <string name="app_lock_title">נעילת יישומים</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="two"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> יישומים מוגנים</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> יישומים מוגנים</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">ביטול נעילה</string>
+    <string name="enable_debugging">לאפשר איתור באגים</string>
+    <string name="disable_debugging">למנוע איתור באגים</string>
+    <string name="app_lock_packages_title">יישומים מוגנים</string>
+    <string name="app_lock_packages_summary">בחירת היישומים שיוגנו בעזרת נעילת המכשיר או זיהוי ביומטרי</string>
+    <string name="app_lock_timeout_title">קוצב הזמן לנעילה אוטומטית</string>
+    <string name="app_lock_timeout_summary">משך הזמן שלאחריו יישום מוגן שהופעל יינעל בשנית</string>
+    <string name="app_lock_notifications_title">עריכת התראות</string>
+    <string name="app_lock_notifications_summary">תוכן ההתראות יהיה מוסתר ופרוס ליישומים נבחרים כאשר יינעלו. התראות קופצות יימנעו אוטומטית.</string>
+    <string name="app_lock_notifications_disabled_summary">תחילה יש להגן על יישום</string>
+    <string name="app_lock_biometrics_allowed_title">לאפשר שימוש בזיהוי ביומטרי לפתיחת הנעילה</string>
+    <string name="app_lock_footer_text">בועות יבוטלו אוטומטית לאחר פרק זמן</string>
+    <string name="enable_protection">לאפשר הגנה</string>
+    <string name="hide_from_launcher_title">הסתרה מפני משגר היישומים (לאונצ\'ר)</string>
+    <string name="hide_from_launcher_summary">מניעת הצגת יישום זה בכל משגר יישומים (לאונצ\'ר). למימוש ההגדרה יש להפעיל מחדש את משגר היישומים (לאונצ\'ר).</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">מוצג תמיד בזמן טעינה</string>
+    <string name="doze_on_charge_summary">התקן התצוגה בטעינה</string>
 </resources>

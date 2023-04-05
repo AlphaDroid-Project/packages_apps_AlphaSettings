@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">الإعدادات</string>
     <string name="crdroid_settings_summary">ملخص الإعدادات</string>
     <string name="reset_settings_title">إعادة ضبط الإعدادات</string>
-    <string name="reset_settings_message">سيؤدي ذلك إلى إعادة تعيين معظم إعدادات Alpha إلى قيمها الافتراضية للمستخدم الحالي. هل ترغب في المتابعة؟</string>
+    <string name="reset_settings_message">سيؤدي ذلك إلى إعادة تعيين معظم إعدادات AlphaDroid إلى قيمها الافتراضية للمستخدم الحالي. هل ترغب في المتابعة؟</string>
     <!-- Personalization Categories -->
     <string name="button_title">الأزرار</string>
     <string name="lockscreen_title">شاشة القفل</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">اختيار تطبيق</string>
     <string name="enable">تمكين</string>
     <string name="disable">تعطيل</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">تخصيص اللون</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">سجل التغييرات الحالي</string>
     <string name="changelog_crdroid_summary">عرض التغييرات في الروم المثبت</string>
     <string name="changelog_crdroid_error">غير قادر على تحميل سجل التغييرات</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">حول crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">حول AlphaDroid</string>
     <string name="about_device_name">الجهاز</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">مشاركة crDroid</string>
-    <string name="share_crdroid_summary">دع الآخرين يعرفون عن crDroid</string>
-    <string name="share_message">تحقق مما إذا كان #crDroidAndroid متوفر لجهازك @ https://crdroid.net/</string>
-    <string name="share_chooser_title">مشاركة crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">مشاركة AlphaDroid</string>
+    <string name="share_crdroid_summary">دع الآخرين يعرفون عن AlphaDroid</string>
+    <string name="share_message">تحقق مما إذا كان #AlphaDroidAndroid متوفر لجهازك @ https://crdroid.net/</string>
+    <string name="share_chooser_title">مشاركة AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">على موقع Github</string>
     <string name="crdroid_source_summary">نحن نحب المصدر المفتوح، تحقق منا</string>
-    <string name="crdroid_telegram_title">مجتمع crDroid</string>
+    <string name="crdroid_telegram_title">مجتمع AlphaDroid</string>
     <string name="crdroid_telegram_summary">نحن على تليجرام. انضم إلينا!</string>
     <string name="crdroid_telegram_channel_title">قناة التحديثات</string>
     <string name="crdroid_telegram_channel_summary">احصل على إشعارات بالتحديثات الجديدة على تيليجرام</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">الترجمة</string>
     <string name="crdroid_translate_summary">المساعدة في تعريب الروم بلغتك!</string>
     <string name="crdroid_sponsor_summary">قم بزيارة الشريك المضيف لموقعنا</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">ادعمنا</string>
     <string name="donate_crdroid_summary">تبرع لدعم المزيد من التطوير</string>
-    <string name="donate_team_title">فريق crDroid</string>
+    <string name="donate_team_title">فريق AlphaDroid</string>
     <string name="donate_team_summary">التبرع لدعم استضافة الخوادم، وموقع العمل الإضافي والإدارة العامة</string>
     <!-- The Drill -->
     <string name="drill_title">الطريقة لابلاغ عن مشكلة</string>
@@ -235,13 +239,17 @@
     <string name="monet_title">إعدادات أخرى</string>
     <string name="monet_summary">تخصيص محرك قالب Monet</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">إستخدام لون مخصص</string>
-    <string name="monet_engine_custom_color_summary">استخدام لون مخصص لمحرك monet بدلاً من ألوان الخلفية</string>
+    <string name="monet_engine_custom_color_title">لون المظهر</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
+    <string name="monet_engine_custom_bgcolor_title">Background color</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">لون مخصص</string>
-    <string name="monet_engine_white_luminance_user_title">إنارة الأبيض</string>
-    <string name="monet_engine_accurate_shades_title">استخدام ظلال دقيقة للألوان</string>
+    <string name="monet_engine_luminance_factor_title">Luminance</string>
+    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="monet_engine_chroma_factor_title">عامل Chroma</string>
-    <string name="monet_engine_linear_lightness_title">استخدام إضاءة بنسب خطية</string>
+    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="monet_engine_tint_background_title">Tint background</string>
+    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">فتح سريع للقفل</string>
     <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عندما يتم إدخال PIN او كلمة السر صحيحة</string>
@@ -264,15 +272,15 @@
     <string name="doze_vibrate">الإهتزاز</string>
     <string name="doze_vibrate_summary">مدة الاهتزاز عند التنبيهات النبضية</string>
     <string name="sensor_warning_message">تخضع الإعدادات المستندة إلى أجهزة الاستشعار لتوافق القطع الداخلية للجهاز. قد يؤدي تمكين الشاشة الدائمة إلى زيادة استنزاف الطاقة.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">إضاءة الحافة</string>
-    <string name="pulse_ambient_light_summary">إضاءة الحواف الجانبية للشاشة عند تلقي الإشعارات</string>
-    <string name="pulse_ambient_light_color_title">لون إضاءة الحافة</string>
-    <string name="pulse_ambient_light_duration_title">مدة إضاءة الحافة</string>
-    <string name="pulse_ambient_light_duration_summary">تعيين مدة الرسوم المتحركة للضوء</string>
-    <string name="pulse_ambient_light_layout_title">عرض إضاءة الحافة</string>
-    <string name="pulse_ambient_light_layout_solid">لون كامل</string>
-    <string name="pulse_ambient_light_layout_faded">متلاشى</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">تضيء الحواف الجانبية للشاشة على نبض الإعلام</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">شريط الأغاني</string>
     <string name="pulse_on_new_tracks_summary">إظهار مؤشر الموسيقى على الشاشة الدائمة أثناء تغيير المسار</string>
@@ -553,8 +561,8 @@
     <string name="qs_footer_show_power_menu_title">اختصار قائمة التشغيل</string>
     <string name="qs_footer_services_icon_title">عرض رمز اختصار للخدمات قيد التشغيل</string>
     <string name="qs_footer_settings_icon_title">إختصار الإعدادات</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">فريق crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">فريق AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">شريط السطوع</string>
     <string name="qs_show_brightness_slider_never">لا تُظهر أبداً</string>
@@ -748,6 +756,8 @@
     <string name="bluetooth_timeout_summary">عدم إطفاء البلوتوث تلقائياً</string>
     <string name="bluetooth_timeout_summary_auto">سيتم إيقاف تشغيل البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يكن هناك جهاز متصل</string>
     <string name="custom_timeout_summary_never">أبدًا</string>
+    <string name="custom_timeout_summary_5secs">5 ثوانٍ</string>
+    <string name="custom_timeout_summary_10secs">10 ثوانٍ</string>
     <string name="custom_timeout_summary_15secs">15 ثانية</string>
     <string name="custom_timeout_summary_30secs">30 ثانية</string>
     <string name="custom_timeout_summary_1min">دقيقة واحدة</string>
@@ -796,9 +806,9 @@
     <string name="short_label">قصير</string>
     <string name="long_label">طويل</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="gesture_navbar_radius_title">منحنى الزاوية</string>
     <string name="thin_label">رفيع</string>
-    <string name="thick_label">Thick</string>
+    <string name="thick_label">سميك</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">كامل</string>
     <string name="back_height_high_label">الأسفل</string>
@@ -959,6 +969,39 @@
     <string name="status_bar_logo_summary">عرض شعار مخصص على اليسار أو اليمين من شريط الحالة</string>
     <string name="status_bar_logo_position_title">موقع الشعار</string>
     <string name="status_bar_logo_style_title">نمط الشعار</string>
+    <string name="status_bar_logo_style_crdroid">كردرويد</string>
+    <string name="status_bar_logo_style_android">أندرويد</string>
+    <string name="status_bar_logo_style_adidas">أديداس</string>
+    <string name="status_bar_logo_style_alien">كائن فضائي</string>
+    <string name="status_bar_logo_style_apple">آبل</string>
+    <string name="status_bar_logo_style_avengers">المنتقمون</string>
+    <string name="status_bar_logo_style_batman">باتمان</string>
+    <string name="status_bar_logo_style_batman_tdk">فارس الظلام باتمان</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">بيولوجي</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">تعبير بارد</string>
+    <string name="status_bar_logo_style_emoticon_devil">تعبير الشرير</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">قلب</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">سوبرمان</string>
+    <string name="status_bar_logo_style_windows">ويندوز</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">شبح</string>
+    <string name="status_bar_logo_style_ninja">نينجا</string>
+    <string name="status_bar_logo_style_robot">إنسان آلي</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">فلاش</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">جاري التثبيت %1$s</string>
     <string name="app_info_update_time">تم تحديث %1$s</string>
@@ -1019,4 +1062,32 @@
     <string name="lockscreen_shortcut_camera">الكاميرا</string>
     <string name="lockscreen_shortcut_remote">Google TV Remote</string>
     <string name="lockscreen_shortcut_none">بلا</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="zero"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="two"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">إلغاء القفل</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>

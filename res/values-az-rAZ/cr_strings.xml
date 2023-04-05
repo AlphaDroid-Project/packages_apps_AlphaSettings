@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Tənzimləmələri</string>
+    <string name="crdroid_settings_title">AlphaDroid Tənzimləmələri</string>
     <string name="crdroid_settings_summary">Cihazınızı özəlləşdirin</string>
     <string name="reset_settings_title">Parametrləri sıfırla</string>
-    <string name="reset_settings_message">Bu, əksər Alpha parametrlərini cari istifadəçi üçün standart dəyərlərinə sıfırlayacaq. Davam etmək istərsinizmi?</string>
+    <string name="reset_settings_message">Bu, əksər AlphaDroid parametrlərini cari istifadəçi üçün standart dəyərlərinə sıfırlayacaq. Davam etmək istərsinizmi?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Düymələr</string>
     <string name="lockscreen_title">Kilid Ekranı</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Tətbiqi seçin</string>
     <string name="enable">Aktiv</string>
     <string name="disable">Deaktiv</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="custom_color">Xüsusi rəng</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">İndiki dəyişikliklər</string>
     <string name="changelog_crdroid_summary">ROM qurulduqdakı dəyişiklikləri göstər</string>
     <string name="changelog_crdroid_error">Dəyişiklər yüklənə bilmir</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">crDroid haqqında</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">AlphaDroid haqqında</string>
     <string name="about_device_name">Cihaz</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">crDroid\'i paylaş</string>
-    <string name="share_crdroid_summary">crDroid haqqında başqalarının görüşlərini öyrənin</string>
-    <string name="share_message">crDroid\'in sizin cihaza uyğun olduğunu @ https://crdroid.net/ saytından öyrənə bilərsiniz</string>
-    <string name="share_chooser_title">crDroid\'i paylaş</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">AlphaDroid\'i paylaş</string>
+    <string name="share_crdroid_summary">AlphaDroid haqqında başqalarının görüşlərini öyrənin</string>
+    <string name="share_message">AlphaDroid\'in sizin cihaza uyğun olduğunu @ https://crdroid.net/ saytından öyrənə bilərsiniz</string>
+    <string name="share_chooser_title">AlphaDroid\'i paylaş</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Biz açıq qaynaqları sevirik, izləmədə qalın</string>
-    <string name="crdroid_telegram_title">crDroid Cəmiyyəti</string>
+    <string name="crdroid_telegram_title">AlphaDroid Cəmiyyəti</string>
     <string name="crdroid_telegram_summary">Biz telegramdayıq. Bizə qoşulun!</string>
     <string name="crdroid_telegram_channel_title">Yeniləmə kanalı</string>
     <string name="crdroid_telegram_channel_summary">Yeni versiyalar üçün Telegramdan xəbər alın</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">Tərcümələr</string>
     <string name="crdroid_translate_summary">ROM tərcüməsinə kömək edin!</string>
     <string name="crdroid_sponsor_summary">Bizim host partnyorlarımızı ziyarət edin</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Bizi dəstəkləyin</string>
     <string name="donate_crdroid_summary">Gələcəkdə inkişaf üçün bizə dəstək olun</string>
-    <string name="donate_team_title">crDroid komandası</string>
+    <string name="donate_team_title">AlphaDroid komandası</string>
     <string name="donate_team_summary">Server, sayt və ümumi yönətmə üçün bizə dəstək olun</string>
     <!-- The Drill -->
     <string name="drill_title">The Drill</string>
@@ -231,13 +235,17 @@
     <string name="monet_title">Monet tənzimləmələri</string>
     <string name="monet_summary">Monet tema motorunu fərdiləşdirin</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Xüsusi rəng seç</string>
-    <string name="monet_engine_custom_color_summary">Divar kağızı rəngləri əvəzinə monet motoru üçün fərdi rənglərdən istifadə edin</string>
+    <string name="monet_engine_custom_color_title">Vurğu rəngi</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
+    <string name="monet_engine_custom_bgcolor_title">Background color</string>
+    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">Xüsusi rəng</string>
-    <string name="monet_engine_white_luminance_user_title">Ağ laminasiya</string>
-    <string name="monet_engine_accurate_shades_title">Dəqiq kölgələrdən istifadə edin</string>
+    <string name="monet_engine_luminance_factor_title">Luminance</string>
+    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="monet_engine_chroma_factor_title">Xroma faktoru</string>
-    <string name="monet_engine_linear_lightness_title">Xətti işıqlıqdan istifadə edin</string>
+    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="monet_engine_tint_background_title">Tint background</string>
+    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Cəld kilid açma</string>
     <string name="unlock_quick_unlock_control_summary">Düzgün PIN/şifrə daxil edilərsə kilidi avtomatik aç</string>
@@ -260,15 +268,15 @@
     <string name="doze_vibrate">Vibrasiya</string>
     <string name="doze_vibrate_summary">Titrəşimli bildirişlər zamanı titrəmənin vaxt aralığı</string>
     <string name="sensor_warning_message">Sensorlara bağlı tənzimləmələr donanım uyumluluğuna bağlıdır. Ortam ekranı üçün sensorların aktivləşdirilməsi əlavə sərfiyyata səbəb ola bilər.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Kənar aydınlatma</string>
-    <string name="pulse_ambient_light_summary">Bildiriş ekranında ekranın yan kənarlarını aydınladın</string>
-    <string name="pulse_ambient_light_color_title">Kənar aydınlatma rəngi</string>
-    <string name="pulse_ambient_light_duration_title">Kənar aydınlatma müddəti</string>
-    <string name="pulse_ambient_light_duration_summary">Ortam ekranının animasiya müddətini təyin edin</string>
-    <string name="pulse_ambient_light_layout_title">Kənar aydınlatma görünüşü</string>
-    <string name="pulse_ambient_light_layout_solid">Bərk</string>
-    <string name="pulse_ambient_light_layout_faded">Solma</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Musiqi qeydi</string>
     <string name="pulse_on_new_tracks_summary">Musiqi dəyişərkən Ortam ekranında musiqi adını göstər</string>
@@ -318,7 +326,7 @@
     <string name="theme_customization_navbar_title">Navigasiya paneli stili</string>
     <string name="theme_customization_navbar_summary">Xüsusi Navigasiya Paneli stili ayarlayın</string>
     <string name="theme_customization_lock_clock_title">Saatın şriftinin ölçüsü</string>
-    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+    <string name="theme_customization_lock_clock_summary">Kilid ekranı saat şrift stili</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title_custom">Varsayılan Yeniləmə Tezliyi</string>
     <string name="peak_refresh_rate_title_custom">Ən yüksək Yeniləmə Tezliyi</string>
@@ -502,11 +510,11 @@
     <string name="navbar_invert_layout_summary">Hərəkət sətrinin və IME dəyişdirici kimi digər elementlərin düzümünü tərsinə çevirər</string>
     <string name="navbar_actions_category_title">Hərəkətlər</string>
     <string name="navbar_back_long_press_title">Geri Uzun Basın</string>
-    <string name="navbar_back_double_tap_title">Back double tap</string>
+    <string name="navbar_back_double_tap_title">Geriyə cüt toxunuş</string>
     <string name="navbar_home_long_press_title">Home Long Press</string>
     <string name="navbar_home_double_tap_title">Ana Ekrana iki dəfə toxunun</string>
     <string name="navbar_app_switch_long_press_title">Son Tədbiqlərə uzun basma</string>
-    <string name="navbar_app_switch_double_tap_title">Recents double tap</string>
+    <string name="navbar_app_switch_double_tap_title">Sonuncu üçün cüt toxunuş </string>
     <string name="navbar_edge_long_swipe_title">Kənarla uzun sürüşdürün</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cib aşkarlanması</string>
@@ -549,8 +557,8 @@
     <string name="qs_footer_show_power_menu_title">Güc menyusu üçün qısayol</string>
     <string name="qs_footer_services_icon_title">Çalışan Xidmətlər Qısayolu</string>
     <string name="qs_footer_settings_icon_title">Ayarlar Qısayolu</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid Qanuni</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">AlphaDroid Qanuni</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Parlaqlıq diyircəyi</string>
     <string name="qs_show_brightness_slider_never">Heç vaxt göstərmə</string>
@@ -744,6 +752,8 @@
     <string name="bluetooth_timeout_summary">Bluetooth-u avtomatik söndürmə</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth, heç bir cihaza qoşulmayıbsa <xliff:g id="timeout_description">%1$s</xliff:g> sonra söndürüləcək</string>
     <string name="custom_timeout_summary_never">Heç vaxt</string>
+    <string name="custom_timeout_summary_5secs">5 saniyə</string>
+    <string name="custom_timeout_summary_10secs">10 saniyə</string>
     <string name="custom_timeout_summary_15secs">15 saniyə</string>
     <string name="custom_timeout_summary_30secs">30 saniyə</string>
     <string name="custom_timeout_summary_1min">1 dəqiqə</string>
@@ -788,9 +798,9 @@
     <string name="short_label">Qısa</string>
     <string name="long_label">Uzun</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="gesture_navbar_radius_title">Həb radiusu</string>
     <string name="thin_label">İncə</string>
-    <string name="thick_label">Thick</string>
+    <string name="thick_label">Qalın</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Tam</string>
     <string name="back_height_high_label">Alt</string>
@@ -951,6 +961,39 @@
     <string name="status_bar_logo_summary">Vəziyyət panelinin solunda və ya sağında fərdi loqo göstərin</string>
     <string name="status_bar_logo_position_title">Loqo məkanı</string>
     <string name="status_bar_logo_style_title">Loqo görünüşü</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Flaş</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Yükləndi: %1$s</string>
     <string name="app_info_update_time">Güncəlləndi: %1$s</string>
@@ -958,57 +1001,82 @@
     <string name="show_clipboard_overlay_title">Mübadilə buferini göstər</string>
     <string name="show_clipboard_overlay_summary">Mübadilə buferinə bir şey kopyalandıqda ekranın sol alt küncündə üst-üstə düşməsini göstərin</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="sensor_block_title">Paket başına sensor bloku</string>
+    <string name="sensor_block_summary">Batareyaya qənaət etmək üçün bəzi tətbiqlər üçün müəyyən sensorlara girişi bloklayın</string>
+    <string name="sensor_block_app_picker_title">Bu proqramlar üçün sensorları bloklayın</string>
+    <string name="add_sensor_block_package_title">Sensor bloku üçün proqramlar əlavə edin</string>
+    <string name="add_sensor_block_package_summary">Əhəmiyyətli hərəkət, akselerometr, xətti sürətlənmə sensorları bu tətbiqlər üçün bloklanacaq</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">Zəng səsi üçün vibrasiya nümunəsi</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Özəl</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="custom_vibration_pattern_title">Özəl model </string>
+    <string name="custom_vibration_pattern_summary">Özəl vibrasiya nümunəsi təyin edin</string>
     <!-- Per-channel vibration pattern -->
-    <string name="notification_custom_vibrate_title">Custom vibration pattern</string>
-    <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
-    <string name="notification_custom_vibrate_slider1">Vibrate for</string>
-    <string name="notification_custom_vibrate_slider2">Pause for</string>
+    <string name="notification_custom_vibrate_title">Özəl vibrasiya nümunəsi</string>
+    <string name="notification_custom_vibrate_summary">Yalnız defolt nümunəni əvəz edir\nTətbiq dəsti nümunəsi üstünlük təşkil edir</string>
+    <string name="notification_custom_vibrate_slider1">üçün vibrasiya </string>
+    <string name="notification_custom_vibrate_slider2">üçün fasilə </string>
     <!-- Floating rotation button -->
-    <string name="floating_rotation_button_title">Floating rotate button</string>
-    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
+    <string name="floating_rotation_button_title">Üzən fırlanma düyməsi</string>
+    <string name="floating_rotation_button_summary">Cihaz fırlananda üzən fırlanma düyməsini göstərin
+ </string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+    <string name="netflix_spoof_title">Netflix saxtakarlığı</string>
+    <string name="netflix_spoof_summary">Cihazınızı Netflix üçün fərqli model kimi saxtalaşdırın</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Connectivity check</string>
-    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+    <string name="captive_portal_title">Bağlantı yoxlanışı</string>
+    <string name="captive_portal_summary">Google ilə əlaqə saxlayaraq cihazın internetə qoşula biləcəyini müəyyənləşdirin. Əsir portalları aşkar etmək üçün də istifadə olunur.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_reset">Statistikalar sıfırlansın?</string>
+    <string name="battery_stats_message">Batareyadan istifadə məlumatları silinəcək</string>
     <!-- Parallel space -->
-    <string name="laboratory_parallel_space_title">Parallel space</string>
-    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel</string>
+    <string name="laboratory_parallel_space_title">Paralel boşluq</string>
+    <string name="laboratory_parallel_space_summary">Eyni tətbiqin bir neçə nümunəsini paralel olaraq işə salmağa icazə verin</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">WiFi standard</string>
-    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
+    <string name="wifi_standard_icon_title">WiFi standartı</string>
+    <string name="wifi_standard_icon_summary">Ekranda WiFi siqnalının yanında WiFi standartını göstərin</string>
     <!-- Google services -->
-    <string name="gms_enabled_title">Google services</string>
-    <string name="gms_enabled_summary">Control Google services and core apps</string>
-    <string name="gms_enabled_footer">Before disabling Google services and core apps, you should disable \"Find My Device\" and 2-step verification on your Google account. It is strongly recommended to keep this setting enabled else apps dependent on Google components will be affected. If you run into any issues after changing this setting, perform a factory reset.</string>
+    <string name="gms_enabled_title">Google servisi </string>
+    <string name="gms_enabled_summary">Google xidmətləri və əsas tətbiqləri idarə edin</string>
+    <string name="gms_enabled_footer">Google xidmətlərini və əsas tətbiqləri deaktiv etməzdən əvvəl, Google hesabınızda \"Cihazımı tap\" və 2 addımlı doğrulamanı deaktiv etməlisiniz.  Bu ayarı aktiv saxlamaq tövsiyə olunur, əks halda Google komponentlərindən asılı olan tətbiqlər təsirlənəcək.  Bu ayarı dəyişdikdən sonra hər hansı problemlə üzləşsəniz, zavod parametrlərinə sıfırlayın.</string>
     <!-- Lockscreen bottom shortcuts -->
-    <string name="lockscreen_shortcut_category">Bottom shortcuts</string>
-    <string name="lockscreen_shortcut_start_title">Left shortcut</string>
-    <string name="lockscreen_shortcut_end_title">Right shortcut</string>
-    <string name="lockscreen_shortcut_home">Home controls</string>
-    <string name="lockscreen_shortcut_wallet">Wallet</string>
+    <string name="lockscreen_shortcut_category">Alt qısayollar</string>
+    <string name="lockscreen_shortcut_start_title">Sol qısayol</string>
+    <string name="lockscreen_shortcut_end_title">Sağ qısayol</string>
+    <string name="lockscreen_shortcut_home">Ev nəzarəti</string>
+    <string name="lockscreen_shortcut_wallet">Pulqabı</string>
     <string name="lockscreen_shortcut_flashlight">Fənər</string>
-    <string name="lockscreen_shortcut_qr">QR code scanner</string>
-    <string name="lockscreen_shortcut_camera">Camera</string>
-    <string name="lockscreen_shortcut_remote">Google TV Remote</string>
+    <string name="lockscreen_shortcut_qr">QR kod skaneri</string>
+    <string name="lockscreen_shortcut_camera">Kamera</string>
+    <string name="lockscreen_shortcut_remote">Google TV Pultu</string>
     <string name="lockscreen_shortcut_none">Heç biri</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Kilidi aç</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>

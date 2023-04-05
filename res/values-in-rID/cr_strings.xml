@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Setelan crDroid</string>
+    <string name="crdroid_settings_title">Setelan AlphaDroid</string>
     <string name="crdroid_settings_summary">Kebaikan terbuka</string>
     <string name="reset_settings_title">Setel ulang pengaturan</string>
-    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan Alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
+    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan AlphaDroid ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tombol</string>
     <string name="lockscreen_title">Layar Kunci</string>
@@ -52,22 +52,26 @@
     <string name="choose_app">Pilih aplikasi</string>
     <string name="enable">Aktifkan</string>
     <string name="disable">Nonaktifkan</string>
+    <string name="accent_color">Warna aksen (Bawaan)</string>
+    <string name="notification_color">Warna notifikasi</string>
+    <string name="wallpaper_color">Warna wallpaper</string>
+    <string name="custom_color">Warna kustom</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Perubahan saat ini</string>
     <string name="changelog_crdroid_summary">Lihat perubahan pada ROM terpasang</string>
     <string name="changelog_crdroid_error">Tidak dapat memuat daftar perubahan</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Tentang crDroid</string>
+    <!-- About AlphaDroid -->
+    <string name="about_crdroid">Tentang AlphaDroid</string>
     <string name="about_device_name">Perangkat</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Bagikan crDroid</string>
-    <string name="share_crdroid_summary">Biarkan orang lain tahu tentang crDroid</string>
-    <string name="share_message">Periksa apakah #crDroidAndroid tersedia untuk perangkat Anda @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Bagikan crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share AlphaDroid -->
+    <string name="share_crdroid_title">Bagikan AlphaDroid</string>
+    <string name="share_crdroid_summary">Biarkan orang lain tahu tentang AlphaDroid</string>
+    <string name="share_message">Periksa apakah #AlphaDroidAndroid tersedia untuk perangkat Anda @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Bagikan AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Kami cinta open source, periksa kami</string>
-    <string name="crdroid_telegram_title">Komunitas crDroid</string>
+    <string name="crdroid_telegram_title">Komunitas AlphaDroid</string>
     <string name="crdroid_telegram_summary">Kami ada di Telegram. Ayo bergabung!</string>
     <string name="crdroid_telegram_channel_title">Saluran Pembaruan</string>
     <string name="crdroid_telegram_channel_summary">Dapatkan notifikasi tentang pembaruan baru dari Telegram</string>
@@ -76,10 +80,10 @@
     <string name="crdroid_translate_title">Terjemahan</string>
     <string name="crdroid_translate_summary">Bantu kami menerjemahkan ROM ini ke bahasa Anda!</string>
     <string name="crdroid_sponsor_summary">Kunjungi mitra host situs web kami</string>
-    <!-- Donate crDroid -->
+    <!-- Donate AlphaDroid -->
     <string name="donate_crdroid_title">Dukung Kami</string>
     <string name="donate_crdroid_summary">Donasi untuk mendukung pengembangan lebih lanjut</string>
-    <string name="donate_team_title">Tim crDroid</string>
+    <string name="donate_team_title">Tim AlphaDroid</string>
     <string name="donate_team_summary">Donasi untuk mendukung server hosting, keaktifan situs serta pemanajemenan secara keseluruhan</string>
     <!-- The Drill -->
     <string name="drill_title">The Drill</string>
@@ -230,13 +234,17 @@
     <string name="monet_title">Setelan Monet</string>
     <string name="monet_summary">Sesuaikan mesin tema Monet</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Gunakan warna kustom</string>
-    <string name="monet_engine_custom_color_summary">Gunakan warna kustom untuk mesin monet alih-alih warna wallpaper</string>
+    <string name="monet_engine_custom_color_title">Warna aksen</string>
+    <string name="monet_engine_custom_color_summary">Pilih warna kustom untuk aksen</string>
+    <string name="monet_engine_custom_bgcolor_title">Warna latar belakang</string>
+    <string name="monet_engine_custom_bgcolor_summary">Pilih warna kustom untuk latar belakang</string>
     <string name="monet_engine_color_override_title">Warna kustom</string>
-    <string name="monet_engine_white_luminance_user_title">Pencahayaan putih</string>
-    <string name="monet_engine_accurate_shades_title">Gunakan nuansa yang akurat</string>
+    <string name="monet_engine_luminance_factor_title">Pencahayaan</string>
+    <string name="monet_engine_luminance_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih cerah</string>
     <string name="monet_engine_chroma_factor_title">Faktor kroma</string>
-    <string name="monet_engine_linear_lightness_title">Gunakan cahaya linier</string>
+    <string name="monet_engine_chroma_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih kuat</string>
+    <string name="monet_engine_tint_background_title">Warna latar belakang</string>
+    <string name="monet_engine_tint_background_summary">Jadikan pemilihan Pencahayaan dan Kroma juga memengaruhi warna latar belakang</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Buka cepat</string>
     <string name="unlock_quick_unlock_control_summary">Buka kunci secara otomatis ketika PIN/kata sandi yang benar dimasukkan</string>
@@ -259,15 +267,15 @@
     <string name="doze_vibrate">Getar</string>
     <string name="doze_vibrate_summary">Durasi bergetar ketika pemberitahuan berbunyi</string>
     <string name="sensor_warning_message">Pengaturan berdasarkan sensor pada kompatibilitas perangkat keras. Mengaktifkan sensor untuk tampilan ambien dapat meningkatkan pengurasan daya.</string>
-    <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_title">Pencahayaan sisi layar</string>
-    <string name="pulse_ambient_light_summary">Menambahkan pencahayaan sisi samping pada layar saat ada notifikasi baru</string>
-    <string name="pulse_ambient_light_color_title">Warna sisi pencahayaan</string>
-    <string name="pulse_ambient_light_duration_title">Durasi sisi pencahayaan</string>
-    <string name="pulse_ambient_light_duration_summary">Atur durasi animasi pencahayaan sekeliling</string>
-    <string name="pulse_ambient_light_layout_title">Tampilan cahaya sisi</string>
-    <string name="pulse_ambient_light_layout_solid">Padat</string>
-    <string name="pulse_ambient_light_layout_faded">Memudar</string>
+    <!-- Edge light -->
+    <string name="edge_light_title">Cahaya Tepi</string>
+    <string name="edge_light_summary">Menambahkan pencahayaan sisi samping dari layar di denyut pemberitahuan</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Selalu terpicu saat bergetar</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Apakah akan menampilkan cahaya tepi setiap kali tampilan ambien ditampilkan dan bukan hanya untuk notifikasi</string>
+    <string name="edge_light_repeat_animation_title">Ulangi animasi</string>
+    <string name="edge_light_repeat_animation_summary_on">Ulangi sampai waktu habis</string>
+    <string name="edge_light_repeat_animation_summary_off">Tampilkan hanya sekali</string>
+    <string name="edge_light_color_mode_title">Mode warna Cahaya Tepi</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Penampil musik</string>
     <string name="pulse_on_new_tracks_summary">Tampilkan penampil musik di Tampilan Ambien selama perubahan trek</string>
@@ -317,7 +325,7 @@
     <string name="theme_customization_navbar_title">Gaya Bilah Navigasi</string>
     <string name="theme_customization_navbar_summary">Setel gaya bilah navigasi kustom</string>
     <string name="theme_customization_lock_clock_title">Gaya huruf jam</string>
-    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+    <string name="theme_customization_lock_clock_summary">Setel gaya font jam layar kunci</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title_custom">Kecepatan refresh default</string>
     <string name="peak_refresh_rate_title_custom">Kecepatan refresh maksimum</string>
@@ -548,8 +556,8 @@
     <string name="qs_footer_show_power_menu_title">Pintasan menu daya</string>
     <string name="qs_footer_services_icon_title">Pintasan Layanan Berjalan</string>
     <string name="qs_footer_settings_icon_title">Setelan pintasan</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Hukum crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">Hukum AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Slider kecerahan</string>
     <string name="qs_show_brightness_slider_never">Jangan tampilkan</string>
@@ -743,6 +751,8 @@
     <string name="bluetooth_timeout_summary">Jangan matikan Bluetooth secara otomatis</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
     <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_5secs">5 detik</string>
+    <string name="custom_timeout_summary_10secs">10 detik</string>
     <string name="custom_timeout_summary_15secs">15 detik</string>
     <string name="custom_timeout_summary_30secs">30 detik</string>
     <string name="custom_timeout_summary_1min">1 menit</string>
@@ -786,9 +796,9 @@
     <string name="short_label">Pendek</string>
     <string name="long_label">Panjang</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
     <string name="thin_label">Tipis</string>
-    <string name="thick_label">Thick</string>
+    <string name="thick_label">Tebal</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
@@ -949,6 +959,39 @@
     <string name="status_bar_logo_summary">Tampilkan logo khusus di kiri atau kanan bilah status</string>
     <string name="status_bar_logo_position_title">Posisi Logo</string>
     <string name="status_bar_logo_style_title">Gaya logo</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Ganja</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emotikon keren</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticon iblis</string>
+    <string name="status_bar_logo_style_fire">Api</string>
+    <string name="status_bar_logo_style_heart">Hati</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Hantu</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Kapten Amerika</string>
+    <string name="status_bar_logo_style_flash">Cahaya</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Terpasang: %1$s</string>
     <string name="app_info_update_time">Diperbarui: %1$s</string>
@@ -1007,6 +1050,29 @@
     <string name="lockscreen_shortcut_flashlight">Senter</string>
     <string name="lockscreen_shortcut_qr">Pemindai kode QR</string>
     <string name="lockscreen_shortcut_camera">Kamera</string>
-    <string name="lockscreen_shortcut_remote">Google TV Remote</string>
+    <string name="lockscreen_shortcut_remote">Remote Google TV</string>
     <string name="lockscreen_shortcut_none">Tidak ada</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Kunci Aplikasi</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikasi dilindungi</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Buka kunci</string>
+    <string name="enable_debugging">Aktifkan debugging</string>
+    <string name="disable_debugging">Nonaktifkan debugging</string>
+    <string name="app_lock_packages_title">Aplikasi dilindungi</string>
+    <string name="app_lock_packages_summary">Pilih aplikasi yang akan dilindungi oleh biometrik atau kredensial perangkat</string>
+    <string name="app_lock_timeout_title">Batas waktu penguncian otomatis</string>
+    <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi yang tidak terkunci di latar belakang harus dikunci</string>
+    <string name="app_lock_notifications_title">Nonaktifkan notifikasi</string>
+    <string name="app_lock_notifications_summary">Konten notifikasi akan disembunyikan dan diciutkan untuk aplikasi yang dipilih saat dikunci. Notifikasi mengambang akan dinonaktifkan secara otomatis.</string>
+    <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
+    <string name="app_lock_biometrics_allowed_title">Aktifkan biometrik untuk membuka kunci</string>
+    <string name="app_lock_footer_text">Gelembung akan ditutup secara otomatis setelah waktu habis</string>
+    <string name="enable_protection">Aktifkan perlindungan</string>
+    <string name="hide_from_launcher_title">Sembunyikan dari peluncur</string>
+    <string name="hide_from_launcher_summary">Cegah aplikasi ini muncul di peluncur apa pun. Membutuhkan mulai ulang peluncur agar perubahan diterapkan.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Selalu tampilkan saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan perangkat sedang mengisi daya</string>
 </resources>
