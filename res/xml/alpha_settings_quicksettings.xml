@@ -20,9 +20,9 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     android:title="@string/quicksettings_title">
 
-    <PreferenceCategory
+<!--    <PreferenceCategory
          android:title="@string/preference_category_clock">
-
+-->
         <!-- QS clock
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="show_qs_clock"
@@ -49,12 +49,12 @@
             android:title="@string/qs_date_title"
             android:summary="@string/qs_date_summary"
             android:defaultValue="true" /> -->
-
+<!--
     </PreferenceCategory>
 
     <PreferenceCategory
          android:title="@string/preference_category_battery">
-
+-->
         <!-- Battery styles
         <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="qs_battery_style"
@@ -88,9 +88,9 @@
             android:icon="@drawable/ic_timelapse_cr"
             android:title="@string/battery_estimate_title"
             android:summary="@string/battery_estimate_summary" /> -->
-
+<!--
     </PreferenceCategory>
-
+-->
     <PreferenceCategory
          android:title="@string/preference_category_brightness">
 
