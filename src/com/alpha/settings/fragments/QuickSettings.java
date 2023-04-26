@@ -252,6 +252,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             setQsStyle(mOverlayService, "com.android.system.qs.surround");
         } else if (qsPanelStyle == 9) {
             setQsStyle(mOverlayService, "com.android.system.qs.thin");
+        } else if (qsPanelStyle == 10) {
+            setQsStyle(mOverlayService, "com.android.system.qs.twotoneaccenttrans");
         }
     }
 
