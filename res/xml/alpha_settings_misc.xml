@@ -82,22 +82,6 @@
             android:targetClass="ink.kscope.parallelspace.MainActivity" />
     </Preference>
 
-    <!-- Smart Charging -->
-    <Preference
-        android:key="smart_charging"
-        android:icon="@drawable/ic_battery_charging_80"
-        android:title="@string/smart_charging_title"
-        android:summary="@string/smart_charging_summary"
-        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings" />
-
-    <!-- Smart Cutoff -->
-    <Preference
-        android:key="smart_cutoff_key"
-        android:title="@string/smart_cutoff_title"
-        android:icon="@drawable/ic_battery_charging_80"
-        android:summary="@string/smart_cutoff_summary"
-        android:fragment="com.android.settings.fuelgauge.smartcutoff.SmartCutoffSettings" />
-
     <!-- Three-fingers-swipe to screenshot -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
