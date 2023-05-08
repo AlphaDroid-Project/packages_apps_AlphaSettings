@@ -46,7 +46,7 @@ import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.crdroid.Utils;
-
+import com.android.internal.util.crdroid.ThemeUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -86,6 +86,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
     private SystemSettingListPreference mPageTransitions;
+    private ThemeUtils mThemeUtils;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -96,6 +97,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         final Context mContext = getActivity().getApplicationContext();
         final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mThemeUtils = new ThemeUtils(getActivity());
 
         mOverlayService = IOverlayManager.Stub
         .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
@@ -234,66 +237,46 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         int qsPanelStyle = Settings.System.getIntForUser(getContext().getContentResolver(),
                 Settings.System.QS_PANEL_STYLE , 0, UserHandle.USER_CURRENT);
 
-        if (qsPanelStyle == 0) {
-            setDefaultStyle(mOverlayService);
-        } else if (qsPanelStyle == 1) {
-            setQsStyle(mOverlayService, "com.android.system.qs.outline");
-        } else if (qsPanelStyle == 2 || qsPanelStyle == 3) {
-            setQsStyle(mOverlayService, "com.android.system.qs.twotoneaccent");
-        } else if (qsPanelStyle == 4) {
-            setQsStyle(mOverlayService, "com.android.system.qs.shaded");
-        } else if (qsPanelStyle == 5) {
-            setQsStyle(mOverlayService, "com.android.system.qs.cyberpunk");
-        } else if (qsPanelStyle == 6) {
-            setQsStyle(mOverlayService, "com.android.system.qs.neumorph");
-        } else if (qsPanelStyle == 7) {
-            setQsStyle(mOverlayService, "com.android.system.qs.reflected");
-        } else if (qsPanelStyle == 8) {
-            setQsStyle(mOverlayService, "com.android.system.qs.surround");
-        } else if (qsPanelStyle == 9) {
-            setQsStyle(mOverlayService, "com.android.system.qs.thin");
-        } else if (qsPanelStyle == 10) {
-            setQsStyle(mOverlayService, "com.android.system.qs.twotoneaccenttrans");
+        switch (qsPanelStyle) {
+            case 0:
+              setQsStyle("com.android.systemui");
+              break;
+            case 1:
+              setQsStyle("com.android.system.qs.outline");
+              break;
+            case 2:
+            case 3:
+              setQsStyle("com.android.system.qs.twotoneaccent");
+              break;
+            case 4:
+              setQsStyle("com.android.system.qs.shaded");
+              break;
+            case 5:
+              setQsStyle("com.android.system.qs.cyberpunk");
+              break;
+            case 6:
+              setQsStyle("com.android.system.qs.neumorph");
+              break;
+            case 7:
+              setQsStyle("com.android.system.qs.reflected");
+              break;
+            case 8:
+              setQsStyle("com.android.system.qs.surround");
+              break;
+            case 9:
+              setQsStyle("com.android.system.qs.thin");
+              break;
+            case 10:
+              setQsStyle("com.android.system.qs.twotoneaccenttrans");
+              break;
+            default:
+              break;
         }
     }
 
-    public static void setDefaultStyle(IOverlayManager overlayManager) {
-        for (int i = 0; i < QS_STYLES.length; i++) {
-            String qsStyles = QS_STYLES[i];
-            try {
-                overlayManager.setEnabled(qsStyles, false, USER_SYSTEM);
-            } catch (RemoteException e) {
-                e.printStackTrace();
-            }
-        }
+    public void setQsStyle(String overlayName) {
+        mThemeUtils.setOverlayEnabled("android.theme.customization.qs_panel", overlayName, "com.android.systemui");
     }
-
-    public static void setQsStyle(IOverlayManager overlayManager, String overlayName) {
-        try {
-            for (int i = 0; i < QS_STYLES.length; i++) {
-                String qsStyles = QS_STYLES[i];
-                try {
-                    overlayManager.setEnabled(qsStyles, false, USER_SYSTEM);
-                } catch (RemoteException e) {
-                    e.printStackTrace();
-                }
-            }
-            overlayManager.setEnabled(overlayName, true, USER_SYSTEM);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static final String[] QS_STYLES = {
-        "com.android.system.qs.outline",
-        "com.android.system.qs.twotoneaccent",
-        "com.android.system.qs.shaded",
-        "com.android.system.qs.cyberpunk",
-        "com.android.system.qs.neumorph",
-        "com.android.system.qs.reflected",
-        "com.android.system.qs.surround",
-        "com.android.system.qs.thin"
-    };
 
     @Override
     public int getMetricsCategory() {
