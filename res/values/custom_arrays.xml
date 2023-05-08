@@ -125,4 +125,152 @@
         <item>10</item>
     </string-array>
 
+    <!-- Ambient Text Alignment -->
+    <string-array name="ambient_text_alignment_entries" translatable="false">
+        <item>@string/ambient_text_align_start_top</item>
+        <item>@string/ambient_text_align_start_center</item>
+        <!--item>@string/ambient_text_align_start_bottom</item-->
+        <item>@string/ambient_text_align_center</item>
+        <item>@string/ambient_text_align_end_top</item>
+        <item>@string/ambient_text_align_end_center</item>
+        <!--item>@string/ambient_text_align_end_bottom</item-->
+    </string-array>
+    <string-array name="ambient_text_alignment_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <!--item>2</item-->
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <!--item>6</item-->
+    </string-array>
+
+    <string-array name="ambient_text_type_color_entries" translatable="false">
+        <item>@string/ambient_notification_light_color_mode_accent</item>
+        <item>@string/ambient_notification_light_color_mode_wall</item>
+        <item>@string/ambient_notification_light_color_mode_custom</item>
+    </string-array>
+    <string-array name="ambient_text_type_color_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+   <!-- KG Weather options -->
+    <string-array name="kg_launcher_weather_entries" translatable="false">
+        <item>@string/qs_weather_hidden</item>
+        <item>@string/qs_temperature_image_show_scale</item>
+        <item>@string/qs_temperature_image_hide_scale</item>
+        <item>@string/qs_temperature_show_scale_hide_image</item>
+        <item>@string/qs_temperature_hide_scale_hide_image</item>
+        <item>@string/qs_show_image</item>
+        <item>@string/weather_show_all_condition</item>
+    </string-array>
+
+    <string-array name="kg_launcher_weather_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+   <!-- QS Weather options -->
+    <string-array name="qs_weather_entries" translatable="false">
+        <item>@string/qs_weather_hidden</item>
+        <item>@string/qs_temperature_image_show_scale</item>
+        <item>@string/qs_temperature_image_hide_scale</item>
+        <item>@string/qs_temperature_show_scale_hide_image</item>
+        <item>@string/qs_temperature_hide_scale_hide_image</item>
+        <item>@string/qs_show_image</item>
+    </string-array>
+
+    <string-array name="qs_weather_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+   <!-- QS Weather positions -->
+    <string-array name="qsweather_position_entries" translatable="false">
+        <item>@string/qsweather_position_qqs</item>
+        <item>@string/qsweather_position_qsb</item>
+        <item>@string/qsweather_position_both</item>
+    </string-array>
+
+    <string-array name="qsweather_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- QS Page Transitions -->
+    <string-array name="qs_transitions_entries" translatable="false">
+        <item>@string/qs_transitions_default</item>
+        <item>@string/qs_transitions_cube_in</item>
+        <item>@string/qs_transitions_cube_out</item>
+        <item>@string/qs_transitions_accordion</item>
+        <item>@string/qs_transitions_background_to_foreground</item>
+        <item>@string/qs_transitions_depth_page</item>
+        <item>@string/qs_transitions_fade</item>
+        <item>@string/qs_transitions_foreground_to_background</item>
+        <item>@string/qs_transitions_rotate_down</item>
+        <item>@string/qs_transitions_rotate_up</item>
+        <item>@string/qs_transitions_stack</item>
+        <item>@string/qs_transitions_tablet</item>
+        <item>@string/qs_transitions_zoom_in</item>
+        <item>@string/qs_transitions_zoom_out</item>
+        <item>@string/qs_transitions_zoom_out_slide</item>
+    </string-array>
+
+    <string-array name="qs_transitions_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="volume_styles_entries" translatable="false">
+        <item>@string/default_string</item>
+        <item>@string/rui_style</item>
+        <item>@string/rising_style</item>
+    </string-array>
+
+    <string-array name="volume_styles_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Status bar chip styles-->
+    <string-array name="statusbar_clock_chip_entries" translatable="false">
+        <item>@string/disabled</item>
+        <item>@string/solid_accent</item>
+        <item>@string/outline</item>
+        <item>@string/solid_accent_gradient</item>
+    </string-array>
+
+    <string-array name="statusbar_clock_chip_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>
