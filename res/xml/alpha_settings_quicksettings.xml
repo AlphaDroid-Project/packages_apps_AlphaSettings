@@ -260,6 +260,13 @@
             android:summary="%s"
             android:title="@string/qs_transitions_title" />
 
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_haptic_feedback"
+            android:icon="@drawable/ic_vibrate"
+            android:title="@string/qs_haptic_feedback_title"
+            android:summary="@string/qs_haptic_feedback_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
