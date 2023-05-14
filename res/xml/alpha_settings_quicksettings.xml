@@ -82,7 +82,7 @@
             android:entryValues="@array/status_bar_battery_percent_values"
             android:defaultValue="2" /> -->
 
-        <!-- Battery estimate 
+        <!-- Battery estimate
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_show_battery_estimate"
             android:icon="@drawable/ic_timelapse_cr"
@@ -142,15 +142,15 @@
             settings:units="%"
             android:max="100"
             android:min="1" />
-            
+
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qs_header_image"
-        android:icon="@drawable/ic_header"
-        android:title="@string/qs_header_image_title"
-        android:defaultValue="0"
-        settings:interval="1"
-        android:max="11"
-        android:min="0" />
+            android:key="qs_header_image"
+            android:icon="@drawable/ic_header"
+            android:title="@string/qs_header_image_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="24"
+            android:min="0" />
 
     </PreferenceCategory>
 
