@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui;
+package com.alpha.settings.fragments.lockscreen;
 
 import static android.os.UserHandle.USER_SYSTEM;
 
