@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">AlphaDroid Ayarları</string>
-    <string name="crdroid_settings_summary">Çeşitli özelleştirmeler</string>
     <string name="reset_settings_title">Ayarları sıfırla</string>
     <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu AlphaDroid ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
     <!-- Personalization Categories -->
@@ -203,7 +201,7 @@
     <string name="backlight_timeout_unlimited">Kapatma</string>
     <string name="backlight_summary_disabled">Devre dışı</string>
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout"> %s </xliff:g> için etkin</string>
-    <string name="backlight_summary_enabled">Etkin</string>
+    <string name="backlight_summary_enabled">Etkinleştirildi</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> saniye</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> saniye</item>
@@ -234,18 +232,6 @@
     <!-- UI settings -->
     <string name="monet_title">Monet ayarları</string>
     <string name="monet_summary">Monet temalarını özelleştirin</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Vurgu rengi</string>
-    <string name="monet_engine_custom_color_summary">Vurgu rengi için özel renk seçin</string>
-    <string name="monet_engine_custom_bgcolor_title">Arka plan rengi</string>
-    <string name="monet_engine_custom_bgcolor_summary">Arka plan için özel renk seçin</string>
-    <string name="monet_engine_color_override_title">Özel renk</string>
-    <string name="monet_engine_luminance_factor_title">Parlak</string>
-    <string name="monet_engine_luminance_factor_summary">Daha yüksek değerler daha parlak renkler üretir</string>
-    <string name="monet_engine_chroma_factor_title">Berraklık faktörü</string>
-    <string name="monet_engine_chroma_factor_summary">Daha yüksek değerler daha güçlü renkler üretir</string>
-    <string name="monet_engine_tint_background_title">Renkli arka plan</string>
-    <string name="monet_engine_tint_background_summary">Parlaklık ve renk seçiminin arka plan renklerini de etkilemesini sağlayın</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru Pin/Şifre girildiğinde otomatik olarak kilidi aç</string>
@@ -345,7 +331,7 @@
     <string name="status_bar_clock_auto_hide_launcher_summary">Başlatıcı görünürse saati gizle</string>
     <string name="status_bar_clock_auto_hide_summary">Saati düzenli aralıklarla gizle</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Gizleme süresi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Saati gizlemek için saniye sayısı</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Saati gizlemek için gereken saniye</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Süreyi göster</string>
     <string name="status_bar_clock_auto_hide_sdur_summary">Saati gizlemeden önce beklenecek saniye sayısı</string>
     <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
@@ -375,10 +361,19 @@
     <string name="status_bar_battery_style_icon_rlandscape">Yatay simge (Sağ)</string>
     <string name="status_bar_battery_style_icon_landscape">Yatay simge (Sol)</string>
     <string name="status_bar_battery_style_circle">Daire</string>
-    <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
+    <string name="status_bar_battery_style_dotted_circle">Noktalı çember</string>
     <string name="status_bar_battery_style_filled_circle">Dolgulu daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizle</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Yatay Kapsül</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Yatay Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Dikey IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Dikey Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Yatay Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Sağ yatay stil A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Sol yatay stil A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Sağ yatay stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Sol yatay stil B</string>
     <string name="status_bar_battery_percent_title">Pil yüzdesi</string>
     <string name="status_bar_battery_percent_hidden">Gizli</string>
     <string name="status_bar_battery_percent_text_inside">Simge içinde</string>
@@ -395,7 +390,7 @@
     <string name="battery_bar_style_title">Konum</string>
     <string name="battery_bar_thickness_title">Kalınlık</string>
     <string name="battery_bar_animate_title">Şarj animasyonu</string>
-    <string name="battery_bar_style_regular">Düzenli</string>
+    <string name="battery_bar_style_regular">Normal</string>
     <string name="battery_bar_style_center_mirrored">Ortalanmış</string>
     <string name="battery_bar_style_reversed">Ters</string>
     <string name="battery_bar_use_charging_color">Özel şarj rengi</string>
@@ -421,33 +416,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Tahmini pil süresi</string>
     <string name="battery_estimate_summary">Mümkün olduğunda tahmini kalan pil süresini görüntüleyin</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Ağ trafiği göstergesi</string>
-    <string name="network_traffic_settings_summary">Ağ etkinliğini görüntüleyin ve özelleştirin</string>
-    <string name="network_traffic_location_title">Konum</string>
-    <string name="network_traffic_location_disable">Devre dışı</string>
-    <string name="network_traffic_location_statusbar">Durum çubuğu</string>
-    <string name="network_traffic_location_quick_statusbar">Hızlı ayarlar çubuğu</string>
-    <string name="network_traffic_mode_title">Görüntüleme modu</string>
-    <string name="network_traffic_mode_up">Yalnızca yükleme</string>
-    <string name="network_traffic_mode_down">Yalnızca indirme</string>
-    <string name="network_traffic_mode_all">Yükleme ve İndirme</string>
-    <string name="network_traffic_autohide">Otomatik gizle</string>
-    <string name="network_traffic_autohide_summary">Veri etkinliği olmadığında ağ göstergesini gizle</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Hareketsizlik eşiği</string>
-    <string name="network_traffic_refresh_interval_title">Yenileme aralığı</string>
-    <string name="network_traffic_refresh_interval_summary">Hızın yeniden ölçüldüğü süre</string>
-    <string name="network_traffic_units_title">Ağ ölçme birimi</string>
-    <string name="network_traffic_units_bits">Saniye başına bit (b/s)</string>
-    <string name="network_traffic_units_kilobits">Saniye başına kilobit (kb/s)</string>
-    <string name="network_traffic_units_megabits">Saniye başına megabit (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Saniye başına bayt (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Saniye başına kilobayt (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Saniye başına megabayt (MB/s)</string>
-    <string name="network_traffic_hidearrow">Okları gizle</string>
-    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Altbilgi uyarıları</string>
     <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinde Hızlı ayarlar panelinin altında uyarı göster</string>
@@ -509,8 +477,8 @@
     <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
     <string name="navbar_invert_layout_summary">Gezinme çubuğu ve klavye değiştiricisi gibi öğelerin düzenini tersine çevirir</string>
     <string name="navbar_actions_category_title">Eylemler</string>
-    <string name="navbar_back_long_press_title">Geri uzun basma</string>
-    <string name="navbar_back_double_tap_title">Geri çift dokunma</string>
+    <string name="navbar_back_long_press_title">Geriye uzun basma</string>
+    <string name="navbar_back_double_tap_title">Geriye çift dokunma</string>
     <string name="navbar_home_long_press_title">Ana ekrana uzun basma</string>
     <string name="navbar_home_double_tap_title">Ana ekrana çift dokunma</string>
     <string name="navbar_app_switch_long_press_title">Son uygulamalara uzun basma</string>
@@ -752,8 +720,6 @@
     <string name="bluetooth_timeout_summary">Bluetooth\'u otomatik olarak kapatma</string>
     <string name="bluetooth_timeout_summary_auto">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
     <string name="custom_timeout_summary_never">Asla</string>
-    <string name="custom_timeout_summary_5secs">5 saniye</string>
-    <string name="custom_timeout_summary_10secs">10 saniye</string>
     <string name="custom_timeout_summary_15secs">15 saniye</string>
     <string name="custom_timeout_summary_30secs">30 saniye</string>
     <string name="custom_timeout_summary_1min">1 dakika</string>
@@ -881,9 +847,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Siyah temayı kullan</string>
     <string name="system_black_theme_summary">Siyah arka plan rengine zorla</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Tüm bildirimleri temizleme tuşu</string>
-    <string name="notification_material_dismiss_summary">Tümünü temizleme bildirim metnini materyal stili kayan tuş ile değiştirin</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
@@ -931,28 +894,6 @@
     <string name="qs_tile_layout_summary">Simgenin yanında etiketi simgenin altında göster</string>
     <string name="qs_columns_portrait_title">Sütunlar (dikey)</string>
     <string name="qs_columns_landscape_title">Sütunlar (yatay)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Arka plan çipi</string>
-    <string name="statusbar_clock_chip_summary">Aksanlı çipi saatin arkasında göster</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Akıllı şarj</string>
-    <string name="smart_charging_summary">Maksimum şarj seviyesi ayarlayın</string>
-    <string name="smart_charging_switch_title">Akıllı şarjı etkinleştir</string>
-    <string name="smart_charging_level_title">Durdurma seviyesi</string>
-    <string name="smart_charging_resume_level_title">Başlatma seviyesi</string>
-    <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
-    <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırlayın</string>
-    <string name="smart_charging_footer">Akıllı şarj etme size maksimum şarj etme düzeyini belirlemenizi ve pilinizin ömrünü uzatmanızı sağlar. Aktif edildiği zaman, pil durma noktasına ulaştığında şarj olmayı durdurur ve başlama noktasına gelince şarj olmaya devam eder. Durma noktası her zaman başlama noktasından büyük olmalıdır.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Hava durumu ayarları</string>
-    <string name="weather_settings_summary">Simge paketini ve hava durumu servis sağlayıcısını ayarlayın</string>
-    <string name="lockscreen_weather_title">Hava durumu</string>
-    <string name="lockscreen_weather_summary">Mevcut hava durumunu ve sıcaklığı göster</string>
-    <string name="lockscreen_weather_enabled_info">Hava durumu hizmetinin etkinleştirilmesi gerekir</string>
-    <string name="lockscreen_weather_location_title">Hava durumu konumu</string>
-    <string name="lockscreen_weather_location_summary">Mevcut hava durumu konumunu göster</string>
-    <string name="lockscreen_weather_style_title">Pixel stili</string>
-    <string name="lockscreen_weather_style_summary">Hava durumunu ayrı bir satır olarak göster</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Uyarlanabilir oynatma</string>
     <string name="adaptive_playback_summary">Ses kapalıyken medyayı duraklatın ve zaman aşımı süresinde ses seviyesini artırarak devam ettirin</string>
@@ -963,39 +904,6 @@
     <string name="status_bar_logo_summary">Durum çubuğunun solunda veya sağında özel bir logo görüntüleyin</string>
     <string name="status_bar_logo_position_title">Logo konumu</string>
     <string name="status_bar_logo_style_title">Logo stili</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Uzaylı</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Yenilmezler</string>
-    <string name="status_bar_logo_style_batman">Yarasa adam</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman Kara Şövalye</string>
-    <string name="status_bar_logo_style_beats">Ritimler</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">Kara Böğürtlen</string>
-    <string name="status_bar_logo_style_cannabis">Kenevir</string>
-    <string name="status_bar_logo_style_emoticon_cool">Havalı ifadesi</string>
-    <string name="status_bar_logo_style_emoticon_devil">Şeytan ifadesi</string>
-    <string name="status_bar_logo_style_fire">Ateş</string>
-    <string name="status_bar_logo_style_heart">Kalp</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Örümcek Adam</string>
-    <string name="status_bar_logo_style_superman">Süpermen</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Hayalet</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Demir Adam</string>
-    <string name="status_bar_logo_style_captain_america">Kaptan Amerika</string>
-    <string name="status_bar_logo_style_flash">Flaş</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Yüklendi: %1$s</string>
     <string name="app_info_update_time">Güncellendi: %1$s</string>
@@ -1041,10 +949,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi standardı</string>
     <string name="wifi_standard_icon_summary">WiFi sinyalinin yanında WiFi standardını göster</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google hizmetleri</string>
-    <string name="gms_enabled_summary">Google hizmetlerini ve temel uygulamaları kontrol edin</string>
-    <string name="gms_enabled_footer">Google hizmetlerini ve temel uygulamaları devre dışı bırakmadan önce, Google hesabınızda \"Cihazımı Bul\"u ve 2 adımlı doğrulamayı devre dışı bırakmalısınız. Bu ayarın etkin durumda tutulması kesinlikle önerilir, aksi takdirde Google bileşenlerine bağımlı uygulamalar etkilenir. Bu ayarı değiştirdikten sonra herhangi bir sorunla karşılaşırsanız fabrika ayarlarına sıfırlayın.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Alt kısayollar</string>
     <string name="lockscreen_shortcut_start_title">Sol kısayol</string>
@@ -1059,27 +963,6 @@
     <string name="lockscreen_shortcut_none">Hiçbiri</string>
     <string name="lockscreen_shortcut_enforce_title">Kısayolları zorla</string>
     <string name="lockscreen_shortcut_enforce_summary">Seçilen kısayol mevcut değilse bir sonraki mevcut kısayolu gösterme</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Uygulama kilidi</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> uygulama korunuyor</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> uygulamalar korunuyor</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Kilit aç</string>
-    <string name="enable_debugging">Hata ayıklamayı etkinleştir</string>
-    <string name="disable_debugging">Hata ayıklamayı devre dışı bırak</string>
-    <string name="app_lock_packages_title">Korunan uygulamalar</string>
-    <string name="app_lock_packages_summary">Biyometri veya cihaz kimlik bilgileriyle korunacak uygulamaları seçin</string>
-    <string name="app_lock_timeout_title">Otomatik kilitleme süresi</string>
-    <string name="app_lock_timeout_summary">Kilidi açılan bir uygulamanın arka planda ne kadar süre sonra kilitleneceği</string>
-    <string name="app_lock_notifications_title">Bildirimleri daralt</string>
-    <string name="app_lock_notifications_summary">Seçilen uygulamalar kilitlendiklerinde bildirim içeriği gizlenecek ve daraltılacaktır. Bildirim pencereleri otomatik olarak devre dışı bırakılır.</string>
-    <string name="app_lock_notifications_disabled_summary">Önce bir uygulama koruyun</string>
-    <string name="app_lock_biometrics_allowed_title">Kilidi açmak için parmak izi kullan</string>
-    <string name="app_lock_footer_text">Baloncuklar zaman aşımından sonra otomatik olarak yok sayılacak</string>
-    <string name="enable_protection">Korumayı etkinleştir</string>
-    <string name="hide_from_launcher_title">Başlatıcıdan gizle</string>
-    <string name="hide_from_launcher_summary">Bu uygulamanın herhangi bir başlatıcıda görünmesini engelleyin. Değişikliklerin etkili olması için başlatıcının yeniden başlatılmasını gerektirir.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman göster</string>
     <string name="doze_on_charge_summary">Görüntüleme cihazı şarj oluyor</string>
@@ -1087,6 +970,11 @@
     <string name="volume_link_notification_title">Zil sesi &amp; bildirim sesini birleştir</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radyo bilgisi</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Başlık görüntüsü</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>
