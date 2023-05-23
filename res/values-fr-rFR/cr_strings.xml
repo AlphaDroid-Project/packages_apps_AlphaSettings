@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Paramètres AlphaDroid</string>
-    <string name="crdroid_settings_summary">Les trésors de AlphaDroid</string>
     <string name="reset_settings_title">Réinitialiser les paramètres</string>
     <string name="reset_settings_message">Cette action réinitialisera la plupart des paramètres AlphaDroid à leurs valeurs par défaut pour l’utilisateur actuel. Souhaitez-vous continuer ?</string>
     <!-- Personalization Categories -->
@@ -234,18 +232,6 @@
     <!-- UI settings -->
     <string name="monet_title">Paramètres de Monet</string>
     <string name="monet_summary">Personnaliser le thème Monet</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Couleur d\'accentuation</string>
-    <string name="monet_engine_custom_color_summary">Choisir une couleur personnalisée pour l\'accentuation</string>
-    <string name="monet_engine_custom_bgcolor_title">Couleur d\'arrière-plan</string>
-    <string name="monet_engine_custom_bgcolor_summary">Choisir une couleur personnalisée pour l\'arrière-plan</string>
-    <string name="monet_engine_color_override_title">Couleur personalisée</string>
-    <string name="monet_engine_luminance_factor_title">Luminance</string>
-    <string name="monet_engine_luminance_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
-    <string name="monet_engine_chroma_factor_title">Facteur Chroma</string>
-    <string name="monet_engine_chroma_factor_summary">Des valeurs plus élevées produisent des couleurs plus fortes</string>
-    <string name="monet_engine_tint_background_title">Teinte de l\'arrière-plan</string>
-    <string name="monet_engine_tint_background_summary">Faire en sorte que la Luminance et la sélection Chroma affectent aussi les couleurs d\'arrière-plan</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le bon code PIN/mot de passe est saisi</string>
@@ -379,6 +365,15 @@
     <string name="status_bar_battery_style_filled_circle">Cercle plein</string>
     <string name="status_bar_battery_style_text">Texte</string>
     <string name="status_bar_battery_style_hidden">Caché</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_percent_hidden">Masquée</string>
     <string name="status_bar_battery_percent_text_inside">Dans l\'icône</string>
@@ -421,33 +416,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Autonomie estimée</string>
     <string name="battery_estimate_summary">Afficher l\'horaire estimé de la fin de la batterie</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Moniteur de trafic réseau</string>
-    <string name="network_traffic_settings_summary">Paramétrer l\'affichage du trafic réseau</string>
-    <string name="network_traffic_location_title">Position</string>
-    <string name="network_traffic_location_disable">Désactivé</string>
-    <string name="network_traffic_location_statusbar">Barre d\'état</string>
-    <string name="network_traffic_location_quick_statusbar">Barre d\'état réglages rapides</string>
-    <string name="network_traffic_mode_title">Affichage débits</string>
-    <string name="network_traffic_mode_up">Débit montant uniquement</string>
-    <string name="network_traffic_mode_down">Débit descendant uniquement</string>
-    <string name="network_traffic_mode_all">Débits montant et descendant</string>
-    <string name="network_traffic_autohide">Masquage automatique</string>
-    <string name="network_traffic_autohide_summary">Masquer le moniteur de trafic réseau lorsqu\'il n\'y a pas d\'activité</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">Ko/s</string>
-    <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
-    <string name="network_traffic_refresh_interval_title">Intervalle de rafraichissement</string>
-    <string name="network_traffic_refresh_interval_summary">Durée entre chaque actualisation de mesure</string>
-    <string name="network_traffic_units_title">Unités de mesure du débit</string>
-    <string name="network_traffic_units_bits">Bits par seconde (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits par seconde (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits par seconde (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Octets par seconde (o/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilooctets par seconde (ko/s)</string>
-    <string name="network_traffic_units_megabytes">Mégaoctets par seconde (Mo/s)</string>
-    <string name="network_traffic_hidearrow">Flèches de débit</string>
-    <string name="network_traffic_hidearrow_summary">Masquer les flèches du moniteur de trafic</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alertes réseau</string>
     <string name="qs_footer_warnings_summary">Afficher une icône d\'alerte lorsque le réseau est surveillé par des applications externes ou un VPN</string>
@@ -752,8 +720,6 @@
     <string name="bluetooth_timeout_summary">Ne pas désactiver automatiquement le Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Le Bluetooth sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
     <string name="custom_timeout_summary_never">Jamais</string>
-    <string name="custom_timeout_summary_5secs">5 secondes</string>
-    <string name="custom_timeout_summary_10secs">10 secondes</string>
     <string name="custom_timeout_summary_15secs">15 secondes</string>
     <string name="custom_timeout_summary_30secs">30 secondes</string>
     <string name="custom_timeout_summary_1min">1 minute</string>
@@ -881,9 +847,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Utiliser le thème sombre</string>
     <string name="system_black_theme_summary">Forcer l\'utilisation de couleurs d\'arrière-plan sombres</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Bouton \"Effacer toutes les notifications\"</string>
-    <string name="notification_material_dismiss_summary">Remplacer le texte \"Effacer les notifications\" par un bouton flottant</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animation du geste de retour</string>
     <string name="back_gesture_arrow_summary">Afficher une flèche animée pour le geste retour</string>
@@ -931,28 +894,6 @@
     <string name="qs_tile_layout_summary">Afficher le libellé sous l\'icône au lieu d\'à côté de l\'icône</string>
     <string name="qs_columns_portrait_title">Colonnes (portrait)</string>
     <string name="qs_columns_landscape_title">Colonnes (paysage)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Puce d\'arrière-plan</string>
-    <string name="statusbar_clock_chip_summary">Afficher la puce accentuée derrière l\'horloge</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Recharge intelligente</string>
-    <string name="smart_charging_summary">Définit le niveau de charge maximal</string>
-    <string name="smart_charging_switch_title">Activer la recharge intelligente</string>
-    <string name="smart_charging_level_title">Déclencheur d\'arrêt</string>
-    <string name="smart_charging_resume_level_title">Déclencheur de démarrage</string>
-    <string name="smart_charging_reset_stats_title">Réinitialiser les statistiques de la batterie</string>
-    <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de la batterie après avoir atteint le déclencheur définit par l\'utilisateur</string>
-    <string name="smart_charging_footer">La recharge intelligente permet de définir le niveau de charge maximal pour prolonger la durée de vie de la batterie. Si activée, la batterie arrête de charger au niveau du déclencheur Stop et reprend la charge au niveau du déclencheur de démarrage. Le niveau Stop doit toujours être supérieur au niveau de démarrage.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Paramètres météo</string>
-    <string name="weather_settings_summary">Configurer le pack d\'icônes et le service météo</string>
-    <string name="lockscreen_weather_title">Conditions météo</string>
-    <string name="lockscreen_weather_summary">Afficher les conditions météo actuelles et la température</string>
-    <string name="lockscreen_weather_enabled_info">Nécessite que le service météo soit activé</string>
-    <string name="lockscreen_weather_location_title">Lieu des prévisions météo</string>
-    <string name="lockscreen_weather_location_summary">Afficher la position actuelle de la météo</string>
-    <string name="lockscreen_weather_style_title">Style Pixel</string>
-    <string name="lockscreen_weather_style_summary">Afficher la météo dans une ligne séparée</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Lecture adaptative</string>
     <string name="adaptive_playback_summary">Mettre en pause lorsque le volume est mis en sourdine et reprendre la lecture en augmentant le volume suivant le délai réglé</string>
@@ -963,39 +904,6 @@
     <string name="status_bar_logo_summary">Afficher un logo personnalisé à gauche ou à droite de la barre d\'état</string>
     <string name="status_bar_logo_position_title">Position du logo</string>
     <string name="status_bar_logo_style_title">Style du logo</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alien</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman le Chevalier Noir</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticône cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Émoticône diable</string>
-    <string name="status_bar_logo_style_fire">Feu</string>
-    <string name="status_bar_logo_style_heart">Coeur</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-Man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Fantôme</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Flash</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installé : %1$s</string>
     <string name="app_info_update_time">Mis à jour : %1$s</string>
@@ -1041,10 +949,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Norme Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Afficher la norme Wi-Fi à côté du signal Wi-Fi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Services Google</string>
-    <string name="gms_enabled_summary">Contrôler les services et les applications de base de Google</string>
-    <string name="gms_enabled_footer">Avant de désactiver les services Google et les applications principales, vous devriez désactiver \"Localiser mon appareil\" et l\'authentification à deux facteurs sur votre compte Google. Il est fortement recommandé de garder ce paramètre activé sinon les applications qui reposent sur des composants Google seront affectées. Si vous rencontrez des problèmes après avoir modifié ce paramètre, effectuez une réinitialisation d\'usine.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Raccourcis en bas de l\'écran de verrouillage</string>
     <string name="lockscreen_shortcut_start_title">Raccourci de gauche</string>
@@ -1059,28 +963,6 @@
     <string name="lockscreen_shortcut_none">Aucun</string>
     <string name="lockscreen_shortcut_enforce_title">Forcer les raccourcis</string>
     <string name="lockscreen_shortcut_enforce_summary">Ne pas afficher le prochain raccourci disponible si le raccourci choisi n\'est pas disponible</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Verrouillage d\'applications</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Nombre d\'applications">%1$d</xliff:g> l\'application est protégée</item>
-        <item quantity="other"><xliff:g example="10" id="Nombre d\'applications">%1$d</xliff:g> les applications sont protégées</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Déverrouiller</string>
-    <string name="enable_debugging">Activer le déboggage</string>
-    <string name="disable_debugging">Désactiver le débogage</string>
-    <string name="app_lock_packages_title">Applications protégées</string>
-    <string name="app_lock_packages_summary">Sélectionnez les applications à protéger avec des données biométriques ou des identifiants de l\'appareil</string>
-    <string name="app_lock_timeout_title">Délai avant verrouillage automatique</string>
-    <string name="app_lock_timeout_summary">Durée après laquelle une application déverrouillée en arrière-plan doit être verrouillée</string>
-    <string name="app_lock_notifications_title">Effacer les notifications</string>
-    <string name="app_lock_notifications_summary">Le contenu des notifications sera masqué et réduit pour les applications sélectionnées quand elles seront verrouillées.
-Les notifications flottantes seront automatiquement désactivées.</string>
-    <string name="app_lock_notifications_disabled_summary">Choisissez d\'abord une application à protéger</string>
-    <string name="app_lock_biometrics_allowed_title">Activer le déverrouillage biométrique</string>
-    <string name="app_lock_footer_text">Les bulles seront automatiquement rejetées après l\'expiration du délai</string>
-    <string name="enable_protection">Activer la protection</string>
-    <string name="hide_from_launcher_title">Masquer l’icône dans le lanceur d\'applications</string>
-    <string name="hide_from_launcher_summary">Empêcher cette application d\'apparaître dans tous les lanceurs d\'applications. Nécessite un redémarrage du lanceur pour que les changements prennent effet.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">L\'affichage de l\'appareil est en cours de chargement</string>
@@ -1088,6 +970,11 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Informations radio</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Image de l\'en-tête</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>
