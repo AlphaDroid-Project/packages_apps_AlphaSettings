@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Configuració de AlphaDroid</string>
-    <string name="crdroid_settings_summary">Obrir Goodness</string>
     <string name="reset_settings_title">Restableix la configuració</string>
     <string name="reset_settings_message">La major part de la configuració de AlphaDroid de l\'usuari actual es restablirà als valors per defecte. Voleu continuar?</string>
     <!-- Personalization Categories -->
@@ -234,18 +232,6 @@
     <!-- UI settings -->
     <string name="monet_title">Configuració de Monet</string>
     <string name="monet_summary">Configurar motor de temes Monet</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Color d\'èmfasi</string>
-    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
-    <string name="monet_engine_custom_bgcolor_title">Background color</string>
-    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
-    <string name="monet_engine_color_override_title">Color personalitzat</string>
-    <string name="monet_engine_luminance_factor_title">Luminance</string>
-    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
-    <string name="monet_engine_chroma_factor_title">Factor cromátic</string>
-    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
-    <string name="monet_engine_tint_background_title">Tint background</string>
-    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueig ràpid</string>
     <string name="unlock_quick_unlock_control_summary">Desbloqueja automàticament quan s\'introdueixi el PIN/contrasenya correcta</string>
@@ -379,6 +365,15 @@
     <string name="status_bar_battery_style_filled_circle">Cercle ple</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Amagat</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">Percentatge de bateria</string>
     <string name="status_bar_battery_percent_hidden">Ocult</string>
     <string name="status_bar_battery_percent_text_inside">Dins la icona</string>
@@ -421,33 +416,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Estimació de bateria</string>
     <string name="battery_estimate_summary">Mostrar l\'estimació de la bateria restant quan estigui disponible</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Monitor de trànsit de xarxa</string>
-    <string name="network_traffic_settings_summary">Mostra i customitza els nivells actuals del trànsit de xarxa</string>
-    <string name="network_traffic_location_title">Ubicació</string>
-    <string name="network_traffic_location_disable">Desactivat</string>
-    <string name="network_traffic_location_statusbar">Barra d\'estat</string>
-    <string name="network_traffic_location_quick_statusbar">Barra d\'estat ràpida</string>
-    <string name="network_traffic_mode_title">Mode de visualització</string>
-    <string name="network_traffic_mode_up">Només pujada</string>
-    <string name="network_traffic_mode_down">Només baixada</string>
-    <string name="network_traffic_mode_all">Pujada i baixada</string>
-    <string name="network_traffic_autohide">Amaga automàticament</string>
-    <string name="network_traffic_autohide_summary">Amaga el monitor de trànsit quan no hi hagi activitat</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Llindar d\'inactivitat</string>
-    <string name="network_traffic_refresh_interval_title">Interval d\'actualització</string>
-    <string name="network_traffic_refresh_interval_summary">Duració després de la qual la velocitat torna a ser mesurada</string>
-    <string name="network_traffic_units_title">Unitats de mesura de trànsit</string>
-    <string name="network_traffic_units_bits">Bits per segon (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per segon (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per segon (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bytes per segon (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per segon (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per segon (MB/s)</string>
-    <string name="network_traffic_hidearrow">Amaga les fletxes</string>
-    <string name="network_traffic_hidearrow_summary">Amaga les fletxes de l\'indicador de trànsit</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alertes del peu</string>
     <string name="qs_footer_warnings_summary">Mostra un advertiment a la part inferior del panell de configuració ràpida quan la xarxa estigui sent monitorada per aplicacions externes o VPN</string>
@@ -752,8 +720,6 @@
     <string name="bluetooth_timeout_summary">No apaguis automàticament el Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">El Bluetooth s\'apagarà en <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap dispositiu connectat</string>
     <string name="custom_timeout_summary_never">Mai</string>
-    <string name="custom_timeout_summary_5secs">5 segons</string>
-    <string name="custom_timeout_summary_10secs">10 segons</string>
     <string name="custom_timeout_summary_15secs">15 segons</string>
     <string name="custom_timeout_summary_30secs">30 segons</string>
     <string name="custom_timeout_summary_1min">1 minut</string>
@@ -881,9 +847,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Utilitza un tema fosc</string>
     <string name="system_black_theme_summary">Força els fons de color negre</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Botó d\'esborrar totes les notificacions</string>
-    <string name="notification_material_dismiss_summary">Substitueix el text d\'esborrar totes les notificacions per un botó flotant d\'estil Material</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animació del gest cap enrere</string>
     <string name="back_gesture_arrow_summary">Mostra una fletxa animada en fer el gest cap enrere</string>
@@ -931,28 +894,6 @@
     <string name="qs_tile_layout_summary">Mostra les etiquetes a sota de les icones en comptes del costat</string>
     <string name="qs_columns_portrait_title">Columnes (vertical)</string>
     <string name="qs_columns_landscape_title">Columnes (apaïsat)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Fons del rellotge</string>
-    <string name="statusbar_clock_chip_summary">Accentua el fons del rellotge amb un color</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Càrrega Intel·ligent</string>
-    <string name="smart_charging_summary">Estableix un nivell de càrrega màxim</string>
-    <string name="smart_charging_switch_title">Activa la Càrrega Intel·ligent</string>
-    <string name="smart_charging_level_title">Nivell màxim de càrrega</string>
-    <string name="smart_charging_resume_level_title">Nivell d\'activació</string>
-    <string name="smart_charging_reset_stats_title">Reinicialitza les estadístiques de la bateria</string>
-    <string name="smart_charging_reset_stats_summary">Reinicialitza les estadístiques de la bateria quan el nivell de càrrega arribi a un nivell predefinit per l\'usuari</string>
-    <string name="smart_charging_footer">La Càrrega Intel·ligent permet establir un nivell de càrrega màxim amb l\'objectiu de prolongar la vida útil de la bateria. Quan aquest mode s\'activa, la bateria deixa de carregar-se en arribar al Nivell màxim de càrrega i no es torna a iniciar fins a assolir el Nivell d\'activació. El Nivell màxim de càrrega ha de ser sempre major al Nivell d\'activació.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Configuració del temps</string>
-    <string name="weather_settings_summary">Configureu el paquet d\'icones i el servei del temps</string>
-    <string name="lockscreen_weather_title">Condicions meteorològiques</string>
-    <string name="lockscreen_weather_summary">Mostra la temperatura i condicions meteorològiques actuals</string>
-    <string name="lockscreen_weather_enabled_info">És necessari que el servei meteorològic estigui activat</string>
-    <string name="lockscreen_weather_location_title">Ubicació del temps meteorològic</string>
-    <string name="lockscreen_weather_location_summary">Mostra la ubicació del temps meteorològic actual</string>
-    <string name="lockscreen_weather_style_title">Pixel style</string>
-    <string name="lockscreen_weather_style_summary">Display weather as separate row</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Reproducció adaptativa</string>
     <string name="adaptive_playback_summary">Pausa el contingut multimèdia quan el volum estigui en silenci i reprèn la reproducció quan aquest sigui incrementat dins d\'un temps d\'espera determinat</string>
@@ -963,39 +904,6 @@
     <string name="status_bar_logo_summary">Mostra un logotip personalitzat a la part dreta o esquerra de la barra d\'estat</string>
     <string name="status_bar_logo_position_title">Posició del logotip</string>
     <string name="status_bar_logo_style_title">Estil del logotip</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alienígena</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Venjadors</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman: El cavaller fosc</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cànnabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticona guai</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticona dimoni</string>
-    <string name="status_bar_logo_style_fire">Foc</string>
-    <string name="status_bar_logo_style_heart">Cor</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-Man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Fantasma</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Capità Amèrica</string>
-    <string name="status_bar_logo_style_flash">Flaix</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Instal·lat: %1$s</string>
     <string name="app_info_update_time">Actualitzat: %1$s</string>
@@ -1041,10 +949,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Estàndard WiFi</string>
     <string name="wifi_standard_icon_summary">Mostra l\'estàndard WiFi al costat del senyal WiFi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Serveis de Google</string>
-    <string name="gms_enabled_summary">Controla els serveis de Google i les aplicacions principals</string>
-    <string name="gms_enabled_footer">Abans de desactivar els serveis de Google i les aplicacions base, hauries de desactivar «Troba el meu dispositiu» i la verificació en dos passos del teu compte de Google. Es recomana mantenir aquesta configuració activada, en cas contrari, les aplicacions que depenen dels components de Google es veuran afectades. Si tens algun problema després de canviar aquesta configuració, fes un restabliment de fàbrica.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Dreceres de la part inferior</string>
     <string name="lockscreen_shortcut_start_title">Drecera de l\'esquerra</string>
@@ -1059,27 +963,6 @@
     <string name="lockscreen_shortcut_none">Cap</string>
     <string name="lockscreen_shortcut_enforce_title">Enforce shortcuts</string>
     <string name="lockscreen_shortcut_enforce_summary">Do not display next available shortcut if chosen shortcut is not available</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Bloqueig d\'aplicacions</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicació protegida</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicacions protegides</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Desbloqueja</string>
-    <string name="enable_debugging">Activa la depuració</string>
-    <string name="disable_debugging">Desactiva la depuració</string>
-    <string name="app_lock_packages_title">Aplicacions protegides</string>
-    <string name="app_lock_packages_summary">Seleccioneu les aplicacions que es protegiran amb dades biomètriques o credencials del dispositiu</string>
-    <string name="app_lock_timeout_title">Temps d\'espera del bloqueig automàtic</string>
-    <string name="app_lock_timeout_summary">Durada del temps després del qual una aplicació desbloquejada en segon pla és bloquejada</string>
-    <string name="app_lock_notifications_title">Contraure notificacions</string>
-    <string name="app_lock_notifications_summary">El contingut de les notificacions s\'amagarà i es replegarà per a les aplicacions seleccionades si estan bloquejades. Les notificacions emergents es desactivaran automàticament.</string>
-    <string name="app_lock_notifications_disabled_summary">Protegiu primer una aplicació</string>
-    <string name="app_lock_biometrics_allowed_title">Activa la biometria per al desbloqueig</string>
-    <string name="app_lock_footer_text">Les bombolles es descartaran automàticament després del temps d\'espera</string>
-    <string name="enable_protection">Activa la protecció</string>
-    <string name="hide_from_launcher_title">Amaga al llançador</string>
-    <string name="hide_from_launcher_summary">Evita que aquesta aplicació es mostri al llançador. Requereix reiniciar el llançador perquè els canvis tinguin efecte.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always show when charging</string>
     <string name="doze_on_charge_summary">Display device is charging</string>
@@ -1087,6 +970,11 @@
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Header image</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>

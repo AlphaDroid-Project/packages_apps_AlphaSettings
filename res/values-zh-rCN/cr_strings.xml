@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">AlphaDroid 设置</string>
-    <string name="crdroid_settings_summary">个性化设置</string>
     <string name="reset_settings_title">重置设置</string>
     <string name="reset_settings_message">这将会重置当前用户大部分的 AlphaDroid 设置为默认值。您要继续吗？</string>
     <!-- Personalization Categories -->
@@ -233,18 +231,6 @@
     <!-- UI settings -->
     <string name="monet_title">Monet 设置</string>
     <string name="monet_summary">自定义 Monet 主题引擎</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">配色方案</string>
-    <string name="monet_engine_custom_color_summary">选择自定义强调颜色</string>
-    <string name="monet_engine_custom_bgcolor_title">背景颜色</string>
-    <string name="monet_engine_custom_bgcolor_summary">自定义背景颜色</string>
-    <string name="monet_engine_color_override_title">自定义颜色</string>
-    <string name="monet_engine_luminance_factor_title">亮度</string>
-    <string name="monet_engine_luminance_factor_summary">数值越高颜色越亮</string>
-    <string name="monet_engine_chroma_factor_title">色度系数</string>
-    <string name="monet_engine_chroma_factor_summary">数值越高颜色越鲜艳</string>
-    <string name="monet_engine_tint_background_title">背景色调</string>
-    <string name="monet_engine_tint_background_summary">让背景色彩也使用自定义亮度和彩度</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码/密码后自动解锁</string>
@@ -378,6 +364,15 @@
     <string name="status_bar_battery_style_filled_circle">实心圆环</string>
     <string name="status_bar_battery_style_text">文本</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">电量百分比</string>
     <string name="status_bar_battery_percent_hidden">隐藏</string>
     <string name="status_bar_battery_percent_text_inside">图标内</string>
@@ -420,33 +415,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">电量预估</string>
     <string name="battery_estimate_summary">显示电量可用时间</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">网络流量监视器</string>
-    <string name="network_traffic_settings_summary">自定义并显示当前流量级别</string>
-    <string name="network_traffic_location_title">位置</string>
-    <string name="network_traffic_location_disable">禁用</string>
-    <string name="network_traffic_location_statusbar">状态栏</string>
-    <string name="network_traffic_location_quick_statusbar">快速状态栏</string>
-    <string name="network_traffic_mode_title">显示模式</string>
-    <string name="network_traffic_mode_up">仅上传</string>
-    <string name="network_traffic_mode_down">仅下载</string>
-    <string name="network_traffic_mode_all">上传和下载</string>
-    <string name="network_traffic_autohide">自动隐藏</string>
-    <string name="network_traffic_autohide_summary">网络不活跃时隐藏状态栏网速图标</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">网络流量隐藏阈值</string>
-    <string name="network_traffic_refresh_interval_title">刷新间隔</string>
-    <string name="network_traffic_refresh_interval_summary">重新测量网速的间隔时间</string>
-    <string name="network_traffic_units_title">流量计量单位</string>
-    <string name="network_traffic_units_bits">比特每秒 (b/s)</string>
-    <string name="network_traffic_units_kilobits">千比特每秒 (kb/s)</string>
-    <string name="network_traffic_units_megabits">兆比特每秒 (Mb/s)</string>
-    <string name="network_traffic_units_bytes">字节每秒 (B/s)</string>
-    <string name="network_traffic_units_kilobytes">千字节每秒 (kB/s)</string>
-    <string name="network_traffic_units_megabytes">兆字节每秒 (MB/s)</string>
-    <string name="network_traffic_hidearrow">隐藏箭头</string>
-    <string name="network_traffic_hidearrow_summary">隐藏网络流量指示器箭头</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">页脚提醒</string>
     <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示提醒</string>
@@ -751,8 +719,6 @@
     <string name="bluetooth_timeout_summary">不要自动关闭蓝牙</string>
     <string name="bluetooth_timeout_summary_auto">如果没有连接设备，蓝牙将在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭</string>
     <string name="custom_timeout_summary_never">从不</string>
-    <string name="custom_timeout_summary_5secs">5 秒</string>
-    <string name="custom_timeout_summary_10secs">10 秒</string>
     <string name="custom_timeout_summary_15secs">15 秒</string>
     <string name="custom_timeout_summary_30secs">30 秒</string>
     <string name="custom_timeout_summary_1min">1 分钟</string>
@@ -879,9 +845,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">使用黑色主题</string>
     <string name="system_black_theme_summary">强制使用黑色背景</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">清除所有通知按钮</string>
-    <string name="notification_material_dismiss_summary">用 Material 样式的浮动按钮替换清除所有通知文本</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">返回手势动画</string>
     <string name="back_gesture_arrow_summary">显示返回手势的动画箭头</string>
@@ -929,28 +892,6 @@
     <string name="qs_tile_layout_summary">在图标下方显示标签，而不是图标旁边</string>
     <string name="qs_columns_portrait_title">列数 (竖屏)</string>
     <string name="qs_columns_landscape_title">列数 (横屏)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">时钟背景</string>
-    <string name="statusbar_clock_chip_summary">使用强调色作为时钟背景</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">智能充电</string>
-    <string name="smart_charging_summary">设置最大充电电量</string>
-    <string name="smart_charging_switch_title">启用智能充电</string>
-    <string name="smart_charging_level_title">停止触发电量</string>
-    <string name="smart_charging_resume_level_title">开始触发电量</string>
-    <string name="smart_charging_reset_stats_title">重置电池统计信息</string>
-    <string name="smart_charging_reset_stats_summary">达到用户定义的电量后重置电池统计</string>
-    <string name="smart_charging_footer">智能充电允许你设置最大的充电电量，以延长电池的寿命。启用后，电池将在达到停止触发电量时停止充电，在达到开始触发电量时恢复充电。停止触发电量应始终大于开始触发电量。</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">天气设置</string>
-    <string name="weather_settings_summary">设置图标包与天气服务</string>
-    <string name="lockscreen_weather_title">天气状况</string>
-    <string name="lockscreen_weather_summary">显示当前天气状况和温度</string>
-    <string name="lockscreen_weather_enabled_info">需要启用天气服务</string>
-    <string name="lockscreen_weather_location_title">天气位置</string>
-    <string name="lockscreen_weather_location_summary">显示当前天气位置</string>
-    <string name="lockscreen_weather_style_title">Pixel 风格</string>
-    <string name="lockscreen_weather_style_summary">将天气作为单行显示</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">自适应播放</string>
     <string name="adaptive_playback_summary">静音时暂停媒体，并在超时范围内增加音量以恢复媒体</string>
@@ -961,39 +902,6 @@
     <string name="status_bar_logo_summary">在状态栏左侧或右侧显示自定义 Logo</string>
     <string name="status_bar_logo_position_title">Logo 位置</string>
     <string name="status_bar_logo_style_title">Logo 样式</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">阿迪达斯</string>
-    <string name="status_bar_logo_style_alien">外星人</string>
-    <string name="status_bar_logo_style_apple">苹果</string>
-    <string name="status_bar_logo_style_avengers">复仇者联盟</string>
-    <string name="status_bar_logo_style_batman">蝙蝠侠</string>
-    <string name="status_bar_logo_style_batman_tdk">蝙蝠侠 黑暗骑士</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">生化</string>
-    <string name="status_bar_logo_style_blackberry">黑莓</string>
-    <string name="status_bar_logo_style_cannabis">大麻</string>
-    <string name="status_bar_logo_style_emoticon_cool">表情扮酷</string>
-    <string name="status_bar_logo_style_emoticon_devil">表情魔鬼</string>
-    <string name="status_bar_logo_style_fire">火焰</string>
-    <string name="status_bar_logo_style_heart">心形</string>
-    <string name="status_bar_logo_style_nike">耐克</string>
-    <string name="status_bar_logo_style_pacman">吃豆人</string>
-    <string name="status_bar_logo_style_puma">彪马</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">蜘蛛侠</string>
-    <string name="status_bar_logo_style_superman">超人</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">幽灵</string>
-    <string name="status_bar_logo_style_ninja">忍者</string>
-    <string name="status_bar_logo_style_robot">机器人</string>
-    <string name="status_bar_logo_style_ironman">钢铁侠</string>
-    <string name="status_bar_logo_style_captain_america">美国队长</string>
-    <string name="status_bar_logo_style_flash">闪电</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">安装时间: %1$s</string>
     <string name="app_info_update_time">更新时间: %1$s</string>
@@ -1039,10 +947,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi 频段</string>
     <string name="wifi_standard_icon_summary">在 WiFi 图标旁边显示 WiFi 频段</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google 服务</string>
-    <string name="gms_enabled_summary">控制 Google 服务和核心应用</string>
-    <string name="gms_enabled_footer">在禁用 Google 服务和核心应用前，你应该禁用查找我的设备和 Google 账户的两步验证。强烈建议开启该功能，否则依赖 Google 组件的应用将受到影响。如果你在改变这一设置后遇到问题，请恢复出厂设置。</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">底部快捷方式</string>
     <string name="lockscreen_shortcut_start_title">左侧快捷方式</string>
@@ -1057,28 +961,6 @@
     <string name="lockscreen_shortcut_none">无</string>
     <string name="lockscreen_shortcut_enforce_title">强制快捷方式</string>
     <string name="lockscreen_shortcut_enforce_summary">如果选择的快捷方式不可用，请不要显示下一个可用的快捷方式</string>
-    <!-- App lock -->
-    <string name="app_lock_title">应用锁</string>
-    <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g>应用程序已受到保护
-<xliff:g example="10" id="Number of applications">%1$d</xliff:g>应用程序已受到保护</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">解锁​​​​</string>
-    <string name="enable_debugging">启用调试</string>
-    <string name="disable_debugging">禁用调试</string>
-    <string name="app_lock_packages_title">受保护的应用</string>
-    <string name="app_lock_packages_summary">选择要使用生物识别或设备凭据保护的应用</string>
-    <string name="app_lock_timeout_title">超时自动锁定</string>
-    <string name="app_lock_timeout_summary">已解锁的应用在后台自动上锁的时间</string>
-    <string name="app_lock_notifications_title">折叠通知</string>
-    <string name="app_lock_notifications_summary">锁定选定应用时，通知内容将被隐藏和折叠。
-浮动通知将自动禁用。</string>
-    <string name="app_lock_notifications_disabled_summary">请先保护一个应用</string>
-    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
-    <string name="app_lock_footer_text">通知气泡将在超时后自动消失</string>
-    <string name="enable_protection">启用保护</string>
-    <string name="hide_from_launcher_title">从启动器隐藏</string>
-    <string name="hide_from_launcher_summary">阻止此应用程序在启动器中显示，需要重启启动器使更改生效</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终显示</string>
     <string name="doze_on_charge_summary">在装置充电时显示</string>
@@ -1086,6 +968,11 @@
     <string name="volume_link_notification_title">同步铃声和通知音量</string>
     <!-- Radio Info -->
     <string name="radio_info_title">广播信息</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">标题图片</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>

@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Налаштування AlphaDroid</string>
-    <string name="crdroid_settings_summary">Додаткові налаштування</string>
     <string name="reset_settings_title">Скинути налаштування</string>
     <string name="reset_settings_message">Буде здійснено скидання більшості параметрів AlphaDroid до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
     <!-- Personalization Categories -->
@@ -236,18 +234,6 @@
     <!-- UI settings -->
     <string name="monet_title">Налаштування Monet</string>
     <string name="monet_summary">Налаштування рушія теми Monet</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Контрастний колір</string>
-    <string name="monet_engine_custom_color_summary">Вибрати власний колір для відтінку</string>
-    <string name="monet_engine_custom_bgcolor_title">Колір фону</string>
-    <string name="monet_engine_custom_bgcolor_summary">Вибрати власний колір для фону</string>
-    <string name="monet_engine_color_override_title">Власний колір</string>
-    <string name="monet_engine_luminance_factor_title">Яскравість</string>
-    <string name="monet_engine_luminance_factor_summary">Вищі значення дають яскравіші кольори</string>
-    <string name="monet_engine_chroma_factor_title">Інтенсивність кольору</string>
-    <string name="monet_engine_chroma_factor_summary">Вищі значення дають більш насичені кольори</string>
-    <string name="monet_engine_tint_background_title">Відтінок фону</string>
-    <string name="monet_engine_tint_background_summary">Зробити так, щоб вибір яскравості та кольоровості також впливав на кольори фону</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
@@ -381,6 +367,15 @@
     <string name="status_bar_battery_style_filled_circle">Заповнене коло</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Прихований</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">Відсоток заряду</string>
     <string name="status_bar_battery_percent_hidden">Прихований</string>
     <string name="status_bar_battery_percent_text_inside">Всередині іконки</string>
@@ -423,33 +418,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Оцінка залишку батареї</string>
     <string name="battery_estimate_summary">Відображати передбачуваний ресурс акумулятора, якщо доступно</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Індикатор мережевого трафіку</string>
-    <string name="network_traffic_settings_summary">Показувати поточну швидкість мережі в рядку стану</string>
-    <string name="network_traffic_location_title">Місцезнаходження</string>
-    <string name="network_traffic_location_disable">Вимкнено</string>
-    <string name="network_traffic_location_statusbar">Рядок стану</string>
-    <string name="network_traffic_location_quick_statusbar">Рядок стану швидких налаштувань</string>
-    <string name="network_traffic_mode_title">Режим відображення</string>
-    <string name="network_traffic_mode_up">Тільки вихідний трафік</string>
-    <string name="network_traffic_mode_down">Тільки вхідний трафік</string>
-    <string name="network_traffic_mode_all">Вихідний і вхідний трафік</string>
-    <string name="network_traffic_autohide">Приховувати автоматично</string>
-    <string name="network_traffic_autohide_summary">Приховувати індикатор трафіку, коли відсутня активність</string>
-    <string name="network_traffic_autohide_kilobits">Кб/с</string>
-    <string name="network_traffic_autohide_kilobytes">КБ/с</string>
-    <string name="network_traffic_autohide_threshold">Поріг неактивності</string>
-    <string name="network_traffic_refresh_interval_title">Інтервал оновлення</string>
-    <string name="network_traffic_refresh_interval_summary">Проміжок часу оновлення швидкості</string>
-    <string name="network_traffic_units_title">Одиниці виміру трафіку</string>
-    <string name="network_traffic_units_bits">Біт за секунду (б/с)</string>
-    <string name="network_traffic_units_kilobits">Кілобіт за секунду (кб/с)</string>
-    <string name="network_traffic_units_megabits">Мегабіт за секунду (Мб/с)</string>
-    <string name="network_traffic_units_bytes">Байт за секунду (Б/с)</string>
-    <string name="network_traffic_units_kilobytes">Кілобайт за секунду (кБ/с)</string>
-    <string name="network_traffic_units_megabytes">Мегабайт за секунду (МБ/с)</string>
-    <string name="network_traffic_hidearrow">Приховати стрілки</string>
-    <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Сповіщення внизу панелі швидких налаштувань</string>
     <string name="qs_footer_warnings_summary">Відображати сповіщення внизу панелі швидких налаштувань, коли мережу контролюють зовнішні програми або VPN</string>
@@ -754,8 +722,6 @@
     <string name="bluetooth_timeout_summary">Не вимикати Bluetooth автоматично</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
     <string name="custom_timeout_summary_never">Ніколи</string>
-    <string name="custom_timeout_summary_5secs">5 секунд</string>
-    <string name="custom_timeout_summary_10secs">10 секунд</string>
     <string name="custom_timeout_summary_15secs">15 секунд</string>
     <string name="custom_timeout_summary_30secs">30 секунд</string>
     <string name="custom_timeout_summary_1min">1 хвилина</string>
@@ -885,9 +851,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Використовувати чорну тему</string>
     <string name="system_black_theme_summary">Примусово використовувати чорні фонові кольори</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Кнопка очищення сповіщень</string>
-    <string name="notification_material_dismiss_summary">Замінити текст \"Очистити все\" плаваючою кнопкою</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Анімація жесту назад</string>
     <string name="back_gesture_arrow_summary">Показати анімовану стрілку для жесту назад</string>
@@ -935,28 +898,6 @@
     <string name="qs_tile_layout_summary">Відображати значок під іконкою поряд з міткою</string>
     <string name="qs_columns_portrait_title">Колонки (портретна орієнтація)</string>
     <string name="qs_columns_landscape_title">Колонки (ландшафтна орієнтація)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Розмиття фону</string>
-    <string name="statusbar_clock_chip_summary">Показувати виділені чіпи за годинником</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Розумне заряджання</string>
-    <string name="smart_charging_summary">Встановіть максимальний рівень зарядки</string>
-    <string name="smart_charging_switch_title">Використати Розумну зарядку</string>
-    <string name="smart_charging_level_title">Рівень початку заряджання</string>
-    <string name="smart_charging_resume_level_title">Рівень початку заряджання</string>
-    <string name="smart_charging_reset_stats_title">Скинути статистику акумулятора</string>
-    <string name="smart_charging_reset_stats_summary">Скинути статистику акумулятора після досягнення визначеного користувачем рівня зарядки</string>
-    <string name="smart_charging_footer">«Розумне» заряджання дозволяє встановити максимальний рівень зарядки для продовження терміну служби батарейки. Коли ввімкнено, батарея перестає заряджатись при досягненні рівня зупинки і відновлює заряджання на рівні початку. Рівень зупинки повинен завжди бути більшим, ніж рівень повзунка початку роботи.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Налаштування погоди</string>
-    <string name="weather_settings_summary">Налаштування набору значків і служб погоди</string>
-    <string name="lockscreen_weather_title">Погодні умови</string>
-    <string name="lockscreen_weather_summary">Показувати поточну погоду і температуру</string>
-    <string name="lockscreen_weather_enabled_info">Вимагає включену службу погоди</string>
-    <string name="lockscreen_weather_location_title">Погода</string>
-    <string name="lockscreen_weather_location_summary">Показувати поточну погоду</string>
-    <string name="lockscreen_weather_style_title">Стиль Pixel</string>
-    <string name="lockscreen_weather_style_summary">Показувати погоду як окремий рядок</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Адаптивне відтворення</string>
     <string name="adaptive_playback_summary">Призупиняти медіа, коли гучність вимкнено та відновіть його шляхом збільшення гучності в межах тайм-ауту</string>
@@ -967,39 +908,6 @@
     <string name="status_bar_logo_summary">Відображати користувацький логотип ліворуч або праворуч від рядка стану</string>
     <string name="status_bar_logo_position_title">Позиція логотипу</string>
     <string name="status_bar_logo_style_title">Стиль логотипу</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Андроїд</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Чужий</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Месники</string>
-    <string name="status_bar_logo_style_batman">Бетмен</string>
-    <string name="status_bar_logo_style_batman_tdk">Бетмен Темний лицар</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Біогазард</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Коноплі</string>
-    <string name="status_bar_logo_style_emoticon_cool">Смайлик круто</string>
-    <string name="status_bar_logo_style_emoticon_devil">Смайлик лихий</string>
-    <string name="status_bar_logo_style_fire">Вогонь</string>
-    <string name="status_bar_logo_style_heart">Серце</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Пакман</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Людина-павук</string>
-    <string name="status_bar_logo_style_superman">Супермен</string>
-    <string name="status_bar_logo_style_windows">Вікна</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Привид</string>
-    <string name="status_bar_logo_style_ninja">Ніндзя</string>
-    <string name="status_bar_logo_style_robot">Робот</string>
-    <string name="status_bar_logo_style_ironman">Залізна людина</string>
-    <string name="status_bar_logo_style_captain_america">Капітан Америка</string>
-    <string name="status_bar_logo_style_flash">Блискавка</string>
-    <string name="status_bar_logo_style_tux">Тукс</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Встановлено: %1$s</string>
     <string name="app_info_update_time">Оновлено: %1$s</string>
@@ -1045,10 +953,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi стандарти</string>
     <string name="wifi_standard_icon_summary">Показувати WiFi стандарт поруч із сигналом WiFi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Сервіси Google</string>
-    <string name="gms_enabled_summary">Управління сервісами Google та основними додатками</string>
-    <string name="gms_enabled_footer">Перед відключенням служб Google та основних додатків, вам потрібно вимкнути \"знайти мій пристрій\" і двоетапну перевірку для вашого облікового запису Google. Настійно рекомендується підтримувати цей параметр увімкненим іншим програмам, залежним від компонентів Google. Якщо у вас виникнуть питання після зміни цього налаштування, виконайте скидання до заводських налаштувань.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Ярлики в нижніх кутах</string>
     <string name="lockscreen_shortcut_start_title">Лівий ярлик</string>
@@ -1063,29 +967,6 @@
     <string name="lockscreen_shortcut_none">Жодної</string>
     <string name="lockscreen_shortcut_enforce_title">Застосувати примусові ярлики</string>
     <string name="lockscreen_shortcut_enforce_summary">Не відображати наступний доступний ярлик, якщо обраний ярлик недоступний</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Блокування програм</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додаток захищено</item>
-        <item quantity="few"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додатки захищені</item>
-        <item quantity="many"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Додатки захищено</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> Програма захищена</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Розблокувати</string>
-    <string name="enable_debugging">Увімкнути налагодження</string>
-    <string name="disable_debugging">Вимкнути налагодження</string>
-    <string name="app_lock_packages_title">Захищені програми</string>
-    <string name="app_lock_packages_summary">Виберіть програми для захисту за допомогою біометричних даних або облікових даних пристрою</string>
-    <string name="app_lock_timeout_title">Тайм-аут автоматичного блокування</string>
-    <string name="app_lock_timeout_summary">Тривалість часу, після якого розблокована програма у фоновому режимі має бути заблокована</string>
-    <string name="app_lock_notifications_title">Згорнути сповіщення</string>
-    <string name="app_lock_notifications_summary">Зміст сповіщень буде приховано і згорнуто для вибраних програм, коли вони будуть заблоковані. Спливаючі сповіщення будуть автоматично вимкнені.</string>
-    <string name="app_lock_notifications_disabled_summary">Спершу виберіть програму для захисту</string>
-    <string name="app_lock_biometrics_allowed_title">Увімкніть біометричні дані для розблокування</string>
-    <string name="app_lock_footer_text">Бульбашки будуть автоматично відхилені після тайм-ауту</string>
-    <string name="enable_protection">Увімкнути захист</string>
-    <string name="hide_from_launcher_title">Приховати від лаунчера</string>
-    <string name="hide_from_launcher_summary">Запобігає появі цього застосунку в будь-якому лаунчері. Для застосування змін потрібне перезавантаження.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Завжди показувати під час заряджання</string>
     <string name="doze_on_charge_summary">Показати пристрій заряджається</string>
@@ -1093,6 +974,11 @@
     <string name="volume_link_notification_title">Поєднати гучність дзвінка &amp; та повідомлень</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Інформація про радіо</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Зображння-заголовок</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>
