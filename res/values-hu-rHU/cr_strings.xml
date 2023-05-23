@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">A AlphaDroid beállításai</string>
-    <string name="crdroid_settings_summary">Klassz dolgok lelőhelye</string>
     <string name="reset_settings_title">Beállítások visszaállítása</string>
     <string name="reset_settings_message">Ez a legtöbb AlphaDroid-beállításértéket visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
     <!-- Personalization Categories -->
@@ -234,18 +232,6 @@
     <!-- UI settings -->
     <string name="monet_title">Monet-beállítások</string>
     <string name="monet_summary">A Monet-témamotor testreszabása</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Kiemelőszín</string>
-    <string name="monet_engine_custom_color_summary">Válassza ki a kiemelés egyéni színét</string>
-    <string name="monet_engine_custom_bgcolor_title">Háttérszín</string>
-    <string name="monet_engine_custom_bgcolor_summary">Válassza ki a háttér egyéni színét</string>
-    <string name="monet_engine_color_override_title">Egyéni szín</string>
-    <string name="monet_engine_luminance_factor_title">Fényerősség</string>
-    <string name="monet_engine_luminance_factor_summary">A magasabb értékek élénkebb színeket eredményeznek</string>
-    <string name="monet_engine_chroma_factor_title">Chorma-faktor</string>
-    <string name="monet_engine_chroma_factor_summary">A magasabb értékek erősebb színeket eredményeznek</string>
-    <string name="monet_engine_tint_background_title">Háttérkitöltés</string>
-    <string name="monet_engine_tint_background_summary">A \'Fényerősség\' és a \'Színesség\' kiválasztása a háttérszíneket is befolyásolja</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Gyorsfeloldás</string>
     <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadásakor</string>
@@ -379,6 +365,15 @@
     <string name="status_bar_battery_style_filled_circle">Tele kör</string>
     <string name="status_bar_battery_style_text">Szöveg</string>
     <string name="status_bar_battery_style_hidden">Rejtett</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">Akkumulátorszázalék</string>
     <string name="status_bar_battery_percent_hidden">Rejtett</string>
     <string name="status_bar_battery_percent_text_inside">Az ikon belsejében</string>
@@ -421,33 +416,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Megbecsült akkuszint</string>
     <string name="battery_estimate_summary">Az akkumulátor megközelítő élettartalmának kijelzése, ha lehetőség van rá</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Hálózatiforgalom-figyelő</string>
-    <string name="network_traffic_settings_summary">Testreszabhatja a jelenlegi Hálózatiforgalom-figyelőt</string>
-    <string name="network_traffic_location_title">Tartózkodási hely</string>
-    <string name="network_traffic_location_disable">Letiltva</string>
-    <string name="network_traffic_location_statusbar">Állapotsor</string>
-    <string name="network_traffic_location_quick_statusbar">Gyors állapotsor</string>
-    <string name="network_traffic_mode_title">Megjelenítési mód</string>
-    <string name="network_traffic_mode_up">Csak a feltöltés</string>
-    <string name="network_traffic_mode_down">Csak a letöltés</string>
-    <string name="network_traffic_mode_all">Feltöltés és letöltés</string>
-    <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Elrejti a forgalomkijelzést, ha nincs forgalom</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Inaktivítási időköz</string>
-    <string name="network_traffic_refresh_interval_title">A frissítés gyakorisága</string>
-    <string name="network_traffic_refresh_interval_summary">Időtartam, amely után a sebesség újra mérésre kerül</string>
-    <string name="network_traffic_units_title">Hálózatiforgalom-mértékegység</string>
-    <string name="network_traffic_units_bits">Bit / másodperc (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobit / másodperc (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabit / másodperc (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bájt / másodperc (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobájt / másodperc (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabájt / másodperc (MB/s)</string>
-    <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
-    <string name="network_traffic_hidearrow_summary">Elrejti a forgalmat jelző nyilakat</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Figyelmeztetések a láblécen</string>
     <string name="qs_footer_warnings_summary">Figyelmeztetés megjelenítése a gyorsbeállítások-panel alján, ha a hálózatot külső alkalmazás vagy a VPN figyeli</string>
@@ -752,8 +720,6 @@
     <string name="bluetooth_timeout_summary">Ne kapcsolódjon ki automatikusan a Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Ha nincs csatlakoztatott eszköz, a Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> elteltével kapcsol ki</string>
     <string name="custom_timeout_summary_never">Soha</string>
-    <string name="custom_timeout_summary_5secs">5 másodperc</string>
-    <string name="custom_timeout_summary_10secs">10 másodperc</string>
     <string name="custom_timeout_summary_15secs">15 másodperc</string>
     <string name="custom_timeout_summary_30secs">30 másodperc</string>
     <string name="custom_timeout_summary_1min">1 perc</string>
@@ -881,9 +847,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sötét téma használata</string>
     <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Minden értesítés törlése gomb</string>
-    <string name="notification_material_dismiss_summary">Lecseréli az összes törlése értesítési szöveget egy új stílusú lebegő gombra</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">A Vissza gesztus animációja</string>
     <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a \'Vissza\'-mozdulatvezérléshez</string>
@@ -931,28 +894,6 @@
     <string name="qs_tile_layout_summary">Ikonnév nem az ikon alatt, hanem mellette</string>
     <string name="qs_columns_portrait_title">Oszlopok (álló)</string>
     <string name="qs_columns_landscape_title">Oszlopok (fekvő)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Kiemelt óralap</string>
-    <string name="statusbar_clock_chip_summary">Az óra mögött megjelenít egy hátteret</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Okos töltés</string>
-    <string name="smart_charging_summary">A maximális töltési szint beállítása</string>
-    <string name="smart_charging_switch_title">Az Okos töltés engedélyezése</string>
-    <string name="smart_charging_level_title">Megállítási érték</string>
-    <string name="smart_charging_resume_level_title">Indítási érték</string>
-    <string name="smart_charging_reset_stats_title">Akkustatisztikák alaphelyzetbe állítása</string>
-    <string name="smart_charging_reset_stats_summary">Amikor elérte a felhasználó által beállított töltési szintet, alaphelyzetbe állítja az akkusatisztikákat</string>
-    <string name="smart_charging_footer">Az Okos töltés lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében. Ha engedélyezve van, az akkumulátor leállítja a töltést a Leállítási szintnél és folytatja a töltést az Indítási szintnél. A Leállítási szintnek mindig nagyobbnak kell lennie az Indítási szintnél.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Időjárás-beállítások</string>
-    <string name="weather_settings_summary">Testre szabható ikoncsomag és időjárás-szolgáltatás</string>
-    <string name="lockscreen_weather_title">Időjárási helyzet</string>
-    <string name="lockscreen_weather_summary">Megjeleníti az épp aktuális hőfokot és adatokat</string>
-    <string name="lockscreen_weather_enabled_info">Az időjárás-szolgáltatás engedélyezése szükséges</string>
-    <string name="lockscreen_weather_location_title">Időjárási helymeghatározás</string>
-    <string name="lockscreen_weather_location_summary">A jelenlegi tartózkodási hely adatait jeleníti meg</string>
-    <string name="lockscreen_weather_style_title">Pixel-stílus</string>
-    <string name="lockscreen_weather_style_summary">Az időjárás külön sorban jelenik meg</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptív lejátszás</string>
     <string name="adaptive_playback_summary">A hangerő elnémítása esetén szünetelteti a médiát, ám az időkorláton belül a hangerő fel gombra folytatja</string>
@@ -963,39 +904,6 @@
     <string name="status_bar_logo_summary">Egyéni logo megjelenítése az állapotsor jobb vagy bal oldalán</string>
     <string name="status_bar_logo_position_title">A logó pozíciója</string>
     <string name="status_bar_logo_style_title">Logóstílus</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Földönkívüli</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Bosszúállók</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman a Sötét Lovag</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biológiai veszély</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Kannabisz</string>
-    <string name="status_bar_logo_style_emoticon_cool">Menő</string>
-    <string name="status_bar_logo_style_emoticon_devil">Ördög</string>
-    <string name="status_bar_logo_style_fire">Tűz</string>
-    <string name="status_bar_logo_style_heart">Szív</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-Man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Pókember</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Szellem</string>
-    <string name="status_bar_logo_style_ninja">Nindzsa</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Amerika Kapitány</string>
-    <string name="status_bar_logo_style_flash">Villám</string>
-    <string name="status_bar_logo_style_tux">TUX</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">%1$s -kor telepítve</string>
     <string name="app_info_update_time">%1$s -kor frissítve</string>
@@ -1041,10 +949,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi-Fi-szabvány</string>
     <string name="wifi_standard_icon_summary">A Wi-Fi-jel mellett a szabványt is megjeleníti</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google-szolgáltatások</string>
-    <string name="gms_enabled_summary">Itt kontrollálhatja a Google-cuccokat</string>
-    <string name="gms_enabled_footer">Mielőtt letiltja a Google-szolgáltatásokat és alkalmazásokat kapcsolja ki Google-fiókjában a Készülékkeresést és a kétlépcsős azonosítást. Erősen ajánlott meghagyni ezt a beállítást, hiszen érinti a Google összetevőitől függő alkalmazásokat. Ha a változtatás után fatális hibák keletkeznek, kénytelen lesz Gyári adatok visszaállítását végrehajtani.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Alsó parancsikonok</string>
     <string name="lockscreen_shortcut_start_title">Bal oldali parancsikon</string>
@@ -1059,29 +963,6 @@
     <string name="lockscreen_shortcut_none">Nincs</string>
     <string name="lockscreen_shortcut_enforce_title">Kényszerített parancsokonok</string>
     <string name="lockscreen_shortcut_enforce_summary">Ne jelenítse meg a következő elérhető parancsikont, ha a kiválasztott parancsikon nem érhető el</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Alkalmazás-zár</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Feloldás</string>
-    <string name="enable_debugging">Hibakeresés engedélyezése</string>
-    <string name="disable_debugging">Hibakeresés letiltása</string>
-    <string name="app_lock_packages_title">Zárolt alkalmazások</string>
-    <string name="app_lock_packages_summary">Kijelölheti a biometrikus- vagy készülékhitelesítő-adatokkal védeni kívánt alkalmazásokat</string>
-    <string name="app_lock_timeout_title">Az automatikus lezárás időkorlátja</string>
-    <string name="app_lock_timeout_summary">Az az időtartam, amely után a feloldott alkalmazás a háttérben visszazár</string>
-    <string name="app_lock_notifications_title">Összezárt értesítések</string>
-    <string name="app_lock_notifications_summary">A kiválasztott zárolt alkalmazások értesítései elrejtődnek és összecsukódnak. A lebegő értesítések automatikusan letiltódnak.
-    </string>
-    <string name="app_lock_notifications_disabled_summary">Előbb állítson be legalább egy zárolt alkalmazást</string>
-    <string name="app_lock_biometrics_allowed_title">Biometria-bekapcsolás a feloldáshoz</string>
-    <string name="app_lock_footer_text">A buborékok az időhatár letelte után automatikusan eltűnnek</string>
-    <string name="enable_protection">Védelem-engedélyezés</string>
-    <string name="hide_from_launcher_title">Elrejtés a Launcherből</string>
-    <string name="hide_from_launcher_summary">Megakadályozza hogy egy alkalmazás látszódjon a launcheren. A funkcióhoz újra kell indítani a launchert.
-    </string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan látszódik töltés közben</string>
     <string name="doze_on_charge_summary">Megjelenítés készüléktöltéskor</string>
@@ -1089,6 +970,11 @@
     <string name="volume_link_notification_title">Csengő és értesítési hangerők összekötése</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Rádióinformációk</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Fejléc-kép</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>
