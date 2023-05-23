@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2023 AlphaDroid
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="alphabet_summary">Bunătăți!</string>
+    <!-- Preference categories -->
+    <string name="preference_category_brightness">Luminozitate</string>
+    <string name="preference_category_battery">Baterie</string>
+    <string name="preference_category_style">Stil</string>
+    <string name="preference_category_clock">Ceas</string>
+    <!-- Settings dashboard style -->
+    <string name="settings_dashboard_style_title">Stil setări</string>
+    <string name="settings_dashboard_style_summary">Pagina principală Setări și stil Alphabet</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_dot">DoT</string>
+    <string name="settings_dashboard_style_nad">NAD</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_category_title">Trafic rețea</string>
+    <string name="network_traffic_intro_text">Afișează viteza curentă a traficului rețelei în bara de stare. Monitorul arată dinamic viteza astfel încât ea alternează între viteza de încărcare și de descărcare la fiecare secundă</string>
+    <string name="enable_network_traffic">Activează monitorul traficului de rețea</string>
+    <string name="statusbar_network_traffic_threshold_tx_title">Pragul de ascundere automată pentru încărcare</string>
+    <string name="statusbar_network_traffic_threshold_rx_title">Pragul de ascundere automată pentru descărcare</string>
+    <string name="statusbar_network_traffic_unit_text_size_title">Dimensiunea textului unității de trafic în rețea</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_title">Factor de scalare a textului traficului în rețea</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_dialog_title">Factor de proporție</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Pictograme notificare</string>
+    <string name="max_visible_notification_icons_summary">Nr. maxim de pictograme de notificare vizibile pe bara de stare</string>
+    <!-- Status bar padding -->
+    <string name="statusbar_padding">Umplere bară de stare</string>
+    <string name="statusbar_top_padding">Umplere de sus</string>
+    <string name="statusbar_left_padding">Umplere din stânga</string>
+    <string name="statusbar_right_padding">Umplere din dreapta</string>
+    <!-- Ambient Customization -->
+    <string name="default_string">Implicit</string>
+    <string name="ambient_text_category">Personalizare text</string>
+    <string name="ambient_image_category">Personalizare imagine</string>
+    <string name="ambient_text_category_title">Personalizare afișaj ambiental</string>
+    <string name="ambient_text_category_summary">Personalizarea aspectului afișajului ambiental</string>
+    <string name="ambient_text_title">Text ambiental</string>
+    <string name="ambient_text_summary">Afișare text ambiental în AoD</string>
+    <string name="ambient_text_animation_title">Animație text ambiental</string>
+    <string name="ambient_text_animation_summary">Arată o animație când se afișează AoD</string>
+    <string name="ambient_text_size_title">Dimensiune text ambiental</string>
+    <string name="ambient_text_font_title">Font text ambiental</string>
+    <string name="ambient_text_string_title">Setează textul ambiental</string>
+    <string name="ambient_text_align_title">Aliniere text ambiental</string>
+    <string name="ambient_text_align_start_top">Dreapta sus</string>
+    <string name="ambient_text_align_start_center">Dreapta centru</string>
+    <string name="ambient_text_align_start_bottom">Dreapta jos</string>
+    <string name="ambient_text_align_center">Centru</string>
+    <string name="ambient_text_align_end_top">Stânga sus</string>
+    <string name="ambient_text_align_end_center">Stânga centru</string>
+    <string name="ambient_text_align_end_bottom">Stânga jos</string>
+    <string name="ambient_text_type_color_title">Font text ambiental</string>
+    <string name="ambient_text_color_title">Culoare text ambiental</string>
+    <string name="ambient_notification_light_color_mode_accent">Culoare accent sistem</string>
+    <string name="ambient_notification_light_color_mode_custom">Culoare personalizată</string>
+    <string name="ambient_notification_light_color_mode_wall">Culoarea imaginii de fundal</string>
+    <string name="ambient_image_title">Imagine ambientală</string>
+    <string name="file_header_select_title">Selectează imaginea locală</string>
+    <string name="file_header_select_summary">Alege imaginea din memoria internă</string>
+    <!-- Quick settings styles -->
+    <string name="qs_styles_title">Stiluri de elemente QS combinate</string>
+    <string name="qs_outline">Conturat</string>
+    <string name="qs_two_tone">Accent în două tonuri</string>
+    <string name="qs_two_tone_trans">Translucent în două tonuri</string>
+    <string name="qs_color_pop">Culoare pop</string>
+    <string name="qs_shaded">Umbrit</string>
+    <string name="qs_cyberpunk">Cyberpunk</string>
+    <string name="qs_neumorph">Neumorph</string>
+    <string name="qs_reflected">Reflectat</string>
+    <string name="qs_surround">Surround</string>
+    <string name="qs_thin">Linie subțire</string>
+    <!-- Quicksettings media category -->
+    <string name="media_category">Player media</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Afișează animația de tip squiggle</string>
+    <string name="show_squiggle_animation_summary">Se afișează animația de tip squiggle în panoul media
+După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de progres</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Stil interfață utilizator</string>
+    <string name="theme_customization_ui_style_summary">Setează stil personalizat pentru interfață</string>
+    <!-- Monet settings -->
+    <string name="monet_settings_title">Setări avansate monet</string>
+    <string name="monet_settings_summary">Setări suplimentare pentru personalizarea motorului monet</string>
+    <string name="theme_style_title">Stil temă</string>
+    <string name="theme_style_tonal_spot">Punct tonal (implicit)</string>
+    <string name="theme_style_vibrant">Vibrant</string>
+    <string name="theme_style_expressive">Expresiv</string>
+    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_rainbow">Curcubeu</string>
+    <string name="theme_style_fruit_salad">Salată de fructe</string>
+    <string name="theme_style_muted">Muted</string>
+    <string name="theme_style_content">Conținut</string>
+    <string name="color_source_title">Originea culorii</string>
+    <string name="color_source_both">Ambele (Implicit)</string>
+    <string name="color_source_home">Fundal ecran principal</string>
+    <string name="color_source_lock">Fundal ecran blocare</string>
+    <string name="color_source_preset">Presetare</string>
+    <string name="accent_color_title">Culoare accent</string>
+    <string name="accent_color_summary">Suprascrie culoarea de accent implicită</string>
+    <string name="accent_background_title">Accent fundal</string>
+    <string name="accent_background_summary">Alege o altă culoare de accent pentru fundal</string>
+    <string name="bg_color_title">Culoarea de fundal</string>
+    <string name="bg_color_summary">Suprascrie culoarea implicită de accent de fundal</string>
+    <string name="luminance_factor_title">Luminozitate</string>
+    <string name="luminance_factor_summary">Valorile mai mari produc culori mai bune</string>
+    <string name="chroma_factor_title">Cromă</string>
+    <string name="chroma_factor_summary">Valorile mai mari produc culori mai puternice</string>
+    <string name="tint_background_title">Nuanță de fundal</string>
+    <string name="tint_background_summary">Face ca Luminanța și Chroma să afecteze și culorile de fundal</string>
+    <!-- QS Header -->
+    <string name="qs_header_image_title">Imagine antet setări rapide</string>
+    <string name="qs_header_random_image_title">Imagine aleatoare antet setări rapide</string>
+    <string name="qs_header_random_image_summary">Activează imaginea aleatoare a antetului setărilor rapide</string>
+    <!-- Power menu Animations  -->
+    <string name="power_menu_anim_cat">Opțiune de animație meniu alimentare</string>
+    <string name="power_menu_animation_title">Animație meniu buton alimentare</string>
+    <string name="power_menu_animation_dialog_title">Selectează animația pentru meniul de pornire</string>
+    <string name="power_menu_animation_aosp">AOSP (implicit)</string>
+    <string name="power_menu_animation_bottom">Jos</string>
+    <string name="power_menu_animation_top">Sus</string>
+    <string name="power_menu_animation_xylon">Zbor</string>
+    <string name="power_menu_animation_slide">Glisare</string>
+    <string name="power_menu_animation_turn">Rotire</string>
+    <string name="power_menu_animation_fly">Strălucire</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Translucid (sus)</string>
+    <string name="power_menu_animation_translucent_bottom">Translucid (jos)</string>
+    <string name="power_menu_animation_rotate">Rotire</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combinare pictograme de semnal</string>
+    <string name="combined_status_bar_signal_icons_summary">Afișează o singură pictogramă combinată pentru WiFi și semnal mobil</string>
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Cip de fundal</string>
+    <string name="statusbar_clock_chip_summary">Afișează cip accentuat în spatele ceasului</string>
+    <string name="solid_accent">Culoare solidă de accent</string>
+    <string name="outline">Contur</string>
+    <string name="solid_accent_gradient">Gradient accentuat de culoare solidă</string>
+    <string name="solid_gradient">Partea solidă cu gradient</string>
+    <string name="solid_gradient_corner">Accent solid gradient ascuțit</string>
+    <string name="solid_gradient_void">Gradient Vid</string>
+    <string name="solid_gradient_neumorph">Gradient Neumorf</string>
+    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
+    <string name="solid_accent_transperent">Accent transparent</string>
+    <string name="solid_gradient_light">Gradient luminos</string>
+    <string name="solid_gradient_shape">Sharp gradient corner</string>
+    <string name="solid_gradient_void_light">Gradient Void light</string>
+    <!-- QS Weather Options -->
+    <string name="qs_weather_title">Stilul datelor meteo QS</string>
+    <string name="qs_weather_summary">Configurează vremea sistemului</string>
+    <string name="qsweather_dialog_title">Locație date meteo în setările rapide</string>
+    <string name="qs_weather_hidden">Ascunde Vremea</string>
+    <string name="qs_temperature_image_show_scale">Afișare temperatură cu scară și imagine</string>
+    <string name="qs_temperature_image_hide_scale">Afișare temperatură cu imagine fără scară</string>
+    <string name="qs_temperature_show_scale_hide_image">Afișare temperatură cu scară</string>
+    <string name="qs_temperature_hide_scale_hide_image">Afișare temperatură fără scară</string>
+    <string name="qs_show_image">Afișare imagine</string>
+    <string name="weather_show_all_condition">Afișare temperatură cu scară, imagine și condiții meteo</string>
+    <string name="qsweather_position_qqs">Setări rapide</string>
+    <string name="qsweather_position_qsb">Bară de stare setări rapide</string>
+    <string name="qsweather_position_both">Ambele</string>
+    <string name="launcher_weather_title">Stilul datelor meteo în lansator</string>
+    <string name="kg_weather_title">Stilul datelor meteo pe ecranul de blocare</string>
+    <!-- Omni weather -->
+    <string name="qs_weather_settings_title">Setări date meteo</string>
+    <string name="qs_weather_settings_summary">Configurarea pachetului de pictograme și a serviciului meteo</string>
+    <string name="weather_title">Setări date meteo</string>
+    <string name="weather_config_title">Serviciu date meteo</string>
+    <string name="weather_config_summary">Setări servicii de sistem</string>
+    <string name="weather_icon_pack_title">Pictograme condiții meteo</string>
+    <string name="weather_icon_pack_note">Notă\u003a poți instala pachete noi de pictograme din Magazinul Google Play, căutând \"pictograme Chronus\"</string>
+    <string name="weather_icon_pack_info_title">Sfaturi\u003a \n\n1. Utilizatorii pot instala pachete noi de pictograme din Magazinul Play căutând \"Chronus icons\".\n\n2. Pachetul de pictograme este utilizat pentru pictogramele meteo în setările rapide și lansator.\n\n3. Apasă lung pe Setări rapide meteo vizualizare/siglă/temperatură pentru a accesa setările meteo cu ușurință.</string>
+    <string name="qsweather_settings_title">Vreme Setări Rapide</string>
+    <string name="qsweather_settings_summary">Configurare vizualizări meteo în setările rapide</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">Culoare UDFPS apăsată</string>
+    <string name="udfps_pressed_color_summary">Alege culoarea favorită a UDFPS apăsat</string>
+    <!-- QS Page Transitions -->
+    <string name="qs_transitions_title">Tranzacții pagină setări rapide</string>
+    <string name="qs_transitions_default">Implicit</string>
+    <string name="qs_transitions_cube_in">Cub interior</string>
+    <string name="qs_transitions_cube_out">Cub exterior</string>
+    <string name="qs_transitions_accordion">Acordeon</string>
+    <string name="qs_transitions_background_to_foreground">De la fundal în prim-plan</string>
+    <string name="qs_transitions_depth_page">Pagină de adâncime</string>
+    <string name="qs_transitions_fade">Estompare</string>
+    <string name="qs_transitions_foreground_to_background">Prim-plan spre fundal</string>
+    <string name="qs_transitions_rotate_down">Rotire în jos</string>
+    <string name="qs_transitions_rotate_up">Rotire în sus</string>
+    <string name="qs_transitions_stack">Stivă</string>
+    <string name="qs_transitions_tablet">Tabletă</string>
+    <string name="qs_transitions_zoom_in">Mărire</string>
+    <string name="qs_transitions_zoom_out">Micșorare</string>
+    <string name="qs_transitions_zoom_out_slide">Micșorare diapozitiv</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forțează LTE CA</string>
+    <string name="force_lte_ca_summary">Forțează agregarea LTE</string>
+    <!-- Volume Styles -->
+    <string name="rui_style">Stil Realme UI</string>
+    <string name="rising_style">Stil Rice</string>
+    <string name="volume_style_title">Stiluri panou de volum</string>
+    <!-- Volume Media Output Toggle -->
+    <string name="volume_media_output_toggle_title">Volum ieșire media</string>
+    <string name="volume_media_output_toggle_summary">Se afișează comutatorul de ieșire media când există un flux activ</string>
+    <!-- Brightness slider styles -->
+    <string name="brightness_slider_style_title">Stil glisor luminozitate</string>
+    <string name="brightness_slider_style_default">Implicit</string>
+    <string name="brightness_slider_style_filled">Umplut</string>
+    <string name="brightness_slider_style_thin">Subțire</string>
+    <string name="brightness_slider_style_cyberpunk">Blocky Thumb</string>
+    <string name="brightness_slider_style_gradiant">Strat dublu</string>
+    <string name="brightness_slider_style_neumorph">Neumorph</string>
+    <string name="brightness_slider_style_outline">Conturat</string>
+    <string name="brightness_slider_style_shaded">Umbrit</string>
+    <string name="brightness_slider_style_thinoutline">În linie</string>
+    <string name="brightness_slider_style_translucent">Transparent</string>
+    <string name="brightness_slider_style_leafyoutline">Frunză conturată</string>
+    <string name="brightness_slider_style_minimalthumb">Minim Thumb</string>
+    <string name="brightness_slider_style_oldschoolthumb">Old School Thumb</string>
+    <string name="brightness_slider_style_roundedclip">Clip rotunjit</string>
+    <string name="brightness_slider_style_thumbslider">Thumb Slider</string>
+    <string name="brightness_slider_style_line">Contur subțire</string>
+    <string name="brightness_slider_style_lighty">Lejer</string>
+</resources>

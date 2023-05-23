@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">AlphaDroid 설정</string>
-    <string name="crdroid_settings_summary">커스텀 고급 설정 </string>
     <string name="reset_settings_title">설정 초기화</string>
     <string name="reset_settings_message">대부분의 AlphaDroid 설정이 현재 사용자의 기본값으로 재설정됩니다. 계속 하시겠습니까?</string>
     <!-- Personalization Categories -->
@@ -233,18 +231,6 @@
     <!-- UI settings -->
     <string name="monet_title">Monet 설정</string>
     <string name="monet_summary">Monet 테마 엔진 설정</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">강조 색상</string>
-    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
-    <string name="monet_engine_custom_bgcolor_title">Background color</string>
-    <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
-    <string name="monet_engine_color_override_title">사용자 지정 색상</string>
-    <string name="monet_engine_luminance_factor_title">Luminance</string>
-    <string name="monet_engine_luminance_factor_summary">Higher values produce brighter colors</string>
-    <string name="monet_engine_chroma_factor_title">크로마 팩터</string>
-    <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
-    <string name="monet_engine_tint_background_title">Tint background</string>
-    <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">빠른 잠금해제</string>
     <string name="unlock_quick_unlock_control_summary">PIN/비밀번호를 올바르게 입력하면 자동으로 잠금을 해제합니다</string>
@@ -378,6 +364,15 @@
     <string name="status_bar_battery_style_filled_circle">꽉찬 원</string>
     <string name="status_bar_battery_style_text">텍스트</string>
     <string name="status_bar_battery_style_hidden">숨김</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">배터리 잔량 표시</string>
     <string name="status_bar_battery_percent_hidden">숨김</string>
     <string name="status_bar_battery_percent_text_inside">아이콘 안에 표시</string>
@@ -420,33 +415,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">배터리 예상</string>
     <string name="battery_estimate_summary">남은 배터리 사용 시간 예상 (사용 가능할 경우)</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">네트워크 트래픽 모니터</string>
-    <string name="network_traffic_settings_summary">현재 네트워크 트래픽 수준 표시 및 커스텀 설정</string>
-    <string name="network_traffic_location_title">위치</string>
-    <string name="network_traffic_location_disable">비활성화</string>
-    <string name="network_traffic_location_statusbar">상태 표시줄</string>
-    <string name="network_traffic_location_quick_statusbar">빠른 상태 표시 줄</string>
-    <string name="network_traffic_mode_title">표시 모드</string>
-    <string name="network_traffic_mode_up">업로드만</string>
-    <string name="network_traffic_mode_down">다운로드만</string>
-    <string name="network_traffic_mode_all">업로드와 다운로드</string>
-    <string name="network_traffic_autohide">자동 숨기기</string>
-    <string name="network_traffic_autohide_summary">비활성 상태 일 때 트래픽 모니터 숨기기</string>
-    <string name="network_traffic_autohide_kilobits">Kb/초</string>
-    <string name="network_traffic_autohide_kilobytes">KB/초</string>
-    <string name="network_traffic_autohide_threshold">비활성 한계점</string>
-    <string name="network_traffic_refresh_interval_title">새로고침 간격</string>
-    <string name="network_traffic_refresh_interval_summary">속도가 재 측정 된 후의 시간</string>
-    <string name="network_traffic_units_title">트래픽 측정 단위</string>
-    <string name="network_traffic_units_bits">비트 / 초 (b/s)</string>
-    <string name="network_traffic_units_kilobits">초당 킬로비트 (kb/s)</string>
-    <string name="network_traffic_units_megabits">초당 메가비트 (Mb/s)</string>
-    <string name="network_traffic_units_bytes">초당 바이트 (B/s)</string>
-    <string name="network_traffic_units_kilobytes">초당 킬로바이트 (kB/s)</string>
-    <string name="network_traffic_units_megabytes">초당 메가바이트 (MB/s)</string>
-    <string name="network_traffic_hidearrow">화살표 숨기기</string>
-    <string name="network_traffic_hidearrow_summary">네트워크 트래픽 표시기 화살표 숨기기</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">바닥글 알림</string>
     <string name="qs_footer_warnings_summary">네트워크가 외부 앱이나 VPN에 의해 모니터링 될 때 빠른 설정 패널 하단에 알림을 표시합니다</string>
@@ -751,8 +719,6 @@
     <string name="bluetooth_timeout_summary">블루투스를 자동으로 끄지 않습니다</string>
     <string name="bluetooth_timeout_summary_auto"><xliff:g id="timeout_description">%1$s</xliff:g> 동안 기기 연결이 없다면 블루투스를 끕니다</string>
     <string name="custom_timeout_summary_never">사용 안함</string>
-    <string name="custom_timeout_summary_5secs">5초</string>
-    <string name="custom_timeout_summary_10secs">10초</string>
     <string name="custom_timeout_summary_15secs">15초</string>
     <string name="custom_timeout_summary_30secs">30초</string>
     <string name="custom_timeout_summary_1min">1분</string>
@@ -879,9 +845,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">검정 테마 사용</string>
     <string name="system_black_theme_summary">검정 배경색 고정</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">모든 알림 지우기 버튼</string>
-    <string name="notification_material_dismiss_summary">모든 알림 텍스트를 머티리얼 스타일의 플로팅 버튼으로 교체합니다</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">뒤로가기 제스처 애니메이션</string>
     <string name="back_gesture_arrow_summary">뒤로가기 제스처를 위한 화살표 애니메이션을 표시합니다</string>
@@ -929,28 +892,6 @@
     <string name="qs_tile_layout_summary">라벨을 아이콘 옆 대신 아래에 표시</string>
     <string name="qs_columns_portrait_title">행 (세로 모드)</string>
     <string name="qs_columns_landscape_title">행 (가로 모드)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">배경 chip</string>
-    <string name="statusbar_clock_chip_summary">시계 뒤 강조된 chip 보이기</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">스마트 충전</string>
-    <string name="smart_charging_summary">최대 충전 레벨 설정</string>
-    <string name="smart_charging_switch_title">스마트 충전 활성화</string>
-    <string name="smart_charging_level_title">정지 트리거 레벨</string>
-    <string name="smart_charging_resume_level_title">시작 트리거 레벨</string>
-    <string name="smart_charging_reset_stats_title">배터리 통계 재설정</string>
-    <string name="smart_charging_reset_stats_summary">지정된 충전 레벨에 도달하면 배터리 통계를 재설정합니다</string>
-    <string name="smart_charging_footer">스마트 충전은 최대 충전 레벨을 설정하여 배터리 수명을 연장할 수 있게 합니다. 이 기능이 활성화되면, 정지 트리거 레벨에서 충전이 멈추고 시작 트리거 레벨에서 충전이 다시 시작됩니다. 정지 트리거 레벨은 항상 시작 트리거 레벨보다 높은 값이어야 합니다.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Weather settings</string>
-    <string name="weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="lockscreen_weather_title">Weather condition</string>
-    <string name="lockscreen_weather_summary">Display current weather condition and temperature</string>
-    <string name="lockscreen_weather_enabled_info">Requires weather service to be enabled</string>
-    <string name="lockscreen_weather_location_title">Weather location</string>
-    <string name="lockscreen_weather_location_summary">Display current weather location</string>
-    <string name="lockscreen_weather_style_title">Pixel 스타일</string>
-    <string name="lockscreen_weather_style_summary">Display weather as separate row</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">적응형 재생</string>
     <string name="adaptive_playback_summary">음소거되면 미디어를 일시중지하고 제한시간 안에 볼륨을 높이면 다시 재생</string>
@@ -961,39 +902,6 @@
     <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
     <string name="status_bar_logo_position_title">로고 위치</string>
     <string name="status_bar_logo_style_title">로고 스타일</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">안드로이드</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alien</string>
-    <string name="status_bar_logo_style_apple">애플</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">배트맨</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">바이오 하자드</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">이모티콘 쿨</string>
-    <string name="status_bar_logo_style_emoticon_devil">이모티콘 악마</string>
-    <string name="status_bar_logo_style_fire">Fire</string>
-    <string name="status_bar_logo_style_heart">하트</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">슈퍼맨</string>
-    <string name="status_bar_logo_style_windows">윈도우</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">유령</string>
-    <string name="status_bar_logo_style_ninja">닌자</string>
-    <string name="status_bar_logo_style_robot">로봇</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">플래시</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installed: %1$s</string>
     <string name="app_info_update_time">Updated: %1$s</string>
@@ -1039,10 +947,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi standard</string>
     <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google services</string>
-    <string name="gms_enabled_summary">Control Google services and core apps</string>
-    <string name="gms_enabled_footer">Before disabling Google services and core apps, you should disable \"Find My Device\" and 2-step verification on your Google account. It is strongly recommended to keep this setting enabled else apps dependent on Google components will be affected. If you run into any issues after changing this setting, perform a factory reset.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Bottom shortcuts</string>
     <string name="lockscreen_shortcut_start_title">Left shortcut</string>
@@ -1057,26 +961,6 @@
     <string name="lockscreen_shortcut_none">없음</string>
     <string name="lockscreen_shortcut_enforce_title">Enforce shortcuts</string>
     <string name="lockscreen_shortcut_enforce_summary">Do not display next available shortcut if chosen shortcut is not available</string>
-    <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">잠금 해제</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always show when charging</string>
     <string name="doze_on_charge_summary">Display device is charging</string>
@@ -1084,6 +968,11 @@
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Header image</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>

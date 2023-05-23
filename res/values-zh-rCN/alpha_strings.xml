@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2023 AlphaDroid
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="alphabet_summary">Goodies!</string>
+    <!-- Preference categories -->
+    <string name="preference_category_brightness">亮度</string>
+    <string name="preference_category_battery">电池</string>
+    <string name="preference_category_style">风格</string>
+    <string name="preference_category_clock">时钟</string>
+
+    <!-- Settings dashboard style -->
+    <string name="settings_dashboard_style_title">设置样式</string>
+    <string name="settings_dashboard_style_summary">设置主页和 Alphabet 风格</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_category_title">网络通信</string>
+    <string name="network_traffic_intro_text">
+        在状态栏中显示当前的网络连接速度
+        每秒刷新
+    </string>
+    <string name="enable_network_traffic">启用网速监视器</string>
+    <string name="statusbar_network_traffic_threshold_tx_title">低于阀值时隐藏上传速度</string>
+    <string name="statusbar_network_traffic_threshold_rx_title">低于阀值时隐藏下载速度</string>
+    <string name="statusbar_network_traffic_unit_text_size_title">网速监视器文字大小</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_title">网络速率文字缩放</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_dialog_title">缩放</string>
+
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">通知图标</string>
+    <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
+
+    <!-- Status bar padding -->
+    <string name="statusbar_padding">状态栏填充</string>
+    <string name="statusbar_top_padding">顶部填充</string>
+    <string name="statusbar_left_padding">左填充</string>
+    <string name="statusbar_right_padding">右填充</string>
+
+    <!-- Ambient Customization -->
+    <string name="default_string">默认</string>
+    <string name="ambient_text_category">文字自定义</string>
+    <string name="ambient_image_category">图片自定义</string>
+    <string name="ambient_text_category_title">熄屏显示自定义</string>
+    <string name="ambient_text_category_summary">自定义熄屏显示的外观</string>
+    <string name="ambient_text_title">熄屏显示文本</string>
+    <string name="ambient_text_summary">熄屏显示文本</string>
+    <string name="ambient_text_animation_title">熄屏显示动画</string>
+    <string name="ambient_text_animation_summary">熄屏显示时的动画</string>
+    <string name="ambient_text_size_title">熄屏显示文字大小</string>
+    <string name="ambient_text_font_title">熄屏显示文字字体</string>
+    <string name="ambient_text_string_title">设置熄屏显示文字</string>
+    <string name="ambient_text_align_title">熄屏显示文字对齐</string>
+    <string name="ambient_text_align_start_top">右上角</string>
+    <string name="ambient_text_align_start_center">右侧中心</string>
+    <string name="ambient_text_align_start_bottom">右下角</string>
+    <string name="ambient_text_align_center">居中</string>
+    <string name="ambient_text_align_end_top">左上角</string>
+    <string name="ambient_text_align_end_center">左侧中心</string>
+    <string name="ambient_text_align_end_bottom">左下角</string>
+    <string name="ambient_text_type_color_title">熄屏显示文字样式及颜色</string>
+    <string name="ambient_text_color_title">熄屏显示文字颜色</string>
+    <string name="ambient_notification_light_color_mode_accent">系统强调色</string>
+    <string name="ambient_notification_light_color_mode_custom">自定义颜色</string>
+    <string name="ambient_notification_light_color_mode_wall">壁纸颜色</string>
+    <string name="ambient_image_title">熄屏显示图片</string>
+    <string name="file_header_select_title">选择本地图片</string>
+    <string name="file_header_select_summary">从存储选择图片</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">组合信号图标</string>
+    <string name="combined_status_bar_signal_icons_summary">显示一个WiFi和移动信号的组合图标</string>
+
+    <!-- Quick settings styles -->
+    <string name="qs_styles_title">组合 QS 元素风格</string>
+    <string name="qs_outline">概要</string>
+    <string name="qs_two_tone">双强调色</string>
+    <string name="qs_color_pop">流行色彩</string>
+    <string name="qs_shaded">阴影</string>
+    <string name="qs_cyberpunk">赛博朋克</string>
+    <string name="qs_neumorph">新拟态</string>
+    <string name="qs_reflected">反射</string>
+    <string name="qs_surround">环绕</string>
+    <string name="qs_thin">细线</string>
+
+    <!-- Quicksettings media category -->
+    <string name="media_category">媒体播放器</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">显示波浪动画</string>
+    <string name="show_squiggle_animation_summary">显示媒体面板的波浪动画\n更改后需要切换音乐、暂停音乐或移动进度条来应用更改</string>
+
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">UI 风格</string>
+    <string name="theme_customization_ui_style_summary">为你的界面设置自定义风格</string>
+
+    <!-- Monet settings -->
+    <string name="monet_settings_title">Monet settings</string>
+    <string name="monet_settings_summary">Additional settings to customize monet engine</string>
+    <string name="theme_style_title">Theme style</string>
+    <string name="theme_style_tonal_spot">Tonal Spot (Default)</string>
+    <string name="theme_style_vibrant">Vibrant</string>
+    <string name="theme_style_expressive">Expressive</string>
+    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_rainbow">Rainbow</string>
+    <string name="theme_style_fruit_salad">Fruit Salad</string>
+    <string name="theme_style_muted">Muted</string>
+    <string name="theme_style_content">Content</string>
+    <string name="color_source_title">Color source</string>
+    <string name="color_source_both">Both (Default)</string>
+    <string name="color_source_home">Home wallpaper</string>
+    <string name="color_source_lock">Lock wallpaper</string>
+    <string name="color_source_preset">Preset</string>
+    <string name="accent_color_title">Accent Color</string>
+    <string name="accent_color_summary">Override default accent color</string>
+    <string name="accent_background_title">Accent background</string>
+    <string name="accent_background_summary">Choose a different accent color for background</string>
+    <string name="bg_color_title">Background Color</string>
+    <string name="bg_color_summary">Override default background accent color</string>
+    <string name="luminance_factor_title">Luminance</string>
+    <string name="luminance_factor_summary">Higher values produce brighter colors</string>
+    <string name="chroma_factor_title">Chroma</string>
+    <string name="chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="tint_background_title">Tint Background</string>
+    <string name="tint_background_summary">Make Luminance and Chroma selection affect background colors as well</string>
+    <!-- QS Header -->
+    <string name="qs_header_image_title">QS Header Image</string>
+    <string name="qs_header_random_image_title">QS Header Random Image</string>
+    <string name="qs_header_random_image_summary">Enable random QS header image</string>
+    <!-- Power menu Animations  -->
+    <string name="power_menu_anim_cat">Power UI Animation Option</string>
+    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_aosp">AOSP (default)</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
+    <string name="power_menu_animation_xylon">Fly</string>
+    <string name="power_menu_animation_slide">Slide</string>
+    <string name="power_menu_animation_turn">Turn</string>
+    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
+    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+    <string name="power_menu_animation_rotate">Rotate</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
+    <string name="solid_accent">Solid color accent</string>
+    <string name="outline">Outline</string>
+    <string name="solid_accent_gradient">Solid color accent gradient</string>
+    <string name="solid_gradient">Solid Gradient side</string>
+    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
+    <string name="solid_gradient_void">Gradient Void</string>
+    <string name="solid_gradient_neumorph">Neumorph gradient</string>
+    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
+    <string name="solid_accent_transperent">Accent transperent</string>
+    <string name="solid_gradient_light">Gradient light</string>
+    <string name="solid_gradient_shape">Sharp gradient corner</string>
+    <string name="solid_gradient_void_light">Gradient Void light</string>
+    <!-- QS Weather Options -->
+    <string name="qs_weather_title">QS System weather style</string>
+    <string name="qs_weather_summary">Configure system weather</string>
+    <string name="qsweather_dialog_title">QuickSettings weather location</string>
+    <string name="qs_weather_hidden">Hide weather</string>
+    <string name="qs_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="qs_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="qs_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="qs_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="qs_show_image">Show image</string>
+    <string name="weather_show_all_condition">Show temp with scale,image and weather condition</string>
+    <string name="qsweather_position_qqs">QuickSettings</string>
+    <string name="qsweather_position_qsb">QuickStatusbar</string>
+    <string name="qsweather_position_both">Both</string>
+    <string name="launcher_weather_title">Launcher System weather style</string>
+    <string name="kg_weather_title">Lockscreen System weather style</string>
+    <!-- Omni weather -->
+    <string name="qs_weather_settings_title">Weather Settings</string>
+    <string name="qs_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_title">Weather Settings</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Tips\u003a \n\n1. Users can install new icon packs from play store by searching for \"Chronus icons\".\n\n2. Condition icon pack is used for weather icons on quick settings and launcher at a glance.\n\n3. Long press the QuickSettings weather view/logo/temperature to access weather settings with ease.</string>
+    <string name="qsweather_settings_title">QuickSettings Weather</string>
+    <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
+    <!-- UDFPS pressed color -->
+    <string name="udfps_pressed_color_title">UDFPS pressed color</string>
+    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
+    <!-- QS Page Transitions -->
+    <string name="qs_transitions_title">QS Page Transitions</string>
+    <string name="qs_transitions_default">Default</string>
+    <string name="qs_transitions_cube_in">Cube In</string>
+    <string name="qs_transitions_cube_out">Cube Out</string>
+    <string name="qs_transitions_accordion">Accordion</string>
+    <string name="qs_transitions_background_to_foreground">Background to Foreground</string>
+    <string name="qs_transitions_depth_page">Depth page</string>
+    <string name="qs_transitions_fade">Fade</string>
+    <string name="qs_transitions_foreground_to_background">Foreground to Background</string>
+    <string name="qs_transitions_rotate_down">Rotate down</string>
+    <string name="qs_transitions_rotate_up">Rotate up</string>
+    <string name="qs_transitions_stack">Stack</string>
+    <string name="qs_transitions_tablet">Tablet</string>
+    <string name="qs_transitions_zoom_in">Zoom in</string>
+    <string name="qs_transitions_zoom_out">Zoom out</string>
+    <string name="qs_transitions_zoom_out_slide">Zoom out slide</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Volume Styles -->
+    <string name="rui_style">Realme UI style</string>
+    <string name="rising_style">Rice style</string>
+    <string name="volume_style_title">Volume panel styles</string>
+    <!-- Volume Media Output Toggle -->
+    <string name="volume_media_output_toggle_title">Volume media output</string>
+    <string name="volume_media_output_toggle_summary">Show media output toggle when there is an active stream</string>
+    <!-- Brightness slider styles -->
+    <string name="brightness_slider_style_title">Brightness slider style</string>
+    <string name="brightness_slider_style_default">Default</string>
+    <string name="brightness_slider_style_filled">Filled</string>
+    <string name="brightness_slider_style_thin">Thin</string>
+    <string name="brightness_slider_style_cyberpunk">Blocky Thumb</string>
+    <string name="brightness_slider_style_gradiant">Double Layer</string>
+    <string name="brightness_slider_style_neumorph">Neumorph</string>
+    <string name="brightness_slider_style_outline">Outline</string>
+    <string name="brightness_slider_style_shaded">Shaded</string>
+    <string name="brightness_slider_style_thinoutline">Inline</string>
+    <string name="brightness_slider_style_translucent">Transparent</string>
+    <string name="brightness_slider_style_leafyoutline">Leafy Outline</string>
+    <string name="brightness_slider_style_minimalthumb">Minimal Thumb</string>
+    <string name="brightness_slider_style_oldschoolthumb">Old School Thumb</string>
+    <string name="brightness_slider_style_roundedclip">Rounded clip</string>
+    <string name="brightness_slider_style_thumbslider">Thumb Slider</string>
+    <string name="brightness_slider_style_line">Thin Outline</string>
+    <string name="brightness_slider_style_lighty">Lighty</string>
+</resources>
