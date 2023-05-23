@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Ustawienia AlphaDroid</string>
-    <string name="crdroid_settings_summary">Spersonalizuj swój system</string>
     <string name="reset_settings_title">Zresetuj ustawienia</string>
     <string name="reset_settings_message">To zresetuje większość ustawień AlphaDroid do ich wartości domyślnych dla bieżącego użytkownika. Czy chcesz kontynuować?</string>
     <!-- Personalization Categories -->
@@ -236,18 +234,6 @@
     <!-- UI settings -->
     <string name="monet_title">Ustawienia Monet</string>
     <string name="monet_summary">Dostosuj silnik motywu Monet</string>
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Odcień koloru</string>
-    <string name="monet_engine_custom_color_summary">Wybierz niestandardowy kolor akcentu</string>
-    <string name="monet_engine_custom_bgcolor_title">Kolor tła</string>
-    <string name="monet_engine_custom_bgcolor_summary">Wybierz niestandardowy kolor tła</string>
-    <string name="monet_engine_color_override_title">Kolor niestandardowy</string>
-    <string name="monet_engine_luminance_factor_title">Jaskrawość:</string>
-    <string name="monet_engine_luminance_factor_summary">Wyższe wartości tworzą jaśniejsze kolory</string>
-    <string name="monet_engine_chroma_factor_title">Współczynnik chroma</string>
-    <string name="monet_engine_chroma_factor_summary">Wyższe wartości tworzą mocniejsze kolory</string>
-    <string name="monet_engine_tint_background_title">Odcień tła</string>
-    <string name="monet_engine_tint_background_summary">Spraw, aby jaskrawość i wybór barwy również wpływały na kolory tła</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
     <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie po wprowadzeniu poprawnego kodu PIN/hasła</string>
@@ -381,6 +367,15 @@
     <string name="status_bar_battery_style_filled_circle">Wypełniony okrąg</string>
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">Ukryty</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">Procent baterii</string>
     <string name="status_bar_battery_percent_hidden">Ukryty</string>
     <string name="status_bar_battery_percent_text_inside">Wewnątrz ikony</string>
@@ -423,33 +418,6 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Szacunkowy czas pracy baterii</string>
     <string name="battery_estimate_summary">Wyświetl szacowany pozostały okres użytkowania baterii, gdy jest dostępny</string>
-    <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Wskaźnik ruchu sieci</string>
-    <string name="network_traffic_settings_summary">Wyświetl i dostosuj wskaźnik ruchu sieci</string>
-    <string name="network_traffic_location_title">Lokalizacja</string>
-    <string name="network_traffic_location_disable">Nieaktywne</string>
-    <string name="network_traffic_location_statusbar">Pasek stanu</string>
-    <string name="network_traffic_location_quick_statusbar">Ukryj pasek stanu</string>
-    <string name="network_traffic_mode_title">Tryb wyświetlania</string>
-    <string name="network_traffic_mode_up">Tylko wysyłanie</string>
-    <string name="network_traffic_mode_down">Tylko pobieranie</string>
-    <string name="network_traffic_mode_all">Wysyłanie i pobieranie</string>
-    <string name="network_traffic_autohide">Autoukrywanie</string>
-    <string name="network_traffic_autohide_summary">Ukryj monitor ruchu przy braku aktywności</string>
-    <string name="network_traffic_autohide_kilobits">Kb/s</string>
-    <string name="network_traffic_autohide_kilobytes">KB/s</string>
-    <string name="network_traffic_autohide_threshold">Próg bezczynności</string>
-    <string name="network_traffic_refresh_interval_title">Częstotliwość odświeżania</string>
-    <string name="network_traffic_refresh_interval_summary">Czas, po którym prędkość jest ponownie mierzona</string>
-    <string name="network_traffic_units_title">Jednostki pomiaru ruchu</string>
-    <string name="network_traffic_units_bits">Bity na sekundę (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobity na sekundę (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabity na sekundę (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bajty na sekundę (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobajty na sekundę (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabajty na sekundę (MB/s)</string>
-    <string name="network_traffic_hidearrow">Ukryj strzałki</string>
-    <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alerty stopki</string>
     <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu QS, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
@@ -754,8 +722,6 @@
     <string name="bluetooth_timeout_summary">Nie wyłączaj automatycznie Bluetooth</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth zostanie wyłączone po czasie <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli żadne urządzenie nie będzie połączone</string>
     <string name="custom_timeout_summary_never">Nigdy</string>
-    <string name="custom_timeout_summary_5secs">5 sekund</string>
-    <string name="custom_timeout_summary_10secs">10 sekund</string>
     <string name="custom_timeout_summary_15secs">15 sekund</string>
     <string name="custom_timeout_summary_30secs">30 sekund</string>
     <string name="custom_timeout_summary_1min">1 minuta</string>
@@ -885,9 +851,6 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Użyj czarnego motywu</string>
     <string name="system_black_theme_summary">Wymuś czarne kolory tła</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Przycisk Usuwania wszystkich powiadomień</string>
-    <string name="notification_material_dismiss_summary">Zamień tekst usunięcia powiadomień na pływający przycisk</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animacja gestu wstecz</string>
     <string name="back_gesture_arrow_summary">Pokaż animowaną strzałkę dla gestu wstecz</string>
@@ -935,28 +898,6 @@
     <string name="qs_tile_layout_summary">Pokaż etykietę pod ikoną zamiast obok niej</string>
     <string name="qs_columns_portrait_title">Kolumny (pionowo)</string>
     <string name="qs_columns_landscape_title">Kolumny (poziomo)</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Rozmycie tła</string>
-    <string name="statusbar_clock_chip_summary">Wyświetlaj rozmycie chipa za zegarem</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Inteligentne ładowanie</string>
-    <string name="smart_charging_summary">Ustaw maksymalny poziom naładowania baterii</string>
-    <string name="smart_charging_switch_title">Włącz inteligentne ładowanie</string>
-    <string name="smart_charging_level_title">Poziom Zatrzymania</string>
-    <string name="smart_charging_resume_level_title">Poziom Rozpoczęcia</string>
-    <string name="smart_charging_reset_stats_title">Resetuj statystyki baterii</string>
-    <string name="smart_charging_reset_stats_summary">Zresetuj statystyki baterii, po osiągnięciu określonego przez użytkownika poziomu naładowania</string>
-    <string name="smart_charging_footer">Inteligentne ładowanie pozwala ustawić maksymalny poziom naładowania, aby wydłużyć żywotność baterii. Po włączeniu, ładowanie zostaje przerwane przy poziomie zatrzymania i wznawiane na poziomie startowym. Poziom zatrzymania powinien być zawsze większy niż poziom startowy.</string>
-    <!-- Weather -->
-    <string name="weather_settings_title">Ustawienia pogody</string>
-    <string name="weather_settings_summary">Ustaw pakiet ikon i usługę pogody</string>
-    <string name="lockscreen_weather_title">Warunki pogodowe</string>
-    <string name="lockscreen_weather_summary">Pokaż bieżące warunki pogodowe i temperaturę</string>
-    <string name="lockscreen_weather_enabled_info">Wymaga włączenia usługi pogodowej</string>
-    <string name="lockscreen_weather_location_title">Lokalizacja pogody</string>
-    <string name="lockscreen_weather_location_summary">Pokaż aktualną pogodę według lokalizacji</string>
-    <string name="lockscreen_weather_style_title">Styl Pixel</string>
-    <string name="lockscreen_weather_style_summary">Wyświetlaj pogodę jako oddzielny wiersz</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Odtwarzanie adaptacyjne</string>
     <string name="adaptive_playback_summary">Wstrzymaj odtwarzanie, gdy głośność jest wyciszona i wznawiaj je przez zwiększenie głośności w ciągu limitu czasu</string>
@@ -967,39 +908,6 @@
     <string name="status_bar_logo_summary">Wyświetl niestandardowe logo po lewej lub prawej stronie paska stanu</string>
     <string name="status_bar_logo_position_title">Położenie logo</string>
     <string name="status_bar_logo_style_title">Styl logo</string>
-    <string name="status_bar_logo_style_crdroid">CrDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Obcy</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Zagrożenie biologiczne</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Konopia indyjskia</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emotikona spoko</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emotikona diabła</string>
-    <string name="status_bar_logo_style_fire">Ogień</string>
-    <string name="status_bar_logo_style_heart">Serce</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Duch</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Błysk</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linuks Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Zainstalowano: %1$s</string>
     <string name="app_info_update_time">Zaktualizowano: %1$s</string>
@@ -1045,10 +953,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standard sieci WiFi</string>
     <string name="wifi_standard_icon_summary">Wyświetl standard sieci WiFi obok ikony sygnału WiFi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Usługi Google</string>
-    <string name="gms_enabled_summary">Zarządzaj usługami Google oraz aplikacjami podstawowymi</string>
-    <string name="gms_enabled_footer">Zanim wyłączysz usługi Google i podstawowe aplikacje, wyłącz również \"Znajdź moje urządzenie\" i dwuetapową weryfikację na swoim koncie Google. Zdecydowanie zaleca się, aby ta opcja była włączona, ponieważ inne aplikacje korzystające z usług Google mogą przestać poprawnie działać. Jeśli napotkasz jakiekolwiek problemy po zmianie tego ustawienia, przywróć ustawienia fabryczne.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Skróty na dole ekranu</string>
     <string name="lockscreen_shortcut_start_title">Skrót po lewej stronie</string>
@@ -1063,29 +967,6 @@
     <string name="lockscreen_shortcut_none">Brak</string>
     <string name="lockscreen_shortcut_enforce_title">Wymuś skróty</string>
     <string name="lockscreen_shortcut_enforce_summary">Nie wyświetlaj następnego dostępnego skrótu, jeśli wybrany skrót nie jest dostępny</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Blokada aplikacji</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplikacja jest zabezpieczona</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikacje są zabezpieczone</item>
-        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikacji jest zabezpieczonych</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikacji jest zabezpieczonych</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Odblokuj</string>
-    <string name="enable_debugging">Włącz debugowanie</string>
-    <string name="disable_debugging">Wyłącz debugowanie</string>
-    <string name="app_lock_packages_title">Zabezpieczone aplikacje</string>
-    <string name="app_lock_packages_summary">Wybierz aplikacje do ochrony za pomocą danych biometrycznych lub danych logowania urządzenia</string>
-    <string name="app_lock_timeout_title">Czas automatycznego blokowania</string>
-    <string name="app_lock_timeout_summary">Czas, po którym odblokowana aplikacja w tle powinna zostać zablokowana</string>
-    <string name="app_lock_notifications_title">Zwiń powiadomienia</string>
-    <string name="app_lock_notifications_summary">Zawartość powiadomień zostanie ukryta i zwinięta dla wybranych aplikacji, gdy są zablokowane. Wyskakujące powiadomienia będą automatycznie wyłączone.</string>
-    <string name="app_lock_notifications_disabled_summary">Najpierw zabezpiecz aplikację</string>
-    <string name="app_lock_biometrics_allowed_title">Włącz dane biometryczne do odblokowywania</string>
-    <string name="app_lock_footer_text">Dymki zostaną automatycznie odrzucone po przekroczeniu limitu czasowego</string>
-    <string name="enable_protection">Włącz ochronę</string>
-    <string name="hide_from_launcher_title">Ukryj w launcherze</string>
-    <string name="hide_from_launcher_summary">Zapobiegaj pojawieniu się tej aplikacji w dowolnym launcherze. Wymaga ponownego uruchomienia launchera, aby zmiany zaczęły obowiązywać.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Pokazuj podczas ładowania</string>
     <string name="doze_on_charge_summary">Ładowanie urządzenia wyświetlającego</string>
@@ -1093,6 +974,11 @@
     <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Informacje o radiu</string>
-    <!-- QS Header -->
-    <string name="qs_header_image_title">Obraz nagłówka</string>
+    <!-- Lockscreen Clock -->
+    <string name="kg_custom_clock_top_margin_title">Double-line clock position</string>
+    <string name="kg_small_clock_text_size_title">Small clock size</string>
+    <string name="kg_large_clock_text_size_title">Double-line clock size</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
 </resources>
