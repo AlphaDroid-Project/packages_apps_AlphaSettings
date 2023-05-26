@@ -18,95 +18,85 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="alphabet_summary">Goodies!</string>
     <!-- Preference categories -->
-    <string name="preference_category_brightness">亮度</string>
-    <string name="preference_category_battery">电池</string>
-    <string name="preference_category_style">风格</string>
-    <string name="preference_category_clock">时钟</string>
-
+    <string name="preference_category_brightness">Brightness</string>
+    <string name="preference_category_battery">Battery</string>
+    <string name="preference_category_style">Style</string>
+    <string name="preference_category_clock">Clock</string>
     <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">设置样式</string>
-    <string name="settings_dashboard_style_summary">设置主页和 Alphabet 风格</string>
-
+    <string name="settings_dashboard_style_title">Settings style</string>
+    <string name="settings_dashboard_style_summary">Settings homepage and Alphabet style</string>
+    <string name="settings_dashboard_style_aosp">AOSP</string>
+    <string name="settings_dashboard_style_dot">DoT</string>
+    <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Network traffic -->
-    <string name="network_traffic_category_title">网络通信</string>
-    <string name="network_traffic_intro_text">
-        在状态栏中显示当前的网络连接速度
-        每秒刷新
+    <string name="network_traffic_category_title">Network traffic</string>
+    <string name="network_traffic_intro_text">        Shows current network traffic speed in statusbar.
+        The monitor shows the speed dynamically such that it alternates between
+        upload and download speed each second
     </string>
-    <string name="enable_network_traffic">启用网速监视器</string>
-    <string name="statusbar_network_traffic_threshold_tx_title">低于阀值时隐藏上传速度</string>
-    <string name="statusbar_network_traffic_threshold_rx_title">低于阀值时隐藏下载速度</string>
-    <string name="statusbar_network_traffic_unit_text_size_title">网速监视器文字大小</string>
-    <string name="statusbar_network_traffic_rate_text_scale_factor_title">网络速率文字缩放</string>
-    <string name="statusbar_network_traffic_rate_text_scale_factor_dialog_title">缩放</string>
-
+    <string name="enable_network_traffic">Enable network traffic monitor</string>
+    <string name="statusbar_network_traffic_threshold_tx_title">Auto hide threshold for upload</string>
+    <string name="statusbar_network_traffic_threshold_rx_title">Auto hide threshold for download</string>
+    <string name="statusbar_network_traffic_unit_text_size_title">Network traffic unit text size</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_title">Network traffic rate text scale factor</string>
+    <string name="statusbar_network_traffic_rate_text_scale_factor_dialog_title">Scale factor</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">通知图标</string>
-    <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
-
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">状态栏填充</string>
-    <string name="statusbar_top_padding">顶部填充</string>
-    <string name="statusbar_left_padding">左填充</string>
-    <string name="statusbar_right_padding">右填充</string>
-
+    <string name="statusbar_padding">Status bar padding</string>
+    <string name="statusbar_top_padding">Top padding</string>
+    <string name="statusbar_left_padding">Left padding</string>
+    <string name="statusbar_right_padding">Right padding</string>
     <!-- Ambient Customization -->
-    <string name="default_string">默认</string>
-    <string name="ambient_text_category">文字自定义</string>
-    <string name="ambient_image_category">图片自定义</string>
-    <string name="ambient_text_category_title">熄屏显示自定义</string>
-    <string name="ambient_text_category_summary">自定义熄屏显示的外观</string>
-    <string name="ambient_text_title">熄屏显示文本</string>
-    <string name="ambient_text_summary">熄屏显示文本</string>
-    <string name="ambient_text_animation_title">熄屏显示动画</string>
-    <string name="ambient_text_animation_summary">熄屏显示时的动画</string>
-    <string name="ambient_text_size_title">熄屏显示文字大小</string>
-    <string name="ambient_text_font_title">熄屏显示文字字体</string>
-    <string name="ambient_text_string_title">设置熄屏显示文字</string>
-    <string name="ambient_text_align_title">熄屏显示文字对齐</string>
-    <string name="ambient_text_align_start_top">右上角</string>
-    <string name="ambient_text_align_start_center">右侧中心</string>
-    <string name="ambient_text_align_start_bottom">右下角</string>
-    <string name="ambient_text_align_center">居中</string>
-    <string name="ambient_text_align_end_top">左上角</string>
-    <string name="ambient_text_align_end_center">左侧中心</string>
-    <string name="ambient_text_align_end_bottom">左下角</string>
-    <string name="ambient_text_type_color_title">熄屏显示文字样式及颜色</string>
-    <string name="ambient_text_color_title">熄屏显示文字颜色</string>
-    <string name="ambient_notification_light_color_mode_accent">系统强调色</string>
-    <string name="ambient_notification_light_color_mode_custom">自定义颜色</string>
-    <string name="ambient_notification_light_color_mode_wall">壁纸颜色</string>
-    <string name="ambient_image_title">熄屏显示图片</string>
-    <string name="file_header_select_title">选择本地图片</string>
-    <string name="file_header_select_summary">从存储选择图片</string>
-
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">组合信号图标</string>
-    <string name="combined_status_bar_signal_icons_summary">显示一个WiFi和移动信号的组合图标</string>
-
+    <string name="default_string">Default</string>
+    <string name="ambient_text_category">Text customization</string>
+    <string name="ambient_image_category">Image customization</string>
+    <string name="ambient_text_category_title">Ambient customization</string>
+    <string name="ambient_text_category_summary">Customizing the looks of ambient display</string>
+    <string name="ambient_text_title">Ambient text</string>
+    <string name="ambient_text_summary">Show ambient text in AoD</string>
+    <string name="ambient_text_animation_title">Ambient text animation</string>
+    <string name="ambient_text_animation_summary">Show a animation when show AoD</string>
+    <string name="ambient_text_size_title">Ambient text size</string>
+    <string name="ambient_text_font_title">Ambient text font</string>
+    <string name="ambient_text_string_title">Set ambient text</string>
+    <string name="ambient_text_align_title">Ambient text align</string>
+    <string name="ambient_text_align_start_top">Right n top</string>
+    <string name="ambient_text_align_start_center">Right n center</string>
+    <string name="ambient_text_align_start_bottom">Right n bottom</string>
+    <string name="ambient_text_align_center">Center</string>
+    <string name="ambient_text_align_end_top">Left n top</string>
+    <string name="ambient_text_align_end_center">Left n center</string>
+    <string name="ambient_text_align_end_bottom">Left n bottom</string>
+    <string name="ambient_text_type_color_title">Ambient text type color</string>
+    <string name="ambient_text_color_title">Ambient text color</string>
+    <string name="ambient_notification_light_color_mode_accent">System accent color</string>
+    <string name="ambient_notification_light_color_mode_custom">Custom color</string>
+    <string name="ambient_notification_light_color_mode_wall">Wallpaper color</string>
+    <string name="ambient_image_title">Ambient image</string>
+    <string name="file_header_select_title">Select local image</string>
+    <string name="file_header_select_summary">Select image from storage</string>
     <!-- Quick settings styles -->
-    <string name="qs_styles_title">组合 QS 元素风格</string>
-    <string name="qs_outline">概要</string>
-    <string name="qs_two_tone">双强调色</string>
-    <string name="qs_color_pop">流行色彩</string>
-    <string name="qs_shaded">阴影</string>
-    <string name="qs_cyberpunk">赛博朋克</string>
-    <string name="qs_neumorph">新拟态</string>
-    <string name="qs_reflected">反射</string>
-    <string name="qs_surround">环绕</string>
-    <string name="qs_thin">细线</string>
-
+    <string name="qs_styles_title">Quick Settings Styles</string>
+    <string name="qs_outline">Outline</string>
+    <string name="qs_two_tone">Two-Tone Accent</string>
+    <string name="qs_two_tone_trans">Two-Tone Translucent</string>
+    <string name="qs_color_pop">Color Pop</string>
+    <string name="qs_shaded">Shaded</string>
+    <string name="qs_cyberpunk">Cyberpunk</string>
+    <string name="qs_neumorph">Neumorph</string>
+    <string name="qs_reflected">Reflected</string>
+    <string name="qs_surround">Surround</string>
+    <string name="qs_thin">ThinLine</string>
     <!-- Quicksettings media category -->
-    <string name="media_category">媒体播放器</string>
-
+    <string name="media_category">Media player</string>
     <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">显示波浪动画</string>
-    <string name="show_squiggle_animation_summary">显示媒体面板的波浪动画\n更改后需要切换音乐、暂停音乐或移动进度条来应用更改</string>
-
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI 风格</string>
-    <string name="theme_customization_ui_style_summary">为你的界面设置自定义风格</string>
-
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
     <!-- Monet settings -->
     <string name="monet_settings_title">Monet settings</string>
     <string name="monet_settings_summary">Additional settings to customize monet engine</string>
