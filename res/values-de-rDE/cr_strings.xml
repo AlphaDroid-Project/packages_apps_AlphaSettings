@@ -87,7 +87,7 @@
     <string name="drill_title">Du weißt, was zu tun ist</string>
     <string name="drill_summary">Hast du einen Bug gefunden? Ist ein Problem aufgetreten?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Updates</string>
+    <string name="crdroid_update_title">Aktualisierungen</string>
     <string name="crdroid_update_summary">Nach Updates suchen und ggf. herunterladen</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -365,15 +365,6 @@
     <string name="status_bar_battery_style_filled_circle">Kreis (gefüllt)</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <string name="status_bar_battery_percent_title">Akkuanzeige in Prozent</string>
     <string name="status_bar_battery_percent_hidden">Ausgeblendet</string>
     <string name="status_bar_battery_percent_text_inside">Innerhalb des Symbols</string>
@@ -466,10 +457,10 @@
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Navigationsleiste</string>
     <string name="navbar_visibility_summary">Navigationsleiste am unteren Bildschirmrand anzeigen</string>
-    <string name="navbar_layout_category_title">Layout</string>
+    <string name="navbar_layout_category_title">Anordnung</string>
     <string name="navbar_arrow_keys_title">Pfeiltasten beim Tippen anzeigen</string>
     <string name="navbar_arrow_keys_summary">Beim Tippen Links-/Rechts-Cursortasten anzeigen (deaktiviert die Eingabemethodenauswahl).</string>
-    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_title">Anordnung</string>
     <string name="navbar_layout_normal">Normal</string>
     <string name="navbar_layout_compact">Kompakt</string>
     <string name="navbar_layout_leftleaning">Links­bün­dig</string>
@@ -587,7 +578,7 @@
     <string name="notification_light_summary">LED-Farbe für Benachrichtigungen konfigurieren</string>
     <string name="notification_light_general_title">Allgemein</string>
     <string name="notification_light_advanced_title">Erweitert</string>
-    <string name="notification_light_applist_title">Apps</string>
+    <string name="notification_light_applist_title">Anwendungen</string>
     <string name="notification_light_phonelist_title">Telefon</string>
     <string name="notification_light_use_custom">Benutzerdefinierte Werte verwenden</string>
     <string name="notification_light_default_value">Standard</string>
@@ -720,6 +711,8 @@
     <string name="bluetooth_timeout_summary">Bluetooth nie automatisch ausschalten</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Gerät verbunden ist</string>
     <string name="custom_timeout_summary_never">Nie</string>
+    <string name="custom_timeout_summary_5secs">5 seconds</string>
+    <string name="custom_timeout_summary_10secs">10 seconds</string>
     <string name="custom_timeout_summary_15secs">15 Sekunden</string>
     <string name="custom_timeout_summary_30secs">30 Sekunden</string>
     <string name="custom_timeout_summary_1min">1 Minute</string>
@@ -847,6 +840,9 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Schwarzes Design verwenden</string>
     <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
+    <!-- Material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_title">Clear all notification button</string>
+    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animation bei Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Bei Zurück-Geste einen animierten Pfeil zeigen</string>
@@ -894,6 +890,18 @@
     <string name="qs_tile_layout_summary">Beschriftung unter Symbol statt neben Symbol anzeigen</string>
     <string name="qs_columns_portrait_title">Spalten (Hochformat)</string>
     <string name="qs_columns_landscape_title">Spalten (Querformat)</string>
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Background chip</string>
+    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Enable Smart Charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptive Medienwiedergabe</string>
     <string name="adaptive_playback_summary">Medien bei Stummschaltung pausieren, Wiedergabe durch Lautstärkeerhöhung innerhalb des Zeitlimits wiederaufnehmen</string>
@@ -904,6 +912,39 @@
     <string name="status_bar_logo_summary">Benutzerdefiniertes Logo rechts oder links in der Statusleiste anzeigen</string>
     <string name="status_bar_logo_position_title">Logoposition</string>
     <string name="status_bar_logo_style_title">Logostil</string>
+    <string name="status_bar_logo_style_crdroid">CrDroid</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installiert: %1$s</string>
     <string name="app_info_update_time">Aktualisiert: %1$s</string>
@@ -938,9 +979,6 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <!-- Netflix Spoof -->
     <string name="netflix_spoof_title">Netflix-Spoofing</string>
     <string name="netflix_spoof_summary">Netflix ein anderes Gerätemodell vortäuschen</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Verbindungen prüfen</string>
-    <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch zur Erkennung unverschlüsselter Portale verwendet.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Statistik zurücksetzen?</string>
     <string name="battery_stats_message">Daten zur Akkunutzung gehen verloren</string>
@@ -960,10 +998,31 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="lockscreen_shortcut_qr">QR-Code-Scanner</string>
     <string name="lockscreen_shortcut_camera">Kamera</string>
     <string name="lockscreen_shortcut_remote">Fernbedienung für Google TV</string>
-    <string name="lockscreen_shortcut_dnd">DND</string>
+    <string name="lockscreen_shortcut_dnd">Bitte nicht stören</string>
     <string name="lockscreen_shortcut_none">Keine</string>
     <string name="lockscreen_shortcut_enforce_title">Verknüpfungen erzwingen</string>
     <string name="lockscreen_shortcut_enforce_summary">Nächste verfügbare Verknüpfung nicht anzeigen, wenn die gewählte Verknüpfung nicht verfügbar ist</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Beim Laden immer anzeigen</string>
     <string name="doze_on_charge_summary">Anzeigen, dass das Gerät geladen wird</string>
@@ -972,9 +1031,11 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Empfangsinfo</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Bild in Kopfzeile</string>
+    <string name="qs_header_image_title">Header image</string>
     <!-- Lockscreen Clock -->
-    <string name="kg_custom_clock_top_margin_title">Position der Uhr bei Anzeige in zwei Zeilen</string>
+    <string name="kg_custom_clock_top_margin_title">Position der Doppelzeilen-Uhr</string>
     <string name="kg_small_clock_text_size_title">Größe der kleinen Uhr</string>
-    <string name="kg_large_clock_text_size_title">Größe der Uhr in zwei Zeilen</string>
+    <string name="kg_large_clock_text_size_title">Größe der Doppelzeilen-Uhr</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
 </resources>
