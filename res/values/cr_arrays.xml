@@ -701,45 +701,25 @@
         <item>do_not_disturb</item>
         <item>none</item>
     </string-array>
-    
-    <!-- Brightness slider styles -->
-    <string-array name="brightness_slider_style_entries" translatable="false">
-        <item>@string/brightness_slider_style_default</item>
-        <item>@string/brightness_slider_style_filled</item>
-        <item>@string/brightness_slider_style_thin</item>
-        <item>@string/brightness_slider_style_cyberpunk</item>
-        <item>@string/brightness_slider_style_gradiant</item>
-        <item>@string/brightness_slider_style_neumorph</item>
-        <item>@string/brightness_slider_style_outline</item>
-        <item>@string/brightness_slider_style_shaded</item>
-        <item>@string/brightness_slider_style_thinoutline</item>
-        <item>@string/brightness_slider_style_translucent</item>
-        <item>@string/brightness_slider_style_leafyoutline</item>
-        <item>@string/brightness_slider_style_minimalthumb</item>
-        <item>@string/brightness_slider_style_oldschoolthumb</item>
-        <item>@string/brightness_slider_style_roundedclip</item>
-        <item>@string/brightness_slider_style_thumbslider</item>
-        <item>@string/brightness_slider_style_line</item>
-        <item>@string/brightness_slider_style_lighty</item>
+
+    <!-- App lock timeout -->
+    <string-array name="app_lock_timeout_entries">
+        <item>@string/custom_timeout_summary_5secs</item>
+        <item>@string/custom_timeout_summary_10secs</item>
+        <item>@string/custom_timeout_summary_30secs</item>
+        <item>@string/custom_timeout_summary_1min</item>
+        <item>@string/custom_timeout_summary_5mins</item>
+        <item>@string/custom_timeout_summary_10mins</item>
+        <item>@string/custom_timeout_summary_30mins</item>
     </string-array>
 
-    <string-array name="brightness_slider_style_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-    </string-array>
+    <string-array name="app_lock_timeout_values" translatable="false">
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+
 </resources>
