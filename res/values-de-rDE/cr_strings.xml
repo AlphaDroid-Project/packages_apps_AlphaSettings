@@ -711,8 +711,8 @@
     <string name="bluetooth_timeout_summary">Bluetooth nie automatisch ausschalten</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Gerät verbunden ist</string>
     <string name="custom_timeout_summary_never">Nie</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
+    <string name="custom_timeout_summary_5secs">5 Sekunden</string>
+    <string name="custom_timeout_summary_10secs">10 Sekunden</string>
     <string name="custom_timeout_summary_15secs">15 Sekunden</string>
     <string name="custom_timeout_summary_30secs">30 Sekunden</string>
     <string name="custom_timeout_summary_1min">1 Minute</string>
@@ -841,8 +841,8 @@
     <string name="system_black_theme_title">Schwarzes Design verwenden</string>
     <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Clear all notification button</string>
-    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
+    <string name="notification_material_dismiss_title">Schaltfläche zum Löschen aller Benachrichtigungen</string>
+    <string name="notification_material_dismiss_summary">Anstelle von Text eine Schaltfläche zum Schließen aller Benachrichtigungen anzeigen</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animation bei Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Bei Zurück-Geste einen animierten Pfeil zeigen</string>
@@ -891,17 +891,17 @@
     <string name="qs_columns_portrait_title">Spalten (Hochformat)</string>
     <string name="qs_columns_landscape_title">Spalten (Querformat)</string>
     <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Background chip</string>
-    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
+    <string name="statusbar_clock_chip_title">Hintergrund-Chip</string>
+    <string name="statusbar_clock_chip_summary">Akzentuierter Chip hinter der Uhr anzeigen</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Enable Smart Charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. When enabled, battery stops charging at Stop trigger level and resumes charging at Start trigger level. Stop trigger level should be always greater than Start trigger level.</string>
+    <string name="smart_charging_title">Intelligentes Laden</string>
+    <string name="smart_charging_summary">Maximalen Ladezustand festlegen</string>
+    <string name="smart_charging_switch_title">Intelligentes Laden aktivieren</string>
+    <string name="smart_charging_level_title">Intelligentes Laden stoppt bei</string>
+    <string name="smart_charging_resume_level_title">Intelligentes Laden startet bei</string>
+    <string name="smart_charging_reset_stats_title">Akku-Statistiken zurücksetzen</string>
+    <string name="smart_charging_reset_stats_summary">Akkustatistiken nach Erreichen des benutzerdefinierten Ladestands zurücksetzen</string>
+    <string name="smart_charging_footer">Intelligentes Laden erlaubt das Festlegen eines maximalen Akkustands beim Aufladen, um die Lebensdauer des Akkus zu erhöhen. Dabei können zwei Werte festgelegt werden, ab denen das Aufladen jeweils stoppt oder beginnt, eines der Werte muss jedoch größer als das andere sein.</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptive Medienwiedergabe</string>
     <string name="adaptive_playback_summary">Medien bei Stummschaltung pausieren, Wiedergabe durch Lautstärkeerhöhung innerhalb des Zeitlimits wiederaufnehmen</string>
@@ -924,10 +924,10 @@
     <string name="status_bar_logo_style_biohazard">Biohazard</string>
     <string name="status_bar_logo_style_blackberry">BlackBerry</string>
     <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
-    <string name="status_bar_logo_style_fire">Fire</string>
-    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoji Cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoji Teufel</string>
+    <string name="status_bar_logo_style_fire">Feuer</string>
+    <string name="status_bar_logo_style_heart">Herz</string>
     <string name="status_bar_logo_style_nike">Nike</string>
     <string name="status_bar_logo_style_pacman">Pac-man</string>
     <string name="status_bar_logo_style_puma">Puma</string>
@@ -936,9 +936,9 @@
     <string name="status_bar_logo_style_superman">Superman</string>
     <string name="status_bar_logo_style_windows">Windows</string>
     <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_ghost">Geist</string>
     <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_robot">Roboter</string>
     <string name="status_bar_logo_style_ironman">Iron Man</string>
     <string name="status_bar_logo_style_captain_america">Captain America</string>
     <string name="status_bar_logo_style_flash">Flash</string>
@@ -1003,26 +1003,26 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="lockscreen_shortcut_enforce_title">Verknüpfungen erzwingen</string>
     <string name="lockscreen_shortcut_enforce_summary">Nächste verfügbare Verknüpfung nicht anzeigen, wenn die gewählte Verknüpfung nicht verfügbar ist</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">App-Sperre</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> Anwendung ist gesperrt</item>
+        <item quantity="other"><xliff:g example="10" id="Anzahl der Anwendungen">%1$d</xliff:g> Anwendungen sind gesperrt</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="app_lock_authentication_dialog_title">Entsperren</string>
+    <string name="enable_debugging">Debugging aktivieren</string>
+    <string name="disable_debugging">Debugging deaktivieren</string>
+    <string name="app_lock_packages_title">Gesperrte Apps</string>
+    <string name="app_lock_packages_summary">Apps auswählen, die mittels biometrischer oder konventioneller Eingaben geschützt werden sollen</string>
+    <string name="app_lock_timeout_title">Zeit bis zur automatischen Sperrung</string>
+    <string name="app_lock_timeout_summary">Dauer, nach der eine entsperrte App im Hintergrund wieder gesperrt wird</string>
+    <string name="app_lock_notifications_title">Benachrichtigungen zensieren</string>
+    <string name="app_lock_notifications_summary">Benachrichtigungsinhalte werden bei ausgewählten Apps ausgeblendet und einklappt, sofern sie gesperrt sind. Pop-Up-Benachrichtigungen werden automatisch deaktiviert.</string>
+    <string name="app_lock_notifications_disabled_summary">Schütze zuerst eine Anwendung</string>
+    <string name="app_lock_biometrics_allowed_title">Biometrie zum Entsperren aktivieren</string>
+    <string name="app_lock_footer_text">Bubbles werden nach Zeitüberschreitung automatisch geschlossen</string>
+    <string name="enable_protection">Schutz aktivieren</string>
+    <string name="hide_from_launcher_title">Im Launcher ausblenden</string>
+    <string name="hide_from_launcher_summary">Verhindert, dass diese Anwendung im Launcher erscheint. Erfordert einen Neustart des Launchers, bevor die Änderungen wirksam werden.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Beim Laden immer anzeigen</string>
     <string name="doze_on_charge_summary">Anzeigen, dass das Gerät geladen wird</string>
@@ -1031,11 +1031,11 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Empfangsinfo</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Header image</string>
+    <string name="qs_header_image_title">Bild der Kopfzeile</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Position der Doppelzeilen-Uhr</string>
     <string name="kg_small_clock_text_size_title">Größe der kleinen Uhr</string>
     <string name="kg_large_clock_text_size_title">Größe der Doppelzeilen-Uhr</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Satellitenhilfsdaten aus dem Internet herunterladen, was den Startvorgang von GPS erheblich beschleunigen kann. Notrufen ist die Nutzung vom Assisted-GPS (A-GPS) immer gestattet.</string>
 </resources>
