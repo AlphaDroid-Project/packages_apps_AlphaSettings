@@ -17,6 +17,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="alphabet_summary">Goodies!</string>
+    <!-- Extra battery styles -->
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Brightness</string>
     <string name="preference_category_battery">Battery</string>
@@ -30,9 +40,9 @@
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Network traffic -->
     <string name="network_traffic_category_title">Network traffic</string>
-    <string name="network_traffic_intro_text">        Shows current network traffic speed in statusbar.
-        The monitor shows the speed dynamically such that it alternates between
-        upload and download speed each second
+    <string name="network_traffic_intro_text">        Muestra la velocidad de tráfico de red en la barra de estado.
+        El monitor muestra la velocidad dinámicamente alternando entre
+        subida y descarga cada segundo
     </string>
     <string name="enable_network_traffic">Enable network traffic monitor</string>
     <string name="statusbar_network_traffic_threshold_tx_title">Auto hide threshold for upload</string>
@@ -239,4 +249,48 @@
     <string name="brightness_slider_style_thumbslider">Thumb Slider</string>
     <string name="brightness_slider_style_line">Thin Outline</string>
     <string name="brightness_slider_style_lighty">Lighty</string>
+    <!-- QS haptic feedback -->
+    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
+    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_summary">There will be goodies!</string>
+    <!-- UiBench -->
+    <string name="category_uibench">UiBench</string>
+    <string name="jitter_test_title">Jitter</string>
+    <string name="jitter_test_summary">Calculate rendering jitter</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Stop trigger level</string>
+    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Device</string>
+    <!-- Build info -->
+    <string name="build_status_title">Build Status: %s</string>
+    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_official">Official</string>
+    <string name="build_status_summary">Maintained by: %s</string>
+    <string name="build_status_oopsie">Searching for maintainer...</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="connectivity_check_title">Internet connectivity check</string>
+    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
+    <string name="sandboxed_google_play">Sandboxed Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
+    <string name="storage_scopes">Storage Scopes</string>
+    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
+    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_title">Allow Sensors permission to apps by default</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensors is a non-standard permission, apps may malfunction if it’s denied.</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">A permission prompt will be shown when an app tries to access sensors. Note that some apps may need to be manually restarted after allowing the Sensors permission.</string>
 </resources>
