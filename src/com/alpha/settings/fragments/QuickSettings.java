@@ -158,6 +158,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.BRIGHTNESS_SLIDER_STYLE, 0, UserHandle.USER_CURRENT);
     }
 
     private void updateAnimTileStyle(int tileAnimationStyle) {
