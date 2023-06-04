@@ -100,6 +100,13 @@
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"/>
 
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_dual_tone"
+            android:icon="@drawable/ic_color_bucket"
+            android:title="@string/qs_dual_tone_title"
+            android:summary="@string/qs_dual_tone_summary"
+            android:defaultValue="true" />
+
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
             android:icon="@drawable/ic_color_bucket"
@@ -111,7 +118,7 @@
             android:max="100"
             android:min="1" />
 
-        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_footer_transparency"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/qs_footer_opacity_title"
