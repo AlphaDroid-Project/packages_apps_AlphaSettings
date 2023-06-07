@@ -99,6 +99,14 @@
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"/>
 
+        <!-- QS Panel style -->
+        <Preference
+            android:key="android.theme.customization.qs_panel"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/theme_customization_qs_panel_title"
+            android:summary="@string/theme_customization_qs_panel_summary"
+            android:fragment="com.alpha.settings.fragments.ui.QsPanelStyles"/>
+
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
             android:icon="@drawable/ic_color_bucket"
