@@ -40,9 +40,9 @@
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Network traffic -->
     <string name="network_traffic_category_title">Tráfego de rede</string>
-    <string name="network_traffic_intro_text">        Mostra a velocidade de tráfego de rede atual na barra de estado.
-        O monitor mostra a velocidade dinamicamente de forma que alterne entre
-        velocidade de download e upload a cada segundo
+    <string name="network_traffic_intro_text">        Shows current network traffic speed in statusbar.
+        The monitor shows the speed dynamically such that it alternates between
+        upload and download speed each second
     </string>
     <string name="enable_network_traffic">Ativar monitor de tráfego de rede</string>
     <string name="statusbar_network_traffic_threshold_tx_title">Ocultar automaticamente limite para upload</string>
@@ -87,18 +87,9 @@
     <string name="ambient_image_title">Imagem ambiente</string>
     <string name="file_header_select_title">Selecionar imagem local</string>
     <string name="file_header_select_summary">Selecione uma imagem do armazenamento</string>
-    <!-- Quick settings styles -->
-    <string name="qs_styles_title">Estilo das configurações rápidas</string>
-    <string name="qs_outline">Contorno</string>
-    <string name="qs_two_tone">Dois tons de destaque</string>
-    <string name="qs_two_tone_trans">Translúcido de dois tons</string>
-    <string name="qs_color_pop">Cor Chamativa</string>
-    <string name="qs_shaded">Sombreado</string>
-    <string name="qs_cyberpunk">Cyberpunk</string>
-    <string name="qs_neumorph">Neumorph</string>
-    <string name="qs_reflected">Refletido</string>
-    <string name="qs_surround">Surround</string>
-    <string name="qs_thin">ThinLine</string>
+    <!-- QS panel styles -->
+    <string name="theme_customization_qs_panel_title">QS Panel style</string>
+    <string name="theme_customization_qs_panel_summary">Set custom QS Panel style</string>
     <!-- Quicksettings media category -->
     <string name="media_category">Player de mídia</string>
     <!-- Squiggle animation -->
@@ -169,7 +160,7 @@
     <string name="solid_gradient_void">Gradiente Vazio</string>
     <string name="solid_gradient_neumorph">Gradiente Neumorph</string>
     <string name="solid_gradient_stroke">Traço afiado do gradiente</string>
-    <string name="solid_accent_transperent">Transparente acentuado</string>
+    <string name="solid_accent_transperent">Accent transperent</string>
     <string name="solid_gradient_light">Luz gradiente</string>
     <string name="solid_gradient_shape">Canto gradiente afiado</string>
     <string name="solid_gradient_void_light">Luz Gradiente Vazia</string>
@@ -230,25 +221,6 @@
     <!-- Volume Media Output Toggle -->
     <string name="volume_media_output_toggle_title">Volume de saída de mídia</string>
     <string name="volume_media_output_toggle_summary">Mostrar controlo de multimédia se houver uma transmissão ativa</string>
-    <!-- Brightness slider styles -->
-    <string name="brightness_slider_style_title">Estilo da barra de brilho</string>
-    <string name="brightness_slider_style_default">Padrão</string>
-    <string name="brightness_slider_style_filled">Preenchido</string>
-    <string name="brightness_slider_style_thin">Fino</string>
-    <string name="brightness_slider_style_cyberpunk">Miniatura do Bloco</string>
-    <string name="brightness_slider_style_gradiant">Camada Dupla</string>
-    <string name="brightness_slider_style_neumorph">Neumorph</string>
-    <string name="brightness_slider_style_outline">Contorno</string>
-    <string name="brightness_slider_style_shaded">Sombreado</string>
-    <string name="brightness_slider_style_thinoutline">Alinhado</string>
-    <string name="brightness_slider_style_translucent">Transparente</string>
-    <string name="brightness_slider_style_leafyoutline">Contorno Folhado</string>
-    <string name="brightness_slider_style_minimalthumb">Miniatura Mínima</string>
-    <string name="brightness_slider_style_oldschoolthumb">Miniatura Old School</string>
-    <string name="brightness_slider_style_roundedclip">Clipe arredondado</string>
-    <string name="brightness_slider_style_thumbslider">Miniatura Deslizante</string>
-    <string name="brightness_slider_style_line">Contorno Fino</string>
-    <string name="brightness_slider_style_lighty">Leve</string>
     <!-- QS haptic feedback -->
     <string name="qs_haptic_feedback_title">Vibrar</string>
     <string name="qs_haptic_feedback_summary">Vibrar ao tocar nas configurações rápidas</string>
@@ -293,4 +265,9 @@
     <string name="auto_grant_OTHER_SENSORS_permission_title">Allow Sensors permission to apps by default</string>
     <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensors is a non-standard permission, apps may malfunction if it’s denied.</string>
     <string name="auto_grant_OTHER_SENSORS_permission_summary_off">A permission prompt will be shown when an app tries to access sensors. Note that some apps may need to be manually restarted after allowing the Sensors permission.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>
