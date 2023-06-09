@@ -36,13 +36,13 @@
     <string name="settings_dashboard_style_title">Estilo de configurações</string>
     <string name="settings_dashboard_style_summary">Estilo das páginas de entrada das definições</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
-    <string name="settings_dashboard_style_dot">Ponto</string>
+    <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Network traffic -->
     <string name="network_traffic_category_title">Tráfego de rede</string>
-    <string name="network_traffic_intro_text">        Shows current network traffic speed in statusbar.
-        The monitor shows the speed dynamically such that it alternates between
-        upload and download speed each second
+    <string name="network_traffic_intro_text">        Mostra a velocidade de tráfego de rede atual na barra de estado.
+        O monitor mostra a velocidade dinamicamente de forma que alterne entre
+        velocidade de download e upload a cada segundo
     </string>
     <string name="enable_network_traffic">Ativar monitor de tráfego de rede</string>
     <string name="statusbar_network_traffic_threshold_tx_title">Ocultar automaticamente limite para upload</string>
@@ -88,15 +88,15 @@
     <string name="file_header_select_title">Selecionar imagem local</string>
     <string name="file_header_select_summary">Selecione uma imagem do armazenamento</string>
     <!-- QS panel styles -->
-    <string name="theme_customization_qs_panel_title">QS Panel style</string>
-    <string name="theme_customization_qs_panel_summary">Set custom QS Panel style</string>
+    <string name="theme_customization_qs_panel_title">Estilo do painel de configurações rápidas</string>
+    <string name="theme_customization_qs_panel_summary">Definir estilo personalizado do painel de configurações rápidas</string>
     <!-- Quicksettings media category -->
     <string name="media_category">Player de mídia</string>
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Mostrar animação de rabisco</string>
     <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel de mídia.\nApós a alteração é necessário alternar a música, pausar ou mover a barra de progresso para aplicar</string>
     <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">Estilo da interface</string>
+    <string name="theme_customization_ui_style_title">Estilo da interface do usuário</string>
     <string name="theme_customization_ui_style_summary">Definir um estilo personalizado</string>
     <!-- Monet settings -->
     <string name="monet_settings_title">Configurações do tema Monet</string>
@@ -160,7 +160,7 @@
     <string name="solid_gradient_void">Gradiente Vazio</string>
     <string name="solid_gradient_neumorph">Gradiente Neumorph</string>
     <string name="solid_gradient_stroke">Traço afiado do gradiente</string>
-    <string name="solid_accent_transperent">Accent transperent</string>
+    <string name="solid_accent_transperent">Realce transparente</string>
     <string name="solid_gradient_light">Luz gradiente</string>
     <string name="solid_gradient_shape">Canto gradiente afiado</string>
     <string name="solid_gradient_void_light">Luz Gradiente Vazia</string>
@@ -235,39 +235,39 @@
     <string name="smart_cutoff_title">Corte Inteligente</string>
     <string name="smart_cutoff_summary">Temperatura máxima</string>
     <string name="smart_cutoff_switch_title">Usar Corte Inteligente</string>
-    <string name="smart_cutoff_level_title">Stop trigger level</string>
-    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
+    <string name="smart_cutoff_level_title">Nível para parar o carregamento da bateria</string>
+    <string name="smart_cutoff_resume_level_title">Nível para ativar o carregamento da bateria</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Estado do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Restritivo</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Device</string>
+    <string name="category_device_info">Dispositivo</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status: %s</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
-    <string name="build_status_official">Official</string>
-    <string name="build_status_summary">Maintained by: %s</string>
-    <string name="build_status_oopsie">Searching for maintainer...</string>
+    <string name="build_status_title">Estado da compilação: %s</string>
+    <string name="build_status_summary_placeholder">Estado da compilação: %s</string>
+    <string name="build_status_official">Oficial</string>
+    <string name="build_status_summary">Mantido por %s</string>
+    <string name="build_status_oopsie">Procurando o responsável pela manutenção do dispositivo...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
-    <string name="connectivity_check_title">Internet connectivity check</string>
-    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
-    <string name="sandboxed_google_play">Sandboxed Google Play</string>
-    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
-    <string name="storage_scopes">Storage Scopes</string>
-    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
-    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
-    <string name="auto_grant_OTHER_SENSORS_permission_title">Allow Sensors permission to apps by default</string>
-    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensors is a non-standard permission, apps may malfunction if it’s denied.</string>
-    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">A permission prompt will be shown when an app tries to access sensors. Note that some apps may need to be manually restarted after allowing the Sensors permission.</string>
+    <string name="ignore_window_secure_title">Ignorar sinalizador de janela segura</string>
+    <string name="ignore_window_secure_summary">Remova as restrições de captura e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode facilitar o furto de dados.</string>
+    <string name="connectivity_check_title">Verificar conexão de Internet</string>
+    <string name="connectivity_check_summary">Pontos de extremidade HTTP a serem usados para executar verificações de conexão de Internet.</string>
+    <string name="sandboxed_google_play">Google Play no modo usuário</string>
+    <string name="sandboxed_google_play_work_profile">Google Play no modo de usuário (perfil de trabalho)</string>
+    <string name="storage_scopes">Escopos de armazenamento</string>
+    <string name="allow_access_to_obb_directory_title">Permitir acesso à pasta Android/obb</string>
+    <string name="allow_access_to_obb_directory_summary">Necessário para a instalação de alguns aplicativos grandes (principalmente jogos) que usam arquivos de expansão OBB</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_title">Predefinir que os aplicativos possam aceder aos sensores do dispositivo</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensores são uma permissão não padrão, os aplicativos podem funcionar mal se for negada.</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">Uma solicitação de permissão será exibida quando um aplicativo tentar acessar os sensores. Observe que alguns aplicativos podem precisar ser reiniciados manualmente depois de permitir a permissão de sensores.</string>
     <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="hide_developer_status_title">Ocultar estado das opções do desenvolvedor</string>
+    <string name="hide_developer_status_summary">Não permitir que as aplicações vejam o estado das opções do desenvolvedor</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
 </resources>
