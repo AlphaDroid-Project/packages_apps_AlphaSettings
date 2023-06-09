@@ -18,15 +18,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="alphabet_summary">Güzellikler!</string>
     <!-- Extra battery styles -->
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Yatay Kapsül</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Yatay Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Dikey IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Dikey Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Yatay Airoo</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Sağ yatay stil A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Sol yatay stil A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Sağ yatay stil B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Sol yatay stil B</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Parlaklık</string>
     <string name="preference_category_battery">Batarya</string>
@@ -87,18 +87,9 @@
     <string name="ambient_image_title">Ortam ekranı görüntüsü</string>
     <string name="file_header_select_title">Yerel görüntü seçin</string>
     <string name="file_header_select_summary">Depolamadan bir görüntü seçin</string>
-    <!-- Quick settings styles -->
-    <string name="qs_styles_title">Hızlı Ayarlar Stili</string>
-    <string name="qs_outline">Anahat</string>
-    <string name="qs_two_tone">Çift tonlu vurgu rengi</string>
-    <string name="qs_two_tone_trans">İki Tonlu Yarı Saydam</string>
-    <string name="qs_color_pop">Renk Patlaması</string>
-    <string name="qs_shaded">Gölgeli</string>
-    <string name="qs_cyberpunk">Cyberpunk</string>
-    <string name="qs_neumorph">Neumorph</string>
-    <string name="qs_reflected">Yansıyan</string>
-    <string name="qs_surround">Surround</string>
-    <string name="qs_thin">İnce çizgi</string>
+    <!-- QS panel styles -->
+    <string name="theme_customization_qs_panel_title">QS Panel style</string>
+    <string name="theme_customization_qs_panel_summary">Set custom QS Panel style</string>
     <!-- Quicksettings media category -->
     <string name="media_category">Medya oynatıcı</string>
     <!-- Squiggle animation -->
@@ -169,7 +160,7 @@
     <string name="solid_gradient_void">Gradyan Boşluğu</string>
     <string name="solid_gradient_neumorph">Neumorph gradyanı</string>
     <string name="solid_gradient_stroke">Keskin gradyan konturu</string>
-    <string name="solid_accent_transperent">Şeffaf vurgu</string>
+    <string name="solid_accent_transperent">Accent transperent</string>
     <string name="solid_gradient_light">Gradyan ışığı</string>
     <string name="solid_gradient_shape">Keskin gradyan köşesi</string>
     <string name="solid_gradient_void_light">Gradyan boşluk ışığı</string>
@@ -230,67 +221,53 @@
     <!-- Volume Media Output Toggle -->
     <string name="volume_media_output_toggle_title">Medya çıktısını yönlendir</string>
     <string name="volume_media_output_toggle_summary">Etkin bir akış varsa medya denetleyicisini göster</string>
-    <!-- Brightness slider styles -->
-    <string name="brightness_slider_style_title">Parlaklık kaydırıcısı stili</string>
-    <string name="brightness_slider_style_default">Varsayılan</string>
-    <string name="brightness_slider_style_filled">Doldurulmuş</string>
-    <string name="brightness_slider_style_thin">İnce</string>
-    <string name="brightness_slider_style_cyberpunk">Blocky Thumb</string>
-    <string name="brightness_slider_style_gradiant">Çift katmanlı</string>
-    <string name="brightness_slider_style_neumorph">Neumorph</string>
-    <string name="brightness_slider_style_outline">Anahat</string>
-    <string name="brightness_slider_style_shaded">Gölgeli</string>
-    <string name="brightness_slider_style_thinoutline">Satır içi</string>
-    <string name="brightness_slider_style_translucent">Şeffaf</string>
-    <string name="brightness_slider_style_leafyoutline">Yapraklı Anahat</string>
-    <string name="brightness_slider_style_minimalthumb">Minim Thumb</string>
-    <string name="brightness_slider_style_oldschoolthumb">Old School Thumb</string>
-    <string name="brightness_slider_style_roundedclip">Rounded clip</string>
-    <string name="brightness_slider_style_thumbslider">Thumb Slider</string>
-    <string name="brightness_slider_style_line">İnce Anahat</string>
-    <string name="brightness_slider_style_lighty">Lighty</string>
     <!-- QS haptic feedback -->
-    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
-    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
+    <string name="qs_haptic_feedback_title">Hızlı ayarlar dokunsal geri bildirim</string>
+    <string name="qs_haptic_feedback_summary">Hızlı ayarlar karelerine dokunulduğunda titret</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alphabet</string>
-    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="alpha_settings_summary">Süprizler olacak!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
     <string name="jitter_test_title">Jitter</string>
-    <string name="jitter_test_summary">Calculate rendering jitter</string>
+    <string name="jitter_test_summary">Jitter render ölçümü yap</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
-    <string name="smart_cutoff_level_title">Stop trigger level</string>
-    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
+    <string name="smart_cutoff_title">Akıllı kesim</string>
+    <string name="smart_cutoff_summary">Maksimum sıcaklığı ayarlayın</string>
+    <string name="smart_cutoff_switch_title">Akıllı kesmeyi kullan</string>
+    <string name="smart_cutoff_level_title">Durdurma tetikleyici seviyesi</string>
+    <string name="smart_cutoff_resume_level_title">Başlatma tetikleyici seviyesi</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Device</string>
+    <string name="category_device_info">Cihaz</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status: %s</string>
+    <string name="build_status_title">İnşa Durumu %s</string>
     <string name="build_status_summary_placeholder">Ahoy</string>
-    <string name="build_status_official">Official</string>
-    <string name="build_status_summary">Maintained by: %s</string>
-    <string name="build_status_oopsie">Searching for maintainer...</string>
+    <string name="build_status_official">Resmi</string>
+    <string name="build_status_summary">Geliştirici: %s</string>
+    <string name="build_status_oopsie">Geliştirici aranıyor...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
-    <string name="connectivity_check_title">Internet connectivity check</string>
-    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
-    <string name="sandboxed_google_play">Sandboxed Google Play</string>
-    <string name="sandboxed_google_play_work_profile">Sandboxed Google Play (work profile)</string>
-    <string name="storage_scopes">Storage Scopes</string>
-    <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
-    <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
-    <string name="auto_grant_OTHER_SENSORS_permission_title">Allow Sensors permission to apps by default</string>
-    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensors is a non-standard permission, apps may malfunction if it’s denied.</string>
-    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">A permission prompt will be shown when an app tries to access sensors. Note that some apps may need to be manually restarted after allowing the Sensors permission.</string>
+    <string name="ignore_window_secure_title">Güvenli pencere bayrağını yoksay</string>
+    <string name="ignore_window_secure_summary">Tüm uygulamalar için ekran görüntüsü ve ekran kaydı sınırlarını kaldırın. Bu bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir.</string>
+    <string name="connectivity_check_title">İnternet bağlantısı kontrolü</string>
+    <string name="connectivity_check_summary">İnternet bağlantı kontrollerini gerçekleştirmek için kullanılacak HTTP uç noktaları.</string>
+    <string name="sandboxed_google_play">Korumalı Google Play</string>
+    <string name="sandboxed_google_play_work_profile">Korumalı Google Play (iş profili)</string>
+    <string name="storage_scopes">Depolama kapsamları</string>
+    <string name="allow_access_to_obb_directory_title">Android/obb klasörüne erişime izin ver</string>
+    <string name="allow_access_to_obb_directory_summary">OBB genişletme dosyalarını kullanan bazı büyük uygulamaların (çoğunlukla oyunların) yüklenmesi için gereklidir</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_title">Uygulamalara varsayılan olarak Sensörler izni ver</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensörler standart olmayan bir izindir, reddedilirse uygulamalar arızalanabilir.</string>
+    <string name="auto_grant_OTHER_SENSORS_permission_summary_off">Bir uygulama sensörlere erişmeye çalıştığında bir izin istemi gösterilecektir. Bazı uygulamaların, Sensörler iznine izin verildikten sonra manuel olarak yeniden başlatılması gerekebileceğini unutmayın.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>

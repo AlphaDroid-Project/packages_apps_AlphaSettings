@@ -40,9 +40,10 @@
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Network traffic -->
     <string name="network_traffic_category_title">Netzwerkaktivität</string>
-    <string name="network_traffic_intro_text">        Zeigt die aktuelle Netzwerkgeschwindigkeit in der Statusleiste an.
-Die Anzeige ist dynamisch und wechselt Sekündlich zwischen der
-Upload- und Downloadgeschwindigkeit.    </string>
+    <string name="network_traffic_intro_text">        Shows current network traffic speed in statusbar.
+        The monitor shows the speed dynamically such that it alternates between
+        upload and download speed each second
+    </string>
     <string name="enable_network_traffic">Datenverkehrs-Anzeige in der Statusleiste aktivieren</string>
     <string name="statusbar_network_traffic_threshold_tx_title">Schwelle zum automatischen Ausblenden für Upload</string>
     <string name="statusbar_network_traffic_threshold_rx_title">Schwelle zum automatischen Ausblenden für Download</string>
@@ -86,18 +87,9 @@ Upload- und Downloadgeschwindigkeit.    </string>
     <string name="ambient_image_title">Ambient-Bild</string>
     <string name="file_header_select_title">Lokales Bild auswählen</string>
     <string name="file_header_select_summary">Bild aus dem internen Speicher auswählen</string>
-    <!-- Quick settings styles -->
-    <string name="qs_styles_title">Schnelleinstellungen Stile</string>
-    <string name="qs_outline">Kontur</string>
-    <string name="qs_two_tone">Doppelton Akzent</string>
-    <string name="qs_two_tone_trans">Doppelton durchsichtig</string>
-    <string name="qs_color_pop">Farb-Pop</string>
-    <string name="qs_shaded">Schattiert</string>
-    <string name="qs_cyberpunk">Cyberpunk</string>
-    <string name="qs_neumorph">Neumorph</string>
-    <string name="qs_reflected">Reflektierend</string>
-    <string name="qs_surround">Umgeben</string>
-    <string name="qs_thin">Dünne Linie</string>
+    <!-- QS panel styles -->
+    <string name="theme_customization_qs_panel_title">QS Panel style</string>
+    <string name="theme_customization_qs_panel_summary">Set custom QS Panel style</string>
     <!-- Quicksettings media category -->
     <string name="media_category">Mediaplayer</string>
     <!-- Squiggle animation -->
@@ -168,7 +160,7 @@ Upload- und Downloadgeschwindigkeit.    </string>
     <string name="solid_gradient_void">Farbverlauf Void</string>
     <string name="solid_gradient_neumorph">Neumorph Farbverlauf</string>
     <string name="solid_gradient_stroke">Scharfer Farbstich</string>
-    <string name="solid_accent_transperent">Akzent Transperent</string>
+    <string name="solid_accent_transperent">Accent transperent</string>
     <string name="solid_gradient_light">Farbverlauf hell</string>
     <string name="solid_gradient_shape">Scharfer Farbverlauf</string>
     <string name="solid_gradient_void_light">Farbverlauf Void hell</string>
@@ -229,25 +221,6 @@ Upload- und Downloadgeschwindigkeit.    </string>
     <!-- Volume Media Output Toggle -->
     <string name="volume_media_output_toggle_title">Lautstärke-Medienausgabe</string>
     <string name="volume_media_output_toggle_summary">Medienausgabe-Umschalter anzeigen, wenn ein aktiver Stream vorhanden ist</string>
-    <!-- Brightness slider styles -->
-    <string name="brightness_slider_style_title">Stil des Helligkeitsreglers</string>
-    <string name="brightness_slider_style_default">Standard</string>
-    <string name="brightness_slider_style_filled">Gefüllt</string>
-    <string name="brightness_slider_style_thin">Dünn</string>
-    <string name="brightness_slider_style_cyberpunk">Blocky Thumb</string>
-    <string name="brightness_slider_style_gradiant">Doppelschicht</string>
-    <string name="brightness_slider_style_neumorph">Neumorph</string>
-    <string name="brightness_slider_style_outline">Kontur</string>
-    <string name="brightness_slider_style_shaded">Schattiert</string>
-    <string name="brightness_slider_style_thinoutline">Linear</string>
-    <string name="brightness_slider_style_translucent">Transparent</string>
-    <string name="brightness_slider_style_leafyoutline">Lauber Umriss</string>
-    <string name="brightness_slider_style_minimalthumb">Minimaler Thumb</string>
-    <string name="brightness_slider_style_oldschoolthumb">Old School Thumb</string>
-    <string name="brightness_slider_style_roundedclip">Abgerundeter Clip</string>
-    <string name="brightness_slider_style_thumbslider">Thumb-Slider</string>
-    <string name="brightness_slider_style_line">Dünne Kontur</string>
-    <string name="brightness_slider_style_lighty">Leicht</string>
     <!-- QS haptic feedback -->
     <string name="qs_haptic_feedback_title">Haptisches Feedback bei Schnelleinstellungen</string>
     <string name="qs_haptic_feedback_summary">Beim Berühren von Schnelleinstellungs-Kacheln vibrieren</string>
@@ -292,4 +265,9 @@ Upload- und Downloadgeschwindigkeit.    </string>
     <string name="auto_grant_OTHER_SENSORS_permission_title">Sensor-Berechtigung für Apps standardmäßig erlauben</string>
     <string name="auto_grant_OTHER_SENSORS_permission_summary_on">Sensoren sind eine nicht standardmäßige Berechtigung, Apps könnten Fehlverhalten aufweisen, wenn diese verweigert werden.</string>
     <string name="auto_grant_OTHER_SENSORS_permission_summary_off">Eine Berechtigungs-Eingabeaufforderung wird angezeigt, wenn eine App versucht, auf Sensoren zuzugreifen. Beachte, dass einige Apps möglicherweise manuell neu gestartet werden müssen, nachdem die Sensoren-Berechtigung aktiviert wurde.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>
