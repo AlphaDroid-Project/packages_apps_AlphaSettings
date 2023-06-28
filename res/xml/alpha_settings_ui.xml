@@ -130,6 +130,26 @@
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:fragment="com.alpha.settings.fragments.ui.WifiIcons"/>
 
+     <!-- Volte icon style -->
+    <com.alpha.settings.preferences.SystemSettingListPreference
+        android:key="volte_icon_style"
+        android:icon="@drawable/ic_volte"
+        android:title="@string/volte_icon_style_title"
+        android:entries="@array/volte_icon_type_entries"
+        android:entryValues="@array/volte_icon_type_values"
+        android:summary="%s"
+        android:defaultValue="1"/>
+
+    <!-- VoWifi icon style -->
+    <com.alpha.settings.preferences.SystemSettingListPreference
+        android:key="vowifi_icon_style"
+        android:icon="@drawable/ic_vowifi"
+        android:title="@string/vowifi_icon_title"
+        android:entries="@array/vowifi_icon_type_entries"
+        android:entryValues="@array/vowifi_icon_type_values"
+        android:summary="%s"
+        android:defaultValue="1"/>
+
     <!-- Adaptive icon pack -->
     <Preference
         android:key="android.theme.customization.adaptive_icon_shape"
