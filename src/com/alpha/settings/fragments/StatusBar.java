@@ -180,9 +180,10 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getContentResolver();
         if (preference == mBatteryStyle) {
             int value = Integer.parseInt((String) newValue);
-            int batterypercent = Settings.System.getIntForUser(getContentResolver(),
+            int batterypercent = Settings.System.getIntForUser(resolver,
                     Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
             mBatteryPercent.setEnabled(
                     value != BATTERY_STYLE_TEXT && value != BATTERY_STYLE_HIDDEN);
@@ -191,7 +192,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
             return true;
         } else if (preference == mBatteryPercent) {
             int value = Integer.parseInt((String) newValue);
-            int batterystyle = Settings.System.getIntForUser(getContentResolver(),
+            int batterystyle = Settings.System.getIntForUser(resolver,
                     Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
             mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
                     (batterystyle != BATTERY_STYLE_TEXT && value != 2));

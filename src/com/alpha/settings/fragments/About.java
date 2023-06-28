@@ -62,7 +62,7 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.crdroid_settings_about);
+        addPreferencesFromResource(R.xml.alpha_settings_about);
 
         mDonate = findPreference(KEY_CRDROID_DONATE);
         mSourceUrl = findPreference(KEY_CRDROID_SOURCE);
