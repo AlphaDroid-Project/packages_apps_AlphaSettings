@@ -63,14 +63,6 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
 
-    <!-- Google services -->
-    <Preference
-        android:key="gms_enabled_settings"
-        android:icon="@drawable/ic_google"
-        android:title="@string/gms_enabled_title"
-        android:summary="@string/gms_enabled_summary"
-        android:fragment="com.alpha.settings.fragments.misc.GmsSwitch"/>
-
     <!-- Hide developer and adb status  -->
     <Preference
         android:key="hide_developer_status_settings"

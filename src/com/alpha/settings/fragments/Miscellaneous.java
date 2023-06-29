@@ -83,7 +83,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         SystemProperties.set(SYS_GAMES_SPOOF, "false");
         SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
         SystemProperties.set(SYS_NETFLIX_SPOOF, "false");
-        GmsSwitch.reset(mContext);
         SensorBlock.reset(mContext);
     }
 
