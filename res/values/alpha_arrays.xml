@@ -96,6 +96,86 @@
         <item>10</item>
     </string-array>
 
+    <!-- Ambient Text Alignment -->
+    <string-array name="ambient_text_alignment_entries" translatable="false">
+        <item>@string/ambient_text_align_start_top</item>
+        <item>@string/ambient_text_align_start_center</item>
+        <!--item>@string/ambient_text_align_start_bottom</item-->
+        <item>@string/ambient_text_align_center</item>
+        <item>@string/ambient_text_align_end_top</item>
+        <item>@string/ambient_text_align_end_center</item>
+        <!--item>@string/ambient_text_align_end_bottom</item-->
+    </string-array>
+    <string-array name="ambient_text_alignment_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <!--item>2</item-->
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <!--item>6</item-->
+    </string-array>
+
+    <string-array name="ambient_text_type_color_entries" translatable="false">
+        <item>@string/ambient_notification_light_color_mode_accent</item>
+        <item>@string/ambient_notification_light_color_mode_wall</item>
+        <item>@string/ambient_notification_light_color_mode_custom</item>
+    </string-array>
+    <string-array name="ambient_text_type_color_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- QS Page Transitions -->
+    <string-array name="qs_transitions_entries" translatable="false">
+        <item>@string/qs_transitions_default</item>
+        <item>@string/qs_transitions_cube_in</item>
+        <item>@string/qs_transitions_cube_out</item>
+        <item>@string/qs_transitions_accordion</item>
+        <item>@string/qs_transitions_background_to_foreground</item>
+        <item>@string/qs_transitions_depth_page</item>
+        <item>@string/qs_transitions_fade</item>
+        <item>@string/qs_transitions_foreground_to_background</item>
+        <item>@string/qs_transitions_rotate_down</item>
+        <item>@string/qs_transitions_rotate_up</item>
+        <item>@string/qs_transitions_stack</item>
+        <item>@string/qs_transitions_tablet</item>
+        <item>@string/qs_transitions_zoom_in</item>
+        <item>@string/qs_transitions_zoom_out</item>
+        <item>@string/qs_transitions_zoom_out_slide</item>
+    </string-array>
+
+    <string-array name="qs_transitions_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="volume_styles_entries" translatable="false">
+        <item>@string/default_string</item>
+        <item>@string/rui_style</item>
+        <item>@string/rising_style</item>
+    </string-array>
+
+    <string-array name="volume_styles_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Status bar chip styles-->
     <string-array name="statusbar_clock_chip_entries" translatable="false">
         <item>@string/disabled</item>
@@ -127,6 +207,53 @@
         <item>10</item>
         <item>11</item>
         <item>12</item>
+    </string-array>
+
+    <!-- Status bar - Battery -->
+    <string-array name="status_bar_battery_style_entries" translatable="false">
+        <item>@string/status_bar_battery_style_icon_portrait</item>
+        <item>@string/status_bar_battery_style_icon_rlandscape</item>
+        <item>@string/status_bar_battery_style_icon_landscape</item>
+        <item>@string/status_bar_battery_style_circle</item>
+        <item>@string/status_bar_battery_style_dotted_circle</item>
+        <item>@string/status_bar_battery_style_filled_circle</item>
+        <item>@string/status_bar_battery_style_text</item>
+        <item>@string/status_bar_battery_style_hidden</item>
+        <item>@string/status_bar_battery_style_icon_landscape_buddy</item>
+        <item>@string/status_bar_battery_style_icon_landscape_line</item>
+        <item>@string/status_bar_battery_style_icon_landscape_musku</item>
+        <item>@string/status_bar_battery_style_icon_landscape_pill</item>
+        <item>@string/status_bar_battery_style_icon_landscape_signal</item>
+        <item>@string/status_bar_battery_style_icon_rlandscape_style_a</item>
+        <item>@string/status_bar_battery_style_icon_landscape_style_a</item>
+        <item>@string/status_bar_battery_style_icon_rlandscape_style_b</item>
+        <item>@string/status_bar_battery_style_icon_landscape_style_b</item>
+        <item>@string/status_bar_battery_style_icon_landscape_ios15</item>
+        <item>@string/status_bar_battery_style_icon_landscape_ios16</item>
+        <item>@string/status_bar_battery_style_icon_portrait_origami</item>
+    </string-array>
+
+    <string-array name="status_bar_battery_style_values" translatable="false">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
     </string-array>
 
 </resources>
