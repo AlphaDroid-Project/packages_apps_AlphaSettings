@@ -60,6 +60,14 @@
         android:summary="@string/show_clipboard_overlay_summary"
         android:defaultValue="true"/>
 
+    <!-- Notifications style -->
+    <Preference
+        android:key="android.theme.customization.nf_style"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/theme_customization_notifications_title"
+        android:summary="@string/theme_customization_notifications_summary"
+        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" />
+
     <PreferenceCategory
         android:key="heads_up"
         android:title="@string/notification_heads_up_title">
