@@ -73,13 +73,37 @@
         android:summary="@string/monet_settings_summary"
         android:fragment="com.alpha.settings.fragments.ui.MonetSettings" />
 
+    <!-- Brightness bar style -->
+    <Preference
+        android:key="android.theme.customization.bb_style"
+        android:icon="@drawable/ic_brightness"
+        android:title="@string/theme_customization_brightness_bar_title"
+        android:summary="@string/theme_customization_brightness_bar_summary"
+        android:fragment="com.alpha.settings.fragments.ui.BrightnessBarStyles" />
+
+    <!-- Notifications style -->
+    <Preference
+        android:key="android.theme.customization.nf_style"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/theme_customization_notifications_title"
+        android:summary="@string/theme_customization_notifications_summary"
+        android:fragment="com.alpha.settings.fragments.ui.NotificationStyles" />
+
+    <!-- Notifications style -->
+    <Preference
+        android:key="android.theme.customization.qs_style"
+        android:icon="@drawable/ic_qs_panel"
+        android:title="@string/theme_customization_qs_style_title"
+        android:summary="@string/theme_customization_qs_style_summary"
+        android:fragment="com.alpha.settings.fragments.ui.QsPanelStyles" />
+
     <!-- UI style -->
     <Preference
         android:key="android.theme.customization.style"
         android:icon="@drawable/ic_ui_styles"
         android:title="@string/theme_customization_ui_style_title"
         android:summary="@string/theme_customization_ui_style_summary"
-        android:fragment="com.alpha.settings.fragments.ui.UIStyles"/>
+        android:fragment="com.alpha.settings.fragments.ui.UIStyles" />
 
     <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="settings_dashboard_style"
