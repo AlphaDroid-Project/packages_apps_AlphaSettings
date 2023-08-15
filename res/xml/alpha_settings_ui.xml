@@ -153,6 +153,14 @@
         android:title="@string/theme_customization_wifi_icon_title"
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:fragment="com.alpha.settings.fragments.ui.WifiIcons"/>
+      
+     <!-- Data icon style -->  
+        <Preference
+            android:key="android.customization.sb_data"
+            android:icon="@drawable/ic_data"
+            android:title="@string/theme_customization_data_title"
+            android:summary="@string/theme_customization_data_summary"
+            android:fragment="com.alpha.settings.fragments.ui.DataStyles"/>
 
      <!-- Volte icon style -->
     <com.alpha.settings.preferences.SystemSettingListPreference
