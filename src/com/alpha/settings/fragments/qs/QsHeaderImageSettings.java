@@ -130,7 +130,7 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment
         if (preference == mQsHeaderImagePicker) {
             Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
             intent.addCategory(Intent.CATEGORY_OPENABLE);
-            intent.setPackage("com.android.gallery3d");
+            intent.setPackage(IMAGE_PICKER);
             intent.setType("image/*");
             startActivityForResult(intent, REQUEST_IMAGE_PICKER);
             return true;

@@ -125,7 +125,6 @@ public class QsHeaderImageStyles extends SettingsPreferenceFragment {
         public void onBindViewHolder(CustomViewHolder holder, final int position) {
 
             int currentHeaderNumber = getCurrentHeaderNumber();
-            if (currentHeaderNumber == 0) return; //reserved to mark disabled state
 
             String loadedImage = mQsHeaderImages.get(position);
             Bitmap background = getBitmap(holder.qsHeaderImage.getContext(), loadedImage);
