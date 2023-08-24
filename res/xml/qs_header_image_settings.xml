@@ -51,6 +51,7 @@
         android:title="@string/qs_header_image_height_portrait_title"
         android:max="550"
         settings:min="50"
+        android:defaultValue="325"
         android:dependency="qs_header_image_enabled" />
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -65,15 +66,16 @@
         android:title="@string/qs_header_image_height_landscape_title"
         android:max="400"
         settings:min="50"
+        android:defaultValue="200"
         android:dependency="qs_header_image_landscape_enabled" />
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_header_image_padding_side"
         android:title="@string/qs_header_image_padding_side_title"
-        android:max="50"
-        settings:min="-50"
+        android:max="100"
+        settings:min="-100"
         android:dependency="qs_header_image_enabled"
-        android:defaultValue="0" />
+        android:defaultValue="-50" />
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_header_image_padding_top"
