@@ -125,9 +125,12 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
         Context context;
         String mSelectedIcon;
         String mAppliedIcon;
+        int mDefaultPressedColor;
 
         public UdfpsPressedIconAdapter(Context context) {
             this.context = context;
+            mDefaultPressedColor = context.getResources().getInteger(
+                    com.android.internal.R.integer.config_udfps_pressed_color);
         }
 
         @Override
@@ -140,6 +143,8 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
         @Override
         public void onBindViewHolder(UdfpsPressedIconViewHolder holder, final int position) {
             String iconRes = mIcons[position];
+            int activePressedColor = Settings.System.getInt(context.getContentResolver(),
+                    Settings.System.UDFPS_COLOR, mDefaultPressedColor);
 
             Glide.with(holder.image.getContext())
                     .load("")
@@ -150,8 +155,7 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
 
             holder.name.setVisibility(View.GONE);
 
-            if (position == Settings.System.getInt(context.getContentResolver(),
-                Settings.System.UDFPS_COLOR, 0)) {
+            if (position == activePressedColor) {
                 mAppliedIcon = iconRes;
                 if (mSelectedIcon == null) {
                     mSelectedIcon = iconRes;
