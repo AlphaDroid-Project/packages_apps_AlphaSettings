@@ -109,6 +109,13 @@
             android:entryValues="@array/qs_brightness_slider_position_values"
             android:defaultValue="0" />
 
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:title="@string/bb_show_percentage_title"
+            android:key="show_brightness_bar_percentage"
+            android:icon="@drawable/ic_percent"
+            android:summary="@string/bb_show_percentage_summary"
+            android:defaultValue="false" />
+
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="qs_show_auto_brightness"
             android:icon="@drawable/ic_brightness_auto"
