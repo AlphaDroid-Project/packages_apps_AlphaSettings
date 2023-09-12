@@ -162,6 +162,13 @@
             android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
 
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:title="@string/bb_show_percentage_title"
+            android:key="show_brightness_bar_percentage"
+            android:icon="@drawable/ic_percent"
+            android:summary="@string/bb_show_percentage_summary"
+            android:defaultValue="false" />
+
         <!-- Brightness bar style -->
         <Preference
             android:key="android.theme.customization.bb_style"
