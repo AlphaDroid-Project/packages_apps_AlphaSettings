@@ -37,7 +37,7 @@
     <string name="statusbar_left_padding">Lapisan kiri</string>
     <string name="statusbar_right_padding">Lapisan kanan</string>
     <!-- Ambient Customization -->
-    <string name="default_string">Standar</string>
+    <string name="default_string">Bawaan</string>
     <string name="ambient_text_category">Kustomisasi teks</string>
     <string name="ambient_image_category">Kustomisasi gambar</string>
     <string name="ambient_text_category_title">Kustomisasi AOD-Ambien</string>
@@ -103,11 +103,11 @@
     <string name="luminance_factor_summary">Nilai lebih tinggi menghasilkan warna lebih terang</string>
     <string name="chroma_factor_title">Kroma</string>
     <string name="chroma_factor_summary">Nilai lebih tinggi menghasilkan warna lebih kuat</string>
-    <string name="tint_background_title">Efek warna latar belakang</string>
+    <string name="tint_background_title">Warna Latar Belakang</string>
     <string name="tint_background_summary">Membuat pengaturan luminansi dan faktor kroma mempengaruhi efek warna latar belakang</string>
     <!-- Power menu Animations  -->
-    <string name="power_menu_anim_cat">Pilihan Animasi Antarmuka Penyalaan</string>
-    <string name="power_menu_animation_title">Animasi menu penyalaan</string>
+    <string name="power_menu_anim_cat">Opsi Animasi Antarmuka Daya</string>
+    <string name="power_menu_animation_title">Animasi menu daya</string>
     <string name="power_menu_animation_dialog_title">Pilih animasi menu penyalaan</string>
     <string name="power_menu_animation_aosp">AOSP (standar)</string>
     <string name="power_menu_animation_bottom">Bawah</string>
@@ -153,15 +153,15 @@
     <string name="qs_transitions_zoom_out">Perkecil</string>
     <string name="qs_transitions_zoom_out_slide">Perkecil geser</string>
     <!-- Volume Styles -->
-    <string name="rui_style">Corak tatapmuka Realme</string>
-    <string name="rising_style">Corak RisingOS</string>
-    <string name="volume_style_title">Corak panel volume</string>
+    <string name="rui_style">Gaya Realme UI</string>
+    <string name="rising_style">Gaya Rice</string>
+    <string name="volume_style_title">Gaya Panel Volume</string>
     <!-- Volume Media Output Toggle -->
     <string name="volume_media_output_toggle_title">Keluaran media volume</string>
-    <string name="volume_media_output_toggle_summary">Tampilkan sakelar keluaran media saat audio diputar</string>
+    <string name="volume_media_output_toggle_summary">Tampilkan tombol keluaran media ketika ada aliran aktif</string>
     <!-- QS haptic feedback -->
-    <string name="qs_haptic_feedback_title">Setel getaran di QS</string>
-    <string name="qs_haptic_feedback_summary">Bergetar saat menyentuh ubin QS</string>
+    <string name="qs_haptic_feedback_title">Umpan balik Setelan Cepat</string>
+    <string name="qs_haptic_feedback_summary">Bergetar saat menyentuh ubin Setelan Cepat</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alphabet</string>
     <string name="alpha_settings_summary">Akan banyak kejutan!</string>
@@ -179,13 +179,13 @@
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Perangkat</string>
     <!-- Build info -->
-    <string name="build_status_title">Status buatan: %s</string>
+    <string name="build_status_title">Status pembuatan: %s</string>
     <string name="build_status_summary_placeholder">Ahoy</string>
     <string name="build_status_official">Resmi</string>
     <string name="build_status_summary">Dikelola oleh: %s</string>
     <string name="build_status_oopsie">Mencari pengelola...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Abaikan indikator jendela aman</string>
+    <string name="ignore_window_secure_title">Abaikan hamparan pengaman privasi</string>
     <string name="ignore_window_secure_summary">Hapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Hal ini bisa memudahkan dalam beberapa kasus, tetapi bisa menyebabkan kebocoran privasi.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Sembunyikan status pengembang</string>
@@ -221,7 +221,7 @@
     <string name="volte_icon_zirco">Ikon Ziroc</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Ikon VoWiFi</string>
-    <string name="vowifi_icon_summary">Tampilkan ikon VoWiFi bila ada</string>
+    <string name="vowifi_icon_summary">Tampilkan ikon VoWiFi bila tersedia</string>
     <string name="vowifi_icon_off">Nonaktif</string>
     <string name="vowifi_icon_dynamic">Ikon VoWiFi Dinamis</string>
     <string name="vowifi_icon_asus">Ikon VoWiFi Asus</string>
@@ -232,26 +232,70 @@
     <string name="theme_customization_qs_style_title">Gaya Setelan Cepat</string>
     <string name="theme_customization_qs_style_summary">Setel gaya Panel Setelan Cepat kustom</string>
     <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Corak slider kecerahan</string>
-    <string name="theme_customization_brightness_bar_summary">Setel corak balok navigasi</string>
+    <string name="theme_customization_brightness_bar_title">Gaya bilah kecerahan</string>
+    <string name="theme_customization_brightness_bar_summary">Setel gaya bilah kecerahan kustom</string>
     <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Corak pemberitahuan</string>
-    <string name="theme_customization_notifications_summary">Setel corak notifikasi</string>
+    <string name="theme_customization_notifications_title">Gaya notifikasi</string>
+    <string name="theme_customization_notifications_summary">Tetapkan gaya notifikasi kustom</string>
     <!-- Extra battery styles -->
-    <string name="status_bar_battery_style_icon_landscape_buddy">Mendatar kapsul</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Mendatar Capsule</string>
     <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
     <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
     <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Mendatar kanan corak A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Mendatar kanan Gaya A</string>
     <string name="status_bar_battery_style_icon_landscape_style_a">Mendatar kiri corak A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Mendatar kanan corak B</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Mendatar kanan Gaya B</string>
     <string name="status_bar_battery_style_icon_landscape_style_b">Mendatar kiri corak B</string>
     <string name="status_bar_battery_style_icon_landscape_ios15">Mendatar iOS 15</string>
     <string name="status_bar_battery_style_icon_landscape_ios16">Mendatar iOS 16</string>
-    <string name="status_bar_battery_style_icon_landscape_origami">Tinggi mendatar</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Mendatar Origami</string>
     <string name="status_bar_battery_style_icon_landscape_miui_pill">Mendatar pil MiUI</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Paksa LTE CA</string>
     <string name="force_lte_ca_summary">Paksa agregasi operator LTE agar berfungsi</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Ikon sinyal gabungan</string>
+    <string name="combined_status_bar_signal_icons_summary">Tampilkan ikon gabungan tunggal untuk WiFi dan sinyal seluler</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Cerdas</string>
+    <string name="smart_5g_summary">Secara otomatis beralih antara 5G dan 4G untuk mengurangi konsumsi baterai</string>
+    <!-- QS header image -->
+    <string name="qs_header_image_summary">Pilih gambar header latar belakang Setelan Cepat</string>
+    <string name="qs_header_image_enabled_title">Kustomisasi gambar header Setelan Cepat</string>
+    <string name="qs_header_image_enabled_summary">Aktifkan kustomisasi gambar header Setelan Cepat</string>
+    <string name="qs_header_image_landscape_enabled_title">Tampilkan pada lanskap</string>
+    <string name="qs_header_image_landscape_enabled_summary">Aktifkan gambar header Setelan Cepat saat mode lanskap aktif</string>
+    <string name="qs_header_image_tint_title">Warna</string>
+    <string name="qs_header_image_tint_none">Tanpa warna</string>
+    <string name="qs_header_image_tint_accent">Warna aksen</string>
+    <string name="qs_header_image_tint_primary">Warna primer</string>
+    <string name="qs_header_image_tint_primary_inverse">Kebalikan warna primer</string>
+    <string name="qs_header_image_tint_custom">Warna kustom</string>
+    <string name="qs_header_image_tint_custom_title">Warna kustom</string>
+    <string name="qs_header_image_height_portrait_title">Tinggi (potret)</string>
+    <string name="qs_header_image_height_landscape_title">Tinggi (lanskap)</string>
+    <string name="qs_header_image_alpha_title">Opasitas</string>
+    <string name="qs_header_image_padding_side_title">Lapisan samping</string>
+    <string name="qs_header_image_padding_top_title">Lapisan atas</string>
+    <!-- Custom Data icons -->
+    <string name="theme_customization_data_title">Gaya ikon data</string>
+    <string name="theme_customization_data_summary">Setel gaya ikon data kustom</string>
+    <!-- custom signal dimen -->
+    <string name="custom_signal_dimension_title">Dimensi Kustom Ikon Sinyal</string>
+    <string name="custom_signal_dimension_summary">Gunakan nilai dimensi kustom yang dapat disesuaikan</string>
+    <string name="custom_signal_height">Tinggi</string>
+    <string name="custom_signal_width">Lebar</string>
+    <!-- custom wifi dimen -->
+    <string name="custom_wifi_dimension_title">Dimensi Kustom Ikon WiFi</string>
+    <string name="custom_wifi_dimension_summary">Gunakan nilai dimensi kustom yang dapat disesuaikan</string>
+    <string name="custom_wifi_height">Tinggi</string>
+    <string name="custom_wifi_width">Lebar</string>
+    <string name="restricted_current_summary">Tetapkan arus maksimum yang diizinkan (mA)</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Konfigurasi USB</string>
+    <string name="usb_default_config_summary">Pilih konfigurasi USB default</string>
+    <!-- Text Brightness -->
+    <string name="bb_show_percentage_title">Persentase kecerahan</string>
+    <string name="bb_show_percentage_summary">Tampilkan teks persentase kecerahan di bilah kecerahan</string>
 </resources>
