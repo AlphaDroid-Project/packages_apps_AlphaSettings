@@ -16,35 +16,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Goodies!</string>
+    <string name="alphabet_summary">Καλά πραγματάκια!</string>
     <!-- Preference categories -->
-    <string name="preference_category_brightness">Brightness</string>
-    <string name="preference_category_battery">Battery</string>
-    <string name="preference_category_style">Style</string>
+    <string name="preference_category_brightness">Φωτεινότητα</string>
+    <string name="preference_category_battery">Μπαταρία</string>
+    <string name="preference_category_style">Στυλ</string>
     <string name="preference_category_clock">Ρολόι</string>
     <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings style</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and Alphabet style</string>
+    <string name="settings_dashboard_style_title">Στυλ ρυθμίσεων</string>
+    <string name="settings_dashboard_style_summary">Αρχική σελίδα ρυθμίσεων και στυλ αλφαβήτου</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Notification icons</string>
-    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
+    <string name="max_visible_notification_icons_title">Εικονίδια ειδοποιήσεων</string>
+    <string name="max_visible_notification_icons_summary">Μέγ. ορατά εικονίδια ειδοποιήσεων στη γραμμή κατάστασης</string>
     <!-- Status bar padding -->
     <string name="statusbar_padding">Status bar padding</string>
-    <string name="statusbar_top_padding">Top padding</string>
-    <string name="statusbar_left_padding">Left padding</string>
-    <string name="statusbar_right_padding">Right padding</string>
+    <string name="statusbar_top_padding">Πάνω υλικό παραγεμίσματος</string>
+    <string name="statusbar_left_padding">Αριστερό γέμισμα</string>
+    <string name="statusbar_right_padding">Δεξιό γέμισμα</string>
     <!-- Ambient Customization -->
     <string name="default_string">Προεπιλογή</string>
-    <string name="ambient_text_category">Text customization</string>
-    <string name="ambient_image_category">Image customization</string>
-    <string name="ambient_text_category_title">Ambient customization</string>
-    <string name="ambient_text_category_summary">Customizing the looks of ambient display</string>
-    <string name="ambient_text_title">Ambient text</string>
-    <string name="ambient_text_summary">Show ambient text in AoD</string>
-    <string name="ambient_text_animation_title">Ambient text animation</string>
+    <string name="ambient_text_category">Προσαρμογή κειμένου</string>
+    <string name="ambient_image_category">Προσαρμογή εικόνας</string>
+    <string name="ambient_text_category_title">Ambient ρυθμίσεις</string>
+    <string name="ambient_text_category_summary">Προσαρμογή της εμφάνισης της οθόνης ambient</string>
+    <string name="ambient_text_title">Κείμενο ambient</string>
+    <string name="ambient_text_summary">Εμφάνιση κειμένου ambient στην Π.Ε.Ο.</string>
+    <string name="ambient_text_animation_title">Εφέ κειμένου ambient</string>
     <string name="ambient_text_animation_summary">Show a animation when show AoD</string>
     <string name="ambient_text_size_title">Ambient text size</string>
     <string name="ambient_text_font_title">Ambient text font</string>
@@ -254,4 +254,45 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
+    <!-- QS header image -->
+    <string name="qs_header_image_summary">Pick QS background header image</string>
+    <string name="qs_header_image_enabled_title">QS header image customization</string>
+    <string name="qs_header_image_enabled_summary">Enable QS header image customization</string>
+    <string name="qs_header_image_landscape_enabled_title">Show on landscape</string>
+    <string name="qs_header_image_landscape_enabled_summary">Enable QS header image when landscape mode is on</string>
+    <string name="qs_header_image_tint_title">Tint</string>
+    <string name="qs_header_image_tint_none">No tint</string>
+    <string name="qs_header_image_tint_accent">Accent color</string>
+    <string name="qs_header_image_tint_primary">Primary color</string>
+    <string name="qs_header_image_tint_primary_inverse">Primary color inverse</string>
+    <string name="qs_header_image_tint_custom">Custom color</string>
+    <string name="qs_header_image_tint_custom_title">Custom tint color</string>
+    <string name="qs_header_image_height_portrait_title">Height (potrait)</string>
+    <string name="qs_header_image_height_landscape_title">Height (landScape)</string>
+    <string name="qs_header_image_alpha_title">Opacity</string>
+    <string name="qs_header_image_padding_side_title">Side padding</string>
+    <string name="qs_header_image_padding_top_title">Top padding</string>
+    <!-- Custom Data icons -->
+    <string name="theme_customization_data_title">Data icon style</string>
+    <string name="theme_customization_data_summary">Set custom data icon style</string>
+    <!-- custom signal dimen -->
+    <string name="custom_signal_dimension_title">Signal Icon Custom Dimension</string>
+    <string name="custom_signal_dimension_summary">use custom addjustable dimen values</string>
+    <string name="custom_signal_height">Height</string>
+    <string name="custom_signal_width">Width</string>
+    <!-- custom wifi dimen -->
+    <string name="custom_wifi_dimension_title">Wifi Icon Custom Dimension</string>
+    <string name="custom_wifi_dimension_summary">use custom addjustable dimen values</string>
+    <string name="custom_wifi_height">Height</string>
+    <string name="custom_wifi_width">Width</string>
+    <string name="restricted_current_summary">Set max allowed current (mA)</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default USB configuration</string>
+    <!-- Text Brightness -->
+    <string name="bb_show_percentage_title">Brightness percentage</string>
+    <string name="bb_show_percentage_summary">Show brightness percentage text in brightness bar</string>
 </resources>
