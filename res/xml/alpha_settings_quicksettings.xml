@@ -31,13 +31,13 @@
             android:title="@string/qs_header_image_title"
             android:summary="@string/qs_header_image_summary" />
 
-        <!-- QS clock
+        <!-- QS clock 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="show_qs_clock"
             android:icon="@drawable/ic_clock"
             android:title="@string/qs_clock_title"
             android:summary="@string/qs_clock_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" /> -->
 
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_header_clock_size"
@@ -47,8 +47,7 @@
             settings:min="10"
             settings:interval="1"
             android:defaultValue="14"
-            android:dependency="show_qs_clock"
-            settings:units="@string/unit_pixels" /> -->
+            settings:units="@string/unit_pixels" />
 
         <!-- QS date
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
