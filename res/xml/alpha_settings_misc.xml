@@ -117,5 +117,13 @@
             android:targetPackage="org.omnirom.omnijaws"
             android:targetClass="org.omnirom.omnijaws.SettingsActivity" />
     </Preference>
+    
+    <!-- Always show time in QS Player -->
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        	android:key="media_controls_always_show_time"
+        	android:icon="@drawable/ic_music"
+        	android:title="@string/media_controls_always_show_time_title"
+        	android:summary="@string/media_controls_always_show_time_summary"
+        	android:defaultValue="false" />
 
 </PreferenceScreen>
