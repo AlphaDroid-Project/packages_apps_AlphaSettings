@@ -30,6 +30,16 @@
             android:fragment="com.alpha.settings.fragments.qs.QsHeaderImageSettings"
             android:title="@string/qs_header_image_title"
             android:summary="@string/qs_header_image_summary" />
+        
+        <!-- QS Header Space -->    
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_size"
+            android:icon="@drawable/ic_header"
+            android:title="@string/large_qs_switch_title"
+            android:max="400"
+            settings:min="110"
+            settings:interval="1"
+            android:defaultValue="110" />
 
         <!-- QS clock 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
