@@ -18,26 +18,26 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="alphabet_summary">Goodies!</string>
     <!-- Preference categories -->
-    <string name="preference_category_brightness">Brightness</string>
-    <string name="preference_category_battery">Battery</string>
-    <string name="preference_category_style">Style</string>
-    <string name="preference_category_clock">الساعة</string>
+    <string name="preference_category_brightness">चमक</string>
+    <string name="preference_category_battery">बैटरी</string>
+    <string name="preference_category_style">शैली</string>
+    <string name="preference_category_clock">घड़ी</string>
     <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings style</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and Alphabet style</string>
+    <string name="settings_dashboard_style_title">समायोजन शैली</string>
+    <string name="settings_dashboard_style_summary">समायोजन मुखपृष्ठ और अल्फाबेट शैली</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Notification icons</string>
-    <string name="max_visible_notification_icons_summary">الحد الأقصى لأيقونات الإشعارات المرئية على شريط الحالة</string>
+    <string name="max_visible_notification_icons_title">सूचना प्रतीक</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
     <!-- Status bar padding -->
     <string name="statusbar_padding">Status bar padding</string>
     <string name="statusbar_top_padding">Top padding</string>
     <string name="statusbar_left_padding">Left padding</string>
     <string name="statusbar_right_padding">Right padding</string>
     <!-- Ambient Customization -->
-    <string name="default_string">افتراضي</string>
+    <string name="default_string">Default</string>
     <string name="ambient_text_category">Text customization</string>
     <string name="ambient_image_category">Image customization</string>
     <string name="ambient_text_category_title">Ambient customization</string>
@@ -53,15 +53,15 @@
     <string name="ambient_text_align_start_top">Right n top</string>
     <string name="ambient_text_align_start_center">Right n center</string>
     <string name="ambient_text_align_start_bottom">Right n bottom</string>
-    <string name="ambient_text_align_center">وسط</string>
+    <string name="ambient_text_align_center">Center</string>
     <string name="ambient_text_align_end_top">Left n top</string>
     <string name="ambient_text_align_end_center">Left n center</string>
     <string name="ambient_text_align_end_bottom">Left n bottom</string>
     <string name="ambient_text_type_color_title">Ambient text type color</string>
     <string name="ambient_text_color_title">Ambient text color</string>
     <string name="ambient_notification_light_color_mode_accent">System accent color</string>
-    <string name="ambient_notification_light_color_mode_custom">تخصيص اللون</string>
-    <string name="ambient_notification_light_color_mode_wall">壁纸颜色</string>
+    <string name="ambient_notification_light_color_mode_custom">Custom color</string>
+    <string name="ambient_notification_light_color_mode_wall">Wallpaper color</string>
     <string name="ambient_image_title">Ambient image</string>
     <string name="file_header_select_title">Select local image</string>
     <string name="file_header_select_summary">Select image from storage</string>
@@ -77,7 +77,7 @@
     <string name="theme_customization_ui_style_title">UI Style</string>
     <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
     <!-- Monet settings -->
-    <string name="monet_settings_title">إعدادات أخرى</string>
+    <string name="monet_settings_title">Monet settings</string>
     <string name="monet_settings_summary">Additional settings to customize monet engine</string>
     <string name="theme_style_title">Theme style</string>
     <string name="theme_style_tonal_spot">Tonal Spot (Default)</string>
@@ -110,8 +110,8 @@
     <string name="power_menu_animation_title">Power menu animation</string>
     <string name="power_menu_animation_dialog_title">Select power menu animation</string>
     <string name="power_menu_animation_aosp">AOSP (default)</string>
-    <string name="power_menu_animation_bottom">الأسفل</string>
-    <string name="power_menu_animation_top">في الأعلى</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
     <string name="power_menu_animation_xylon">Fly</string>
     <string name="power_menu_animation_slide">Slide</string>
     <string name="power_menu_animation_turn">Turn</string>
@@ -119,7 +119,7 @@
     <string name="power_menu_animation_card">3D</string>
     <string name="power_menu_animation_translucent_top">Translucent (top)</string>
     <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
-    <string name="power_menu_animation_rotate">دوران</string>
+    <string name="power_menu_animation_rotate">Rotate</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Background chip</string>
     <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
@@ -165,7 +165,7 @@
     <string name="function_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
     <!-- QS Page Transitions -->
     <string name="qs_transitions_title">QS Page Transitions</string>
-    <string name="qs_transitions_default">افتراضي</string>
+    <string name="qs_transitions_default">Default</string>
     <string name="qs_transitions_cube_in">Cube In</string>
     <string name="qs_transitions_cube_out">Cube Out</string>
     <string name="qs_transitions_accordion">Accordion</string>
@@ -199,13 +199,13 @@
     <string name="jitter_test_summary">Calculate rendering jitter</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">معطل</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">الجهاز</string>
+    <string name="category_device_info">Device</string>
     <!-- Build info -->
     <string name="build_status_title">Build Status: %s</string>
     <string name="build_status_summary_placeholder">Ahoy</string>

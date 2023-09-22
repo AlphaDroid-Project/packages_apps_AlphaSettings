@@ -135,6 +135,34 @@
     <string name="solid_gradient_light">Светлый градиент</string>
     <string name="solid_gradient_shape">Острый градиентный угол</string>
     <string name="solid_gradient_void_light">Градиентный светлой пустоты</string>
+    <string name="status_bar_clock_font_style_title">Стиль шрифта часов</string>
+    <string name="status_bar_clock_color_title">Цвет шрифта часов</string>
+    <!-- Font Customizations for Functions -->
+    <string name="function_font_stock">Обычный(по умолчанию)</string>
+    <string name="function_font_bold">Жирный</string>
+    <string name="function_font_italic">Курсив</string>
+    <string name="function_font_bold_italic">Жирный курсив</string>
+    <string name="function_font_light_italic">Легкий курсив</string>
+    <string name="function_font_thin_italic">Тонкий курсив</string>
+    <string name="function_font_light">Светлый</string>
+    <string name="function_font_thin">Тонкий</string>
+    <string name="function_font_condensed_normal">Компактный</string>
+    <string name="function_font_condensed_italic">Плотный курсив</string>
+    <string name="function_font_condensed_bold">Плотный жирный</string>
+    <string name="function_font_condensed_bold_italic">Плотный жирный курсив</string>
+    <string name="function_font_condensed_light">Плотный легкий</string>
+    <string name="function_font_condensed_light_italic">Плотный лёгкий курсив</string>
+    <string name="function_font_medium_normal">Средний</string>
+    <string name="function_font_medium_italic">Средний курсив</string>
+    <string name="function_font_black">Чёрный</string>
+    <string name="function_font_black_italic">Черный курсив</string>
+    <string name="function_font_dancingscript">Рукописный</string>
+    <string name="function_font_dancingscript_bold">Рукописный жирный</string>
+    <string name="function_font_comingsoon">Ожидается</string>
+    <string name="function_font_notoserif">NotoSerif Обычный</string>
+    <string name="function_font_notoserif_italic">NotoSerif Курсив</string>
+    <string name="function_font_notoserif_bold">NotoSerif Жирный</string>
+    <string name="function_font_notoserif_bold_italic">NotoSerif Жирный Курсив</string>
     <!-- QS Page Transitions -->
     <string name="qs_transitions_title">Переход между страницами быстрых настроек</string>
     <string name="qs_transitions_default">По умолчанию</string>
@@ -258,8 +286,8 @@
     <string name="combined_status_bar_signal_icons_title">Комбинированные значки сигналов</string>
     <string name="combined_status_bar_signal_icons_summary">Показывать комбинированный значок для WiFi и мобильного сигнала</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Умный 5G</string>
+    <string name="smart_5g_summary">Автоматическое переключение между 5G и 4G для снижения расхода батареи</string>
     <!-- QS header image -->
     <string name="qs_header_image_summary">Выбрать фоновое изображение заголовка быстрых настроек</string>
     <string name="qs_header_image_enabled_title">Настройка изображения заголовка быстрых настроек</string>
@@ -291,11 +319,37 @@
     <string name="custom_wifi_dimension_summary">использование пользовательских настраиваемых значений размеров</string>
     <string name="custom_wifi_height">Высота</string>
     <string name="custom_wifi_width">Ширина</string>
+    <!-- Generic support strings -->
+    <string name="string_enabled">Включено</string>
+    <string name="string_disabled">Отключено</string>
+    <string name="string_on">Вкл</string>
+    <string name="string_off">Выкл</string>
+    <!-- Fastcharge -->
     <string name="restricted_current_summary">Задать максимально допустимый текущий (mA)</string>
+    <string name="fastcharge_disabled_extended_summary">Зарядка ограничена: <xliff:g id="current" example="3000 mA">%1$s</xliff:g></string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">Настройки USB</string>
-    <string name="usb_default_config_summary">Choose the default USB configuration</string>
+    <string name="usb_default_config_summary">Выберите конфигурацию USB по умолчанию</string>
     <!-- Text Brightness -->
-    <string name="bb_show_percentage_title">Brightness percentage</string>
-    <string name="bb_show_percentage_summary">Show brightness percentage text in brightness bar</string>
+    <string name="bb_show_percentage_title">Процент яркости</string>
+    <string name="bb_show_percentage_summary">Показывать процент яркости в строке яркости</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">График Всегда на дисплее</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Рассвет</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включается от заката до заданного времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включается от заданного времени до рассвета</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показать Активный экран</string>
+    <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активный экран</string>
+    <string name="doze_enabled_summary">Включает отображение событий на выключенном экране</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Двойное касание</string>
+    <string name="doze_double_tap_title">Двойное касание для проверки телефона</string>
+    <string name="doze_double_tap_summary">Пульсирующие уведомления двойным нажатием</string>
+    <!-- Media player settings -->
+    <string name="media_controls_always_show_time_title">Всегда показывать время</string>
+    <string name="media_controls_always_show_time_summary">Всегда показывать пройденное и общее время на проигрывателе</string>
 </resources>
