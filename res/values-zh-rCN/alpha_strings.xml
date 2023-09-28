@@ -131,33 +131,33 @@
     <string name="solid_gradient_void">渐变虚线</string>
     <string name="solid_gradient_neumorph">神经拟态渐变</string>
     <string name="solid_gradient_stroke">线性渐变笔廓</string>
-    <string name="solid_accent_transperent">口音透明</string>
+    <string name="solid_accent_transperent">Accent transparent</string>
     <string name="solid_gradient_light">渐变线</string>
     <string name="solid_gradient_shape">锐化渐变角</string>
     <string name="solid_gradient_void_light">渐变虚线</string>
-    <string name="status_bar_clock_font_style_title">Clock font style</string>
-    <string name="status_bar_clock_color_title">Clock font color</string>
+    <string name="status_bar_clock_font_style_title">时钟字体样式</string>
+    <string name="status_bar_clock_color_title">时钟字体颜色</string>
     <!-- Font Customizations for Functions -->
-    <string name="function_font_stock">Normal (default)</string>
-    <string name="function_font_bold">Bold</string>
-    <string name="function_font_italic">Italic</string>
-    <string name="function_font_bold_italic">Bold Italic</string>
+    <string name="function_font_stock">正常 (默认)</string>
+    <string name="function_font_bold">粗体</string>
+    <string name="function_font_italic">斜体</string>
+    <string name="function_font_bold_italic">粗斜体</string>
     <string name="function_font_light_italic">Light Italic</string>
-    <string name="function_font_thin_italic">Thin Italic</string>
+    <string name="function_font_thin_italic">细斜体</string>
     <string name="function_font_light">Light</string>
-    <string name="function_font_thin">Thin</string>
-    <string name="function_font_condensed_normal">Condensed</string>
-    <string name="function_font_condensed_italic">Condensed Italic</string>
-    <string name="function_font_condensed_bold">Condensed Bold</string>
-    <string name="function_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="function_font_thin">纤细</string>
+    <string name="function_font_condensed_normal">紧凑</string>
+    <string name="function_font_condensed_italic">紧凑斜体</string>
+    <string name="function_font_condensed_bold">浓缩粗体</string>
+    <string name="function_font_condensed_bold_italic">紧凑粗斜体</string>
     <string name="function_font_condensed_light">Condensed Light</string>
     <string name="function_font_condensed_light_italic">Condensed Light Italic</string>
     <string name="function_font_medium_normal">Medium</string>
     <string name="function_font_medium_italic">Medium Italic</string>
-    <string name="function_font_black">Black</string>
-    <string name="function_font_black_italic">Black Italic</string>
+    <string name="function_font_black">黑体</string>
+    <string name="function_font_black_italic">斜黑体</string>
     <string name="function_font_dancingscript">DancingScript</string>
-    <string name="function_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="function_font_dancingscript_bold">DancingScript 粗体</string>
     <string name="function_font_comingsoon">ComingSoon</string>
     <string name="function_font_notoserif">NotoSerif Normal</string>
     <string name="function_font_notoserif_italic">NotoSerif Italic</string>
@@ -309,24 +309,14 @@
     <!-- Custom Data icons -->
     <string name="theme_customization_data_title">数据图标样式</string>
     <string name="theme_customization_data_summary">设置自定义数据流量图标样式</string>
-    <!-- custom signal dimen -->
-    <string name="custom_signal_dimension_title">信号图标自定义尺寸</string>
-    <string name="custom_signal_dimension_summary">使用自定义可添加的二进制值</string>
-    <string name="custom_signal_height">高度</string>
-    <string name="custom_signal_width">宽度</string>
-    <!-- custom wifi dimen -->
-    <string name="custom_wifi_dimension_title">Wi-Fi 图标自定义尺寸</string>
-    <string name="custom_wifi_dimension_summary">使用自定义可添加的二进制值</string>
-    <string name="custom_wifi_height">高度</string>
-    <string name="custom_wifi_width">宽度</string>
     <!-- Generic support strings -->
-    <string name="string_enabled">Enabled</string>
-    <string name="string_disabled">Disabled</string>
-    <string name="string_on">On</string>
-    <string name="string_off">Off</string>
+    <string name="string_enabled">启用</string>
+    <string name="string_disabled">禁用</string>
+    <string name="string_on">开</string>
+    <string name="string_off">关</string>
     <!-- Fastcharge -->
     <string name="restricted_current_summary">设置允许的最大电流 (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Charge limited to: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
+    <string name="fastcharge_disabled_extended_summary">充电电流限制为: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB 配置</string>
     <string name="usb_default_config_summary">选择默认 USB 配置</string>
@@ -334,22 +324,24 @@
     <string name="bb_show_percentage_title">亮度</string>
     <string name="bb_show_percentage_summary">在亮度栏中显示亮度百分比文本</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">AOD时间表</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="always_on_display_schedule_mixed_sunset">从日落开启直到设定时间</string>
+    <string name="always_on_display_schedule_mixed_sunrise">从设定时间开启直到日出</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="doze_gesture_ambient_title">环境显示</string>
+    <string name="doze_gesture_ambient_summary">在不完全唤醒屏幕的状态下显示时间和部分信息</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_title">环境显示</string>
+    <string name="doze_enabled_summary">是否启用 Doze 软件包功能</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击查看手机</string>
+    <string name="doze_double_tap_summary">双击快速显示通知</string>
     <!-- Media player settings -->
-    <string name="media_controls_always_show_time_title">Always show time</string>
-    <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
+    <string name="media_controls_always_show_time_title">始终显示时间</string>
+    <string name="media_controls_always_show_time_summary">始终在媒体播放器上显示已播时间和总时间</string>
+    <!-- QS Header Size -->
+    <string name="large_qs_switch_title">QS Header Size</string>
 </resources>
