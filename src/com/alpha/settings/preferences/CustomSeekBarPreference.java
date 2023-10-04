@@ -175,30 +175,18 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
                     : getTextValue(mTrackingValue))));
         }
         if (mResetImageView != null) {
-            if (!mDefaultValueExists || mValue == mDefaultValue || mTrackingTouch)
+            if (!mDefaultValueExists || mValue == mDefaultValue) {
                 mResetImageView.setVisibility(View.INVISIBLE);
-            else
+            }
+            else {
                 mResetImageView.setVisibility(View.VISIBLE);
+            }
         }
         if (mMinusImageView != null) {
-            if (mValue == mMinValue || mTrackingTouch) {
-                mMinusImageView.setClickable(false);
-                mMinusImageView.setColorFilter(ctx.getColor(R.color.disabled_text_color),
-                    PorterDuff.Mode.MULTIPLY);
-            } else {
-                mMinusImageView.setClickable(true);
-                mMinusImageView.clearColorFilter();
-            }
+            mMinusImageView.setEnabled(mValue > mMinValue);
         }
         if (mPlusImageView != null) {
-            if (mValue == mMaxValue || mTrackingTouch) {
-                mPlusImageView.setClickable(false);
-                mPlusImageView.setColorFilter(ctx.getColor(R.color.disabled_text_color),
-                    PorterDuff.Mode.MULTIPLY);
-            } else {
-                mPlusImageView.setClickable(true);
-                mPlusImageView.clearColorFilter();
-            }
+            mPlusImageView.setEnabled(mValue < mMaxValue);
         }
     }
 
