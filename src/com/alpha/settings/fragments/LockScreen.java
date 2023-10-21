@@ -91,7 +91,7 @@ public class LockScreen extends SettingsPreferenceFragment
             gestCategory.removePreference(mFingerprintVibErr);
             gestCategory.removePreference(mRippleEffect);
         } else {
-            if (!Utils.isPackageInstalled(getContext(), "com.crdroid.udfps.icons")) {
+            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
                 interfaceCategory.removePreference(mUdfpsSettings);
             }
         }
@@ -177,7 +177,7 @@ public class LockScreen extends SettingsPreferenceFragment
                         keys.add(KEY_FP_ERROR_VIBRATE);
                         keys.add(KEY_RIPPLE_EFFECT);
                     } else {
-                        if (!Utils.isPackageInstalled(context, "com.crdroid.udfps.icons")) {
+                        if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
                             keys.add(KEY_UDFPS_SETTINGS);
                         } else {
                             keys.add(KEY_FP_SUCCESS_VIBRATE);

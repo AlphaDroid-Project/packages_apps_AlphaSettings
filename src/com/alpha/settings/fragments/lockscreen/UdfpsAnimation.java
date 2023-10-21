@@ -74,7 +74,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
     private Switch mSwitch;
 
     private RecyclerView mRecyclerView;
-    private String mPkg = "com.crdroid.udfps.animations";
+    private String mPkg = "com.alpha.udfps.animations";
     private AnimationDrawable animation;
 
     private Resources udfpsRes;

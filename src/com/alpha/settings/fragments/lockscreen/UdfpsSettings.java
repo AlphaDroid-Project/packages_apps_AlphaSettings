@@ -65,14 +65,14 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
         Resources resources = getResources();
 
         final boolean udfpsResPkgAnimations = Utils.isPackageInstalled(getContext(),
-                "com.crdroid.udfps.animations");
+                "com.alpha.udfps.animations");
         mUdfpsAnimPreview = findPreference(UDFPS_ANIM_PREVIEW);
         if (!udfpsResPkgAnimations) {
             prefSet.removePreference(mUdfpsAnimPreview);
         }
 
         final boolean udfpsResPkgIcons = Utils.isPackageInstalled(getContext(),
-                "com.crdroid.udfps.icons");
+                "com.alpha.udfps.icons");
         mUdfpsIconPreview = findPreference(UDFPS_ICON_PICKER);
         if (!udfpsResPkgIcons) {
             prefSet.removePreference(mUdfpsIconPreview);
