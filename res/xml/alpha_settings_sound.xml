@@ -36,6 +36,14 @@
         android:summary="@string/volume_steps_summary"
         android:fragment="com.alpha.settings.fragments.sound.VolumeSteps" />
 
+    <!-- System Haptics intensities preference -->
+    <Preference
+        android:key="haptics_settings"
+        android:title="@string/haptics_settings_title"
+        android:icon="@drawable/ic_cellphone_sound"
+        android:summary="@string/haptics_settings_summary"
+        android:fragment="com.alpha.settings.fragments.sound.HapticsPreferenceFragment"/>
+    
     <!-- Screenshot Sound  -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="screenshot_shutter_sound"
