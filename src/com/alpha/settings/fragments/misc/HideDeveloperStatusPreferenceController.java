@@ -14,24 +14,34 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments;
+package com.alpha.settings.fragments.misc;
 
 import android.content.Context;
+import android.content.pm.UserInfo;
 import android.provider.Settings;
-import android.os.UserHandle;
+import android.os.UserManager;
 
 import com.android.settings.core.BasePreferenceController;
 
 import com.android.internal.util.custom.HideDeveloperStatusUtils;
+
+import java.util.List;
 
 public class HideDeveloperStatusPreferenceController extends BasePreferenceController {
 
     private static final String PREF_KEY = "hide_developer_status_settings";
     private static HideDeveloperStatusUtils hideDeveloperStatusUtils = new HideDeveloperStatusUtils();
 
+    private UserManager userManager;
+    private List<UserInfo> userInfos;
+
     public HideDeveloperStatusPreferenceController(Context context) {
         super(context, PREF_KEY);
-        hideDeveloperStatusUtils.setApps(context);
+        userManager = UserManager.get(context);
+        userInfos = userManager.getUsers();
+        for (UserInfo info: userInfos) {
+            hideDeveloperStatusUtils.setApps(context, info.id);
+        }
     }
 
     @Override
