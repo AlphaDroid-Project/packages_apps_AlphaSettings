@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2023 crDroid Android Project
                         2023 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,12 +22,19 @@
     android:title="@string/notifications_title">
 
     <!-- Notifications style -->
-    <Preference
+    <!--Preference
         android:key="android.theme.customization.nf_style"
         android:icon="@drawable/ic_notifications"
         android:title="@string/theme_customization_notifications_title"
         android:summary="@string/theme_customization_notifications_summary"
-        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" />
+        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" /-->
+
+    <Preference
+        android:key="island_notification"
+        android:icon="@drawable/ic_message_fast"
+        android:title="@string/island_notification_title"
+        android:summary="@string/island_notification_summary"
+        android:fragment="com.alpha.settings.fragments.notifications.IslandSettings" />
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
