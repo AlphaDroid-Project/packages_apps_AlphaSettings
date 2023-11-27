@@ -18,13 +18,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:key="alphabet_preference_screen">
 
-        <!-- Alphabet header -->
-        <Preference
-            android:key="alphabet_header"
-            android:selectable="false"
-            settings:layout="@layout/settings_alphabet_header" />
-
-        <!-- UI -->
         <Preference
             android:key="ui_settings_category"
             android:title="@string/ui_title"
@@ -87,4 +80,10 @@
             android:fragment="com.alpha.settings.fragments.Miscellaneous"
             android:icon="@drawable/ic_settings_misc"/>
 
+        <!-- About AlphaDroid -->
+        <Preference
+            android:key="about_alphadroid"
+            android:title="@string/about_crdroid"
+            android:fragment="com.alpha.settings.fragments.About"
+            android:icon="@drawable/ic_settings_about"/>
 </PreferenceScreen>

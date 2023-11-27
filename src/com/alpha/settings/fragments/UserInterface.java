@@ -33,7 +33,6 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.custom.CustomUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -46,22 +45,15 @@ import com.alpha.settings.fragments.ui.MonetSettings;
 import java.util.List;
 
 @SearchIndexable
-public class UserInterface extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener{
+public class UserInterface extends SettingsPreferenceFragment {
 
     public static final String TAG = "UserInterface";
 
     private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
     private static final String SMART_PIXELS = "smart_pixels";
-    private static final String KEY_DASHBOARD_STYLE = "settings_dashboard_style";
-    private static final String VOLTE_ICON_STYLE = "volte_icon_style";
-    private static final String VOWIFI_ICON_STYLE = "vowifi_icon_style";
 
     private Preference mShowCutoutForce;
     private Preference mSmartPixels;
-    private ListPreference mDashBoardStyle;
-    private ListPreference mVolteIconStyle;
-    private ListPreference mVowifiIconStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -86,37 +78,8 @@ public class UserInterface extends SettingsPreferenceFragment implements
         if (!mSmartPixelsSupported)
             prefScreen.removePreference(mSmartPixels);
 
-        mDashBoardStyle = (ListPreference) prefScreen.findPreference(KEY_DASHBOARD_STYLE);
-        mDashBoardStyle.setOnPreferenceChangeListener(this);
-
-        mVowifiIconStyle = findPreference(VOWIFI_ICON_STYLE);
-        mVolteIconStyle = findPreference(VOLTE_ICON_STYLE);
-
-        int vowifiIconStyle = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.VOWIFI_ICON_STYLE, 1);
-        if (vowifiIconStyle == 0) {
-            mVolteIconStyle.setEnabled(true);
-        } else {
-            mVolteIconStyle.setEnabled(false);
-        }
-        mVowifiIconStyle.setOnPreferenceChangeListener(this);
     }
 
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mDashBoardStyle) {
-            CustomUtils.showSettingsRestartDialog(getContext());
-            return true;
-        } else if (preference == mVowifiIconStyle) {
-            if ("0".equals(String.valueOf(newValue))) {
-                mVolteIconStyle.setEnabled(true);
-            } else {
-                mVolteIconStyle.setEnabled(false);
-            }
-            return true;
-        }
-        return false;
-    }
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2023 crDroid Android Project
+                        2023 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -52,12 +53,6 @@
         android:summary="@string/edge_light_summary"
         android:fragment="com.alpha.settings.fragments.ui.doze.EdgeLightSettings"
         android:dependency="doze_enabled" />
-
-    <Preference
-         android:key="ambient_customization"
-         android:title="@string/ambient_text_category_title"
-         android:summary="@string/ambient_text_category_summary"
-         android:fragment="com.alpha.settings.fragments.ui.AmbientCustomizations" />
 
     <PreferenceCategory
         android:key="doze_sensor"

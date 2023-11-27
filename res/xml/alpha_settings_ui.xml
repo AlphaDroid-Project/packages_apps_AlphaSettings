@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2023 crDroid Android Project
+                        2023 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -65,54 +66,13 @@
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.alpha.settings.fragments.ui.SmartPixels" />
 
-    <!-- Monet -->
+    <!-- Monet Theme Engine -->
     <Preference
-        android:key="monet_settings"
+        android:key="monet_engine"
         android:icon="@drawable/ic_themes"
-        android:title="@string/monet_settings_title"
-        android:summary="@string/monet_settings_summary"
+        android:title="@string/monet_title"
+        android:summary="@string/monet_summary"
         android:fragment="com.alpha.settings.fragments.ui.MonetSettings" />
-
-    <!-- Brightness bar style -->
-    <Preference
-        android:key="android.theme.customization.bb_style"
-        android:icon="@drawable/ic_brightness"
-        android:title="@string/theme_customization_brightness_bar_title"
-        android:summary="@string/theme_customization_brightness_bar_summary"
-        android:fragment="com.alpha.settings.fragments.ui.BrightnessBarStyles" />
-
-    <!-- Notifications style -->
-    <Preference
-        android:key="android.theme.customization.nf_style"
-        android:icon="@drawable/ic_notifications"
-        android:title="@string/theme_customization_notifications_title"
-        android:summary="@string/theme_customization_notifications_summary"
-        android:fragment="com.alpha.settings.fragments.ui.NotificationStyles" />
-
-    <!-- Notifications style -->
-    <Preference
-        android:key="android.theme.customization.qs_style"
-        android:icon="@drawable/ic_qs_panel"
-        android:title="@string/theme_customization_qs_style_title"
-        android:summary="@string/theme_customization_qs_style_summary"
-        android:fragment="com.alpha.settings.fragments.ui.QsPanelStyles" />
-
-    <!-- UI style -->
-    <Preference
-        android:key="android.theme.customization.style"
-        android:icon="@drawable/ic_ui_styles"
-        android:title="@string/theme_customization_ui_style_title"
-        android:summary="@string/theme_customization_ui_style_summary"
-        android:fragment="com.alpha.settings.fragments.ui.UIStyles" />
-
-    <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="settings_dashboard_style"
-            android:icon="@drawable/ic_color_bucket"
-            android:title="@string/settings_dashboard_style_title"
-            android:entries="@array/settings_dashboard_style_entries"
-            android:entryValues="@array/settings_dashboard_style_values"
-            android:summary="%s"
-            android:defaultValue="2" />
 
     <!-- Navbar Style -->
     <Preference
@@ -153,34 +113,7 @@
         android:title="@string/theme_customization_wifi_icon_title"
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:fragment="com.alpha.settings.fragments.ui.WifiIcons"/>
-      
-     <!-- Data icon style -->  
-        <Preference
-            android:key="android.customization.sb_data"
-            android:icon="@drawable/ic_data"
-            android:title="@string/theme_customization_data_title"
-            android:summary="@string/theme_customization_data_summary"
-            android:fragment="com.alpha.settings.fragments.ui.DataStyles"/>
 
-     <!-- Volte icon style -->
-    <com.alpha.settings.preferences.SystemSettingListPreference
-        android:key="volte_icon_style"
-        android:icon="@drawable/ic_volte"
-        android:title="@string/volte_icon_style_title"
-        android:entries="@array/volte_icon_type_entries"
-        android:entryValues="@array/volte_icon_type_values"
-        android:summary="%s"
-        android:defaultValue="1"/>
-
-    <!-- VoWifi icon style -->
-    <com.alpha.settings.preferences.SystemSettingListPreference
-        android:key="vowifi_icon_style"
-        android:icon="@drawable/ic_vowifi"
-        android:title="@string/vowifi_icon_title"
-        android:entries="@array/vowifi_icon_type_entries"
-        android:entryValues="@array/vowifi_icon_type_values"
-        android:summary="%s"
-        android:defaultValue="1"/>
 
     <!-- Adaptive icon pack -->
     <Preference

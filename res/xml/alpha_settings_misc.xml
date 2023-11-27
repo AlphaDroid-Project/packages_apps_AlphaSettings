@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      Copyright (C) 2016-2023 crDroid Android Project
+                        2023 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +17,7 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/misc_title">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- Gaming mode -->
     <Preference
@@ -55,24 +55,15 @@
         android:summary="@string/netflix_spoof_summary"
         android:defaultValue="false" />
 
-    <!-- Ignore secure window -->
-    <com.alpha.settings.preferences.SecureSettingSwitchPreference
-        android:key="window_ignore_secure"
-        android:icon="@drawable/ic_window_secure"
-        android:title="@string/ignore_window_secure_title"
-        android:summary="@string/ignore_window_secure_summary"
-        android:defaultValue="false"/>
-
-    <!-- Hide developer and adb status  -->
+    <!-- Google services
     <Preference
-        android:key="hide_developer_status_settings"
-        android:icon="@drawable/ic_window_secure"
-        android:title="@string/hide_developer_status_title"
-        android:summary="@string/hide_developer_status_summary"
-        android:fragment="com.alpha.settings.fragments.HideDeveloperStatusSettings"
-        settings:controller="com.alpha.settings.fragments.HideDeveloperStatusPreferenceController" />
+        android:key="gms_enabled_settings"
+        android:icon="@drawable/ic_google"
+        android:title="@string/gms_enabled_title"
+        android:summary="@string/gms_enabled_summary"
+        android:fragment="com.alpha.settings.fragments.misc.GmsSwitch"/> -->
 
-    <!-- Parallel space -->
+    <!-- Parallel space
     <Preference
         android:key="parallel_space"
         android:icon="@drawable/ic_parallel_space"
@@ -81,7 +72,7 @@
         <intent
             android:targetPackage="ink.kscope.parallelspace"
             android:targetClass="ink.kscope.parallelspace.MainActivity" />
-    </Preference>
+    </Preference> -->
 
     <!-- Three-fingers-swipe to screenshot -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -117,13 +108,5 @@
             android:targetPackage="org.omnirom.omnijaws"
             android:targetClass="org.omnirom.omnijaws.SettingsActivity" />
     </Preference>
-    
-    <!-- Always show time in QS Player -->
-    <com.alpha.settings.preferences.SecureSettingSwitchPreference
-        	android:key="media_controls_always_show_time"
-        	android:icon="@drawable/ic_music"
-        	android:title="@string/media_controls_always_show_time_title"
-        	android:summary="@string/media_controls_always_show_time_summary"
-        	android:defaultValue="false" />
 
 </PreferenceScreen>

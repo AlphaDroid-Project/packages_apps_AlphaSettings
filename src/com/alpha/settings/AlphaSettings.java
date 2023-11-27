@@ -51,71 +51,16 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-
 @SearchIndexable
 public class AlphaSettings extends DashboardFragment {
 
     private static final String TAG = "AlphaSettings";
 
-    protected Context mContext;
-    protected CollapsingToolbarLayout mCollapsingToolbarLayout;
     private static final int MENU_RESET = Menu.FIRST;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        mContext = getActivity().getApplicationContext();
-        hideToolbar();
-        setAlphaDashboardStyle();
-    }
-
-    private void hideToolbar() {
-        if (mCollapsingToolbarLayout == null) {
-            mCollapsingToolbarLayout = getActivity().findViewById(R.id.collapsing_toolbar);
-        }
-        if (mCollapsingToolbarLayout != null) {
-            mCollapsingToolbarLayout.setVisibility(View.GONE);
-        }
-    }
-
-    public void onResume() {
-        super.onResume();
-        hideToolbar();
-        setAlphaDashboardStyle();
-    }
-
-    private void setAlphaDashboardStyle() {
-        int mDashBoardStyle = geSettingstDashboardStyle();
-        final PreferenceScreen mScreen = getPreferenceScreen();
-        final int mCount = mScreen.getPreferenceCount();
-        for (int i = 0; i < mCount; i++) {
-            final Preference mPreference = mScreen.getPreference(i);
-
-            String mKey = mPreference.getKey();
-
-            if (mKey == null) continue;
-
-            if (mKey.equals("alphabet_header")) {
-                mPreference.setLayoutResource(R.layout.settings_alphabet_header);
-                continue;
-            }
-
-            if (mDashBoardStyle > 0) { // 0 = stock aosp style
-                if (mDashBoardStyle == 1 && mKey.equals("ui_settings_category")) {
-                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full_accent);
-                } else if (mDashBoardStyle == 2 && mKey.equals("ui_settings_category")) {
-                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full_accent_2);
-                } else {
-                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full);
-                }
-            }
-        }
-    }
-
-    private int geSettingstDashboardStyle() {
-        return Settings.System.getIntForUser(getContext().getContentResolver(),
-                Settings.System.SETTINGS_DASHBOARD_STYLE, 2, UserHandle.USER_CURRENT);
     }
 
     @Override

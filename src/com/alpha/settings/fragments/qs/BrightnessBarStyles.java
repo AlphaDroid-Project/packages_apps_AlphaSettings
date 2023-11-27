@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui;
+package com.alpha.settings.fragments.qs;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -66,18 +66,18 @@ import java.util.Arrays;
 import org.json.JSONObject;
 import org.json.JSONException;
 
-public class NotificationStyles extends SettingsPreferenceFragment {
+public class BrightnessBarStyles extends SettingsPreferenceFragment {
 
     private RecyclerView mRecyclerView;
     private ThemeUtils mThemeUtils;
-    private String mCategory = "android.theme.customization.nf_style";
+    private String mCategory = "android.theme.customization.bb_style";
 
     private List<String> mPkgs;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActivity().setTitle(R.string.theme_customization_notifications_title);
+        getActivity().setTitle(R.string.theme_customization_brightness_bar_title);
 
         mThemeUtils = new ThemeUtils(getActivity());
         mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, "com.android.systemui");
@@ -119,7 +119,7 @@ public class NotificationStyles extends SettingsPreferenceFragment {
 
         @Override
         public CustomViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.notification_option, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.brightness_bar_option, parent, false);
             CustomViewHolder vh = new CustomViewHolder(v);
             return vh;
         }

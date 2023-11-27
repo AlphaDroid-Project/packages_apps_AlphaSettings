@@ -41,8 +41,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.lockscreen.UdfpsSettings;
-
 import java.util.List;
 
 import lineageos.providers.LineageSettings;
@@ -91,7 +89,8 @@ public class LockScreen extends SettingsPreferenceFragment
             gestCategory.removePreference(mFingerprintVibErr);
             gestCategory.removePreference(mRippleEffect);
         } else {
-            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
+            if (!Utils.isPackageInstalled(getContext(), "com.crdroid.udfps.icons") &&
+                    !Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
                 interfaceCategory.removePreference(mUdfpsSettings);
             }
         }
@@ -110,12 +109,6 @@ public class LockScreen extends SettingsPreferenceFragment
         ContentResolver resolver = mContext.getContentResolver();
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.LOCKSCREEN_MEDIA_METADATA, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.KG_CUSTOM_CLOCK_TOP_MARGIN, 280, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.KG_SMALL_CLOCK_TEXT_SIZE, 86, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.KG_LARGE_CLOCK_TEXT_SIZE, 180, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_BATTERY_INFO, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -134,9 +127,6 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_ENABLED, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_WEATHER_LOCATION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.LOCKSCREEN_WEATHER_STYLE, 0, UserHandle.USER_CURRENT);
-        UdfpsSettings.reset(mContext);
     }
 
     private void updateWeatherSettings() {
@@ -177,7 +167,8 @@ public class LockScreen extends SettingsPreferenceFragment
                         keys.add(KEY_FP_ERROR_VIBRATE);
                         keys.add(KEY_RIPPLE_EFFECT);
                     } else {
-                        if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
+                        if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons") &&
+                                !Utils.isPackageInstalled(context, "com.crdroid.udfps.icons")) {
                             keys.add(KEY_UDFPS_SETTINGS);
                         } else {
                             keys.add(KEY_FP_SUCCESS_VIBRATE);

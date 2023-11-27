@@ -14,18 +14,16 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.lockscreen;
-
-import static android.os.UserHandle.USER_SYSTEM;
+package com.alpha.settings.fragments.notifications;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.pm.PackageManager;
-import android.graphics.Typeface;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.view.LayoutInflater;
@@ -60,27 +58,29 @@ import com.bumptech.glide.Glide;
 import com.android.internal.util.crdroid.ThemeUtils;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Arrays;
 
 import org.json.JSONObject;
 import org.json.JSONException;
 
-public class LockClockFontsPicker extends SettingsPreferenceFragment {
+public class NotificationStyles extends SettingsPreferenceFragment {
 
     private RecyclerView mRecyclerView;
     private ThemeUtils mThemeUtils;
-    private String mCategory = "android.theme.customization.lockscreen_clock_font";
+    private String mCategory = "android.theme.customization.nf_style";
 
     private List<String> mPkgs;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActivity().setTitle(R.string.theme_customization_lock_clock_title);
+        getActivity().setTitle(R.string.theme_customization_notifications_title);
 
         mThemeUtils = new ThemeUtils(getActivity());
-        mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, "android");
+        mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, "com.android.systemui");
     }
 
     @Override
@@ -100,7 +100,7 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CRDROID_SETTINGS;
+        return MetricsEvent.ALPHA;
     }
 
     @Override
@@ -119,40 +119,39 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
 
         @Override
         public CustomViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.lock_clock_fonts_option, parent, false);
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.notification_option, parent, false);
             CustomViewHolder vh = new CustomViewHolder(v);
             return vh;
         }
 
         @Override
         public void onBindViewHolder(CustomViewHolder holder, final int position) {
-            String pkg = mPkgs.get(position);
-            String label = getLabel(holder.itemView.getContext(), pkg);
+            String navPkg = mPkgs.get(position);
 
-            String currentPackageName = mThemeUtils.getOverlayInfos(mCategory).stream()
+            String currentPackageName = mThemeUtils.getOverlayInfos(mCategory, "com.android.systemui").stream()
                 .filter(info -> info.isEnabled())
                 .map(info -> info.packageName)
                 .findFirst()
-                .orElse("android");
+                .orElse("com.android.systemui");
 
-            holder.title.setTextSize(28);
-            holder.title.setTypeface(getTypeface(holder.title.getContext(), pkg));
-            holder.name.setText("android".equals(pkg) ? "Default" : label);
+            holder.name.setText("com.android.systemui".equals(navPkg) ? "Default" : getLabel(holder.name.getContext(), navPkg));
 
-            if (currentPackageName.equals(pkg)) {
-                mAppliedPkg = pkg;
+            holder.name.setTextSize(24);
+
+            if (currentPackageName.equals(navPkg)) {
+                mAppliedPkg = navPkg;
                 if (mSelectedPkg == null) {
-                    mSelectedPkg = pkg;
+                    mSelectedPkg = navPkg;
                 }
             }
 
-            holder.itemView.setActivated(pkg == mSelectedPkg);
+            holder.itemView.setActivated(navPkg == mSelectedPkg);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     updateActivatedStatus(mSelectedPkg, false);
-                    updateActivatedStatus(pkg, true);
-                    mSelectedPkg = pkg;
+                    updateActivatedStatus(navPkg, true);
+                    mSelectedPkg = navPkg;
                     enableOverlays(position);
                 }
             });
@@ -165,10 +164,8 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
 
         public class CustomViewHolder extends RecyclerView.ViewHolder {
             TextView name;
-            TextView title;
             public CustomViewHolder(View itemView) {
                 super(itemView);
-                title = (TextView) itemView.findViewById(R.id.option_title);
                 name = (TextView) itemView.findViewById(R.id.option_label);
             }
         }
@@ -185,14 +182,12 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
         }
     }
 
-    public Typeface getTypeface(Context context, String pkg) {
+    public Drawable getDrawable(Context context, String pkg, String drawableName) {
         try {
             PackageManager pm = context.getPackageManager();
-            Resources res = pkg.equals("android") ? Resources.getSystem()
-                    : pm.getResourcesForApplication(pkg);
-            return Typeface.create(res.getString(
-                    res.getIdentifier("config_clockFontFamily",
-                    "string", pkg)), Typeface.NORMAL);
+            Resources res = pm.getResourcesForApplication(pkg);
+            int resId = res.getIdentifier(drawableName, "drawable", pkg);
+            return res.getDrawable(resId);
         }
         catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
@@ -212,6 +207,6 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
     }
 
     public void enableOverlays(int position) {
-        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "android");
+        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "com.android.systemui");
     }
 }

@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2016-2022 crDroid Android Project
+ * Copyright (C) 2016-2023 crDroid Android Project
+                      2023 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +22,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -38,16 +38,13 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settingslib.development.SystemPropPoker;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.statusbar.BatteryBar;
 import com.alpha.settings.fragments.statusbar.Clock;
 import com.alpha.settings.fragments.statusbar.NetworkTrafficSettings;
-import com.alpha.settings.preferences.CustomSeekBarPreference;
 import com.alpha.settings.preferences.SystemSettingSeekBarPreference;
 import com.alpha.settings.utils.DeviceUtils;
-import com.alpha.settings.utils.TelephonyUtils;
 
 import lineageos.preference.LineageSystemSettingListPreference;
 import lineageos.providers.LineageSettings;
@@ -62,18 +59,9 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
     private static final String QUICK_PULLDOWN = "qs_quick_pulldown";
-    private static final String KEY_SHOW_ROAMING = "roaming_indicator_icon";
-    private static final String KEY_SHOW_FOURG = "show_fourg_icon";
-    private static final String KEY_SHOW_DATA_DISABLED = "data_disabled_icon";
-    private static final String KEY_USE_OLD_MOBILETYPE = "use_old_mobiletype";
     private static final String KEY_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String KEY_STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
-    private static final String KEY_STATUSBAR_TOP_PADDING = "statusbar_top_padding";
-    private static final String KEY_STATUSBAR_LEFT_PADDING = "statusbar_left_padding";
-    private static final String KEY_STATUSBAR_RIGHT_PADDING = "statusbar_right_padding";
-    private static final String KEY_COMBINED_SIGNAL_ICONS = "enable_combined_signal_icons";
-    private static final String SYS_COMBINED_SIGNAL_ICONS = "persist.sys.flags.combined_signal_icons";
 
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
@@ -83,23 +71,12 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
     private static final int BATTERY_STYLE_HIDDEN = 5;
-    private static final int BATTERY_STYLE_IOS16 = 18;
-
-    private static final int BATTERY_PERCENT_HIDDEN = 0;
-    private static final int BATTERY_PERCENT_INSIDE = 1;
-    private static final int BATTERY_PERCENT_RIGHT = 2;
-    private static final int BATTERY_PERCENT_LEFT = 3;
 
     private LineageSystemSettingListPreference mStatusBarClock;
     private LineageSystemSettingListPreference mQuickPulldown;
     private SystemSettingListPreference mBatteryPercent;
     private SystemSettingListPreference mBatteryStyle;
-    private SwitchPreference mShowRoaming;
-    private SwitchPreference mShowFourg;
-    private SwitchPreference mDataDisabled;
-    private SwitchPreference mOldMobileType;
     private SwitchPreference mBatteryTextCharging;
-    private SwitchPreference mCombinedSignalIcons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -111,10 +88,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Context mContext = getActivity().getApplicationContext();
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mCombinedSignalIcons = (SwitchPreference) findPreference(KEY_COMBINED_SIGNAL_ICONS);
-        mCombinedSignalIcons.setChecked(SystemProperties.getBoolean(SYS_COMBINED_SIGNAL_ICONS, true));
-        mCombinedSignalIcons.setOnPreferenceChangeListener(this);
 
         mStatusBarClock =
                 (LineageSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
@@ -133,25 +106,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
             mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_notch);
         }
 
-        mShowRoaming = (SwitchPreference) findPreference(KEY_SHOW_ROAMING);
-        mShowFourg = (SwitchPreference) findPreference(KEY_SHOW_FOURG);
-        mDataDisabled = (SwitchPreference) findPreference(KEY_SHOW_DATA_DISABLED);
-        mOldMobileType = (SwitchPreference) findPreference(KEY_USE_OLD_MOBILETYPE);
-
-        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
-            prefScreen.removePreference(mShowRoaming);
-            prefScreen.removePreference(mShowFourg);
-            prefScreen.removePreference(mDataDisabled);
-            prefScreen.removePreference(mOldMobileType);
-        } else {
-            boolean mConfigUseOldMobileType = mContext.getResources().getBoolean(
-                    com.android.internal.R.bool.config_useOldMobileIcons);
-            boolean showing = Settings.System.getIntForUser(resolver,
-                    Settings.System.USE_OLD_MOBILETYPE,
-                    mConfigUseOldMobileType ? 1 : 0, UserHandle.USER_CURRENT) != 0;
-            mOldMobileType.setChecked(showing);
-        }
-
         int batterystyle = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
         int batterypercent = Settings.System.getIntForUser(getContentResolver(),
@@ -161,13 +115,13 @@ public class StatusBar extends SettingsPreferenceFragment implements
         mBatteryStyle.setOnPreferenceChangeListener(this);
 
         mBatteryPercent = (SystemSettingListPreference) findPreference(KEY_STATUS_BAR_SHOW_BATTERY_PERCENT);
+        mBatteryPercent.setEnabled(
+                batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
         mBatteryPercent.setOnPreferenceChangeListener(this);
 
-        handleBatteryPercent(batterystyle, batterypercent);
-
         mBatteryTextCharging = (SwitchPreference) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
-        mBatteryTextCharging.setEnabled(batterystyle != BATTERY_STYLE_TEXT &&
-                (batterypercent == BATTERY_PERCENT_INSIDE || batterypercent == BATTERY_PERCENT_HIDDEN));
+        mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
+                (batterystyle != BATTERY_STYLE_TEXT && batterypercent != 2));
 
         mQuickPulldown =
                 (LineageSystemSettingListPreference) findPreference(QUICK_PULLDOWN);
@@ -179,76 +133,29 @@ public class StatusBar extends SettingsPreferenceFragment implements
             mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
             mQuickPulldown.setEntryValues(R.array.status_bar_quick_qs_pulldown_values_rtl);
         }
-
-        ((CustomSeekBarPreference) findPreference(KEY_STATUSBAR_LEFT_PADDING)).setDefaultValue(
-                getResources().getDimensionPixelSize(com.android.internal.R.dimen.status_bar_padding_start),
-                true);
-
-        ((CustomSeekBarPreference) findPreference(KEY_STATUSBAR_RIGHT_PADDING)).setDefaultValue(
-                getResources().getDimensionPixelSize(com.android.internal.R.dimen.status_bar_padding_end),
-                true);
-
-        ((CustomSeekBarPreference) findPreference(KEY_STATUSBAR_TOP_PADDING)).setDefaultValue(
-                getResources().getDimensionPixelSize(com.android.internal.R.dimen.status_bar_padding_top),
-                true);
-    }
-
-    private void handleBatteryPercent(int batterystyle, int batterypercent) {
-        if (batterystyle < BATTERY_STYLE_TEXT) {
-            mBatteryPercent.setEntries(R.array.status_bar_battery_percent_entries);
-            mBatteryPercent.setEntryValues(R.array.status_bar_battery_percent_values);;
-        }
-        else {
-            mBatteryPercent.setEntries(R.array.status_bar_battery_percent_no_text_inside_entries);
-            mBatteryPercent.setEntryValues(R.array.status_bar_battery_percent_no_text_inside_values);
-            if (batterystyle == BATTERY_STYLE_IOS16) {
-                if (batterypercent != BATTERY_PERCENT_INSIDE) {
-                    batterypercent = BATTERY_PERCENT_INSIDE;
-                    mBatteryPercent.setValueIndex(BATTERY_PERCENT_INSIDE);
-                }
-            } else if (batterypercent == BATTERY_PERCENT_INSIDE) {
-                batterypercent = BATTERY_PERCENT_HIDDEN;
-                mBatteryPercent.setValueIndex(BATTERY_PERCENT_HIDDEN);
-            }
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT,
-                    batterypercent, UserHandle.USER_CURRENT);
-        }
-
-        mBatteryPercent.setEnabled(
-                batterystyle != BATTERY_STYLE_TEXT &&
-                batterystyle != BATTERY_STYLE_HIDDEN &&
-                batterystyle != BATTERY_STYLE_IOS16);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getContentResolver();
         if (preference == mBatteryStyle) {
-            int batterystyle = Integer.parseInt((String) newValue);
-            int batterypercent = Settings.System.getIntForUser(resolver,
+            int value = Integer.parseInt((String) newValue);
+            int batterypercent = Settings.System.getIntForUser(getContentResolver(),
                     Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
-            handleBatteryPercent(batterystyle, batterypercent);
-            mBatteryTextCharging.setEnabled(batterystyle != BATTERY_STYLE_TEXT &&
-                    (batterypercent == BATTERY_PERCENT_INSIDE || batterypercent == BATTERY_PERCENT_HIDDEN));
+            mBatteryPercent.setEnabled(
+                    value != BATTERY_STYLE_TEXT && value != BATTERY_STYLE_HIDDEN);
+            mBatteryTextCharging.setEnabled(value == BATTERY_STYLE_HIDDEN ||
+                    (value != BATTERY_STYLE_TEXT && batterypercent != 2));
             return true;
         } else if (preference == mBatteryPercent) {
-            int batterypercent = Integer.parseInt((String) newValue);
-            int batterystyle = Settings.System.getIntForUser(resolver,
+            int value = Integer.parseInt((String) newValue);
+            int batterystyle = Settings.System.getIntForUser(getContentResolver(),
                     Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
-            mBatteryTextCharging.setEnabled(batterystyle != BATTERY_STYLE_TEXT &&
-                    (batterypercent == BATTERY_PERCENT_INSIDE || batterypercent == BATTERY_PERCENT_HIDDEN));
+            mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
+                    (batterystyle != BATTERY_STYLE_TEXT && value != 2));
             return true;
         } else if (preference == mQuickPulldown) {
-            int pulldown = Integer.parseInt((String) newValue);
-            updateQuickPulldownSummary(pulldown);
-            return true;
-        } else if (preference == mCombinedSignalIcons) {
-            boolean value = (Boolean) newValue;
-            Settings.Secure.putIntForUser(getContentResolver(),
-                Settings.Secure.ENABLE_COMBINED_SIGNAL_ICONS, value ? 1 : 0, UserHandle.USER_CURRENT);
-            SystemProperties.set(SYS_COMBINED_SIGNAL_ICONS, value ? "true" : "false");
-            SystemPropPoker.getInstance().poke();
+            int value = Integer.parseInt((String) newValue);
+            updateQuickPulldownSummary(value);
             return true;
         }
         return false;
@@ -256,8 +163,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        boolean mConfigUseOldMobileType = mContext.getResources().getBoolean(
-                com.android.internal.R.bool.config_useOldMobileIcons);
 
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.DOUBLE_TAP_SLEEP_GESTURE, 1, UserHandle.USER_CURRENT);
@@ -274,12 +179,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.ENABLE_PROJECTION_PRIVACY_INDICATOR, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.ROAMING_INDICATOR_ICON, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.DATA_DISABLED_ICON, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.BLUETOOTH_SHOW_BATTERY, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
@@ -292,15 +191,11 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_NOTIF_COUNT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.USE_OLD_MOBILETYPE, mConfigUseOldMobileType ? 1 : 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_LOGO, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_LOGO_POSITION, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_LOGO_STYLE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.SHOW_WIFI_STANDARD_ICON, 0, UserHandle.USER_CURRENT);
 
         BatteryBar.reset(mContext);
         Clock.reset(mContext);
@@ -339,20 +234,5 @@ public class StatusBar extends SettingsPreferenceFragment implements
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.alpha_settings_statusbar) {
-
-                @Override
-                public List<String> getNonIndexableKeys(Context context) {
-                    List<String> keys = super.getNonIndexableKeys(context);
-
-                    if (!TelephonyUtils.isVoiceCapable(context)) {
-                        keys.add(KEY_SHOW_ROAMING);
-                        keys.add(KEY_SHOW_FOURG);
-                        keys.add(KEY_SHOW_DATA_DISABLED);
-                        keys.add(KEY_USE_OLD_MOBILETYPE);
-                    }
-
-                    return keys;
-                }
-            };
+            new BaseSearchIndexProvider(R.xml.alpha_settings_statusbar);
 }

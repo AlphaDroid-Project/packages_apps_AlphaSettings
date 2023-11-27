@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2022 crDroid Android Project
+                        2023 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,6 +20,14 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
+
+    <!-- Notifications style -->
+    <Preference
+        android:key="android.theme.customization.nf_style"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/theme_customization_notifications_title"
+        android:summary="@string/theme_customization_notifications_summary"
+        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" />
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
@@ -53,17 +62,6 @@
         android:icon="@drawable/ic_kill"
         android:title="@string/notification_guts_kill_app_button_title"
         android:summary="@string/notification_guts_kill_app_button_summary" />
-
-    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="max_visible_notification_icons"
-        android:icon="@drawable/ic_notification_peek"
-        android:title="@string/max_visible_notification_icons_title"
-        android:summary="@string/max_visible_notification_icons_summary"
-        android:defaultValue="5"
-        settings:defaultValueText="5"
-        android:max="10"
-        settings:min="0"
-        settings:units="" />
 
     <PreferenceCategory
         android:key="heads_up"
@@ -104,7 +102,7 @@
             android:defaultValue="true"/>
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="flashlight_category"
         android:title="@string/power_menu_torch_title">
 
@@ -121,7 +119,7 @@
             android:icon="@drawable/ic_flashlight"
             android:title="@string/flashlight_on_call_ignore_dnd_title"
             android:summary="@string/flashlight_on_call_ignore_dnd_summary"
-            android:defaultValue="false" /> 
+            android:defaultValue="false" />
 
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="flashlight_on_call_rate"
@@ -132,7 +130,7 @@
             settings:min="1"
             settings:units="@string/unit_hz" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
     <PreferenceCategory
         android:key="light_brightness"

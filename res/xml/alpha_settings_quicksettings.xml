@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2023 crDroid Android Project
+                        2023 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,37 +18,28 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto"
-    android:title="@string/quicksettings_title">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
          android:title="@string/qs_misc_category">
 
-        <!-- QS Header image -->
-        <Preference
+        <!-- QS Header Image
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_header_image"
             android:icon="@drawable/ic_header"
-            android:fragment="com.alpha.settings.fragments.qs.QsHeaderImageSettings"
             android:title="@string/qs_header_image_title"
-            android:summary="@string/qs_header_image_summary" />
-        
-        <!-- QS Header Space -->    
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="qs_header_size"
-            android:icon="@drawable/ic_header"
-            android:title="@string/large_qs_switch_title"
-            android:max="800"
-            settings:min="110"
-            settings:interval="5"
-            android:defaultValue="110" />
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="24"
+            android:min="0" /> -->
 
-        <!-- QS clock 
+        <!-- QS clock
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="show_qs_clock"
             android:icon="@drawable/ic_clock"
             android:title="@string/qs_clock_title"
             android:summary="@string/qs_clock_summary"
-            android:defaultValue="true" /> -->
+            android:defaultValue="true" />
 
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_header_clock_size"
@@ -57,7 +49,8 @@
             settings:min="10"
             settings:interval="1"
             android:defaultValue="14"
-            settings:units="@string/unit_pixels" />
+            android:dependency="show_qs_clock"
+            settings:units="@string/unit_pixels" /> -->
 
         <!-- QS date
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -101,37 +94,6 @@
             android:title="@string/battery_estimate_title"
             android:summary="@string/battery_estimate_summary" /> -->
 
-        <!-- Brightness slider -->
-        <lineageos.preference.LineageSecureSettingListPreference
-            android:key="qs_show_brightness_slider"
-            android:icon="@drawable/ic_brightness"
-            android:title="@string/qs_show_brightness_slider_title"
-            android:entries="@array/qs_show_brightness_slider_entries"
-            android:entryValues="@array/qs_show_brightness_slider_values"
-            android:defaultValue="1" />
-
-        <lineageos.preference.LineageSecureSettingListPreference
-            android:key="qs_brightness_slider_position"
-            android:icon="@drawable/ic_brightness"
-            android:title="@string/qs_brightness_slider_position_title"
-            android:entries="@array/qs_brightness_slider_position_entries"
-            android:entryValues="@array/qs_brightness_slider_position_values"
-            android:defaultValue="0" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:title="@string/bb_show_percentage_title"
-            android:key="show_brightness_bar_percentage"
-            android:icon="@drawable/ic_percent"
-            android:summary="@string/bb_show_percentage_summary"
-            android:defaultValue="false" />
-
-        <lineageos.preference.LineageSecureSettingSwitchPreference
-            android:key="qs_show_auto_brightness"
-            android:icon="@drawable/ic_brightness_auto"
-            android:title="@string/qs_show_auto_brightness_title"
-            android:summary="@string/qs_show_auto_brightness_summary"
-            android:defaultValue="true" />
-
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:icon="@drawable/ic_lock_alert"
@@ -152,21 +114,53 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="quick_settings_media_category"
-        android:title="@string/media_category">
+         android:title="@string/qs_brightness_slider_category">
 
-        <com.alpha.settings.preferences.SecureSettingSwitchPreference
-            android:key="show_media_squiggle_animation"
-            android:icon="@drawable/ic_pulse"
-            android:title="@string/show_squiggle_animation_title"
-            android:summary="@string/show_squiggle_animation_summary"
+        <!-- Brightness slider -->
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/qs_show_brightness_slider_title"
+            android:entries="@array/qs_show_brightness_slider_entries"
+            android:entryValues="@array/qs_show_brightness_slider_values"
+            android:defaultValue="1" />
+
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="qs_brightness_slider_position"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/qs_brightness_slider_position_title"
+            android:entries="@array/qs_brightness_slider_position_entries"
+            android:entryValues="@array/qs_brightness_slider_position_values"
+            android:defaultValue="0" />
+
+        <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:icon="@drawable/ic_brightness_auto"
+            android:title="@string/qs_show_auto_brightness_title"
+            android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
+
+        <!-- Brightness bar style -->
+        <Preference
+            android:key="android.theme.customization.bb_style"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/theme_customization_brightness_bar_title"
+            android:summary="@string/theme_customization_brightness_bar_summary"
+            android:fragment="com.alpha.settings.fragments.qs.BrightnessBarStyles" />
 
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
+
+        <!-- QS panel style -->
+        <Preference
+            android:key="android.theme.customization.qs_style"
+            android:icon="@drawable/ic_qs_panel"
+            android:title="@string/theme_customization_qs_style_title"
+            android:summary="@string/theme_customization_qs_style_summary"
+            android:fragment="com.alpha.settings.fragments.qs.QsPanelStyles" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
@@ -209,7 +203,6 @@
             settings:min="2"
             settings:interval="1"
             android:defaultValue="4" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -241,31 +234,16 @@
             android:entryValues="@array/qs_tile_animation_interpolator_values"
             android:defaultValue="0" />
 
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="custom_transitions_page_tile"
-            android:icon="@drawable/ic_qs_tile_animation_style"
-            android:entries="@array/qs_transitions_entries"
-            android:entryValues="@array/qs_transitions_values"
-            android:summary="%s"
-            android:title="@string/qs_transitions_title" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_haptic_feedback"
-            android:icon="@drawable/ic_vibrate"
-            android:title="@string/qs_haptic_feedback_title"
-            android:summary="@string/qs_haptic_feedback_summary"
-            android:defaultValue="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
          android:title="@string/qs_footer_category">
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_data_usage"
             android:icon="@drawable/ic_swap_vertical"
             android:title="@string/qs_footer_datausage_title"
-            android:summary="@string/qs_footer_datausage_summary" />
+            android:summary="@string/qs_footer_datausage_summary" />-->
 
         <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_warnings"

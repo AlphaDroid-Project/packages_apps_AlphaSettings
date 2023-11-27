@@ -20,7 +20,7 @@
 
     <!-- AlphaDroid Changelog -->
     <Preference
-        android:key="crdroid_changelog"
+        android:key="about_changelog"
         android:icon="@drawable/ic_changelog"
         android:title="@string/changelog_crdroid_title"
         android:summary="@string/changelog_crdroid_summary">
@@ -31,49 +31,49 @@
 
     <!-- AlphaDroid Website
     <Preference
-        android:key="crdroid_website"
+        android:key="about_website"
         android:icon="@drawable/ic_web"
         android:title="@string/crdroid_website_title"
     android:summary="@string/crdroid_website_summary" />-->
 
     <!-- AlphaDroid Translate -->
     <Preference
-        android:key="crdroid_translate"
+        android:key="about_translate"
         android:icon="@drawable/ic_translate"
         android:title="@string/crdroid_translate_title"
         android:summary="@string/crdroid_translate_summary" />
 
     <!-- AlphaDroid Share -->
     <Preference
-        android:key="crdroid_share"
+        android:key="about_share"
         android:icon="@drawable/ic_share"
         android:title="@string/share_crdroid_title"
         android:summary="@string/share_crdroid_summary" />
 
     <!-- AlphaDroid Donate -->
     <Preference
-        android:key="crdroid_donate"
+        android:key="about_donate"
         android:icon="@drawable/ic_donate"
         android:title="@string/donate_crdroid_title"
         android:summary="@string/donate_crdroid_summary" />
 
     <!-- AlphaDroid Source -->
     <Preference
-        android:key="crdroid_source"
+        android:key="about_source"
         android:icon="@drawable/ic_source"
         android:title="@string/crdroid_source_title"
         android:summary="@string/crdroid_source_summary" />
 
     <!-- AlphaDroid Telegram -->
     <Preference
-        android:key="crdroid_telegram"
+        android:key="about_telegram"
         android:icon="@drawable/ic_telegram"
         android:title="@string/crdroid_telegram_title"
         android:summary="@string/crdroid_telegram_summary" />
 
     <!-- AlphaDroid Telegram Updates Channel -->
     <Preference
-        android:key="crdroid_telegram_channel"
+        android:key="about_telegram_channel"
         android:icon="@drawable/ic_telegram_channel"
         android:title="@string/crdroid_telegram_channel_title"
         android:summary="@string/crdroid_telegram_channel_summary" />
@@ -88,11 +88,4 @@
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
     </Preference>
 
-    <!-- AlphaDroid Drill -->
-    <Preference
-        android:key="crdroid_drill"
-        android:icon="@drawable/ic_drill"
-        android:title="@string/drill_title"
-        android:summary="@string/drill_summary"
-        android:fragment="com.alpha.settings.fragments.about.Drill" />
 </PreferenceScreen>
