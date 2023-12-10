@@ -222,18 +222,24 @@
             settings:min="2"
             settings:interval="1"
             android:defaultValue="4" />
-    </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="quick_settings_media_category"
-        android:title="@string/media_category">
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qqs_layout_rows"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qqs_rows_portrait_title"
+            android:max="3"
+            settings:min="1"
+            settings:interval="1"
+            android:defaultValue="2" />
 
-        <com.alpha.settings.preferences.SecureSettingSwitchPreference
-            android:key="show_media_squiggle_animation"
-            android:icon="@drawable/ic_pulse"
-            android:title="@string/show_squiggle_animation_title"
-            android:summary="@string/show_squiggle_animation_summary"
-            android:defaultValue="true" />
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qqs_layout_rows_landscape"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qqs_rows_landscape_title"
+            android:max="3"
+            settings:min="1"
+            settings:interval="1"
+            android:defaultValue="2" />
 
     </PreferenceCategory>
 
