@@ -22,6 +22,7 @@ import android.os.Bundle;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.text.TextUtils;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
@@ -33,6 +34,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.misc.SensorBlock;
+import com.alpha.settings.fragments.misc.SmartPixels;
 
 import java.util.List;
 
@@ -48,8 +50,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
     private static final String SYS_NETFLIX_SPOOF = "persist.sys.pixelprops.netflix";
+    private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
+    private static final String SMART_PIXELS = "smart_pixels";
 
     private Preference mPocketJudge;
+    private Preference mShowCutoutForce;
+    private Preference mSmartPixels;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -65,6 +71,20 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 com.android.internal.R.bool.config_pocketModeSupported);
         if (!mPocketJudgeSupported)
             prefScreen.removePreference(mPocketJudge);
+
+	    final String displayCutout =
+           res.getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+
+        if (TextUtils.isEmpty(displayCutout)) {
+            mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
+            prefScreen.removePreference(mShowCutoutForce);
+        }
+
+        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        boolean mSmartPixelsSupported = getResources().getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels);
+        if (!mSmartPixelsSupported)
+            prefScreen.removePreference(mSmartPixels);
     }
 
     @Override
@@ -80,10 +100,13 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.CHARGING_ANIMATION, 1, UserHandle.USER_CURRENT);
         SystemProperties.set(SYS_GAMES_SPOOF, "false");
         SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
         SystemProperties.set(SYS_NETFLIX_SPOOF, "false");
         SensorBlock.reset(mContext);
+        SmartPixels.reset(mContext);
     }
 
     @Override
@@ -106,6 +129,18 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                             com.android.internal.R.bool.config_pocketModeSupported);
                     if (!mPocketJudgeSupported)
                         keys.add(POCKET_JUDGE);
+
+  	                final String displayCutout =
+                        context.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+
+                    if (TextUtils.isEmpty(displayCutout)) {
+                        keys.add(KEY_FORCE_FULL_SCREEN);
+                    }
+
+                    boolean mSmartPixelsSupported = context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_supportSmartPixels);
+                    if (!mSmartPixelsSupported)
+                        keys.add(SMART_PIXELS);
 
                     return keys;
                 }

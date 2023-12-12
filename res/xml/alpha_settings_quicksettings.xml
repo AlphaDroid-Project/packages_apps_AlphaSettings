@@ -18,7 +18,8 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
+    android:title="@string/quicksettings_title">
 
     <PreferenceCategory
          android:title="@string/qs_misc_category">
@@ -221,6 +222,19 @@
             settings:min="2"
             settings:interval="1"
             android:defaultValue="4" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quick_settings_media_category"
+        android:title="@string/media_category">
+
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="show_media_squiggle_animation"
+            android:icon="@drawable/ic_pulse"
+            android:title="@string/show_squiggle_animation_title"
+            android:summary="@string/show_squiggle_animation_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

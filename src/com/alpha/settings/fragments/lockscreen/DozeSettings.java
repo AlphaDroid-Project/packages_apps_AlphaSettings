@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui;
+package com.alpha.settings.fragments.lockscreen;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -43,8 +43,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.ui.doze.EdgeLightSettings;
-import com.alpha.settings.fragments.ui.doze.Utils;
+import com.alpha.settings.fragments.lockscreen.doze.Utils;
 import com.alpha.settings.preferences.SecureSettingSeekBarPreference;
 
 import java.util.List;

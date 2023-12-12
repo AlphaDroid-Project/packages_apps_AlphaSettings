@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui;
+package com.alpha.settings.fragments.misc;
 
 import android.app.ActivityManager;
 import android.annotation.Nullable;

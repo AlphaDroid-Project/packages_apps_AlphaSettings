@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alpha.settings.fragments;
+package com.alpha.settings.fragments.lockscreen;
 
 import android.app.Activity;
 import android.content.Context;
@@ -37,6 +37,7 @@ import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.util.crdroid.Utils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -68,6 +69,7 @@ public class AmbientCustomizations extends SettingsPreferenceFragment implements
     private static final String FILE_AMBIENT_SELECT = "file_ambient_select";
 
     private static final int REQUEST_PICK_IMAGE = 0;
+    private static final String IMAGE_PICKER = "com.android.gallery3d";
 
     private SystemSettingEditTextPreference mAmbientText;
     private ListPreference mAmbientTextAlign;
@@ -113,13 +115,19 @@ public class AmbientCustomizations extends SettingsPreferenceFragment implements
         mAmbientTextColor.setNewPreviewColor(ambientTextColor);
 
         mAmbientImage = findPreference(FILE_AMBIENT_SELECT);
+        // disable file picker if gallery3d is not enabled
+        if (!Utils.isPackageEnabled(getContext(), IMAGE_PICKER)) {
+            mAmbientImage.setEnabled(false);
+        }
 
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mAmbientImage) {
-            Intent intent = new Intent(Intent.ACTION_PICK);
+            Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+            intent.addCategory(Intent.CATEGORY_OPENABLE);
+            intent.setPackage("com.android.gallery3d");
             intent.setType("image/*");
             startActivityForResult(intent, REQUEST_PICK_IMAGE);
             return true;

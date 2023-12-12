@@ -32,6 +32,9 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
+import com.alpha.settings.fragments.lockscreen.DozeSettings;
+import com.alpha.settings.fragments.lockscreen.UdfpsSettings;
+
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.crdroid.OmniJawsClient;
 import com.android.internal.util.crdroid.Utils;
@@ -89,8 +92,7 @@ public class LockScreen extends SettingsPreferenceFragment
             gestCategory.removePreference(mFingerprintVibErr);
             gestCategory.removePreference(mRippleEffect);
         } else {
-            if (!Utils.isPackageInstalled(getContext(), "com.crdroid.udfps.icons") &&
-                    !Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
+            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
                 interfaceCategory.removePreference(mUdfpsSettings);
             }
         }
@@ -129,6 +131,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_LOCATION, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_WEATHER_TEXT, 1, UserHandle.USER_CURRENT);
+        UdfpsSettings.reset(mContext);
+        DozeSettings.reset(mContext);
     }
 
     private void updateWeatherSettings() {
@@ -169,8 +173,7 @@ public class LockScreen extends SettingsPreferenceFragment
                         keys.add(KEY_FP_ERROR_VIBRATE);
                         keys.add(KEY_RIPPLE_EFFECT);
                     } else {
-                        if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons") &&
-                                !Utils.isPackageInstalled(context, "com.crdroid.udfps.icons")) {
+                        if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
                             keys.add(KEY_UDFPS_SETTINGS);
                         } else {
                             keys.add(KEY_FP_SUCCESS_VIBRATE);

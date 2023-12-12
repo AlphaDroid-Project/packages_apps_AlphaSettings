@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui.doze;
+package com.alpha.settings.fragments.lockscreen.doze;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -37,10 +37,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class ProximitySensor implements SensorEventListener {
+public class TiltSensor implements SensorEventListener {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "ProximitySensor";
+    private static final String TAG = "TiltSensor";
 
     private SensorManager mSensorManager;
     private Sensor mSensor;
@@ -49,32 +49,29 @@ public class ProximitySensor implements SensorEventListener {
     private PowerManager mPowerManager;
     private WakeLock mWakeLock;
 
-    private boolean mSawNear = false;
-    private long mInPocketTime = 0;
+    private long mEntryTimestamp = 0;
+    private int mBatchLatencyInMs;
+    private int mMinPulseIntervalMs;
     private int mWakelockTimeoutMs;
-    private int mHandWaveMaxDeltaNs;
-    private int mPocketMinDeltaNs;
 
     private Vibrator mVibrator;
 
-    public ProximitySensor(Context context) {
+    public TiltSensor(Context context) {
         mContext = context;
         final Resources res = context.getResources();
-        mSensorManager = mContext.getSystemService(SensorManager.class);
-        final boolean wakeup =
-            res.getBoolean(com.android.internal.R.bool.config_deviceHaveWakeUpProximity);
-        mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY, wakeup);
+        mBatchLatencyInMs =
+            res.getInteger(R.integer.config_dozePulseTilt_BatchLatencyInMs);
+        mMinPulseIntervalMs =
+            res.getInteger(R.integer.config_dozePulseTilt_MinPulseIntervalMs);
         mWakelockTimeoutMs =
-            res.getInteger(R.integer.config_dozePulseProximity_WakelockTimeoutMs);
-        mHandWaveMaxDeltaNs =
-            res.getInteger(R.integer.config_dozePulseProximity_HandwaveMaxDeltaNs);
-        mPocketMinDeltaNs =
-            res.getInteger(R.integer.config_dozePulseProximity_PocketMinDeltaNs);
+            res.getInteger(R.integer.config_dozePulseTilt_WakelockTimeoutMs);
         if (DEBUG) {
+            Log.d(TAG, "BatchLatencyInMs: " + String.valueOf(mBatchLatencyInMs));
+            Log.d(TAG, "MinPulseIntervalMs: " + String.valueOf(mMinPulseIntervalMs));
             Log.d(TAG, "WakelockTimeoutMs: " + String.valueOf(mWakelockTimeoutMs));
-            Log.d(TAG, "HandwaveMaxDeltaNs: " + String.valueOf(mHandWaveMaxDeltaNs));
-            Log.d(TAG, "PocketMinDeltaNs: " + String.valueOf(mPocketMinDeltaNs));
         }
+        mSensorManager = mContext.getSystemService(SensorManager.class);
+        mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_TILT_DETECTOR);
         mPowerManager = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
         mWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, TAG);
         mExecutorService = Executors.newSingleThreadExecutor();
@@ -91,35 +88,26 @@ public class ProximitySensor implements SensorEventListener {
     @Override
     public void onSensorChanged(SensorEvent event) {
         boolean isRaiseToWake = Utils.isRaiseToWakeEnabled(mContext);
-        boolean isNear = event.values[0] < mSensor.getMaximumRange();
-        if (mSawNear && !isNear) {
-            if (shouldPulse(event.timestamp)) {
-                if (isRaiseToWake) {
-                    mWakeLock.acquire(mWakelockTimeoutMs);
-                    mPowerManager.wakeUp(SystemClock.uptimeMillis(),
-                        PowerManager.WAKE_REASON_GESTURE, TAG);
-                } else {
-                    Utils.launchDozePulse(mContext);
-                    doHapticFeedback();
-                }
-            }
+
+        if (DEBUG) Log.d(TAG, "Got sensor event: " + event.values[0]);
+
+        long delta = event.timestamp - mEntryTimestamp;
+        if (delta < mMinPulseIntervalMs) {
+            return;
         } else {
-            mInPocketTime = event.timestamp;
+            mEntryTimestamp = event.timestamp;
         }
-        mSawNear = isNear;
-    }
 
-    private boolean shouldPulse(long timestamp) {
-        long delta = timestamp - mInPocketTime;
-        boolean shouldPulse = false;
-
-        if (delta < mHandWaveMaxDeltaNs)
-            shouldPulse = Utils.handwaveGestureEnabled(mContext);
-
-        if (!shouldPulse && delta >= mPocketMinDeltaNs)
-            shouldPulse = Utils.pocketGestureEnabled(mContext);
-
-        return shouldPulse;
+        if (event.values[0] == 1) {
+            if (isRaiseToWake) {
+                mWakeLock.acquire(mWakelockTimeoutMs);
+                mPowerManager.wakeUp(SystemClock.uptimeMillis(),
+                    PowerManager.WAKE_REASON_GESTURE, TAG);
+            } else {
+                Utils.launchDozePulse(mContext);
+                doHapticFeedback();
+            }
+        }
     }
 
     @Override
@@ -131,7 +119,8 @@ public class ProximitySensor implements SensorEventListener {
         if (DEBUG) Log.d(TAG, "Enabling");
         submit(() -> {
             mSensorManager.registerListener(this, mSensor,
-                    SensorManager.SENSOR_DELAY_NORMAL);
+                    SensorManager.SENSOR_DELAY_NORMAL,
+                    mBatchLatencyInMs * 1000);
         });
     }
 

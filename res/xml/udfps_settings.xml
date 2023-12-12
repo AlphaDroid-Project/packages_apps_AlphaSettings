@@ -24,13 +24,19 @@
         android:key="udfps_icon_picker"
         android:title="@string/udfps_icon_picker_title"
         android:summary="@string/udfps_icon_picker_summary"
-        android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsIconPicker" />
+        android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker" />
 
     <Preference
         android:key="udfps_recognizing_animation_preview"
         android:title="@string/udfps_recog_animation_effect_title"
         android:summary="@string/udfps_recog_animation_effect_summary"
-        android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
+        android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation" />
+
+    <Preference
+        android:key="udfps_pressedicon_picker"
+        android:title="@string/udfps_pressed_color_title"
+        android:summary="@string/udfps_pressed_color_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsPressedIconPicker" />
 
     <!-- Screen Off UDFPS -->
     <com.alpha.settings.preferences.SecureSettingSwitchPreference

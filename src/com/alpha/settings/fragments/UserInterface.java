@@ -38,8 +38,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.ui.DozeSettings;
-import com.alpha.settings.fragments.ui.SmartPixels;
 import com.alpha.settings.fragments.ui.MonetSettings;
 
 import java.util.List;
@@ -49,34 +47,11 @@ public class UserInterface extends SettingsPreferenceFragment {
 
     public static final String TAG = "UserInterface";
 
-    private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
-    private static final String SMART_PIXELS = "smart_pixels";
-
-    private Preference mShowCutoutForce;
-    private Preference mSmartPixels;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.alpha_settings_ui);
-
-        Context mContext = getActivity().getApplicationContext();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
-
-	    final String displayCutout =
-            mContext.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
-
-        if (TextUtils.isEmpty(displayCutout)) {
-            mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
-            prefScreen.removePreference(mShowCutoutForce);
-        }
-
-        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
-        boolean mSmartPixelsSupported = getResources().getBoolean(
-                com.android.internal.R.bool.config_supportSmartPixels);
-        if (!mSmartPixelsSupported)
-            prefScreen.removePreference(mSmartPixels);
 
     }
 
@@ -84,13 +59,9 @@ public class UserInterface extends SettingsPreferenceFragment {
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
-                Settings.System.CHARGING_ANIMATION, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.ENABLE_FLOATING_ROTATION_BUTTON, 1, UserHandle.USER_CURRENT);
 
-        DozeSettings.reset(mContext);
         //MonetSettings.reset(mContext);
-        SmartPixels.reset(mContext);
     }
 
     @Override
@@ -107,19 +78,6 @@ public class UserInterface extends SettingsPreferenceFragment {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
-
-	                final String displayCutout =
-                        context.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
-
-                    if (TextUtils.isEmpty(displayCutout)) {
-                        keys.add(KEY_FORCE_FULL_SCREEN);
-                    }
-
-                    boolean mSmartPixelsSupported = context.getResources().getBoolean(
-                            com.android.internal.R.bool.config_supportSmartPixels);
-                    if (!mSmartPixelsSupported)
-                        keys.add(SMART_PIXELS);
-
                     return keys;
                 }
             };

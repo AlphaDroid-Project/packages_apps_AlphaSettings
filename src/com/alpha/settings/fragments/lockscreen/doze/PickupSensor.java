@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui.doze;
+package com.alpha.settings.fragments.lockscreen.doze;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,6 +29,7 @@ import android.os.UserHandle;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 
 import com.android.settings.R;
@@ -37,44 +38,65 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class TiltSensor implements SensorEventListener {
-
+public class PickupSensor implements SensorEventListener {
     private static final boolean DEBUG = false;
-    private static final String TAG = "TiltSensor";
+    private static final String TAG = "PickupSensor";
 
     private SensorManager mSensorManager;
-    private Sensor mSensor;
+    private Sensor mSensorPickup;
     private Context mContext;
+    private TelephonyManager telephonyManager;
     private ExecutorService mExecutorService;
     private PowerManager mPowerManager;
     private WakeLock mWakeLock;
 
-    private long mEntryTimestamp = 0;
-    private int mBatchLatencyInMs;
+    private boolean mIsCustomPickupSensor;
     private int mMinPulseIntervalMs;
     private int mWakelockTimeoutMs;
 
+    private float[] mGravity;
+    private float mAccelLast;
+    private float mAccelCurrent;
+    private long mEntryTimestamp = 0;
+    private float mSensorValue;
+
     private Vibrator mVibrator;
 
-    public TiltSensor(Context context) {
+    public PickupSensor(Context context) {
         mContext = context;
         final Resources res = context.getResources();
-        mBatchLatencyInMs =
-            res.getInteger(R.integer.config_dozePulseTilt_BatchLatencyInMs);
+        mSensorManager = mContext.getSystemService(SensorManager.class);
+        mSensorValue = res.getFloat(R.dimen.pickup_sensor_value);
+        final String pickup_sensor = res.getString(R.string.pickup_sensor);
+        boolean checkCustomPickupSensor = pickup_sensor != null && !pickup_sensor.isEmpty();
+        if (checkCustomPickupSensor) {
+            for (Sensor sensor : mSensorManager.getSensorList(Sensor.TYPE_ALL)) {
+                if (pickup_sensor.equals(sensor.getStringType())) {
+                    mSensorPickup = sensor;
+                    mIsCustomPickupSensor = true;
+                    break;
+                }
+            }
+        }
+        if (mSensorPickup == null)
+            mSensorPickup = mSensorManager.getDefaultSensor(Sensor.TYPE_PICK_UP_GESTURE);
+        if (mSensorPickup == null)
+            mSensorPickup = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         mMinPulseIntervalMs =
-            res.getInteger(R.integer.config_dozePulseTilt_MinPulseIntervalMs);
+            res.getInteger(R.integer.config_dozePulsePickup_MinPulseIntervalMs);
         mWakelockTimeoutMs =
-            res.getInteger(R.integer.config_dozePulseTilt_WakelockTimeoutMs);
+            res.getInteger(R.integer.config_dozePulsePickup_WakelockTimeoutMs);
         if (DEBUG) {
-            Log.d(TAG, "BatchLatencyInMs: " + String.valueOf(mBatchLatencyInMs));
+            Log.d(TAG, "Pickup sensor: " + mSensorPickup.getStringType());
             Log.d(TAG, "MinPulseIntervalMs: " + String.valueOf(mMinPulseIntervalMs));
             Log.d(TAG, "WakelockTimeoutMs: " + String.valueOf(mWakelockTimeoutMs));
         }
-        mSensorManager = mContext.getSystemService(SensorManager.class);
-        mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_TILT_DETECTOR);
+        telephonyManager = (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
         mPowerManager = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
         mWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, TAG);
         mExecutorService = Executors.newSingleThreadExecutor();
+        mAccelLast = SensorManager.GRAVITY_EARTH;
+        mAccelCurrent = SensorManager.GRAVITY_EARTH;
         mVibrator = (Vibrator) mContext.getSystemService(Context.VIBRATOR_SERVICE);
         if (mVibrator != null && !mVibrator.hasVibrator()) {
             mVibrator = null;
@@ -87,8 +109,6 @@ public class TiltSensor implements SensorEventListener {
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        boolean isRaiseToWake = Utils.isRaiseToWakeEnabled(mContext);
-
         if (DEBUG) Log.d(TAG, "Got sensor event: " + event.values[0]);
 
         long delta = event.timestamp - mEntryTimestamp;
@@ -98,36 +118,62 @@ public class TiltSensor implements SensorEventListener {
             mEntryTimestamp = event.timestamp;
         }
 
-        if (event.values[0] == 1) {
-            if (isRaiseToWake) {
-                mWakeLock.acquire(mWakelockTimeoutMs);
-                mPowerManager.wakeUp(SystemClock.uptimeMillis(),
-                    PowerManager.WAKE_REASON_GESTURE, TAG);
+        try {
+            if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER ||
+                    event.sensor.getType() == Sensor.TYPE_PICK_UP_GESTURE) {
+                mGravity = event.values.clone();
+
+                // Movement detection
+                float x = mGravity[0];
+                float y = mGravity[1];
+                float z = mGravity[2];
+
+                mAccelLast = mAccelCurrent;
+                mAccelCurrent = (float) Math.sqrt(x * x + y * y + z * z);
+                float accDelta = Math.abs(mAccelCurrent - mAccelLast);
+                if (accDelta >= 0.1 && accDelta <= 1.5) {
+                    launchWakeOrPulse();
+                }
             } else {
-                Utils.launchDozePulse(mContext);
-                doHapticFeedback();
+                if (event.values[0] == mSensorValue) {
+                    launchWakeOrPulse();
+                }
             }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void launchWakeOrPulse() {
+        boolean isRaiseToWake = Utils.isRaiseToWakeEnabled(mContext);
+        if (isRaiseToWake) {
+            mWakeLock.acquire(mWakelockTimeoutMs);
+            mPowerManager.wakeUp(SystemClock.uptimeMillis(),
+                PowerManager.WAKE_REASON_GESTURE, TAG);
+        } else {
+            Utils.launchDozePulse(mContext);
+            doHapticFeedback();
         }
     }
 
     @Override
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {
-        /* Empty */
+    public void onAccuracyChanged(Sensor sensor, int i) {
+
     }
 
     protected void enable() {
         if (DEBUG) Log.d(TAG, "Enabling");
         submit(() -> {
-            mSensorManager.registerListener(this, mSensor,
-                    SensorManager.SENSOR_DELAY_NORMAL,
-                    mBatchLatencyInMs * 1000);
+            mSensorManager.registerListener(this, mSensorPickup,
+                    mIsCustomPickupSensor ? SensorManager.SENSOR_DELAY_NORMAL
+                    : SensorManager.SENSOR_STATUS_ACCURACY_HIGH);
         });
     }
 
     protected void disable() {
         if (DEBUG) Log.d(TAG, "Disabling");
         submit(() -> {
-            mSensorManager.unregisterListener(this, mSensor);
+            mSensorManager.unregisterListener(this, mSensorPickup);
         });
     }
 
