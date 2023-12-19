@@ -125,12 +125,12 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
         Context context;
         String mSelectedIcon;
         String mAppliedIcon;
-        int mDefaultPressedColor;
+        int mDefaultPressedColor = 0;
 
         public UdfpsPressedIconAdapter(Context context) {
             this.context = context;
-            mDefaultPressedColor = context.getResources().getInteger(
-                    com.android.internal.R.integer.config_udfps_pressed_color);
+            /*mDefaultPressedColor = context.getResources().getInteger(
+                    com.android.internal.R.integer.config_udfps_pressed_color);*/
         }
 
         @Override
@@ -143,8 +143,8 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
         @Override
         public void onBindViewHolder(UdfpsPressedIconViewHolder holder, final int position) {
             String iconRes = mIcons[position];
-            int activePressedColor = Settings.System.getInt(context.getContentResolver(),
-                    Settings.System.UDFPS_COLOR, mDefaultPressedColor);
+            int activePressedColor = mDefaultPressedColor; /*Settings.System.getInt(context.getContentResolver(),
+                    Settings.System.UDFPS_COLOR, mDefaultPressedColor);*/
 
             Glide.with(holder.image.getContext())
                     .load("")
@@ -168,8 +168,8 @@ public class UdfpsPressedIconPicker extends SettingsPreferenceFragment {
                     updateActivatedStatus(mSelectedIcon, false);
                     updateActivatedStatus(iconRes, true);
                     mSelectedIcon = iconRes;
-                    Settings.System.putInt(getActivity().getContentResolver(),
-                            Settings.System.UDFPS_COLOR, position);
+                    /*Settings.System.putInt(getActivity().getContentResolver(),
+                            Settings.System.UDFPS_COLOR, position);*/
                 }
             });
         }

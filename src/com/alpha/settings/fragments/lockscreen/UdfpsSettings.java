@@ -94,14 +94,14 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        Settings.System.putIntForUser(resolver,
+        /*Settings.System.putIntForUser(resolver,
                 Settings.System.UDFPS_ANIM, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.UDFPS_ANIM_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.UDFPS_ICON, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.UDFPS_COLOR, 0, UserHandle.USER_CURRENT);
+                Settings.System.UDFPS_COLOR, 0, UserHandle.USER_CURRENT);*/
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.SCREEN_OFF_UDFPS_ENABLED, 0, UserHandle.USER_CURRENT);
     }
