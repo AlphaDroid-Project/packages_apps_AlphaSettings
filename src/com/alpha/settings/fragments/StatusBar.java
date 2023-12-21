@@ -230,6 +230,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.ROAMING_INDICATOR_ICON, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
+                Settings.System.WIFI_STANDARD_ICON, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_LEFT_PADDING, defaultLeftPadding, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_RIGHT_PADDING, defaultRightPadding, UserHandle.USER_CURRENT);
