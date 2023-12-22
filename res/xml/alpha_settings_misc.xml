@@ -115,6 +115,13 @@
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
 
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="show_media_squiggle_animation"
+        android:icon="@drawable/ic_pulse"
+        android:title="@string/show_squiggle_animation_title"
+        android:summary="@string/show_squiggle_animation_summary"
+        android:defaultValue="true" />
+
     <!-- Display Cutout -->
     <!--Preference
         android:key="display_cutout_force_fullscreen_settings"
