@@ -69,22 +69,26 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         mPocketJudge = (Preference) prefScreen.findPreference(POCKET_JUDGE);
         boolean mPocketJudgeSupported = res.getBoolean(
                 com.android.internal.R.bool.config_pocketModeSupported);
-        if (!mPocketJudgeSupported)
+        if (!mPocketJudgeSupported && mPocketJudge != null) {
             prefScreen.removePreference(mPocketJudge);
+        }
 
 	    final String displayCutout =
            res.getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
 
         if (TextUtils.isEmpty(displayCutout)) {
             mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
-            prefScreen.removePreference(mShowCutoutForce);
+            if (mShowCutoutForce != null) {
+                prefScreen.removePreference(mShowCutoutForce);
+            }
         }
 
         mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
         boolean mSmartPixelsSupported = getResources().getBoolean(
                 com.android.internal.R.bool.config_supportSmartPixels);
-        if (!mSmartPixelsSupported)
+        if (!mSmartPixelsSupported && mSmartPixels != null) {
             prefScreen.removePreference(mSmartPixels);
+        }
     }
 
     @Override
