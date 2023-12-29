@@ -115,15 +115,8 @@
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
 
-    <com.alpha.settings.preferences.SecureSettingSwitchPreference
-        android:key="show_media_squiggle_animation"
-        android:icon="@drawable/ic_pulse"
-        android:title="@string/show_squiggle_animation_title"
-        android:summary="@string/show_squiggle_animation_summary"
-        android:defaultValue="true" />
-
     <!-- Display Cutout -->
-    <!--Preference
+    <Preference
         android:key="display_cutout_force_fullscreen_settings"
         android:icon="@drawable/ic_fullscreen"
         android:title="@string/display_cutout_force_fullscreen_title"
@@ -131,7 +124,14 @@
         <intent android:action="android.intent.action.MAIN"
              android:targetPackage="com.android.settings"
              android:targetClass="com.alpha.settings.fragments.misc.DisplayCutoutForceFullscreenActivity"/>
-    </Preference-->
+    </Preference>
+
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="show_media_squiggle_animation"
+        android:icon="@drawable/ic_pulse"
+        android:title="@string/show_squiggle_animation_title"
+        android:summary="@string/show_squiggle_animation_summary"
+        android:defaultValue="true" />
 
     <!-- Screen Off animation -->
     <com.alpha.settings.preferences.SystemSettingListPreference
