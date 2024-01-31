@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2024 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -99,13 +99,6 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
-        <Preference
-            android:key="udfps_settings"
-            android:icon="@drawable/ic_fp_selector"
-            android:title="@string/udfps_settings_title"
-            android:summary="@string/udfps_settings_summary"
-            android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsSettings" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -162,6 +155,13 @@
             android:title="@string/lockscreen_doubletap_sleep_title"
             android:summary="@string/lockscreen_doubletap_sleep_summary"
             android:defaultValue="true" />
+
+        <Preference
+            android:key="udfps_recognizing_animation_preview"
+            android:icon="@drawable/ic_fp_selector"
+            android:title="@string/udfps_recog_animation_effect_title"
+            android:summary="@string/udfps_recog_animation_effect_summary"
+            android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
 
         <com.alpha.settings.preferences.SecureSettingSwitchPreference
             android:key="screen_off_udfps_enabled"
