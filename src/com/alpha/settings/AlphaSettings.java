@@ -68,7 +68,7 @@ public class AlphaSettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        //hideToolbar();
+        hideToolbar();
         setAlphaDashboardStyle();
     }
 
@@ -83,7 +83,7 @@ public class AlphaSettings extends DashboardFragment {
 
     public void onResume() {
         super.onResume();
-        //hideToolbar();
+        hideToolbar();
         setAlphaDashboardStyle();
     }
 
