@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Guloseimas</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Brilho</string>
     <string name="preference_category_battery">Bateria</string>
@@ -32,7 +31,7 @@
     <string name="max_visible_notification_icons_title">Ícones de Notificação</string>
     <string name="max_visible_notification_icons_summary">Máximo de ícones de notificação visíveis na barra de estado</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Espaçamento da barra de estado</string>
+    <string name="statusbar_padding">Status bar paddings</string>
     <string name="statusbar_top_padding">Espaçamento do topo</string>
     <string name="statusbar_left_padding">Espaçamento Esquerdo</string>
     <string name="statusbar_right_padding">Espaçamento à direita</string>
@@ -191,7 +190,7 @@
     <string name="qs_haptic_feedback_title">Vibrar</string>
     <string name="qs_haptic_feedback_summary">Vibrar ao tocar nas definições rápidas</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alfabeto</string>
+    <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">Coisas boas</string>
     <!-- UiBench -->
     <string name="category_uibench">Teste de desempenho (UI)</string>
@@ -207,11 +206,13 @@
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Dispositivo</string>
     <!-- Build info -->
-    <string name="build_status_title">Estado da compilação</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
     <string name="build_status_official">Oficial</string>
-    <string name="build_status_summary">Mantido por</string>
-    <string name="build_status_oopsie">À procura do responsável pela manutenção do dispositivo...</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorar restrição de janela segura</string>
     <string name="ignore_window_secure_summary">Remover limites de gravação e captura de ecrã para todas as aplicações. Isso pode ser conveniente em alguns casos, mas pode levar a problemas de privacidade.</string>
@@ -353,4 +354,21 @@
     <string name="brightness_slider_haptics_intensity_title">Intensidade do controle deslizante de brilho</string>
     <string name="edge_scrolling_haptics_intensity_title">Intensidade do gesto de deslocamento nas margens</string>
     <string name="volume_slider_haptics_intensity_title">Intensidade do controle deslizante volume</string>
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Status bar lyric</string>
+    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
+    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configuração USB</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forçar modo CA LTE</string>
+    <string name="force_lte_ca_summary">Forçar o modo de agregação de operadoras em LTE</string>
 </resources>
