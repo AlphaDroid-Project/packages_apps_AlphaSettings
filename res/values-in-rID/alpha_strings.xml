@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Kebaikan!</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Kecerahan</string>
     <string name="preference_category_battery">Baterai</string>
@@ -32,7 +31,7 @@
     <string name="max_visible_notification_icons_title">Ikon notifikasi</string>
     <string name="max_visible_notification_icons_summary">Maksimal ikon notifikasi terlihat di bilah status</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Lapisan bilah status</string>
+    <string name="statusbar_padding">Status bar paddings</string>
     <string name="statusbar_top_padding">Lapisan atas</string>
     <string name="statusbar_left_padding">Lapisan kiri</string>
     <string name="statusbar_right_padding">Lapisan kanan</string>
@@ -191,7 +190,7 @@
     <string name="qs_haptic_feedback_title">Umpan balik Setelan Cepat</string>
     <string name="qs_haptic_feedback_summary">Bergetar saat menyentuh ubin Setelan Cepat</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">Akan banyak kejutan!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -207,11 +206,13 @@
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Perangkat</string>
     <!-- Build info -->
-    <string name="build_status_title">Status pembuatan</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
     <string name="build_status_official">Resmi</string>
-    <string name="build_status_summary">Dikelola oleh</string>
-    <string name="build_status_oopsie">Mencari pengelola...</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Abaikan hamparan pengaman privasi</string>
     <string name="ignore_window_secure_summary">Hapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Hal ini bisa memudahkan dalam beberapa kasus, tetapi bisa menyebabkan kebocoran privasi.</string>
@@ -353,4 +354,21 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Status bar lyric</string>
+    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
+    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Konfigurasi USB</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Paksa LTE CA</string>
+    <string name="force_lte_ca_summary">Paksa agregasi operator LTE agar berfungsi</string>
 </resources>
