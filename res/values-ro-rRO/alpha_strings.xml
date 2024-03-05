@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Bunătăți!</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Luminozitate</string>
     <string name="preference_category_battery">Baterie</string>
@@ -32,7 +31,7 @@
     <string name="max_visible_notification_icons_title">Pictograme notificare</string>
     <string name="max_visible_notification_icons_summary">Nr. maxim de pictograme de notificare vizibile pe bara de stare</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Umplere bară de stare</string>
+    <string name="statusbar_padding">Status bar paddings</string>
     <string name="statusbar_top_padding">Umplere de sus</string>
     <string name="statusbar_left_padding">Umplere din stânga</string>
     <string name="statusbar_right_padding">Umplere din dreapta</string>
@@ -192,7 +191,7 @@ După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de
     <string name="qs_haptic_feedback_title">Vibrații la atingere setări rapide</string>
     <string name="qs_haptic_feedback_summary">Vibrează la atingerea dalelor setărilor rapide</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">Vor fi bunătăți!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -208,11 +207,13 @@ După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Dispozitiv</string>
     <!-- Build info -->
-    <string name="build_status_title">Stare compilare</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
     <string name="build_status_official">Oficial</string>
-    <string name="build_status_summary">Menținut de</string>
-    <string name="build_status_oopsie">Se caută întreținător...</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignoră indicatorul de fereastră securizată</string>
     <string name="ignore_window_secure_summary">Elimină limitarea capturilor de ecran și înregistrărilor de ecran pentru toate aplicațiile. Acest lucru poate fi convenabil în unele cazuri, dar poate duce la scurgeri de confidențialitate.</string>
@@ -354,4 +355,21 @@ După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de
     <string name="brightness_slider_haptics_intensity_title">Intensitatea vibrațiilor glisorului luminozității</string>
     <string name="edge_scrolling_haptics_intensity_title">Intensitatea vibrațiilor la glisarea pe margine</string>
     <string name="volume_slider_haptics_intensity_title">Intensitatea vibrațiilor glisorului de volum</string>
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Status bar lyric</string>
+    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
+    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configurare USB</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forțează LTE CA</string>
+    <string name="force_lte_ca_summary">Forțează agregarea LTE</string>
 </resources>
