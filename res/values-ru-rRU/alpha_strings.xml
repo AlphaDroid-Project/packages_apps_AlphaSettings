@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Ключ: Алфавит целиком</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Яркость</string>
     <string name="preference_category_battery">Батарея</string>
@@ -191,7 +190,7 @@
     <string name="qs_haptic_feedback_title">Виброотклик быстрых настроек</string>
     <string name="qs_haptic_feedback_summary">Вибрация при касании плиток быстрых настроек</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_title">Настройки Alpha</string>
     <string name="alpha_settings_summary">Там будут вкусняшки!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -208,10 +207,12 @@
     <string name="category_device_info">Устройство</string>
     <!-- Build info -->
     <string name="build_status_title">Статус сборки</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_summary">Неофициальная</string>
     <string name="build_status_official">Официальный</string>
-    <string name="build_status_summary">Поддерживается</string>
-    <string name="build_status_oopsie">Поиск сопровождающего...</string>
+    <string name="build_status_unofficial">Неофициальная</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Сопровождающий</string>
+    <string name="maintainer_summary">В поиске сопровождающего...</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Игнорировать флаг безопасности окон</string>
     <string name="ignore_window_secure_summary">Снимите ограничения на скриншоты и записи экрана для всех приложений. В некоторых случаях это может быть удобно, но может привести к утечке конфиденциальной информации.</string>
@@ -353,4 +354,21 @@
     <string name="brightness_slider_haptics_intensity_title">Вибрация ползунка яркости</string>
     <string name="edge_scrolling_haptics_intensity_title">Интенсивность вибрации прокрутки</string>
     <string name="volume_slider_haptics_intensity_title">Вибрация ползунка громкости</string>
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Status bar lyric</string>
+    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
+    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Настройки USB</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Принудительно LTE CA</string>
+    <string name="force_lte_ca_summary">Принудительно объединять LTE операторов для работы</string>
 </resources>

@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Goodies!</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">明亮度</string>
     <string name="preference_category_battery">電池</string>
@@ -32,7 +31,7 @@
     <string name="max_visible_notification_icons_title">通知圖示</string>
     <string name="max_visible_notification_icons_summary">狀態列上可見的最大通知圖標數</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">狀態列填充</string>
+    <string name="statusbar_padding">Status bar paddings</string>
     <string name="statusbar_top_padding">上邊距大小</string>
     <string name="statusbar_left_padding">左邊距大小</string>
     <string name="statusbar_right_padding">右邊距大小</string>
@@ -191,7 +190,7 @@
     <string name="qs_haptic_feedback_title">QS haptic feedback</string>
     <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -208,10 +207,12 @@
     <string name="category_device_info">裝置</string>
     <!-- Build info -->
     <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_summary">Unofficial</string>
     <string name="build_status_official">Official</string>
-    <string name="build_status_summary">Maintained by</string>
-    <string name="build_status_oopsie">Searching for maintainer...</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
@@ -353,4 +354,21 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Status bar lyric</string>
+    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
+    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 </resources>
