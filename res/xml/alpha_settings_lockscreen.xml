@@ -161,14 +161,14 @@
             android:icon="@drawable/ic_fp_selector"
             android:title="@string/udfps_icon_picker_title"
             android:summary="@string/udfps_icon_picker_summary"
-            android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsIconPicker" />
+            android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker" />
 
         <Preference
             android:key="udfps_recognizing_animation_preview"
             android:icon="@drawable/ic_fp_selector"
             android:title="@string/udfps_recog_animation_effect_title"
             android:summary="@string/udfps_recog_animation_effect_summary"
-            android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
+            android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation" />
 
         <com.alpha.settings.preferences.SecureSettingSwitchPreference
             android:key="screen_off_udfps_enabled"

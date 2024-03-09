@@ -35,7 +35,6 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
 import com.alpha.settings.fragments.lockscreen.DozeSettings;
-import com.alpha.settings.fragments.lockscreen.UdfpsSettings;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.crdroid.OmniJawsClient;
@@ -46,8 +45,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.lockscreen.UdfpsAnimation;
-import com.alpha.settings.fragments.lockscreen.UdfpsIconPicker;
+import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
+import com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker;
 
 import java.util.List;
 

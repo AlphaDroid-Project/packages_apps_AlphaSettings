@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 crDroid Android Project
+ * Copyright (C) 2022-2024 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +23,7 @@ import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.net.Uri;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -107,6 +108,12 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
         mRecyclerView.setAdapter(mUdfpsIconAdapter);
 
         return view;
+    }
+
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.UDFPS_ICON, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
