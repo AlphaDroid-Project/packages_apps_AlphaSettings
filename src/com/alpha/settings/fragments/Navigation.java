@@ -56,12 +56,14 @@ public class Navigation extends SettingsPreferenceFragment implements
     private static final String KEY_NAVIGATION_HOME_DOUBLE_TAP = "navigation_home_double_tap";
     private static final String KEY_NAVIGATION_APP_SWITCH_LONG_PRESS =
             "navigation_app_switch_long_press";
+    private static final String KEY_EDGE_LONG_SWIPE = "navigation_bar_edge_long_swipe";
 
     private SwitchPreference mNavbarVisibility;
     private ListPreference mNavigationBackLongPressAction;
     private ListPreference mNavigationHomeLongPressAction;
     private ListPreference mNavigationHomeDoubleTapAction;
     private ListPreference mNavigationAppSwitchLongPressAction;
+    private ListPreference mEdgeLongSwipeAction;
 
     private boolean mIsNavSwitchingMode = false;
     private Handler mHandler;
@@ -105,6 +107,9 @@ public class Navigation extends SettingsPreferenceFragment implements
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 LineageSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
+        Action edgeLongSwipeAction = Action.fromSettings(resolver,
+                LineageSettings.System.KEY_EDGE_LONG_SWIPE_ACTION,
+                Action.NOTHING);
 
         // Navigation bar back long press
         mNavigationBackLongPressAction = initList(KEY_NAVIGATION_BACK_LONG_PRESS,
@@ -122,6 +127,8 @@ public class Navigation extends SettingsPreferenceFragment implements
         mNavigationAppSwitchLongPressAction = initList(KEY_NAVIGATION_APP_SWITCH_LONG_PRESS,
                 appSwitchLongPressAction);
 
+        // Edge long swipe gesture
+        mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
     }
 
     private ListPreference initList(String key, Action value) {
@@ -187,6 +194,10 @@ public class Navigation extends SettingsPreferenceFragment implements
         } else if (preference == mNavigationAppSwitchLongPressAction) {
             handleListChange((ListPreference) preference, newValue,
                     LineageSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION);
+            return true;
+        } else if (preference == mEdgeLongSwipeAction) {
+            handleListChange((ListPreference) preference, newValue,
+                    LineageSettings.System.KEY_EDGE_LONG_SWIPE_ACTION);
             return true;
         }
         return false;
