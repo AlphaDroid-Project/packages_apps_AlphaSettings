@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2022 crDroid Android Project
- * Copyright (C) 2023 AlphaDroid
+ * Copyright (C) 2023-2024 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -67,21 +67,21 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
         final boolean udfpsResPkgAnimations = Utils.isPackageInstalled(getContext(),
                 "com.alpha.udfps.animations");
         mUdfpsAnimPreview = findPreference(UDFPS_ANIM_PREVIEW);
-        if (!udfpsResPkgAnimations) {
+        if (mUdfpsAnimPreview != null && udfpsResPkgAnimations) {
             prefSet.removePreference(mUdfpsAnimPreview);
         }
 
         final boolean udfpsResPkgIcons = Utils.isPackageInstalled(getContext(),
                 "com.alpha.udfps.icons");
         mUdfpsIconPreview = findPreference(UDFPS_ICON_PICKER);
-        if (!udfpsResPkgIcons) {
+        if (mUdfpsIconPreview != null && !udfpsResPkgIcons) {
             prefSet.removePreference(mUdfpsIconPreview);
         }
 
         final boolean udfpsResPkgColors = Utils.isPackageInstalled(getContext(),
                 "com.alpha.udfps.pressedicons");
         mUdfpsColorPreview = findPreference(UDFPS_COLOR);
-        if (!udfpsResPkgColors) {
+        if (mUdfpsColorPreview != null && !udfpsResPkgColors) {
             prefSet.removePreference(mUdfpsColorPreview);
         }
 
@@ -94,14 +94,14 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        /*Settings.System.putIntForUser(resolver,
+        Settings.System.putIntForUser(resolver,
                 Settings.System.UDFPS_ANIM, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.UDFPS_ANIM_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.UDFPS_ICON, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.UDFPS_COLOR, 0, UserHandle.USER_CURRENT);*/
+//        Settings.System.putIntForUser(resolver,
+//                Settings.System.UDFPS_COLOR, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.SCREEN_OFF_UDFPS_ENABLED, 0, UserHandle.USER_CURRENT);
     }
