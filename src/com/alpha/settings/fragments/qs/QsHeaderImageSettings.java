@@ -38,6 +38,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.crdroid.Utils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -64,6 +65,8 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment
     private static final String KEY_HEADER_IMAGE_URI = "qs_header_image_uri";
 
     private static final int REQUEST_IMAGE_PICKER = 10001;
+    private static final String IMAGE_PICKER = "com.android.gallery3d";
+
 
     private final int OPTION_TINT_CUSTOM = 4;
     private final int OPTION_DISABLED_VALUE = 0;
@@ -113,6 +116,10 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment
         mColorPicker.setOnPreferenceChangeListener(this);
 
         mQsHeaderImagePicker = findPreference(KEY_HEADER_IMAGE_URI);
+        // disable file picker if gallery3d is not enabled
+        if (!Utils.isPackageEnabled(getContext(), IMAGE_PICKER)) {
+            mQsHeaderImagePicker.setEnabled(false);
+        }
 
         mSharedPreferences = getActivity().getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE);
     }
@@ -120,7 +127,9 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mQsHeaderImagePicker) {
-            Intent intent = new Intent(Intent.ACTION_PICK);
+            Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+            intent.addCategory(Intent.CATEGORY_OPENABLE);
+            intent.setPackage(IMAGE_PICKER);
             intent.setType("image/*");
             startActivityForResult(intent, REQUEST_IMAGE_PICKER);
             return true;
@@ -192,9 +201,10 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent result) {
-        super.onActivityResult(requestCode, resultCode, result);
-
-        if (requestCode == REQUEST_IMAGE_PICKER && resultCode == Activity.RESULT_OK) {
+        if (requestCode == REQUEST_IMAGE_PICKER) {
+            if (resultCode != Activity.RESULT_OK) {
+                return;
+            }
             ContentResolver resolver = getContext().getContentResolver();
             final Uri imgUri = result.getData();
             if (imgUri != null) {
