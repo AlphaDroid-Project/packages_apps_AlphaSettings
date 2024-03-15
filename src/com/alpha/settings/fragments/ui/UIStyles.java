@@ -83,7 +83,6 @@ public class UIStyles extends SettingsPreferenceFragment {
     Map<String, String> overlayMap = new HashMap<String, String>();
     {
         overlayMap.put("com.android.settings", "android.theme.customization.style.settings");
-        overlayMap.put("com.android.systemui", "android.theme.customization.style.systemui");
     }
 
     @Override
