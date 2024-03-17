@@ -20,6 +20,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/sound_title">
 
+    <!-- Sound Engine -->
+    <Preference
+        android:key="sound_engine"
+        android:icon="@drawable/ic_settings_sound"
+        android:title="@string/sound_engine_title"
+        android:summary="@string/sound_engine_summary"
+        android:fragment="com.alpha.settings.fragments.sound.SoundEngine" />
+
     <!-- Pulse music visualizer -->
     <Preference
         android:key="pulse_settings"
