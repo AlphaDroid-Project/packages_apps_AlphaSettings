@@ -23,7 +23,7 @@
     <string name="preference_category_clock">时钟</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">设置样式</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and AlphaSettings style</string>
+    <string name="settings_dashboard_style_summary">设置主页和Alpha设置样式</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
@@ -31,7 +31,7 @@
     <string name="max_visible_notification_icons_title">通知图标</string>
     <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar paddings</string>
+    <string name="statusbar_padding">状态栏内边距</string>
     <string name="statusbar_top_padding">顶部填充</string>
     <string name="statusbar_left_padding">左填充</string>
     <string name="statusbar_right_padding">右填充</string>
@@ -119,23 +119,6 @@
     <string name="power_menu_animation_translucent_top">半透明（顶部）</string>
     <string name="power_menu_animation_translucent_bottom">半透明 (底部)</string>
     <string name="power_menu_animation_rotate">旋转</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">背景颜色</string>
-    <string name="statusbar_clock_chip_summary">时钟后显示背景</string>
-    <string name="solid_accent">实心颜色加成</string>
-    <string name="outline">概要</string>
-    <string name="solid_accent_gradient">固态色调渐变</string>
-    <string name="solid_gradient">实心渐变</string>
-    <string name="solid_gradient_corner">纯色渐变锐利</string>
-    <string name="solid_gradient_void">渐变虚线</string>
-    <string name="solid_gradient_neumorph">神经拟态渐变</string>
-    <string name="solid_gradient_stroke">线性渐变笔廓</string>
-    <string name="solid_accent_transparent">Accent transparent</string>
-    <string name="solid_gradient_light">渐变线</string>
-    <string name="solid_gradient_shape">锐化渐变角</string>
-    <string name="solid_gradient_void_light">渐变虚线</string>
-    <string name="status_bar_clock_font_style_title">时钟字体样式</string>
-    <string name="status_bar_clock_color_title">时钟字体颜色</string>
     <!-- Font Customizations for Functions -->
     <string name="function_font_stock">正常 (默认)</string>
     <string name="function_font_bold">粗体</string>
@@ -190,7 +173,7 @@
     <string name="qs_haptic_feedback_title">触摸反馈</string>
     <string name="qs_haptic_feedback_summary">触摸快速设置磁贴时振动</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_title">Alpha 设置</string>
     <string name="alpha_settings_summary">将会有好东西！</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -206,13 +189,13 @@
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">设备</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_title">构建状态</string>
+    <string name="build_status_summary">非官方版</string>
     <string name="build_status_official">官方</string>
-    <string name="build_status_unofficial">Unofficial</string>
+    <string name="build_status_unofficial">非官方版</string>
     <!-- Maintainer -->
-    <string name="maintainer_title">Maintainer</string>
-    <string name="maintainer_summary">Searching for maintainer...</string>
+    <string name="maintainer_title">维护者</string>
+    <string name="maintainer_summary">正在搜索维护者...</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">隐藏开发者状态</string>
     <string name="hide_developer_status_summary">对应用隐藏开发者状态</string>
@@ -324,6 +307,8 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">环境显示</string>
     <string name="doze_gesture_ambient_summary">在不完全唤醒屏幕的状态下显示时间和部分信息</string>
+    <string name="gesture_wake_ambient">环境显示</string>
+    <string name="gesture_wake">Fully wake</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">环境显示</string>
     <string name="doze_enabled_summary">是否启用 Doze 软件包功能</string>
@@ -346,23 +331,64 @@
     <string name="edge_scrolling_haptics_intensity_title">边缘滑动触觉反馈强度</string>
     <string name="volume_slider_haptics_intensity_title">音量滑块触觉反馈强度</string>
     <!-- Statusbar lyric -->
-    <string name="status_bar_lyric_title">Status bar lyric</string>
-    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
-    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
-    <string name="status_bar_lyric_options_title">选项</string>
-    <string name="disguise_props_for_music_app_title">对音乐应用伪装机型</string>
-    <string name="disguise_props_for_music_app_summary">对一些音乐应用伪装机型以正确启用状态栏歌词. 启用该设置后需要重启音乐应用</string>
+    <string name="status_bar_lyric_title">状态栏歌词</string>
+    <string name="status_bar_lyric_summary">在状态栏显示歌词（需要应用程序支持）</string>
+    <string name="status_bar_show_lyric_title">启用状态栏歌词</string>
+    <!-- Statusbar lyric device spoofing -->
+    <string name="status_bar_lyric_options_title">Options</string>
+    <string name="disguise_props_for_music_app_title">Disguise device for music apps</string>
+    <string name="disguise_props_for_music_app_summary">Disguise device in some music applications for support status bar lyric. After changing this toggle, you have to restart applications for the change to take effect.</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">广播信息</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">忽略窗口安全标志</string>
+    <string name="ignore_window_secure_summary">该功能将去除所有应用程序的 FLAG_SECURE 窗口标志，但在某些情况下可能会导致您的敏感数据泄露。应用程序通常会使用此标志使得截图/录屏时变黑来禁止您对窗口进行屏幕录制或截图操作。开关此功能后，需要重新打开相应的应用程序以使改动生效。</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB 配置</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_title">启用存储加密伪装</string>
+    <string name="spoof_storage_encryption_status_summary">模拟存储加密状态为加密</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">强制LTE CA</string>
     <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Idle Manager</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Turn on now</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Turn off now</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
 </resources>
