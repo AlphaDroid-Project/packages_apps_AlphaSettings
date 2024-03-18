@@ -308,7 +308,7 @@
     <string name="doze_gesture_ambient_title">Показать Активный экран</string>
     <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
     <string name="gesture_wake_ambient">Показать Активный экран</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="gesture_wake">Полное пробуждение</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Активный экран</string>
     <string name="doze_enabled_summary">Включает отображение событий на выключенном экране</string>
@@ -352,51 +352,51 @@
     <string name="force_lte_ca">Принудительно LTE CA</string>
     <string name="force_lte_ca_summary">Принудительно объединять LTE операторов для работы</string>
     <!-- Idle Manager -->
-    <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_title">Диспетчер простоя</string>
+    <string name="idle_manager_summary">Остановка всех несущественных фоновых процессов, когда устройство находится в режиме сна</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_summary_on">Включено / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Выкл / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не изменять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Без звука</string>
     <string name="sleep_mode_schedule_sunset">Закат</string>
     <string name="sleep_mode_schedule_sunrise">Рассвет</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с заката до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода</string>
+    <string name="sleep_mode_toggles_title">Переключатели</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключать Wi-Fi в спящем режиме</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Blueooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключить Bluetooth, когда включен спящий режим</string>
+    <string name="sleep_mode_cellular_toggle_title">Выключить мобильные данные</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключить мобильные данные, когда включен спящий режим</string>
+    <string name="sleep_mode_location_toggle_title">Выключить местоположение</string>
+    <string name="sleep_mode_location_toggle_summary">Отключать местоположение в спящем режиме</string>
+    <string name="sleep_mode_sensors_toggle_title">Выключать датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключать датчики в спящем режиме</string>
+    <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы для экономии заряда батареи и отключения звука телефона во время сна.</string>
     <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Turn on now</string>
+    <string name="night_display_activation_on_manual">Включить сейчас</string>
     <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Turn off now</string>
+    <string name="night_display_activation_off_manual">Отключить сейчас</string>
     <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <string name="night_display_activation_on_twilight">Включить до рассвета</string>
     <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <string name="night_display_activation_off_twilight">Отключить до заката</string>
     <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <string name="night_display_activation_on_custom">Включить до <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <string name="night_display_activation_off_custom">Выключить до <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_title">Частота обновления</string>
+    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
+    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивные)</string>
+    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string>
+    <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
+    <string name="refresh_rate_footer">Более высокая скорость обновления делает отображение плавным, но увеличивает потребление энергии</string>
+    <string name="keywords_refresh_rate">обновление, частота, плавность, пик, 60гц, 90гц, 120гц, 144гц, 165гц</string>
 </resources>
