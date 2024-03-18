@@ -23,13 +23,13 @@
     <string name="preference_category_clock">Часы</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Стиль настроек</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and AlphaSettings style</string>
+    <string name="settings_dashboard_style_summary">Настройки домашней страницы и стиля AlphaSettings</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Максимальное количество видимых значков уведомлений</string>
-    <string name="max_visible_notification_icons_summary">Макс. количество значков, в строке состояния</string>
+    <string name="max_visible_notification_icons_title">Значки уведомлений</string>
+    <string name="max_visible_notification_icons_summary">Максимальное количество значков в строке состояния</string>
     <!-- Status bar padding -->
     <string name="statusbar_padding">Отступы строки состояния</string>
     <string name="statusbar_top_padding">Верхний отступ</string>
@@ -42,9 +42,9 @@
     <string name="ambient_text_category_title">Настройка активного экрана</string>
     <string name="ambient_text_category_summary">Настройка внешнего вида активного экрана</string>
     <string name="ambient_text_title">Текст</string>
-    <string name="ambient_text_summary">Показывать текст в AoD</string>
+    <string name="ambient_text_summary">Показывать текст на всегда включённом экране</string>
     <string name="ambient_text_animation_title">Анимация текста</string>
-    <string name="ambient_text_animation_summary">Показывать анимацию при показе AoD</string>
+    <string name="ambient_text_animation_summary">Показывать анимацию при показе всегда включённого экрана</string>
     <string name="ambient_text_size_title">Размер текста</string>
     <string name="ambient_text_font_title">Шрифт текста</string>
     <string name="ambient_text_string_title">Задать текст</string>
@@ -119,23 +119,6 @@
     <string name="power_menu_animation_translucent_top">Прозрачность (сверху)</string>
     <string name="power_menu_animation_translucent_bottom">Прозрачность (снизу)</string>
     <string name="power_menu_animation_rotate">Поворот</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Фон часов</string>
-    <string name="statusbar_clock_chip_summary">Показывать фон под часами цвета акцента</string>
-    <string name="solid_accent">Сплошной цвет акцента</string>
-    <string name="outline">Контурные</string>
-    <string name="solid_accent_gradient">Градиент сплошного цветового акцента</string>
-    <string name="solid_gradient">Сплошная градиентная сторона</string>
-    <string name="solid_gradient_corner">Сплошной градиент острый</string>
-    <string name="solid_gradient_void">Градиентная пустота</string>
-    <string name="solid_gradient_neumorph">Нойморфный градиент</string>
-    <string name="solid_gradient_stroke">Резкий градиентный штрих</string>
-    <string name="solid_accent_transparent">Accent transparent</string>
-    <string name="solid_gradient_light">Светлый градиент</string>
-    <string name="solid_gradient_shape">Острый градиентный угол</string>
-    <string name="solid_gradient_void_light">Градиентный светлой пустоты</string>
-    <string name="status_bar_clock_font_style_title">Стиль шрифта часов</string>
-    <string name="status_bar_clock_color_title">Цвет шрифта часов</string>
     <!-- Font Customizations for Functions -->
     <string name="function_font_stock">Обычный(по умолчанию)</string>
     <string name="function_font_bold">Жирный</string>
@@ -324,6 +307,8 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показать Активный экран</string>
     <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
+    <string name="gesture_wake_ambient">Показать Активный экран</string>
+    <string name="gesture_wake">Fully wake</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Активный экран</string>
     <string name="doze_enabled_summary">Включает отображение событий на выключенном экране</string>
@@ -346,20 +331,64 @@
     <string name="edge_scrolling_haptics_intensity_title">Интенсивность вибрации прокрутки</string>
     <string name="volume_slider_haptics_intensity_title">Вибрация ползунка громкости</string>
     <!-- Statusbar lyric -->
-    <string name="status_bar_lyric_title">Status bar lyric</string>
-    <string name="status_bar_lyric_summary">Show lyric in status bar (need app support)</string>
-    <string name="status_bar_show_lyric_title">Enable status bar lyric</string>
+    <string name="status_bar_lyric_title">Текст песни в строке состояния</string>
+    <string name="status_bar_lyric_summary">Показывать текст песни в строке состояния (требуется поддержка приложения)</string>
+    <string name="status_bar_show_lyric_title">Включить текст песни в строке состояния</string>
+    <!-- Statusbar lyric device spoofing -->
+    <string name="status_bar_lyric_options_title">Опции</string>
+    <string name="disguise_props_for_music_app_title">Маскировка устройства для музыкальных приложений</string>
+    <string name="disguise_props_for_music_app_summary">Маскировка устройства в некоторых музыкальных приложениях для поддержки текста в строке состояния. После изменения этого переключателя необходимо перезапустить приложение, чтобы изменения вступили в силу.</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Информация о сети</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности в приложениях</string>
+    <string name="ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются чёрными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">Настройки USB</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
+    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Принудительно LTE CA</string>
     <string name="force_lte_ca_summary">Принудительно объединять LTE операторов для работы</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Idle Manager</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Рассвет</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Turn on now</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Turn off now</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
 </resources>
