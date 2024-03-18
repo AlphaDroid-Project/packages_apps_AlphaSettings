@@ -119,23 +119,6 @@
     <string name="power_menu_animation_translucent_top">Translúcido (topo)</string>
     <string name="power_menu_animation_translucent_bottom">Translúcido (fundo)</string>
     <string name="power_menu_animation_rotate">Girar</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Fundo do relógio</string>
-    <string name="statusbar_clock_chip_summary">Colorir o fundo do relógio na barra de estado</string>
-    <string name="solid_accent">Cor de destaque sólida</string>
-    <string name="outline">Contornado</string>
-    <string name="solid_accent_gradient">Gradiente de cor sólida</string>
-    <string name="solid_gradient">Lado gradiente sólido</string>
-    <string name="solid_gradient_corner">Gradiente de acento sólido acentuado</string>
-    <string name="solid_gradient_void">Vazio gradiente</string>
-    <string name="solid_gradient_neumorph">Gradiente Neumorph</string>
-    <string name="solid_gradient_stroke">Traço gradiente acentuado</string>
-    <string name="solid_accent_transparent">Destaque transparente</string>
-    <string name="solid_gradient_light">Luz gradiente</string>
-    <string name="solid_gradient_shape">Canto gradiente acentuado</string>
-    <string name="solid_gradient_void_light">Luz de gradiente vazio</string>
-    <string name="status_bar_clock_font_style_title">Estilo de fonte do relógio</string>
-    <string name="status_bar_clock_color_title">Cor da fonte de relógio</string>
     <!-- Font Customizations for Functions -->
     <string name="function_font_stock">Normal (padrão)</string>
     <string name="function_font_bold">Negrito</string>
@@ -324,6 +307,8 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Mostrar ecrã ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar ecrã de ambiente em vez de acordar completamente o ecrã</string>
+    <string name="gesture_wake_ambient">Mostrar ecrã ambiente</string>
+    <string name="gesture_wake"></string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ecrã ambiente</string>
     <string name="doze_enabled_summary">Ativar a funcionalidade Doze</string>
@@ -349,6 +334,10 @@
     <string name="status_bar_lyric_title">Letras na barra de estado</string>
     <string name="status_bar_lyric_summary">Mostrar letras das músicas na barra de estado (requer suporte da aplicação)</string>
     <string name="status_bar_show_lyric_title">Ativar letras na barra de estado</string>
+    <!-- Statusbar lyric device spoofing -->
+    <string name="status_bar_lyric_options_title">Opções</string>
+    <string name="disguise_props_for_music_app_title">Disfarçar o dispositivo para aplicações de música</string>
+    <string name="disguise_props_for_music_app_summary">Disfarça o dispositivo em algumas aplicações de música para suportar as letras na barra de estado. Após alterar esta opção, precisa de reiniciar as aplicações para que a alteração tenha efeito.</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Informações de rede móvel</string>
     <!-- Ignore window secure -->
@@ -358,8 +347,48 @@
     <string name="usb_default_config_title">Configuração USB</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Simular estado de criptografia do armazenamento</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_summary">Simular estado da encriptação do armazenamento</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forçar modo CA LTE</string>
     <string name="force_lte_ca_summary">Forçar o modo de agregação de operadoras em LTE</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Gestor do modo inativo</string>
+    <string name="idle_manager_summary">Parar todos os processos não essenciais em segundo plano quando o dispositivo estiver inativo</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo de suspensão</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de Toque</string>
+    <string name="sleep_mode_ringer_off_title">Não alterar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não perturbar</string>
+    <string name="sleep_mode_ringer_silent_title">Silêncio</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do Sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do Sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Ligar do anoitecer até um tempo personalizado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Ativado de um horário personalizado até ao amanhecer</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Desativar Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativar Wi-Fi quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desativar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativar Bluetooth quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desativar dados móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativar dados móveis quando o Modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desativar localização</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Turn on now</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Turn off now</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
 </resources>
