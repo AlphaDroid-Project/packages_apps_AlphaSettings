@@ -197,13 +197,6 @@
             android:summary="@string/battery_bar_summary"
             android:fragment="com.alpha.settings.fragments.statusbar.BatteryBar" />
 
-        <Preference
-            android:fragment="com.alpha.settings.fragments.statusbar.StatusbarLyricSettings"
-            android:key="status_bar_lyric_settings"
-            android:icon="@drawable/ic_lyrics"
-            android:title="@string/status_bar_lyric_title"
-            android:summary="@string/status_bar_lyric_summary" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
