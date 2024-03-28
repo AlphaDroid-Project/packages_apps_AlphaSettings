@@ -330,14 +330,6 @@
     <string name="brightness_slider_haptics_intensity_title">Вибрация ползунка яркости</string>
     <string name="edge_scrolling_haptics_intensity_title">Интенсивность вибрации прокрутки</string>
     <string name="volume_slider_haptics_intensity_title">Вибрация ползунка громкости</string>
-    <!-- Statusbar lyric -->
-    <string name="status_bar_lyric_title">Текст песни в строке состояния</string>
-    <string name="status_bar_lyric_summary">Показывать текст песни в строке состояния (требуется поддержка приложения)</string>
-    <string name="status_bar_show_lyric_title">Включить текст песни в строке состояния</string>
-    <!-- Statusbar lyric device spoofing -->
-    <string name="status_bar_lyric_options_title">Опции</string>
-    <string name="disguise_props_for_music_app_title">Маскировка устройства для музыкальных приложений</string>
-    <string name="disguise_props_for_music_app_summary">Маскировка устройства в некоторых музыкальных приложениях для поддержки текста в строке состояния. После изменения этого переключателя необходимо перезапустить приложение, чтобы изменения вступили в силу.</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Информация о сети</string>
     <!-- Ignore window secure -->
@@ -399,4 +391,32 @@
     <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
     <string name="refresh_rate_footer">Более высокая скорость обновления делает отображение плавным, но увеличивает потребление энергии</string>
     <string name="keywords_refresh_rate">обновление, частота, плавность, пик, 60гц, 90гц, 120гц, 144гц, 165гц</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
