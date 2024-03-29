@@ -44,10 +44,10 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.alpha.settings.fragments.About;
 import com.alpha.settings.fragments.Buttons;
 import com.alpha.settings.fragments.LockScreen;
-import com.alpha.settings.fragments.QuickSettings;
 import com.alpha.settings.fragments.Miscellaneous;
 import com.alpha.settings.fragments.Navigation;
 import com.alpha.settings.fragments.Notifications;
+import com.alpha.settings.fragments.QuickSettings;
 import com.alpha.settings.fragments.Sound;
 import com.alpha.settings.fragments.StatusBar;
 import com.alpha.settings.fragments.UserInterface;
@@ -133,10 +133,10 @@ public class AlphaSettings extends SettingsPreferenceFragment {
         protected Void doInBackground(Void... params) {
             Buttons.reset(rContext);
             LockScreen.reset(rContext);
-            QuickSettings.reset(rContext);
             Miscellaneous.reset(rContext);
             Navigation.reset(rContext);
             Notifications.reset(rContext);
+            QuickSettings.reset(rContext);
             Sound.reset(rContext);
             StatusBar.reset(rContext);
             UserInterface.reset(rContext);
