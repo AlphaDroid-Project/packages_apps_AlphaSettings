@@ -90,6 +90,7 @@ public class AlphaSettings extends DashboardFragment {
     private void setAlphaDashboardStyle() {
         int mDashBoardStyle = geSettingstDashboardStyle();
         final PreferenceScreen mScreen = getPreferenceScreen();
+        mScreen.setTitle(" ");
         final int mCount = mScreen.getPreferenceCount();
         for (int i = 0; i < mCount; i++) {
             final Preference mPreference = mScreen.getPreference(i);
