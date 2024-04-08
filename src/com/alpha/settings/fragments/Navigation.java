@@ -57,6 +57,7 @@ public class Navigation extends SettingsPreferenceFragment implements
     private static final String KEY_NAVIGATION_APP_SWITCH_LONG_PRESS =
             "navigation_app_switch_long_press";
     private static final String KEY_EDGE_LONG_SWIPE = "navigation_bar_edge_long_swipe";
+    private static final String KEY_SHAKE_GESTURE_ACTION = "shake_gestures_action";
 
     private SwitchPreferenceCompat mNavbarVisibility;
     private ListPreference mNavigationBackLongPressAction;
@@ -64,6 +65,7 @@ public class Navigation extends SettingsPreferenceFragment implements
     private ListPreference mNavigationHomeDoubleTapAction;
     private ListPreference mNavigationAppSwitchLongPressAction;
     private ListPreference mEdgeLongSwipeAction;
+    private ListPreference mShakeGestureAction;
 
     private boolean mIsNavSwitchingMode = false;
     private Handler mHandler;
@@ -129,6 +131,10 @@ public class Navigation extends SettingsPreferenceFragment implements
 
         // Edge long swipe gesture
         mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
+        
+        // Shake gesture
+        int shakeAction = Settings.System.getInt(resolver, KEY_SHAKE_GESTURE_ACTION, 0);
+        mShakeGestureAction = initList(KEY_SHAKE_GESTURE_ACTION, shakeAction);
     }
 
     private ListPreference initList(String key, Action value) {
@@ -198,6 +204,10 @@ public class Navigation extends SettingsPreferenceFragment implements
         } else if (preference == mEdgeLongSwipeAction) {
             handleListChange((ListPreference) preference, newValue,
                     LineageSettings.System.KEY_EDGE_LONG_SWIPE_ACTION);
+            return true;
+        } else if (preference == mShakeGestureAction) {
+            handleSystemListChange((ListPreference) preference, newValue,
+                    KEY_SHAKE_GESTURE_ACTION);
             return true;
         }
         return false;
