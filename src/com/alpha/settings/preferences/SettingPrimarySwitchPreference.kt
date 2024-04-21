@@ -64,7 +64,8 @@ abstract class SettingPrimarySwitchPreference @JvmOverloads constructor(
         }
     }
 
-    override protected fun getSecondTargetResId(): Int = R.layout.preference_widget_primary_switch
+    override protected fun getSecondTargetResId(): Int =
+            com.android.settingslib.R.layout.preference_widget_primary_switch
 
     override fun onBindViewHolder(holder: PreferenceViewHolder) {
         super.onBindViewHolder(holder)

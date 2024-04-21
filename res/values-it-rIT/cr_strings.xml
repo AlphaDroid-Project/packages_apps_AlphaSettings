@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Impostazioni AlphaDroid</string>
-    <string name="crdroid_settings_summary">Dove avviene la magia</string>
     <string name="reset_settings_title">Ripristina le impostazioni iniziali</string>
-    <string name="reset_settings_message">Questo ripristinerà la maggior parte delle impostazioni crdroid ai loro valori predefiniti per l\'utente corrente. Vuoi continuare?</string>
+    <string name="reset_settings_message">Questo ripristinerà la maggior parte delle impostazioni AlphaDroid ai loro valori predefiniti per l\'utente corrente. Vuoi continuare?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Pulsanti</string>
     <string name="lockscreen_title">Schermata di blocco</string>
@@ -64,12 +62,12 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">Condividi AlphaDroid</string>
     <string name="share_crdroid_summary">Fai conoscere AlphaDroid agli altri</string>
-    <string name="share_message">Controlla se #AlphaDroidAndroid è disponibile per il tuo dispositivo @ https://t.me/alphadroid_releases</string>
+    <string name="share_message">Controlla se #AlphaDroid è disponibile per il tuo dispositivo @ https://AlphaDroid.net</string>
     <string name="share_chooser_title">Condividi AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Noi amiamo l\'open source, vieni a trovarci</string>
-    <string name="crdroid_telegram_title">Comunità CrDroid</string>
+    <string name="crdroid_telegram_title">Comunità AlphaDroid</string>
     <string name="crdroid_telegram_summary">Siamo su Telegram. Entra!</string>
     <string name="crdroid_telegram_channel_title">Canale degli aggiornamenti</string>
     <string name="crdroid_telegram_channel_summary">Ricevi una notifica delle nuove build su Telegram</string>
@@ -243,9 +241,17 @@
     <string name="monet_engine_chroma_factor_summary">Valori più alti producono colori più luminosi</string>
     <string name="monet_engine_tint_background_title">Sfondo della tonalità</string>
     <string name="monet_engine_tint_background_summary">Utilizza i valori di luminanza e saturazione anche sui colori di sfondo</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
-    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando il PIN/la password viene inserito in modo corretto</string>
+    <string name="monet_engine_style_title">Stile tema</string>
+    <string name="monet_engine_style_tonal_spot">Punto Tonale (Predefinito)</string>
+    <string name="monet_engine_style_vibrant">Vibrante</string>
+    <string name="monet_engine_style_expressive">Espressivo</string>
+    <string name="monet_engine_style_spritz">Spritz</string>
+    <string name="monet_engine_style_rainbow">Arcobaleno</string>
+    <string name="monet_engine_style_fruit_salad">Macedonia</string>
+    <string name="monet_engine_style_muted">Silenziato</string>
+    <string name="monet_engine_style_content">Contenuto</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Sblocca automaticamente se inserisci un PIN corretto. Questo è leggermente meno sicuro di toccare Invio per confermare.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">Ambient Display</string>
     <string name="doze_display_summary">Configura le impostazioni per l\'Ambient Display</string>
@@ -911,8 +917,8 @@
     <string name="qs_tile_layout_summary">Mostra l\'etichetta sotto l\'icona anziché accanto all\'icona</string>
     <string name="qs_columns_portrait_title">Colonne (verticale)</string>
     <string name="qs_columns_landscape_title">Colonne (orizzontale)</string>
-    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
-    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+    <string name="qqs_rows_portrait_title">Righe rapide QS (verticale)</string>
+    <string name="qqs_rows_landscape_title">Righe rapide QS (orizzontale)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Sfondo dell\'orologio colorato</string>
     <string name="statusbar_clock_chip_summary">Colora lo sfondo dell\'orologio nella barra di stato</string>
@@ -939,6 +945,7 @@
     <string name="status_bar_logo_summary">Mostra un logo personalizzato a sinistra o a destra della barra di stato</string>
     <string name="status_bar_logo_position_title">Posizione logo</string>
     <string name="status_bar_logo_style_title">Stile logo</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alieno</string>
@@ -1060,6 +1067,23 @@
     <string name="radio_info_title">Informazioni radio</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Immagine di intestazione</string>
+    <string name="qs_header_image_summary">Selezionare l\'immagine d\'intestazione dello sfondo QS</string>
+    <string name="qs_header_daylight_pack_title">Collezione di immagini d\'intestazione</string>
+    <string name="qs_header_shadow_title">Ombra immagine intestazione</string>
+    <string name="qs_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
+    <string name="qs_header_static_provider_title">Immagine statica</string>
+    <string name="qs_header_daylight_provider_title">Collezione di immagini</string>
+    <string name="qs_header_file_provider_title">Immagine personalizzata</string>
+    <string name="qs_header_provider_title">Provider intestazione</string>
+    <string name="qs_header_browse_title">Sfoglia intestazioni installate</string>
+    <string name="qs_header_browse_summary">Sfoglia tutti i pacchetti delle immagini d\'intestazione disponibili</string>
+    <string name="qs_header_pick_title">Seleziona immagine d\'intestazione</string>
+    <string name="qs_header_pick_summary">Seleziona un\'immagine da utilizzare per la modalità statica</string>
+    <string name="qs_header_file_select_title">Seleziona immagine</string>
+    <string name="qs_header_file_select_summary">Seleziona immagine personalizzata</string>
+    <string name="qs_header_needs_gallery">Devi installare un\'app galleria!</string>
+    <string name="qs_header_offset_title">Immagine intestazione impostata</string>
+    <string name="qs_header_offset_summary">Regola la dimensione intestazione immagine</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Posizione orologio doppia linea</string>
     <string name="kg_small_clock_text_size_title">Piccola dimensione dell\'orologio</string>
@@ -1067,11 +1091,29 @@
     <!-- Island Notification -->
     <string name="island_notification_title">Notifica isola</string>
     <string name="island_notification_summary">Visualizza le notifiche fluttuanti in stile Isola dinamica</string>
-    <string name="island_notification_footer_text">        La funzione di notifica dell\'isola, ispirata all\'isola dinamica di iOS, trasforma le notifiche fluttuanti di Android in utilità di notifica rapida e compatta. Controlli di accesso rapido dell\'isola include le seguenti caratteristiche: n1. Tocca la notifica dell\'isola per rispondere rapidamente alle telefonate, n2. Tieni premuto a lungo la notifica dell\'isola per rifiutare le telefonate, n3. Premi a lungo la notifica dell\'isola per espandere l\'anteprima della notifica dell\'isola.
+    <string name="island_notification_now_playing_title">In riproduzione</string>
+    <string name="island_notification_now_playing_summary">Visualizza il brano attualmente in riproduzione in stile Dynamic Island</string>
+    <string name="island_notification_footer_text">La funzione di notifica dell\'isola, ispirata all\'isola dinamica di iOS, trasforma le notifiche fluttuanti di Android in utilità di notifica rapida e compatta. Controlli di accesso rapido dell\'isola include le seguenti caratteristiche: n1. Tocca la notifica dell\'isola per rispondere rapidamente alle telefonate, n2. Tieni premuto a lungo la notifica dell\'isola per rifiutare le telefonate, n3. Premi a lungo la notifica dell\'isola per espandere l\'anteprima della notifica dell\'isola.
     </string>
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Tema doppio tono</string>
     <string name="qs_dual_tone_summary">Usa colori di sfondo doppio tono invece di AOSP singolo tono</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Stile dei riquadri</string>
+    <string name="qs_tile_ui_style_a11_circle">Stile circolare</string>
+    <string name="qs_tile_ui_style_a11_square">Stile quadrate</string>
+    <string name="qs_tile_ui_style_a11_mix">Cerchio &amp; Piastrelle quadrate</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">Stile pannello QS</string>
+    <string name="qs_panel_style_outline">Contorno</string>
+    <string name="qs_panel_style_two_tone">Tono doppio accento</string>
+    <string name="qs_panel_style_color_pop">Colori pop</string>
+    <string name="qs_panel_style_shaded">Ombreggiato</string>
+    <string name="qs_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="qs_panel_style_neumorph">Neumorph</string>
+    <string name="qs_panel_style_reflected">Riflesso</string>
+    <string name="qs_panel_style_surround">Surround</string>
+    <string name="qs_panel_style_thin">Linea sottile</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">Livelli Volume</string>
@@ -1087,4 +1129,7 @@
     <string name="always_on_display_schedule_sunrise">Alba</string>
     <string name="always_on_display_schedule_mixed_sunset">Si attiva dal tramonto a un dato orario</string>
     <string name="always_on_display_schedule_mixed_sunrise">Si attiva da un dato orario all\'alba</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">Spazio IME</string>
+    <string name="navigation_bar_ime_space_summary">Aggiungi spazio sotto la tastiera quando il suggerimento di navigazione è disabilitato</string>
 </resources>

@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">AlphaDroid-Einstellungen</string>
-    <string name="crdroid_settings_summary">Erweiterte Einstellungen öffnen</string>
     <string name="reset_settings_title">Einstellungen zurücksetzen</string>
-    <string name="reset_settings_message">Dadurch werden die meisten Alpha-Einstellungen für den aktuellen Nutzer auf die Werkseinstellungen zurückgesetzt. Fortfahren?</string>
+    <string name="reset_settings_message">Dadurch werden die meisten AlphaDroid-Einstellungen für den aktuellen Nutzer auf die Standardwerte zurückgesetzt. Fortfahren?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tasten</string>
     <string name="lockscreen_title">Sperrbildschirm</string>
@@ -64,7 +62,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">AlphaDroid teilen</string>
     <string name="share_crdroid_summary">AlphaDroid weiterempfehlen</string>
-    <string name="share_message">Finde heraus, ob es #AlphaDroidAndroid schon für dein Gerät gibt auf: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Finde heraus, ob es #AlphaDroid schon für dein Gerät gibt auf: https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">AlphaDroid teilen</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -243,9 +241,17 @@
     <string name="monet_engine_chroma_factor_summary">Höhere Werte erzeugen kräftigere Farben</string>
     <string name="monet_engine_tint_background_title">Hintergrund einfärben</string>
     <string name="monet_engine_tint_background_summary">Leuchtkraft- und Sättigungseinstellung Einfluss auf die Farben des Hintergrundbilds nehmen lassen</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
-    <string name="unlock_quick_unlock_control_summary">Automatische Entsperrung bei korrekter PIN-/Passworteingabe</string>
+    <string name="monet_engine_style_title">Designstil</string>
+    <string name="monet_engine_style_tonal_spot">Tonal Spot (Standard)</string>
+    <string name="monet_engine_style_vibrant">Lebhaft</string>
+    <string name="monet_engine_style_expressive">Ausdrucksvoll</string>
+    <string name="monet_engine_style_spritz">Spritz</string>
+    <string name="monet_engine_style_rainbow">Regenbogen</string>
+    <string name="monet_engine_style_fruit_salad">Obstsalat</string>
+    <string name="monet_engine_style_muted">Gedämpfte Farben</string>
+    <string name="monet_engine_style_content">Inhalt</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Automatisch entsperren bei korrekter PIN-Eingabe. Diese Option ist etwas unsicherer, als zum Bestätigen auf „Eingabe“ tippen zu müssen.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">Ambient-Modus</string>
     <string name="doze_display_summary">Einstellungen für den Ambient-Modus anpassen</string>
@@ -939,6 +945,7 @@
     <string name="status_bar_logo_summary">Benutzerdefiniertes Logo rechts oder links in der Statusleiste anzeigen</string>
     <string name="status_bar_logo_position_title">Logoposition</string>
     <string name="status_bar_logo_style_title">Logostil</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>
@@ -1060,6 +1067,23 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="radio_info_title">Empfangsinfo</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Bild in Kopfzeile</string>
+    <string name="qs_header_image_summary">Hintergrundbild der Schnelleinstellungskopfzeile auswählen</string>
+    <string name="qs_header_daylight_pack_title">Kopfzeilen-Bildersammlung</string>
+    <string name="qs_header_shadow_title">Kopfzeilen-Bildschatten</string>
+    <string name="qs_header_shadow_summary">Für bessere Sichtbarkeit auf hellen Hintergründen</string>
+    <string name="qs_header_static_provider_title">Statisches Bild</string>
+    <string name="qs_header_daylight_provider_title">Bildersammlung</string>
+    <string name="qs_header_file_provider_title">Benutzerdefiniertes Bild</string>
+    <string name="qs_header_provider_title">Kopfzeilenanbieter</string>
+    <string name="qs_header_browse_title">Installierte Kopfzeilen durchsuchen</string>
+    <string name="qs_header_browse_summary">Durchsuche alle verfügbaren Kopfzeilenpakete</string>
+    <string name="qs_header_pick_title">Hintergrundbild für Kopfzeile auswählen</string>
+    <string name="qs_header_pick_summary">Bild für statischen Modus wählen</string>
+    <string name="qs_header_file_select_title">Bild auswählen</string>
+    <string name="qs_header_file_select_summary">Benutzerdefiniertes Bild auswählen</string>
+    <string name="qs_header_needs_gallery">Dafür muss eine Galerie-App installiert sein!</string>
+    <string name="qs_header_offset_title">Zoomfaktor des Kopfzeilenbilds</string>
+    <string name="qs_header_offset_summary">Größe des Kopfzeilenbilds anpassen</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Position der Uhr bei Anzeige in zwei Zeilen</string>
     <string name="kg_small_clock_text_size_title">Größe der kleinen Uhr</string>
@@ -1067,11 +1091,29 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <!-- Island Notification -->
     <string name="island_notification_title">Island-Benachrichtigungen</string>
     <string name="island_notification_summary">Pop-up-Benachrichtigungen im „Dynamic Island“-Stil anzeigen</string>
+    <string name="island_notification_now_playing_title">Aktuelle Wiedergabe</string>
+    <string name="island_notification_now_playing_summary">Aktuell gespieltes Lied im Dynamic-Island-Stil anzeigen</string>
     <string name="island_notification_footer_text">Mit der von iOS’ Dynamic Island inspirierten Funktion der Island-Benachrichtigungen werden Androids Pop-up-Benachrichtigungen zu einem Schnellzugriff und einem kompakten Benachrichtigungstool umgestaltet.\n\nDie Schnellaktionen der Island haben u. a. die folgenden Funktionen:\n1. Tippen auf die Island-Benachrichtigung: Anruf entgegennehmen.\n2. Gedrückthalten der Island-Benachrichtigung: Anruf abweisen.\n3. Gedrückthalten der Island-Benachrichtigung: Aufklappen der Island-Benachrichtigungs-Vorschau.
     </string>
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Zweierlei Farbtöne</string>
     <string name="qs_dual_tone_summary">Zwei Hintergrundfarbtöne verwenden anstatt des AOSP-Stils mit nur einem Farbton</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Stil der Schnelleinstellungskacheln</string>
+    <string name="qs_tile_ui_style_a11_circle">Kreisförmige Kacheln</string>
+    <string name="qs_tile_ui_style_a11_square">Quadratische Kacheln</string>
+    <string name="qs_tile_ui_style_a11_mix">Kreisförmige &amp; quadratische Kacheln</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">Stil der Schnelleinstellungen</string>
+    <string name="qs_panel_style_outline">Umrandet</string>
+    <string name="qs_panel_style_two_tone">Zwei Akzentfarbtöne</string>
+    <string name="qs_panel_style_color_pop">Knallige Farbe</string>
+    <string name="qs_panel_style_shaded">Schattiert</string>
+    <string name="qs_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="qs_panel_style_neumorph">Neumorph</string>
+    <string name="qs_panel_style_reflected">Reflektiert</string>
+    <string name="qs_panel_style_surround">Eingeschlossen</string>
+    <string name="qs_panel_style_thin">Dünn</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">Lautstärkestufen</string>
@@ -1087,4 +1129,7 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
     <string name="always_on_display_schedule_mixed_sunset">Von Sonnenuntergang bis zu bestimmter Uhrzeit einschalten</string>
     <string name="always_on_display_schedule_mixed_sunrise">Von bestimmter Uhrzeit bis Sonnenaufgang einschalten</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">IME-Abstand</string>
+    <string name="navigation_bar_ime_space_summary">Zusätzlicher Abstand unter Tastatur, wenn die angedeutete Navigationsleiste deaktiviert ist</string>
 </resources>

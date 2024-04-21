@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Paramètres AlphaDroid</string>
-    <string name="crdroid_settings_summary">Les trésors de AlphaDroid</string>
     <string name="reset_settings_title">Réinitialiser les paramètres</string>
-    <string name="reset_settings_message">Cette action réinitialisera la plupart des paramètres Alpha à leurs valeurs par défaut pour l’utilisateur actuel. Souhaitez-vous continuer ?</string>
+    <string name="reset_settings_message">Cette action réinitialisera la plupart des paramètres AlphaDroid à leurs valeurs par défaut pour l’utilisateur actuel. Souhaitez-vous continuer ?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Boutons</string>
     <string name="lockscreen_title">Écran de verrouillage</string>
@@ -64,7 +62,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">Partager AlphaDroid</string>
     <string name="share_crdroid_summary">Faire connaitre AlphaDroid</string>
-    <string name="share_message">Vérifiez si #AlphaDroidAndroid est disponible pour votre appareil @ https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Vérifiez si #AlphaDroid est disponible pour votre appareil @ https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">Partager AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">Open source</string>
@@ -243,9 +241,17 @@
     <string name="monet_engine_chroma_factor_summary">Des valeurs plus élevées produisent des couleurs plus fortes</string>
     <string name="monet_engine_tint_background_title">Teinte de l\'arrière-plan</string>
     <string name="monet_engine_tint_background_summary">Faire en sorte que la Luminance et la sélection Chroma affectent aussi les couleurs d\'arrière-plan</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
-    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement lorsque le bon code PIN/mot de passe est saisi</string>
+    <string name="monet_engine_style_title">Style du thème</string>
+    <string name="monet_engine_style_tonal_spot">Tonal Spot (défaut)</string>
+    <string name="monet_engine_style_vibrant">Éclatant</string>
+    <string name="monet_engine_style_expressive">Expressif</string>
+    <string name="monet_engine_style_spritz">Spritz</string>
+    <string name="monet_engine_style_rainbow">Arc-en-ciel</string>
+    <string name="monet_engine_style_fruit_salad">Salade de fruits</string>
+    <string name="monet_engine_style_muted">Muet</string>
+    <string name="monet_engine_style_content">Contenu</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">Luminosité adaptative</string>
     <string name="doze_display_summary">Configurer les paramètres d\'affichage adaptatif</string>
@@ -877,8 +883,8 @@
     <!-- QS Transparency -->
     <string name="qs_opacity_title">Opacité de l\'arrière-plan</string>
     <string name="qs_opacity_summary">Définir le niveau d\'opacité pour l\'arrière-plan des réglages rapides</string>
-    <string name="qs_footer_opacity_title">Footer opacity</string>
-    <string name="qs_footer_opacity_summary">Set opacity level for QS footer</string>
+    <string name="qs_footer_opacity_title">Opacité du pied de page</string>
+    <string name="qs_footer_opacity_summary">Définir le niveau d\'opacité pour l\'arrière-plan des réglages rapides</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilisation des données</string>
     <string name="qs_footer_datausage_summary">Afficher la somme d\'utilisation des données au bas des réglages rapides</string>
@@ -920,13 +926,13 @@
     <string name="weather_settings_title">Paramètres météo</string>
     <string name="weather_settings_summary">Configurer le pack d\'icônes et le service météo</string>
     <string name="lockscreen_weather_category">Météo</string>
-    <string name="lockscreen_weather_title">Weather update</string>
-    <string name="lockscreen_weather_summary">Display current weather update</string>
+    <string name="lockscreen_weather_title">Mise à Jour Météo</string>
+    <string name="lockscreen_weather_summary">Afficher la position actuelle de la météo</string>
     <string name="lockscreen_weather_enabled_info">Nécessite que le service météo soit activé</string>
     <string name="lockscreen_weather_location_title">Emplacement actuel</string>
     <string name="lockscreen_weather_location_summary">Afficher la position actuelle de la météo</string>
-    <string name="lockscreen_weather_text_title">Current condition</string>
-    <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+    <string name="lockscreen_weather_text_title">Conditions météo</string>
+    <string name="lockscreen_weather_text_summary">Afficher le résumé des conditions météo actuelles</string>
     <string name="lockscreen_weather_style_title">Style Pixel</string>
     <string name="lockscreen_weather_style_summary">Afficher la météo dans une ligne séparée</string>
     <!-- Adaptive Playback -->
@@ -939,6 +945,7 @@
     <string name="status_bar_logo_summary">Afficher un logo personnalisé à gauche ou à droite de la barre d\'état</string>
     <string name="status_bar_logo_position_title">Position du logo</string>
     <string name="status_bar_logo_style_title">Style du logo</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>
@@ -1060,31 +1067,69 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="radio_info_title">Informations radio</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Image de l\'en-tête</string>
+    <string name="qs_header_image_summary">Sélectionner l\'image d\'arrière-plan des réglages rapides</string>
+    <string name="qs_header_daylight_pack_title">Collection des entêtes image</string>
+    <string name="qs_header_shadow_title">Ombre de l\'image d\'en tête</string>
+    <string name="qs_header_shadow_summary">Pour une meilleure visibilité sur des images lumineuses</string>
+    <string name="qs_header_static_provider_title">Image fixe</string>
+    <string name="qs_header_daylight_provider_title">Collection d\'image</string>
+    <string name="qs_header_file_provider_title">Image personnalisée</string>
+    <string name="qs_header_provider_title">Préférence d\'en-tête</string>
+    <string name="qs_header_browse_title">Parcourir les en-têtes installés</string>
+    <string name="qs_header_browse_summary">Parcourir toutes les collections d\'en-têtes disponibles</string>
+    <string name="qs_header_pick_title">Sélectionnez l’image d’en-tête</string>
+    <string name="qs_header_pick_summary">Sélectionnez une image pour le mode statique</string>
+    <string name="qs_header_file_select_title">Sélectionner l\'image</string>
+    <string name="qs_header_file_select_summary">Sélectionner une image personnalisée</string>
+    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
+    <string name="qs_header_offset_title">Header image offset</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Position de l\'horloge en ligne double</string>
     <string name="kg_small_clock_text_size_title">Taille de la petite horloge</string>
     <string name="kg_large_clock_text_size_title">Taille de l\'horloge sur ligne double</string>
     <!-- Island Notification -->
-    <string name="island_notification_title">Island notification</string>
-    <string name="island_notification_summary">Display heads-up notification in Dynamic Island style</string>
-    <string name="island_notification_footer_text">        The Island notification feature, inspired by iOS\'s Dynamic Island, transforms Android\'s heads-up notifications into quick-access and compact notification utility.\n\nIsland Quick Access Controls includes the following features:\n1. Tap island notification to quick answer phone calls.\n2. Long press island notification to reject phone calls.\n3. Long press island notification to expand the island notification preview.
+    <string name="island_notification_title">Notification flottante</string>
+    <string name="island_notification_summary">Afficher les notifications flottantes dans le style de l\'île dynamique</string>
+    <string name="island_notification_now_playing_title">Lecture en cours</string>
+    <string name="island_notification_now_playing_summary">Afficher la chanson en cours de lecture dans le style de \"Dynamic Island\"</string>
+    <string name="island_notification_footer_text">        La fonctionnalité de notifications Island, inspirée de la Dynamic Island d\'iOS, qui transforme les bannières de notifications d\'Android en un utilitaire de notifications compact et à accès rapide.\n\nIsland Quick Access Controls inclut les fonctionnalités suivantes :\n1. Toucher la notification Island pour répondre rapidement à des appels téléphoniques.\n2. Appyer longuement sur la notification Island pour rejeter des appels téléphoniques.\n3. Appyer longuement sur la notification Island pour dérouler l\'aperçu de la notification. 
     </string>
     <!-- QS Dual Tone Colors -->
-    <string name="qs_dual_tone_title">Dual tone themed</string>
-    <string name="qs_dual_tone_summary">Use dual tone background colors instead of AOSP single tone</string>
+    <string name="qs_dual_tone_title">Thème de double tonalité</string>
+    <string name="qs_dual_tone_summary">Utiliser les couleurs de fond double tonalité au lieu de la tonalité unique AOSP</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Style des tuiles des réglages rapides</string>
+    <string name="qs_tile_ui_style_a11_circle">Tuiles circulaires</string>
+    <string name="qs_tile_ui_style_a11_square">Tuiles carrées</string>
+    <string name="qs_tile_ui_style_a11_mix">Tuiles carrées arrondies</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">Style du panneau des réglages rapides</string>
+    <string name="qs_panel_style_outline">Contour</string>
+    <string name="qs_panel_style_two_tone">Accent duochrome</string>
+    <string name="qs_panel_style_color_pop">Couleur Pop</string>
+    <string name="qs_panel_style_shaded">Ombré</string>
+    <string name="qs_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="qs_panel_style_neumorph">Neumorph</string>
+    <string name="qs_panel_style_reflected">Réfléchi</string>
+    <string name="qs_panel_style_surround">Entouré</string>
+    <string name="qs_panel_style_thin">Ligne fine</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
+    <string name="volume_steps_title">Niveaux de volume</string>
+    <string name="volume_steps_summary">Contrôler la granularité de chaque flux</string>
     <string name="max_music_volume_title">Média</string>
     <string name="max_call_volume_title">Appels</string>
-    <string name="max_alarm_volume_title">Alarms</string>
-    <string name="steps_unit">steps</string>
+    <string name="max_alarm_volume_title">Alarmes</string>
+    <string name="steps_unit">pas</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Display schedule</string>
-    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Programme</string>
+    <string name="always_on_display_schedule_summary">Définir le programme pour Always On Display</string>
+    <string name="always_on_display_schedule_sunset">Coucher du soleil</string>
+    <string name="always_on_display_schedule_sunrise">Lever du soleil</string>
+    <string name="always_on_display_schedule_mixed_sunset">S\'active du coucher du soleil jusqu\'à une certaine heure</string>
+    <string name="always_on_display_schedule_mixed_sunrise">S\'active d\'une certaine heure jusqu\'au coucher du soleil</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="navigation_bar_ime_space_summary">Add space below keyboard when navigation hint is disabled</string>
 </resources>

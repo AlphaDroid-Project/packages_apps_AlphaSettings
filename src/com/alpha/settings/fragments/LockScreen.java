@@ -27,15 +27,13 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.text.TextUtils;
 
-import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
-
-import com.alpha.settings.fragments.lockscreen.DozeSettings;
-import com.alpha.settings.fragments.lockscreen.UdfpsSettings;
+import com.alpha.settings.fragments.lockscreen.doze.DozeSettings;
+import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
+import com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.crdroid.OmniJawsClient;
@@ -45,8 +43,6 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
-
-import com.alpha.settings.fragments.lockscreen.UdfpsAnimation;
 
 import java.util.List;
 
@@ -60,16 +56,14 @@ public class LockScreen extends SettingsPreferenceFragment
 
     private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
-    private static final String KEY_FP_SUCCESS_VIBRATE = "fp_success_vibrate";
-    private static final String KEY_FP_ERROR_VIBRATE = "fp_error_vibrate";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
     private static final String KEY_UDFPS_ANIMATIONS = "udfps_recognizing_animation_preview";
+    private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
     private static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
 
     private Preference mUdfpsAnimations;
-    private Preference mFingerprintVib;
-    private Preference mFingerprintVibErr;
+    private Preference mUdfpsIcons;
     private Preference mRippleEffect;
     private Preference mWeather;
     private Preference mScreenOffUdfps;
@@ -87,20 +81,21 @@ public class LockScreen extends SettingsPreferenceFragment
         FingerprintManager mFingerprintManager = (FingerprintManager)
                 getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mUdfpsAnimations = (Preference) findPreference(KEY_UDFPS_ANIMATIONS);
-        mFingerprintVib = (Preference) findPreference(KEY_FP_SUCCESS_VIBRATE);
-        mFingerprintVibErr = (Preference) findPreference(KEY_FP_ERROR_VIBRATE);
+        mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
         mRippleEffect = (Preference) findPreference(KEY_RIPPLE_EFFECT);
         mScreenOffUdfps = (Preference) findPreference(SCREEN_OFF_UDFPS_ENABLED);
 
         if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
             gestCategory.removePreference(mUdfpsAnimations);
-            gestCategory.removePreference(mFingerprintVib);
-            gestCategory.removePreference(mFingerprintVibErr);
+            gestCategory.removePreference(mUdfpsIcons);
             gestCategory.removePreference(mRippleEffect);
             gestCategory.removePreference(mScreenOffUdfps);
         } else {
             if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.animations")) {
                 gestCategory.removePreference(mUdfpsAnimations);
+            }
+            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
+                gestCategory.removePreference(mUdfpsIcons);
             }
             Resources resources = getResources();
             boolean screenOffUdfpsAvailable = resources.getBoolean(
@@ -123,8 +118,6 @@ public class LockScreen extends SettingsPreferenceFragment
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        LineageSettings.Secure.putIntForUser(resolver,
-                LineageSettings.Secure.LOCKSCREEN_MEDIA_METADATA, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.SCREEN_OFF_UDFPS_ENABLED, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -132,13 +125,7 @@ public class LockScreen extends SettingsPreferenceFragment
         Settings.System.putIntForUser(resolver,
                 Settings.System.DOUBLE_TAP_SLEEP_LOCKSCREEN, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.LOCKSCREEN_ALBUMART_FILTER, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.ENABLE_RIPPLE_EFFECT, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.FP_ERROR_VIBRATE, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.FP_SUCCESS_VIBRATE, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_ENABLE_POWER_MENU, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -147,8 +134,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_LOCATION, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_WEATHER_TEXT, 1, UserHandle.USER_CURRENT);
-        DozeSettings.reset(mContext);
         UdfpsAnimation.reset(mContext);
+        UdfpsIconPicker.reset(mContext);
     }
 
     private void updateWeatherSettings() {
@@ -185,13 +172,15 @@ public class LockScreen extends SettingsPreferenceFragment
                             context.getSystemService(Context.FINGERPRINT_SERVICE);
                     if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
                         keys.add(KEY_UDFPS_ANIMATIONS);
-                        keys.add(KEY_FP_SUCCESS_VIBRATE);
-                        keys.add(KEY_FP_ERROR_VIBRATE);
+                        keys.add(KEY_UDFPS_ICONS);
                         keys.add(KEY_RIPPLE_EFFECT);
                         keys.add(SCREEN_OFF_UDFPS_ENABLED);
                     } else {
                         if (!Utils.isPackageInstalled(context, "com.alpha.udfps.animations")) {
                             keys.add(KEY_UDFPS_ANIMATIONS);
+                        }
+                        if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
+                            keys.add(KEY_UDFPS_ICONS);
                         }
                         Resources resources = context.getResources();
                         boolean screenOffUdfpsAvailable = resources.getBoolean(

@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Настройки AlphaDroid</string>
-    <string name="crdroid_settings_summary">Здесь происходит волшебство</string>
     <string name="reset_settings_title">Сбросить настройки</string>
-    <string name="reset_settings_message">Это приведет к сбросу большинства настроек Alpha к значениям по умолчанию для текущего пользователя. Продолжить?</string>
+    <string name="reset_settings_message">Это приведёт к сбросу большинства настроек AlphaDroid к значениям по умолчанию для текущего пользователя. Продолжить?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Кнопки</string>
     <string name="lockscreen_title">Экран блокировки</string>
@@ -64,7 +62,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">Рассказать о AlphaDroid</string>
     <string name="share_crdroid_summary">Пусть другие узнают о AlphaDroid</string>
-    <string name="share_message">Узнайте, доступен ли #AlphaDroidAndroid для вашего устройства на @ https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Узнайте, доступен ли #AlphaDroid для Вашего устройства на @ https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">Рассказать о AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">Github</string>
@@ -245,9 +243,17 @@
     <string name="monet_engine_chroma_factor_summary">Чем больше значение, тем насыщеннее цвета</string>
     <string name="monet_engine_tint_background_title">Оттенок фона</string>
     <string name="monet_engine_tint_background_summary">Выбор яркости и цветности, позволяет также влиять на цвета фона</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">При вводе правильного PIN-кода/пароля разблокировать без нажатия на ОК</string>
+    <string name="monet_engine_style_title">Тема оформления</string>
+    <string name="monet_engine_style_tonal_spot">Тональное пятно (По умолчанию)</string>
+    <string name="monet_engine_style_vibrant">Яркая</string>
+    <string name="monet_engine_style_expressive">Выразительная</string>
+    <string name="monet_engine_style_spritz">Брызги</string>
+    <string name="monet_engine_style_rainbow">Радуга</string>
+    <string name="monet_engine_style_fruit_salad">Фруктовый салат</string>
+    <string name="monet_engine_style_muted">Приглушённая</string>
+    <string name="monet_engine_style_content">Содержание</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если введён правильный PIN-код. Это менее безопасно, чем нажатие кнопки подтверждения.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">Активный экран</string>
     <string name="doze_display_summary">Настройка параметров «Активного экрана»</string>
@@ -540,8 +546,8 @@
     <string name="qs_footer_show_power_menu_title">Меню кнопки питания</string>
     <string name="qs_footer_services_icon_title">Диспетчер задач</string>
     <string name="qs_footer_settings_icon_title">Настройки</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">О crDroid</string>
+    <!-- Device Info screen. AlphaDroid legal. -->
+    <string name="crdroid_license_title">О AlphaDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Регулятор яркости</string>
     <string name="qs_show_brightness_slider_title">Где показывать</string>
@@ -657,7 +663,7 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Мигать, даже если включен режим «Не беспокоить»</string>
     <string name="flashlight_on_call_rate_title">Частота мигания</string>
     <!-- Gaming mode -->
-    <string name="gaming_mode_title">Игровой режим</string>
+    <string name="gaming_mode_title">Поиграем?</string>
     <string name="gaming_mode_summary">Дополнительные возможности для полноценного погружения в игру</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Анимация «Pixel»</string>
@@ -704,7 +710,7 @@
     <string name="display_cutout_force_fullscreen_summary">Принудительно игнорировать вырез экрана</string>
     <string name="display_cutout_force_fullscreen_no_apps">Приложений нет</string>
     <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Базлимитный «Google Фото»</string>
+    <string name="use_photos_spoof_title">Безлимитный «Google Фото»</string>
     <string name="use_photos_spoof_summary">Маскировка устройства под Pixel XL для «Google Фото», чтобы предоставить неограниченное хранилище для резервного копирования фотографий</string>
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Высокий FPS в играх</string>
@@ -943,6 +949,7 @@
     <string name="status_bar_logo_summary">Показывать выбранный логотип слева или справа в строке состояния</string>
     <string name="status_bar_logo_position_title">Расположение логотипа</string>
     <string name="status_bar_logo_style_title">Стиль логотипа</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Пришелец</string>
@@ -1065,6 +1072,23 @@
     <string name="radio_info_title">Информация о сети</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Изображение заголовка</string>
+    <string name="qs_header_image_summary">Выбор фонового изображения заголовка быстрых настроек</string>
+    <string name="qs_header_daylight_pack_title">Коллекция изображений</string>
+    <string name="qs_header_shadow_title">Затемнение изображения</string>
+    <string name="qs_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
+    <string name="qs_header_static_provider_title">Статичное изображение</string>
+    <string name="qs_header_daylight_provider_title">Коллекция изображений</string>
+    <string name="qs_header_file_provider_title">Своё изображение</string>
+    <string name="qs_header_provider_title">Источник изображения</string>
+    <string name="qs_header_browse_title">Обзор предустановленных изображений</string>
+    <string name="qs_header_browse_summary">Просмотр всех доступных коллекций</string>
+    <string name="qs_header_pick_title">Выбор изображения заголовка</string>
+    <string name="qs_header_pick_summary">Выберите изображение для использования в статичном режиме</string>
+    <string name="qs_header_file_select_title">Выбор изображения</string>
+    <string name="qs_header_file_select_summary">Выберите своё изображение</string>
+    <string name="qs_header_needs_gallery">Вы должны установить приложение галереи!</string>
+    <string name="qs_header_offset_title">Высота изображения</string>
+    <string name="qs_header_offset_summary">Изменение высоты изображения заголовка</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Положение вертикальных часов</string>
     <string name="kg_small_clock_text_size_title">Размер маленьких часов</string>
@@ -1074,11 +1098,27 @@
     <string name="island_notification_summary">Показывать всплывающее уведомление в стиле «Динамический остров»</string>
     <string name="island_notification_now_playing_title">Сейчас играет</string>
     <string name="island_notification_now_playing_summary">Воспроизводимая в данный момент песня в стиле «Динамический остров»</string>
-    <string name="island_notification_footer_text">        Функция островковых уведомлений, вдохновлённая динамическим островом iOS, преобразует всплывающие уведомления Android в быстродоступные и компактные уведомления.\n\nСистема быстрого доступа включает в себя следующие функции:\n1. Нажмите на островковое уведомление, чтобы отвечать на телефонные звонки.\n2. Долго удерживайте островковое уведомление, чтобы отклонять телефонные звонки.\n3. Долгое удерживайте островковое уведомление, чтобы развернуть для предварительного просмотра уведомления.
+    <string name="island_notification_footer_text">        Функция островковых уведомлений, вдохновлённая динамическим островом iOS, преобразует всплывающие уведомления Android в быстродоступные и компактные уведомления.\n\nСистема быстрого доступа включает в себя следующие функции:\n1. Нажмите на островковое уведомление, чтобы ответить на телефонный вызов.\n2. Долго удерживайте островковое уведомление, чтобы отклонить телефонный вызов.\n3. Долгое удерживайте островковое уведомление, чтобы развернуть уведомление для просмотра.
     </string>
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Двухтоновая тема</string>
     <string name="qs_dual_tone_summary">Использовать двухтоновый фон, вместо однотонного AOSP</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Стиль плиток</string>
+    <string name="qs_tile_ui_style_a11_circle">Круглые</string>
+    <string name="qs_tile_ui_style_a11_square">Квадратные</string>
+    <string name="qs_tile_ui_style_a11_mix">Круглые и квадратные</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">Стиль панели</string>
+    <string name="qs_panel_style_outline">Контур</string>
+    <string name="qs_panel_style_two_tone">Двухцветный акцент</string>
+    <string name="qs_panel_style_color_pop">Цветная палитра</string>
+    <string name="qs_panel_style_shaded">Затенённый</string>
+    <string name="qs_panel_style_cyberpunk">Киберпанк</string>
+    <string name="qs_panel_style_neumorph">Новое преобразование</string>
+    <string name="qs_panel_style_reflected">Зеркальный</string>
+    <string name="qs_panel_style_surround">Объёмный</string>
+    <string name="qs_panel_style_thin">Тонкая линия</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">Ступени громкости</string>
@@ -1094,4 +1134,7 @@
     <string name="always_on_display_schedule_sunrise">Рассвет</string>
     <string name="always_on_display_schedule_mixed_sunset">Включается с заходом солнца до определённого времени</string>
     <string name="always_on_display_schedule_mixed_sunrise">Включается от заданного времени до восхода солнца</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">Пробел под клавиатурой</string>
+    <string name="navigation_bar_ime_space_summary">Добавить пробел под клавиатурой, когда подсказка навигации отключена</string>
 </resources>

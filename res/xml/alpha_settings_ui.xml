@@ -69,7 +69,6 @@
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:fragment="com.alpha.settings.fragments.ui.WifiIcons"/>
 
-
     <!-- Adaptive icon pack -->
     <Preference
         android:key="android.theme.customization.adaptive_icon_shape"
@@ -77,13 +76,5 @@
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
         android:fragment="com.alpha.settings.fragments.ui.IconShapes"/>
-
-    <!-- Floating rotation button -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="enable_floating_rotation_button"
-        android:icon="@drawable/ic_rotation"
-        android:title="@string/floating_rotation_button_title"
-        android:summary="@string/floating_rotation_button_summary"
-        android:defaultValue="true" />
 
 </PreferenceScreen>

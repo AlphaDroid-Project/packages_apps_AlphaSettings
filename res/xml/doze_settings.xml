@@ -23,7 +23,7 @@
          android:key="ambient_customization"
          android:title="@string/ambient_text_category_title"
          android:summary="@string/ambient_text_category_summary"
-         android:fragment="com.alpha.settings.fragments.lockscreen.AmbientCustomizations" />
+         android:fragment="com.alpha.settings.fragments.lockscreen.doze.AmbientCustomizations" />
 
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="doze_enabled"
@@ -64,7 +64,7 @@
         android:key="edge_light_settings"
         android:title="@string/edge_light_title"
         android:summary="@string/edge_light_summary"
-        android:fragment="com.alpha.settings.fragments.lockscreen.EdgeLightSettings"
+        android:fragment="com.alpha.settings.fragments.lockscreen.doze.EdgeLightSettings"
         android:dependency="doze_enabled" />
 
     <PreferenceCategory

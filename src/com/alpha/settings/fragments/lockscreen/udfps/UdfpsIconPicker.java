@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 crDroid Android Project
+ * Copyright (C) 2022-2024 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +23,7 @@ import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.net.Uri;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -109,6 +110,12 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
         return view;
     }
 
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.UDFPS_ICON, 0, UserHandle.USER_CURRENT);
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.ALPHA;
@@ -148,13 +155,13 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
 
             holder.name.setVisibility(View.GONE);
 
-            /*if (position == Settings.System.getInt(context.getContentResolver(),
+            if (position == Settings.System.getInt(context.getContentResolver(),
                 Settings.System.UDFPS_ICON, 0)) {
                 mAppliedIcon = iconRes;
                 if (mSelectedIcon == null) {
                     mSelectedIcon = iconRes;
                 }
-            }*/
+            }
             holder.itemView.setActivated(iconRes == mSelectedIcon);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -162,8 +169,8 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
                     updateActivatedStatus(mSelectedIcon, false);
                     updateActivatedStatus(iconRes, true);
                     mSelectedIcon = iconRes;
-                    /*Settings.System.putInt(getActivity().getContentResolver(),
-                            Settings.System.UDFPS_ICON, position);*/
+                    Settings.System.putInt(getActivity().getContentResolver(),
+                            Settings.System.UDFPS_ICON, position);
                 }
             });
         }

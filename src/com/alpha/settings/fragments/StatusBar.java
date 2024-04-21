@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2016-2023 crDroid Android Project
-                      2023 AlphaDroid
+ * Copyright (C) 2016-2024 crDroid Android Project
+ * Copyright (C) 2023-2024 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,11 +31,12 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
@@ -81,7 +82,10 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private LineageSystemSettingListPreference mQuickPulldown;
     private SystemSettingListPreference mBatteryPercent;
     private SystemSettingListPreference mBatteryStyle;
-    private SwitchPreference mBatteryTextCharging;
+    private SwitchPreferenceCompat mBatteryTextCharging;
+    private CustomSeekBarPreference mLeftPadding;
+    private CustomSeekBarPreference mRightPadding;
+    private CustomSeekBarPreference mTopPadding;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -125,7 +129,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
         mBatteryPercent.setOnPreferenceChangeListener(this);
 
-        mBatteryTextCharging = (SwitchPreference) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
+        mBatteryTextCharging = (SwitchPreferenceCompat) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
         mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
                 (batterystyle != BATTERY_STYLE_TEXT && batterypercent != 2));
 
@@ -142,18 +146,18 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
         final int defaultLeftPadding = ResourceUtils.getIntDimensionDp(res,
                 com.android.internal.R.dimen.status_bar_padding_start);
-        CustomSeekBarPreference seekBar = findPreference(KEY_STATUSBAR_LEFT_PADDING);
-        seekBar.setDefaultValue(defaultLeftPadding, true);
+        mLeftPadding = findPreference(KEY_STATUSBAR_LEFT_PADDING);
+        mLeftPadding.setDefaultValue(defaultLeftPadding, true);
 
         final int defaultRightPadding = ResourceUtils.getIntDimensionDp(res,
                 com.android.internal.R.dimen.status_bar_padding_end);
-        seekBar = findPreference(KEY_STATUSBAR_RIGHT_PADDING);
-        seekBar.setDefaultValue(defaultRightPadding, true);
+        mRightPadding = findPreference(KEY_STATUSBAR_RIGHT_PADDING);
+        mRightPadding.setDefaultValue(defaultRightPadding, true);
 
         final int defaultTopPadding = ResourceUtils.getIntDimensionDp(res,
                 com.android.internal.R.dimen.status_bar_padding_top);
-        seekBar = findPreference(KEY_STATUSBAR_TOP_PADDING);
-        seekBar.setDefaultValue(defaultTopPadding, true);
+        mTopPadding = findPreference(KEY_STATUSBAR_TOP_PADDING);
+        mTopPadding.setDefaultValue(defaultTopPadding, true);
     }
 
     @Override
@@ -237,6 +241,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 Settings.System.STATUSBAR_RIGHT_PADDING, defaultRightPadding, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_TOP_PADDING, defaultTopPadding, UserHandle.USER_CURRENT);
+
         BatteryBar.reset(mContext);
         Clock.reset(mContext);
         NetworkTrafficSettings.reset(mContext);

@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Setări AlphaDroid</string>
-    <string name="crdroid_settings_summary">Unde se intampla magia</string>
     <string name="reset_settings_title">Resetare setări</string>
-    <string name="reset_settings_message">Aceasta va reseta cele mai multe setări Alpha la valorile lor implicite pentru utilizatorul curent. Doriți să continuați?</string>
+    <string name="reset_settings_message">Aceasta va reseta cele mai multe setări AlphaDroid la valorile lor implicite pentru utilizatorul curent. Doriți să continuați?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Butoane</string>
     <string name="lockscreen_title">Ecran de blocare</string>
@@ -64,11 +62,11 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">Distribuie AlphaDroid</string>
     <string name="share_crdroid_summary">Anunta-i si pe altii despre AlphaDroid</string>
-    <string name="share_message">Verifică dacă #AlphaDroidAndroid este disponibil pentru dispozitivul tău @ https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Verifică dacă #AlphaDroid este disponibil pentru dispozitivul tău @ https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">Distribuie AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Ne plac sursele deschise, vezi mai mulle</string>
+    <string name="crdroid_source_summary">Ne plac sursele deschise, vezi mai multe</string>
     <string name="crdroid_telegram_title">Comunitatea AlphaDroid</string>
     <string name="crdroid_telegram_summary">Suntem pe Telegram. Vino alături de noi!</string>
     <string name="crdroid_telegram_channel_title">Canal actualizări</string>
@@ -244,9 +242,17 @@
     <string name="monet_engine_chroma_factor_summary">Valorile mai mari produc culori mai puternice</string>
     <string name="monet_engine_tint_background_title">Nuanță de fundal</string>
     <string name="monet_engine_tint_background_summary">Face ca Luminanța și Chroma să afecteze și culorile de fundal</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
-    <string name="unlock_quick_unlock_control_summary">Deblochează automat când se introduce corect codul PIN/parola</string>
+    <string name="monet_engine_style_title">Stil temă</string>
+    <string name="monet_engine_style_tonal_spot">Punct de tonaj (implicit)</string>
+    <string name="monet_engine_style_vibrant">Vibrant</string>
+    <string name="monet_engine_style_expressive">Expresiv</string>
+    <string name="monet_engine_style_spritz">Spritz</string>
+    <string name="monet_engine_style_rainbow">Curcubeu</string>
+    <string name="monet_engine_style_fruit_salad">Salata de fructe</string>
+    <string name="monet_engine_style_muted">Mut</string>
+    <string name="monet_engine_style_content">Conținut</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Deblocați automat dacă introduceți un cod PIN corect. Acest lucru este puțin mai sigur decât apăsarea Enter pentru confirmare.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">Afișaj ambiental</string>
     <string name="doze_display_summary">Configuraţi setările pentru afişarea ambientală</string>
@@ -941,6 +947,7 @@
     <string name="status_bar_logo_summary">Afișează o siglă personalizată pe partea stângă sau dreaptă a barei de stare</string>
     <string name="status_bar_logo_position_title">Pozitie logo</string>
     <string name="status_bar_logo_style_title">Stil logo</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Extraterestru</string>
@@ -1062,6 +1069,23 @@
     <string name="radio_info_title">Informații radio</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Imagine antet</string>
+    <string name="qs_header_image_summary">Alege imaginea de fundal a setărilor rapide</string>
+    <string name="qs_header_daylight_pack_title">Colecţia de imagini antet</string>
+    <string name="qs_header_shadow_title">Umbră imagine antet</string>
+    <string name="qs_header_shadow_summary">Pentru o mai bună vizibilitate pe imagini luminoase</string>
+    <string name="qs_header_static_provider_title">Imagine statică</string>
+    <string name="qs_header_daylight_provider_title">Colecţia de imagini</string>
+    <string name="qs_header_file_provider_title">Imagine particularizată</string>
+    <string name="qs_header_provider_title">Furnizor de antet</string>
+    <string name="qs_header_browse_title">Răsfoire anteturi instalate</string>
+    <string name="qs_header_browse_summary">Parcurge toate colectiile disponibile in antet</string>
+    <string name="qs_header_pick_title">Selectaţi imagine antet</string>
+    <string name="qs_header_pick_summary">Selectati o imagine pentru a utiliza in modul static</string>
+    <string name="qs_header_file_select_title">Selectează imagine</string>
+    <string name="qs_header_file_select_summary">Selectaţi imagine particularizată</string>
+    <string name="qs_header_needs_gallery">Trebuie să instalați o aplicație galerie!</string>
+    <string name="qs_header_offset_title">Decalaj imagine antet</string>
+    <string name="qs_header_offset_summary">Reglaţi dimensiunea antetului imaginii</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Poziție ceas cu linie dublă</string>
     <string name="kg_small_clock_text_size_title">Mărime mică a ceasului</string>
@@ -1076,6 +1100,22 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Ton dublu tematic</string>
     <string name="qs_dual_tone_summary">Folosește culori de fundal pentru tonuri duble în locul unui singur ton AOSP</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Stil Setări rapide</string>
+    <string name="qs_tile_ui_style_a11_circle">Circular</string>
+    <string name="qs_tile_ui_style_a11_square">Pătrat</string>
+    <string name="qs_tile_ui_style_a11_mix">Cirular &amp; pătrat</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">Stil panou QS</string>
+    <string name="qs_panel_style_outline">Contur</string>
+    <string name="qs_panel_style_two_tone">Ton dual</string>
+    <string name="qs_panel_style_color_pop">Pop de culoare</string>
+    <string name="qs_panel_style_shaded">Umbrit</string>
+    <string name="qs_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="qs_panel_style_neumorph">Neumorf</string>
+    <string name="qs_panel_style_reflected">Reflectat</string>
+    <string name="qs_panel_style_surround">Încercuit</string>
+    <string name="qs_panel_style_thin">Linie subțire</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">Trepte volum</string>
@@ -1091,4 +1131,7 @@
     <string name="always_on_display_schedule_sunrise">Rasarit</string>
     <string name="always_on_display_schedule_mixed_sunset">Porneşte de la apus până la un timp</string>
     <string name="always_on_display_schedule_mixed_sunrise">Porneşte de la o perioadă până la răsărit</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
+    <string name="navigation_bar_ime_space_summary">Adaugă spațiu sub tastatură când indiciul de navigare este dezactivat</string>
 </resources>

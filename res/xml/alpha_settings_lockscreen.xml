@@ -26,7 +26,7 @@
         android:icon="@drawable/ic_ambient"
         android:title="@string/doze_display_title"
         android:summary="@string/doze_display_summary"
-        android:fragment="com.alpha.settings.fragments.lockscreen.DozeSettings" />
+        android:fragment="com.alpha.settings.fragments.lockscreen.doze.DozeSettings" />
 
     <PreferenceCategory
         android:key="lockscreen_clock_category"
@@ -76,7 +76,7 @@
         android:key="lockscreen_interface_category"
         android:title="@string/lockscreen_interface_category">
 
-        <lineageos.preference.LineageSecureSettingSwitchPreference
+        <!--<lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:icon="@drawable/ic_movie"
             android:title="@string/media_art_title"
@@ -90,7 +90,7 @@
             android:entries="@array/lockscreen_albumart_filter_entries"
             android:entryValues="@array/lockscreen_albumart_filter_values"
             android:dependency="lockscreen_media_metadata"
-            android:defaultValue="0" />
+            android:defaultValue="0" />-->
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
@@ -157,11 +157,18 @@
             android:defaultValue="true" />
 
         <Preference
+            android:key="udfps_icon_picker"
+            android:icon="@drawable/ic_fp_selector"
+            android:title="@string/udfps_icon_picker_title"
+            android:summary="@string/udfps_icon_picker_summary"
+            android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker" />
+
+        <Preference
             android:key="udfps_recognizing_animation_preview"
             android:icon="@drawable/ic_fp_selector"
             android:title="@string/udfps_recog_animation_effect_title"
             android:summary="@string/udfps_recog_animation_effect_summary"
-            android:fragment="com.alpha.settings.fragments.lockscreen.UdfpsAnimation" />
+            android:fragment="com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation" />
 
         <com.alpha.settings.preferences.SecureSettingSwitchPreference
             android:key="screen_off_udfps_enabled"
@@ -170,7 +177,7 @@
             android:summary="@string/screen_off_udfps_summary"
             android:defaultValue="false" />
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="fp_success_vibrate"
             android:icon="@drawable/ic_fp"
             android:title="@string/fp_success_vibrate_title"
@@ -182,7 +189,7 @@
             android:icon="@drawable/ic_fp"
             android:title="@string/fp_error_vibrate_title"
             android:summary="@string/fp_error_vibrate_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" />-->
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="enable_ripple_effect"

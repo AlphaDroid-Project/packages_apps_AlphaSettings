@@ -20,15 +20,6 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
-
-    <!-- Notifications style -->
-    <!--Preference
-        android:key="android.theme.customization.nf_style"
-        android:icon="@drawable/ic_notifications"
-        android:title="@string/theme_customization_notifications_title"
-        android:summary="@string/theme_customization_notifications_summary"
-        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" /-->
-
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
         android:key="max_visible_notification_icons"
         android:icon="@drawable/ic_notification_peek"
@@ -77,8 +68,7 @@
             android:key="heads_up_notifications_enabled"
             android:icon="@drawable/ic_headsup"
             android:title="@string/notification_heads_up_title"
-            android:summary="@string/notification_heads_up_summary"
-            android:defaultValue="true" />
+            android:summary="@string/notification_heads_up_summary" />
 
         <Preference
             android:key="island_notification"

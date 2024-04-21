@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alpha.settings.fragments.lockscreen;
+
+package com.alpha.settings.fragments.lockscreen.doze;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -74,6 +75,6 @@ public class EdgeLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CRDROID_SETTINGS;
+        return MetricsProto.MetricsEvent.ALPHA;
     }
 }

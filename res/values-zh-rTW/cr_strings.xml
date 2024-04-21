@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">AlphaDroid 設定</string>
-    <string name="crdroid_settings_summary">各項設定，一次滿足</string>
     <string name="reset_settings_title">恢復默認設置</string>
     <string name="reset_settings_message">這會將目前使用者的 AlphaDroid 設定重設為預設值。您要繼續嗎？</string>
     <!-- Personalization Categories -->
@@ -64,7 +62,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">分享 AlphaDroid</string>
     <string name="share_crdroid_summary">讓別人知道 AlphaDroid</string>
-    <string name="share_message">在 https://t.me/alphadroid_releases/ 看看 #AlphaDroid</string>
+    <string name="share_message">在 https://t.me/alphadroid_releases/ 看看 #AlphaDroid Android</string>
     <string name="share_chooser_title">分享 AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -72,7 +70,7 @@
     <string name="crdroid_telegram_title">AlphaDroid 社群</string>
     <string name="crdroid_telegram_summary">我們也在 Telegram 上，快加入我們！</string>
     <string name="crdroid_telegram_channel_title">更新通道</string>
-    <string name="crdroid_telegram_channel_summary">在 Telegram 上獲取新版本通知</string>
+    <string name="crdroid_telegram_channel_summary">在 Telegram 上取得新版本通知</string>
     <string name="crdroid_website_title">官方網站</string>
     <string name="crdroid_website_summary">造訪官方網站</string>
     <string name="crdroid_translate_title">翻譯</string>
@@ -242,9 +240,17 @@
     <string name="monet_engine_chroma_factor_summary">較高的彩度會使色彩看起來更鮮明</string>
     <string name="monet_engine_tint_background_title">背景著色</string>
     <string name="monet_engine_tint_background_summary">使背景色彩也套用自訂的亮度及彩度</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">快速解除鎖定</string>
-    <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼／密碼時自動解鎖</string>
+    <string name="monet_engine_style_title">主題風格</string>
+    <string name="monet_engine_style_tonal_spot">色調點（預設）</string>
+    <string name="monet_engine_style_vibrant">繽紛</string>
+    <string name="monet_engine_style_expressive">表現力</string>
+    <string name="monet_engine_style_spritz">噴灑</string>
+    <string name="monet_engine_style_rainbow">彩虹</string>
+    <string name="monet_engine_style_fruit_salad">水果沙拉</string>
+    <string name="monet_engine_style_muted">柔和</string>
+    <string name="monet_engine_style_content">內容</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">微光螢幕</string>
     <string name="doze_display_summary">設定微光螢幕</string>
@@ -283,14 +289,14 @@
     <string name="bluetooth_battery_title">顯示藍牙裝置電池狀態</string>
     <string name="bluetooth_battery_summary">顯示目前連接的藍牙裝置的電池狀態（如果可用）。</string>
     <!-- Tap to sleep on status bar -->
-    <string name="statusbar_doubletap_sleep_title">輕觸關閉螢幕</string>
-    <string name="statusbar_doubletap_sleep_summary">輕觸兩下關閉螢幕</string>
+    <string name="statusbar_doubletap_sleep_title">雙擊關閉螢幕</string>
+    <string name="statusbar_doubletap_sleep_summary">雙擊狀態列關閉螢幕</string>
     <!-- Status bar - Brightness control -->
     <string name="status_bar_toggle_brightness_title">亮度控制</string>
     <string name="status_bar_toggle_brightness_summary">滑動狀態列調整亮度</string>
     <!-- Status bar - Quick pulldown -->
     <string name="status_bar_quick_qs_pulldown_title">快速下拉</string>
-    <string name="status_bar_quick_qs_pulldown_summary">沿著狀態列的%1$s邊緣拉下開啟快速設定面板</string>
+    <string name="status_bar_quick_qs_pulldown_summary">沿著狀態列的%1$s邊緣下拉開啟快速設定面板</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">左側</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">右側</string>
     <string name="status_bar_quick_qs_pulldown_off">停用</string>
@@ -306,8 +312,8 @@
     <string name="smart_pulldown_dismissable">沒有可清除通知時</string>
     <string name="smart_pulldown_ongoing">沒有正在進行的通知時</string>
     <!-- Tap to sleep on status bar -->
-    <string name="lockscreen_doubletap_sleep_title">輕觸睡眠</string>
-    <string name="lockscreen_doubletap_sleep_summary">在鎖定畫面空白處輕觸兩下以使裝置進入休眠</string>
+    <string name="lockscreen_doubletap_sleep_title">雙擊睡眠</string>
+    <string name="lockscreen_doubletap_sleep_summary">在鎖定畫面空白處點擊兩下，使裝置進入休眠</string>
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">字型樣式</string>
     <string name="theme_customization_font_summary">選擇系統字體樣式</string>
@@ -381,12 +387,12 @@
     <string name="status_bar_battery_percent_hidden">隱藏</string>
     <string name="status_bar_battery_percent_text_inside">在圖標裡面</string>
     <string name="status_bar_battery_percent_text_next_right">在圖示右側</string>
-    <string name="status_bar_battery_percent_text_next_left">圖示旁（左側)</string>
+    <string name="status_bar_battery_percent_text_next_left">在圖示左側</string>
     <string name="status_bar_battery_text_charging_title">充電時顯示電量百分比</string>
     <string name="status_bar_battery_text_charging_summary">充電時始終顯示電量百分比</string>
     <!-- Status bar - Battery Bar -->
-    <string name="battery_bar_title">電量條</string>
-    <string name="battery_bar_summary">顯示並自訂於狀態列上的電量欄</string>
+    <string name="battery_bar_title">電量指示條</string>
+    <string name="battery_bar_summary">顯示並自訂於狀態列上的電量指示條</string>
     <string name="battery_bar_color">顏色</string>
     <string name="battery_bar_charging_color">充電時的顏色</string>
     <string name="battery_bar_battery_low_color">電量不足時的顏色</string>
@@ -551,7 +557,7 @@
     <string name="qs_brightness_slider_position_bottom">底部</string>
     <!-- Brightness slider haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">震動回饋</string>
-    <string name="qs_brightness_slider_haptic_summary">調整亮度條時，提供震動回饋</string>
+    <string name="qs_brightness_slider_haptic_summary">調整亮度控制條時，提供震動回饋</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">自動亮度圖示</string>
     <string name="qs_show_auto_brightness_summary">在亮度控制條旁顯示自動調節亮度開關</string>
@@ -630,7 +636,7 @@
     <string name="notification_sound_vib_screen_on_title">煩人通知</string>
     <string name="notification_sound_vib_screen_on_summary">在螢幕開啟時為通知播放音效和震動</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">麥克風和攝像頭的隱私指示器</string>
+    <string name="mic_camera_privacy_indicator_title">麥克風和鏡頭的隱私指示器</string>
     <string name="mic_camera_privacy_indicator_summary">當應用程式在存取麥克風或相機時顯示圖示</string>
     <string name="location_privacy_indicator_title">位置隱私指示器</string>
     <string name="location_privacy_indicator_summary">當應用程式在存取位置時顯示圖示</string>
@@ -873,10 +879,10 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">電池溫度</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">背景不透明度</string>
-    <string name="qs_opacity_summary">設定快速設定背景的不透明度級別</string>
-    <string name="qs_footer_opacity_title">底部不透明度</string>
-    <string name="qs_footer_opacity_summary">設定快速設定底部的不透明度級別</string>
+    <string name="qs_opacity_title">背景透明度</string>
+    <string name="qs_opacity_summary">設定快速設定背景的透明度級別</string>
+    <string name="qs_footer_opacity_title">底部透明度</string>
+    <string name="qs_footer_opacity_summary">設定快速設定底部的透明度級別</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">數據用量</string>
     <string name="qs_footer_datausage_summary">在快速設定底部顯示數據用量</string>
@@ -907,10 +913,10 @@
     <string name="qs_tile_label_hide_summary">圖塊中只顯示圖示</string>
     <string name="qs_tile_layout_title">垂直顯示</string>
     <string name="qs_tile_layout_summary">在圖示下方顯示標題</string>
-    <string name="qs_columns_portrait_title">列（垂直）</string>
-    <string name="qs_columns_landscape_title">列（橫向）</string>
-    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
-    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+    <string name="qs_columns_portrait_title">欄（縱向）</string>
+    <string name="qs_columns_landscape_title">欄（橫向）</string>
+    <string name="qqs_rows_portrait_title">快速快速設定行數 (縱向)</string>
+    <string name="qqs_rows_landscape_title">快速快速設定行數 (橫向)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">時鐘背景</string>
     <string name="statusbar_clock_chip_summary">在時鐘後方顯示背景</string>
@@ -937,6 +943,7 @@
     <string name="status_bar_logo_summary">在狀態列左側顯示自訂圖示</string>
     <string name="status_bar_logo_position_title">圖示位置</string>
     <string name="status_bar_logo_style_title">圖示樣式</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">愛迪達</string>
     <string name="status_bar_logo_style_alien">外星人</string>
@@ -1056,6 +1063,23 @@
     <string name="radio_info_title">手機資訊</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">頂部背景圖片</string>
+    <string name="qs_header_image_summary">選擇快速設定頂部標題圖片</string>
+    <string name="qs_header_daylight_pack_title">頂部圖像合集</string>
+    <string name="qs_header_shadow_title">頂部圖像陰影</string>
+    <string name="qs_header_shadow_summary">為了在使用較明亮的圖片時能有更好的可見度</string>
+    <string name="qs_header_static_provider_title">靜態圖像</string>
+    <string name="qs_header_daylight_provider_title">圖像合集</string>
+    <string name="qs_header_file_provider_title">自訂圖像</string>
+    <string name="qs_header_provider_title">頂部圖像提供者</string>
+    <string name="qs_header_browse_title">瀏覽已安裝的頂部圖像</string>
+    <string name="qs_header_browse_summary">瀏覽所有可用的頂部圖像合集</string>
+    <string name="qs_header_pick_title">選擇頂部圖像</string>
+    <string name="qs_header_pick_summary">選擇用於靜態模式的圖像</string>
+    <string name="qs_header_file_select_title">選擇圖像</string>
+    <string name="qs_header_file_select_summary">選擇自訂圖像</string>
+    <string name="qs_header_needs_gallery">您必須安裝相簿應用程式！</string>
+    <string name="qs_header_offset_title">頂部圖像位移</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">時鐘位置</string>
     <string name="kg_small_clock_text_size_title">小型時鐘字體大小</string>
@@ -1063,11 +1087,30 @@
     <!-- Island Notification -->
     <string name="island_notification_title">動態島通知</string>
     <string name="island_notification_summary">彈出式通知使用動態島風格顯示</string>
-    <string name="island_notification_footer_text">        動態島通知功能，靈感來自iOS的動態島，將Android的懸浮通知轉換為快速訪問和緊湊通知實用程序。\n\n動態島快速訪問控制包括以下功能\n1. 點擊島嶼通知以快速接聽來電。\n2. 長按島嶼通知以拒絕來電\n3. 長按島嶼通知以展開通知預覽。
+    <string name="island_notification_now_playing_title">目前播放</string>
+    <string name="island_notification_now_playing_summary">在動態島中顯示目前播放的曲目</string>
+    <string name="island_notification_footer_text">        動態島通知功能，靈感來自iOS的動態島，將Android的浮動通知轉換為可快速存取且精簡的通知。\n\n動態島快速存取控制包括以下功能\n1. 點擊動態島通知以快速接聽來電。\n2. 長按動態島通知以拒絕來電\n3. 長按動態島通知以展開通知進行預覽。
     </string>
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">雙色調主題</string>
     <string name="qs_dual_tone_summary">使用雙色調背景顏色取代AOSP的單色調</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">快速設定圖塊風格</string>
+    <string name="qs_tile_ui_style_a11_circle">圓形圖塊</string>
+    <string name="qs_tile_ui_style_a11_square">正方形圖塊</string>
+    <string name="qs_tile_ui_style_a11_mix">圓形 &amp; 方形圖塊</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">快速設定面板風格</string>
+    <string name="qs_panel_style_outline">邊框</string>
+    <string name="qs_panel_style_two_tone">雙色主題顏色</string>
+    <string name="qs_panel_style_color_pop">流行色</string>
+    <string name="qs_panel_style_shaded">陰影</string>
+    <string name="qs_panel_style_cyberpunk">賽博朋克</string>
+    <string name="qs_panel_style_neumorph">新擬物風格</string>
+    <string name="qs_panel_style_reflected">反射的</string>
+    <string name="qs_panel_style_surround">環繞</string>
+    <string name="qs_panel_style_thin">細線</string>
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">音量級別</string>
     <string name="volume_steps_summary">控制個別應用的音量級別</string>
@@ -1082,4 +1125,7 @@
     <string name="always_on_display_schedule_sunrise">日出</string>
     <string name="always_on_display_schedule_mixed_sunset">從日落開啟直到自訂時間</string>
     <string name="always_on_display_schedule_mixed_sunrise">從自訂時間開啟直至日出</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">輸入法按鍵空間</string>
+    <string name="navigation_bar_ime_space_summary">導覽列提示關閉時在鍵盤下方新增空間</string>
 </resources>

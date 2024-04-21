@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">AlphaDroid の設定</string>
-    <string name="crdroid_settings_summary">高度な設定</string>
     <string name="reset_settings_title">設定のリセット</string>
-    <string name="reset_settings_message">現在のユーザーのほとんどの Alpha 設定を初期設定に戻します。続行しますか？</string>
+    <string name="reset_settings_message">現在のユーザーのほとんどの AlphaDroid 設定を初期設定に戻します。続行しますか？</string>
     <!-- Personalization Categories -->
     <string name="button_title">ボタン</string>
     <string name="lockscreen_title">ロック画面</string>
@@ -64,7 +62,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">AlphaDroid についてシェアする</string>
     <string name="share_crdroid_summary">みんなに AlphaDroid を知ってもらいましょう</string>
-    <string name="share_message">カスタム ROM #AlphaDroidAndroid を使ってみて！ https://t.me/alphadroid_releases/</string>
+    <string name="share_message">カスタム ROM #AlphaDroid を使ってみて！ https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">AlphaDroid をシェア</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -242,9 +240,17 @@
     <string name="monet_engine_chroma_factor_summary">値が高いほど色が濃くなります</string>
     <string name="monet_engine_tint_background_title">背景を明るくする</string>
     <string name="monet_engine_tint_background_summary">選択した輝度と彩度が背景色にも影響するようにします</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しい PIN / パスワードを入力すると自動的にロック解除します</string>
+    <string name="monet_engine_style_title">テーマスタイル</string>
+    <string name="monet_engine_style_tonal_spot">Tonal Spot (既定)</string>
+    <string name="monet_engine_style_vibrant">Vibrant</string>
+    <string name="monet_engine_style_expressive">Expressive</string>
+    <string name="monet_engine_style_spritz">Spritz</string>
+    <string name="monet_engine_style_rainbow">Rainbow</string>
+    <string name="monet_engine_style_fruit_salad">Fruit Salad</string>
+    <string name="monet_engine_style_muted">Muted</string>
+    <string name="monet_engine_style_content">Content</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">正しい PIN を入力すると自動的にロックが解除されます。 この機能は、Enter をタップして確認するよりも安全性が若干劣ります。</string>
     <!-- Doze settings -->
     <string name="doze_display_title">アンビエント表示</string>
     <string name="doze_display_summary">アンビエント表示の設定を編集します</string>
@@ -702,7 +708,7 @@
     <string name="display_cutout_force_fullscreen_no_apps">アプリはありません</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">無制限のフォトストレージ</string>
-    <string name="use_photos_spoof_summary">Pixel XL for Google Photosアプリとしてデバイスを偽装し、高画質での無制限のバックアップができるようにします。BAN されても責任は負いません</string>
+    <string name="use_photos_spoof_summary">Google フォトアプリでのみ、デバイスを Pixel XL として偽装して、高画質での無制限のバックアップができるようにします</string>
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">ゲーム内でより高い FPS 設定を解放する</string>
     <string name="use_games_spoof_summary">より高い FPS 設定を表示させるために、一部のゲームでは異なるモデルとしてデバイスを偽装します</string>
@@ -937,6 +943,7 @@
     <string name="status_bar_logo_summary">ステータスバーの左右にカスタムロゴを表示します</string>
     <string name="status_bar_logo_position_title">ロゴの位置</string>
     <string name="status_bar_logo_style_title">ロゴのスタイル</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">宇宙人</string>
@@ -1056,6 +1063,23 @@
     <string name="radio_info_title">無線の情報</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">ヘッダー画像</string>
+    <string name="qs_header_image_summary">クイック設定の背景ヘッダー画像を選択</string>
+    <string name="qs_header_daylight_pack_title">ヘッダー画像パック</string>
+    <string name="qs_header_shadow_title">ヘッダー画像の影</string>
+    <string name="qs_header_shadow_summary">明るい画像の時に見やすくします</string>
+    <string name="qs_header_static_provider_title">静止画</string>
+    <string name="qs_header_daylight_provider_title">画像コレクション</string>
+    <string name="qs_header_file_provider_title">カスタム画像</string>
+    <string name="qs_header_provider_title">ヘッダープロパイダー</string>
+    <string name="qs_header_browse_title">インストール済みのヘッダーを参照</string>
+    <string name="qs_header_browse_summary">利用可能なすべてのヘッダーコレクションを表示します</string>
+    <string name="qs_header_pick_title">ヘッダー画像の選択</string>
+    <string name="qs_header_pick_summary">静止画モードで使用する画像を選択します</string>
+    <string name="qs_header_file_select_title">画像を選択</string>
+    <string name="qs_header_file_select_summary">カスタム画像を選択します</string>
+    <string name="qs_header_needs_gallery">ギャラリーアプリをインストールしてください！</string>
+    <string name="qs_header_offset_title">ヘッダー画像オフセット</string>
+    <string name="qs_header_offset_summary">ヘッダー画像のサイズを調整します</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">ダブルライン時計の位置</string>
     <string name="kg_small_clock_text_size_title">小さい時計のサイズ</string>
@@ -1063,11 +1087,29 @@
     <!-- Island Notification -->
     <string name="island_notification_title">アイランド通知</string>
     <string name="island_notification_summary">ヘッドアップ通知をダイナミックアイランドスタイルで表示します</string>
-    <string name="island_notification_footer_text">        iOS のダイナミックアイランドにインスパイアされたアイランド通知機能は、Android のヘッドアップ通知を素早く開けてコンパクトな通知へと変更します。\n\nアイランドクイックアクセスコントロールには以下の機能があります:\n1. アイランド通知をタップして電話に素早く応答する\n2. アイランド通知を長押しして着信を拒否する\n3. アイランド通知を長押しして通知プレビューを展開する
+    <string name="island_notification_now_playing_title">再生中</string>
+    <string name="island_notification_now_playing_summary">現在再生中の曲をダイナミックアイランドスタイルで表示します</string>
+    <string name="island_notification_footer_text">        iOS のダイナミックアイランドにインスパイアされたアイランド通知機能です。Android のヘッドアップ通知を素早く開けるコンパクトな通知へと変更します。\n\nアイランドクイックアクセスコントロールには以下の機能があります:\n1. アイランド通知をタップして電話に素早く応答する\n2. アイランド通知を長押しして着信を拒否する\n3. アイランド通知を長押しして通知プレビューを展開する
     </string>
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">デュアルトーンテーマ</string>
     <string name="qs_dual_tone_summary">AOSP シングルトーンの代わりにデュアルトーンの背景色を使用します</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">クイック設定タイルのスタイル</string>
+    <string name="qs_tile_ui_style_a11_circle">円のタイル</string>
+    <string name="qs_tile_ui_style_a11_square">正方形のタイル</string>
+    <string name="qs_tile_ui_style_a11_mix">円と正方形のタイル</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">クイック設定パネルのスタイル</string>
+    <string name="qs_panel_style_outline">アウトライン</string>
+    <string name="qs_panel_style_two_tone">ツートンアクセント</string>
+    <string name="qs_panel_style_color_pop">カラーポップ</string>
+    <string name="qs_panel_style_shaded">シェーディング</string>
+    <string name="qs_panel_style_cyberpunk">サイバーパンク</string>
+    <string name="qs_panel_style_neumorph">ニューロモルフィック</string>
+    <string name="qs_panel_style_reflected">反射</string>
+    <string name="qs_panel_style_surround">サラウンド</string>
+    <string name="qs_panel_style_thin">細いライン</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">音量の段階</string>
@@ -1083,4 +1125,7 @@
     <string name="always_on_display_schedule_sunrise">日出</string>
     <string name="always_on_display_schedule_mixed_sunset">日没から設定時刻まで</string>
     <string name="always_on_display_schedule_mixed_sunrise">設定時刻から日の出まで</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">IME スペース</string>
+    <string name="navigation_bar_ime_space_summary">ナビゲーションヒントが無効の時、キーボードの下にスペースを追加します</string>
 </resources>

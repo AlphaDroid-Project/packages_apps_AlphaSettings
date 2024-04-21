@@ -16,10 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Налаштування AlphaDroid</string>
-    <string name="crdroid_settings_summary">Додаткові налаштування</string>
     <string name="reset_settings_title">Скинути налаштування</string>
-    <string name="reset_settings_message">Буде здійснено скидання більшості параметрів Alpha до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
+    <string name="reset_settings_message">Буде здійснено скидання більшості параметрів AlphaDroid до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Кнопки</string>
     <string name="lockscreen_title">Блокування екрану</string>
@@ -64,7 +62,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_crdroid_title">Поділитися AlphaDroid</string>
     <string name="share_crdroid_summary">Нехай інші знають про AlphaDroid</string>
-    <string name="share_message">Перевірте, чи доступний #AlphaDroidAndroid для Вашого пристрою @ https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Перевірте, чи доступний #AlphaDroid для Вашого пристрою @ https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">Поділитися AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -245,9 +243,17 @@
     <string name="monet_engine_chroma_factor_summary">Вищі значення дають більш насичені кольори</string>
     <string name="monet_engine_tint_background_title">Відтінок фону</string>
     <string name="monet_engine_tint_background_summary">Зробити так, щоб вибір яскравості та кольоровості також впливав на кольори фону</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
-    <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
+    <string name="monet_engine_style_title">Стиль теми</string>
+    <string name="monet_engine_style_tonal_spot">Тональна точка (за замовчуванням)</string>
+    <string name="monet_engine_style_vibrant">Яскравий</string>
+    <string name="monet_engine_style_expressive">Експресивний</string>
+    <string name="monet_engine_style_spritz">Бризки</string>
+    <string name="monet_engine_style_rainbow">Веселка</string>
+    <string name="monet_engine_style_fruit_salad">Фруктовий салат</string>
+    <string name="monet_engine_style_muted">Без звуку</string>
+    <string name="monet_engine_style_content">Вміст</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Автоматичне розблокування при введенні правильного PIN-коду. Це трохи менш безпечно, ніж натискання Enter для підтвердження.</string>
     <!-- Doze settings -->
     <string name="doze_display_title">Розширений дисплей</string>
     <string name="doze_display_summary">Налаштування параметрів Ambient Display</string>
@@ -882,7 +888,7 @@
     <string name="qs_opacity_title">Прозорість фону</string>
     <string name="qs_opacity_summary">Встановіть рівень непрозорості для фону QS</string>
     <string name="qs_footer_opacity_title">Нижня прозорість</string>
-    <string name="qs_footer_opacity_summary">Встановіть рівень непрозорості для QS нижнього колонтитула</string>
+    <string name="qs_footer_opacity_summary">Встановіть рівень непрозорості для нижнього колонтитула QS</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Використання даних</string>
     <string name="qs_footer_datausage_summary">Відображати інформацію про використання в нижній частині швидких налаштувань</string>
@@ -915,8 +921,8 @@
     <string name="qs_tile_layout_summary">Відображати значок під іконкою поряд з міткою</string>
     <string name="qs_columns_portrait_title">Колонки (портретна орієнтація)</string>
     <string name="qs_columns_landscape_title">Колонки (ландшафтна орієнтація)</string>
-    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
-    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+    <string name="qqs_rows_portrait_title">Швидкі QS Рядки (портрет)</string>
+    <string name="qqs_rows_landscape_title">Швидкі QS рядки (альбомна орієнтація)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Розмиття фону</string>
     <string name="statusbar_clock_chip_summary">Показувати виділені чіпи за годинником</string>
@@ -943,6 +949,7 @@
     <string name="status_bar_logo_summary">Відображати користувацький логотип ліворуч або праворуч від рядка стану</string>
     <string name="status_bar_logo_position_title">Позиція логотипу</string>
     <string name="status_bar_logo_style_title">Стиль логотипу</string>
+    <string name="status_bar_logo_style_crdroid">AlphaDroid</string>
     <string name="status_bar_logo_style_android">Андроїд</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Чужий</string>
@@ -1065,6 +1072,23 @@
     <string name="radio_info_title">Інформація про радіо</string>
     <!-- QS Header -->
     <string name="qs_header_image_title">Зображння-заголовок</string>
+    <string name="qs_header_image_summary">Вибрати фонове зображення панелі швидких налаштувань</string>
+    <string name="qs_header_daylight_pack_title">Колекція зображень заголовка</string>
+    <string name="qs_header_shadow_title">Тінь зображення в заголовку</string>
+    <string name="qs_header_shadow_summary">Для кращої видимості на яскравому тлі</string>
+    <string name="qs_header_static_provider_title">Статичне зображення</string>
+    <string name="qs_header_daylight_provider_title">Колекція зображень</string>
+    <string name="qs_header_file_provider_title">Користувацьке зображення</string>
+    <string name="qs_header_provider_title">Оператор у заголовку</string>
+    <string name="qs_header_browse_title">Огляд встановлених заголовків</string>
+    <string name="qs_header_browse_summary">Перегляд всіх доступних колекцій заголовків</string>
+    <string name="qs_header_pick_title">Користувацька картинка заголовку</string>
+    <string name="qs_header_pick_summary">Виберіть зображення для статичного режиму</string>
+    <string name="qs_header_file_select_title">Обрати зображення</string>
+    <string name="qs_header_file_select_summary">Виберіть користувацьку картинку</string>
+    <string name="qs_header_needs_gallery">Ви повинні встановити додаток для галереї!</string>
+    <string name="qs_header_offset_title">Зміщення зображення заголовка</string>
+    <string name="qs_header_offset_summary">Налаштувати розмір заголовка зображення</string>
     <!-- Lockscreen Clock -->
     <string name="kg_custom_clock_top_margin_title">Дворядкова позиція годинника</string>
     <string name="kg_small_clock_text_size_title">Розмір маленького годинника</string>
@@ -1072,11 +1096,29 @@
     <!-- Island Notification -->
     <string name="island_notification_title">Острівневе сповіщення</string>
     <string name="island_notification_summary">Відображати сповіщення Heads-Up в стилі Dynamic</string>
+    <string name="island_notification_now_playing_title">Відтворюється зараз</string>
+    <string name="island_notification_now_playing_summary">Відображати поточну пісню в стилі Dynamic Island</string>
     <string name="island_notification_footer_text">Функція сповіщень Island, натхненна Dynamic Island від iOS, перетворює сповіщення Android на компактну утиліту для швидкого доступу.\n\nКерування швидким доступом Island включає такі функції:\n1. Торкніться сповіщення острова, щоб швидко відповідати на телефонні дзвінки.\n2. Натисніть і утримуйте сповіщення острова, щоб відхилити телефонні дзвінки.\n3. Утримуйте сповіщення про острів, щоб розгорнути попередній перегляд сповіщень про острів.
     </string>
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Подвійна тематика</string>
     <string name="qs_dual_tone_summary">Використовувати подвійний тональний фон замість окремого тону AOSP</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Стиль плиток швидких налаштувань</string>
+    <string name="qs_tile_ui_style_a11_circle">Круглі плитки</string>
+    <string name="qs_tile_ui_style_a11_square">Квадратні плитки</string>
+    <string name="qs_tile_ui_style_a11_mix">Коло &amp; Квадратні плитки</string>
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">Стиль панелі швидких налаштувань</string>
+    <string name="qs_panel_style_outline">Контурні</string>
+    <string name="qs_panel_style_two_tone">Двотоновий акцент</string>
+    <string name="qs_panel_style_color_pop">Кольоровий ефект</string>
+    <string name="qs_panel_style_shaded">Затінений</string>
+    <string name="qs_panel_style_cyberpunk">Кіберпанк</string>
+    <string name="qs_panel_style_neumorph">Невморф</string>
+    <string name="qs_panel_style_reflected">Відбитий</string>
+    <string name="qs_panel_style_surround">Об\'ємний</string>
+    <string name="qs_panel_style_thin">Тінетка</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">Рівні гучності</string>
@@ -1092,4 +1134,7 @@
     <string name="always_on_display_schedule_sunrise">Схід сонця</string>
     <string name="always_on_display_schedule_mixed_sunset">Вмикається від заходу до заданого часу</string>
     <string name="always_on_display_schedule_mixed_sunrise">Вмикається від часу до сходу сонця</string>
+    <!-- IME Space -->
+    <string name="navigation_bar_ime_space_title">Місце під клавіатурою</string>
+    <string name="navigation_bar_ime_space_summary">Додати пробіл під клавіатурою при вимкненій підказці навігації</string>
 </resources>

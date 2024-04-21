@@ -157,27 +157,27 @@
             android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
 
-        <!-- Brightness bar style -->
-        <Preference
-            android:key="android.theme.customization.bb_style"
-            android:icon="@drawable/ic_brightness"
-            android:title="@string/theme_customization_brightness_bar_title"
-            android:summary="@string/theme_customization_brightness_bar_summary"
-            android:fragment="com.alpha.settings.fragments.qs.BrightnessBarStyles" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
 
-        <!-- QS panel style -->
-        <Preference
-            android:key="android.theme.customization.qs_style"
-            android:icon="@drawable/ic_qs_panel"
-            android:title="@string/theme_customization_qs_style_title"
-            android:summary="@string/theme_customization_qs_style_summary"
-            android:fragment="com.alpha.settings.fragments.qs.QsPanelStyles" />
+        <ListPreference
+            android:key="qs_tile_ui_style"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/qs_tile_ui_style_title"
+            android:entries="@array/qs_tile_ui_style_entries"
+            android:entryValues="@array/qs_tile_ui_style_values"
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:key="qs_panel_style"
+            android:icon="@drawable/ic_color_bucket"
+            android:title="@string/qs_panel_style_title"
+            android:entries="@array/qs_panel_style_entries"
+            android:entryValues="@array/qs_panel_style_values"
+            android:defaultValue="0" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
@@ -216,7 +216,7 @@
             android:key="qs_layout_columns_landscape"
             android:icon="@drawable/ic_qs_tile"
             android:title="@string/qs_columns_landscape_title"
-            android:max="6"
+            android:max="5"
             settings:min="2"
             settings:interval="1"
             android:defaultValue="4" />

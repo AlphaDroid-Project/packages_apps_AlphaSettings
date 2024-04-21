@@ -651,7 +651,7 @@
 
     <!-- Custom logo style -->
     <string-array name="status_bar_logo_style_entries" translatable="false">
-        <item>@string/status_bar_logo_style_alpha</item>
+        <item>@string/status_bar_logo_style_crdroid</item>
         <item>@string/status_bar_logo_style_android</item>
         <item>@string/status_bar_logo_style_adidas</item>
         <item>@string/status_bar_logo_style_alien</item>
@@ -720,7 +720,6 @@
         <item>30</item>
         <item>31</item>
         <item>32</item>
-        <item>33</item>
     </string-array>
 
     <!-- Vibration patterns -->
@@ -784,21 +783,84 @@
         <item>1800000</item>
     </string-array>
 
-    <!-- QS header image -->
-    <string-array name="qs_header_image_tint_entries" translatable="false">
-        <item>@string/qs_header_image_tint_none</item>
-        <item>@string/qs_header_image_tint_accent</item>
-        <item>@string/qs_header_image_tint_primary</item>
-        <item>@string/qs_header_image_tint_primary_inverse</item>
-        <item>@string/qs_header_image_tint_custom</item>
+    <!-- QS Tiles Style -->
+    <string-array name="qs_tile_ui_style_entries">
+        <item>@string/color_default</item>
+        <item>@string/qs_tile_ui_style_a11_circle</item>
+        <item>@string/qs_tile_ui_style_a11_square</item>
+        <item>@string/qs_tile_ui_style_a11_mix</item>
     </string-array>
 
-    <string-array name="qs_header_image_tint_values" translatable="false">
+    <string-array name="qs_tile_ui_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- QS Panel Style -->
+    <string-array name="qs_panel_style_entries" translatable="false">
+        <item>@string/color_default</item>
+        <item>@string/qs_panel_style_outline</item>
+        <item>@string/qs_panel_style_two_tone</item>
+        <item>@string/qs_panel_style_color_pop</item>
+        <item>@string/qs_panel_style_shaded</item>
+        <item>@string/qs_panel_style_cyberpunk</item>
+        <item>@string/qs_panel_style_neumorph</item>
+        <item>@string/qs_panel_style_reflected</item>
+        <item>@string/qs_panel_style_surround</item>
+        <item>@string/qs_panel_style_thin</item>
+    </string-array>
+
+    <string-array name="qs_panel_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <!-- Monet theme styles  -->
+    <string-array name="monet_engine_style_entries">
+        <item>@string/monet_engine_style_tonal_spot</item>
+        <item>@string/monet_engine_style_vibrant</item>
+        <item>@string/monet_engine_style_expressive</item>
+        <item>@string/monet_engine_style_spritz</item>
+        <item>@string/monet_engine_style_rainbow</item>
+        <item>@string/monet_engine_style_fruit_salad</item>
+        <item>@string/monet_engine_style_muted</item>
+        <item>@string/monet_engine_style_content</item>
+    </string-array>
+
+    <string-array name="monet_engine_style_values" translatable="false">
+        <item>TONAL_SPOT</item>
+        <item>VIBRANT</item>
+        <item>EXPRESSIVE</item>
+        <item>SPRITZ</item>
+        <item>RAINBOW</item>
+        <item>FRUIT_SALAD</item>
+        <item>MUTED</item>
+        <item>CONTENT</item>
+    </string-array>
+
+    <!-- Monet color sources  -->
+    <string-array name="monet_engine_color_source_entries">
+        <item>@string/monet_engine_color_source_both</item>
+        <item>@string/monet_engine_color_source_home</item>
+        <item>@string/monet_engine_color_source_lock</item>
+        <item>@string/monet_engine_color_source_preset</item>
+    </string-array>
+
+    <string-array name="monet_engine_color_source_values" translatable="false">
+        <item>both</item>
+        <item>home_wallpaper</item>
+        <item>lock_wallpaper</item>
+        <item>preset</item>
     </string-array>
 
     <!-- AOD Schedule -->
@@ -816,5 +878,18 @@
         <item>3</item>
         <item>4</item>
         <item>2</item>
+    </string-array>
+
+    <!-- QS Header -->
+    <string-array name="qs_header_provider_entries" translatable="false">
+        <item>@string/qs_header_daylight_provider_title</item>
+        <item>@string/qs_header_static_provider_title</item>
+        <item>@string/qs_header_file_provider_title</item>
+    </string-array>
+
+    <string-array name="qs_header_provider_values" translatable="false">
+        <item>daylight</item>
+        <item>static</item>
+        <item>file</item>
     </string-array>
 </resources>
