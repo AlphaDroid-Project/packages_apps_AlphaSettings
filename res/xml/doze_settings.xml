@@ -19,11 +19,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/doze_display_title">
 
-    <Preference
+    <!--<Preference
          android:key="ambient_customization"
          android:title="@string/ambient_text_category_title"
          android:summary="@string/ambient_text_category_summary"
-         android:fragment="com.alpha.settings.fragments.lockscreen.doze.AmbientCustomizations" />
+    android:fragment="com.alpha.settings.fragments.lockscreen.doze.AmbientCustomizations" />-->
 
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="doze_enabled"
