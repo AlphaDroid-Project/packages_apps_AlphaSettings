@@ -86,12 +86,22 @@
             android:summary="@string/netflix_spoof_summary"
             android:defaultValue="false" />
 
+        <!-- Hide developer settings status -->
         <Preference
             android:key="hide_developer_status_settings"
+            android:icon="@drawable/ic_settings_development"
             android:title="@string/hide_developer_status_title"
             android:summary="@string/hide_developer_status_summary"
             android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
             settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
+
+        <!-- Spoof storage encryption -->
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="spoof_storage_encryption_status"
+            android:icon="@drawable/ic_data_encryption"
+            android:title="@string/spoof_storage_encryption_status_title"
+            android:summary="@string/spoof_storage_encryption_status_summary"
+            android:defaultValue="false"/>
     </PreferenceCategory>
 
     <!-- Google services
