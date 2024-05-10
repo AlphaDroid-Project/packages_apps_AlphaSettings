@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Ключ: Алфавит целиком</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Яркость</string>
     <string name="preference_category_battery">Батарея</string>
@@ -24,13 +23,13 @@
     <string name="preference_category_clock">Часы</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Стиль настроек</string>
-    <string name="settings_dashboard_style_summary">Настройки главной страницы и стиля алфавита</string>
+    <string name="settings_dashboard_style_summary">Настройки домашней страницы и стиля AlphaSettings</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Максимальное количество видимых значков уведомлений</string>
-    <string name="max_visible_notification_icons_summary">Макс. количество значков, в строке состояния</string>
+    <string name="max_visible_notification_icons_title">Значки уведомлений</string>
+    <string name="max_visible_notification_icons_summary">Максимальное количество значков в строке состояния</string>
     <!-- Status bar padding -->
     <string name="statusbar_padding">Отступы строки состояния</string>
     <string name="statusbar_top_padding">Верхний отступ</string>
@@ -43,9 +42,9 @@
     <string name="ambient_text_category_title">Настройка активного экрана</string>
     <string name="ambient_text_category_summary">Настройка внешнего вида активного экрана</string>
     <string name="ambient_text_title">Текст</string>
-    <string name="ambient_text_summary">Показывать текст в AoD</string>
+    <string name="ambient_text_summary">Показывать текст на всегда включённом экране</string>
     <string name="ambient_text_animation_title">Анимация текста</string>
-    <string name="ambient_text_animation_summary">Показывать анимацию при показе AoD</string>
+    <string name="ambient_text_animation_summary">Показывать анимацию при показе всегда включённого экрана</string>
     <string name="ambient_text_size_title">Размер текста</string>
     <string name="ambient_text_font_title">Шрифт текста</string>
     <string name="ambient_text_string_title">Задать текст</string>
@@ -120,23 +119,6 @@
     <string name="power_menu_animation_translucent_top">Прозрачность (сверху)</string>
     <string name="power_menu_animation_translucent_bottom">Прозрачность (снизу)</string>
     <string name="power_menu_animation_rotate">Поворот</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Фон часов</string>
-    <string name="statusbar_clock_chip_summary">Показывать фон под часами цвета акцента</string>
-    <string name="solid_accent">Сплошной цвет акцента</string>
-    <string name="outline">Контурные</string>
-    <string name="solid_accent_gradient">Градиент сплошного цветового акцента</string>
-    <string name="solid_gradient">Сплошная градиентная сторона</string>
-    <string name="solid_gradient_corner">Сплошной градиент острый</string>
-    <string name="solid_gradient_void">Градиентная пустота</string>
-    <string name="solid_gradient_neumorph">Нойморфный градиент</string>
-    <string name="solid_gradient_stroke">Резкий градиентный штрих</string>
-    <string name="solid_accent_transperent">Полупрозрачный акцент</string>
-    <string name="solid_gradient_light">Светлый градиент</string>
-    <string name="solid_gradient_shape">Острый градиентный угол</string>
-    <string name="solid_gradient_void_light">Градиентный светлой пустоты</string>
-    <string name="status_bar_clock_font_style_title">Стиль шрифта часов</string>
-    <string name="status_bar_clock_color_title">Цвет шрифта часов</string>
     <!-- Font Customizations for Functions -->
     <string name="function_font_stock">Обычный(по умолчанию)</string>
     <string name="function_font_bold">Жирный</string>
@@ -191,7 +173,7 @@
     <string name="qs_haptic_feedback_title">Виброотклик быстрых настроек</string>
     <string name="qs_haptic_feedback_summary">Вибрация при касании плиток быстрых настроек</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_title">Настройки Alpha</string>
     <string name="alpha_settings_summary">Там будут вкусняшки!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -208,13 +190,12 @@
     <string name="category_device_info">Устройство</string>
     <!-- Build info -->
     <string name="build_status_title">Статус сборки</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_summary">Неофициальная</string>
     <string name="build_status_official">Официальный</string>
-    <string name="build_status_summary">Поддерживается</string>
-    <string name="build_status_oopsie">Поиск сопровождающего...</string>
-    <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Игнорировать флаг безопасности окон</string>
-    <string name="ignore_window_secure_summary">Снимите ограничения на скриншоты и записи экрана для всех приложений. В некоторых случаях это может быть удобно, но может привести к утечке конфиденциальной информации.</string>
+    <string name="build_status_unofficial">Неофициальная</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Сопровождающий</string>
+    <string name="maintainer_summary">В поиске сопровождающего...</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Скрыть статус разработчика</string>
     <string name="hide_developer_status_summary">Скрыть статус разработчика в приложениях</string>
@@ -279,9 +260,6 @@
     <string name="status_bar_battery_style_icon_landscape_ios16">Горизонтальный iOS 16</string>
     <string name="status_bar_battery_style_icon_landscape_origami">Горизонтальный Оригами</string>
     <string name="status_bar_battery_style_icon_landscape_miui_pill">Горизонтальный MiUI талон</string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Принудительно LTE CA</string>
-    <string name="force_lte_ca_summary">Принудительно объединять LTE операторов для работы</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons_title">Комбинированные значки сигналов</string>
     <string name="combined_status_bar_signal_icons_summary">Показывать комбинированный значок для WiFi и мобильного сигнала</string>
@@ -317,9 +295,6 @@
     <!-- Fastcharge -->
     <string name="restricted_current_summary">Задать максимально допустимый текущий (mA)</string>
     <string name="fastcharge_disabled_extended_summary">Зарядка ограничена: <xliff:g id="current" example="3000 mA">%1$s</xliff:g></string>
-    <!-- USB configuration -->
-    <string name="usb_default_config_title">Настройки USB</string>
-    <string name="usb_default_config_summary">Выберите конфигурацию USB по умолчанию</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">Процент яркости</string>
     <string name="bb_show_percentage_summary">Показывать процент яркости в строке яркости</string>
@@ -332,6 +307,8 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Показать Активный экран</string>
     <string name="doze_gesture_ambient_summary">Показывать Активный экран вместо полного пробуждения экрана</string>
+    <string name="gesture_wake_ambient">Показать Активный экран</string>
+    <string name="gesture_wake">Полное пробуждение</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Активный экран</string>
     <string name="doze_enabled_summary">Включает отображение событий на выключенном экране</string>
@@ -353,4 +330,93 @@
     <string name="brightness_slider_haptics_intensity_title">Вибрация ползунка яркости</string>
     <string name="edge_scrolling_haptics_intensity_title">Интенсивность вибрации прокрутки</string>
     <string name="volume_slider_haptics_intensity_title">Вибрация ползунка громкости</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о сети</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности в приложениях</string>
+    <string name="ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются чёрными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Настройки USB</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
+    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Принудительно LTE CA</string>
+    <string name="force_lte_ca_summary">Принудительно объединять LTE операторов для работы</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Диспетчер простоя</string>
+    <string name="idle_manager_summary">Остановка всех несущественных фоновых процессов, когда устройство находится в режиме сна</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_summary_on">Включено / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Выкл / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не изменять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Без звука</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Рассвет</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с заката до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода</string>
+    <string name="sleep_mode_toggles_title">Переключатели</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключать Wi-Fi в спящем режиме</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Blueooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключить Bluetooth, когда включен спящий режим</string>
+    <string name="sleep_mode_cellular_toggle_title">Выключить мобильные данные</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключить мобильные данные, когда включен спящий режим</string>
+    <string name="sleep_mode_location_toggle_title">Выключить местоположение</string>
+    <string name="sleep_mode_location_toggle_summary">Отключать местоположение в спящем режиме</string>
+    <string name="sleep_mode_sensors_toggle_title">Выключать датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключать датчики в спящем режиме</string>
+    <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы для экономии заряда батареи и отключения звука телефона во время сна.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Включить сейчас</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Отключить сейчас</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Включить до рассвета</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Отключить до заката</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Включить до <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Выключить до <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Частота обновления</string>
+    <string name="refresh_rate_summary_vrr_off">%d Гц</string>
+    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивные)</string>
+    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string>
+    <string name="refresh_rate_vrr_summary">Автоматическое снижение частоты обновления для экономии заряда во время простоя. Может вызывать мерцания или искажение цветов на некоторых дисплеях</string>
+    <string name="refresh_rate_footer">Более высокая скорость обновления делает отображение плавным, но увеличивает потребление энергии</string>
+    <string name="keywords_refresh_rate">обновление, частота, плавность, пик, 60гц, 90гц, 120гц, 144гц, 165гц</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
