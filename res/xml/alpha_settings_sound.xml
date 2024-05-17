@@ -78,6 +78,13 @@
             android:icon="@drawable/ic_settings_sound"
             android:title="@string/volume_panel_on_left_title" />
 
+
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="volume_show_volume_percent"
+            android:title="@string/volume_show_volume_percent_title"
+            android:summary="@string/volume_show_volume_percent_summary"
+            android:defaultValue="true"/>
+
         <com.alpha.settings.preferences.SecureSettingSeekBarPreference
             android:key="volume_dialog_dismiss_timeout"
             android:icon="@drawable/ic_music_note"
