@@ -64,9 +64,6 @@
     <string name="ambient_image_title">熄屏显示图片</string>
     <string name="file_header_select_title">选择本地图片</string>
     <string name="file_header_select_summary">从存储选择图片</string>
-    <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">屏幕指纹触发颜色</string>
-    <string name="udfps_pressed_color_summary">选择你喜欢的屏幕指纹触发颜色</string>
     <!-- Quicksettings media category -->
     <string name="media_category">媒体播放器</string>
     <!-- Squiggle animation -->
@@ -75,100 +72,6 @@
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">UI 风格</string>
     <string name="theme_customization_ui_style_summary">为你的界面设置自定义风格</string>
-    <!-- Monet settings -->
-    <string name="monet_settings_title">Monet 设置</string>
-    <string name="monet_settings_summary">附加设置以自定义Monet引擎</string>
-    <string name="theme_style_title">主题样式</string>
-    <string name="theme_style_tonal_spot">色调点 (默认)</string>
-    <string name="theme_style_vibrant">鲜艳</string>
-    <string name="theme_style_expressive">丰富</string>
-    <string name="theme_style_spritz">阅读</string>
-    <string name="theme_style_rainbow">彩虹</string>
-    <string name="theme_style_fruit_salad">水果沙拉</string>
-    <string name="theme_style_muted">静音</string>
-    <string name="theme_style_content">内容</string>
-    <string name="color_source_title">颜色来源</string>
-    <string name="color_source_both">两者(默认)</string>
-    <string name="color_source_home">主页壁纸</string>
-    <string name="color_source_lock">锁屏壁纸</string>
-    <string name="color_source_preset">预设值</string>
-    <string name="accent_color_title">强调色</string>
-    <string name="accent_color_summary">覆盖默认强调色</string>
-    <string name="accent_background_title">强调色背景</string>
-    <string name="accent_background_summary">为背景选择不同的强调色</string>
-    <string name="bg_color_title">背景颜色</string>
-    <string name="bg_color_summary">覆盖默认背景颜色</string>
-    <string name="luminance_factor_title">亮度</string>
-    <string name="luminance_factor_summary">数值越高颜色越亮</string>
-    <string name="chroma_factor_title">色度</string>
-    <string name="chroma_factor_summary">数值越高颜色越鲜艳</string>
-    <string name="tint_background_title">背景色调</string>
-    <string name="tint_background_summary">让背景色彩也使用自定义亮度和色度</string>
-    <!-- Power menu Animations  -->
-    <string name="power_menu_anim_cat">电源界面动画选项</string>
-    <string name="power_menu_animation_title">电源菜单动画</string>
-    <string name="power_menu_animation_dialog_title">选择电源菜单动画</string>
-    <string name="power_menu_animation_aosp">AOSP (默认)</string>
-    <string name="power_menu_animation_bottom">底部</string>
-    <string name="power_menu_animation_top">顶部</string>
-    <string name="power_menu_animation_xylon">飞</string>
-    <string name="power_menu_animation_slide">滑动</string>
-    <string name="power_menu_animation_turn">旋转</string>
-    <string name="power_menu_animation_fly">渐变</string>
-    <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">半透明（顶部）</string>
-    <string name="power_menu_animation_translucent_bottom">半透明 (底部)</string>
-    <string name="power_menu_animation_rotate">旋转</string>
-    <!-- Font Customizations for Functions -->
-    <string name="function_font_stock">正常 (默认)</string>
-    <string name="function_font_bold">粗体</string>
-    <string name="function_font_italic">斜体</string>
-    <string name="function_font_bold_italic">粗斜体</string>
-    <string name="function_font_light_italic">细斜体</string>
-    <string name="function_font_thin_italic">细斜体</string>
-    <string name="function_font_light">细体</string>
-    <string name="function_font_thin">纤细</string>
-    <string name="function_font_condensed_normal">紧凑</string>
-    <string name="function_font_condensed_italic">紧凑斜体</string>
-    <string name="function_font_condensed_bold">浓缩粗体</string>
-    <string name="function_font_condensed_bold_italic">紧凑粗斜体</string>
-    <string name="function_font_condensed_light">紧凑细体</string>
-    <string name="function_font_condensed_light_italic">紧凑细斜体</string>
-    <string name="function_font_medium_normal">中等</string>
-    <string name="function_font_medium_italic">中等斜体</string>
-    <string name="function_font_black">黑体</string>
-    <string name="function_font_black_italic">斜黑体</string>
-    <string name="function_font_dancingscript">DancingScript</string>
-    <string name="function_font_dancingscript_bold">DancingScript 粗体</string>
-    <string name="function_font_comingsoon">ComingSoon</string>
-    <string name="function_font_notoserif">NotoSerif 标准</string>
-    <string name="function_font_notoserif_italic">NotoSerif 斜体</string>
-    <string name="function_font_notoserif_bold">NotoSerif 粗体</string>
-    <string name="function_font_notoserif_bold_italic">NotoSerif 粗斜体</string>
-    <!-- QS Page Transitions -->
-    <string name="qs_transitions_title">快速设置页面过渡</string>
-    <string name="qs_transitions_default">默认</string>
-    <string name="qs_transitions_cube_in">方块内部</string>
-    <string name="qs_transitions_cube_out">方块外部</string>
-    <string name="qs_transitions_accordion">可折叠的</string>
-    <string name="qs_transitions_background_to_foreground">从背景到前景</string>
-    <string name="qs_transitions_depth_page">深度页面</string>
-    <string name="qs_transitions_fade">淡入淡出</string>
-    <string name="qs_transitions_foreground_to_background">从前景到背景</string>
-    <string name="qs_transitions_rotate_down">向下旋转</string>
-    <string name="qs_transitions_rotate_up">向上旋转</string>
-    <string name="qs_transitions_stack">堆叠</string>
-    <string name="qs_transitions_tablet">平板</string>
-    <string name="qs_transitions_zoom_in">放大</string>
-    <string name="qs_transitions_zoom_out">缩小</string>
-    <string name="qs_transitions_zoom_out_slide">放大滑块</string>
-    <!-- Volume Styles -->
-    <string name="rui_style">Realme UI 风格</string>
-    <string name="rising_style">Rice 样式</string>
-    <string name="volume_style_title">音量面板样式</string>
-    <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">音量媒体输出</string>
-    <string name="volume_media_output_toggle_summary">当有音频播放时显示媒体输出开关</string>
     <!-- QS haptic feedback -->
     <string name="qs_haptic_feedback_title">触摸反馈</string>
     <string name="qs_haptic_feedback_summary">触摸快速设置磁贴时振动</string>
@@ -196,47 +99,14 @@
     <!-- Maintainer -->
     <string name="maintainer_title">维护者</string>
     <string name="maintainer_summary">正在搜索维护者...</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">隐藏开发者状态</string>
     <string name="hide_developer_status_summary">对应用隐藏开发者状态</string>
     <string name="search">搜索</string>
     <string name="search_apps">搜索应用</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_style_title">选择 VoLTE/HD 图标</string>
-    <string name="volte_icon_off">关闭</string>
-    <string name="volte_icon_dynamic">动态VOLTE 图标</string>
-    <string name="volte_icon_vo">仅Vo图标</string>
-    <string name="volte_icon_volte">VoLTE 图标</string>
-    <string name="volte_icon_oos">VoLTE 图标(氧OS)</string>
-    <string name="volte_icon_hd">HD 图标</string>
-    <string name="volte_icon_miui">MIUI 11 图标</string>
-    <string name="volte_icon_emui">EMUI 图标</string>
-    <string name="volte_icon_margaritov">高清填充图标</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE 图标</string>
-    <string name="volte_icon_vivo">Vivo 图标</string>
-    <string name="volte_icon_aris">Aris图标</string>
-    <string name="volte_icon_beast">Aww 图标</string>
-    <string name="volte_icon_ios">Ios 图标</string>
-    <string name="volte_icon_lr">Livenge图标</string>
-    <string name="volte_icon_realme">Realme 图标</string>
-    <string name="volte_icon_typeA">Mild 图标</string>
-    <string name="volte_icon_typeB">Filth 图标</string>
-    <string name="volte_icon_typeC">Mue 图标</string>
-    <string name="volte_icon_typeD">Sus 图标</string>
-    <string name="volte_icon_typeE">Acherus 图标</string>
-    <string name="volte_icon_vcircle">圆形图标</string>
-    <string name="volte_icon_vimeo">Vimeo 图标</string>
-    <string name="volte_icon_volit">VoLIT 图标</string>
-    <string name="volte_icon_zirco">Ziroc 图标</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi图标</string>
-    <string name="vowifi_icon_summary">当 VoWiFi 可用时显示图标</string>
-    <string name="vowifi_icon_off">关闭</string>
-    <string name="vowifi_icon_dynamic">动态 VoWiFi 图标</string>
-    <string name="vowifi_icon_asus">Asus VoWiFi 图标</string>
-    <string name="vowifi_icon_oneplus">One Plus VoWiFi 图标</string>
-    <string name="vowifi_icon_moto">Moto VoWiFi 图标</string>
-    <string name="vowifi_icon_emui">EMUI 图标</string>
     <!-- QS panel styles -->
     <string name="theme_customization_qs_style_title">快捷设置面板样式</string>
     <string name="theme_customization_qs_style_summary">设置自定义快速设置面板样式</string>
@@ -247,6 +117,8 @@
     <string name="theme_customization_notifications_title">通知样式</string>
     <string name="theme_customization_notifications_summary">设置自定义通知样式</string>
     <!-- Extra battery styles -->
+    <string name="status_bar_battery_style_icon_big_circle">Big circle</string>
+    <string name="status_bar_battery_style_icon_big_dotted_circle">Big dotted circle</string>
     <string name="status_bar_battery_style_icon_landscape_buddy">横向胶囊</string>
     <string name="status_bar_battery_style_icon_landscape_line">横向 (Lorn)</string>
     <string name="status_bar_battery_style_icon_landscape_musku">纵向 (IOS)</string>
@@ -260,30 +132,12 @@
     <string name="status_bar_battery_style_icon_landscape_ios16">横屏iOS 16</string>
     <string name="status_bar_battery_style_icon_landscape_origami">横向高度</string>
     <string name="status_bar_battery_style_icon_landscape_miui_pill">横向MIUI胶囊</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">组合信号图标</string>
-    <string name="combined_status_bar_signal_icons_summary">显示一个WiFi和移动信号的组合图标</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">强制LTE CA</string>
+    <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">智能 5G</string>
     <string name="smart_5g_summary">自动在 4G 和 5G 之间切换以降低耗电</string>
-    <!-- QS header image -->
-    <string name="qs_header_image_summary">选择 QS 背景头部图像</string>
-    <string name="qs_header_image_enabled_title">快速设置页眉图像自定义</string>
-    <string name="qs_header_image_enabled_summary">启用快速设置页眉图像自定义</string>
-    <string name="qs_header_image_landscape_enabled_title">在横屏显示</string>
-    <string name="qs_header_image_landscape_enabled_summary">当横屏模式开启时启用快速设置头部图像</string>
-    <string name="qs_header_image_tint_title">明色调（Tint）</string>
-    <string name="qs_header_image_tint_none">No tint</string>
-    <string name="qs_header_image_tint_accent">强调色</string>
-    <string name="qs_header_image_tint_primary">主要颜色</string>
-    <string name="qs_header_image_tint_primary_inverse">主要颜色反转</string>
-    <string name="qs_header_image_tint_custom">自定义颜色</string>
-    <string name="qs_header_image_tint_custom_title">自定义色调</string>
-    <string name="qs_header_image_height_portrait_title">高度 (竖屏)</string>
-    <string name="qs_header_image_height_landscape_title">高度 (横屏)</string>
-    <string name="qs_header_image_alpha_title">不透明度</string>
-    <string name="qs_header_image_padding_side_title">侧边距</string>
-    <string name="qs_header_image_padding_top_title">顶部边距调整</string>
     <!-- Custom Data icons -->
     <string name="theme_customization_data_title">数据图标样式</string>
     <string name="theme_customization_data_summary">设置自定义数据流量图标样式</string>
@@ -295,6 +149,9 @@
     <!-- Fastcharge -->
     <string name="restricted_current_summary">设置允许的最大电流 (mA)</string>
     <string name="fastcharge_disabled_extended_summary">充电电流限制为: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB 配置</string>
+    <string name="usb_default_config_summary">Choose the default USB configuration</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">亮度</string>
     <string name="bb_show_percentage_summary">在亮度栏中显示亮度百分比文本</string>
@@ -316,11 +173,6 @@
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击查看手机</string>
     <string name="doze_double_tap_summary">双击快速显示通知</string>
-    <!-- Media player settings -->
-    <string name="media_controls_always_show_time_title">始终显示时间</string>
-    <string name="media_controls_always_show_time_summary">始终在媒体播放器上显示已播时间和总时间</string>
-    <!-- QS Header Size -->
-    <string name="large_qs_switch_title">QS头部尺寸</string>
     <!-- Pixel battery usage chart -->
     <string name="advanced_battery_preference_summary_google">使用Pixel样式的电池使用报表</string>
     <!-- Haptics Settings -->
@@ -330,19 +182,13 @@
     <string name="brightness_slider_haptics_intensity_title">亮度滑块触觉反馈强度</string>
     <string name="edge_scrolling_haptics_intensity_title">边缘滑动触觉反馈强度</string>
     <string name="volume_slider_haptics_intensity_title">音量滑块触觉反馈强度</string>
-    <!-- Radio Info -->
-    <string name="radio_info_title">广播信息</string>
-    <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">忽略窗口安全标志</string>
-    <string name="ignore_window_secure_summary">该功能将去除所有应用程序的 FLAG_SECURE 窗口标志，但在某些情况下可能会导致您的敏感数据泄露。应用程序通常会使用此标志使得截图/录屏时变黑来禁止您对窗口进行屏幕录制或截图操作。开关此功能后，需要重新打开相应的应用程序以使改动生效。</string>
-    <!-- USB configuration -->
-    <string name="usb_default_config_title">USB 配置</string>
+    <!-- Misc categories -->
+    <string name="spoofing_category_title">Spoofing</string>
+    <string name="sensors_category_title">Sensors</string>
+    <string name="animations_category_title">Animations</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">启用存储加密伪装</string>
     <string name="spoof_storage_encryption_status_summary">模拟存储加密状态为加密</string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">强制LTE CA</string>
-    <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
     <!-- Idle Manager -->
     <string name="idle_manager_title">空闲管理</string>
     <string name="idle_manager_summary">设备空闲时停止所有非必要的后台进程</string>
@@ -393,7 +239,6 @@
     <string name="keywords_refresh_rate">刷新, 速度, 平滑, 峰值, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technology</string>
-    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
@@ -404,19 +249,12 @@
     <string name="battery_health_cold">Cold</string>
     <string name="battery_health_unknown">Unknown</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
-    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
     <string name="battery_voltage">Voltage</string>
-    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
     <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
-    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
-    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
