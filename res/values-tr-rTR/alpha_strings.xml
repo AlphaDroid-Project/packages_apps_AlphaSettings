@@ -23,7 +23,7 @@
     <string name="preference_category_clock">Saat</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Ayarlar stili</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and AlphaSettings style</string>
+    <string name="settings_dashboard_style_summary">Ayarlar ana sayfası ve Alphabet stili</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
@@ -31,7 +31,7 @@
     <string name="max_visible_notification_icons_title">Bildirim simgeleri</string>
     <string name="max_visible_notification_icons_summary">Durum çubuğunda görünen maksimum bildirim simgesi</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar paddings</string>
+    <string name="statusbar_padding">Durum çubuğu dolgu stili</string>
     <string name="statusbar_top_padding">Üst dolgu</string>
     <string name="statusbar_left_padding">Sol dolgu</string>
     <string name="statusbar_right_padding">Sağ dolgu</string>
@@ -173,7 +173,7 @@
     <string name="qs_haptic_feedback_title">Hızlı ayarlar dokunsal geri bildirim</string>
     <string name="qs_haptic_feedback_summary">Hızlı ayarlar karelerine dokunulduğunda titret</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_title">Alpha ayarları</string>
     <string name="alpha_settings_summary">Süprizler olacak!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -189,13 +189,13 @@
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Cihaz</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_title">Derleme Durumu</string>
+    <string name="build_status_summary">Resmi değil</string>
     <string name="build_status_official">Resmi</string>
-    <string name="build_status_unofficial">Unofficial</string>
+    <string name="build_status_unofficial">Resmi değil</string>
     <!-- Maintainer -->
-    <string name="maintainer_title">Maintainer</string>
-    <string name="maintainer_summary">Searching for maintainer...</string>
+    <string name="maintainer_title">Cihaz sorumlusu</string>
+    <string name="maintainer_summary">Geliştirici aranıyor...</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
     <string name="hide_developer_status_summary">Uygulamalardan geliştirici durumunu gizle</string>
@@ -308,7 +308,7 @@
     <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
     <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
     <string name="gesture_wake_ambient">Ortam ekranını göster</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="gesture_wake">Tamamen uyan</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ortam ekranı</string>
     <string name="doze_enabled_summary">Ortam ekranını etkinleştir veya devre dışı bırak</string>
@@ -324,99 +324,99 @@
     <!-- Pixel battery usage chart -->
     <string name="advanced_battery_preference_summary_google">Pixel pil kullanım grafiğini kullan</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="haptics_settings_title">Sistem titreşimleri</string>
+    <string name="haptics_settings_summary">Sistem titreşim şiddetini değiştirin</string>
+    <string name="back_gesture_haptic_intensity_title">Geri hareketi dokunma titreşimi yoğunluğu</string>
+    <string name="brightness_slider_haptics_intensity_title">Parlaklık kaydırıcısı titreşim yoğunluğu</string>
+    <string name="edge_scrolling_haptics_intensity_title">Kenar kaydırma titreşim yoğunluğu</string>
+    <string name="volume_slider_haptics_intensity_title">Ses düzeyi kaydırıcısı titreşim yoğunluğu</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Radyo bilgisi</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Pencerenin güvenli işaretlerini yok say</string>
+    <string name="ignore_window_secure_summary">Bu, tüm uygulamalar için ekran görüntüsü ve ekran kaydedici korumasını kaldırır. Bu, bazı durumlarda kullanışlıdır ancak gizlilik sızıntılarına neden olabilir. Seçeneği değiştirdikten sonra değişikliklerin geçerli olması için uygulamaları yeniden başlatın.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB yapılandırması</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
+    <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">LTE CA\'ya Zorla</string>
     <string name="force_lte_ca_summary">LTE taşıyıcı birleştirmeyi çalışmaya zorla</string>
     <!-- Idle Manager -->
-    <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_title">Bekleme Modu Yöneticisi</string>
+    <string name="idle_manager_summary">Cihaz bekleme modundayken önemli olmayan tüm arka plan işlemlerini durdur</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_title">Uyku Modu</string>
+    <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Kapalı / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Zil sesi modu</string>
+    <string name="sleep_mode_ringer_off_title">Hayır, Değiştirme</string>
+    <string name="sleep_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="sleep_mode_ringer_dnd_title">Rahatsız etmeyin</string>
+    <string name="sleep_mode_ringer_silent_title">Sessize al</string>
     <string name="sleep_mode_schedule_sunset">Gün batımı</string>
     <string name="sleep_mode_schedule_sunrise">Gün doğumu</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından özel bir zamana kadar açılır</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Özel bir zamandan gün doğumuna kadar açılır</string>
+    <string name="sleep_mode_toggles_title">Düğmeler</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi\'yi kapat</string>
+    <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıldığında Wi-Fi\'yi devre dışı bırakın</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth özelliğini kapat</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıldığında Bluetooth\'u devre dışı bırak</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobil veriyi kapat</string>
+    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıldığında Mobil veriyi devre dışı bırak</string>
+    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
+    <string name="sleep_mode_location_toggle_summary">Uyku modu açıldığında konum hizmetlerini devre dışı bırak</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
+    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
+    <string name="sleep_mode_display_text">Uyku modu, siz uyurken pilden tasarruf etmenize ve telefonunuzu sessize almanıza yardımcı olmak için belirli hizmetleri devre dışı bırakmanıza olanak tanır.</string>
     <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Turn on now</string>
+    <string name="night_display_activation_on_manual">Şimdi etkinleştir</string>
     <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Turn off now</string>
+    <string name="night_display_activation_off_manual">Şimdi kapat</string>
     <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <string name="night_display_activation_on_twilight">Güneş doğana kadar açık tut</string>
     <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <string name="night_display_activation_off_twilight">Gün batımına kadar kapalı tut</string>
     <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <string name="night_display_activation_on_custom">Şu saate kadar açık tut <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <string name="night_display_activation_off_custom">Şu saate kadar kapalı tut <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Yenileme hızı</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Uyarlanabilir)</string>
+    <string name="refresh_rate_vrr_title">Uyarlanabilir yenileme hızı</string>
+    <string name="refresh_rate_vrr_summary">Güç tasarrufu yapmak için, ekran boştayken yenileme hızını otomatik olarak düşürür. Bazı ekranlarda titremeye veya renk kaymasına sebep olabilir</string>
+    <string name="refresh_rate_footer">Yüksek yenileme hızı ekranı daha akıcı yapar lakin pil tüketimini artırır</string>
+    <string name="keywords_refresh_rate">yenileme,hız,yumuşaklık,önizleme,60hz,90hz,120hz, 144hz, 165hz</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Batarya Teknolojisi</string>
     <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Sağlıklı</string>
+    <string name="battery_health_good">İyi</string>
+    <string name="battery_health_overheat">Aşırı ısınmış</string>
+    <string name="battery_health_dead">Bitik</string>
+    <string name="battery_health_over_voltage">Aşırı voltaj akımı</string>
+    <string name="battery_health_unspecified_failure">Bilinmeyen hata</string>
+    <string name="battery_health_cold">Soğuk</string>
+    <string name="battery_health_unknown">Bilinmiyor</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Sıcaklık değeri</string>
     <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Voltaj akımı</string>
     <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Tipik kapasite</string>
     <string name="battery_design_capacity_summary">%1$d mAh</string>
     <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity">Maksimum kapasite</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%%2$d%)</string>
     <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
 </resources>
