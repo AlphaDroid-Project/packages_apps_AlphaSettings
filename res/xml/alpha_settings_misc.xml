@@ -39,13 +39,16 @@
              android:targetClass="com.alpha.settings.fragments.misc.DisplayCutoutForceFullscreenActivity"/>
     </Preference>
 
-    <!-- Three-fingers-swipe to screenshot -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="three_finger_gesture"
-        android:icon="@drawable/ic_three_finger_gesture"
-        android:title="@string/three_finger_gesture"
-        android:summary="@string/three_finger_gesture_summary"
-        android:defaultValue="false" />
+    <!-- Three-fingers-swipe gestures -->
+    <com.alpha.settings.preferences.SystemSettingListPreference
+        android:key="three_finger_gesture_action"
+        android:icon="@drawable/ic_settings_gestures"
+        android:title="@string/three_finger_gesture_action_title"
+        android:summary="%s"
+        android:dialogTitle="@string/three_finger_gesture_action_dialog_title"
+        android:entries="@array/shake_gestures_action_entries"
+        android:entryValues="@array/shake_gestures_action_values"
+        android:defaultValue="0" />
 
     <!-- Gaming mode -->
     <Preference
