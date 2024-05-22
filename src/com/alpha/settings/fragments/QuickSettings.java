@@ -41,6 +41,8 @@ import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import lineageos.providers.LineageSettings;
 
+import com.android.internal.util.crdroid.SystemRestartUtils;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -56,6 +58,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
     private static final String KEY_PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String KEY_PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
+    private static final String KEY_QS_COMPACT_PLAYER  = "qs_compact_media_player_mode";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
@@ -63,6 +66,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private ListPreference mTileAnimationStyle;
     private CustomSeekBarPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
+    private Preference mQsCompactPlayer;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -99,6 +103,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         int tileAnimationStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         updateAnimTileStyle(tileAnimationStyle);
+        
+        mQsCompactPlayer = (Preference) findPreference(KEY_QS_COMPACT_PLAYER);
+        mQsCompactPlayer.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -114,6 +122,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else if (preference == mTileAnimationStyle) {
             int value = Integer.parseInt((String) newValue);
             updateAnimTileStyle(value);
+            return true;
+        } else if (preference == mQsCompactPlayer) {
+            SystemRestartUtils.showSystemUIRestartDialog(getActivity());
             return true;
         }
         return false;

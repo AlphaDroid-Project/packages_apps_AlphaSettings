@@ -125,6 +125,13 @@
             android:summary="@string/qs_bt_auto_on_summary"
             android:defaultValue="false" />
 
+        <!-- QS Media Player  -->
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_compact_media_player_mode"
+            android:title="@string/qs_compact_media_player_mode_title"
+            android:summary="@string/qs_compact_media_player_mode_summary"
+            android:defaultValue="true"  />
+
     </PreferenceCategory>
 
     <PreferenceCategory
