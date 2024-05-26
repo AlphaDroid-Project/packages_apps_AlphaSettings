@@ -93,6 +93,13 @@
             android:summary="@string/volume_show_media_button_summary"
             android:defaultValue="true"/>
 
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="volume_sound_haptics"
+            android:icon="@drawable/ic_sound_haptics"
+            android:title="@string/volume_sound_haptics_title"
+            android:summary="@string/volume_sound_haptics_summary"
+            android:defaultValue="false"/>
+
         <com.alpha.settings.preferences.SecureSettingSeekBarPreference
             android:key="volume_dialog_dismiss_timeout"
             android:icon="@drawable/ic_music_note"
