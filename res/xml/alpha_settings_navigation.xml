@@ -70,6 +70,7 @@
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="shake_gestures_enabled"
+            android:icon="@drawable/ic_shake"
             android:title="@string/shake_gestures_enabled_title"
             android:summary="@string/shake_gestures_enabled_summary"
             android:defaultValue="false" />
@@ -86,6 +87,7 @@
 
          <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="shake_gestures_intensity"
+            android:icon="@drawable/ic_shake_intensity"
             android:title="@string/shake_gestures_intensity_title"
             android:summary="@string/shake_gestures_intensity_summary"
             android:dependency="shake_gestures_enabled"
