@@ -23,7 +23,7 @@
     <string name="preference_category_clock">Relógio</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Estilo de configurações</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and AlphaSettings style</string>
+    <string name="settings_dashboard_style_summary">Configurações da página inicial e estilo AlphaSettings</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
@@ -100,8 +100,8 @@
     <string name="maintainer_title">Mantenedor</string>
     <string name="maintainer_summary">Procurando um mantenedor...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">Ignorar sinalização de janela segura</string>
+    <string name="ignore_window_secure_summary">Remover limites de captura de tela e registro de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Ocultar estado das opções do desenvolvedor</string>
     <string name="hide_developer_status_summary">Não permitir que as aplicações vejam o estado das opções do desenvolvedor</string>
@@ -117,8 +117,8 @@
     <string name="theme_customization_notifications_title">Estilo das notificações</string>
     <string name="theme_customization_notifications_summary">Personalizar o estilo das notificações</string>
     <!-- Extra battery styles -->
-    <string name="status_bar_battery_style_icon_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_icon_big_dotted_circle">Big dotted circle</string>
+    <string name="status_bar_battery_style_icon_big_circle">Círculo grande</string>
+    <string name="status_bar_battery_style_icon_big_dotted_circle">Círculo pontilhado grande</string>
     <string name="status_bar_battery_style_icon_landscape_buddy">Cápsula (horizontal)</string>
     <string name="status_bar_battery_style_icon_landscape_line">Lorn (horizontal)</string>
     <string name="status_bar_battery_style_icon_landscape_musku">IOS vertical</string>
@@ -151,7 +151,7 @@
     <string name="fastcharge_disabled_extended_summary">Carregamento limitado a: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">Configuração USB</string>
-    <string name="usb_default_config_summary">Choose the default USB configuration</string>
+    <string name="usb_default_config_summary">Escolha a configuração padrão do USB</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">Porcentagem do brilho</string>
     <string name="bb_show_percentage_summary">Mostrar texto percentual de brilho na barra de brilho</string>
@@ -165,7 +165,7 @@
     <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar exibição ambiente em vez de ativar totalmente a tela</string>
     <string name="gesture_wake_ambient">Mostrar ambiente</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="gesture_wake">Acordar totalmente</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Tela ambiente</string>
     <string name="doze_enabled_summary">Ativar a funcionalidade de pacote doze</string>
@@ -183,28 +183,28 @@
     <string name="edge_scrolling_haptics_intensity_title">Intensidade tátil de rolagem das bordas</string>
     <string name="volume_slider_haptics_intensity_title">Intensidade tátil do controle de volume</string>
     <!-- Misc categories -->
-    <string name="spoofing_category_title">Spoofing</string>
-    <string name="sensors_category_title">Sensors</string>
-    <string name="animations_category_title">Animations</string>
+    <string name="spoofing_category_title">Mascaramento</string>
+    <string name="sensors_category_title">Sensores</string>
+    <string name="animations_category_title">Animações</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_title">Usar mascaramento de criptografia de armazenamento</string>
+    <string name="spoof_storage_encryption_status_summary">Mascara o status de criptografia do armazenamento para criptografado</string>
     <!-- Idle Manager -->
-    <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_title">Gerenciador de ociosidade</string>
+    <string name="idle_manager_summary">Parar todos os processos em segundo plano não essenciais quando o dispositivo entrar em modo ocioso</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_title">Modo de suspensão</string>
+    <string name="sleep_mode_summary_on">Ativado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desativado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de toque</string>
+    <string name="sleep_mode_ringer_off_title">Não mudar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não Perturbe</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
     <string name="sleep_mode_schedule_sunset">Pôr do Sol</string>
     <string name="sleep_mode_schedule_sunrise">Nascer do Sol</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Liga do pôr do sol até um horário personalizado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Liga de um horário personalizado até o nascer do sol</string>
     <string name="sleep_mode_toggles_title">Toggles</string>
     <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
     <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
