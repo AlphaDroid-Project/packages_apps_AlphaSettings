@@ -44,6 +44,14 @@
         android:summary="@string/volume_steps_summary"
         android:fragment="com.alpha.settings.fragments.sound.VolumeSteps" />
 
+    <!-- Volume panel styles -->
+    <Preference
+        android:key="android.theme.customization.volume_style"
+        android:icon="@drawable/ic_settings_sound"
+        android:title="@string/theme_customization_volume_panel_styles_title"
+        android:summary="@string/theme_customization_volume_panel_styles_summary"
+        android:fragment="com.alpha.settings.fragments.sound.VolumePanelStyles" />
+
     <!-- Screenshot Sound  -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="screenshot_shutter_sound"
