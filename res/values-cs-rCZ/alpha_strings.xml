@@ -16,37 +16,36 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="alphabet_summary">Goodies!</string>
     <!-- Preference categories -->
-    <string name="preference_category_brightness">Brightness</string>
-    <string name="preference_category_battery">Battery</string>
+    <string name="preference_category_brightness">Jas</string>
+    <string name="preference_category_battery">Baterie</string>
     <string name="preference_category_style">Style</string>
     <string name="preference_category_clock">Hodiny</string>
     <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings style</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and Alphabet style</string>
+    <string name="settings_dashboard_style_title">Styl nastavení</string>
+    <string name="settings_dashboard_style_summary">Settings homepage and AlphaSettings style</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Notification icons</string>
-    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
+    <string name="max_visible_notification_icons_title">Ikony oznámení</string>
+    <string name="max_visible_notification_icons_summary">Max. počet ikon oznámení ve stavovém řádku</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar padding</string>
-    <string name="statusbar_top_padding">Top padding</string>
-    <string name="statusbar_left_padding">Left padding</string>
-    <string name="statusbar_right_padding">Right padding</string>
+    <string name="statusbar_padding">Odsazení stavového řádku</string>
+    <string name="statusbar_top_padding">Odsazení odshora</string>
+    <string name="statusbar_left_padding">Odsazení zleva</string>
+    <string name="statusbar_right_padding">Odsazení zprava</string>
     <!-- Ambient Customization -->
     <string name="default_string">Výchozí</string>
     <string name="ambient_text_category">Text customization</string>
     <string name="ambient_image_category">Image customization</string>
     <string name="ambient_text_category_title">Ambient customization</string>
-    <string name="ambient_text_category_summary">Customizing the looks of ambient display</string>
-    <string name="ambient_text_title">Ambient text</string>
-    <string name="ambient_text_summary">Show ambient text in AoD</string>
-    <string name="ambient_text_animation_title">Ambient text animation</string>
+    <string name="ambient_text_category_summary">Přizpůsobení vzhledu ambientního displeje</string>
+    <string name="ambient_text_title">Text na AOD</string>
+    <string name="ambient_text_summary">Zobrazovat text na AOD</string>
+    <string name="ambient_text_animation_title">Animovat text na AOD</string>
     <string name="ambient_text_animation_summary">Show a animation when show AoD</string>
-    <string name="ambient_text_size_title">Ambient text size</string>
+    <string name="ambient_text_size_title">Velikost textu na AOD</string>
     <string name="ambient_text_font_title">Ambient text font</string>
     <string name="ambient_text_string_title">Set ambient text</string>
     <string name="ambient_text_align_title">Ambient text align</string>
@@ -65,9 +64,6 @@
     <string name="ambient_image_title">Ambient image</string>
     <string name="file_header_select_title">Select local image</string>
     <string name="file_header_select_summary">Select image from storage</string>
-    <!-- UDFPS pressed color -->
-    <string name="udfps_pressed_color_title">Udfps pressed color</string>
-    <string name="udfps_pressed_color_summary">Choose your favorite udfps pressed color</string>
     <!-- Quicksettings media category -->
     <string name="media_category">Media player</string>
     <!-- Squiggle animation -->
@@ -76,122 +72,11 @@
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">UI Style</string>
     <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
-    <!-- Monet settings -->
-    <string name="monet_settings_title">Nastavení Monetu</string>
-    <string name="monet_settings_summary">Additional settings to customize monet engine</string>
-    <string name="theme_style_title">Theme style</string>
-    <string name="theme_style_tonal_spot">Tonal Spot (Default)</string>
-    <string name="theme_style_vibrant">Vibrant</string>
-    <string name="theme_style_expressive">Expressive</string>
-    <string name="theme_style_spritz">Spritz</string>
-    <string name="theme_style_rainbow">Rainbow</string>
-    <string name="theme_style_fruit_salad">Fruit Salad</string>
-    <string name="theme_style_muted">Muted</string>
-    <string name="theme_style_content">Content</string>
-    <string name="color_source_title">Color source</string>
-    <string name="color_source_both">Both (Default)</string>
-    <string name="color_source_home">Home wallpaper</string>
-    <string name="color_source_lock">Lock wallpaper</string>
-    <string name="color_source_preset">Preset</string>
-    <string name="accent_color_title">Accent Color</string>
-    <string name="accent_color_summary">Override default accent color</string>
-    <string name="accent_background_title">Accent background</string>
-    <string name="accent_background_summary">Choose a different accent color for background</string>
-    <string name="bg_color_title">Background Color</string>
-    <string name="bg_color_summary">Override default background accent color</string>
-    <string name="luminance_factor_title">Luminance</string>
-    <string name="luminance_factor_summary">Higher values produce brighter colors</string>
-    <string name="chroma_factor_title">Chroma</string>
-    <string name="chroma_factor_summary">Higher values produce stronger colors</string>
-    <string name="tint_background_title">Tint Background</string>
-    <string name="tint_background_summary">Make Luminance and Chroma selection affect background colors as well</string>
-    <!-- Power menu Animations  -->
-    <string name="power_menu_anim_cat">Power UI Animation Option</string>
-    <string name="power_menu_animation_title">Power menu animation</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
-    <string name="power_menu_animation_aosp">AOSP (default)</string>
-    <string name="power_menu_animation_bottom">Spodní část</string>
-    <string name="power_menu_animation_top">Nahoře</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
-    <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
-    <string name="power_menu_animation_rotate">Otočení</string>
-    <!-- Statusbar Clock background chip -->
-    <string name="statusbar_clock_chip_title">Background chip</string>
-    <string name="statusbar_clock_chip_summary">Display accented chip behind clock</string>
-    <string name="solid_accent">Solid color accent</string>
-    <string name="outline">Outline</string>
-    <string name="solid_accent_gradient">Solid color accent gradient</string>
-    <string name="solid_gradient">Solid Gradient side</string>
-    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
-    <string name="solid_gradient_void">Gradient Void</string>
-    <string name="solid_gradient_neumorph">Neumorph gradient</string>
-    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
-    <string name="solid_accent_transperent">Accent transparent</string>
-    <string name="solid_gradient_light">Gradient light</string>
-    <string name="solid_gradient_shape">Sharp gradient corner</string>
-    <string name="solid_gradient_void_light">Gradient Void light</string>
-    <string name="status_bar_clock_font_style_title">Clock font style</string>
-    <string name="status_bar_clock_color_title">Clock font color</string>
-    <!-- Font Customizations for Functions -->
-    <string name="function_font_stock">Normal (default)</string>
-    <string name="function_font_bold">Bold</string>
-    <string name="function_font_italic">Italic</string>
-    <string name="function_font_bold_italic">Bold Italic</string>
-    <string name="function_font_light_italic">Light Italic</string>
-    <string name="function_font_thin_italic">Thin Italic</string>
-    <string name="function_font_light">Light</string>
-    <string name="function_font_thin">Thin</string>
-    <string name="function_font_condensed_normal">Condensed</string>
-    <string name="function_font_condensed_italic">Condensed Italic</string>
-    <string name="function_font_condensed_bold">Condensed Bold</string>
-    <string name="function_font_condensed_bold_italic">Condensed Bold Italic</string>
-    <string name="function_font_condensed_light">Condensed Light</string>
-    <string name="function_font_condensed_light_italic">Condensed Light Italic</string>
-    <string name="function_font_medium_normal">Medium</string>
-    <string name="function_font_medium_italic">Medium Italic</string>
-    <string name="function_font_black">Black</string>
-    <string name="function_font_black_italic">Black Italic</string>
-    <string name="function_font_dancingscript">DancingScript</string>
-    <string name="function_font_dancingscript_bold">DancingScript Bold</string>
-    <string name="function_font_comingsoon">ComingSoon</string>
-    <string name="function_font_notoserif">NotoSerif Normal</string>
-    <string name="function_font_notoserif_italic">NotoSerif Italic</string>
-    <string name="function_font_notoserif_bold">NotoSerif Bold</string>
-    <string name="function_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
-    <!-- QS Page Transitions -->
-    <string name="qs_transitions_title">QS Page Transitions</string>
-    <string name="qs_transitions_default">Výchozí</string>
-    <string name="qs_transitions_cube_in">Cube In</string>
-    <string name="qs_transitions_cube_out">Cube Out</string>
-    <string name="qs_transitions_accordion">Accordion</string>
-    <string name="qs_transitions_background_to_foreground">Background to Foreground</string>
-    <string name="qs_transitions_depth_page">Depth page</string>
-    <string name="qs_transitions_fade">Fade</string>
-    <string name="qs_transitions_foreground_to_background">Foreground to Background</string>
-    <string name="qs_transitions_rotate_down">Rotate down</string>
-    <string name="qs_transitions_rotate_up">Rotate up</string>
-    <string name="qs_transitions_stack">Stack</string>
-    <string name="qs_transitions_tablet">Tablet</string>
-    <string name="qs_transitions_zoom_in">Zoom in</string>
-    <string name="qs_transitions_zoom_out">Zoom out</string>
-    <string name="qs_transitions_zoom_out_slide">Zoom out slide</string>
-    <!-- Volume Styles -->
-    <string name="rui_style">Realme UI style</string>
-    <string name="rising_style">Rice style</string>
-    <string name="volume_style_title">Volume panel styles</string>
-    <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Volume media output</string>
-    <string name="volume_media_output_toggle_summary">Show media output toggle when there is an active stream</string>
     <!-- QS haptic feedback -->
     <string name="qs_haptic_feedback_title">QS haptic feedback</string>
     <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alphabet</string>
+    <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -208,10 +93,12 @@
     <string name="category_device_info">Zařízení</string>
     <!-- Build info -->
     <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary_placeholder">Ahoy</string>
+    <string name="build_status_summary">Unofficial</string>
     <string name="build_status_official">Official</string>
-    <string name="build_status_summary">Maintained by</string>
-    <string name="build_status_oopsie">Searching for maintainer...</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
@@ -220,42 +107,6 @@
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_style_title">Select VoLTE/HD Icon</string>
-    <string name="volte_icon_off">Off</string>
-    <string name="volte_icon_dynamic">Dynamic VOLTE Icons</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
-    <string name="volte_icon_margaritov">HD Filled Icon</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
-    <string name="volte_icon_aris">Aris Icon</string>
-    <string name="volte_icon_beast">Aww Icon</string>
-    <string name="volte_icon_ios">Ios Icon</string>
-    <string name="volte_icon_lr">Livenge Icon</string>
-    <string name="volte_icon_realme">Realme Icon</string>
-    <string name="volte_icon_typeA">Mild Icon</string>
-    <string name="volte_icon_typeB">Filth Icon</string>
-    <string name="volte_icon_typeC">Mue Icon</string>
-    <string name="volte_icon_typeD">Sus Icon</string>
-    <string name="volte_icon_typeE">Acherus Icon</string>
-    <string name="volte_icon_vcircle">Circle Icon</string>
-    <string name="volte_icon_vimeo">Vimeo Icon</string>
-    <string name="volte_icon_volit">Volit Icon</string>
-    <string name="volte_icon_zirco">Ziroc Icon</string>
-    <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi Icon</string>
-    <string name="vowifi_icon_summary">Display VoWiFi icon when available</string>
-    <string name="vowifi_icon_off">Off</string>
-    <string name="vowifi_icon_dynamic">Dynamic VoWiFi Icon</string>
-    <string name="vowifi_icon_asus">Asus VoWiFi Icon</string>
-    <string name="vowifi_icon_oneplus">OnePlus VoWiFi Icon</string>
-    <string name="vowifi_icon_moto">Moto VoWiFi Icons</string>
-    <string name="vowifi_icon_emui">EMUI Icons</string>
     <!-- QS panel styles -->
     <string name="theme_customization_qs_style_title">QS Panel style</string>
     <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
@@ -266,6 +117,8 @@
     <string name="theme_customization_notifications_title">Notifications style</string>
     <string name="theme_customization_notifications_summary">Set custom notifications style</string>
     <!-- Extra battery styles -->
+    <string name="status_bar_battery_style_icon_big_circle">Big circle</string>
+    <string name="status_bar_battery_style_icon_big_dotted_circle">Big dotted circle</string>
     <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
     <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
@@ -282,36 +135,15 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
-    <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
-    <!-- QS header image -->
-    <string name="qs_header_image_summary">Pick QS background header image</string>
-    <string name="qs_header_image_enabled_title">QS header image customization</string>
-    <string name="qs_header_image_enabled_summary">Enable QS header image customization</string>
-    <string name="qs_header_image_landscape_enabled_title">Show on landscape</string>
-    <string name="qs_header_image_landscape_enabled_summary">Enable QS header image when landscape mode is on</string>
-    <string name="qs_header_image_tint_title">Tint</string>
-    <string name="qs_header_image_tint_none">No tint</string>
-    <string name="qs_header_image_tint_accent">Accent color</string>
-    <string name="qs_header_image_tint_primary">Primary color</string>
-    <string name="qs_header_image_tint_primary_inverse">Primary color inverse</string>
-    <string name="qs_header_image_tint_custom">Custom color</string>
-    <string name="qs_header_image_tint_custom_title">Custom tint color</string>
-    <string name="qs_header_image_height_portrait_title">Height (potrait)</string>
-    <string name="qs_header_image_height_landscape_title">Height (landScape)</string>
-    <string name="qs_header_image_alpha_title">Opacity</string>
-    <string name="qs_header_image_padding_side_title">Side padding</string>
-    <string name="qs_header_image_padding_top_title">Top padding</string>
     <!-- Custom Data icons -->
     <string name="theme_customization_data_title">Data icon style</string>
     <string name="theme_customization_data_summary">Set custom data icon style</string>
     <!-- Generic support strings -->
     <string name="string_enabled">Enabled</string>
-    <string name="string_disabled">Disabled</string>
+    <string name="string_disabled">Vypnuto</string>
     <string name="string_on">On</string>
     <string name="string_off">Off</string>
     <!-- Fastcharge -->
@@ -332,6 +164,8 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Ambient display</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
@@ -339,11 +173,88 @@
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
-    <!-- Media player settings -->
-    <string name="media_controls_always_show_time_title">Always show time</string>
-    <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
-    <!-- QS Header Size -->
-    <string name="large_qs_switch_title">QS Header Size</string>
     <!-- Pixel battery usage chart -->
     <string name="advanced_battery_preference_summary_google">Use Pixel Battery usage chart</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">System haptics</string>
+    <string name="haptics_settings_summary">Modify system haptics intensities</string>
+    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
+    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
+    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
+    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <!-- Misc categories -->
+    <string name="spoofing_category_title">Spoofing</string>
+    <string name="sensors_category_title">Sensors</string>
+    <string name="animations_category_title">Animations</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Idle Manager</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_schedule_sunset">Sunset</string>
+    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Turn on now</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Turn off now</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
 </resources>
