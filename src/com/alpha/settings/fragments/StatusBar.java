@@ -116,7 +116,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
             mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_notch);
         }
 
-        int batterystyle = Settings.System.getIntForUser(resolver,
+        /*int batterystyle = Settings.System.getIntForUser(resolver,
                 Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
         int batterypercent = Settings.System.getIntForUser(resolver,
                 Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
@@ -131,7 +131,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
         mBatteryTextCharging = (SwitchPreferenceCompat) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
         mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
-                (batterystyle != BATTERY_STYLE_TEXT && batterypercent != 2));
+                (batterystyle != BATTERY_STYLE_TEXT && batterypercent != 2));*/
 
         mQuickPulldown =
                 (LineageSystemSettingListPreference) findPreference(QUICK_PULLDOWN);
@@ -162,7 +162,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mBatteryStyle) {
+        /*if (preference == mBatteryStyle) {
             int value = Integer.parseInt((String) newValue);
             int batterypercent = Settings.System.getIntForUser(getContentResolver(),
                     Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
@@ -178,7 +178,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
             mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
                     (batterystyle != BATTERY_STYLE_TEXT && value != 2));
             return true;
-        } else if (preference == mQuickPulldown) {
+        } else*/ if (preference == mQuickPulldown) {
             int value = Integer.parseInt((String) newValue);
             updateQuickPulldownSummary(value);
             return true;
