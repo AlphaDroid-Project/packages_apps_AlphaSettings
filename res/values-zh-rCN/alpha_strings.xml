@@ -35,35 +35,6 @@
     <string name="statusbar_top_padding">顶部填充</string>
     <string name="statusbar_left_padding">左填充</string>
     <string name="statusbar_right_padding">右填充</string>
-    <!-- Ambient Customization -->
-    <string name="default_string">默认</string>
-    <string name="ambient_text_category">文字自定义</string>
-    <string name="ambient_image_category">图片自定义</string>
-    <string name="ambient_text_category_title">熄屏显示自定义</string>
-    <string name="ambient_text_category_summary">自定义熄屏显示的外观</string>
-    <string name="ambient_text_title">熄屏显示文本</string>
-    <string name="ambient_text_summary">熄屏显示文本</string>
-    <string name="ambient_text_animation_title">熄屏显示动画</string>
-    <string name="ambient_text_animation_summary">熄屏显示时的动画</string>
-    <string name="ambient_text_size_title">熄屏显示文字大小</string>
-    <string name="ambient_text_font_title">熄屏显示文字字体</string>
-    <string name="ambient_text_string_title">设置熄屏显示文字</string>
-    <string name="ambient_text_align_title">熄屏显示文字对齐</string>
-    <string name="ambient_text_align_start_top">右上角</string>
-    <string name="ambient_text_align_start_center">右侧中心</string>
-    <string name="ambient_text_align_start_bottom">右下角</string>
-    <string name="ambient_text_align_center">居中</string>
-    <string name="ambient_text_align_end_top">左上角</string>
-    <string name="ambient_text_align_end_center">左侧中心</string>
-    <string name="ambient_text_align_end_bottom">左下角</string>
-    <string name="ambient_text_type_color_title">熄屏显示文字样式及颜色</string>
-    <string name="ambient_text_color_title">熄屏显示文字颜色</string>
-    <string name="ambient_notification_light_color_mode_accent">系统强调色</string>
-    <string name="ambient_notification_light_color_mode_custom">自定义颜色</string>
-    <string name="ambient_notification_light_color_mode_wall">壁纸颜色</string>
-    <string name="ambient_image_title">熄屏显示图片</string>
-    <string name="file_header_select_title">选择本地图片</string>
-    <string name="file_header_select_summary">从存储选择图片</string>
     <!-- Quicksettings media category -->
     <string name="media_category">媒体播放器</string>
     <!-- Squiggle animation -->
@@ -116,22 +87,9 @@
     <!-- Notifications style -->
     <string name="theme_customization_notifications_title">通知样式</string>
     <string name="theme_customization_notifications_summary">设置自定义通知样式</string>
-    <!-- Extra battery styles -->
-    <string name="status_bar_battery_style_icon_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_icon_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">横向胶囊</string>
-    <string name="status_bar_battery_style_icon_landscape_line">横向 (Lorn)</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">纵向 (IOS)</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">纵向 (Mx)</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">横向 (Airoo)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">右侧横向图标(风格 A)</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">左侧横向图标 (风格 A)</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">右侧横向图标 (风格 B)</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">左侧横向图标 (风格 B)</string>
-    <string name="status_bar_battery_style_icon_landscape_ios15">横屏iOS 15</string>
-    <string name="status_bar_battery_style_icon_landscape_ios16">横屏iOS 16</string>
-    <string name="status_bar_battery_style_icon_landscape_origami">横向高度</string>
-    <string name="status_bar_battery_style_icon_landscape_miui_pill">横向MIUI胶囊</string>
+    <!-- Volume panel styles -->
+    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_summary">Set custom volume panel style</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">强制LTE CA</string>
     <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
@@ -257,4 +215,29 @@
     <string name="battery_design_capacity">Design capacity</string>
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
+    <!-- Compact QS Media Player-->
+    <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
+    <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
+    <!-- Shake Gestures -->
+    <string name="shake_gestures_enabled_title">Shake Gestures</string>
+    <string name="shake_gestures_enabled_summary">Shake your device to perform actions</string>
+    <string name="shake_gestures_action_title">Shake Gestures Actions</string>
+    <string name="shake_gestures_toggle_flashlight">Toggle Flashlight</string>
+    <string name="shake_gestures_media_playback">Play/Skip Media</string>
+    <string name="shake_gestures_volume_panel">Show Volume Panel</string>
+    <string name="shake_gestures_screen_wake">Turn Screen On/Off</string>
+    <string name="shake_gestures_clear_notifs">Clear All Notifications</string>
+    <string name="shake_gestures_toggle_ringer">Toggle Ringer Mode</string>
+    <string name="shake_gestures_screenshot">Take Screenshot</string>
+    <string name="shake_gestures_intensity_title">Shake Gestures Intensity</string>
+    <string name="shake_gestures_intensity_summary">Adjust the sensitivity of shake gestures</string>
+    <!-- Three Finger Swipe Gestures -->
+    <string name="three_finger_gesture_action_title">Three Finger Swipe Gestures</string>
+    <string name="three_finger_gesture_action_dialog_title">Swipe Three Finger Gestures Actions</string>
+    <!-- Volume Row Percent -->
+    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
+    <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
+    <!-- Volume Media Button -->
+    <string name="volume_show_media_button_title">Volume media button</string>
+    <string name="volume_show_media_button_summary">Show media output switcher button into volume dialog</string>
 </resources>
