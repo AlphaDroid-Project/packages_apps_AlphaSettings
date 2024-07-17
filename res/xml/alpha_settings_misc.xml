@@ -63,49 +63,12 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
-    <PreferenceCategory
-        android:title="@string/spoofing_category_title">
-
-        <!-- Unlock FPS for specific games -->
-        <com.alpha.settings.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.pixelprops.games"
-            android:icon="@drawable/ic_backup"
-            android:title="@string/use_games_spoof_title"
-            android:summary="@string/use_games_spoof_summary" />
-
-        <!-- Unlimited google photos storage -->
-        <com.alpha.settings.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.pixelprops.gphotos"
-            android:icon="@drawable/ic_backup"
-            android:title="@string/use_photos_spoof_title"
-            android:summary="@string/use_photos_spoof_summary"
-            android:defaultValue="true" />
-
-        <!-- Netflix -->
-        <com.alpha.settings.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.pixelprops.netflix"
-            android:icon="@drawable/ic_netflix"
-            android:title="@string/netflix_spoof_title"
-            android:summary="@string/netflix_spoof_summary"
-            android:defaultValue="false" />
-
-        <!-- Hide developer settings status -->
-        <Preference
-            android:key="hide_developer_status_settings"
-            android:icon="@drawable/ic_settings_development"
-            android:title="@string/hide_developer_status_title"
-            android:summary="@string/hide_developer_status_summary"
-            android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
-            settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
-
-        <!-- Spoof storage encryption -->
-        <com.alpha.settings.preferences.SecureSettingSwitchPreference
-            android:key="spoof_storage_encryption_status"
-            android:icon="@drawable/ic_data_encryption"
-            android:title="@string/spoof_storage_encryption_status_title"
-            android:summary="@string/spoof_storage_encryption_status_summary"
-            android:defaultValue="false"/>
-    </PreferenceCategory>
+    <Preference
+        android:key="spoofing"
+        android:title="@string/spoofing_title"
+        android:summary="@string/spoofing_summary"
+        android:icon="@drawable/ic_spoof"
+        android:fragment="com.alpha.settings.fragments.misc.Spoofing" />
 
     <!-- Google services
     <Preference
