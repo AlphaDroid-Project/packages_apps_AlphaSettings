@@ -191,6 +191,13 @@
             android:summary="@string/theme_customization_qs_style_summary"
             android:fragment="com.alpha.settings.fragments.qs.QsPanelStyles" />
 
+        <SwitchPreferenceCompat
+            android:key="qs_split_shade"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_split_shade_title"
+            android:summary="@string/qs_split_shade_summary"
+            android:defaultValue="false" />
+
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:icon="@drawable/ic_text"

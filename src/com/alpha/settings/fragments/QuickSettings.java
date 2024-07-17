@@ -42,6 +42,9 @@ import com.alpha.settings.preferences.CustomSeekBarPreference;
 import lineageos.providers.LineageSettings;
 
 import com.android.internal.util.alpha.SystemRestartUtils;
+import com.android.internal.util.crdroid.ThemeUtils;
+
+import com.alpha.settings.utils.ResourceUtils;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -59,6 +62,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String KEY_PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
     private static final String KEY_QS_COMPACT_PLAYER  = "qs_compact_media_player_mode";
+    private static final String KEY_QS_SPLIT_SHADE = "qs_split_shade";
+
+    private static final String QS_SPLIT_SHADE_LAYOUT_CTG = "android.theme.customization.qs_landscape_layout";
+    private static final String QS_SPLIT_SHADE_LAYOUT_PKG = "com.android.systemui.qs.landscape.split_shade_layout";
+    private static final String QS_SPLIT_SHADE_LAYOUT_TARGET = "com.android.systemui";
+    private static final String QS_SPLIT_SHADE_CUTOUT_CTG = "android.theme.customization.qs_landscape_cutout";
+    private static final String QS_SPLIT_SHADE_CUTOUT_PKG = "android.landscape.split_shade_cutout";
+    private static final String QS_SPLIT_SHADE_CUTOUT_TARGET = "android";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
@@ -67,6 +78,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
     private Preference mQsCompactPlayer;
+    private SwitchPreferenceCompat mSplitShade;
+
+    private ThemeUtils mThemeUtils;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,6 +91,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         final Context mContext = getActivity().getApplicationContext();
         final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mThemeUtils = new ThemeUtils(mContext);
 
         mShowBrightnessSlider = findPreference(KEY_SHOW_BRIGHTNESS_SLIDER);
         mShowBrightnessSlider.setOnPreferenceChangeListener(this);
@@ -107,6 +123,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQsCompactPlayer = (Preference) findPreference(KEY_QS_COMPACT_PLAYER);
         mQsCompactPlayer.setOnPreferenceChangeListener(this);
 
+        mSplitShade = findPreference(KEY_QS_SPLIT_SHADE);
+        boolean ssEnabled = isSplitShadeEnabled();
+        mSplitShade.setChecked(ssEnabled);
+        mSplitShade.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -126,8 +146,29 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else if (preference == mQsCompactPlayer) {
             SystemRestartUtils.showSystemUIRestartDialog(getActivity());
             return true;
+        } else if (preference == mSplitShade) {
+            updateSplitShadeState(((Boolean) newValue).booleanValue());
+            return true;
         }
         return false;
+    }
+
+    private boolean isSplitShadeEnabled() {
+        return mThemeUtils.isOverlayEnabled(QS_SPLIT_SHADE_LAYOUT_PKG)
+            && mThemeUtils.isOverlayEnabled(QS_SPLIT_SHADE_CUTOUT_PKG);
+    }
+
+    private void updateSplitShadeState(boolean enable) {
+
+        mThemeUtils.setOverlayEnabled(
+                QS_SPLIT_SHADE_LAYOUT_CTG,
+                enable ? QS_SPLIT_SHADE_LAYOUT_PKG : QS_SPLIT_SHADE_LAYOUT_TARGET,
+                QS_SPLIT_SHADE_LAYOUT_TARGET);
+
+        mThemeUtils.setOverlayEnabled(
+                QS_SPLIT_SHADE_CUTOUT_CTG,
+                enable ? QS_SPLIT_SHADE_CUTOUT_PKG : QS_SPLIT_SHADE_CUTOUT_TARGET,
+                QS_SPLIT_SHADE_CUTOUT_TARGET);
     }
 
     public static void reset(Context mContext) {
@@ -173,6 +214,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
         QsHeaderImageSettings.reset(mContext);
+        ResourceUtils.updateOverlay(mContext, QS_SPLIT_SHADE_LAYOUT_CTG, QS_SPLIT_SHADE_LAYOUT_TARGET,
+                QS_SPLIT_SHADE_LAYOUT_TARGET);
+        ResourceUtils.updateOverlay(mContext, QS_SPLIT_SHADE_CUTOUT_CTG, QS_SPLIT_SHADE_CUTOUT_TARGET,
+                QS_SPLIT_SHADE_CUTOUT_TARGET);
     }
 
     private void updateAnimTileStyle(int tileAnimationStyle) {
