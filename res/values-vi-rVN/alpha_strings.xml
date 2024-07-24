@@ -23,7 +23,7 @@
     <string name="preference_category_clock">Đồng hồ</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Kiểu cài đặt</string>
-    <string name="settings_dashboard_style_summary">Settings homepage and AlphaSettings style</string>
+    <string name="settings_dashboard_style_summary"></string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
@@ -31,7 +31,7 @@
     <string name="max_visible_notification_icons_title">Biểu tượng thông báo</string>
     <string name="max_visible_notification_icons_summary">Số biểu tượng thông báo hiển thị trên thanh trạng thái</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar paddings</string>
+    <string name="statusbar_padding"></string>
     <string name="statusbar_top_padding">Khoảng cách trên cùng</string>
     <string name="statusbar_left_padding">Bên trái</string>
     <string name="statusbar_right_padding">Bên phải</string>
@@ -47,7 +47,7 @@
     <string name="qs_haptic_feedback_title">Rung khi chạm cài đặt nhanh</string>
     <string name="qs_haptic_feedback_summary">Rung khi chạm các ô cài đặt nhanh</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_title">Tùy biến nâng cao</string>
     <string name="alpha_settings_summary">Tùy biến chuyên sâu!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -63,16 +63,16 @@
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Thiết bị</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_title">Trạng thái bản dựng</string>
+    <string name="build_status_summary">Không chính thức</string>
     <string name="build_status_official">Official</string>
-    <string name="build_status_unofficial">Unofficial</string>
+    <string name="build_status_unofficial">Không chính thức</string>
     <!-- Maintainer -->
-    <string name="maintainer_title">Maintainer</string>
-    <string name="maintainer_summary">Searching for maintainer...</string>
+    <string name="maintainer_title">Người bảo trì</string>
+    <string name="maintainer_summary">Đang tìm kiếm người bảo trì...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">Bỏ qua cờ cửa sổ an toàn</string>
+    <string name="ignore_window_secure_summary">Loại bỏ giới hạn ảnh chụp màn hình và ghi màn hình cho tất cả các ứng dụng. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Ẩn trạng thái nhà phát triển</string>
     <string name="hide_developer_status_summary">Ẩn trạng thái nhà phát triển khỏi ứng dụng</string>
@@ -88,8 +88,8 @@
     <string name="theme_customization_notifications_title">Kiểu thông báo</string>
     <string name="theme_customization_notifications_summary">Tùy chỉnh kiểu thông báo</string>
     <!-- Volume panel styles -->
-    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
-    <string name="theme_customization_volume_panel_styles_summary">Set custom volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_title">Kiểu bảng điều khiển âm lượng</string>
+    <string name="theme_customization_volume_panel_styles_summary">Tùy chỉnh bảng cài đặt nhanh</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Buộc sử dụng LTE</string>
     <string name="force_lte_ca_summary">Buộc dùng LTE để hoạt động</string>
@@ -109,7 +109,7 @@
     <string name="fastcharge_disabled_extended_summary">Giới hạn ở: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">Cấu hình cổng USB</string>
-    <string name="usb_default_config_summary">Choose the default USB configuration</string>
+    <string name="usb_default_config_summary">Chọn cấu hình USB mặc định</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">Phần trăm độ sáng</string>
     <string name="bb_show_percentage_summary">Hiển thị văn bản phần trăm độ sáng trong thanh độ sáng</string>
@@ -123,7 +123,7 @@
     <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
     <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức thiết bị</string>
     <string name="gesture_wake_ambient">Hiển thị màn hình xem nhanh</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="gesture_wake">Đánh thức hoàn toàn</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Màn hình xem nhanh</string>
     <string name="doze_enabled_summary">Cho phép bật màn hình xem nhanh</string>
@@ -134,28 +134,28 @@
     <!-- Pixel battery usage chart -->
     <string name="advanced_battery_preference_summary_google">Sử dụng biểu đồ sử dụng Pin của Pixel</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="haptics_settings_title">Rung phản hồi</string>
+    <string name="haptics_settings_summary">Sửa đổi cường độ rung hệ thống</string>
+    <string name="back_gesture_haptic_intensity_title">Cường độ rung của cử chỉ quay lại</string>
+    <string name="brightness_slider_haptics_intensity_title">Cường độ rung thanh trượt độ sáng</string>
+    <string name="edge_scrolling_haptics_intensity_title">Cường độ rung cuộn cạnh</string>
+    <string name="volume_slider_haptics_intensity_title">Cường độ rung thanh trượt âm lượng</string>
     <!-- Misc categories -->
-    <string name="spoofing_category_title">Spoofing</string>
-    <string name="sensors_category_title">Sensors</string>
-    <string name="animations_category_title">Animations</string>
+    <string name="spoofing_category_title">Giả mạo</string>
+    <string name="sensors_category_title">Cảm biến</string>
+    <string name="animations_category_title">Hoạt ảnh</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_title">Sử dụng giả mạo mã hóa lưu trữ</string>
+    <string name="spoof_storage_encryption_status_summary">Giả mạo trạng thái mã hóa bộ nhớ thành đã mã hóa</string>
     <!-- Idle Manager -->
-    <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_title">Quản lí chờ</string>
+    <string name="idle_manager_summary">Dừng tất cả các quy trình nền không cần thiết khi thiết bị không hoạt động</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_title">Chế độ ngủ</string>
+    <string name="sleep_mode_summary_on">Bật / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Tắt / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Chế độ chuông</string>
+    <string name="sleep_mode_ringer_off_title">Không thay đổi</string>
     <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
     <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
     <string name="sleep_mode_ringer_silent_title">Silent</string>
