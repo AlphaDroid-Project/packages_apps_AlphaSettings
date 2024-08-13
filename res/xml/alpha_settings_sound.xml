@@ -81,12 +81,14 @@
 
         <com.alpha.settings.preferences.SecureSettingSwitchPreference
             android:key="volume_show_volume_percent"
+            android:icon="@drawable/ic_percent"
             android:title="@string/volume_show_volume_percent_title"
             android:summary="@string/volume_show_volume_percent_summary"
             android:defaultValue="true"/>
 
         <com.alpha.settings.preferences.SecureSettingSwitchPreference
             android:key="volume_show_media_button"
+            android:icon="@drawable/ic_media_output"
             android:title="@string/volume_show_media_button_title"
             android:summary="@string/volume_show_media_button_summary"
             android:defaultValue="true"/>
