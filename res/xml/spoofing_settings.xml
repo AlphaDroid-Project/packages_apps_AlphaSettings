@@ -27,6 +27,14 @@
             android:defaultValue="true" />
 
         <Preference
+            android:key="spoofing_pif_values"
+            android:title="@string/spoofing_pif_values_title"
+            android:summary="@string/spoofing_pif_values_summary"
+            android:fragment="com.alpha.settings.fragments.misc.Pif"
+            android:dependency="persist.sys.pif">
+        </Preference>
+
+        <Preference
             android:key="pif_json_file_preference"
             android:title="@string/spoofing_load_json_title"
             android:summary="@string/spoofing_load_json_summary"
