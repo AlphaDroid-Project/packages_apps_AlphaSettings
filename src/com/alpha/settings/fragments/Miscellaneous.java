@@ -71,11 +71,9 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         if (!mPocketJudgeSupported)
             prefScreen.removePreference(mPocketJudge);
 
-        Action defaultThreeFingersSwipeAction = Action.fromIntSafe(res.getInteger(
-                com.android.internal.R.integer.config_threeFingersSwipeBehavior));
         Action threeFingersSwipeAction = Action.fromSettings(getContentResolver(),
                 Settings.System.KEY_THREE_FINGERS_SWIPE_ACTION,
-                defaultThreeFingersSwipeAction);
+                Action.NOTHING);
         mThreeFingersSwipeAction = initList(KEY_THREE_FINGERS_SWIPE, threeFingersSwipeAction);
     }
 
