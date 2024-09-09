@@ -70,24 +70,20 @@
         android:icon="@drawable/ic_spoof"
         android:fragment="com.alpha.settings.fragments.misc.Spoofing" />
 
-    <!-- Google services
-    <Preference
-        android:key="gms_enabled_settings"
-        android:icon="@drawable/ic_google"
-        android:title="@string/gms_enabled_title"
-        android:summary="@string/gms_enabled_summary"
-        android:fragment="com.alpha.settings.fragments.misc.GmsSwitch"/> -->
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:icon="@drawable/ic_settings_security"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false" />
 
-    <!-- Parallel space
-    <Preference
-        android:key="parallel_space"
-        android:icon="@drawable/ic_parallel_space"
-        android:title="@string/laboratory_parallel_space_title"
-        android:summary="@string/laboratory_parallel_space_summary">
-        <intent
-            android:targetPackage="ink.kscope.parallelspace"
-            android:targetClass="ink.kscope.parallelspace.MainActivity" />
-    </Preference> -->
+    <com.alpha.settings.preferences.GlobalSettingSwitchPreference
+        android:key="no_storage_restrict"
+        android:icon="@drawable/ic_storage"
+        android:title="@string/no_storage_restrict_title"
+        android:summary="@string/no_storage_restrict_summary"
+        android:defaultValue="false" />
+
 
     <PreferenceCategory
         android:title="@string/sensors_category_title">
