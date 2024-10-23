@@ -37,16 +37,6 @@
         android:defaultValue="1"
         settings:interval="1"/>
 
-    <!-- Edge scrolling intensity -->
-    <com.alpha.settings.preferences.CustomSeekBarPreference
-        android:key="edge_scrolling_haptics_intensity"
-        android:title="@string/edge_scrolling_haptics_intensity_title"
-        android:order="-997"
-        android:max="5"
-        settings:min="0"
-        android:defaultValue="3"
-        settings:interval="1"/>
-
     <!-- Volume slider intensity -->
     <com.alpha.settings.preferences.CustomSeekBarPreference
         android:key="volume_slider_haptics_intensity"
