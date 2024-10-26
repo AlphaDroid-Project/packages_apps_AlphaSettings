@@ -31,7 +31,7 @@
     <string name="max_visible_notification_icons_title">Íconos de notificaciones</string>
     <string name="max_visible_notification_icons_summary">Íconos de notificación visibles en barra de estado</string>
     <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar paddings</string>
+    <string name="statusbar_padding">Relleno de la barra de estado</string>
     <string name="statusbar_top_padding">Espacio superior</string>
     <string name="statusbar_left_padding">Espacio izquierdo</string>
     <string name="statusbar_right_padding">Espacio derecho</string>
@@ -48,7 +48,7 @@ Después cambia de música, pausala o mueve la barra de progreso para aplicarla<
     <string name="qs_haptic_feedback_title">Retroalimentación háptica de QS</string>
     <string name="qs_haptic_feedback_summary">Vibrar al tocar ajustes rápidos</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_title">Ajustes de Alpha</string>
     <string name="alpha_settings_summary">¡Habrá mejoras!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
@@ -64,16 +64,16 @@ Después cambia de música, pausala o mueve la barra de progreso para aplicarla<
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Dispositivo</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_title">Estado de la compilación</string>
+    <string name="build_status_summary">No-oficial</string>
     <string name="build_status_official">Oficial</string>
-    <string name="build_status_unofficial">Unofficial</string>
+    <string name="build_status_unofficial">No-oficial</string>
     <!-- Maintainer -->
     <string name="maintainer_title">Desarrollador</string>
-    <string name="maintainer_summary">Searching for maintainer...</string>
+    <string name="maintainer_summary">Buscando encargado de mantenimiento...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">Ignorar ventanas seguras</string>
+    <string name="ignore_window_secure_summary">Elimina el límite de capturas y grabaciones de pantalla para todas las aplicaciones. Esto puede ser conveniente en algunos casos, pero podría llevar a filtraciones de datos.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Ocultar estado de desarrollador</string>
     <string name="hide_developer_status_summary">Ocultar estado de desarrollador en apps</string>
@@ -89,7 +89,7 @@ Después cambia de música, pausala o mueve la barra de progreso para aplicarla<
     <string name="theme_customization_notifications_title">Estilo de las notificaciones</string>
     <string name="theme_customization_notifications_summary">Establecer estilo personalizado de notificaciones</string>
     <!-- Volume panel styles -->
-    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_title">Estilo del panel de volumen</string>
     <string name="theme_customization_volume_panel_styles_summary">Definir estilo personalizado del panel de volumen</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forzar CA LTE</string>
@@ -151,156 +151,160 @@ Después cambia de música, pausala o mueve la barra de progreso para aplicarla<
     <string name="idle_manager_summary">Detener todos los procesos en segundo plano no esenciales cuando el dispositivo esté inactivo</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Modo suspensión</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_summary_on">Activado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desactivado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de timbre</string>
+    <string name="sleep_mode_ringer_off_title">No cambiar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">No molestar</string>
+    <string name="sleep_mode_ringer_silent_title">Silencio</string>
     <string name="sleep_mode_schedule_sunset">Atardecer</string>
     <string name="sleep_mode_schedule_sunrise">Amanecer</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Activar desde el atardecer hasta una hora personalizada</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Activar desde un tiempo personalizado hasta el amanecer</string>
+    <string name="sleep_mode_toggles_title">Interruptores</string>
+    <string name="sleep_mode_wifi_toggle_title">Desactivar Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desactivar el Wi-Fi cuando el modo sueño está activado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desactivar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desactivar el Bluetooth cuando el modo sueño está activado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desactivar datos móviles</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desactivar datos móviles cuando el modo sueño está activado</string>
+    <string name="sleep_mode_location_toggle_title">Desactivar ubicación</string>
+    <string name="sleep_mode_location_toggle_summary">Desactivar la ubicación cuando el modo sueño está activado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desactivar sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desactivar los sensores cuando el modo sueño está activado</string>
+    <string name="sleep_mode_display_text">El modo sueño te permite desactivar ciertos servicios para ayudar a ahorrar batería y silenciar tu dispositivo mientras duermes.</string>
     <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Turn on now</string>
+    <string name="night_display_activation_on_manual">Activar ahora</string>
     <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Turn off now</string>
+    <string name="night_display_activation_off_manual">Desactivar ahora</string>
     <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
+    <string name="night_display_activation_on_twilight">Activar hasta el amanecer</string>
     <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
+    <string name="night_display_activation_off_twilight">Desactivar hasta el atardecer</string>
     <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <string name="night_display_activation_on_custom">Activar hasta <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <string name="night_display_activation_off_custom">Desactivar hasta <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_title">Tasa de refresco</string>
+    <string name="refresh_rate_summary_vrr_off">Hz</string>
+    <string name="refresh_rate_summary_vrr_on">Hz (adaptativo)</string>
+    <string name="refresh_rate_vrr_title">Tasa de refresco adaptativa</string>
+    <string name="refresh_rate_vrr_summary">Disminuye automáticamente la tasa de refresco cuando la pantalla está quieta, para ahorrar energía. Puede ocasionar parpadeo o cambios de color en algunas pantallas.</string>
+    <string name="refresh_rate_footer">Una tasa de refresco más alta hace que el movimiento de la pantalla sea más fluido, pero aumenta el consumo de energía</string>
+    <string name="keywords_refresh_rate">refresco, tasa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Tecnología</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Salud</string>
+    <string name="battery_health_good">Buena</string>
+    <string name="battery_health_overheat">Sobrecalentada</string>
+    <string name="battery_health_dead">Muerta</string>
+    <string name="battery_health_over_voltage">Sobretensión</string>
+    <string name="battery_health_unspecified_failure">Fallo sin especificar</string>
+    <string name="battery_health_cold">Fría</string>
+    <string name="battery_health_unknown">Desconocida</string>
     <!-- Battery Info: Temperature -->
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Voltaje</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Capacidad diseñada</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Capacidad máxima</string>
     <!-- Compact QS Media Player-->
-    <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
-    <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
+    <string name="qs_compact_media_player_mode_title">Reproductor multimedia QS compacto</string>
+    <string name="qs_compact_media_player_mode_summary">Activar el modo compacto para el reproductor multimedia en los ajustes rápidos</string>
     <!-- Shake Gestures -->
-    <string name="shake_gestures_enabled_title">Shake Gestures</string>
-    <string name="shake_gestures_enabled_summary">Shake your device to perform actions</string>
-    <string name="shake_gestures_action_title">Shake Gestures Actions</string>
-    <string name="shake_gestures_toggle_flashlight">Toggle Flashlight</string>
-    <string name="shake_gestures_media_playback">Play/Skip Media</string>
-    <string name="shake_gestures_volume_panel">Show Volume Panel</string>
-    <string name="shake_gestures_screen_wake">Turn Screen On/Off</string>
-    <string name="shake_gestures_clear_notifs">Clear All Notifications</string>
-    <string name="shake_gestures_toggle_ringer">Toggle Ringer Mode</string>
-    <string name="shake_gestures_screenshot">Take Screenshot</string>
-    <string name="shake_gestures_intensity_title">Shake Gestures Intensity</string>
-    <string name="shake_gestures_intensity_summary">Adjust the sensitivity of shake gestures</string>
+    <string name="shake_gestures_enabled_title">Gestos de agitado</string>
+    <string name="shake_gestures_enabled_summary">Agita el dispositivo para realizar acciones</string>
+    <string name="shake_gestures_action_title">Acciones de gestos de agitado</string>
+    <string name="shake_gestures_toggle_flashlight">Encender/apagar linterna</string>
+    <string name="shake_gestures_media_playback">Reproducir/pausar contenido multimedia</string>
+    <string name="shake_gestures_volume_panel">Mostrar el panel de volumen</string>
+    <string name="shake_gestures_screen_wake">Encender/apagar la pantalla</string>
+    <string name="shake_gestures_clear_notifs">Borrar todas las notificaciones</string>
+    <string name="shake_gestures_toggle_ringer">Activar modo de timbre</string>
+    <string name="shake_gestures_screenshot">Realizar captura de pantalla</string>
+    <string name="shake_gestures_intensity_title">Intensidad de los gestos de agitado</string>
+    <string name="shake_gestures_intensity_summary">Ajusta la sensibilidad de los gestos de agitado</string>
     <!-- Three Finger Swipe Gestures -->
-    <string name="three_finger_gesture_action_title">Three Finger Swipe Gestures</string>
-    <string name="three_finger_gesture_action_dialog_title">Swipe Three Finger Gestures Actions</string>
+    <string name="three_finger_gesture_action_title">Gestos al deslizar tres dedos</string>
+    <string name="three_finger_gesture_action_dialog_title">Acciones de los gestos al deslizar tres dedos</string>
     <!-- Volume Row Percent -->
-    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
-    <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
+    <string name="volume_show_volume_percent_title">Mostrar el porcentaje de volumen</string>
+    <string name="volume_show_volume_percent_summary">Muestra el porcentaje de volumen en la barra de sonido</string>
     <!-- Volume Media Button -->
-    <string name="volume_show_media_button_title">Volume media button</string>
-    <string name="volume_show_media_button_summary">Show media output switcher button into volume dialog</string>
+    <string name="volume_show_media_button_title">Mostrar botón multimedia</string>
+    <string name="volume_show_media_button_summary">Mostrar el interruptor de salida multimedia en el diálogo de volumen</string>
     <!-- QS split shade -->
-    <string name="qs_split_shade_title">Split Shade</string>
-    <string name="qs_split_shade_summary">Split QS layout in landscape mode</string>
+    <string name="qs_split_shade_title">Dividir cortina</string>
+    <string name="qs_split_shade_summary">Divide la disposición de la cortina en el modo horizontal</string>
     <!-- Spoofing -->
-    <string name="spoofing_pref">Spoofing</string>
-    <string name="spoofing_title">Component spoofing</string>
-    <string name="spoofing_summary">Bypass app restrictions by spoofing components</string>
-    <string name="spoofing_system_wide_category">System-Wide</string>
-    <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
-    <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values</string>
-    <string name="spoofing_pixel_props_title">Pixel props</string>
-    <string name="spoofing_pixel_props_summary">Spoof the device as a Pixel 8 Pro for all Google apps</string>
-    <string name="spoofing_storage_encryption_title">Storage encryption</string>
-    <string name="spoofing_storage_encryption_summary">Spoof the device storage encryption status to \'Encrypted\'</string>
-    <string name="spoofing_app_specific_category">App-Specific</string>
-    <string name="spoofing_photos_title">Google Photos spoof</string>
-    <string name="spoofing_photos_summary">Spoof the device as Pixel XL for Google Photos to unlock unlimited image backup</string>
-    <string name="spoofing_games_title">Higher FPS in games</string>
-    <string name="spoofing_games_summary">Spoof the device as different models for select games to unlock higher FPS</string>
-    <string name="spoofing_snapchat_title">Snapchat spoof</string>
-    <string name="spoofing_snapchat_summary">Spoof the device as Pixel 2 for Snapchat to allow original quality captures</string>
-    <string name="spoofing_load_json_title">Select spoofing JSON File</string>
-    <string name="spoofing_load_json_summary">Pick JSON file to be used for spoofing play integrity</string>
+    <string name="spoofing_pref">Falsificación</string>
+    <string name="spoofing_title">Falsificación de componentes</string>
+    <string name="spoofing_summary">Esquiva las restricciones de las apps falsificando los componentes</string>
+    <string name="spoofing_system_wide_category">Todo el sistema</string>
+    <string name="spoofing_pif_toggle_title">Arreglo de la integridad de Google Play</string>
+    <string name="spoofing_pif_toggle_summary">Usar los valores integrados con la ROM para el arreglo de la integridad</string>
+    <string name="spoofing_pixel_props_title">Props de los Pixel</string>
+    <string name="spoofing_pixel_props_summary">Falsifica el dispositivo como un Pixel 8 Pro para todas las apps de Google</string>
+    <string name="spoofing_storage_encryption_title">Encriptación del almacenamiento</string>
+    <string name="spoofing_storage_encryption_summary">Falsifica el estado de cifrado del almacenamiento a \"Encriptado\"</string>
+    <string name="spoofing_app_specific_category">Aplicación específica</string>
+    <string name="spoofing_photos_title">Falsificación en Google Fotos</string>
+    <string name="spoofing_photos_summary">Falsifica el dispositivo como un Pixel XL en Google Fotos para tener acceso al almacenamiento ilimitado de fotos</string>
+    <string name="spoofing_games_title">Aumentar cantidad de FPS en juegos</string>
+    <string name="spoofing_games_summary">Falsifica el dispositivo como un modelo diferente en juegos específicos para desbloquear más FPS</string>
+    <string name="spoofing_snapchat_title">Falsificación en Snapchat</string>
+    <string name="spoofing_snapchat_summary">Falsifica el dispositivo como un Pixel 2 en Snapchat para permitir capturas en calidad original</string>
+    <string name="spoofing_load_json_title">Seleccionar archivo JSON de falsificación</string>
+    <string name="spoofing_load_json_summary">Elige el archivo JSON que se usará para falsificar la integridad de Google Play</string>
     <!-- Pif spoofing info -->
-    <string name="spoofing_pif_values_title">Play Integrity fix values</string>
-    <string name="spoofing_pif_values_summary">View current values used to spoof GMS for Play Integrity API certification</string>
-    <string name="spoofing_pif_manufacturer_title">Manufacturer</string>
-    <string name="spoofing_pif_model_title">Model</string>
-    <string name="spoofing_pif_fingerprint_title">Fingerprint</string>
-    <string name="spoofing_pif_brand_title">Brand</string>
-    <string name="spoofing_pif_product_title">Product</string>
+    <string name="spoofing_pif_values_title">Valores de la integridad de Google Play</string>
+    <string name="spoofing_pif_values_summary">Ver los valores actuales utilizados para falsificar la certificación de la integridad de Google Play</string>
+    <string name="spoofing_pif_manufacturer_title">Fabricante</string>
+    <string name="spoofing_pif_model_title">Modelo</string>
+    <string name="spoofing_pif_fingerprint_title">Huella digital</string>
+    <string name="spoofing_pif_brand_title">Marca</string>
+    <string name="spoofing_pif_product_title">Producto</string>
     <string name="spoofing_pif_device_title">Dispositivo</string>
-    <string name="spoofing_pif_release_title">Release</string>
+    <string name="spoofing_pif_release_title">Lanzamiento</string>
     <string name="spoofing_pif_id_title">ID</string>
     <string name="spoofing_pif_incremental_title">Incremental</string>
-    <string name="spoofing_pif_type_title">Type</string>
-    <string name="spoofing_pif_tags_title">Tags</string>
-    <string name="spoofing_pif_security_patch_title">Security patch</string>
-    <string name="spoofing_pif_initial_sdk_title">Shipping API level</string>
+    <string name="spoofing_pif_type_title">Tipo</string>
+    <string name="spoofing_pif_tags_title">Etiquetas</string>
+    <string name="spoofing_pif_security_patch_title">Parche de seguridad</string>
+    <string name="spoofing_pif_initial_sdk_title">Nivel de la API de envío</string>
     <!-- No storage restrict -->
-    <string name="no_storage_restrict_title">No storage restrict</string>
-    <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework. Can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="no_storage_restrict_title">Sin restricciones de almacenamiento</string>
+    <string name="no_storage_restrict_summary">Elimina la restricción al seleccionar carpetas desde el Storage Access Framework. Puede ser conveniente en algunos casos pero podría llevar a filtraciones de datos.</string>
     <!-- Battery styles (extra) -->
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
-    <string name="status_bar_battery_style_icon_landscape_ios15">Landscape iOS 15</string>
-    <string name="status_bar_battery_style_icon_landscape_ios16">Landscape iOS 16</string>
-    <string name="status_bar_battery_style_icon_landscape_origami">Landscape Origami</string>
-    <string name="status_bar_battery_style_icon_landscape_miui_pill">Landscape MiUI Pill</string>
-    <string name="status_bar_battery_style_icon_landscape_ios16a">Landscape iOS 16 Colored</string>
+    <string name="status_bar_battery_percent_text_next_right">Junto al icono (derecha)</string>
+    <string name="status_bar_battery_percent_text_next_left">Junto al icono (izquierda)</string>
+    <string name="status_bar_battery_text_charging_title">Porcentaje de batería durante la carga</string>
+    <string name="status_bar_battery_text_charging_summary">Mostrar siempre el porcentaje de batería al cargar</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Horizontal D Estilo A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Horizontal I Estilo A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Horizontal D Estilo B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Horizontal I estilo B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Vertical Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Horizontal Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Vertical iOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Horizontal Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Horizontal Cápsula</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Horizontal iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Horizontal iOS 16</string>
+    <string name="status_bar_battery_style_icon_landscape_origami">Horizontal Origami</string>
+    <string name="status_bar_battery_style_icon_landscape_miui_pill">Horizontal píldora MIUI</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16a">Horizontal iOS 16 coloreado</string>
     <!-- Volume Sound Haptics -->
-    <string name="volume_sound_haptics_title">Volume sound haptics</string>
-    <string name="volume_sound_haptics_summary">Enable sound feedback when adjusting volume row progress</string>
+    <string name="volume_sound_haptics_title">Retroalimentación háptica del volumen</string>
+    <string name="volume_sound_haptics_summary">Activar retroalimentación háptica al ajustar el progreso de la fila de volumen</string>
+    <!-- Title text for back gesture edge lock. [CHAR LIMIT=60] -->
+    <string name="lock_edge_back_gesture_title">Bloqueo del borde en el gesto atrás</string>
+    <!-- Summary text for sback gesture edge lock. [CHAR LIMIT=NONE] -->
+    <string name="lock_edge_back_gesture_summary">Desactivar el deslizamiento a izquierda o derecha durante el modo de navegación gestual.</string>
 </resources>
