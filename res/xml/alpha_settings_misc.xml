@@ -63,6 +63,15 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
+    <!-- QuickSwitch -->
+    <Preference
+        android:key="quickswitch"
+        android:icon="@drawable/ic_home"
+        android:title="@string/quickswitch_launcher_title"
+        android:summary="@string/quickswitch_launcher_summary"
+        android:fragment="com.alpha.settings.fragments.QuickSwitch" />
+
+
     <Preference
         android:key="spoofing"
         android:title="@string/spoofing_title"
