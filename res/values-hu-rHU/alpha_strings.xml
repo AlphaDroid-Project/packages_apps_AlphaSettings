@@ -196,23 +196,23 @@
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technológia</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Állapot</string>
+    <string name="battery_health_good">Jó</string>
+    <string name="battery_health_overheat">Túlmelegszik</string>
+    <string name="battery_health_dead">Cserére szorul</string>
+    <string name="battery_health_over_voltage">Túlfeszültség</string>
+    <string name="battery_health_unspecified_failure">Meghatározatlan hiba</string>
+    <string name="battery_health_cold">Hideg</string>
+    <string name="battery_health_unknown">Ismeretlen</string>
     <!-- Battery Info: Temperature -->
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Feszültség</string>
     <!-- Battery Info: Charge Counter -->
     <string name="battery_charge_counter_summary">%1$d mAh</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Tervezett kapacitás</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Maximum kapacitás</string>
     <!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
     <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
@@ -220,13 +220,13 @@
     <string name="shake_gestures_enabled_title">Shake Gestures</string>
     <string name="shake_gestures_enabled_summary">Shake your device to perform actions</string>
     <string name="shake_gestures_action_title">Shake Gestures Actions</string>
-    <string name="shake_gestures_toggle_flashlight">Toggle Flashlight</string>
+    <string name="shake_gestures_toggle_flashlight">Lámpa be- és kikapcsolása</string>
     <string name="shake_gestures_media_playback">Médialejátszás vagy átugrás</string>
-    <string name="shake_gestures_volume_panel">Show Volume Panel</string>
-    <string name="shake_gestures_screen_wake">Turn Screen On/Off</string>
+    <string name="shake_gestures_volume_panel">Hangerőpanel megjelenítése</string>
+    <string name="shake_gestures_screen_wake">Képernyő be- és kikapcsolása</string>
     <string name="shake_gestures_clear_notifs">Minden értesítés törlése</string>
-    <string name="shake_gestures_toggle_ringer">Toggle Ringer Mode</string>
-    <string name="shake_gestures_screenshot">Take Screenshot</string>
+    <string name="shake_gestures_toggle_ringer">Csengésmód kapcsolása</string>
+    <string name="shake_gestures_screenshot">Képernyőmentés készítése</string>
     <string name="shake_gestures_intensity_title">Shake Gestures Intensity</string>
     <string name="shake_gestures_intensity_summary">Adjust the sensitivity of shake gestures</string>
     <!-- Three Finger Swipe Gestures -->
@@ -243,13 +243,13 @@
     <string name="qs_split_shade_summary">Split QS layout in landscape mode</string>
     <!-- Spoofing -->
     <string name="spoofing_pref">Hamisítás</string>
-    <string name="spoofing_title">Component spoofing</string>
-    <string name="spoofing_summary">Bypass app restrictions by spoofing components</string>
+    <string name="spoofing_title">Elemek hamisítása</string>
+    <string name="spoofing_summary">Megkerülheti az alkalmazáskorlátozásokat részegységek hamisításával</string>
     <string name="spoofing_system_wide_category">Rendszerszintű</string>
-    <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
-    <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values</string>
-    <string name="spoofing_pixel_props_title">Pixel props</string>
-    <string name="spoofing_pixel_props_summary">A Google alkalmazásokhoz Pixel 8 Pro-nak álcázza telefonját</string>
+    <string name="spoofing_pif_toggle_title">Play Integritás javítás</string>
+    <string name="spoofing_pif_toggle_summary">A beépített Play Integritás javító értékek használata</string>
+    <string name="spoofing_pixel_props_title">Pixel-kellékek</string>
+    <string name="spoofing_pixel_props_summary">A Google alkalmazásokhoz Pixel 8 Pro-nak álcázza a készüléket.</string>
     <string name="spoofing_storage_encryption_title">Tárhelytitkosítás</string>
     <string name="spoofing_storage_encryption_summary">A tárhely állapotának hamisítása \' Titkosított \'-ra</string>
     <string name="spoofing_app_specific_category">Alkalmazás-specifikus</string>
@@ -259,11 +259,11 @@
     <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snapchat_title">Snapchat álcázás</string>
     <string name="spoofing_snapchat_summary">Pixel 2-nek álcázza készülékét, hogy a Snapchat eredeti minőségben rögzíthessen</string>
-    <string name="spoofing_load_json_title">Select spoofing JSON File</string>
-    <string name="spoofing_load_json_summary">Pick JSON file to be used for spoofing play integrity</string>
+    <string name="spoofing_load_json_title">Válasszon egy JSON fájlt az álcázáshoz</string>
+    <string name="spoofing_load_json_summary">Válasszon egy JSON fájlt, a Play Integritás hamisítására</string>
     <!-- Pif spoofing info -->
-    <string name="spoofing_pif_values_title">A Play Integrity javítás értékei</string>
-    <string name="spoofing_pif_values_summary">A jelenlegi értékek megtekintése, amelyeket a GMS meghamisításához használnak a Play Integrity API-tanúsítványhoz</string>
+    <string name="spoofing_pif_values_title">A Play Integritás javítás értékei</string>
+    <string name="spoofing_pif_values_summary">A jelenlegi értékek megtekintése, amelyeket a GMS meghamisításához használ a Play Integrity API-tanúsítványhoz</string>
     <string name="spoofing_pif_manufacturer_title">Gyártó</string>
     <string name="spoofing_pif_model_title">Modell</string>
     <string name="spoofing_pif_fingerprint_title">Ujjlenyomat</string>
@@ -276,20 +276,20 @@
     <string name="spoofing_pif_type_title">Típus</string>
     <string name="spoofing_pif_tags_title">Címkék</string>
     <string name="spoofing_pif_security_patch_title">Biztonsági frissítés</string>
-    <string name="spoofing_pif_initial_sdk_title">Shipping API level</string>
+    <string name="spoofing_pif_initial_sdk_title">Szállított API-szint</string>
     <!-- No storage restrict -->
-    <string name="no_storage_restrict_title">No storage restrict</string>
-    <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework. Can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="no_storage_restrict_title">Nincs tárhelykorlátozás</string>
+    <string name="no_storage_restrict_summary">Távolítsa el a korlátozást, amikor a Tárhelyhozzáférés Keretrendszer segítségével választ ki mappákat. Bizonyos esetekben kényelmes lehet, de adatszivárgáshoz vezethet.</string>
     <!-- Battery styles (extra) -->
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_percent_text_next_right">Az ikon mellett (jobb)</string>
+    <string name="status_bar_battery_percent_text_next_left">Az ikon mellett (bal)</string>
+    <string name="status_bar_battery_text_charging_title">Akkuszázalék töltés közben</string>
+    <string name="status_bar_battery_text_charging_summary">Töltés közben állandóan jelenítse meg az akkuszázalékot</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Fekvő J stílus A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Fekvő B stílus A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Fekvő J stílus B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Fekvő B stílus B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Álló Mx</string>
     <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
     <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
