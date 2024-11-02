@@ -134,11 +134,11 @@
     <!-- Pixel battery usage chart -->
     <string name="advanced_battery_preference_summary_google">A Pixel akkumulátorhasználati diagramm használata</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="haptics_settings_title">Érintési visszajelzés</string>
+    <string name="haptics_settings_summary">Az érintési visszajelzés mértének módosítása</string>
+    <string name="back_gesture_haptic_intensity_title">A vissza gesztus rezgési intenzitása</string>
+    <string name="brightness_slider_haptics_intensity_title">A fényerőcsúszka rezgési intenzitása</string>
+    <string name="volume_slider_haptics_intensity_title">A hangerőcsúszka rezgési intenzitása</string>
     <!-- Misc categories -->
     <string name="sensors_category_title">Érzékelők</string>
     <string name="animations_category_title">Animációk</string>
@@ -146,33 +146,33 @@
     <string name="spoof_storage_encryption_status_title">Tárhelytitkosítás-hamisítás használata</string>
     <string name="spoof_storage_encryption_status_summary">A tárhely állapotának hamisítása titkosítottra</string>
     <!-- Idle Manager -->
-    <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_title">Készenlét menedzser</string>
+    <string name="idle_manager_summary">Minden, nem alapvető háttérfolyamat leállítása készenlétben</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_title">Alvómód</string>
     <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
     <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_title">Hívásértesítési mód</string>
+    <string name="sleep_mode_ringer_off_title">Ne változtassa meg</string>
     <string name="sleep_mode_ringer_vibrate_title">Rezgés</string>
     <string name="sleep_mode_ringer_dnd_title">Ne zavarjanak (DND)</string>
     <string name="sleep_mode_ringer_silent_title">Néma</string>
     <string name="sleep_mode_schedule_sunset">Napnyugta</string>
     <string name="sleep_mode_schedule_sunrise">Napkelte</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Napnyugtától a beállított időig bekapcsol</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">A beállított időtől napkeltéig bekapcsol</string>
+    <string name="sleep_mode_toggles_title">Kapcsolók</string>
     <string name="sleep_mode_wifi_toggle_title">Wi-Fi kikapcsolása</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_wifi_toggle_summary">Kikapcsolja a Wi-Fi-t amikor az alvómód be van kapcsolva</string>
     <string name="sleep_mode_bluetooth_toggle_title">Bluetooth kikapcsolása</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Kikapcsolja a Bluetooth-t amikor az alvómód be van kapcsolva</string>
     <string name="sleep_mode_cellular_toggle_title">Mobiladat kikapcsolása</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_cellular_toggle_summary">Letiltja a mobilinternetet, ha az alvómód be van kapcsolva</string>
+    <string name="sleep_mode_location_toggle_title">Helymeghatározás kikapcsolása</string>
+    <string name="sleep_mode_location_toggle_summary">Letiltja a helymeghatározást, ha az alvómód be van kapcsolva</string>
+    <string name="sleep_mode_sensors_toggle_title">Szenzorok kikapcsolása</string>
+    <string name="sleep_mode_sensors_toggle_summary">Letiltja a szenzorokat, ha az alvómód be van kapcsolva</string>
+    <string name="sleep_mode_display_text">Az alvómód lehetővé teszi, hogy letiltson szolgáltatásokat az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
     <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
     <string name="night_display_activation_on_manual">Bekapcsolás most</string>
     <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
@@ -182,19 +182,19 @@
     <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_twilight">Kikapcsolás napnyugtáig</string>
     <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <string name="night_display_activation_on_custom">Bekapcsolás eddig: <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <string name="night_display_activation_off_custom">Kikapcsolás eddig: <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Refresh rate -->
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Frissítési gyakoriság</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Alkalmazkodó)</string>
+    <string name="refresh_rate_vrr_title">Alkalmazkodó frissítési gyakoriság</string>
+    <string name="refresh_rate_vrr_summary">Frissítési gyakoriság automatikus csökkentése az akku kímélése érdekében, a képernyő készenléti állapotában. Bizonyos képernyőkön villogást vagy színváltozást okozhat.</string>
+    <string name="refresh_rate_footer">A nagyobb frissítési gyakoriság simábbá teszi a kijelző képét, de növeli az energiafogyasztást</string>
+    <string name="keywords_refresh_rate">frissítés, gyakoriság, sima, csúcs, 60Hz, 90Hz, 120Hz, 144Hz, 165Hz</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Technológia</string>
     <!-- Battery Info: Health -->
     <string name="battery_health">Health</string>
     <string name="battery_health_good">Good</string>
