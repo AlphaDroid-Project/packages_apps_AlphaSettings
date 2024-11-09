@@ -20,7 +20,6 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.UserHandle;
-
 import android.provider.Settings;
 
 import com.android.settings.R;
@@ -39,22 +38,20 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_LOCATION, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_MODE, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_AUTOHIDE, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_UNITS, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_SHOW_UNITS, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_REFRESH_INTERVAL, 2, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.NETWORK_TRAFFIC_HIDEARROW, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_ENABLED, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_MODE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_AUTOHIDE, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_UNITS, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_REFRESH_INTERVAL, 2, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_HIDEARROW, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
