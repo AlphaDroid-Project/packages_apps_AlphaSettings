@@ -23,7 +23,7 @@
     <string name="preference_category_clock">時鐘</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">設定樣式</string>
-    <string name="settings_dashboard_style_summary">設定主頁和Alphabet樣式</string>
+    <string name="settings_dashboard_style_summary">設定首頁和 AlphaSettings 樣式</string>
     <string name="settings_dashboard_style_aosp">AOSP</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_nad">NAD</string>
@@ -42,63 +42,64 @@
     <string name="show_squiggle_animation_summary">在需要切换音樂、暫停音樂或移動進度條以使用後，顯示媒體面板波浪形動畫</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">UI 樣式</string>
-    <string name="theme_customization_ui_style_summary">為您的界面設置自定義樣式</string>
+    <string name="theme_customization_ui_style_summary">為您的介面設定自訂樣式</string>
     <!-- QS haptic feedback -->
-    <string name="qs_haptic_feedback_title">QS haptic feedback</string>
-    <string name="qs_haptic_feedback_summary">Vibrate when touching QS tiles</string>
+    <string name="qs_haptic_feedback_title">震動回饋</string>
+    <string name="qs_haptic_feedback_summary">點擊快速設定圖塊時震動</string>
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
-    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="alpha_settings_title">Alpha 設定</string>
+    <string name="alpha_settings_summary">更多好用的功能!</string>
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
     <string name="jitter_test_title">Jitter</string>
-    <string name="jitter_test_summary">Calculate rendering jitter</string>
+    <string name="jitter_test_summary">計算渲染 Jitter</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux狀態</string>
+    <string name="selinux_status">SELinux 狀態</string>
     <string name="selinux_status_disabled">停用</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">寬鬆</string>
+    <string name="selinux_status_enforcing">強制</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">裝置</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
+    <string name="build_status_title">建置狀態</string>
     <string name="build_status_summary">非官方</string>
-    <string name="build_status_official">Official</string>
+    <string name="build_status_official">官方</string>
     <string name="build_status_unofficial">非官方</string>
     <!-- Maintainer -->
     <string name="maintainer_title">維護者</string>
-    <string name="maintainer_summary">搜尋維護人員</string>
+    <string name="maintainer_summary">正在尋找維護者...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">忽略應用程式禁止使用者擷取螢幕的保護</string>
+    <string name="ignore_window_secure_summary">移除所有應用程式的螢幕截圖和螢幕錄影限制，在某些情境下能帶來便利性，但可能引發隱私洩漏之虞。
+您可能需要重新啟動應用程式才能使變更生效。</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">隱藏開發者狀態</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="hide_developer_status_summary">在應用程式中隱藏開發者狀態</string>
     <string name="search">搜尋</string>
     <string name="search_apps">搜尋應用程式</string>
     <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">快速設定面板風格</string>
-    <string name="theme_customization_qs_style_summary">自訂快速設定面板風格</string>
+    <string name="theme_customization_qs_style_title">快速設定面板樣式</string>
+    <string name="theme_customization_qs_style_summary">自訂快速設定面板樣式</string>
     <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">亮度控制條風格</string>
-    <string name="theme_customization_brightness_bar_summary">自訂亮度控制條的樣式</string>
+    <string name="theme_customization_brightness_bar_title">亮度調整條風格</string>
+    <string name="theme_customization_brightness_bar_summary">自訂亮度調整條的樣式</string>
     <!-- Notifications style -->
     <string name="theme_customization_notifications_title">通知樣式</string>
     <string name="theme_customization_notifications_summary">自動通知訊息樣式</string>
     <!-- Volume panel styles -->
-    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
-    <string name="theme_customization_volume_panel_styles_summary">Set custom volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_title">音量面板樣式</string>
+    <string name="theme_customization_volume_panel_styles_summary">自訂音量面板樣式</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">強制啟用 LTE 聚波載合</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_summary">強制啟用 LTE 載波聚合</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">智慧 5G</string>
     <string name="smart_5g_summary">自動在 5G 和 4G 之間切換以減少電池的消耗</string>
     <!-- Custom Data icons -->
-    <string name="theme_customization_data_title">Data icon style</string>
-    <string name="theme_customization_data_summary">Set custom data icon style</string>
+    <string name="theme_customization_data_title">數據圖示樣式</string>
+    <string name="theme_customization_data_summary">設定數據圖示樣式</string>
     <!-- Generic support strings -->
     <string name="string_enabled">啟用</string>
     <string name="string_disabled">停用</string>
@@ -106,73 +107,73 @@
     <string name="string_off">關閉</string>
     <!-- Fastcharge -->
     <string name="restricted_current_summary">設定允許的最大電流 (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Charge limited to: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
+    <string name="fastcharge_disabled_extended_summary">充電限制至: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB 設定</string>
     <string name="usb_default_config_summary">選擇預設 USB 設定</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">亮度百分比</string>
-    <string name="bb_show_percentage_summary">Show brightness percentage text in brightness bar</string>
+    <string name="bb_show_percentage_summary">在亮度調整條上顯示亮度百分比</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">AOD 排程</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="always_on_display_schedule_mixed_sunset">從日落開始開啟，直到指定的時間</string>
+    <string name="always_on_display_schedule_mixed_sunrise">從指定的時間開啟，直到日出</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="doze_gesture_ambient_title">顯示微光螢幕</string>
+    <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而非完全喚醒螢幕</string>
+    <string name="gesture_wake_ambient">顯示微光螢幕</string>
+    <string name="gesture_wake">完全喚醒螢幕</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_title">微光螢幕</string>
+    <string name="doze_enabled_summary">是否啟用裝置閒置最佳化</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">雙擊</string>
+    <string name="doze_double_tap_title">點擊兩下以查看手機</string>
+    <string name="doze_double_tap_summary">輕觸兩下時顯示通知</string>
     <!-- Pixel battery usage chart -->
-    <string name="advanced_battery_preference_summary_google">Use Pixel Battery usage chart</string>
+    <string name="advanced_battery_preference_summary_google">使用 Pixel 電池用量圖表</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
+    <string name="haptics_settings_title">系統震動</string>
+    <string name="haptics_settings_summary">修改系統震動強度</string>
+    <string name="back_gesture_haptic_intensity_title">返回手勢震動強度</string>
+    <string name="brightness_slider_haptics_intensity_title">亮度調整條震動強度</string>
+    <string name="volume_slider_haptics_intensity_title">音量調整條震動強度</string>
     <!-- Misc categories -->
     <string name="sensors_category_title">感應器</string>
     <string name="animations_category_title">動畫</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
+    <string name="spoof_storage_encryption_status_title">使用加密儲存空間偽裝</string>
+    <string name="spoof_storage_encryption_status_summary">偽裝儲存空間加密狀態為已加密</string>
     <!-- Idle Manager -->
-    <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_title">閒置管理器</string>
+    <string name="idle_manager_summary">當裝置閒置時，停止所有非必要的背景程式</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">睡眠模式</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_summary_on">開啟 / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">關閉 / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">響鈴模式</string>
     <string name="sleep_mode_ringer_off_title">不更改</string>
     <string name="sleep_mode_ringer_vibrate_title">震動</string>
     <string name="sleep_mode_ringer_dnd_title">勿擾模式</string>
     <string name="sleep_mode_ringer_silent_title">安靜</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">從日落開始開啟，直到指定的時間</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">從指定的時間開啟，直到日出</string>
+    <string name="sleep_mode_toggles_title">切換</string>
     <string name="sleep_mode_wifi_toggle_title">關閉 Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">關閉藍芽</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_wifi_toggle_summary">當睡眠模式開啟時停用 Wi-Fi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">關閉藍牙</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">當睡眠模式開啟時停用藍牙</string>
+    <string name="sleep_mode_cellular_toggle_title">關閉行動數據</string>
+    <string name="sleep_mode_cellular_toggle_summary">當睡眠模式開啟時停用行動數據</string>
+    <string name="sleep_mode_location_toggle_title">關閉定位功能</string>
+    <string name="sleep_mode_location_toggle_summary">當睡眠模式開啟時停用定位功能</string>
+    <string name="sleep_mode_sensors_toggle_title">關閉感測器</string>
+    <string name="sleep_mode_sensors_toggle_summary">當睡眠模式開啟時停用感測器</string>
+    <string name="sleep_mode_display_text">睡眠模式允許您停用某些服務以幫助節省電池電量並在您睡覺時讓手機靜音。</string>
     <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
     <string name="night_display_activation_on_manual">立即開啟</string>
     <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
@@ -182,17 +183,17 @@
     <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_twilight">保持關閉狀態，直到日落</string>
     <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <string name="night_display_activation_on_custom">保持開啟狀態，直到 <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <string name="night_display_activation_off_custom">保持關閉狀態，直到 <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Refresh rate -->
     <string name="refresh_rate_title">螢幕更新率</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (自適應)</string>
+    <string name="refresh_rate_vrr_title">自適應螢幕更新率</string>
+    <string name="refresh_rate_vrr_summary">當螢幕閒置時，自動降低螢幕更新率以節省電量。在某些裝置上可能會造成閃爍或色偏等現象。</string>
+    <string name="refresh_rate_footer">較高的螢幕更新率能使畫面顯示更流暢，但會增加功耗。</string>
+    <string name="keywords_refresh_rate">螢幕更新率、流暢度、峰值、60 Hz、90 Hz、120 Hz、144 Hz、165 Hz</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">科技</string>
     <!-- Battery Info: Health -->
@@ -202,89 +203,89 @@
     <string name="battery_health_dead">電池耗盡</string>
     <string name="battery_health_over_voltage">電壓過高</string>
     <string name="battery_health_unspecified_failure">未知的錯誤</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health_cold">涼</string>
+    <string name="battery_health_unknown">未知</string>
     <!-- Battery Info: Temperature -->
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">電壓</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <string name="battery_charge_counter_summary">%1$d 毫安時</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">設計容量</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">最大容量</string>
     <!-- Compact QS Media Player-->
-    <string name="qs_compact_media_player_mode_title">Compact QS Media player</string>
-    <string name="qs_compact_media_player_mode_summary">Enable compact mode for QuickSettings media player</string>
+    <string name="qs_compact_media_player_mode_title">快速設定面板媒體播放器</string>
+    <string name="qs_compact_media_player_mode_summary">啟用快速設定面板中媒體播放器的緊湊模式</string>
     <!-- Shake Gestures -->
-    <string name="shake_gestures_enabled_title">Shake Gestures</string>
-    <string name="shake_gestures_enabled_summary">Shake your device to perform actions</string>
-    <string name="shake_gestures_action_title">Shake Gestures Actions</string>
-    <string name="shake_gestures_toggle_flashlight">Toggle Flashlight</string>
-    <string name="shake_gestures_media_playback">Play/Skip Media</string>
-    <string name="shake_gestures_volume_panel">Show Volume Panel</string>
-    <string name="shake_gestures_screen_wake">Turn Screen On/Off</string>
-    <string name="shake_gestures_clear_notifs">Clear All Notifications</string>
-    <string name="shake_gestures_toggle_ringer">Toggle Ringer Mode</string>
-    <string name="shake_gestures_screenshot">Take Screenshot</string>
-    <string name="shake_gestures_intensity_title">Shake Gestures Intensity</string>
-    <string name="shake_gestures_intensity_summary">Adjust the sensitivity of shake gestures</string>
+    <string name="shake_gestures_enabled_title">搖晃手勢</string>
+    <string name="shake_gestures_enabled_summary">搖晃您的裝置以執行操作</string>
+    <string name="shake_gestures_action_title">搖晃手勢動作</string>
+    <string name="shake_gestures_toggle_flashlight">手電筒開關</string>
+    <string name="shake_gestures_media_playback">播放/跳過媒體</string>
+    <string name="shake_gestures_volume_panel">顯示音量控制面板</string>
+    <string name="shake_gestures_screen_wake">開啟/關閉螢幕</string>
+    <string name="shake_gestures_clear_notifs">清除所有通知</string>
+    <string name="shake_gestures_toggle_ringer">切換響鈴模式</string>
+    <string name="shake_gestures_screenshot">螢幕截圖</string>
+    <string name="shake_gestures_intensity_title">搖晃手勢強度</string>
+    <string name="shake_gestures_intensity_summary">調整搖晃手勢靈敏度</string>
     <!-- Three Finger Swipe Gestures -->
-    <string name="three_finger_gesture_action_title">Three Finger Swipe Gestures</string>
-    <string name="three_finger_gesture_action_dialog_title">Swipe Three Finger Gestures Actions</string>
+    <string name="three_finger_gesture_action_title">三指滑動手勢</string>
+    <string name="three_finger_gesture_action_dialog_title">三指滑動手勢操作</string>
     <!-- Volume Row Percent -->
-    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
-    <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
+    <string name="volume_show_volume_percent_title">顯示音量百分比</string>
+    <string name="volume_show_volume_percent_summary">顯示音量調整條百分比</string>
     <!-- Volume Media Button -->
-    <string name="volume_show_media_button_title">Volume media button</string>
-    <string name="volume_show_media_button_summary">Show media output switcher button into volume dialog</string>
+    <string name="volume_show_media_button_title">媒體音量按鈕</string>
+    <string name="volume_show_media_button_summary">在音量設定對話框中顯示媒體輸出切換按鈕</string>
     <!-- QS split shade -->
-    <string name="qs_split_shade_title">Split Shade</string>
-    <string name="qs_split_shade_summary">Split QS layout in landscape mode</string>
+    <string name="qs_split_shade_title">分割模式</string>
+    <string name="qs_split_shade_summary">螢幕橫向時，使用分割模式顯示快速設定面板</string>
     <!-- Spoofing -->
-    <string name="spoofing_pref">Spoofing</string>
-    <string name="spoofing_title">Component spoofing</string>
-    <string name="spoofing_summary">Bypass app restrictions by spoofing components</string>
-    <string name="spoofing_system_wide_category">System-Wide</string>
-    <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
-    <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values</string>
-    <string name="spoofing_pixel_props_title">Pixel props</string>
-    <string name="spoofing_pixel_props_summary">Spoof the device as a Pixel 8 Pro for all Google apps</string>
-    <string name="spoofing_storage_encryption_title">Storage encryption</string>
-    <string name="spoofing_storage_encryption_summary">Spoof the device storage encryption status to \'Encrypted\'</string>
-    <string name="spoofing_app_specific_category">App-Specific</string>
-    <string name="spoofing_photos_title">Google Photos spoof</string>
-    <string name="spoofing_photos_summary">Spoof the device as Pixel XL for Google Photos to unlock unlimited image backup</string>
-    <string name="spoofing_games_title">Higher FPS in games</string>
-    <string name="spoofing_games_summary">Spoof the device as different models for select games to unlock higher FPS</string>
-    <string name="spoofing_snapchat_title">Snapchat spoof</string>
-    <string name="spoofing_snapchat_summary">Spoof the device as Pixel 2 for Snapchat to allow original quality captures</string>
-    <string name="spoofing_load_json_title">Select spoofing JSON File</string>
-    <string name="spoofing_load_json_summary">Pick JSON file to be used for spoofing play integrity</string>
+    <string name="spoofing_pref">偽裝</string>
+    <string name="spoofing_title">偽裝系統元件</string>
+    <string name="spoofing_summary">透過偽裝系統元件以繞過部份應用程式限制</string>
+    <string name="spoofing_system_wide_category">系統範圍</string>
+    <string name="spoofing_pif_toggle_title">Play Integrity 修正</string>
+    <string name="spoofing_pif_toggle_summary">啟用 ROM 內建的 Play integrity 修正</string>
+    <string name="spoofing_pixel_props_title">Pixel 專屬功能</string>
+    <string name="spoofing_pixel_props_summary">針對 Google 應用程式將您的裝置偽裝成 Google Pixel 8 Pro</string>
+    <string name="spoofing_storage_encryption_title">儲存空間加密</string>
+    <string name="spoofing_storage_encryption_summary">偽裝儲存空間加密狀態為已加密</string>
+    <string name="spoofing_app_specific_category">特定應用程式</string>
+    <string name="spoofing_photos_title">Google 相簿偽裝</string>
+    <string name="spoofing_photos_summary">針對 Google 相簿將您的裝置偽裝成 Pixel XL 來取得無限相簿儲存空間</string>
+    <string name="spoofing_games_title">解鎖遊戲螢幕更新率</string>
+    <string name="spoofing_games_summary">針對特定的遊戲將您的裝置偽裝成其他機型來解鎖更高的更新率</string>
+    <string name="spoofing_snapchat_title">Snapchat 偽裝</string>
+    <string name="spoofing_snapchat_summary">將您的裝置偽裝成 Google Pixel 2 以便在 Snapchat 中使用原始畫質拍攝</string>
+    <string name="spoofing_load_json_title">選擇偽裝 JSON 設定檔案</string>
+    <string name="spoofing_load_json_summary"> 選擇 JSON 設定檔案進行 Play Integrity 偽裝</string>
     <!-- Pif spoofing info -->
-    <string name="spoofing_pif_values_title">Play Integrity fix values</string>
-    <string name="spoofing_pif_values_summary">View current values used to spoof GMS for Play Integrity API certification</string>
-    <string name="spoofing_pif_manufacturer_title">Manufacturer</string>
-    <string name="spoofing_pif_model_title">Model</string>
-    <string name="spoofing_pif_fingerprint_title">Fingerprint</string>
-    <string name="spoofing_pif_brand_title">Brand</string>
-    <string name="spoofing_pif_product_title">Product</string>
+    <string name="spoofing_pif_values_title">Play Integrity 修正參數</string>
+    <string name="spoofing_pif_values_summary">檢視目前用於偽裝 GMS 以通過 Play Integrity API 認證的參數</string>
+    <string name="spoofing_pif_manufacturer_title">製造商</string>
+    <string name="spoofing_pif_model_title">型號</string>
+    <string name="spoofing_pif_fingerprint_title">指紋</string>
+    <string name="spoofing_pif_brand_title">品牌</string>
+    <string name="spoofing_pif_product_title">產品</string>
     <string name="spoofing_pif_device_title">裝置</string>
-    <string name="spoofing_pif_release_title">Release</string>
+    <string name="spoofing_pif_release_title">發行版</string>
     <string name="spoofing_pif_id_title">ID</string>
-    <string name="spoofing_pif_incremental_title">Incremental</string>
-    <string name="spoofing_pif_type_title">Type</string>
-    <string name="spoofing_pif_tags_title">Tags</string>
-    <string name="spoofing_pif_security_patch_title">Security patch</string>
-    <string name="spoofing_pif_initial_sdk_title">Shipping API level</string>
+    <string name="spoofing_pif_incremental_title">增量</string>
+    <string name="spoofing_pif_type_title">類型</string>
+    <string name="spoofing_pif_tags_title">標籤</string>
+    <string name="spoofing_pif_security_patch_title">安全性更新</string>
+    <string name="spoofing_pif_initial_sdk_title">發行 API 層級</string>
     <!-- No storage restrict -->
-    <string name="no_storage_restrict_title">No storage restrict</string>
-    <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework. Can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="no_storage_restrict_title">無儲存限制</string>
+    <string name="no_storage_restrict_summary">移除選取資料夾的儲存空間存取限制。在某些情況下可能很方便，但可能會導致隱私洩漏。</string>
     <!-- Battery styles (extra) -->
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_percent_text_next_right">在圖示右側</string>
+    <string name="status_bar_battery_percent_text_next_left">在圖示左側</string>
+    <string name="status_bar_battery_text_charging_title">充電時顯示電量百分比</string>
+    <string name="status_bar_battery_text_charging_summary">充電時一律顯示電量百分比</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
     <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
@@ -300,10 +301,13 @@
     <string name="status_bar_battery_style_icon_landscape_miui_pill">Landscape MiUI Pill</string>
     <string name="status_bar_battery_style_icon_landscape_ios16a">Landscape iOS 16 Colored</string>
     <!-- Volume Sound Haptics -->
-    <string name="volume_sound_haptics_title">Volume sound haptics</string>
-    <string name="volume_sound_haptics_summary">Enable sound feedback when adjusting volume row progress</string>
+    <string name="volume_sound_haptics_title">音量震動</string>
+    <string name="volume_sound_haptics_summary">修改音量調整條時，允許震動回饋</string>
     <!-- Title text for back gesture edge lock. [CHAR LIMIT=60] -->
-    <string name="lock_edge_back_gesture_title">Back Gesture Edge Lock</string>
+    <string name="lock_edge_back_gesture_title">返回手勢邊緣鎖定</string>
     <!-- Summary text for sback gesture edge lock. [CHAR LIMIT=NONE] -->
-    <string name="lock_edge_back_gesture_summary">Disable swipe left/right edge on Gesture Navigation mode.</string>
+    <string name="lock_edge_back_gesture_summary">關閉手勢導航模式中的左右滑動返回功能</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">快速切換</string>
+    <string name="quickswitch_launcher_summary">自訂預設桌面啟動器</string>
 </resources>
