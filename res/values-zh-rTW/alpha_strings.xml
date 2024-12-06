@@ -56,26 +56,27 @@
     <!-- SELinux status -->
     <string name="selinux_status">SELinux狀態</string>
     <string name="selinux_status_disabled">停用</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">寬鬆</string>
+    <string name="selinux_status_enforcing">強制</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">裝置</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
+    <string name="build_status_title">建置狀態</string>
     <string name="build_status_summary">非官方</string>
-    <string name="build_status_official">Official</string>
+    <string name="build_status_official">官方</string>
     <string name="build_status_unofficial">非官方</string>
     <!-- Maintainer -->
     <string name="maintainer_title">維護者</string>
     <string name="maintainer_summary">搜尋維護人員</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">忽略應用程式禁止使用者擷取螢幕的保護</string>
+    <string name="ignore_window_secure_summary">移除所有應用程式的螢幕截圖和螢幕錄影限制，在某些情境下能帶來便利性，但可能引發隱私洩漏之虞。
+您可能需要重新啟動應用程式才能使變更生效。</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">隱藏開發者狀態</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="hide_developer_status_summary">在應用程式中隱藏開發者狀態</string>
     <string name="search">搜尋</string>
     <string name="search_apps">搜尋應用程式</string>
     <!-- QS panel styles -->
@@ -88,17 +89,17 @@
     <string name="theme_customization_notifications_title">通知樣式</string>
     <string name="theme_customization_notifications_summary">自動通知訊息樣式</string>
     <!-- Volume panel styles -->
-    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
-    <string name="theme_customization_volume_panel_styles_summary">Set custom volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_title">音量面板樣式</string>
+    <string name="theme_customization_volume_panel_styles_summary">自訂音量面板樣式</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">強制啟用 LTE 聚波載合</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_summary">強制啟用 LTE 載波聚合</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">智慧 5G</string>
     <string name="smart_5g_summary">自動在 5G 和 4G 之間切換以減少電池的消耗</string>
     <!-- Custom Data icons -->
-    <string name="theme_customization_data_title">Data icon style</string>
-    <string name="theme_customization_data_summary">Set custom data icon style</string>
+    <string name="theme_customization_data_title">數據圖示樣式</string>
+    <string name="theme_customization_data_summary">設定數據圖示樣式</string>
     <!-- Generic support strings -->
     <string name="string_enabled">啟用</string>
     <string name="string_disabled">停用</string>
@@ -106,26 +107,26 @@
     <string name="string_off">關閉</string>
     <!-- Fastcharge -->
     <string name="restricted_current_summary">設定允許的最大電流 (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Charge limited to: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
+    <string name="fastcharge_disabled_extended_summary">充電限制至: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB 設定</string>
     <string name="usb_default_config_summary">選擇預設 USB 設定</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">亮度百分比</string>
-    <string name="bb_show_percentage_summary">Show brightness percentage text in brightness bar</string>
+    <string name="bb_show_percentage_summary">在亮度調整條上顯示亮度百分比</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">AOD 排程</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="always_on_display_schedule_mixed_sunset">從日落開始開啟，直到指定的時間</string>
+    <string name="always_on_display_schedule_mixed_sunrise">從指定的時間開啟，直到日出</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="doze_gesture_ambient_title">顯示微光螢幕</string>
+    <string name="doze_gesture_ambient_summary">僅顯示時間和部分資訊，而非完全喚醒螢幕</string>
+    <string name="gesture_wake_ambient">顯示微光螢幕</string>
+    <string name="gesture_wake">完全喚醒螢幕</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_title">微光螢幕</string>
     <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
@@ -157,8 +158,8 @@
     <string name="sleep_mode_ringer_vibrate_title">震動</string>
     <string name="sleep_mode_ringer_dnd_title">勿擾模式</string>
     <string name="sleep_mode_ringer_silent_title">安靜</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
     <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
     <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
     <string name="sleep_mode_toggles_title">Toggles</string>
@@ -222,18 +223,18 @@
     <string name="shake_gestures_action_title">Shake Gestures Actions</string>
     <string name="shake_gestures_toggle_flashlight">Toggle Flashlight</string>
     <string name="shake_gestures_media_playback">Play/Skip Media</string>
-    <string name="shake_gestures_volume_panel">Show Volume Panel</string>
-    <string name="shake_gestures_screen_wake">Turn Screen On/Off</string>
-    <string name="shake_gestures_clear_notifs">Clear All Notifications</string>
+    <string name="shake_gestures_volume_panel">顯示音量控制面板</string>
+    <string name="shake_gestures_screen_wake">開啟/關閉螢幕</string>
+    <string name="shake_gestures_clear_notifs">清除所有通知</string>
     <string name="shake_gestures_toggle_ringer">Toggle Ringer Mode</string>
-    <string name="shake_gestures_screenshot">Take Screenshot</string>
-    <string name="shake_gestures_intensity_title">Shake Gestures Intensity</string>
-    <string name="shake_gestures_intensity_summary">Adjust the sensitivity of shake gestures</string>
+    <string name="shake_gestures_screenshot">螢幕截圖</string>
+    <string name="shake_gestures_intensity_title">搖晃手勢強度</string>
+    <string name="shake_gestures_intensity_summary">調整搖晃手勢靈敏度</string>
     <!-- Three Finger Swipe Gestures -->
-    <string name="three_finger_gesture_action_title">Three Finger Swipe Gestures</string>
-    <string name="three_finger_gesture_action_dialog_title">Swipe Three Finger Gestures Actions</string>
+    <string name="three_finger_gesture_action_title">三指滑動手勢</string>
+    <string name="three_finger_gesture_action_dialog_title">三指滑動手勢操作</string>
     <!-- Volume Row Percent -->
-    <string name="volume_show_volume_percent_title">Show Volume Row Percentage</string>
+    <string name="volume_show_volume_percent_title">顯示音量百分比</string>
     <string name="volume_show_volume_percent_summary">Show volume row progress percentage</string>
     <!-- Volume Media Button -->
     <string name="volume_show_media_button_title">Volume media button</string>
@@ -283,8 +284,8 @@
     <!-- Battery styles (extra) -->
     <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
     <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_text_charging_title">充電時顯示電量百分比</string>
+    <string name="status_bar_battery_text_charging_summary">充電時一律顯示電量百分比</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
     <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
     <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
@@ -307,6 +308,6 @@
     <!-- Summary text for sback gesture edge lock. [CHAR LIMIT=NONE] -->
     <string name="lock_edge_back_gesture_summary">Disable swipe left/right edge on Gesture Navigation mode.</string>
     <!-- QuickSwitch -->
-    <string name="quickswitch_launcher_title">QuickSwitch</string>
-    <string name="quickswitch_launcher_summary">Customize default launcher</string>
+    <string name="quickswitch_launcher_title">快速切換</string>
+    <string name="quickswitch_launcher_summary">自訂預設桌面啟動器</string>
 </resources>
