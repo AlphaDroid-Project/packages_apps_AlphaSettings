@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: 2012 The CyanogenMod Project
- * SPDX-FileCopyrightText: 2017-2023 The LineageOS Project
+ * SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -96,8 +96,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     private Map<String, Package> mPackages;
     // Supports rgb color control
     private boolean mMultiColorLed;
-    // Supports adjustable pulse
-    private boolean mLedCanPulse;
+    // Supports blinking
+    private boolean mLedCanBlink;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -126,8 +126,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         // liblights supports brightness control
         final boolean halAdjustableBrightness = LightsCapabilities.supports(
                 context, LightsCapabilities.LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS);
-        mLedCanPulse = LightsCapabilities.supports(
-                context, LightsCapabilities.LIGHTS_PULSATING_LED);
+        mLedCanBlink = LightsCapabilities.blinks(context);
         mMultiColorLed = LightsCapabilities.supports(
                 context, LightsCapabilities.LIGHTS_RGB_NOTIFICATION_LED);
 
@@ -145,7 +144,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         if (!mMultiColorLed && !halAdjustableBrightness) {
             removePreference(BRIGHTNESS_SECTION);
         }
-        if (!mLedCanPulse && !mMultiColorLed) {
+        if (!mLedCanBlink && !mMultiColorLed) {
             mGeneralPrefs.removePreference(mDefaultPref);
             mAdvancedPrefs.removePreference(mCustomEnabledPref);
         } else {
@@ -157,7 +156,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         // Missed call and Voicemail preferences should only show on devices with voice capabilities
         TelephonyManager tm = getActivity().getSystemService(TelephonyManager.class);
         if (tm.getPhoneType() == TelephonyManager.PHONE_TYPE_NONE
-                || (!mLedCanPulse && !mMultiColorLed)) {
+                || (!mLedCanBlink && !mMultiColorLed)) {
             removePreference(PHONE_SECTION);
         } else {
             mCallPref = findPreference(MISSED_CALL_PREF);
@@ -169,7 +168,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
             mVoicemailPref.setDefaultValues(mDefaultColor, mDefaultLedOn, mDefaultLedOff);
         }
 
-        if (!mLedCanPulse && !mMultiColorLed) {
+        if (!mLedCanBlink && !mMultiColorLed) {
             removePreference(APPLICATION_SECTION);
         } else {
             mApplicationPrefList = findPreference(APPLICATION_SECTION);
@@ -241,7 +240,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
             mVoicemailPref.setAllValues(vmailColor, vmailTimeOn, vmailTimeOff);
         }
 
-        if (mLedCanPulse || mMultiColorLed) {
+        if (mLedCanBlink || mMultiColorLed) {
             mApplicationPrefList = findPreference(APPLICATION_SECTION);
             mApplicationPrefList.setOrderingAsAdded(false);
         }
@@ -580,7 +579,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
                 result.add(KEY_NOTIFICATION_LIGHTS);
                 result.add(NOTIFICATION_LIGHT_PULSE);
             }
-            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_PULSATING_LED) &&
+            if (!LightsCapabilities.blinks(context) &&
                     !LightsCapabilities.supports(context,
                             LightsCapabilities.LIGHTS_RGB_NOTIFICATION_LED)) {
                 result.add(GENERAL_SECTION);

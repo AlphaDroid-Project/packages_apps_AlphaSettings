@@ -25,6 +25,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.internal.logging.nano.MetricsProto;
+import com.alpha.settings.fragments.notifications.notificationlight.LightSettingsDialog.OnOffType;
 
 import org.lineageos.internal.notification.LightsCapabilities;
 
@@ -86,8 +87,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         // liblights supports brightness control
         final boolean halAdjustableBrightness = LightsCapabilities.supports(context,
                 LightsCapabilities.LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS);
-        final boolean pulsatingLed = LightsCapabilities.supports(context,
-                LightsCapabilities.LIGHTS_PULSATING_LED);
+        final boolean blinkingLed = LightsCapabilities.blinks(context);
         final boolean segmentedBatteryLed = LightsCapabilities.supports(context,
                 LightsCapabilities.LIGHTS_SEGMENTED_BATTERY_LED);
 
@@ -125,7 +125,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
         int batteryBrightness = mBatteryBrightnessPref.getBrightnessSetting();
 
-        if (!pulsatingLed || segmentedBatteryLed) {
+        if (!blinkingLed || segmentedBatteryLed) {
             generalPrefs.removePreference(mPulseEnabledPref);
         } else {
             boolean isPulseEnabled = Settings.System.getIntForUser(resolver,
@@ -192,25 +192,25 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         if (mLowColorPref != null) {
             int lowColor = Settings.System.getIntForUser(resolver,
                     Settings.System.BATTERY_LIGHT_LOW_COLOR, mDefaultLowColor, UserHandle.USER_CURRENT);
-            mLowColorPref.setAllValues(lowColor, 0, 0, false);
+            mLowColorPref.setAllValues(lowColor, 0, 0, OnOffType.TOGGLE);
         }
 
         if (mMediumColorPref != null) {
             int mediumColor = Settings.System.getIntForUser(resolver,
                     Settings.System.BATTERY_LIGHT_MEDIUM_COLOR, mDefaultMediumColor, UserHandle.USER_CURRENT);
-            mMediumColorPref.setAllValues(mediumColor, 0, 0, false);
+            mMediumColorPref.setAllValues(mediumColor, 0, 0, OnOffType.TOGGLE);
         }
 
         if (mFullColorPref != null) {
             int fullColor = Settings.System.getIntForUser(resolver,
                     Settings.System.BATTERY_LIGHT_FULL_COLOR, mDefaultFullColor, UserHandle.USER_CURRENT);
-            mFullColorPref.setAllValues(fullColor, 0, 0, false);
+            mFullColorPref.setAllValues(fullColor, 0, 0, OnOffType.TOGGLE);
         }
 
         if (mReallyFullColorPref != null) {
             int reallyfullColor = Settings.System.getIntForUser(resolver,
                     Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR, mDefaultReallyFullColor, UserHandle.USER_CURRENT);
-            mReallyFullColorPref.setAllValues(reallyfullColor, 0, 0, false);
+            mReallyFullColorPref.setAllValues(reallyfullColor, 0, 0, OnOffType.TOGGLE);
             updateBrightnessPrefColor(reallyfullColor);
         }
     }
@@ -379,7 +379,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                 result.add(BRIGHTNESS_PREFERENCE);
                 result.add(BRIGHTNESS_ZEN_PREFERENCE);
             }
-            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_PULSATING_LED) ||
+            if (!LightsCapabilities.blinks(context) ||
                     LightsCapabilities.supports(context,
                             LightsCapabilities.LIGHTS_SEGMENTED_BATTERY_LED)) {
                 result.add(PULSE_ENABLED_PREF);
