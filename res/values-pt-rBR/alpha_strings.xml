@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Cor da notificação</string>
     <string name="wallpaper_color">Cor do papel de parede</string>
     <string name="custom_color">Cor personalizada</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Registro das últimas alterações</string>
     <string name="changelog_crdroid_summary">Mostrar alterações da ROM instalada</string>
@@ -947,8 +948,10 @@
     <string name="lockscreen_weather_location_summary">Mostrar localização do clima</string>
     <string name="lockscreen_weather_text_title">Condição atual</string>
     <string name="lockscreen_weather_text_summary">Exibir o resumo atual da condição climática</string>
-    <string name="lockscreen_weather_style_title">Estilo Pixel</string>
-    <string name="lockscreen_weather_style_summary">Mostrar o clima em linhas separadas</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Reprodução adaptável</string>
     <string name="adaptive_playback_summary">Pausar mídia quando o volume é silenciado e retomá-lo aumentando o volume dentro do tempo limite</string>
@@ -1183,4 +1186,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
 </resources>
