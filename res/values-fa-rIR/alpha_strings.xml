@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">رنگ اعلان ها</string>
     <string name="wallpaper_color">رنگ کاغذ دیواری</string>
     <string name="custom_color">رنگ سفارشی</string>
+    <string name="restart_systemui">برای اعمال تغییرات، رابط سیستم را مجددا راه‌اندازی کنید!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">تغییرات فعلی</string>
     <string name="changelog_crdroid_summary">دیدن تغییرات ایجاد شده در این ورژن</string>
@@ -947,8 +948,10 @@
     <string name="lockscreen_weather_location_summary">نمایش مکان آب و هوای جاری</string>
     <string name="lockscreen_weather_text_title">وضعیت فعلی</string>
     <string name="lockscreen_weather_text_summary">نمایش خلاصه وضعیت آب و هوای فعلی</string>
-    <string name="lockscreen_weather_style_title">سبک پیکسل</string>
-    <string name="lockscreen_weather_style_summary">Display weather as separate row</string>
+    <string name="lockscreen_weather_wind_info_title">اطلاعات باد</string>
+    <string name="lockscreen_weather_wind_info_summary">نمایش سرعت و جهت فعلی باد</string>
+    <string name="lockscreen_weather_humidity_info_title">اطلاعات رطوبت</string>
+    <string name="lockscreen_weather_humidity_info_summary">نمایش رطوبت فعلی بر حسب درصد</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">پخش تطبیقی</string>
     <string name="adaptive_playback_summary">وقتی صدا قطع شد، رسانه را مکث کنید و با افزایش صدا در بازه زمانی، آن را از سر بگیرید</string>
@@ -1174,13 +1177,16 @@
     <string name="clipboard_auto_clear_enabled_title">استفاده از پاک کردن خودکار بریده‌دان</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">غیر‌فعال کردن بریده‌دان</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">افزایش صدای زنگ</string>
+    <string name="increasing_ring_min_volume_title">صدا هنگام شروع</string>
+    <string name="increasing_ring_ramp_up_time_title">زمان افزایش صدا</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Disable for VPN</string>
-    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
+    <string name="vpn_enforce_dns_title">غیرفعال کردن برای فیلترشکن</string>
+    <string name="vpn_enforce_dns_summary">هنگام اتصال به فیلترشکن DNS خصوصی را غیرفعال کنید و پس از قطع شدن آن را بازیابی کنید</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">چرخه در میان حالت‌ها</string>
+    <string name="prevent_ringing_option_cycle_summary">روشن (چرخه در میان حالت‌ها)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">اجازه تنزل برنامه</string>
+    <string name="app_downgrade_summary">این به شما امکان می دهد برنامه ها را تنزل دهید. توجه داشته باشید که این ممکن است منجر به کرش و خرابی داده ها شود.</string>
 </resources>

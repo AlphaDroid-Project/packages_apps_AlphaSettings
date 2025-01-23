@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Màu của thông báo</string>
     <string name="wallpaper_color">Màu hình nền</string>
     <string name="custom_color">Tùy chỉnh màu sắc</string>
+    <string name="restart_systemui">Khởi động lại giao diện hệ thống để thay đổi có hiệu lực!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Thay đổi hiện tại</string>
     <string name="changelog_crdroid_summary">Xem những thay đổi của bản ROM được cài đặt</string>
@@ -940,13 +941,15 @@
     <string name="lockscreen_weather_category">Thời tiết</string>
     <string name="lockscreen_weather_title">Cập nhật thời tiết</string>
     <string name="lockscreen_weather_summary">Hiển thị cập nhật thời tiết hiện tại</string>
-    <string name="lockscreen_weather_enabled_info">Yêu cầu tùy chỉnh cấu hình dịch vụ thời tiết và tắt không gian thông minh</string>
+    <string name="lockscreen_weather_enabled_info">Yêu cầu tùy chỉnh cấu hình dịch vụ thời tiết sẽ tắt không gian thông minh</string>
     <string name="lockscreen_weather_location_title">Vị trí hiện tại</string>
     <string name="lockscreen_weather_location_summary">Hiển thị thời tiết tại vị trí của bạn</string>
     <string name="lockscreen_weather_text_title">Tình trạng hiện tại</string>
     <string name="lockscreen_weather_text_summary">Hiển thị tóm tắt tình trạng thời tiết hiện tại</string>
-    <string name="lockscreen_weather_style_title">Kiểu điểm ảnh</string>
-    <string name="lockscreen_weather_style_summary">Thông tin thời tiết dạng hàng riêng biệt</string>
+    <string name="lockscreen_weather_wind_info_title">Thông tin về gió</string>
+    <string name="lockscreen_weather_wind_info_summary">Hiển thị tốc độ cùng hướng gió hiện tại</string>
+    <string name="lockscreen_weather_humidity_info_title">Thông tin về độ ẩm</string>
+    <string name="lockscreen_weather_humidity_info_summary">Hiển thị độ ẩm hiện tại theo phần trăm</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Phát lại thích ứng</string>
     <string name="adaptive_playback_summary">Tạm dừng phát khi âm lượng bị tắt và tiếp tục phát khi tăng âm lượng trong thời gian chờ</string>
@@ -1173,13 +1176,16 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="clipboard_auto_clear_enabled_title">Sử dụng tự động xóa bảng nhớ tạm</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Tắt bảng nhớ tạm</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Âm lượng chuông tăng dần</string>
+    <string name="increasing_ring_min_volume_title">Âm lượng ban đầu</string>
+    <string name="increasing_ring_ramp_up_time_title">Thời gian âm lượng tăng dần</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Disable for VPN</string>
-    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
+    <string name="vpn_enforce_dns_title">Tắt cho mạng riêng ảo VPN</string>
+    <string name="vpn_enforce_dns_summary">Tắt DNS riêng tư khi kết nối với mạng riêng ảo sẽ khôi phục khi ngắt kết nối</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Chuyển đổi qua các chế độ</string>
+    <string name="prevent_ringing_option_cycle_summary">Bật (chuyển đổi qua các chế độ)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Cho phép hạ cấp các ứng dụng</string>
+    <string name="app_downgrade_summary">Hạ cấp phiên bản các ứng dụng sẽ gây ra sự cố hoặc mất dữ liệu nên thận trọng.</string>
 </resources>

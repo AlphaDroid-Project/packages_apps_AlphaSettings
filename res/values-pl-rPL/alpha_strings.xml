@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Kolor powiadomień</string>
     <string name="wallpaper_color">Kolor tapety</string>
     <string name="custom_color">Własny kolor</string>
+    <string name="restart_systemui">Uruchom ponownie SystemUI, aby zmiana zaczęła obowiązywać!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Bieżąca lista zmian</string>
     <string name="changelog_crdroid_summary">Pokaż zmiany w zainstalowanym systemie</string>
@@ -951,8 +952,10 @@
     <string name="lockscreen_weather_location_summary">Pokaż aktualną pogodę według lokalizacji</string>
     <string name="lockscreen_weather_text_title">Aktualne warunki</string>
     <string name="lockscreen_weather_text_summary">Wyświetlaj podsumowanie warunków pogodowych</string>
-    <string name="lockscreen_weather_style_title">Styl Pixel</string>
-    <string name="lockscreen_weather_style_summary">Wyświetlaj pogodę jako oddzielny wiersz</string>
+    <string name="lockscreen_weather_wind_info_title">Informacje o wiatrach</string>
+    <string name="lockscreen_weather_wind_info_summary">Wyświetlaj bieżącą prędkość i kierunek wiatru</string>
+    <string name="lockscreen_weather_humidity_info_title">Informacje o wilgotności</string>
+    <string name="lockscreen_weather_humidity_info_summary">Wyświetlaj bieżącą wilgotność w procentach</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Odtwarzanie adaptacyjne</string>
     <string name="adaptive_playback_summary">Wstrzymaj odtwarzanie, gdy głośność jest wyciszona i wznawiaj je przez zwiększenie głośności w ciągu limitu czasu</string>
@@ -1187,6 +1190,9 @@
     <string name="vpn_enforce_dns_title">Wyłączaj dla VPN</string>
     <string name="vpn_enforce_dns_summary">Wyłącza prywatny DNS po połączeniu z VPN i przywraca go po rozłączeniu</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Przełączaj między trybami</string>
+    <string name="prevent_ringing_option_cycle_summary">Włączono (przełączanie między trybami)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Zezwalaj na obniżanie wersji aplikacji</string>
+    <string name="app_downgrade_summary">Pozwala to na obniżenie wersji aplikacji. Należy pamiętać, że może to prowadzić do awarii i uszkodzenia danych.</string>
 </resources>

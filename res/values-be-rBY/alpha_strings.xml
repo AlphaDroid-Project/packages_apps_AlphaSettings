@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Колер апавяшчэння</string>
     <string name="wallpaper_color">Колер шпалер</string>
     <string name="custom_color">Свой колер</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Бягучы спіс змен</string>
     <string name="changelog_crdroid_summary">Прагляд змяненняў у бягучай прашыўкі</string>
@@ -238,8 +239,8 @@
     <string name="monet_engine_luminance_factor_summary">Больш высокія значэнні ствараюць больш яркія колеры</string>
     <string name="monet_engine_chroma_factor_title">Каэфіцыент каляровасці</string>
     <string name="monet_engine_chroma_factor_summary">Больш высокія значэнні ствараюць насычаныя колеры</string>
-    <string name="monet_engine_whole_palette_title">Whole palette</string>
-    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
+    <string name="monet_engine_whole_palette_title">Поўная палітра</string>
+    <string name="monet_engine_whole_palette_summary">Выбар яркасці і каляровасці, дазваляе таксама ўплываць на колеры фону</string>
     <string name="monet_engine_tint_background_title">Адценне фону</string>
     <string name="monet_engine_tint_background_summary">Выбар яркасці і каляровасці, дазваляе таксама ўплываць на колеры фону</string>
     <string name="monet_engine_style_title"></string>
@@ -249,9 +250,9 @@
     <string name="monet_engine_style_spritz">Пырскі</string>
     <string name="monet_engine_style_rainbow">Вясёлка</string>
     <string name="monet_engine_style_fruit_salad">Фруктовы салат</string>
-    <string name="monet_engine_style_monochromatic">Monochromatic</string>
-    <string name="monet_engine_color_source_title">Color source</string>
-    <string name="monet_engine_color_source_both">Both (Default)</string>
+    <string name="monet_engine_style_monochromatic">Монахраматычны</string>
+    <string name="monet_engine_color_source_title">Крыніца колеру</string>
+    <string name="monet_engine_color_source_both">Абодва (па змаўчанні)</string>
     <string name="monet_engine_color_source_home">Home wallpaper</string>
     <string name="monet_engine_color_source_lock">Lock wallpaper</string>
     <string name="monet_engine_color_source_preset">Preset</string>
@@ -952,8 +953,10 @@
     <string name="lockscreen_weather_location_summary">Адлюстраванне бягучага месцазнаходжання надвор\'я</string>
     <string name="lockscreen_weather_text_title">Бягучы стан</string>
     <string name="lockscreen_weather_text_summary">Паказваць інфармацыю аб бягучых умовах надвор\'я</string>
-    <string name="lockscreen_weather_style_title">Стыль Pixel</string>
-    <string name="lockscreen_weather_style_summary">Паказваць надвор\'е асобным радком</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Адаптыўнае прайграванне</string>
     <string name="adaptive_playback_summary">Прыпыніце прайграванне, калі гучнасць адключана, і аднавіце яго, павялічыўшы гучнасць пасля перапынку</string>
@@ -1191,4 +1194,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
 </resources>

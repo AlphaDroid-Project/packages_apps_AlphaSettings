@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Farba upozornení</string>
     <string name="wallpaper_color">Farba tapety</string>
     <string name="custom_color">Vlastná farba</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Aktuálny zoznam zmien</string>
     <string name="changelog_crdroid_summary">Zobraziť zmeny v nainštalovanej ROM</string>
@@ -249,7 +250,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Dúha</string>
     <string name="monet_engine_style_fruit_salad">Ovocný šalát</string>
-    <string name="monet_engine_style_monochromatic">Monochromatic</string>
+    <string name="monet_engine_style_monochromatic">Čiernobiele</string>
     <string name="monet_engine_color_source_title">Zdroj farby</string>
     <string name="monet_engine_color_source_both">Obidve (predvolené)</string>
     <string name="monet_engine_color_source_home">Pozadie domovskej obrazovky</string>
@@ -539,7 +540,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="anbi_title">Náhodný dotyk</string>
     <string name="anbi_summary">Zabrániť interakcii s navigačnými tlačidlami počas dotyku obrazovky</string>
     <!-- Three fingers swipe action -->
-    <string name="three_fingers_swipe_title">Three fingers swipe</string>
+    <string name="three_fingers_swipe_title">Prejdenie troma prstami</string>
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Procesy na pozadí</string>
     <!-- QS footer icons -->
@@ -952,8 +953,10 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <string name="lockscreen_weather_location_summary">Zobrazenie počasia podľa aktuálnej polohy</string>
     <string name="lockscreen_weather_text_title">Aktuálne podmienky</string>
     <string name="lockscreen_weather_text_summary">Zobraziť súhrn aktuálneho počasia</string>
-    <string name="lockscreen_weather_style_title">Pixel štýl</string>
-    <string name="lockscreen_weather_style_summary">Zobraziť počasie v samostatnom riadku</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptívne prehrávanie</string>
     <string name="adaptive_playback_summary">Pozastaviť médiá, ak je stlmená hlasitosť a pokračovať v prehrávaní zvyšovaním hlasitosti v rozmedzí časového limitu</string>
@@ -1190,4 +1193,7 @@ Ashle-XDA [SLOVAK Preklad]</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">通知颜色</string>
     <string name="wallpaper_color">壁纸颜色</string>
     <string name="custom_color">تخصيص اللون</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">سجل التغييرات الحالي</string>
     <string name="changelog_crdroid_summary">عرض التغييرات في الروم المثبت</string>
@@ -956,8 +957,10 @@
     <string name="lockscreen_weather_location_summary">عرض موقع الطقس الحالي</string>
     <string name="lockscreen_weather_text_title">الوضع الحالي</string>
     <string name="lockscreen_weather_text_summary">عرض ملخص حالة الطقس الحالية</string>
-    <string name="lockscreen_weather_style_title">سمة Pixel</string>
-    <string name="lockscreen_weather_style_summary">أظهر الطقس في صف منفصل</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">التشغيل التكيفي</string>
     <string name="adaptive_playback_summary">إيقاف الوسائط عند كتم الصوت واستعادته عن طريق زيادة مستوى الصوت خلال المهلة</string>
@@ -1196,4 +1199,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
 </resources>

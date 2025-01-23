@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Barva oznámení</string>
     <string name="wallpaper_color">Barva tapety</string>
     <string name="custom_color">Vlastní barva</string>
+    <string name="restart_systemui">Aby se změna projevila, restartujte SystemUI!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Aktuální seznam změn</string>
     <string name="changelog_crdroid_summary">Zobrazit změny v\u00a0nainstalované ROM</string>
@@ -951,8 +952,10 @@
     <string name="lockscreen_weather_location_summary">Zobrazit aktuální polohu počasí</string>
     <string name="lockscreen_weather_text_title">Aktuální stav</string>
     <string name="lockscreen_weather_text_summary">Zobrazit souhrn aktuálních podmínek počasí</string>
-    <string name="lockscreen_weather_style_title">Styl Pixel</string>
-    <string name="lockscreen_weather_style_summary">Zobrazit počasí na samostatném řádku</string>
+    <string name="lockscreen_weather_wind_info_title">Informace o větru</string>
+    <string name="lockscreen_weather_wind_info_summary">Zobrazit aktuální rychlost a směr větru</string>
+    <string name="lockscreen_weather_humidity_info_title">Informace o vlhkosti</string>
+    <string name="lockscreen_weather_humidity_info_summary">Zobrazit aktuální vlhkost v procentech</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptivní přehrávání</string>
     <string name="adaptive_playback_summary">Pozastavit média, je‑li ztlumena hlasitost a\u00a0pokračovat v\u00a0přehrávání zvyšováním hlasitosti v\u00a0rozmezí časového limitu</string>
@@ -1189,4 +1192,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Procházet mezi režimy</string>
     <string name="prevent_ringing_option_cycle_summary">Zap. (procházet mezi režimy)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Umožnit downgrade aplikací</string>
+    <string name="app_downgrade_summary">Toto nastavení vám umožní downgradovat aplikace. Mějte však na paměti, že to může vést k pádům a poškození dat.</string>
 </resources>
