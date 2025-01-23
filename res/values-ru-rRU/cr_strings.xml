@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Цвет уведомления</string>
     <string name="wallpaper_color">Цвет обоев</string>
     <string name="custom_color">Свой цвет</string>
+    <string name="restart_systemui">Перезапустите интерфейс, для применения изменений!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Список изменений</string>
     <string name="changelog_crdroid_summary">Просмотр изменений установленной прошивки</string>
@@ -951,8 +952,10 @@
     <string name="lockscreen_weather_location_summary">Показывать текущее местоположение</string>
     <string name="lockscreen_weather_text_title">Текущее состояние</string>
     <string name="lockscreen_weather_text_summary">Показывать информацию о текущих погодных условиях</string>
-    <string name="lockscreen_weather_style_title">Стиль «Pixel»</string>
-    <string name="lockscreen_weather_style_summary">Отображать погоду отдельной строкой</string>
+    <string name="lockscreen_weather_wind_info_title">Информация о ветре</string>
+    <string name="lockscreen_weather_wind_info_summary">Текущая скорость и направление ветра</string>
+    <string name="lockscreen_weather_humidity_info_title">Информация о влажности</string>
+    <string name="lockscreen_weather_humidity_info_summary">Текущая влажность в процентах</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_summary">Приостанавливать воспроизведение при выключенной громкости и возобновлять, увеличив громкость в течение времени ожидания</string>
@@ -1189,4 +1192,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Циклическое переключение режимов</string>
     <string name="prevent_ringing_option_cycle_summary">Вкл. (Циклическое переключение между режимами)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Понижение версии приложения</string>
+    <string name="app_downgrade_summary">Это позволяет понижать версии приложений. Обратите внимание, что это может привести к сбоям и повреждению данных.</string>
 </resources>

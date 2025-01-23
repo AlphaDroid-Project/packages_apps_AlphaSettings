@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Benachrichtigungsfarbe</string>
     <string name="wallpaper_color">Hintergrundfarbe</string>
     <string name="custom_color">Benutzerdefinierte Farbe</string>
+    <string name="restart_systemui">System-UI neu starten zum Anwenden von Änderungen!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Aktueller Changelog</string>
     <string name="changelog_crdroid_summary">Änderungen in der installierten ROM anzeigen</string>
@@ -947,8 +948,10 @@
     <string name="lockscreen_weather_location_summary">Aktuellen Standort des Wetters anzeigen</string>
     <string name="lockscreen_weather_text_title">Wetterlage in Worten</string>
     <string name="lockscreen_weather_text_summary">Kurze schriftliche Übersicht der aktuellen Wetterlage anzeigen</string>
-    <string name="lockscreen_weather_style_title">Pixel-Stil</string>
-    <string name="lockscreen_weather_style_summary">Wetter in separater Zeile anzeigen</string>
+    <string name="lockscreen_weather_wind_info_title">Info zum Wind</string>
+    <string name="lockscreen_weather_wind_info_summary">Aktuelle Windgeschwindigkeit und -richtung anzeigen</string>
+    <string name="lockscreen_weather_humidity_info_title">Luftfeuchtigkeitsinfo</string>
+    <string name="lockscreen_weather_humidity_info_summary">Aktuelle Luftfeuchtigkeit in Prozent anzeigen</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptive Medienwiedergabe</string>
     <string name="adaptive_playback_summary">Medien bei Stummschaltung pausieren, Wiedergabe durch Lautstärkeerhöhung innerhalb des Zeitlimits wiederaufnehmen</string>
@@ -1182,6 +1185,9 @@ Die in Apps festgelegten Muster haben Vorrang</string>
     <string name="vpn_enforce_dns_title">Bei VPN-Verbindung deaktivieren</string>
     <string name="vpn_enforce_dns_summary">Privates DNS beim Herstellen einer Verbindung mit einem VPN deaktivieren und beim Trennen wieder aktivieren</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Wechseln zwischen den Modi</string>
+    <string name="prevent_ringing_option_cycle_summary">Ein (Wechseln zwischen den Modi)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">App-Downgrade erlauben</string>
+    <string name="app_downgrade_summary">Ermöglicht die Installation älterer Versionen vorhandener Apps, was jedoch zu Abstürzen und Datenverlust führen kann.</string>
 </resources>

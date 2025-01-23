@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">通知指示燈顏色</string>
     <string name="wallpaper_color">桌布顏色</string>
     <string name="custom_color">自訂顏色</string>
+    <string name="restart_systemui">重新啟動系統介面以使變更生效</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">更新紀錄</string>
     <string name="changelog_crdroid_summary">查看此 ROM 的更新紀錄</string>
@@ -945,8 +946,10 @@
     <string name="lockscreen_weather_location_summary">顯示目前所在位置</string>
     <string name="lockscreen_weather_text_title">目前天氣</string>
     <string name="lockscreen_weather_text_summary">顯示目前的天氣狀況</string>
-    <string name="lockscreen_weather_style_title">Pixel 風格</string>
-    <string name="lockscreen_weather_style_summary">將天氣單獨顯示</string>
+    <string name="lockscreen_weather_wind_info_title">風力資訊</string>
+    <string name="lockscreen_weather_wind_info_summary">顯示目前風速及風向</string>
+    <string name="lockscreen_weather_humidity_info_title">濕度資訊</string>
+    <string name="lockscreen_weather_humidity_info_summary">顯示目前濕度百分比</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">自動暫停</string>
     <string name="adaptive_playback_summary">在靜音時暫停媒體播放，並在一定時間內逐漸恢復音量</string>
@@ -1180,4 +1183,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">在響鈴模式之間切換</string>
     <string name="prevent_ringing_option_cycle_summary">開啟(循環模式)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">允許應用程式降級</string>
+    <string name="app_downgrade_summary">這項功能允許您將應用程式降級。請注意，此操作可能會導致應用程式崩潰或資料損毀。</string>
 </resources>

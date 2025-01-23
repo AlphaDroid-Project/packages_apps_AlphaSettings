@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -54,6 +54,7 @@
     <string name="notification_color">Couleurs des notifications</string>
     <string name="wallpaper_color">Couleurs du fond d\'écran</string>
     <string name="custom_color">Couleur personnalisée</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Liste des changements</string>
     <string name="changelog_crdroid_summary">Afficher les modifications de cette version</string>
@@ -947,8 +948,10 @@
     <string name="lockscreen_weather_location_summary">Afficher la position actuelle de la météo</string>
     <string name="lockscreen_weather_text_title">Conditions météo</string>
     <string name="lockscreen_weather_text_summary">Afficher le résumé des conditions météo actuelles</string>
-    <string name="lockscreen_weather_style_title">Style Pixel</string>
-    <string name="lockscreen_weather_style_summary">Afficher la météo dans une ligne séparée</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Lecture adaptative</string>
     <string name="adaptive_playback_summary">Mettre en pause lorsque le volume est mis en sourdine et reprendre la lecture en augmentant le volume suivant le délai réglé</string>
@@ -1184,4 +1187,7 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
 </resources>
