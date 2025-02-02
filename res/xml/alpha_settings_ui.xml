@@ -80,6 +80,26 @@
         android:summary="@string/theme_customization_navbar_summary"
         android:fragment="com.alpha.settings.fragments.ui.NavbarStyles"/>
 
+    <!-- Notification Style -->
+    <com.alpha.settings.preferences.SystemSettingListPreference
+        android:key="notification_style"
+        android:icon="@drawable/ic_message_text_outline"
+        android:title="@string/notification_style_title"
+        android:entries="@array/custom_style_entries"
+        android:entryValues="@array/custom_style_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
+    <!-- Powermenu Style -->
+    <com.alpha.settings.preferences.SystemSettingListPreference
+        android:key="powermenu_style"
+        android:icon="@drawable/ic_settings_powermenu"
+        android:title="@string/powermenu_style_title"
+        android:entries="@array/custom_style_entries"
+        android:entryValues="@array/custom_style_values"
+        android:summary="%s"
+        android:defaultValue="0" />
+
     <!-- Font style -->
     <Preference
         android:key="android.theme.customization.fonts"
