@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,13 +22,24 @@
         <attr name="observe" format="boolean" />
     </declare-styleable>
 
+    <!-- ColorPicker -->
+    <declare-styleable name="ColorPickerPreference">
+        <attr name="alphaSlider" format="boolean" />
+        <attr name="showPreview" format="boolean" />
+        <attr name="showReset" format="boolean" />
+        <attr name="dividerAbove" format="boolean" />
+        <attr name="dividerBelow" format="boolean" />
+    </declare-styleable>
+
     <!-- Base attributes available to CustomSeekBarPreference. -->
     <declare-styleable name="CustomSeekBarPreference">
+        <attr name="defaultValueText" format="string" />
         <attr name="interval" format="integer" />
         <attr name="showSign" format="boolean" />
         <attr name="units" format="string|reference" />
         <attr name="continuousUpdates" format="boolean" />
-        <attr name="allowEditText" format="boolean" />
     </declare-styleable>
+
+    <attr name="secureValue" format="string" />
 
 </resources>

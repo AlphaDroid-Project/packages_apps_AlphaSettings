@@ -20,22 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/sound_title">
 
-    <!-- Pulse music visualizer -->
-    <Preference
-        android:key="pulse_settings"
-        android:icon="@drawable/ic_pulse"
-        android:title="@string/pulse_settings"
-        android:summary="@string/pulse_settings_summary"
-        android:fragment="com.alpha.settings.fragments.sound.PulseSettings" />
-
-    <!-- System Haptics intensities preference -->
-    <Preference
-        android:key="haptics_settings"
-        android:title="@string/haptics_settings_title"
-        android:icon="@drawable/ic_cellphone_sound"
-        android:summary="@string/haptics_settings_summary"
-        android:fragment="com.alpha.settings.fragments.sound.HapticsPreferenceFragment"/>
-
     <!-- Volume steps -->
     <Preference
         android:key="volume_steps"
@@ -45,12 +29,12 @@
         android:fragment="com.alpha.settings.fragments.sound.VolumeSteps" />
 
     <!-- Volume panel styles -->
-    <Preference
+    <!--<Preference
         android:key="android.theme.customization.volume_style"
         android:icon="@drawable/ic_settings_sound"
         android:title="@string/theme_customization_volume_panel_styles_title"
         android:summary="@string/theme_customization_volume_panel_styles_summary"
-        android:fragment="com.alpha.settings.fragments.sound.VolumePanelStyles" />
+        android:fragment="com.alpha.settings.fragments.sound.VolumePanelStyles" />-->
 
     <!-- Screenshot Sound  -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -78,8 +62,7 @@
             android:icon="@drawable/ic_settings_sound"
             android:title="@string/volume_panel_on_left_title" />
 
-
-        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        <!--<com.alpha.settings.preferences.SecureSettingSwitchPreference
             android:key="volume_show_volume_percent"
             android:icon="@drawable/ic_percent"
             android:title="@string/volume_show_volume_percent_title"
@@ -98,7 +81,7 @@
             android:icon="@drawable/ic_sound_haptics"
             android:title="@string/volume_sound_haptics_title"
             android:summary="@string/volume_sound_haptics_summary"
-            android:defaultValue="false"/>
+            android:defaultValue="false"/>-->
 
         <com.alpha.settings.preferences.SecureSettingSeekBarPreference
             android:key="volume_dialog_dismiss_timeout"

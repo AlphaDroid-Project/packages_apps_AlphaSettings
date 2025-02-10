@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 AlphaDroid
+ * Copyright (C) 2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@ import android.util.TypedValue;
 
 import androidx.annotation.DimenRes;
 
-import com.android.internal.util.crdroid.ThemeUtils;
+import com.android.internal.util.alpha.ThemeUtils;
 
 
 public class ResourceUtils {

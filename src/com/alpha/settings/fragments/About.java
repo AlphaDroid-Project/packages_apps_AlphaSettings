@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016-2023 crDroid Android Project
+ *               2023-2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

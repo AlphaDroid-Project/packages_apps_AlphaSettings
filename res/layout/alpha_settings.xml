@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Android Open Source Project
      Copyright (C) 2016-2022 crDroid Android Project
-     Copyright (C) 2023 AlphaDroid
+     Copyright (C) 2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,10 +21,10 @@
     android:persistent="true">
 
     <!-- Alpha settings logo -->
-    <Preference
+<!--    <Preference
         android:key="alpha_settings_logo"
         android:selectable="false"
-        settings:layout="@layout/alpha_settings_logo" />
+        settings:layout="@layout/alpha_settings_logo" />-->
 
     <Preference
         android:key="ui_settings_category"
@@ -47,11 +47,11 @@
         android:icon="@drawable/ic_settings_quicksettings"/>
 
     <!-- Buttons -->
-    <Preference
+    <!--<Preference
         android:key="button_settings"
         android:title="@string/button_title"
         android:icon="@drawable/ic_buttons"
-        android:fragment="com.alpha.settings.fragments.Buttons"/>
+        android:fragment="com.alpha.settings.fragments.Buttons"/>-->
 
     <!-- Lock Screen -->
     <Preference
@@ -91,7 +91,7 @@
     <!-- About AlphaDroid -->
     <Preference
         android:key="about_alphadroid"
-        android:title="@string/about_crdroid"
+        android:title="@string/about_alpha"
         android:fragment="com.alpha.settings.fragments.About"
         android:icon="@drawable/ic_settings_about"/>
 </PreferenceScreen>

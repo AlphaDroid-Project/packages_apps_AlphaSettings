@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2016-2024 crDroid Android Project
+ * Copyright (C) 2016-2025 crDroid Android Project
+ *               2023-2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,10 +16,8 @@
  */
 package com.alpha.settings.fragments;
 
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -41,11 +40,6 @@ import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import lineageos.providers.LineageSettings;
 
-import com.android.internal.util.alpha.SystemRestartUtils;
-import com.android.internal.util.crdroid.ThemeUtils;
-
-import com.alpha.settings.utils.ResourceUtils;
-
 import java.util.List;
 import java.util.ArrayList;
 
@@ -61,15 +55,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_PREF_TILE_ANIM_STYLE = "qs_tile_animation_style";
     private static final String KEY_PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String KEY_PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
-    private static final String KEY_QS_COMPACT_PLAYER  = "qs_compact_media_player_mode";
-    private static final String KEY_QS_SPLIT_SHADE = "qs_split_shade";
-
-    private static final String QS_SPLIT_SHADE_LAYOUT_CTG = "android.theme.customization.qs_landscape_layout";
-    private static final String QS_SPLIT_SHADE_LAYOUT_PKG = "com.android.systemui.qs.landscape.split_shade_layout";
-    private static final String QS_SPLIT_SHADE_LAYOUT_TARGET = "com.android.systemui";
-    // private static final String QS_SPLIT_SHADE_CUTOUT_CTG = "android.theme.customization.qs_landscape_cutout";
-    // private static final String QS_SPLIT_SHADE_CUTOUT_PKG = "android.landscape.split_shade_cutout";
-    // private static final String QS_SPLIT_SHADE_CUTOUT_TARGET = "android";
+    private static final String KEY_SHOW_BRIGHTNESS_PERCENTAGE = "qs_show_brightness_percentage";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
@@ -77,10 +63,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private ListPreference mTileAnimationStyle;
     private CustomSeekBarPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
-    private Preference mQsCompactPlayer;
-    private SwitchPreferenceCompat mSplitShade;
-
-    private ThemeUtils mThemeUtils;
+    private SwitchPreferenceCompat mShowBrightnessPercentage;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -88,11 +71,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.alpha_settings_quicksettings);
 
-        final Context mContext = getActivity().getApplicationContext();
+        final Context mContext = getContext();
         final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mThemeUtils = new ThemeUtils(mContext);
 
         mShowBrightnessSlider = findPreference(KEY_SHOW_BRIGHTNESS_SLIDER);
         mShowBrightnessSlider.setOnPreferenceChangeListener(this);
@@ -119,68 +100,37 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         int tileAnimationStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         updateAnimTileStyle(tileAnimationStyle);
-        
-        mQsCompactPlayer = (Preference) findPreference(KEY_QS_COMPACT_PLAYER);
-        mQsCompactPlayer.setOnPreferenceChangeListener(this);
 
-        mSplitShade = findPreference(KEY_QS_SPLIT_SHADE);
-        boolean ssEnabled = isSplitShadeEnabled();
-        mSplitShade.setChecked(ssEnabled);
-        mSplitShade.setOnPreferenceChangeListener(this);
+        mShowBrightnessPercentage = findPreference(KEY_SHOW_BRIGHTNESS_PERCENTAGE);
+        mShowBrightnessPercentage.setEnabled(showSlider);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
+        ContentResolver resolver = getContext().getContentResolver();
 
         if (preference == mShowBrightnessSlider) {
             int value = Integer.parseInt((String) newValue);
             mBrightnessSliderPosition.setEnabled(value > 0);
             if (mShowAutoBrightness != null)
                 mShowAutoBrightness.setEnabled(value > 0);
+            if (mShowBrightnessPercentage != null)
+                mShowBrightnessPercentage.setEnabled(value > 0);
             return true;
         } else if (preference == mTileAnimationStyle) {
             int value = Integer.parseInt((String) newValue);
             updateAnimTileStyle(value);
             return true;
-        } else if (preference == mQsCompactPlayer) {
-            SystemRestartUtils.showSystemUIRestartDialog(getActivity());
-            return true;
-        } else if (preference == mSplitShade) {
-            updateSplitShadeState(((Boolean) newValue).booleanValue());
-            return true;
         }
         return false;
-    }
-
-    private boolean isSplitShadeEnabled() {
-        return mThemeUtils.isOverlayEnabled(QS_SPLIT_SHADE_LAYOUT_PKG);
-            // && mThemeUtils.isOverlayEnabled(QS_SPLIT_SHADE_CUTOUT_PKG);
-    }
-
-    private void updateSplitShadeState(boolean enable) {
-
-        mThemeUtils.setOverlayEnabled(
-                QS_SPLIT_SHADE_LAYOUT_CTG,
-                enable ? QS_SPLIT_SHADE_LAYOUT_PKG : QS_SPLIT_SHADE_LAYOUT_TARGET,
-                QS_SPLIT_SHADE_LAYOUT_TARGET);
-
-        /*mThemeUtils.setOverlayEnabled(
-                QS_SPLIT_SHADE_CUTOUT_CTG,
-                enable ? QS_SPLIT_SHADE_CUTOUT_PKG : QS_SPLIT_SHADE_CUTOUT_TARGET,
-                QS_SPLIT_SHADE_CUTOUT_TARGET);*/
     }
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
-                Settings.System.QS_BATTERY_STYLE, -1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_SHOW_BATTERY_PERCENT, 2, UserHandle.USER_CURRENT);
+                Settings.System.QS_BT_SHOW_DIALOG, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SECURE_LOCKSCREEN_QS_DISABLED, 0, UserHandle.USER_CURRENT);
-//        Settings.System.putIntForUser(resolver,
-  //              Settings.System.NOTIFICATION_MATERIAL_DISMISS, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TRANSPARENCY, 100, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -190,34 +140,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_INTERPOLATOR, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.QS_LAYOUT_COLUMNS_LANDSCAPE, 4, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QQS_LAYOUT_ROWS, 2, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QQS_LAYOUT_ROWS_LANDSCAPE, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_LAYOUT_COLUMNS, 2, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_TILE_VERTICAL_LAYOUT, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_TILE_LABEL_SIZE, 14, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.QS_DUAL_TONE, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_SHOW_DATA_USAGE, 0, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
+        LineageSettings.Secure.putIntForUser(resolver,
+                LineageSettings.Secure.QS_SHOW_BRIGHTNESS_PERCENTAGE, 0, UserHandle.USER_CURRENT);
         QsHeaderImageSettings.reset(mContext);
-        ResourceUtils.updateOverlay(mContext, QS_SPLIT_SHADE_LAYOUT_CTG, QS_SPLIT_SHADE_LAYOUT_TARGET,
-                QS_SPLIT_SHADE_LAYOUT_TARGET);
-        //ResourceUtils.updateOverlay(mContext, QS_SPLIT_SHADE_CUTOUT_CTG, QS_SPLIT_SHADE_CUTOUT_TARGET,
-         //       QS_SPLIT_SHADE_CUTOUT_TARGET);
     }
 
     private void updateAnimTileStyle(int tileAnimationStyle) {

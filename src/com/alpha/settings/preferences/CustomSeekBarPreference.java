@@ -112,6 +112,20 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     }
 
     @Override
+    public void onDependencyChanged(Preference dependency, boolean disableDependent) {
+        super.onDependencyChanged(dependency, disableDependent);
+        this.setShouldDisableView(true);
+        if (mSeekBar != null)
+            mSeekBar.setEnabled(!disableDependent);
+        if (mResetImageView != null)
+            mResetImageView.setEnabled(!disableDependent);
+        if (mPlusImageView != null)
+            mPlusImageView.setEnabled(!disableDependent);
+        if (mMinusImageView != null)
+            mMinusImageView.setEnabled(!disableDependent);
+    }
+
+    @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
         try

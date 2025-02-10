@@ -26,14 +26,6 @@
         android:title="@string/navbar_visibility_title"
         android:summary="@string/navbar_visibility_summary" />
 
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="pixel_nav_animation"
-        android:icon="@drawable/ic_google_circles"
-        android:title="@string/pixel_navbar_anim_title"
-        android:summary="@string/pixel_navbar_anim_summary"
-        android:defaultValue="true"
-        android:dependency="navbar_visibility" />
-
     <PreferenceCategory
         android:key="navbar_layout_category"
         android:title="@string/navbar_layout_category_title"
@@ -61,40 +53,6 @@
             android:title="@string/navbar_invert_layout_title"
             android:summary="@string/navbar_invert_layout_summary"
             android:defaultValue="false" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="shake_gestures"
-        android:title="@string/gestures_title">
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="shake_gestures_enabled"
-            android:icon="@drawable/ic_shake"
-            android:title="@string/shake_gestures_enabled_title"
-            android:summary="@string/shake_gestures_enabled_summary"
-            android:defaultValue="false" />
-
-        <ListPreference
-            android:key="shake_gestures_action"
-            android:icon="@drawable/ic_settings_gestures"
-            android:dialogTitle="@string/shake_gestures_action_title"
-            android:title="@string/shake_gestures_action_title"
-            android:entries="@array/shake_gestures_action_entries"
-            android:entryValues="@array/shake_gestures_action_values"
-            android:dependency="shake_gestures_enabled"
-            android:persistent="false" />
-
-         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="shake_gestures_intensity"
-            android:icon="@drawable/ic_shake_intensity"
-            android:title="@string/shake_gestures_intensity_title"
-            android:summary="@string/shake_gestures_intensity_summary"
-            android:dependency="shake_gestures_enabled"
-            android:defaultValue="3"
-            settings:interval="1"
-            android:max="12"
-            android:min="1" />
 
     </PreferenceCategory>
 
@@ -148,14 +106,23 @@
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false" />
 
-         <!--<ListPreference
+         <ListPreference
             android:key="navigation_app_switch_double_tap"
             android:icon="@drawable/ic_double_tap"
             android:dialogTitle="@string/navbar_app_switch_double_tap_title"
             android:title="@string/navbar_app_switch_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
-            android:persistent="false" />-->
+            android:persistent="false" />
+
+         <ListPreference
+            android:key="navigation_bar_corner_long_swipe"
+            android:icon="@drawable/ic_swipe_up"
+            android:dialogTitle="@string/navbar_corner_long_swipe_title"
+            android:title="@string/navbar_corner_long_swipe_title"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
 
          <ListPreference
             android:key="navigation_bar_edge_long_swipe"

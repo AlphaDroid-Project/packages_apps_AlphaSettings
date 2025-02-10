@@ -16,7 +16,7 @@
 
 package com.alpha.settings.fragments.ui;
 
-import static com.android.internal.util.crdroid.ThemeUtils.ICON_SHAPE_KEY;
+import static com.android.internal.util.alpha.ThemeUtils.ICON_SHAPE_KEY;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -60,7 +60,7 @@ import com.android.settingslib.Utils;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.crdroid.ThemeUtils;
+import com.android.internal.util.alpha.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.List;

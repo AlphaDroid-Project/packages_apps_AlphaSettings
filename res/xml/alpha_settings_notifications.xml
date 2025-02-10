@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2024 crDroid Android Project
-                   2023-2024 AlphaDroid
+                   2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,8 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
-    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+
+    <!--<com.alpha.settings.preferences.SystemSettingSeekBarPreference
         android:key="max_visible_notification_icons"
         android:icon="@drawable/ic_notification_peek"
         android:title="@string/max_visible_notification_icons_title"
@@ -29,7 +30,7 @@
         settings:defaultValueText="5"
         android:max="10"
         settings:min="0"
-        settings:units="" />
+        settings:units="" />-->
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
@@ -61,12 +62,12 @@
         android:defaultValue="true"/>
 
     <!-- Notifications style -->
-    <Preference
+    <!--<Preference
         android:key="android.theme.customization.nf_style"
         android:icon="@drawable/ic_notifications"
         android:title="@string/theme_customization_notifications_title"
         android:summary="@string/theme_customization_notifications_summary"
-        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" />
+        android:fragment="com.alpha.settings.fragments.notifications.NotificationStyles" />-->
 
     <PreferenceCategory
         android:key="heads_up"
@@ -76,15 +77,8 @@
             android:key="heads_up_notifications_enabled"
             android:icon="@drawable/ic_headsup"
             android:title="@string/notification_heads_up_title"
-            android:summary="@string/notification_heads_up_summary" />
-
-        <Preference
-            android:key="island_notification"
-            android:icon="@drawable/ic_message_fast"
-            android:title="@string/island_notification_title"
-            android:summary="@string/island_notification_summary"
-            android:fragment="com.alpha.settings.fragments.notifications.IslandSettings"
-            android:dependency="heads_up_notifications_enabled" />
+            android:summary="@string/notification_heads_up_summary"
+            android:defaultValue="true" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="less_boring_heads_up"

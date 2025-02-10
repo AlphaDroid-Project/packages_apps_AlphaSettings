@@ -54,7 +54,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.crdroid.ThemeUtils;
+import com.android.internal.util.alpha.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -135,14 +135,10 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
         public void onBindViewHolder(CustomViewHolder holder, final int position) {
             String iconPkg = mPkgs.get(position);
 
-            holder.image1.setBackgroundDrawable(
-                    getDrawable(holder.image1.getContext(), iconPkg, "ic_wifi_signal_4"));
-            holder.image2.setBackgroundDrawable(
-                    getDrawable(holder.image2.getContext(), iconPkg, "ic_signal_cellular_4_4_bar"));
-            holder.image3.setBackgroundDrawable(
-                    getDrawable(holder.image3.getContext(), iconPkg, "ic_qs_airplane"));
-            holder.image4.setBackgroundDrawable(
-                    getDrawable(holder.image4.getContext(), iconPkg, "ic_qs_flashlight"));
+            holder.image1.setBackgroundDrawable(getDrawable(holder.image1.getContext(), iconPkg, "ic_wifi_signal_4"));
+            holder.image2.setBackgroundDrawable(getDrawable(holder.image2.getContext(), iconPkg, "ic_signal_cellular_4_4_bar"));
+            holder.image3.setBackgroundDrawable(getDrawable(holder.image3.getContext(), iconPkg, "ic_qs_airplane"));
+            holder.image4.setBackgroundDrawable(getDrawable(holder.image4.getContext(), iconPkg, "ic_qs_flashlight"));
 
             String currentPackageName = mThemeUtils.getOverlayInfos(mCategory).stream()
                 .filter(info -> info.isEnabled())

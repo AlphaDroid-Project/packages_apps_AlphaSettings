@@ -25,7 +25,7 @@ import android.os.IBinder;
 import android.util.Log;
 
 public class DozeService extends Service {
-    private static final String TAG = "AlphaDozeService";
+    private static final String TAG = "CustomDozeService";
     private static final boolean DEBUG = false;
 
     private TiltSensor mTiltSensor;

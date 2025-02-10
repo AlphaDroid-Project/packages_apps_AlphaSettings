@@ -57,7 +57,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.crdroid.ThemeUtils;
+import com.android.internal.util.alpha.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -100,7 +100,7 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CRDROID_SETTINGS;
+        return MetricsEvent.ALPHA;
     }
 
     @Override

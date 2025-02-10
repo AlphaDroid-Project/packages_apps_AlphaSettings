@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2023 crDroid Android Project
- * Copyright (C) 2024 AlphaDroid
+ * Copyright (C) 2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,7 +56,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.crdroid.ThemeUtils;
+import com.android.internal.util.alpha.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

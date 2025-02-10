@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2022 Yet Another AOSP Project
  * Copyright (C) 2021-2024 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.alpha.settings.fragments.ui;
 
 import android.content.ContentResolver;
@@ -40,8 +40,6 @@ import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import java.lang.CharSequence;
 
-import lineageos.providers.LineageSettings;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -66,6 +64,8 @@ public class MonetSettings extends DashboardFragment implements
             "android.theme.customization.luminance_factor";
     private static final String OVERLAY_CHROMA_FACTOR =
             "android.theme.customization.chroma_factor";
+    private static final String OVERLAY_WHOLE_PALETTE =
+            "android.theme.customization.whole_palette";
     private static final String OVERLAY_TINT_BACKGROUND =
             "android.theme.customization.tint_background";
     private static final String COLOR_SOURCE_PRESET = "preset";
@@ -80,6 +80,7 @@ public class MonetSettings extends DashboardFragment implements
     private static final String PREF_BG_COLOR = "bg_color";
     private static final String PREF_LUMINANCE_FACTOR = "luminance_factor";
     private static final String PREF_CHROMA_FACTOR = "chroma_factor";
+    private static final String PREF_WHOLE_PALETTE = "whole_palette";
     private static final String PREF_TINT_BACKGROUND = "tint_background";
 
     private static final int DEFAULT_COLOR = 0xFF1b6ef3;
@@ -91,6 +92,7 @@ public class MonetSettings extends DashboardFragment implements
     private ColorPickerPreference mBgColorPref;
     private CustomSeekBarPreference mLuminancePref;
     private CustomSeekBarPreference mChromaPref;
+    private SwitchPreferenceCompat mWholePalettePref;
     private SwitchPreferenceCompat mTintBackgroundPref;
 
     private int mAccentColorValue;
@@ -100,12 +102,12 @@ public class MonetSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.monet_engine;
+        return R.xml.monet_settings;
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
 
         mThemeStylePref = findPreference(PREF_THEME_STYLE);
         mColorSourcePref = findPreference(PREF_COLOR_SOURCE);
@@ -114,6 +116,7 @@ public class MonetSettings extends DashboardFragment implements
         mBgColorPref = findPreference(PREF_BG_COLOR);
         mLuminancePref = findPreference(PREF_LUMINANCE_FACTOR);
         mChromaPref = findPreference(PREF_CHROMA_FACTOR);
+        mWholePalettePref = findPreference(PREF_WHOLE_PALETTE);
         mTintBackgroundPref = findPreference(PREF_TINT_BACKGROUND);
         mSharedPreferences = getActivity().getSharedPreferences(TAG, Context.MODE_PRIVATE);
 
@@ -126,13 +129,8 @@ public class MonetSettings extends DashboardFragment implements
         mBgColorPref.setOnPreferenceChangeListener(this);
         mLuminancePref.setOnPreferenceChangeListener(this);
         mChromaPref.setOnPreferenceChangeListener(this);
+        mWholePalettePref.setOnPreferenceChangeListener(this);
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
-    }
-
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
-        LineageSettings.Secure.putIntForUser(resolver,
-                LineageSettings.Secure.BERRY_BLACK_THEME, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
@@ -172,6 +170,7 @@ public class MonetSettings extends DashboardFragment implements
                 } else {
                     both = false;
                 }
+                final boolean wholePalette = object.optInt(OVERLAY_WHOLE_PALETTE, 0) == 1;
                 final boolean tintBG = object.optInt(OVERLAY_TINT_BACKGROUND, 0) == 1;
                 final float lumin = (float) object.optDouble(OVERLAY_LUMINANCE_FACTOR, 1d);
                 final float chroma = (float) object.optDouble(OVERLAY_CHROMA_FACTOR, 1d);
@@ -211,6 +210,7 @@ public class MonetSettings extends DashboardFragment implements
                 if (chroma > 1d) chromaV = Math.round((chroma - 1f) * 100f);
                 else if (chroma < 1d) chromaV = -1 * Math.round((1f - chroma) * 100f);
                 mChromaPref.setValue(chromaV);
+                mWholePalettePref.setChecked(wholePalette);
                 mTintBackgroundPref.setChecked(tintBG);
             } catch (JSONException | IllegalArgumentException ignored) {}
         }
@@ -253,6 +253,10 @@ public class MonetSettings extends DashboardFragment implements
         } else if (preference == mChromaPref) {
             int value = (Integer) newValue;
             setChromaValue(value);
+            return true;
+        } else if (preference == mWholePalettePref) {
+            boolean value = (Boolean) newValue;
+            setWholePaletteValue(value);
             return true;
         } else if (preference == mTintBackgroundPref) {
             boolean value = (Boolean) newValue;
@@ -375,6 +379,15 @@ public class MonetSettings extends DashboardFragment implements
         } catch (JSONException | IllegalArgumentException ignored) {}
     }
 
+    private void setWholePaletteValue(boolean whole) {
+        try {
+            JSONObject object = getSettingsJson();
+            if (!whole) object.remove(OVERLAY_WHOLE_PALETTE);
+            else object.putOpt(OVERLAY_WHOLE_PALETTE, 1);
+            putSettingsJson(object);
+        } catch (JSONException | IllegalArgumentException ignored) {}
+    }
+
     private void setTintBackgroundValue(boolean tint) {
         try {
             JSONObject object = getSettingsJson();
@@ -395,5 +408,5 @@ public class MonetSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.monet_engine);
+            new BaseSearchIndexProvider(R.xml.monet_settings);
 }

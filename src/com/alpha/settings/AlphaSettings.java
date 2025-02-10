@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017-2024 crDroid Android Project
- * Copyright (C) 2023-2024 AlphaDroid
+ * Copyright (C) 2023-2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,16 +38,6 @@ import android.widget.Toolbar;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.alpha.settings.fragments.Buttons;
-import com.alpha.settings.fragments.LockScreen;
-import com.alpha.settings.fragments.Miscellaneous;
-import com.alpha.settings.fragments.Navigation;
-import com.alpha.settings.fragments.Notifications;
-import com.alpha.settings.fragments.QuickSettings;
-import com.alpha.settings.fragments.Sound;
-import com.alpha.settings.fragments.StatusBar;
-import com.alpha.settings.fragments.UserInterface;
-
 import com.android.internal.logging.nano.MetricsProto
 ;
 import com.android.settings.dashboard.DashboardFragment;
@@ -68,57 +58,6 @@ public class AlphaSettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        hideToolbar();
-        setAlphaDashboardStyle();
-    }
-
-    private void hideToolbar() {
-        if (mCollapsingToolbarLayout == null) {
-            mCollapsingToolbarLayout = getActivity().findViewById(R.id.collapsing_toolbar);
-        }
-        if (mCollapsingToolbarLayout != null) {
-            mCollapsingToolbarLayout.setVisibility(View.GONE);
-        }
-    }
-
-    public void onResume() {
-        super.onResume();
-        hideToolbar();
-        setAlphaDashboardStyle();
-    }
-
-    private void setAlphaDashboardStyle() {
-        int mDashBoardStyle = geSettingstDashboardStyle();
-        final PreferenceScreen mScreen = getPreferenceScreen();
-        mScreen.setTitle(" ");
-        final int mCount = mScreen.getPreferenceCount();
-        for (int i = 0; i < mCount; i++) {
-            final Preference mPreference = mScreen.getPreference(i);
-
-            String mKey = mPreference.getKey();
-
-            if (mKey == null) continue;
-
-            if (mKey.equals("alpha_settings_logo")) {
-                mPreference.setLayoutResource(R.layout.alpha_settings_logo);
-                continue;
-            }
-
-            if (mDashBoardStyle > 0) { // 0 = stock aosp style
-                if (mDashBoardStyle == 1 && mKey.equals("ui_settings_category")) {
-                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full_accent);
-                } else if (mDashBoardStyle == 2 && mKey.equals("ui_settings_category")) {
-                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full_accent_2);
-                } else {
-                    mPreference.setLayoutResource(R.layout.alpha_dashboard_preference_full);
-                }
-            }
-        }
-    }
-
-    private int geSettingstDashboardStyle() {
-        return Settings.System.getIntForUser(getContext().getContentResolver(),
-                Settings.System.SETTINGS_STYLE, 2, UserHandle.USER_CURRENT);
     }
 
     @Override
@@ -138,12 +77,12 @@ public class AlphaSettings extends DashboardFragment {
         new AlertDialog.Builder(context)
                 .setTitle(R.string.reset_settings_title)
                 .setMessage(R.string.reset_settings_message)
-                .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                .setPositiveButton(R.string.string_ok, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         resetAll(context);
                     }
                 })
-                .setNegativeButton(R.string.cancel, null)
+                .setNegativeButton(R.string.string_cancel, null)
                 .show();
     }
 
@@ -157,15 +96,6 @@ public class AlphaSettings extends DashboardFragment {
 
         @Override
         protected Void doInBackground(Void... params) {
-            Buttons.reset(rContext);
-            LockScreen.reset(rContext);
-            QuickSettings.reset(rContext);
-            Miscellaneous.reset(rContext);
-            Navigation.reset(rContext);
-            Notifications.reset(rContext);
-            Sound.reset(rContext);
-            StatusBar.reset(rContext);
-            UserInterface.reset(rContext);
             finish();
             startActivity(getIntent());
             return null;

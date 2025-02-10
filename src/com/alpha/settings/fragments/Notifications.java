@@ -37,9 +37,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.android.internal.util.crdroid.Utils;
+import com.android.internal.util.alpha.Utils;
 
-import com.alpha.settings.fragments.notifications.IslandSettings;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import java.util.List;
@@ -156,7 +155,7 @@ public class Notifications extends SettingsPreferenceFragment implements
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Global.putInt(resolver,
-                Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 0);
+                Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LESS_BORING_HEADS_UP, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -173,7 +172,6 @@ public class Notifications extends SettingsPreferenceFragment implements
                 Settings.System.NOTIFICATION_GUTS_KILL_APP_BUTTON, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.HEADS_UP_TIMEOUT, getDefaultDecay(mContext), UserHandle.USER_CURRENT);
-        IslandSettings.reset(mContext);
     }
 
     @Override

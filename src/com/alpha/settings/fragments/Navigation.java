@@ -37,7 +37,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.crdroid.Utils;
+import com.android.internal.util.alpha.Utils;
 
 import lineageos.providers.LineageSettings;
 
@@ -56,16 +56,19 @@ public class Navigation extends SettingsPreferenceFragment implements
     private static final String KEY_NAVIGATION_HOME_DOUBLE_TAP = "navigation_home_double_tap";
     private static final String KEY_NAVIGATION_APP_SWITCH_LONG_PRESS =
             "navigation_app_switch_long_press";
+    private static final String KEY_NAVIGATION_APP_SWITCH_DOUBLE_TAP =
+            "navigation_app_switch_double_tap";
+    private static final String KEY_CORNER_LONG_SWIPE = "navigation_bar_corner_long_swipe";
     private static final String KEY_EDGE_LONG_SWIPE = "navigation_bar_edge_long_swipe";
-    private static final String KEY_SHAKE_GESTURE_ACTION = "shake_gestures_action";
 
     private SwitchPreferenceCompat mNavbarVisibility;
     private ListPreference mNavigationBackLongPressAction;
     private ListPreference mNavigationHomeLongPressAction;
     private ListPreference mNavigationHomeDoubleTapAction;
     private ListPreference mNavigationAppSwitchLongPressAction;
+    private ListPreference mNavigationAppSwitchDoubleTapAction;
+    private ListPreference mCornerLongSwipeAction;
     private ListPreference mEdgeLongSwipeAction;
-    private ListPreference mShakeGestureAction;
 
     private boolean mIsNavSwitchingMode = false;
     private Handler mHandler;
@@ -109,6 +112,12 @@ public class Navigation extends SettingsPreferenceFragment implements
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 LineageSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
+        Action appSwitchDoubleTapAction = Action.fromSettings(resolver,
+                LineageSettings.System.KEY_APP_SWITCH_DOUBLE_TAP_ACTION,
+                Action.LAST_APP);
+        Action cornerLongSwipeAction = Action.fromSettings(resolver,
+                LineageSettings.System.KEY_CORNER_LONG_SWIPE_ACTION,
+                Action.SEARCH);
         Action edgeLongSwipeAction = Action.fromSettings(resolver,
                 LineageSettings.System.KEY_EDGE_LONG_SWIPE_ACTION,
                 Action.NOTHING);
@@ -129,12 +138,15 @@ public class Navigation extends SettingsPreferenceFragment implements
         mNavigationAppSwitchLongPressAction = initList(KEY_NAVIGATION_APP_SWITCH_LONG_PRESS,
                 appSwitchLongPressAction);
 
+        // Navigation bar app switch double tap
+        mNavigationAppSwitchDoubleTapAction = initList(KEY_NAVIGATION_APP_SWITCH_DOUBLE_TAP,
+                appSwitchDoubleTapAction);
+
+        // Corner swipe up gesture
+        mCornerLongSwipeAction = initList(KEY_CORNER_LONG_SWIPE, cornerLongSwipeAction);
+
         // Edge long swipe gesture
         mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
-        
-        // Shake gesture
-        int shakeAction = Settings.System.getInt(resolver, KEY_SHAKE_GESTURE_ACTION, 0);
-        mShakeGestureAction = initList(KEY_SHAKE_GESTURE_ACTION, shakeAction);
     }
 
     private ListPreference initList(String key, Action value) {
@@ -155,13 +167,6 @@ public class Navigation extends SettingsPreferenceFragment implements
         int index = pref.findIndexOfValue(value);
         pref.setSummary(pref.getEntries()[index]);
         LineageSettings.System.putIntForUser(getContentResolver(), setting, Integer.valueOf(value), UserHandle.USER_CURRENT);
-    }
-
-    private void handleSystemListChange(ListPreference pref, Object newValue, String setting) {
-        String value = (String) newValue;
-        int index = pref.findIndexOfValue(value);
-        pref.setSummary(pref.getEntries()[index]);
-        Settings.System.putIntForUser(getContentResolver(), setting, Integer.valueOf(value), UserHandle.USER_CURRENT);
     }
 
     @Override
@@ -201,13 +206,17 @@ public class Navigation extends SettingsPreferenceFragment implements
             handleListChange((ListPreference) preference, newValue,
                     LineageSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION);
             return true;
+        } else if (preference == mNavigationAppSwitchDoubleTapAction) {
+            handleListChange((ListPreference) preference, newValue,
+                    LineageSettings.System.KEY_APP_SWITCH_DOUBLE_TAP_ACTION);
+            return true;
+        } else if (preference == mCornerLongSwipeAction) {
+            handleListChange((ListPreference) preference, newValue,
+                    LineageSettings.System.KEY_CORNER_LONG_SWIPE_ACTION);
+            return true;
         } else if (preference == mEdgeLongSwipeAction) {
             handleListChange((ListPreference) preference, newValue,
                     LineageSettings.System.KEY_EDGE_LONG_SWIPE_ACTION);
-            return true;
-        } else if (preference == mShakeGestureAction) {
-            handleSystemListChange((ListPreference) preference, newValue,
-                    KEY_SHAKE_GESTURE_ACTION);
             return true;
         }
         return false;
@@ -225,14 +234,10 @@ public class Navigation extends SettingsPreferenceFragment implements
                 Settings.Secure.NAVBAR_LAYOUT_VIEWS, "default", UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.BACK_GESTURE_ARROW, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.PIXEL_NAV_ANIMATION, 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.BACK_GESTURE_HAPTIC, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.BACK_GESTURE_HEIGHT, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.GESTURE_NAVBAR_LENGTH_MODE, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.GESTURE_NAVBAR_RADIUS, 3, UserHandle.USER_CURRENT);
     }
 
     @Override
