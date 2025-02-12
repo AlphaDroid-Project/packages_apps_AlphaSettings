@@ -21,7 +21,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
-    <!--<com.alpha.settings.preferences.SystemSettingSeekBarPreference
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
         android:key="max_visible_notification_icons"
         android:icon="@drawable/ic_notification_peek"
         android:title="@string/max_visible_notification_icons_title"
@@ -30,7 +30,7 @@
         settings:defaultValueText="5"
         android:max="10"
         settings:min="0"
-        settings:units="" />-->
+        settings:units="" />
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
