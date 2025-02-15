@@ -17,6 +17,9 @@
 
 package com.alpha.settings;
 
+import static com.android.settings.alpha.AlphaConstants.DASHBOARD_STYLE_AOSP_LEGACY;
+import static com.android.settings.alpha.AlphaConstants.DASHBOARD_STYLE_NAD;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -32,32 +35,57 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.Toolbar;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.logging.nano.MetricsProto
-;
+import com.android.internal.logging.nano.MetricsProto;
+
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settingslib.search.SearchIndexable;
-import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
 
-import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.android.settings.R;
+import com.android.settings.Utils;
+import com.android.settings.search.BaseSearchIndexProvider;
 
 @SearchIndexable
 public class AlphaSettings extends DashboardFragment {
 
     private static final String TAG = "AlphaSettings";
 
-    protected CollapsingToolbarLayout mCollapsingToolbarLayout;
+    private static final String ALPHA_SETTTINGS_LOGO_KEY = "alpha_settings_logo";
+    private static final String UI_SETTINGS_CATEGORY_KEY = "ui_settings_category";
+
     private static final int MENU_RESET = Menu.FIRST;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        setAlphaDashboardStyle();
+    }
+
+    private void setAlphaDashboardStyle() {
+
+        int style = Utils.getDashboardStyle(getContext());
+        if (style == DASHBOARD_STYLE_AOSP_LEGACY) return;
+
+        PreferenceScreen screen = getPreferenceScreen();
+        int count = screen.getPreferenceCount();
+        Preference preference;
+        String key;
+
+        for (int i = 0; i < count; i++) {
+            preference = screen.getPreference(i);
+            key = preference.getKey();
+
+            if (ALPHA_SETTTINGS_LOGO_KEY.equals(key)) {
+                preference.setLayoutResource(R.layout.alpha_settings_logo);
+            } else if (UI_SETTINGS_CATEGORY_KEY.equals(key) && style == DASHBOARD_STYLE_NAD) {
+                preference.setLayoutResource(R.layout.nad_accent_homepage_preference);
+            } else {
+                preference.setLayoutResource(R.layout.nad_homepage_preference);
+            }
+        }
     }
 
     @Override

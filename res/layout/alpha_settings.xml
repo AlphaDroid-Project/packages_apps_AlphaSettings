@@ -21,10 +21,11 @@
     android:persistent="true">
 
     <!-- Alpha settings logo -->
-<!--    <Preference
+    <!--<com.android.settingslib.widget.LayoutPreference
         android:key="alpha_settings_logo"
+        android:layout="@layout/alpha_settings_logo"
         android:selectable="false"
-        settings:layout="@layout/alpha_settings_logo" />-->
+        settings:searchable="false" />-->
 
     <Preference
         android:key="ui_settings_category"
