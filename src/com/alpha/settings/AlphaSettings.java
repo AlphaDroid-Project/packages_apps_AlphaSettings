@@ -48,6 +48,8 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+
 @SearchIndexable
 public class AlphaSettings extends DashboardFragment {
 
@@ -58,10 +60,25 @@ public class AlphaSettings extends DashboardFragment {
 
     private static final int MENU_RESET = Menu.FIRST;
 
+    protected CollapsingToolbarLayout mCollapsingToolbarLayout;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+    }
+
+    public void onResume() {
+        super.onResume();
         setAlphaDashboardStyle();
+    }
+
+    private void hideToolbar() {
+        if (mCollapsingToolbarLayout == null) {
+            mCollapsingToolbarLayout = getActivity().findViewById(com.android.settingslib.collapsingtoolbar.R.id.collapsing_toolbar);
+        }
+        if (mCollapsingToolbarLayout != null) {
+            mCollapsingToolbarLayout.setVisibility(View.GONE);
+        }
     }
 
     private void setAlphaDashboardStyle() {
@@ -86,6 +103,7 @@ public class AlphaSettings extends DashboardFragment {
                 preference.setLayoutResource(R.layout.nad_homepage_preference);
             }
         }
+        hideToolbar();
     }
 
     @Override
