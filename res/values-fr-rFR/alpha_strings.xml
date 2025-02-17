@@ -38,7 +38,7 @@
     <!-- Quicksettings media category -->
     <string name="media_category">Lecteur multimédia</string>
     <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_title">Afficher l\'animation de vagues</string>
     <string name="show_squiggle_animation_summary">Afficher l\'animation de vagues sur la barre de progression du panneau multimédia\nAprès le changement, changez de musique, mettez le média en pause ou déplacez le curseur de la barre de progression pour appliquer</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">Style de l\'interface utilisateur</string>
@@ -52,7 +52,7 @@
     <!-- UiBench -->
     <string name="category_uibench">UiBench</string>
     <string name="jitter_test_title">Jitter</string>
-    <string name="jitter_test_summary">Calculate rendering jitter</string>
+    <string name="jitter_test_summary">Calculer les distorsions de rendu</string>
     <!-- SELinux status -->
     <string name="selinux_status">Statut SELinux</string>
     <string name="selinux_status_disabled">Désactivé</string>
@@ -71,8 +71,8 @@
     <string name="maintainer_title">Mainteneur</string>
     <string name="maintainer_summary">Recherche du mainteneur...</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">Ignorer le marquage sécurisé de la fenêtre</string>
+    <string name="ignore_window_secure_summary">Supprimer les limites de capture d\'écran et d\'enregistrement d\'écran pour toutes les applications. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité.</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Masquer le statut du développeur</string>
     <string name="hide_developer_status_summary">Masquer le statut du développeur aux applications</string>
@@ -88,8 +88,8 @@
     <string name="theme_customization_notifications_title">Style des notifications</string>
     <string name="theme_customization_notifications_summary">Définir le style des notifications personnalisées</string>
     <!-- Volume panel styles -->
-    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
-    <string name="theme_customization_volume_panel_styles_summary">Set custom volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_title">Style du panneau de volume</string>
+    <string name="theme_customization_volume_panel_styles_summary">Définir le style de panneau des réglages rapides</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forcer LTE CA</string>
     <string name="force_lte_ca_summary">Forcer l\'agrégation d\'opérateur LTE à fonctionner</string>
@@ -109,7 +109,7 @@
     <string name="fastcharge_disabled_extended_summary">Charge limitée à: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- USB configuration -->
     <string name="usb_default_config_title">Configuration USB</string>
-    <string name="usb_default_config_summary">Choose the default USB configuration</string>
+    <string name="usb_default_config_summary">Choisir la configuration USB par défaut</string>
     <!-- Text Brightness -->
     <string name="bb_show_percentage_title">Pourcentage de luminosité</string>
     <string name="bb_show_percentage_summary">Afficher le pourcentage de luminosité dans la barre de luminosité</string>
@@ -123,7 +123,7 @@
     <string name="doze_gesture_ambient_title">Afficher en mode veille</string>
     <string name="doze_gesture_ambient_summary">Utiliser l\'affichage en mode Veille au lieu de réveiller l\'écran</string>
     <string name="gesture_wake_ambient">Afficher en mode veille</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="gesture_wake">Réveil total</string>
     <!-- Doze enablement -->
     <string name="doze_enabled_title">Affichage en mode veille</string>
     <string name="doze_enabled_summary">Activer la fonctionnalité doze</string>
@@ -140,22 +140,22 @@
     <string name="brightness_slider_haptics_intensity_title">Intensité du retour tactile du curseur de luminosité</string>
     <string name="volume_slider_haptics_intensity_title">Intensité du retour tactile du curseur de volume</string>
     <!-- Misc categories -->
-    <string name="sensors_category_title">Sensors</string>
+    <string name="sensors_category_title">Capteurs</string>
     <string name="animations_category_title">Animations</string>
     <!-- Spoof storage encryption status -->
     <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
     <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted</string>
     <!-- Idle Manager -->
     <string name="idle_manager_title">Idle Manager</string>
-    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="idle_manager_summary">Arrêter tous les processus non essentiels en arrière-plan lorsque l\'appareil est inactif</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_title">Mode veille</string>
+    <string name="sleep_mode_summary_on">Activé - <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Désactivé - <xliff:g id="ID_1">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode de sonnerie</string>
+    <string name="sleep_mode_ringer_off_title">Ne pas modifier</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibration</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne Pas Déranger</string>
     <string name="sleep_mode_ringer_silent_title">Silent</string>
     <string name="sleep_mode_schedule_sunset">Coucher du soleil</string>
     <string name="sleep_mode_schedule_sunrise">Lever du soleil</string>
