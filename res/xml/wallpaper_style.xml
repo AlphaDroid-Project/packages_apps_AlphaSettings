@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-2024 the risingOS Android Project
+     Copyright (C) 2023-2025 AlphaDroid
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/wallpaper_settings_title">
+
+    <PreferenceCategory
+        android:key="wallpaper_blur"
+        android:title="@string/wallpaper_blur_title">
+
+        <com.alpha.settings.preferences.SystemPropertyListPreference
+            android:key="persist.sys.wallpaper.blur_target"
+            android:title="@string/wallpaper_blur_target_title"
+            android:entries="@array/wallpaper_target_entries"
+            android:entryValues="@array/wallpaper_target_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
+        <com.alpha.settings.preferences.SystemPropertyListPreference
+            android:key="persist.sys.wallpaper.blur_filter"
+            android:title="@string/wallpaper_blur_filter_title"
+            android:entries="@array/wallpaper_blur_filter_entries"
+            android:entryValues="@array/wallpaper_blur_filter_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="wallpaper_dim"
+        android:title="@string/wallpaper_dim_title">
+
+        <com.alpha.settings.preferences.SystemPropertyListPreference
+            android:key="persist.sys.wallpaper.dim_target"
+            android:title="@string/wallpaper_dim_target_title"
+            android:entries="@array/wallpaper_target_entries"
+            android:entryValues="@array/wallpaper_target_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
+        <com.alpha.settings.preferences.SystemPropertySeekBarPreference
+            android:key="persist.sys.wallpaper.dim_level"
+            android:title="@string/wallpaper_dim_level_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            settings:units="%"
+            android:max="100"
+            settings:min="1"
+            settings:showSign="true" />
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.ButtonPreference
+        android:key="restart_systemui"
+        android:title="@string/restart_systemui_short"
+        android:enabled="false"
+        android:gravity="center" />
+
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="wallpaper_styles_footer"
+        android:title="@string/wallpaper_styles_footer"
+        android:selectable="false"
+        settings:searchable="false" />
+
+</PreferenceScreen>

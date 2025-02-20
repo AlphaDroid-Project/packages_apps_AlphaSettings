@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016-2023 crDroid Android Project
+ * Copyright (C) 2023-2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -80,8 +81,10 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         if (mMaxValue < mMinValue) {
             mMaxValue = mMinValue;
         }
-        if (mInterval <= 0 || mInterval < mMinValue  || mInterval > mMaxValue) {
+        if (mInterval <= 0) {
             mInterval = 1;
+        } else if (mInterval > (mMaxValue - mMinValue)) {
+            mInterval = mMaxValue - mMinValue;
         }
         mFastProgressInterval *= mInterval;
         String defaultValue = attrs.getAttributeValue(ANDROIDNS, "defaultValue");
@@ -342,7 +345,6 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     }
 
     public void refresh(int newValue) {
-        // this will ...
         setValue(newValue, mSeekBar != null);
     }
 }

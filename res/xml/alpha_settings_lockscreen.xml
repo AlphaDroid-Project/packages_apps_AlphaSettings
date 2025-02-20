@@ -53,6 +53,13 @@
             android:title="@string/lockscreen_show_carrier_title"
             android:summary="@string/lockscreen_show_carrier_summary"
             android:defaultValue="true" />
+            
+        <Preference
+            android:key="depth_wallpaper"
+            android:icon="@drawable/ic_wallpaper_style"
+            android:title="@string/dw_wallpaper_enabled_title"
+            android:summary="@string/dw_wallpaper_enabled_summary"
+            android:fragment="com.alpha.settings.fragments.lockscreen.WallpaperDepth" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"

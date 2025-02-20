@@ -37,6 +37,14 @@
         android:summary="@string/theme_customization_ui_style_summary"
         android:fragment="com.alpha.settings.fragments.ui.UIStyles"/>
 
+    <!-- Wallpaper Settings -->
+    <Preference
+        android:key="wallpaper_settings"
+        android:icon="@drawable/ic_wallpaper_style"
+        android:title="@string/wallpaper_settings_title"
+        android:summary="@string/wallpaper_settings_summary"
+        android:fragment="com.alpha.settings.fragments.ui.WallpaperStyle" />
+
     <!-- Settings dashboard style -->
     <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="settings_dashboard_style"
