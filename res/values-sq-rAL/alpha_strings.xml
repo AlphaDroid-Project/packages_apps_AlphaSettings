@@ -17,9 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">@android:string/ok</string>
     <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">@android:string/cancel</string>
     <string name="save">Save</string>
     <string name="discard_changes">Discard changes</string>
     <string name="never">Never</string>
@@ -57,7 +57,7 @@
     <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
     <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most Alpha settings to their default values for the current user. Would you like to continue?</string>
+    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
     <string name="top_level_connectivity_category_title">Connectivity</string>
@@ -67,21 +67,21 @@
     <string name="top_level_account_category_title">Accounts</string>
     <string name="top_level_support_category_title">Support</string>
     <!-- Preference categories -->
-    <string name="preference_category_brightness">चमक</string>
-    <string name="preference_category_battery">बैटरी</string>
-    <string name="preference_category_style">शैली</string>
-    <string name="preference_category_clock">घड़ी</string>
+    <string name="preference_category_brightness">Ndriçimi</string>
+    <string name="preference_category_battery">Battery</string>
+    <string name="preference_category_style">Style</string>
+    <string name="preference_category_clock">Clock</string>
     <!-- Personalization Categories -->
     <string name="button_title">Buttons</string>
-    <string name="lockscreen_title">Lock Screen</string>
+    <string name="lockscreen_title">Lockscreen</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="navigation_title">Navigation</string>
     <string name="notifications_title">Notifications</string>
-    <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_title">Quick settings</string>
     <string name="sound_title">Sound</string>
-    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_title">Statusbar</string>
     <string name="display_title">Display</string>
-    <string name="ui_title">User Interface</string>
+    <string name="ui_title">User interface</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -97,7 +97,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Share AlphaDroid</string>
     <string name="share_summary">Let others know about AlphaDroid</string>
-    <string name="share_message">Check out if #AlphaDroid is available for your device @ https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
     <string name="share_chooser_title">Share AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -179,8 +179,8 @@
     <string name="data_disabled_icon_summary">Display an indicator next to signal icon when data is disabled</string>
     <!-- Lockscreen categories -->
     <string name="lockscreen_interface_category">Interface</string>
-    <string name="lockscreen_battery_category">बैटरी</string>
-    <string name="lockscreen_clock_category">घड़ी</string>
+    <string name="lockscreen_battery_category">Battery</string>
+    <string name="lockscreen_clock_category">Clock</string>
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Battery info</string>
     <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
@@ -269,7 +269,7 @@
     <string name="power_menu_airplane_title">Airplane</string>
     <string name="power_menu_torch_title">Flashlight</string>
     <string name="power_menu_settings_title">Settings</string>
-    <string name="power_menu_lockdown_title">Lock down</string>
+    <string name="power_menu_lockdown_title">Lockdown</string>
     <string name="power_menu_lockdown_unavailable">Lockdown is disabled as keyguard isn\'t secure</string>
     <string name="power_menu_soundpanel_title">Sound panel</string>
     <string name="power_menu_users_title">Users</string>
@@ -285,8 +285,8 @@
     <string name="monet_title">Monet settings</string>
     <string name="monet_summary">Customize Monet theme engine</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_custom_color_title">Accent color</string>
+    <string name="monet_engine_custom_color_summary">Choose custom color for accent</string>
     <string name="monet_engine_custom_bgcolor_title">Background color</string>
     <string name="monet_engine_custom_bgcolor_summary">Choose custom color for background</string>
     <string name="monet_engine_color_override_title">Custom color</string>
@@ -407,9 +407,9 @@
     <string name="status_bar_clock_position_left">Left</string>
     <string name="status_bar_clock_position_center">Center</string>
     <string name="status_bar_clock_position_hidden">Hidden</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide</string>
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
     <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and display clock for regular interval to save statusbar space</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
     <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
@@ -463,7 +463,7 @@
     <string name="qs_misc_category">Miscellaneous</string>
     <string name="qs_footer_category">Footer</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">घड़ी</string>
+    <string name="qs_clock_title">Clock</string>
     <string name="qs_clock_summary">Display clock in quick status bar header</string>
     <!-- QS date -->
     <string name="qs_date_title">Date</string>
@@ -477,15 +477,15 @@
     <string name="battery_estimate_title">Battery estimate</string>
     <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
     <!-- Network traffic -->
-    <string name="network_traffic_autohide">Auto-hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
     <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-    <string name="network_traffic_location_statusbar">Status Bar</string>
+    <string name="network_traffic_location_statusbar">Statusbar</string>
     <string name="network_traffic_location_title">Location</string>
     <string name="network_traffic_mode_all">Upload and download</string>
     <string name="network_traffic_mode_disable">Disabled</string>
@@ -495,7 +495,7 @@
     <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
-    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_settings_summary">Show current network traffic levels in the status bar</string>
     <string name="network_traffic_settings_title">Network traffic monitor</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
@@ -561,7 +561,7 @@
     <string name="qs_footer_settings_icon_title">Settings shortcut</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Brightness slider</string>
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_title">When to show</string>
     <string name="qs_show_brightness_slider_never">Never show</string>
     <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
     <string name="qs_show_brightness_slider_always">Show always</string>
@@ -1088,8 +1088,8 @@
     <string name="qs_dual_tone_summary">Use dual tone background colors instead of AOSP single tone</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume steps</string>
-    <string name="volume_steps_summary">Customize no. of steps in volume panel</string>
+    <string name="volume_steps_title">Volume Steps</string>
+    <string name="volume_steps_summary">Control the granularity of each stream</string>
     <string name="max_music_volume_title">Media</string>
     <string name="max_call_volume_title">Calls</string>
     <string name="max_alarm_volume_title">Alarms</string>
@@ -1159,7 +1159,7 @@
     <!-- Statusbar Padding -->
     <string name="statusbar_extra_padding_category">Extra padding</string>
     <string name="statusbar_extra_padding_start_title">Start padding</string>
-    <string name="statusbar_extra_padding_top_title">ऊपरी विस्तारण</string>
+    <string name="statusbar_extra_padding_top_title">Top padding</string>
     <string name="statusbar_extra_padding_end_title">End padding</string>
     <!-- Wi-Fi MAC address randomization -->
     <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
@@ -1239,11 +1239,11 @@
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">सूचना प्रतीक</string>
-    <string name="max_visible_notification_icons_summary">स्तिथिपट्टी पर अधि. दृश्यमान सूचना प्रतीक</string>
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
     <!-- Quicksettings media category -->
-    <string name="media_category">मीडिया प्लेयर</string>
+    <string name="media_category">Media player</string>
     <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">स्क्विगल एनीमेशन दिखाएं</string>
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
     <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
 </resources>
