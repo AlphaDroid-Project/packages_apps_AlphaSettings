@@ -78,12 +78,12 @@
         android:persistent="false" />
 
     <!-- Sensor block per package -->
-    <!--<Preference
+    <Preference
         android:key="sensor_block_settings"
         android:icon="@drawable/ic_remote"
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
-        android:fragment="com.alpha.settings.fragments.misc.SensorBlock"/>-->
+        android:fragment="com.alpha.settings.fragments.misc.SensorBlock"/>
 
     <!-- Pocket Judge -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
