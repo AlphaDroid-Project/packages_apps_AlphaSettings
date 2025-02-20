@@ -124,9 +124,9 @@
 
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="qs_layout_category"
-        android:title="@string/qs_layout_category_title">-->
+        android:title="@string/qs_layout_category_title">
 
         <!-- QS panel style -->
         <!--<Preference
@@ -136,7 +136,39 @@
             android:summary="@string/theme_customization_qs_style_summary"
             android:fragment="com.alpha.settings.fragments.qs.QsPanelStyles" />-->
 
-     <!--</PreferenceCategory>-->
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:icon="@drawable/ic_text"
+            android:title="@string/qs_tile_label_hide_title"
+            android:summary="@string/qs_tile_label_hide_summary"
+            android:defaultValue="false" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_tile_label_size"
+            android:icon="@drawable/ic_text"
+            android:title="@string/qs_tile_label_size_title"
+            android:max="15"
+            settings:min="10"
+            settings:interval="1"
+            settings:units="sp"
+            android:defaultValue="14" />
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="qs_layout_columns_rows"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_layout_columns_rows_title"
+            android:summary="@string/qs_layout_columns_rows_summary"
+            android:fragment="com.alpha.settings.fragments.quicksettings.LayoutSettings" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/qs_tile_animation_title">
