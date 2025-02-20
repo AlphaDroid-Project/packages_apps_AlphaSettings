@@ -17,6 +17,8 @@ package com.alpha.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.res.Resources;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -25,6 +27,8 @@ import android.widget.Toast;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceCategory;
+
 import com.alpha.settings.fragments.lockscreen.DozeSettings;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker;
@@ -51,6 +55,9 @@ public class LockScreen extends SettingsPreferenceFragment
 
     private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
+    private static final String KEY_UDFPS_ANIMATIONS = "udfps_recognizing_animation_preview";
+    private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
+    private static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
     private static final String KEY_SMARTSPACE = "lockscreen_smartspace_enabled";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
 
@@ -68,6 +75,33 @@ public class LockScreen extends SettingsPreferenceFragment
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.alpha_settings_lockscreen);
+
+        PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
+        FingerprintManager mFingerprintManager = (FingerprintManager)
+                getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mUdfpsAnimations = (Preference) findPreference(KEY_UDFPS_ANIMATIONS);
+        mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
+        mScreenOffUdfps = (Preference) findPreference(SCREEN_OFF_UDFPS_ENABLED);
+
+        if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
+            gestCategory.removePreference(mUdfpsAnimations);
+            gestCategory.removePreference(mUdfpsIcons);
+            gestCategory.removePreference(mScreenOffUdfps);
+        } else {
+            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.animations")) {
+                gestCategory.removePreference(mUdfpsAnimations);
+            }
+            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
+                gestCategory.removePreference(mUdfpsIcons);
+            }
+            Resources resources = getResources();
+            boolean screenOffUdfpsAvailable = resources.getBoolean(
+                    com.android.internal.R.bool.config_supportScreenOffUdfps) ||
+                    !TextUtils.isEmpty(resources.getString(
+                        com.android.internal.R.string.config_dozeUdfpsLongPressSensorType));
+            if (!screenOffUdfpsAvailable)
+                gestCategory.removePreference(mScreenOffUdfps);
+        }
 
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
         mSmartspace.setOnPreferenceChangeListener(this);
