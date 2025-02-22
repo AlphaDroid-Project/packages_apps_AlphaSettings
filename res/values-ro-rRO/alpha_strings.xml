@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">OK</string>
     <string name="reset">Reset</string>
-    <string name="cancel">Anulare</string>
     <string name="save">Salvaţi</string>
     <string name="discard_changes">Renunță la modificari</string>
     <string name="never">Niciodată</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">Alegeți aplicația</string>
     <string name="enable">Activare</string>
     <string name="disable">Dezactivare</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">Dezactivat</string>
     <string name="string_enabled">Activat</string>
     <string name="string_on">Pornit</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -171,9 +154,6 @@
     <string name="status_bar_battery_category_title">Customizare baterie</string>
     <!-- Gestures -->
     <string name="gestures_title">Gesturi</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Pictograma 4G</string>
-    <string name="show_fourg_icon_summary">Afisare pictograma 4G in loc de LTE</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">Indicator date mobile dezactivat</string>
     <string name="data_disabled_icon_summary">Afișează un indicator lângă pictograma de semnal atunci când datele sunt dezactivate</string>
@@ -399,45 +379,20 @@
     <string name="peak_refresh_rate_title_custom">Rata maximă de reîmprospătare</string>
     <string name="low_power_refresh_rate_title_custom">Rata de reîmprospătare la baterie scazută</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Ceas &amp; dată</string>
-    <string name="status_bar_clock_summary">Personalizează ceasul &amp; data</string>
-    <string name="status_bar_clock_seconds_title">Secunde ceas</string>
-    <string name="status_bar_clock_seconds_summary">Afișează secunde lângă ceas în bara de stare</string>
+    <string name="status_bar_clock_title">Ceas</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">Ascundere automată</string>
+    <string name="status_bar_clock_auto_hide_summary">Ascunde ceasul la intervale regulate</string>
     <string name="status_bar_clock_position_title">Stil ceas</string>
     <string name="status_bar_clock_position_right">Drepta</string>
     <string name="status_bar_clock_position_left">Stânga</string>
     <string name="status_bar_clock_position_center">Centru</string>
-    <string name="status_bar_clock_position_hidden">Ascuns</string>
-    <string name="status_bar_clock_auto_hide_title">Ascundere automată</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ascunde ceasul dacă lansatorul este vizibil</string>
-    <string name="status_bar_clock_auto_hide_summary">Ascunde ceasul la intervale regulate</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Ascunde durata</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Numărul de secunde pentru a ascunde ceasul</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Durată afişat</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Numărul de secunde să aştepte înainte de a ascunde ceasul</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">Stil AM/PM</string>
     <string name="status_bar_am_pm_info">Formatul 24 de ore este activat</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Mic</string>
     <string name="status_bar_am_pm_hidden">Ascuns</string>
-    <string name="status_bar_date_title">Data</string>
-    <string name="status_bar_date_none">Ascuns</string>
-    <string name="status_bar_date_small">Mic</string>
-    <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Format data</string>
-    <string name="status_bar_date_style">Stil dată</string>
-    <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Litere mici</string>
-    <string name="status_bar_date_style_uppercase">Majuscule</string>
-    <string name="status_bar_date_format_custom">Format java particularizat</string>
-    <string name="status_bar_date_string_edittext_title">Trebuie să fie în formatul datei. Ex. LL/ZZ/AA</string>
-    <string name="status_bar_date_string_edittext_summary">Introduceți text</string>
-    <string name="clock_date_position">Poziţie dată</string>
-    <string name="clock_date_right">În dreapta ceasului</string>
-    <string name="clock_date_left">Stânga de timp</string>
-    <string name="clock_font_size_title">Mărime font ceas</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stil baterie</string>
     <string name="status_bar_battery_style_icon_portrait">Pictograma portret</string>
@@ -477,40 +432,27 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Estimare baterie</string>
     <string name="battery_estimate_summary">Afișează durata estimată a bateriei când este disponibilă</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitorizare trafic rețea</string>
+    <string name="network_traffic_settings_summary">Afişare şi personalizare monitor trafic reţea</string>
+    <string name="network_traffic_mode_title">Mod de afișare</string>
+    <string name="network_traffic_mode_disable">Dezactivat</string>
+    <string name="network_traffic_mode_up">Doar upload</string>
+    <string name="network_traffic_mode_down">Doar download</string>
+    <string name="network_traffic_mode_all">Upload și download</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">Ascundere automată</string>
     <string name="network_traffic_autohide_summary">Ascunde monitorul de trafic, atunci când nu există nici o activitate</string>
-    <string name="network_traffic_autohide_threshold">Prag inactivitate</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">Ascunde săgeţile</string>
-    <string name="network_traffic_hidearrow_summary">Ascunde săgeţile în indicatorul de trafic</string>
-    <string name="network_traffic_location_disable">Dezactivat</string>
-    <string name="network_traffic_location_quick_statusbar">Bara de stare rapidă</string>
-    <string name="network_traffic_location_statusbar">Bara de stare</string>
-    <string name="network_traffic_location_title">Locaţie</string>
-    <string name="network_traffic_mode_all">Upload și download</string>
-    <string name="network_traffic_mode_disable">Dezactivat</string>
-    <string name="network_traffic_mode_down">Doar download</string>
-    <string name="network_traffic_mode_title">Mod de afișare</string>
-    <string name="network_traffic_mode_up">Doar upload</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">Durata după care viteza este remăsurată</string>
-    <string name="network_traffic_refresh_interval_title">Interval de reîmprospătare</string>
-    <string name="network_traffic_settings_summary">Afişare şi personalizare monitor trafic reţea</string>
-    <string name="network_traffic_settings_title">Monitorizare trafic rețea</string>
+    <string name="network_traffic_units_title">Unităţi de măsură trafic</string>
+    <string name="network_traffic_units_kilobits">Kilobiţi pe secundă (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabiţi pe secundă (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilo-octeţi pe secundă (Kb/s)</string>
+    <string name="network_traffic_units_megabytes">Megacteţi pe secundă (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">Oprit</string>
-    <string name="network_traffic_show_units_on">Pornit</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">Biţi pe secundă (b/s)</string>
-    <string name="network_traffic_units_bytes">Octeţi pe secundă (B/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobiţi pe secundă (kb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilo-octeţi pe secundă (Kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabiţi pe secundă (Mb/s)</string>
-    <string name="network_traffic_units_megabytes">Megacteţi pe secundă (MB/s)</string>
-    <string name="network_traffic_units_title">Unităţi de măsură trafic</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alerte de subsol</string>
     <string name="qs_footer_warnings_summary">Afișează o alertă în partea de jos a panoului setărilor rapide atunci când rețeaua este monitorizată de aplicații externe sau VPN</string>
@@ -679,9 +621,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Spațiul de jocuri</string>
     <string name="gaming_mode_summary">Caracteristici suplimentare pentru experiența de joc imersiv</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Animație pixel</string>
-    <string name="pixel_navbar_anim_summary">Activează animația în stil pixel pentru navigarea cu 2 sau 3 butoane</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efect ondulare</string>
     <string name="enable_fingerprint_ripple_effect_summary">Arată efectul de undă la deblocare cu amprentă</string>
@@ -721,8 +660,6 @@
     <string name="volume_panel_category">Panou de volum</string>
     <string name="volume_dialog_timeout_title">Timeout al panoului de volum</string>
     <string name="volume_panel_on_left_title">Panou de volum la stânga</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Mod video</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">Personalizare UDFPS</string>
     <string name="udfps_settings_summary">Particularizare scaner amprentă sub-afişată</string>
@@ -783,8 +720,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Deblocare dispozitiv</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Dispozitivul \"<xliff:g id="device_name">%1$s</xliff:g>\" se va putea conecta la acest hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nu sunt clienți disponibili momentan. Dispozitivele conectate și blocate vor fi listate aici atunci când sunt disponibile.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Până la <xliff:g id="device_num">%1$d</xliff:g> dispozitive se pot conecta la acest hotspot</item>
         <item quantity="one">Până la <xliff:g id="device_num">%1$d</xliff:g> dispozitiv se poate conecta la acest hotspot</item>
@@ -796,14 +731,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Meniu de alimentare</string>
     <string name="lockscreen_enable_power_menu_summary">Permite accesarea meniului de alimentare pe ecranul de blocare securizat</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Lungimea umplerii</string>
-    <string name="short_label">Scurt</string>
-    <string name="long_label">Lung</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Grosimea pilulei</string>
-    <string name="thin_label">Subţire</string>
-    <string name="thick_label">Groasă</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Complet</string>
     <string name="back_height_high_label">Jos</string>
@@ -876,12 +803,6 @@
     <string name="smart_pixels_percent">Procent de pixeli pentru dezactivare</string>
     <string name="smart_pixels_shift_title">Protecție burn-in ecran</string>
     <string name="smart_pixels_shift_summary">Împiedică deteriorarea pixelilor pe dispozitivele OLED prin deplasarea acestora la intervale frecvente</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Folosește tema neagră</string>
-    <string name="system_black_theme_summary">Forțează culorile negre de fundal</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Butonul pentru ștergerea tuturor notificărilor</string>
-    <string name="notification_material_dismiss_summary">Înlocuiți textul șterge tot cu un buton plutitor</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animație gest înapoi</string>
     <string name="back_gesture_arrow_summary">Arată o săgeată animată pentru gestul înapoi</string>
@@ -929,7 +850,7 @@
     <string name="qs_tile_layout_summary">Arată eticheta de mai jos de pictograma decât lângă pictogramă</string>
     <string name="qs_layout_columns_rows_title">Coloane &amp; rânduri</string>
     <string name="qs_layout_columns_rows_summary">Personalizează coloanele și rândurile setărilor rapide</string>
-    <string name="qs_layout_columns_rows_footer_text">Rândurile QS ar trebui să fie egale sau mai mari decât rândurile QS. Utilizați un număr mai mare de coloane pentru un cerc / pătrat (A11) tila QS.</string>
+    <string name="qs_layout_columns_rows_footer_text">Rândurile QS ar trebui să fie egale sau mai mari decât rândurile QS.</string>
     <string name="qs_columns_portrait_title">Coloane (portret)</string>
     <string name="qs_columns_landscape_title">Coloane (peisaj)</string>
     <string name="qs_rows_portrait_title">Rânduri (portret)</string>
@@ -1216,28 +1137,6 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>
