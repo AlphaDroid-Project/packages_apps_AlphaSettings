@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">Oke</string>
     <string name="reset">Setel ulang</string>
-    <string name="cancel">Batal</string>
     <string name="save">Simpan</string>
     <string name="discard_changes">Batalkan perubahan</string>
     <string name="never">Tidak pernah</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">Pilih aplikasi</string>
     <string name="enable">Aktifkan</string>
     <string name="disable">Nonaktifkan</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">Dinonaktifkan</string>
     <string name="string_enabled">Diaktifkan</string>
     <string name="string_on">Aktif</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -171,9 +154,6 @@
     <string name="status_bar_battery_category_title">Kustomisasi baterai</string>
     <!-- Gestures -->
     <string name="gestures_title">Gestur</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Ikon 4G</string>
-    <string name="show_fourg_icon_summary">Menampilkan ikon 4G pada ikon sinyal sebagai ganti LTE</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">Indikator data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Tampilkan indikator di sebelah ikon sinyal saat data dinonaktifkan</string>
@@ -397,45 +377,20 @@
     <string name="peak_refresh_rate_title_custom">Kecepatan refresh maksimum</string>
     <string name="low_power_refresh_rate_title_custom">Tingkat kecepatan refresh daya rendah</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Jam &amp; tanggal</string>
-    <string name="status_bar_clock_summary">Kustomisasi jam &amp; tanggal</string>
-    <string name="status_bar_clock_seconds_title">Detik jam</string>
-    <string name="status_bar_clock_seconds_summary">Tampilkan detik di samping jam pada bilah status</string>
+    <string name="status_bar_clock_title">Jam</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">Sembunyikan otomatis</string>
+    <string name="status_bar_clock_auto_hide_summary">Sembunyikan jam secara berkala</string>
     <string name="status_bar_clock_position_title">Gaya Jam</string>
     <string name="status_bar_clock_position_right">Kanan</string>
     <string name="status_bar_clock_position_left">Kiri</string>
     <string name="status_bar_clock_position_center">Tengah</string>
-    <string name="status_bar_clock_position_hidden">Tersembunyi</string>
-    <string name="status_bar_clock_auto_hide_title">Sembunyikan otomatis</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Sembunyikan jam jika peluncur terlihat</string>
-    <string name="status_bar_clock_auto_hide_summary">Sembunyikan jam secara berkala</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Sembunyikan durasi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Jumlah detik untuk menyembunyikan jam</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Tampilkan durasi</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Jumlah detik untuk menunggu sebelum menyembunyikan jam</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">Gaya AM/PM</string>
     <string name="status_bar_am_pm_info">Waktu 24-jam diaktifkan</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Kecil</string>
     <string name="status_bar_am_pm_hidden">Tersembunyi</string>
-    <string name="status_bar_date_title">Tanggal</string>
-    <string name="status_bar_date_none">Tersembunyi</string>
-    <string name="status_bar_date_small">Kecil</string>
-    <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Format tanggal</string>
-    <string name="status_bar_date_style">Gaya tanggal</string>
-    <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Huruf kecil</string>
-    <string name="status_bar_date_style_uppercase">Huruf besar</string>
-    <string name="status_bar_date_format_custom">Format java kustom</string>
-    <string name="status_bar_date_string_edittext_title">Harus dalam format tanggal seperti. MM/dd/yy</string>
-    <string name="status_bar_date_string_edittext_summary">Masukkan teks</string>
-    <string name="clock_date_position">Posisi tanggal</string>
-    <string name="clock_date_right">Sebelah kanan jam</string>
-    <string name="clock_date_left">Sebelah kiri jam</string>
-    <string name="clock_font_size_title">Ukuran font jam</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
@@ -475,40 +430,27 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Perkiraan Baterai</string>
     <string name="battery_estimate_summary">Tampilkan estimasi daya baterai apabila tersedia</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitor lalu lintas jaringan</string>
+    <string name="network_traffic_settings_summary">Tampilan dan kustomisasi tingkatan arus lalu lintas jaringan</string>
+    <string name="network_traffic_mode_title">Mode tampilan</string>
+    <string name="network_traffic_mode_disable">Dinonaktifkan</string>
+    <string name="network_traffic_mode_up">Hanya unggah</string>
+    <string name="network_traffic_mode_down">Hanya unduh</string>
+    <string name="network_traffic_mode_all">Unggah dan unduh</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">Sembunyikan otomatis</string>
     <string name="network_traffic_autohide_summary">Sembunyikan monitor lalu lintas saat tidak ada aktivitas</string>
-    <string name="network_traffic_autohide_threshold">Ambang batas tidak aktif</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">Sembunyikan panah</string>
-    <string name="network_traffic_hidearrow_summary">Sembunyikan tanda panah indikator lalu lintas jaringan</string>
-    <string name="network_traffic_location_disable">Dinonaktifkan</string>
-    <string name="network_traffic_location_quick_statusbar">Bilah Status Cepat</string>
-    <string name="network_traffic_location_statusbar">Bilah Status</string>
-    <string name="network_traffic_location_title">Lokasi</string>
-    <string name="network_traffic_mode_all">Unggah dan unduh</string>
-    <string name="network_traffic_mode_disable">Dinonaktifkan</string>
-    <string name="network_traffic_mode_down">Hanya unduh</string>
-    <string name="network_traffic_mode_title">Mode tampilan</string>
-    <string name="network_traffic_mode_up">Hanya unggah</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">Durasi setelah kecepatan dihitung ulang</string>
-    <string name="network_traffic_refresh_interval_title">Selang waktu refresh</string>
-    <string name="network_traffic_settings_summary">Tampilan dan kustomisasi tingkatan arus lalu lintas jaringan</string>
-    <string name="network_traffic_settings_title">Monitor lalu lintas jaringan</string>
+    <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
+    <string name="network_traffic_units_kilobits">Kilobit per detik (kb/d)</string>
+    <string name="network_traffic_units_megabits">Megabit per detik (Mb/d)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte per detik (kB/d)</string>
+    <string name="network_traffic_units_megabytes">Megabyte per detik (MB/d)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">Nonaktif</string>
-    <string name="network_traffic_show_units_on">Aktif</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">Bit per detik (b/d)</string>
-    <string name="network_traffic_units_bytes">Byte per detik (B/d)</string>
-    <string name="network_traffic_units_kilobits">Kilobit per detik (kb/d)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte per detik (kB/d)</string>
-    <string name="network_traffic_units_megabits">Megabit per detik (Mb/d)</string>
-    <string name="network_traffic_units_megabytes">Megabyte per detik (MB/d)</string>
-    <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Peringatan footer</string>
     <string name="qs_footer_warnings_summary">Tampilkan peringatan di bagian bawah panel QS saat jaringan dipantau oleh aplikasi eksternal atau VPN</string>
@@ -677,9 +619,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Ruang Game</string>
     <string name="gaming_mode_summary">Fitur ekstra untuk pengalaman bermain game yang impresif</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Animasi Pixel</string>
-    <string name="pixel_navbar_anim_summary">Aktifkan animasi gaya pixel untuk bilah navigasi 2/3 tombol</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
     <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
@@ -719,8 +658,6 @@
     <string name="volume_panel_category">Panel volume</string>
     <string name="volume_dialog_timeout_title">Waktu habis panel volume</string>
     <string name="volume_panel_on_left_title">Panel volume di kiri</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Mode Video</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">Kustomisasi Sidik Jari Dalam Layar</string>
     <string name="udfps_settings_summary">Sesuaikan pemindai sidik jari di dalam layar</string>
@@ -781,8 +718,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Hingga <xliff:g id="device_num">%1$d</xliff:g> perangkat dapat terhubung ke hotspot ini</item>
     </plurals>
@@ -792,14 +727,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu daya</string>
     <string name="lockscreen_enable_power_menu_summary">Izinkan mengakses menu daya pada layar kunci aman</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Panjang pil</string>
-    <string name="short_label">Singkat</string>
-    <string name="long_label">Lama</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
-    <string name="thin_label">Tipis</string>
-    <string name="thick_label">Tebal</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
@@ -872,12 +799,6 @@
     <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
     <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
     <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Gunakan tema gelap</string>
-    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Tombol hapus semua notifikasi</string>
-    <string name="notification_material_dismiss_summary">Ganti teks hapus semua notifikasi dengan tombol mengambang gaya material</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animasi gestur kembali</string>
     <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
@@ -925,7 +846,7 @@
     <string name="qs_tile_layout_summary">Tampilkan label di bawah ikon alih-alih di sebelah ikon</string>
     <string name="qs_layout_columns_rows_title">Baris &amp; kolom</string>
     <string name="qs_layout_columns_rows_summary">Sesuaikan baris dan kolom QS</string>
-    <string name="qs_layout_columns_rows_footer_text">Baris QS harus sama atau lebih besar dari baris QQS. Gunakan jumlah kolom yang lebih banyak untuk gaya QS tile berbentuk lingkaran/persegi (A11).</string>
+    <string name="qs_layout_columns_rows_footer_text">Baris QS harus sama atau lebih besar dari baris QQS.</string>
     <string name="qs_columns_portrait_title">Kolom (potret)</string>
     <string name="qs_columns_landscape_title">Kolom (lanskap)</string>
     <string name="qs_rows_portrait_title">Baris (portrait)</string>
@@ -1210,28 +1131,6 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>
