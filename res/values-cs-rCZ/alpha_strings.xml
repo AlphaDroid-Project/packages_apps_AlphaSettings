@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">OK</string>
     <string name="reset">Resetovat</string>
-    <string name="cancel">Zrušit</string>
     <string name="save">Uložit</string>
     <string name="discard_changes">Zrušit změny</string>
     <string name="never">Nikdy</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">Vybrat aplikaci</string>
     <string name="enable">Povolit</string>
     <string name="disable">Zakázat</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">Vypnuto</string>
     <string name="string_enabled">Aktivováno</string>
     <string name="string_on">Zapnuto</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -171,9 +154,6 @@
     <string name="status_bar_battery_category_title">Vlastní nastavení baterie</string>
     <!-- Gestures -->
     <string name="gestures_title">Gesta</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Ikona 4G</string>
-    <string name="show_fourg_icon_summary">Zobrazit v\u00a0ikoně signálu popisek 4G\u00a0namísto LTE</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">Indikátor vypnutých mobilních dat</string>
     <string name="data_disabled_icon_summary">Zobrazit indikátor vedle ikony signálu sítě, když jsou mobilní data vypnuta</string>
@@ -400,45 +380,20 @@
     <string name="peak_refresh_rate_title_custom">Maximální obnovovací frekvence</string>
     <string name="low_power_refresh_rate_title_custom">Spořící obnovovací frekvence</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Hodiny a\u00a0datum</string>
-    <string name="status_bar_clock_summary">Přizpůsobit hodiny a\u00a0datum</string>
-    <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
-    <string name="status_bar_clock_seconds_summary">Zobrazit na stavovém řádku vedle hodin i\u00a0sekundy</string>
+    <string name="status_bar_clock_title">Hodiny</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">Automaticky skrývat</string>
+    <string name="status_bar_clock_auto_hide_summary">Skrývat hodiny v\u00a0pravidelném intervalu</string>
     <string name="status_bar_clock_position_title">Umístění hodin</string>
     <string name="status_bar_clock_position_right">pravé</string>
     <string name="status_bar_clock_position_left">levé</string>
     <string name="status_bar_clock_position_center">Uprostřed</string>
-    <string name="status_bar_clock_position_hidden">Skryté</string>
-    <string name="status_bar_clock_auto_hide_title">Automaticky skrývat</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Skrýt hodiny, pokud je spouštěč viditelný</string>
-    <string name="status_bar_clock_auto_hide_summary">Skrývat hodiny v\u00a0pravidelném intervalu</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Doba trvání skrytí</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Počet sekund, po které budou hodiny skryty</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Doba trvání zobrazení</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Doba trvání zobrazení hodin v\u00a0sekundách před tím, než se automaticky skryjí</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">Styl zobrazení dop./odp.</string>
     <string name="status_bar_am_pm_info">Je povolen 24hodinový formát času</string>
     <string name="status_bar_am_pm_normal">Normální</string>
     <string name="status_bar_am_pm_small">Malé</string>
     <string name="status_bar_am_pm_hidden">Skryté</string>
-    <string name="status_bar_date_title">Datum</string>
-    <string name="status_bar_date_none">Skryté</string>
-    <string name="status_bar_date_small">Malé</string>
-    <string name="status_bar_date_normal">Normální</string>
-    <string name="status_bar_date_format_title">Formát data</string>
-    <string name="status_bar_date_style">Styl data</string>
-    <string name="status_bar_date_style_normal">Normální</string>
-    <string name="status_bar_date_style_lowercase">Malá písmena</string>
-    <string name="status_bar_date_style_uppercase">Velká písmena</string>
-    <string name="status_bar_date_format_custom">Vlastní formát Java</string>
-    <string name="status_bar_date_string_edittext_title">Musí být ve formátu data, např.: EEEE, d.\u00a0M.\u00a0yyyy</string>
-    <string name="status_bar_date_string_edittext_summary">Vložte textový řetězec</string>
-    <string name="clock_date_position">Umístění data</string>
-    <string name="clock_date_right">Napravo od hodin</string>
-    <string name="clock_date_left">Nalevo od hodin</string>
-    <string name="clock_font_size_title">Velikost písma hodin</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Styl baterie</string>
     <string name="status_bar_battery_style_icon_portrait">Ikona na výšku</string>
@@ -478,40 +433,27 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Odhad výdrže baterie</string>
     <string name="battery_estimate_summary">Zobrazit odhad zbývající výdrže baterie, je‑li k\u00a0dispozici</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Indikátor síťového provozu</string>
+    <string name="network_traffic_settings_summary">Zobrazit a\u00a0přizpůsobit aktuální úroveň vytížení sítě</string>
+    <string name="network_traffic_mode_title">Režim zobrazení</string>
+    <string name="network_traffic_mode_disable">Vypnuto</string>
+    <string name="network_traffic_mode_up">Pouze odchozí data</string>
+    <string name="network_traffic_mode_down">Pouze příchozí data</string>
+    <string name="network_traffic_mode_all">Příchozí a\u00a0odchozí data</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">Automaticky skrývat</string>
     <string name="network_traffic_autohide_summary">Skrýt indikátor síťového provozu při neaktivitě sítě</string>
-    <string name="network_traffic_autohide_threshold">Práh nečinnosti</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">Skrýt šipky</string>
-    <string name="network_traffic_hidearrow_summary">Skrýt šipky indikující datový provoz</string>
-    <string name="network_traffic_location_disable">Vypnuto</string>
-    <string name="network_traffic_location_quick_statusbar">Stavový řádek Rychlého nastavení</string>
-    <string name="network_traffic_location_statusbar">Stavový řádek</string>
-    <string name="network_traffic_location_title">Umístění</string>
-    <string name="network_traffic_mode_all">Příchozí a\u00a0odchozí data</string>
-    <string name="network_traffic_mode_disable">Vypnuto</string>
-    <string name="network_traffic_mode_down">Pouze příchozí data</string>
-    <string name="network_traffic_mode_title">Režim zobrazení</string>
-    <string name="network_traffic_mode_up">Pouze odchozí data</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">Doba, po které je rychlost znovu změřena</string>
-    <string name="network_traffic_refresh_interval_title">Interval obnovení</string>
-    <string name="network_traffic_settings_summary">Zobrazit a\u00a0přizpůsobit aktuální úroveň vytížení sítě</string>
-    <string name="network_traffic_settings_title">Indikátor síťového provozu</string>
+    <string name="network_traffic_units_title">Měrné jednotky síťového provozu</string>
+    <string name="network_traffic_units_kilobits">Kilobity za sekundu (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabity za sekundu (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobajty za sekundu (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabajty za sekundu (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">Vypnuto</string>
-    <string name="network_traffic_show_units_on">Zapnuto</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">Bity za sekundu (b/s)</string>
-    <string name="network_traffic_units_bytes">Bajty za sekundu (B/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobity za sekundu (kb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobajty za sekundu (kB/s)</string>
-    <string name="network_traffic_units_megabits">Megabity za sekundu (Mb/s)</string>
-    <string name="network_traffic_units_megabytes">Megabajty za sekundu (MB/s)</string>
-    <string name="network_traffic_units_title">Měrné jednotky síťového provozu</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Upozornění v\u00a0zápatí</string>
     <string name="qs_footer_warnings_summary">Zobrazit upozornění ve spodní části panelu rychlého nastavení, když je síť monitorována externími aplikacemi nebo VPN</string>
@@ -680,9 +622,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Herní prostor</string>
     <string name="gaming_mode_summary">Další funkce pro pohlcující herní zážitek</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Animace Pixel</string>
-    <string name="pixel_navbar_anim_summary">Povolit animaci ve stylu Pixel na dvoutlačítkovém / třítlačítkovém navigačním panelu</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efekt zvlnění</string>
     <string name="enable_fingerprint_ripple_effect_summary">Zobrazit efekt zvlnění při odemknutí zařízení pomocí otisku prstu</string>
@@ -722,8 +661,6 @@
     <string name="volume_panel_category">Panel hlasitosti</string>
     <string name="volume_dialog_timeout_title">Doba trvání zobrazení Panelu hlasitosti</string>
     <string name="volume_panel_on_left_title">Panel hlasitosti vlevo</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Režim videa</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">Přizpůsobení čtečky otisků prstů</string>
     <string name="udfps_settings_summary">Přizpůsobit čtečku otisků prstů</string>
@@ -784,8 +721,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovat zařízení</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Zařízení „<xliff:g id="device_name">%1$s</xliff:g>“ se bude moci připojit k\u00a0tomuto hotspotu</string>
     <string name="wifi_hotspot_client_manager_footer_text">Aktuálně nejsou k dispozici žádní klienti. Připojená a blokovaná zařízení budou zobrazena v případě, že budou dostupná.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz a 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz a 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">K tomuto hotspotu se může připojit až <xliff:g id="device_num">%1$d</xliff:g> zařízení</item>
         <item quantity="one">K tomuto hotspotu se může připojit <xliff:g id="device_num">%1$d</xliff:g> zařízení</item>
@@ -798,14 +733,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menu napájení</string>
     <string name="lockscreen_enable_power_menu_summary">Povolit přístup do Menu napájení na zabezpečené obrazovce uzamčení</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Délka pilulky</string>
-    <string name="short_label">Krátká</string>
-    <string name="long_label">Dlouhá</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Poloměr pilulky</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Tlustá</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Celá obrazovka</string>
     <string name="back_height_high_label">Dole</string>
@@ -878,12 +805,6 @@
     <string name="smart_pixels_percent">Procenta pixelů k\u00a0vypnutí</string>
     <string name="smart_pixels_shift_title">Ochrana před vypálením obrazovky</string>
     <string name="smart_pixels_shift_summary">Zabraňuje vypalování displeje na zařízeních s\u00a0OLED displejem častým přepínáním pixelů</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Použít černý motiv</string>
-    <string name="system_black_theme_summary">Vynutit černou barvu pozadí</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Tlačítko vymazání všech oznámení</string>
-    <string name="notification_material_dismiss_summary">Nahradit oznamovací text „Vymazat vše“ plovoucím tlačítkem ve stylu Material Design</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animace gesta „Zpět“</string>
     <string name="back_gesture_arrow_summary">Zobrazit animovanou šipku gesta „Zpět“</string>
@@ -931,7 +852,7 @@
     <string name="qs_tile_layout_summary">Zobrazit popisek pod ikonou namísto vedle ikony</string>
     <string name="qs_layout_columns_rows_title">Sloupce a řádky</string>
     <string name="qs_layout_columns_rows_summary">Přizpůsobit sloupce a řádky QS</string>
-    <string name="qs_layout_columns_rows_footer_text">Počet řádků QS by měl být stejný nebo vyšší než počet řádků QQS. Použijte vyšší počet sloupců pro styl QS dlaždic tvaru kružnice/čtverce (A11).</string>
+    <string name="qs_layout_columns_rows_footer_text">Počet řádků QS by měl být stejný nebo vyšší než počet řádků QQS.</string>
     <string name="qs_columns_portrait_title">Počet sloupců (na výšku)</string>
     <string name="qs_columns_landscape_title">Počet sloupců (na šířku)</string>
     <string name="qs_rows_portrait_title">Počet řádků (na výšku)</string>
@@ -1219,28 +1140,6 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>
