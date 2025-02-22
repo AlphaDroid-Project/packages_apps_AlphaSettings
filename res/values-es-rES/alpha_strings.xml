@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">Aceptar</string>
     <string name="reset">Reiniciar</string>
-    <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
     <string name="discard_changes">Descartar cambios</string>
     <string name="never">Nunca</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">Elegir aplicación</string>
     <string name="enable">Activar</string>
     <string name="disable">Desactivar</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">Desactivado</string>
     <string name="string_enabled">Activado</string>
     <string name="string_on">Encendido</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -172,9 +155,6 @@ Mantén presionado para establecer</string>
     <string name="status_bar_battery_category_title">Personalizar batería</string>
     <!-- Gestures -->
     <string name="gestures_title">Gestos</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Icono 4G</string>
-    <string name="show_fourg_icon_summary">Mostrar icono 4G como icono de señal en lugar de LTE</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">Indicador de datos deshabilitado</string>
     <string name="data_disabled_icon_summary">Mostar un indicador junto a la barra de señal cuando los datos esten deshabilitados</string>
@@ -399,45 +379,20 @@ Mantén presionado para establecer</string>
     <string name="peak_refresh_rate_title_custom">Frecuencia máxima de refresco</string>
     <string name="low_power_refresh_rate_title_custom">Tasa de refresco con batería baja</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Reloj y fecha</string>
-    <string name="status_bar_clock_summary">Personalizar reloj y fecha</string>
-    <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
-    <string name="status_bar_clock_seconds_summary">Mostrar segundos al lado del reloj en la barra de estado</string>
+    <string name="status_bar_clock_title">Reloj</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">Ocultar automáticamente</string>
+    <string name="status_bar_clock_auto_hide_summary">Ocultar el reloj a intervalos regulares</string>
     <string name="status_bar_clock_position_title">Estilo del reloj</string>
     <string name="status_bar_clock_position_right">Derecha</string>
     <string name="status_bar_clock_position_left">Izquierda</string>
     <string name="status_bar_clock_position_center">Centro</string>
-    <string name="status_bar_clock_position_hidden">Oculto</string>
-    <string name="status_bar_clock_auto_hide_title">Ocultar automáticamente</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ocultar reloj si la pantalla de inicio está visible</string>
-    <string name="status_bar_clock_auto_hide_summary">Ocultar el reloj a intervalos regulares</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Ocultar duración</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Número de segundos que el reloj permanece oculto</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Mostrar duración</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Número de segundos a esperar antes de ocultar el reloj</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">Formato AM/PM</string>
     <string name="status_bar_am_pm_info">El formato de 24 horas está activado</string>
     <string name="status_bar_am_pm_normal">Predeterminado</string>
     <string name="status_bar_am_pm_small">Pequeño</string>
     <string name="status_bar_am_pm_hidden">Oculto</string>
-    <string name="status_bar_date_title">Fecha</string>
-    <string name="status_bar_date_none">Oculto</string>
-    <string name="status_bar_date_small">Pequeño</string>
-    <string name="status_bar_date_normal">Predeterminado</string>
-    <string name="status_bar_date_format_title">Formato de la fecha</string>
-    <string name="status_bar_date_style">Estilo de la fecha</string>
-    <string name="status_bar_date_style_normal">Predeterminado</string>
-    <string name="status_bar_date_style_lowercase">Minúsculas</string>
-    <string name="status_bar_date_style_uppercase">Mayúsculas</string>
-    <string name="status_bar_date_format_custom">Formato java personalizado</string>
-    <string name="status_bar_date_string_edittext_title">Debe estar en un formato de fecha, por ejemplo: MM/DD/AA</string>
-    <string name="status_bar_date_string_edittext_summary">Introduce texto</string>
-    <string name="clock_date_position">Posición de la fecha</string>
-    <string name="clock_date_right">A la derecha de la hora</string>
-    <string name="clock_date_left">A la izquierda de la hora</string>
-    <string name="clock_font_size_title">Tamaño de la fuente del reloj</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Estilo del icono de la batería</string>
     <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
@@ -477,40 +432,27 @@ Mantén presionado para establecer</string>
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Batería estimada</string>
     <string name="battery_estimate_summary">Muestra la duración estimada de la batería cuando esté disponible</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Monitor de tráfico de red</string>
+    <string name="network_traffic_settings_summary">Mostrar y personalizar los niveles actuales de tráfico de red</string>
+    <string name="network_traffic_mode_title">Modo de visualización</string>
+    <string name="network_traffic_mode_disable">Desactivado</string>
+    <string name="network_traffic_mode_up">Solo subidas</string>
+    <string name="network_traffic_mode_down">Solo descargas</string>
+    <string name="network_traffic_mode_all">Subida y descarga</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">Ocultar automáticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar monitor de tráfico de red cuando no haya actividad</string>
-    <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">Ocultar flechas</string>
-    <string name="network_traffic_hidearrow_summary">Ocultar flechas del indicador de tráfico de red</string>
-    <string name="network_traffic_location_disable">Desactivado</string>
-    <string name="network_traffic_location_quick_statusbar">Barra de estado rápida</string>
-    <string name="network_traffic_location_statusbar">Barra de estado</string>
-    <string name="network_traffic_location_title">Ubicación</string>
-    <string name="network_traffic_mode_all">Subida y descarga</string>
-    <string name="network_traffic_mode_disable">Desactivado</string>
-    <string name="network_traffic_mode_down">Solo descargas</string>
-    <string name="network_traffic_mode_title">Modo de visualización</string>
-    <string name="network_traffic_mode_up">Solo subidas</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">Duración después de la cual se vuelve a medir la velocidad</string>
-    <string name="network_traffic_refresh_interval_title">Intervalo de actualización</string>
-    <string name="network_traffic_settings_summary">Mostrar y personalizar los niveles actuales de tráfico de red</string>
-    <string name="network_traffic_settings_title">Monitor de tráfico de red</string>
+    <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
+    <string name="network_traffic_units_kilobits">Kilobits por segundo (Kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">Apagado</string>
-    <string name="network_traffic_show_units_on">Encendido</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">Bits por segundo (b/s)</string>
-    <string name="network_traffic_units_bytes">Bytes por segundo (B/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits por segundo (Kb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
-    <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
-    <string name="network_traffic_units_title">Unidades de medida de tráfico</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alertas en la parte inferior</string>
     <string name="qs_footer_warnings_summary">Mostrar una advertencia en la parte inferior del panel de ajustes rápidos cuando la red se supervise mediante aplicaciones externas o VPN</string>
@@ -679,9 +621,6 @@ Mantén presionado para establecer</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Espacio de juego</string>
     <string name="gaming_mode_summary">Características adicionales para una experiencia de juego inmersiva</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Animación Pixel</string>
-    <string name="pixel_navbar_anim_summary">Activar animación de Pixel para la barra de navegación de 2 botones / 3 botones</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Efecto al desbloquear</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar efecto al desbloquear con huella</string>
@@ -721,8 +660,6 @@ Mantén presionado para establecer</string>
     <string name="volume_panel_category">Panel de volumen</string>
     <string name="volume_dialog_timeout_title">Tiempo de espera del panel de volumen</string>
     <string name="volume_panel_on_left_title">Panel de volumen en el lado izquierdo</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Modo video</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">Personalización UDFPS</string>
     <string name="udfps_settings_summary">Personalizar el escáner de huella dactilar bajo pantalla</string>
@@ -783,8 +720,6 @@ Mantén presionado para establecer</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">El dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
     <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz y 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz y 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Pueden conectarse hasta <xliff:g id="device_num">%1$d</xliff:g> dispositivos a este punto de acceso</item>
         <item quantity="one">Pueden conectarse hasta <xliff:g id="device_num">%1$d</xliff:g> dispositivos a este punto de acceso</item>
@@ -795,14 +730,6 @@ Mantén presionado para establecer</string>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menú de apagado</string>
     <string name="lockscreen_enable_power_menu_summary">Permitir acceder al menú de encendido desde la pantalla de bloqueo</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Longitud de la barra de navegación</string>
-    <string name="short_label">Corto</string>
-    <string name="long_label">Largo</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Grosor de la barra de navegación</string>
-    <string name="thin_label">Delgada</string>
-    <string name="thick_label">Grosor</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Completo</string>
     <string name="back_height_high_label">Abajo</string>
@@ -875,12 +802,6 @@ Mantén presionado para establecer</string>
     <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
     <string name="smart_pixels_shift_title">Protección antiquemado</string>
     <string name="smart_pixels_shift_summary">Previene el quemado en pantallas OLED alternando píxeles</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Usar tema oscuro</string>
-    <string name="system_black_theme_summary">Forzar colores de fondo oscuros</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Botón de borrar todo</string>
-    <string name="notification_material_dismiss_summary">Reemplazar el botón con el texto de borrar notificaciones con un botón flotante</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animación del gesto atrás</string>
     <string name="back_gesture_arrow_summary">Mostrar una flecha animada para el gesto de atrás</string>
@@ -1214,28 +1135,6 @@ Mantén presionado para establecer</string>
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>

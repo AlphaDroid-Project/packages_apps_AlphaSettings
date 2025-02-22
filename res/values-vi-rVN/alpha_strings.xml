@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">Đồng ý</string>
     <string name="reset">Đặt lại</string>
-    <string name="cancel">Hủy</string>
     <string name="save">Lưu</string>
     <string name="discard_changes">Hủy các thay đổi</string>
     <string name="never">Không bao giờ</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">Chọn ứng dụng</string>
     <string name="enable">Bật</string>
     <string name="disable">Tắt</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">Tắt</string>
     <string name="string_enabled">Bật</string>
     <string name="string_on">Bật</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -171,9 +154,6 @@
     <string name="status_bar_battery_category_title">Chỉnh sửa pin</string>
     <!-- Gestures -->
     <string name="gestures_title">Cử chỉ</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Biểu tượng 4G</string>
-    <string name="show_fourg_icon_summary">Hiện biểu tượng 4G thay vì LTE</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">Thông báo tắt mạng 4G</string>
     <string name="data_disabled_icon_summary">Hiện một biểu tượng ngay cạnh tín hiệu khi tắt dữ liệu</string>
@@ -397,45 +377,20 @@
     <string name="peak_refresh_rate_title_custom">Tốc độ làm mới cao nhất</string>
     <string name="low_power_refresh_rate_title_custom">Tốc độ làm tươi ít năng lượng</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Đồng hồ &amp; ngày</string>
-    <string name="status_bar_clock_summary">Tùy chỉnh đồng hồ &amp; ngày</string>
-    <string name="status_bar_clock_seconds_title">Giây</string>
-    <string name="status_bar_clock_seconds_summary">Hiển thị giây ngay cạnh đồng hồ ở thanh trạng thái</string>
+    <string name="status_bar_clock_title">Đồng hồ</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ ở khoảng thời gian đều đặn</string>
     <string name="status_bar_clock_position_title">Kiểu đồng hồ</string>
     <string name="status_bar_clock_position_right">Phải</string>
     <string name="status_bar_clock_position_left">Trái</string>
     <string name="status_bar_clock_position_center">Giữa</string>
-    <string name="status_bar_clock_position_hidden">Ẩn</string>
-    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Ẩn đồng hồ nếu trình khởi chạy hiển thị</string>
-    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ ở khoảng thời gian đều đặn</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Thời gian ẩn</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Số giây để ẩn đồng hồ</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Thời gian hiện</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Số giây để chờ đợi trước khi ẩn đồng hồ</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">Kiểu SA/CH</string>
     <string name="status_bar_am_pm_info">Đồng hồ dạng 24 giờ được bật</string>
     <string name="status_bar_am_pm_normal">Bình thường</string>
     <string name="status_bar_am_pm_small">Nhỏ</string>
     <string name="status_bar_am_pm_hidden">Ẩn</string>
-    <string name="status_bar_date_title">Ngày tháng</string>
-    <string name="status_bar_date_none">Ẩn</string>
-    <string name="status_bar_date_small">Nhỏ</string>
-    <string name="status_bar_date_normal">Bình thường</string>
-    <string name="status_bar_date_format_title">Định dạng ngày tháng</string>
-    <string name="status_bar_date_style">Kiểu ngày</string>
-    <string name="status_bar_date_style_normal">Bình thường</string>
-    <string name="status_bar_date_style_lowercase">Chữ thường</string>
-    <string name="status_bar_date_style_uppercase">Chữ in hoa</string>
-    <string name="status_bar_date_format_custom">Tùy chọn định dạng riêng</string>
-    <string name="status_bar_date_string_edittext_title">Ví dụ của định dạng d/M/yy tương ứng ngày/tháng/năm</string>
-    <string name="status_bar_date_string_edittext_summary">Nhập định dạng</string>
-    <string name="clock_date_position">Vị trí ngày</string>
-    <string name="clock_date_right">Bên phải đồng hồ</string>
-    <string name="clock_date_left">Bên trái đồng hồ</string>
-    <string name="clock_font_size_title">Cỡ chữ đồng hồ</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Kiểu thanh pin</string>
     <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc</string>
@@ -475,40 +430,27 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Ước tính thời lượng pin còn lại</string>
     <string name="battery_estimate_summary">Hiển thị thời lượng pin còn lại ước tính khi khả dụng</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
+    <string name="network_traffic_settings_summary">Hiển thị và tùy biến mức lưu lượng mạng hiện tại</string>
+    <string name="network_traffic_mode_title">Chế độ hiển thị</string>
+    <string name="network_traffic_mode_disable">Tắt</string>
+    <string name="network_traffic_mode_up">Chỉ tải lên</string>
+    <string name="network_traffic_mode_down">Chỉ tải xuống</string>
+    <string name="network_traffic_mode_all">Tải lên và tải xuống</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">Tự động ẩn</string>
     <string name="network_traffic_autohide_summary">Ẩn tốc độ mạng khi không có hoạt động</string>
-    <string name="network_traffic_autohide_threshold">Ngưỡng không hoạt động</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
-    <string name="network_traffic_hidearrow_summary">Ẩn biểu tượng mũi tên chỉ lưu lượng mạng</string>
-    <string name="network_traffic_location_disable">Tắt</string>
-    <string name="network_traffic_location_quick_statusbar">Thanh trạng thái nhanh</string>
-    <string name="network_traffic_location_statusbar">Thanh trạng thái</string>
-    <string name="network_traffic_location_title">Vị trí</string>
-    <string name="network_traffic_mode_all">Tải lên và tải xuống</string>
-    <string name="network_traffic_mode_disable">Tắt</string>
-    <string name="network_traffic_mode_down">Chỉ tải xuống</string>
-    <string name="network_traffic_mode_title">Chế độ hiển thị</string>
-    <string name="network_traffic_mode_up">Chỉ tải lên</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">Khoảng thời gian sau đó tốc độ được đo lại</string>
-    <string name="network_traffic_refresh_interval_title">Thời gian làm mới</string>
-    <string name="network_traffic_settings_summary">Hiển thị và tùy biến mức lưu lượng mạng hiện tại</string>
-    <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
+    <string name="network_traffic_units_title">Đơn vị đo lưu lượng mạng</string>
+    <string name="network_traffic_units_kilobits">Kilobit trên giây (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabit trên giây (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte trên giây (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabyte trên giây (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">Tắt</string>
-    <string name="network_traffic_show_units_on">Bật</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">Bit trên giây (b/s)</string>
-    <string name="network_traffic_units_bytes">Byte trên giây (B/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobit trên giây (kb/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte trên giây (kB/s)</string>
-    <string name="network_traffic_units_megabits">Megabit trên giây (Mb/s)</string>
-    <string name="network_traffic_units_megabytes">Megabyte trên giây (MB/s)</string>
-    <string name="network_traffic_units_title">Đơn vị đo lưu lượng mạng</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Cảnh báo phía dưới</string>
     <string name="qs_footer_warnings_summary">Hiển thị cảnh báo ở cuối bảng điều khiển cài đặt nhanh khi mạng được theo dõi bởi các ứng dụng ngoài hoặc VPN</string>
@@ -677,9 +619,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Không gian trò chơi</string>
     <string name="gaming_mode_summary">Các tính năng bổ sung cho trải nghiệm chơi game nhập vai</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Hiệu ứng Pixel</string>
-    <string name="pixel_navbar_anim_summary">Bật hoạt ảnh kiểu pixel cho thanh điều hướng 2 nút / 3 nút</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
     <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
@@ -719,8 +658,6 @@
     <string name="volume_panel_category">Bảng điều chỉnh âm lượng</string>
     <string name="volume_dialog_timeout_title">Thời gian chờ hộp thoại âm lượng</string>
     <string name="volume_panel_on_left_title">Hiện bảng điều khiển âm lượng bên trái</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Chế độ video</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">Các tùy chỉnh vân tay dưới màn hình</string>
     <string name="udfps_settings_summary">Các tùy chỉnh nâng cao cho mở khóa bằng vân tay</string>
@@ -781,8 +718,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Bỏ chặn thiết bị</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Thiết bị \"<xliff:g id="device_name">%1$s</xliff:g>\" có thể kết nối với điểm phát sóng này</string>
     <string name="wifi_hotspot_client_manager_footer_text">Không có thiết bị truy cập hiện có sẵn. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Tối đa <xliff:g id="device_num">%1$d</xliff:g> thiết bị có thể kết nối với điểm phát sóng này</item>
     </plurals>
@@ -792,14 +727,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Trình đơn nguồn</string>
     <string name="lockscreen_enable_power_menu_summary">Cho phép hiện trình đơn nguồn ở màn hình khoá</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Chiều dài thanh điều hướng</string>
-    <string name="short_label">Ngắn</string>
-    <string name="long_label">Dài</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Độ dày thanh điều hướng</string>
-    <string name="thin_label">Mỏng</string>
-    <string name="thick_label">Dày</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Đầy đủ</string>
     <string name="back_height_high_label">Dưới cùng</string>
@@ -872,12 +799,6 @@
     <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
     <string name="smart_pixels_shift_title">Bảo vệ khỏi lỗi bóng mờ</string>
     <string name="smart_pixels_shift_summary">Tránh lỗi bóng mờ trên màn OLED bằng cách di chuyển các pixel thường xuyên</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Sử dụng chủ đề đen</string>
-    <string name="system_black_theme_summary">Buộc màu nền đen</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Phím xóa tất cả thông báo</string>
-    <string name="notification_material_dismiss_summary">Thay thế văn bản xóa tất cả thông báo bằng kiểu nút nổi</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Hiệu ứng cử chỉ quay lại</string>
     <string name="back_gesture_arrow_summary">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
@@ -1211,28 +1132,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>

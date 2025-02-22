@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">確認</string>
     <string name="reset">重設</string>
-    <string name="cancel">取消</string>
     <string name="save">儲存</string>
     <string name="discard_changes">捨棄變更</string>
     <string name="never">從不</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">選擇應用程式</string>
     <string name="enable">啟用</string>
     <string name="disable">停用</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">停用</string>
     <string name="string_enabled">啟用</string>
     <string name="string_on">開啟</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -171,9 +154,6 @@
     <string name="status_bar_battery_category_title">自訂電池</string>
     <!-- Gestures -->
     <string name="gestures_title">手勢</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G 圖示</string>
-    <string name="show_fourg_icon_summary">在訊號圖示上顯示 4G 而不是 LTE</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">數據停用圖示</string>
     <string name="data_disabled_icon_summary">當行動網路停用時，在訊號圖示旁顯示「×」標誌</string>
@@ -397,45 +377,20 @@
     <string name="peak_refresh_rate_title_custom">最高螢幕更新率</string>
     <string name="low_power_refresh_rate_title_custom">省電更新率</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">時鐘和日期</string>
-    <string name="status_bar_clock_summary">自訂時鐘和日期</string>
-    <string name="status_bar_clock_seconds_title">秒數</string>
-    <string name="status_bar_clock_seconds_summary">在狀態列上於時鐘旁顯示秒數</string>
-    <string name="status_bar_clock_position_title">時鐘樣式</string>
+    <string name="status_bar_clock_title">時鐘</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">自動隱藏</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
+    <string name="status_bar_clock_position_title">Clock position</string>
     <string name="status_bar_clock_position_right">右側</string>
     <string name="status_bar_clock_position_left">左側</string>
     <string name="status_bar_clock_position_center">置中</string>
-    <string name="status_bar_clock_position_hidden">隱藏</string>
-    <string name="status_bar_clock_auto_hide_title">自動隱藏</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">在主畫面時自動隱藏時鐘</string>
-    <string name="status_bar_clock_auto_hide_summary">在一段時間後自動隱藏時鐘</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">隱藏持續時間</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">時鐘隱藏的持續秒數</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">持續顯示時間</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">時鐘隱藏之前等待的秒數</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">上午／下午樣式</string>
     <string name="status_bar_am_pm_info">24 小時制時鐘已啟用</string>
     <string name="status_bar_am_pm_normal">正常</string>
     <string name="status_bar_am_pm_small">小</string>
     <string name="status_bar_am_pm_hidden">隱藏</string>
-    <string name="status_bar_date_title">日期</string>
-    <string name="status_bar_date_none">隱藏</string>
-    <string name="status_bar_date_small">小</string>
-    <string name="status_bar_date_normal">正常</string>
-    <string name="status_bar_date_format_title">日期格式</string>
-    <string name="status_bar_date_style">日期樣式</string>
-    <string name="status_bar_date_style_normal">正常</string>
-    <string name="status_bar_date_style_lowercase">小寫</string>
-    <string name="status_bar_date_style_uppercase">大寫</string>
-    <string name="status_bar_date_format_custom">自訂 Java 格式</string>
-    <string name="status_bar_date_string_edittext_title">日期格式必須為：MM/DD/YY</string>
-    <string name="status_bar_date_string_edittext_summary">輸入字串</string>
-    <string name="clock_date_position">日期位置</string>
-    <string name="clock_date_right">位於時間右側</string>
-    <string name="clock_date_left">位於時間左側</string>
-    <string name="clock_font_size_title">時鐘字體大小</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">電池圖示樣式</string>
     <string name="status_bar_battery_style_icon_portrait">直式圖示</string>
@@ -475,40 +430,27 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">預計電量可用時間</string>
     <string name="battery_estimate_summary">可用時顯示預計電量可用時間</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">網路流量指示器</string>
+    <string name="network_traffic_settings_summary">顯示並自訂目前網路流量狀態</string>
+    <string name="network_traffic_mode_title">顯示模式</string>
+    <string name="network_traffic_mode_disable">停用</string>
+    <string name="network_traffic_mode_up">僅上傳</string>
+    <string name="network_traffic_mode_down">僅下載</string>
+    <string name="network_traffic_mode_all">上傳和下載</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">自動隱藏</string>
     <string name="network_traffic_autohide_summary">沒有活動時隱藏流量指示器</string>
-    <string name="network_traffic_autohide_threshold">流量下限</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">隱藏箭頭</string>
-    <string name="network_traffic_hidearrow_summary">隱藏網路流量指示箭頭</string>
-    <string name="network_traffic_location_disable">停用</string>
-    <string name="network_traffic_location_quick_statusbar">快速狀態列</string>
-    <string name="network_traffic_location_statusbar">狀態列</string>
-    <string name="network_traffic_location_title">位置</string>
-    <string name="network_traffic_mode_all">上傳和下載</string>
-    <string name="network_traffic_mode_disable">停用</string>
-    <string name="network_traffic_mode_down">僅下載</string>
-    <string name="network_traffic_mode_title">顯示模式</string>
-    <string name="network_traffic_mode_up">僅上傳</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">重新測量網速的間隔時間</string>
-    <string name="network_traffic_refresh_interval_title">重新整理間隔</string>
-    <string name="network_traffic_settings_summary">顯示並自訂目前網路流量狀態</string>
-    <string name="network_traffic_settings_title">網路流量指示器</string>
+    <string name="network_traffic_units_title">流量單位</string>
+    <string name="network_traffic_units_kilobits">每秒千位元 (kb/s)</string>
+    <string name="network_traffic_units_megabits">每秒百萬位元 (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">每秒千位元組 (kB/s)</string>
+    <string name="network_traffic_units_megabytes">每秒百萬位元組 (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">關閉</string>
-    <string name="network_traffic_show_units_on">開啟</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">每秒位元 (b/s)</string>
-    <string name="network_traffic_units_bytes">每秒位元組 (B/s)</string>
-    <string name="network_traffic_units_kilobits">每秒千位元 (kb/s)</string>
-    <string name="network_traffic_units_kilobytes">每秒千位元組 (kB/s)</string>
-    <string name="network_traffic_units_megabits">每秒百萬位元 (Mb/s)</string>
-    <string name="network_traffic_units_megabytes">每秒百萬位元組 (MB/s)</string>
-    <string name="network_traffic_units_title">流量單位</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">頁尾警告</string>
     <string name="qs_footer_warnings_summary">在使用 VPN 或者有應用程式在監測網路時，於快速設定底部顯示警告</string>
@@ -677,9 +619,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">遊戲空間</string>
     <string name="gaming_mode_summary">額外的功能，讓您有身臨其境的遊戲體驗</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Pixel 風格動畫</string>
-    <string name="pixel_navbar_anim_summary">針對兩鍵/三鍵導覽列啟用 Pixel 風格的動畫</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">波紋效果</string>
     <string name="enable_fingerprint_ripple_effect_summary">以指紋解鎖時顯示波紋效果</string>
@@ -719,8 +658,6 @@
     <string name="volume_panel_category">音量面板</string>
     <string name="volume_dialog_timeout_title">音量面板自動關閉時間</string>
     <string name="volume_panel_on_left_title">音量面板靠左</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">影像模式</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">自訂螢幕指紋辨識</string>
     <string name="udfps_settings_summary">自訂螢幕下指紋辨識的樣式</string>
@@ -781,8 +718,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">取消封鎖裝置</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">此裝置「<xliff:g id="device_name">%1$s</xliff:g>」將能夠連線到此無線基地台</string>
     <string name="wifi_hotspot_client_manager_footer_text">目前沒有可顯示的裝置。有已連線或已封鎖的裝置時將在此顯示。</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz 和 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz 和 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">最多 <xliff:g id="device_num">%1$d</xliff:g> 個裝置可以同時連線到此無線基地台</item>
     </plurals>
@@ -792,14 +727,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">電源選單</string>
     <string name="lockscreen_enable_power_menu_summary">在安全鎖定螢幕上允許使用電源選單</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">手勢條長度</string>
-    <string name="short_label">短</string>
-    <string name="long_label">長</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">導覽列粗細</string>
-    <string name="thin_label">細</string>
-    <string name="thick_label">粗</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">高</string>
     <string name="back_height_high_label">底部</string>
@@ -872,12 +799,6 @@
     <string name="smart_pixels_percent">停用的像素百分比</string>
     <string name="smart_pixels_shift_title">螢幕烙印保護</string>
     <string name="smart_pixels_shift_summary">透過不時移動像素的位置來防止使用 OLED 螢幕的裝置產生烙印</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">使用深色主題</string>
-    <string name="system_black_theme_summary">強制使用黑色背景</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">全部清除按鈕</string>
-    <string name="notification_material_dismiss_summary">以浮動按鈕取代「清除所有通知」文字</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">返回手勢動畫</string>
     <string name="back_gesture_arrow_summary">觸發返回手勢時顯示動畫</string>
@@ -925,7 +846,7 @@
     <string name="qs_tile_layout_summary">在圖示下方顯示標題</string>
     <string name="qs_layout_columns_rows_title">欄 &amp; 列</string>
     <string name="qs_layout_columns_rows_summary">自定義快速設定欄和列</string>
-    <string name="qs_layout_columns_rows_footer_text">快速設定行應等於或大於更多快速設定行。 對於圓形/方形 (A11) 快速設定磁磚樣式，請使用較高的列數。</string>
+    <string name="qs_layout_columns_rows_footer_text">QS rows should be equal or greater than QQS rows.</string>
     <string name="qs_columns_portrait_title">欄（縱向）</string>
     <string name="qs_columns_landscape_title">欄（橫向）</string>
     <string name="qs_rows_portrait_title">列 (縱向)</string>
@@ -1210,28 +1131,6 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>
