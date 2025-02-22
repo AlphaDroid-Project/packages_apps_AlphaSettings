@@ -17,9 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="ok">Tamam</string>
     <string name="reset">Sıfırla</string>
-    <string name="cancel">İptal</string>
     <string name="save">Kaydet</string>
     <string name="discard_changes">Değişiklileri yoksay</string>
     <string name="never">Asla</string>
@@ -30,19 +28,6 @@
     <string name="choose_app">Uygulama seç</string>
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre dışı bırak</string>
-    <string name="string_ok">@string/ok</string>
-    <string name="string_reset">@string/reset</string>
-    <string name="string_cancel">@string/cancel</string>
-    <string name="string_save">@string/save</string>
-    <string name="string_discard_changes">@string/discard_changes</string>
-    <string name="string_never">@string/never</string>
-    <string name="string_always">\@string_always</string>
-    <string name="string_caution">@string/caution</string>
-    <string name="string_delete">@string/delete</string>
-    <string name="string_delete_message">@string/delete_message</string>
-    <string name="string_choose_app">@string/choose_app</string>
-    <string name="string_enable">@string/enable</string>
-    <string name="string_disable">@string/disable</string>
     <string name="string_disabled">Devre dışı</string>
     <string name="string_enabled">Etkinleştirildi</string>
     <string name="string_on">Açık</string>
@@ -110,8 +95,6 @@
     <string name="website_summary">Visit our official website</string>
     <string name="translate_title">Translations</string>
     <string name="translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="sponsor_summary">Visit our website host partner</string>
-    <string name="buildserversponsor_summary">We recommend their servers if interested in one</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
@@ -171,9 +154,6 @@
     <string name="status_bar_battery_category_title">Pil</string>
     <!-- Gestures -->
     <string name="gestures_title">Hareketler</string>
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G simgesi</string>
-    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
     <!-- Data disabled indicator -->
     <string name="data_disabled_icon_title">Mobil veri devre dışı göstergesi</string>
     <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal simgesinin yanında bir gösterge görüntüle</string>
@@ -398,45 +378,20 @@
     <string name="peak_refresh_rate_title_custom">En yüksek yenileme hızı</string>
     <string name="low_power_refresh_rate_title_custom">Düşük güç yenileme hızı</string>
     <!-- Status bar - Clock -->
-    <string name="status_bar_clock_title">Saat ve tarih</string>
-    <string name="status_bar_clock_summary">Saati ve tarihi özelleştirin</string>
-    <string name="status_bar_clock_seconds_title">Saniye göster</string>
-    <string name="status_bar_clock_seconds_summary">Durum çubuğunda saatin yanında saniye görüntüle</string>
+    <string name="status_bar_clock_title">Saat</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_auto_hide_title">Otomatik gizle</string>
+    <string name="status_bar_clock_auto_hide_summary">Saati düzenli aralıklarla gizle</string>
     <string name="status_bar_clock_position_title">Saat konumu</string>
     <string name="status_bar_clock_position_right">Sağ</string>
     <string name="status_bar_clock_position_left">Sol</string>
     <string name="status_bar_clock_position_center">Orta</string>
-    <string name="status_bar_clock_position_hidden">Gizli</string>
-    <string name="status_bar_clock_auto_hide_title">Otomatik gizle</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Başlatıcı görünürse saati gizle</string>
-    <string name="status_bar_clock_auto_hide_summary">Saati düzenli aralıklarla gizle</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Gizleme süresi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Saati gizlemek için saniye sayısı</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Süreyi göster</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Saati gizlemeden önce beklenecek saniye sayısı</string>
-    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
-    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
     <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
     <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Küçük</string>
     <string name="status_bar_am_pm_hidden">Gizli</string>
-    <string name="status_bar_date_title">Tarih</string>
-    <string name="status_bar_date_none">Gizli</string>
-    <string name="status_bar_date_small">Küçük</string>
-    <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Tarih biçimi</string>
-    <string name="status_bar_date_style">Tarih stili</string>
-    <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Küçük harf</string>
-    <string name="status_bar_date_style_uppercase">Büyük harf</string>
-    <string name="status_bar_date_format_custom">Özel java biçimi</string>
-    <string name="status_bar_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
-    <string name="status_bar_date_string_edittext_summary">Yazı girin</string>
-    <string name="clock_date_position">Tarih konumu</string>
-    <string name="clock_date_right">Saatin sağında</string>
-    <string name="clock_date_left">Saatin solunda</string>
-    <string name="clock_font_size_title">Saat yazı tipi boyutu</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Pil stili</string>
     <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
@@ -476,40 +431,27 @@
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Tahmini pil süresi</string>
     <string name="battery_estimate_summary">Mümkün olduğunda tahmini kalan pil süresini görüntüleyin</string>
-    <!-- Network traffic -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Ağ trafiği göstergesi</string>
+    <string name="network_traffic_settings_summary">Ağ etkinliğini görüntüleyin ve özelleştirin</string>
+    <string name="network_traffic_mode_title">Görüntüleme modu</string>
+    <string name="network_traffic_mode_disable">Devre dışı</string>
+    <string name="network_traffic_mode_up">Yalnızca yükleme</string>
+    <string name="network_traffic_mode_down">Yalnızca indirme</string>
+    <string name="network_traffic_mode_all">Yükleme ve İndirme</string>
+    <string name="network_traffic_position_title">Position</string>
     <string name="network_traffic_autohide">Otomatik gizle</string>
     <string name="network_traffic_autohide_summary">Veri etkinliği olmadığında ağ göstergesini gizle</string>
-    <string name="network_traffic_autohide_threshold">Hareketsizlik eşiği</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
-    <string name="network_traffic_hidearrow">Okları gizle</string>
-    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
-    <string name="network_traffic_location_disable">Devre dışı</string>
-    <string name="network_traffic_location_quick_statusbar">Hızlı ayarlar çubuğu</string>
-    <string name="network_traffic_location_statusbar">Durum çubuğu</string>
-    <string name="network_traffic_location_title">Konum</string>
-    <string name="network_traffic_mode_all">Yükleme ve İndirme</string>
-    <string name="network_traffic_mode_disable">Devre dışı</string>
-    <string name="network_traffic_mode_down">Yalnızca indirme</string>
-    <string name="network_traffic_mode_title">Görüntüleme modu</string>
-    <string name="network_traffic_mode_up">Yalnızca yükleme</string>
-    <string name="network_traffic_position_title">Position</string>
-    <string name="network_traffic_refresh_interval_summary">Hızın yeniden ölçüldüğü süre</string>
-    <string name="network_traffic_refresh_interval_title">Yenileme aralığı</string>
-    <string name="network_traffic_settings_summary">Ağ etkinliğini görüntüleyin ve özelleştirin</string>
-    <string name="network_traffic_settings_title">Ağ trafiği göstergesi</string>
+    <string name="network_traffic_units_title">Ağ ölçme birimi</string>
+    <string name="network_traffic_units_kilobits">Saniye başına kilobit (kb/s)</string>
+    <string name="network_traffic_units_megabits">Saniye başına megabit (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Saniye başına kilobayt (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Saniye başına megabayt (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_off">Kapalı</string>
-    <string name="network_traffic_show_units_on">Açık</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_units_bits">Saniye başına bit (b/s)</string>
-    <string name="network_traffic_units_bytes">Saniye başına bayt (B/s)</string>
-    <string name="network_traffic_units_kilobits">Saniye başına kilobit (kb/s)</string>
-    <string name="network_traffic_units_kilobytes">Saniye başına kilobayt (kB/s)</string>
-    <string name="network_traffic_units_megabits">Saniye başına megabit (Mb/s)</string>
-    <string name="network_traffic_units_megabytes">Saniye başına megabayt (MB/s)</string>
-    <string name="network_traffic_units_title">Ağ ölçme birimi</string>
+    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Altbilgi uyarıları</string>
     <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN tarafından izlendiğinde Hızlı ayarlar panelinin altında uyarı göster</string>
@@ -678,9 +620,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Oyun alanı</string>
     <string name="gaming_mode_summary">Sürükleyici oyun deneyimi için ekstra özellikler</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Piksel animasyonu</string>
-    <string name="pixel_navbar_anim_summary">2 tuşlu / 3 tuşlu gezinme çubuğu için piksel stili animasyonu etkinleştir</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Dalga etkisi</string>
     <string name="enable_fingerprint_ripple_effect_summary">Parmak izi ile kilit açma sırasında dalgalanma efekti göster</string>
@@ -720,8 +659,6 @@
     <string name="volume_panel_category">Ses paneli</string>
     <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
     <string name="volume_panel_on_left_title">Sol ses paneli</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video modu</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">UDFPS özelleştirmeleri</string>
     <string name="udfps_settings_summary">Ekran altı parmak izi tarayıcısını özelleştirin</string>
@@ -782,8 +719,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz engelini kaldır</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot\'a bağlanabilecek</string>
     <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Bu hotspot\'a en fazla <xliff:g id="device_num">%1$d</xliff:g> cihazlar bağlanabilir</item>
         <item quantity="one">Bu hotspot\'a en fazla <xliff:g id="device_num">%1$d</xliff:g> cihaz bağlanabilir</item>
@@ -794,14 +729,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Güç menüsü</string>
     <string name="lockscreen_enable_power_menu_summary">Güvenli kilit ekranında güç menüsüne erişime izin ver</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Gezinme çubuğu uzunluğu</string>
-    <string name="short_label">Kısa</string>
-    <string name="long_label">Uzun</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Hap yarıçapı</string>
-    <string name="thin_label">İnce</string>
-    <string name="thick_label">Kalın</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Tam</string>
     <string name="back_height_high_label">Alt</string>
@@ -874,12 +801,6 @@
     <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
     <string name="smart_pixels_shift_title">Yanma koruması</string>
     <string name="smart_pixels_shift_summary">OLED cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Siyah temayı kullan</string>
-    <string name="system_black_theme_summary">Siyah arka plan rengine zorla</string>
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Tüm bildirimleri temizleme tuşu</string>
-    <string name="notification_material_dismiss_summary">Tümünü temizleme bildirim metnini materyal stili kayan tuş ile değiştirin</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
@@ -927,7 +848,7 @@
     <string name="qs_tile_layout_summary">Simgenin yanında etiketi simgenin altında göster</string>
     <string name="qs_layout_columns_rows_title">Sütunlar ve satırlar</string>
     <string name="qs_layout_columns_rows_summary">QS sütunlarını ve satırlarını özelleştirme</string>
-    <string name="qs_layout_columns_rows_footer_text">QS satırları QQS satırlarına eşit veya daha büyük olmalıdır. Daire / kare (A11) QS karo stili için daha yüksek sayıda sütun kullanın.</string>
+    <string name="qs_layout_columns_rows_footer_text">QS satırları QQS satırlarına eşit veya daha büyük olmalıdır.</string>
     <string name="qs_columns_portrait_title">Sütunlar (dikey)</string>
     <string name="qs_columns_landscape_title">Sütunlar (yatay)</string>
     <string name="qs_rows_portrait_title">Satırlar (dikey)</string>
@@ -1213,28 +1134,6 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
     <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
-    <!-- Dashboard messages -->
-    <string name="dashboard_early_morning1">5 more minutes, marge...</string>
-    <string name="dashboard_early_morning2">D\'oh!</string>
-    <string name="dashboard_morning1">Morning, sir.</string>
-    <string name="dashboard_morning2">All my life, I\'ve had one dream: to achieve my many goals.</string>
-    <string name="dashboard_noon1">Lunch time!</string>
-    <string name="dashboard_noon2">Good drink... good meat... good God, let\'s eat!</string>
-    <string name="dashboard_early_night1">What\'s for dinner?</string>
-    <string name="dashboard_early_night2">You\'ll have to speak up. I\'m wearing a towel.</string>
-    <string name="dashboard_night1">Night.</string>
-    <string name="dashboard_night2">Worst episode ever!</string>
-    <string name="dashboard_midnight1">This is not a dream...</string>
-    <string name="dashboard_midnight2">Home sweet bed...</string>
-    <string name="dashboard_midnight3">ZzzzzZzZZZzz...</string>
-    <string name="dashboard_midnight4">Change the channel, Marge...</string>
-    <string name="dashboard_random1">Me fail English? That\'s unpossible.</string>
-    <string name="dashboard_random2">It takes two to lie - one to lie and one to listen.</string>
-    <string name="dashboard_random3">Shut up, Flanders!</string>
-    <string name="dashboard_random4">I\'m not normally a praying man, but if you\'re up there, please save me, Superman.</string>
-    <string name="dashboard_random5">It\'s so simple to be wise... just think of something stupid to say and then don\'t say it.</string>
-    <string name="dashboard_random6">Stupid sexy Flanders...</string>
-    <string name="dashboard_random7">I hope I didn\'t brain my damage.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Network</string>
     <string name="digital_wellbeing_short_title">Digital wellbeing</string>
