@@ -84,6 +84,13 @@
             android:fragment="com.alpha.settings.fragments.misc.HideDeveloperStatusSettings"
             settings:controller="com.alpha.settings.fragments.misc.HideDeveloperStatusPreferenceController" />
 
+        <Preference
+            android:key="hide_applist_setting"
+            android:icon="@drawable/ic_hide"
+            android:title="@string/hide_applist_title"
+            android:summary="@string/hide_applist_summary"
+            android:fragment="com.alpha.settings.fragments.misc.HideAppListSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
