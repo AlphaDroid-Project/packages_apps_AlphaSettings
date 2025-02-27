@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2022-2024 crDroid Android Project
+ * Copyright (C) 2022-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -36,7 +36,7 @@ import android.widget.SectionIndexer;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
@@ -51,7 +51,7 @@ import java.util.List;
 
 import com.android.internal.util.alpha.cutout.CutoutFullscreenController;
 
-public class DisplayCutoutForceFullscreenFragment extends PreferenceFragment
+public class DisplayCutoutForceFullscreenFragment extends PreferenceFragmentCompat
         implements ApplicationsState.Callbacks {
 
     private ActivityManager mActivityManager;
@@ -68,7 +68,7 @@ public class DisplayCutoutForceFullscreenFragment extends PreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Context context = getContext();
+        Context context = requireContext();
         mApplicationsState = ApplicationsState.getInstance(getActivity().getApplication());
         mSession = mApplicationsState.newSession(this);
         mSession.onResume();
@@ -93,30 +93,28 @@ public class DisplayCutoutForceFullscreenFragment extends PreferenceFragment
     }
 
     @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-    }
-
-    @Override
     public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         mAppsRecyclerView = view.findViewById(R.id.user_list_view);
-        mAppsRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        mAppsRecyclerView.setLayoutManager(new LinearLayoutManager(requireContext()));
         mAppsRecyclerView.setAdapter(mAllPackagesAdapter);
     }
 
     @Override
     public void onResume() {
         super.onResume();
-
         rebuild();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mAppsRecyclerView.setAdapter(null);
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-
         mSession.onPause();
         mSession.onDestroy();
     }

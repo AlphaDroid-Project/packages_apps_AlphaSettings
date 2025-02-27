@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2024 crDroid Android Project
+ * Copyright (C) 2022-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,9 +22,9 @@ public class DisplayCutoutForceFullscreenActivity extends CollapsingToolbarBaseA
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getFragmentManager().beginTransaction().replace(
-                com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                new DisplayCutoutForceFullscreenFragment())
+        getSupportFragmentManager().beginTransaction()
+                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+                        new DisplayCutoutForceFullscreenFragment())
                 .commit();
     }
 }
