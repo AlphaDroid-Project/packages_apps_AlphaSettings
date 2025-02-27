@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2021 crDroid Android Project
+ * Copyright (C) 2016-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,11 +30,9 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 
 import com.android.settings.R;
 
@@ -46,7 +44,7 @@ import java.util.regex.Matcher;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class ChangelogFragment extends PreferenceFragment {
+public class ChangelogFragment extends PreferenceFragmentCompat {
 
     TextView textView;
 
@@ -65,7 +63,6 @@ public class ChangelogFragment extends PreferenceFragment {
         textView = view.findViewById(R.id.changelog_text);
 
         InputStreamReader inputReader = null;
-        String text = null;
         StringBuilder data = new StringBuilder();
 
         Pattern date = Pattern.compile("(={20}|\\d{4}-\\d{2}-\\d{2})");
@@ -81,9 +78,7 @@ public class ChangelogFragment extends PreferenceFragment {
             while ((numRead = inputReader.read(tmp)) >= 0) {
                 data.append(tmp, 0, numRead);
             }
-//            text = data.toString();
         } catch (IOException e) {
-//            text = getString(R.string.changelog_error);
         } finally {
             try {
                 if (inputReader != null) {
