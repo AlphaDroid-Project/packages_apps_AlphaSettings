@@ -49,7 +49,7 @@ import static org.lineageos.internal.util.DeviceKeysConstants.*;
 import java.util.List;
 import java.util.Set;
 
-import lineageos.hardware.LineageHardwareManager;
+import com.android.internal.lineage.hardware.LineageHardwareManager;
 import lineageos.providers.LineageSettings;
 
 @SearchIndexable
