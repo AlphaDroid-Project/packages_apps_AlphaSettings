@@ -1143,4 +1143,48 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">显示波浪动画</string>
     <string name="show_squiggle_animation_summary">显示媒体面板的波浪动画\n更改后需要切换音乐、暂停音乐或移动进度条来应用更改</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">睡眠模式</string>
+    <string name="sleep_mode_summary_on">开启 / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">关闭 / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">响铃模式</string>
+    <string name="sleep_mode_ringer_off_title">不更改</string>
+    <string name="sleep_mode_ringer_vibrate_title">振动</string>
+    <string name="sleep_mode_ringer_dnd_title">勿扰</string>
+    <string name="sleep_mode_ringer_silent_title">静音</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">从日落开启到某一时间关闭</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">从某一时间开启到日出关闭</string>
+    <string name="sleep_mode_toggles_title">快捷开关</string>
+    <string name="sleep_mode_wifi_toggle_title">关闭 WiFi</string>
+    <string name="sleep_mode_wifi_toggle_summary">开启睡眠模式时禁用WiFi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">关闭蓝牙</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">开启睡眠模式时禁用蓝牙</string>
+    <string name="sleep_mode_cellular_toggle_title">关闭移动数据</string>
+    <string name="sleep_mode_cellular_toggle_summary">开启睡眠模式时禁用移动数据</string>
+    <string name="sleep_mode_location_toggle_title">关闭位置信息</string>
+    <string name="sleep_mode_location_toggle_summary">开启睡眠模式时禁用位置信息</string>
+    <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
+    <string name="sleep_mode_sensors_toggle_summary">开启睡眠模式时禁用传感器</string>
+    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的手机</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">立即开启</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">立即关闭</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">保持开启状态，直到日出</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">保持关闭状态，直到日落</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">保持开启直到 <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">保持关闭直到 <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
+    <string name="search_apps">搜索应用</string>
+    <string name="search">搜索</string>
 </resources>
