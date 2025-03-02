@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Repor</string>
-    <string name="save">Guardar</string>
-    <string name="discard_changes">Rejeitar alterações</string>
-    <string name="never">Nunca</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Cor de destaque (Padrão)</string>
+    <string name="add">Adicionar</string>
+    <string name="advanced">Avançado</string>
     <string name="always">Sempre</string>
+    <string name="back">Voltar</string>
     <string name="caution">Cuidado</string>
+    <string name="choose_app">Escolher aplicação</string>
+    <string name="custom_color">Cor personalizada</string>
     <string name="delete">Apagar</string>
     <string name="delete_message">Remover o item selecionado?</string>
-    <string name="choose_app">Escolher aplicação</string>
-    <string name="enable">Ativar</string>
     <string name="disable">Desativar</string>
-    <string name="string_disabled">Desativado</string>
-    <string name="string_enabled">Ativado</string>
-    <string name="on">Ligado</string>
-    <string name="off">Desligado</string>
-    <string name="string_default">Predefinido</string>
-    <string name="accent_color">Cor de destaque (Padrão)</string>
+    <string name="disabled">Desativado</string>
+    <string name="discard_changes">Rejeitar alterações</string>
+    <string name="enable">Ativar</string>
+    <string name="enabled">Ativado</string>
+    <string name="finish">Concluir</string>
+    <string name="loading">A carregar...</string>
+    <string name="name">Nome</string>
+    <string name="never">Nunca</string>
+    <string name="next">Seguinte</string>
+    <string name="no">Não</string>
     <string name="notification_color">Cor da notificação</string>
+    <string name="off">Desligado</string>
+    <string name="on">Ligado</string>
+    <string name="reset">Repor</string>
+    <string name="restart_systemui">Reinicie o SystemUI para que a alteração tenha efeito!</string>
+    <string name="save">Guardar</string>
+    <string name="search">Pesquisar</string>
+    <string name="settings">Configurações</string>
     <string name="wallpaper_color">Cor do papel de parede</string>
-    <string name="custom_color">Cor personalizada</string>
-    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="yes">Sim</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Configurações AlphaDroid</string>
     <string name="alpha_settings_summary">Coisas boas</string>
@@ -106,7 +116,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play Store</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">padrão</string>
     <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nToque longo para definir</string>
     <string name="custom_seekbar_default_value_is_set">Valor padrão está definido</string>
@@ -409,11 +419,11 @@
     <string name="status_bar_battery_percent_text_next_left">Ao lado do ícone (esquerda)</string>
     <string name="status_bar_battery_text_charging_title">Percentagem da bateria ao recarregar</string>
     <string name="status_bar_battery_text_charging_summary">Exibir sempre a percentagem da bateria ao recarregar o dispositivo.</string>
-    <string name="status_bar_battery_title">Battery indicator</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_title">Indicador da bateria</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Diversos</string>
     <string name="qs_footer_category">Rodapé</string>
@@ -439,7 +449,7 @@
     <string name="network_traffic_mode_up">Apenas envio</string>
     <string name="network_traffic_mode_down">Apenas receção</string>
     <string name="network_traffic_mode_all">Envio e receção</string>
-    <string name="network_traffic_position_title">Position</string>
+    <string name="network_traffic_position_title">Posição</string>
     <string name="network_traffic_autohide">Ocultar automaticamente</string>
     <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego quando inativo</string>
     <string name="network_traffic_units_title">Unidades de medida do tráfego</string>
@@ -447,11 +457,11 @@
     <string name="network_traffic_units_megabits">Megabits por segundo (Mb/s)</string>
     <string name="network_traffic_units_kilobytes">Kilobytes por segundo (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes por segundo (MB/s)</string>
-    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
-    <string name="network_traffic_show_units">Show units</string>
-    <string name="network_traffic_show_units_compact">Compact</string>
-    <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
-    <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
+    <string name="network_traffic_units_auto">Automático (kB/s ou MB/s)</string>
+    <string name="network_traffic_show_units">Mostrar unidades</string>
+    <string name="network_traffic_show_units_compact">Compacto</string>
+    <string name="network_traffic_show_units_summary">Mostrar as unidades de medida do tráfego na barra de estado</string>
+    <string name="network_traffic_disabled_clock">Tráfego de rede desativado devido à posição do relógio</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Alertas de rodapé</string>
     <string name="qs_footer_warnings_summary">Exibir um alerta no fundo do painel quando a rede estiver a ser monitorizada por apps externas ou VPN</string>
@@ -463,7 +473,7 @@
     <string name="navbar_arrow_keys_summary">Mostrar os botões de cursor para a esquerda e para a direita enquanto escreve. Sobrepõe-se à definição do teclado.</string>
     <string name="navbar_layout_title">Esquema</string>
     <string name="navbar_layout_normal">Normal</string>
-    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_compact">Compacto</string>
     <string name="navbar_layout_expanded">Expandido</string>
     <string name="navbar_layout_leftleaning">Alinhada à esquerda</string>
     <string name="navbar_layout_rightleaning">Alinhada à direita</string>
@@ -508,11 +518,11 @@
     <string name="qs_show_brightness_slider_expanded">Mostrar quando expandido</string>
     <string name="qs_show_brightness_slider_always">Mostrar sempre</string>
     <string name="qs_show_brightness_slider_not_expanded">Mostrar quando não expandido</string>
-    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_title">Posição</string>
     <string name="qs_brightness_slider_position_top">Topo</string>
     <string name="qs_brightness_slider_position_bottom">Em baixo</string>
     <string name="qs_show_brightness_percentage_title">Luminosidade (%)</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
+    <string name="qs_show_brightness_percentage_summary">Mostrar o valor (%) do brilho com o controle deslizante</string>
     <!-- Brightness slider haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Vibração</string>
     <string name="qs_brightness_slider_haptic_summary">Vibrar ao alterar o brilho através do controle deslizante</string>
@@ -869,10 +879,10 @@
     <string name="lockscreen_weather_location_summary">Mostrar localização meteorológica atual</string>
     <string name="lockscreen_weather_text_title">Condições atuais</string>
     <string name="lockscreen_weather_text_summary">Mostrar as condições meteorológicas atuais</string>
-    <string name="lockscreen_weather_wind_info_title">Wind info</string>
-    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
-    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
-    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
+    <string name="lockscreen_weather_wind_info_title">Informação do vento</string>
+    <string name="lockscreen_weather_wind_info_summary">Mostra a velocidade e direção atual do vento</string>
+    <string name="lockscreen_weather_humidity_info_title">Informações da humidade do ar</string>
+    <string name="lockscreen_weather_humidity_info_summary">Apresentar a humidade atual em percentagem</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Reprodução adaptativa</string>
     <string name="adaptive_playback_summary">Pausar multimédia quando o volume é silenciado e retomá-la ao aumentar o volume dentro do tempo limite</string>
@@ -921,10 +931,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Padrão Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Exibir padrão Wi-Fi ao lado do sinal Wi-Fi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Serviços do Google</string>
-    <string name="gms_enabled_summary">Controlar os serviços e as apps principais do Google</string>
-    <string name="gms_enabled_footer">Antes de desativar os serviços Google e as principais apps, deve desativar a verificação em duas etapas na sua conta do Google. É altamente recomendável manter esta definição ativada, caso contrário, as apps dependentes dos componentes do Google serão afetadas. Se encontrar qualquer problema após alterar esta definição, execute uma reposição de fábrica.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Atalhos inferiores</string>
     <string name="lockscreen_shortcut_start_title">Atalho esquerdo</string>
@@ -961,19 +967,19 @@
     <string name="hide_from_launcher_title">Esconder do launcher</string>
     <string name="hide_from_launcher_summary">Impedir que esta aplicação apareça em qualquer launcher. É necessário reiniciar o launcher para aplicar as alterações.</string>
     <!-- QuickSwitch -->
-    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
-    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher_title">Launcher AlphaDroid</string>
+    <string name="quickswitch_launcher_summary">Alterar o launcher integrado do AlphaDroid</string>
     <string name="quickswitch_launcher3">Launcher3</string>
-    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_nexuslauncher">Launcher Nexus</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
-    <string name="search_bar_text">search</string>
+    <string name="search_bar_text">pesquisar</string>
     <!-- Long press navbar to search -->
-    <string name="navbar_long_press_gesture_title">Long press to search</string>
-    <string name="navbar_long_press_gesture_summary">Long press the gesture bar to analyze the screen with lens</string>
+    <string name="navbar_long_press_gesture_title">Toque longo para pesquisar</string>
+    <string name="navbar_long_press_gesture_summary">Mantenha pressionada a barra de gestos para pesquisar com a aplicação Lens</string>
     <!-- Circle to search -->
-    <string name="search_all_entrypoints_enabled_title">Circle to search</string>
-    <string name="search_all_entrypoints_enabled_summary">Use CTS instead of lens for navbar long press</string>
+    <string name="search_all_entrypoints_enabled_title">Círculo para pesquisar</string>
+    <string name="search_all_entrypoints_enabled_summary">Usar círculo para pesquisar em vez de Lens para toque longo da barra de navegação</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Mostrar sempre ao carregar</string>
     <string name="doze_on_charge_summary">Exibir o ecrã ambiente quando o dispositivo está a carregar</string>
@@ -1011,7 +1017,7 @@
     <!-- Volume Steps -->
     <string name="volume_steps_title">Níveis de volume</string>
     <string name="volume_steps_summary">Controle a granularidade de cada canal</string>
-    <string name="max_music_volume_title">Media</string>
+    <string name="max_music_volume_title">Mídia</string>
     <string name="max_call_volume_title">Chamadas</string>
     <string name="max_alarm_volume_title">Alarmes</string>
     <string name="steps_unit">níveis</string>
@@ -1028,34 +1034,34 @@
     <string name="spoofing_summary">Evitar restrições de aplicações, usando a assinatura de outro dispositivo.</string>
     <string name="spoofing_system_wide_category">Sistema</string>
     <string name="spoofing_pif_toggle_title">Correção de Integridade Play</string>
-    <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values (not applicable to sandbox)</string>
+    <string name="spoofing_pif_toggle_summary">Usar os valores fixos de integridade Play (não aplicável a sandbox)</string>
     <string name="spoofing_pif_values_title">Valores da máscara</string>
     <string name="spoofing_pif_values_summary">Ver detalhes da assinatura usada para mascarar o dispositivo.</string>
     <string name="spoofing_pixel_props_title">Propriedades Pixel</string>
-    <string name="spoofing_pixel_props_summary">Spoof a select group of Google apps to the latest Pixel device</string>
+    <string name="spoofing_pixel_props_summary">Mascarar um grupo de aplicações da Google para com a assinatura do Pixel mais recente</string>
     <string name="spoofing_app_specific_category">Aplicações</string>
-    <string name="spoofing_vending_title">Play Store spoof</string>
-    <string name="spoofing_vending_summary">Spoof the Play Store to the latest Pixel device</string>
+    <string name="spoofing_vending_title">Mascarar PlayStore</string>
+    <string name="spoofing_vending_summary">Mascarar a PlayStore com a assinatura do dispositivo Pixel mais recente</string>
     <string name="spoofing_photos_title">Usar máscara para o Google Photos</string>
-    <string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
+    <string name="spoofing_photos_summary">Usar a máscara Pixel XL para a aplicação Google Photos</string>
     <string name="spoofing_games_title">FPS mais alto em jogos</string>
     <string name="spoofing_games_summary">Mascarar o seu dispositivo como um modelo diferente para desbloquear restrições de FPS nos jogos.</string>
     <string name="spoofing_snap_title">Usar máscara para o Snapchat</string>
-    <string name="spoofing_snap_summary">Spoof Snapchat as a Pixel XL to fix possible chat issues</string>
-    <string name="pif_spoofing_title">Select PIF JSON File</string>
-    <string name="pif_spoofing_summary">Pick PIF JSON file to be used for spoofing play integrity</string>
-    <string name="toast_spoofing_success">Successfully downloaded pif.json. Spoofing as %1$s for play integrity.</string>
-    <string name="toast_spoofing_failure">Failed to spoof properties.</string>
-    <string name="show_pif_properties_title">Play Integrity Fix properties</string>
-    <string name="show_pif_properties_summary">Show all currently set PIF properties</string>
-    <string name="error_loading_properties">Error loading PIF properties</string>
+    <string name="spoofing_snap_summary">Usar a máscara Pixel XL para o Snapchat</string>
+    <string name="pif_spoofing_title">Selecionar ficheiro JSON</string>
+    <string name="pif_spoofing_summary">Selecionar o ficheiro JSON com a máscara atualizada</string>
+    <string name="toast_spoofing_success">Ficheiro JSON atualizado com sucesso. A usar a máscara %1$s para reproduzir a integridade Play.</string>
+    <string name="toast_spoofing_failure">Falha nas propriedades de máscara</string>
+    <string name="show_pif_properties_title">Propriedades de integridade Play</string>
+    <string name="show_pif_properties_summary">Mostrar as propriedades de integridade Play</string>
+    <string name="error_loading_properties">Erro ao carregar as propriedades Play</string>
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Estilo do painel de configurações</string>
     <string name="settings_dashboard_style_summary">O estilo da página principal de configurações</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
+    <string name="settings_dashboard_style_aosp_legacy">AOSP clássico</string>
+    <string name="settings_dashboard_style_aosp_revamped">AOSP atualizado</string>
     <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
+    <string name="settings_dashboard_style_alpha">AlphaDroid</string>
     <!-- UI styles -->
     <string name="theme_customization_ui_style_title">Estilo da Interface do Utilizador</string>
     <string name="theme_customization_ui_style_summary">Definir um estilo personalizado</string>
@@ -1129,14 +1135,14 @@
     <string name="vpn_enforce_dns_title">Desativar para VPN</string>
     <string name="vpn_enforce_dns_summary">Desativar o DNS privado quando conectado a uma VPN e restaurar ao desconectar</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Alternar entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ativado (alternar entre modos)</string>
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Permitir o restauro de aplicações de versões anteriores</string>
     <string name="app_downgrade_summary">Isto permite-lhe restaurar versões anteriores das aplicações. Esteja ciente que isto poderá levar a falhas e perda de dados.</string>
     <!-- Network & internet small tile -->
     <string name="network_dashboard_short_title">Rede</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
+    <string name="digital_wellbeing_short_title">Bem-estar digital</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ícones de Notificação</string>
     <string name="max_visible_notification_icons_summary">Máximo de ícones de notificação visíveis na barra de estado</string>
@@ -1145,4 +1151,58 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Mostrar animação de linha ondulada</string>
     <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel multimédia.\nApós a alteração precisa mudar de música, pausar ou mover a barra de progresso para aplicar</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo de suspensão</string>
+    <string name="sleep_mode_summary_on">Ativado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desativado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de Toque</string>
+    <string name="sleep_mode_ringer_off_title">Não alterar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não perturbar</string>
+    <string name="sleep_mode_ringer_silent_title">Silêncio</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do Sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do Sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Ligar do anoitecer até um tempo personalizado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Ativado de um horário personalizado até ao amanhecer</string>
+    <string name="sleep_mode_toggles_title">Ativar/Desativar</string>
+    <string name="sleep_mode_wifi_toggle_title">Desativar Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativar Wi-Fi quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desativar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativar Bluetooth quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desativar dados móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativar dados móveis quando o Modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desativar localização</string>
+    <string name="sleep_mode_location_toggle_summary">Desativar localização quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desativar sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativar sensores quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_display_text">O modo de suspensão permite desativar certos serviços para ajudar a economizar bateria e colocar o telefone no modo silencioso, enquanto estiver no modo de suspensão.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Ativar agora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Desativar agora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Ligar até o amanhecer</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Desativar até anoitecer</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Ativar até <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Ativar até  <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Lista de aplicações ocultadas</string>
+    <string name="hide_applist_summary">Impedir que aplicações externas vejam a aplicação</string>
+    <string name="menu_show_overlay">Mostrar sobreposição</string>
+    <string name="menu_hide_overlay">Esconder sobreposição</string>
+    <string name="search_apps">Pesquisar aplicações</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forçar modo CA LTE</string>
+    <string name="force_lte_ca_summary">Forçar o modo de agregação de operadoras em LTE</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de visualização</string>
+    <string name="display_engine_mode_title">Motor de exibição realístico</string>
+    <string name="x_reality_engine_mode_title">Motor Realidade-X</string>
+    <string name="triluminous_display_mode_title">Modo extra-luminoso</string>
+    <string name="vivid_engine_mode_title">Cores vívidas</string>
+    <string name="display_engine_default">Predefinido</string>
+    <string name="display_engine_mode_footer_text">Inspirado pelo motor da Sony\'s Bravia/Realidade-X, o mecanismo de exibição apresenta o modo vívido para melhor brilho e saturação de cor e modo Realidade-X para melhorar detalhes e precisão de cor.</string>
 </resources>

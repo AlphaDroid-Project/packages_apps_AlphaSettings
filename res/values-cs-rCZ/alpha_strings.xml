@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Resetovat</string>
-    <string name="save">Uložit</string>
-    <string name="discard_changes">Zrušit změny</string>
-    <string name="never">Nikdy</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Doplňková barva (výchozí)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Rozšířené</string>
     <string name="always">Vždy</string>
+    <string name="back">Back</string>
     <string name="caution">Upozornění</string>
+    <string name="choose_app">Vybrat aplikaci</string>
+    <string name="custom_color">Vlastní barva</string>
     <string name="delete">Odstranit</string>
     <string name="delete_message">Odstranit vybranou položku?</string>
-    <string name="choose_app">Vybrat aplikaci</string>
-    <string name="enable">Povolit</string>
     <string name="disable">Zakázat</string>
-    <string name="string_disabled">Vypnuto</string>
-    <string name="string_enabled">Aktivováno</string>
-    <string name="on">Zapnuto</string>
-    <string name="off">Vypnuto</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">Doplňková barva (výchozí)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Zrušit změny</string>
+    <string name="enable">Povolit</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Nikdy</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Barva oznámení</string>
-    <string name="wallpaper_color">Barva tapety</string>
-    <string name="custom_color">Vlastní barva</string>
+    <string name="off">Vypnuto</string>
+    <string name="on">Zapnuto</string>
+    <string name="reset">Resetovat</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">Uložit</string>
+    <string name="search">Hledat</string>
+    <string name="settings">Nastavení</string>
+    <string name="wallpaper_color">Barva tapety</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha nastavení</string>
     <string name="alpha_settings_summary">Čekají na tebe dobroty!</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
     <!-- SELinux status -->
     <string name="selinux_status">Status SELinux</string>
-    <string name="selinux_status_disabled">Vypnuto</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">povolný</string>
     <string name="selinux_status_enforcing">Vynucený</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">Ovládání přehrávání</string>
     <string name="volbtn_music_controls_summary">Při vypnuté obrazovce přepínat hudební stopy dlouhým stiskem jednoho z\u00a0tlačítek hlasitosti</string>
     <string name="volbtn_cursor_control_title">Ovládání kurzoru klávesnice</string>
-    <string name="volbtn_cursor_control_off">Vypnuto</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Tlačítko zvýšení/snížení hlasitosti posune kurzor vlevo/vpravo</string>
     <string name="volbtn_cursor_control_on_reverse">Tlačítko zvýšení/snížení hlasitosti posune kurzor vpravo/vlevo</string>
     <string name="power_end_call_title">Ukončit hovor</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">Intenzita podsvícení klávesnice</string>
     <string name="backlight_timeout_title">Doba trvání podsvícení</string>
     <string name="backlight_timeout_unlimited">Nevypínat podsvícení</string>
-    <string name="backlight_summary_disabled">Vypnuto</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Podsvícení zapnuto na <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Aktivováno</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> sekunda</item>
         <item quantity="few"><xliff:g id="seconds">%d</xliff:g> sekundy</item>
@@ -437,7 +447,7 @@
     <string name="network_traffic_settings_title">Indikátor síťového provozu</string>
     <string name="network_traffic_settings_summary">Zobrazit a\u00a0přizpůsobit aktuální úroveň vytížení sítě</string>
     <string name="network_traffic_mode_title">Režim zobrazení</string>
-    <string name="network_traffic_mode_disable">Vypnuto</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
     <string name="network_traffic_mode_up">Pouze odchozí data</string>
     <string name="network_traffic_mode_down">Pouze příchozí data</string>
     <string name="network_traffic_mode_all">Příchozí a\u00a0odchozí data</string>
@@ -611,7 +621,7 @@
     <string name="incall_vibrate_disconnect_title">Zavibrovat při zavěšení</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Rozblikat svítilnu během příchozího hovoru</string>
-    <string name="flashlight_on_call_disabled">Vypnuto</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Při vyzvánění</string>
     <string name="flashlight_on_call_no_ringer">Při tichém vyzvánění</string>
     <string name="flashlight_on_call_silent">Při zcela tichém režimu (žádné vyzvánění nebo vibrace)</string>
@@ -925,10 +935,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi‑Fi standard</string>
     <string name="wifi_standard_icon_summary">Zobrazit vedle Wi‑Fi signálu Wi‑Fi standard</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Služby Google</string>
-    <string name="gms_enabled_summary">Ovládání služeb Google a\u00a0základních aplikací</string>
-    <string name="gms_enabled_footer">Před vypnutím služeb Google a\u00a0základních aplikací byste měli zakázat funkci „Najdi moje zařízení“ a\u00a0dvoufázové ověření na účtu Google. Důrazně doporučujeme ponechat toto nastavení povolené, jinak budou ovlivněny aplikace závislé na součástech Google. Pokud po změně tohoto nastavení narazíte na jakékoliv potíže, proveďte obnovení továrního nastavení.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Dolní zkratky</string>
     <string name="lockscreen_shortcut_start_title">Zástupce vlevo</string>
@@ -1151,4 +1157,58 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Vlnitě animovat</string>
     <string name="show_squiggle_animation_summary">Animuje časový posuvník pro přehrávač médií v oznámeních\nPro aktivaci je po zapnutí nutné změnit média, pozastavit média, nebo posunout posuvník.</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Režim spánku</string>
+    <string name="sleep_mode_summary_on">Zapnuto / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Vypnuto / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Režim vyzvánění</string>
+    <string name="sleep_mode_ringer_off_title">Neměnit</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrace</string>
+    <string name="sleep_mode_ringer_dnd_title">Režim „Nerušit“</string>
+    <string name="sleep_mode_ringer_silent_title">Tichý režim</string>
+    <string name="sleep_mode_schedule_sunset">Západ slunce</string>
+    <string name="sleep_mode_schedule_sunrise">Východ slunce</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Zapne se od západu slunce do daného času</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Zapne se od daného času do východu slunce</string>
+    <string name="sleep_mode_toggles_title">Přepínače</string>
+    <string name="sleep_mode_wifi_toggle_title">Vypnout Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Vypíná Wi-Fi při aktivním režimu spánku</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Vypnout Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Vypíná Bluetooth při aktivním režimu spánku</string>
+    <string name="sleep_mode_cellular_toggle_title">Vypnout mobilní data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Vypnout mobilní data při zapnutí režimu spánku</string>
+    <string name="sleep_mode_location_toggle_title">Vypnout polohu</string>
+    <string name="sleep_mode_location_toggle_summary">Vypnout polohu při zapnutí režimu spánku</string>
+    <string name="sleep_mode_sensors_toggle_title">Vypnout senzory</string>
+    <string name="sleep_mode_sensors_toggle_summary">Vypnout senzory při zapnutí režimu spánku</string>
+    <string name="sleep_mode_display_text">Režim spánku vám umožňuje vypnout určité služby, což pomáhá šetřit baterii a ztlumí váš telefon během spánku.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Zapnout nyní</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Vypnout nyní</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Zapnout do východu slunce</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Vypnout do západu slunce</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Zapnout do <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Vypnout do <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
+    <string name="search_apps">Hledat aplikace</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>

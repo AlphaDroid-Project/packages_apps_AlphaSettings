@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Setel ulang</string>
-    <string name="save">Simpan</string>
-    <string name="discard_changes">Batalkan perubahan</string>
-    <string name="never">Tidak pernah</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Warna aksen (Bawaan)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Lanjutan</string>
     <string name="always">Selalu</string>
+    <string name="back">Back</string>
     <string name="caution">Peringatan</string>
+    <string name="choose_app">Pilih aplikasi</string>
+    <string name="custom_color">Warna kustom</string>
     <string name="delete">Hapus</string>
     <string name="delete_message">Hapus item yang dipilih?</string>
-    <string name="choose_app">Pilih aplikasi</string>
-    <string name="enable">Aktifkan</string>
     <string name="disable">Nonaktifkan</string>
-    <string name="string_disabled">Dinonaktifkan</string>
-    <string name="string_enabled">Diaktifkan</string>
-    <string name="on">Aktif</string>
-    <string name="off">Nonaktif</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">Warna aksen (Bawaan)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Batalkan perubahan</string>
+    <string name="enable">Aktifkan</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Tidak pernah</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Warna notifikasi</string>
-    <string name="wallpaper_color">Warna wallpaper</string>
-    <string name="custom_color">Warna kustom</string>
+    <string name="off">Nonaktif</string>
+    <string name="on">Aktif</string>
+    <string name="reset">Setel ulang</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">Simpan</string>
+    <string name="search">Pencarian</string>
+    <string name="settings">Setelan</string>
+    <string name="wallpaper_color">Warna wallpaper</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
     <string name="alpha_settings_summary">Akan banyak kejutan!</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">Tekan lama untuk menyalin</string>
     <!-- SELinux status -->
     <string name="selinux_status">Status SElinux</string>
-    <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">Kontrol pemutaran</string>
     <string name="volbtn_music_controls_summary">Mencari trek musik dengan menekan lama tombol volume saat layar mati</string>
     <string name="volbtn_cursor_control_title">Kontrol kursor papan ketik</string>
-    <string name="volbtn_cursor_control_off">Dinonaktifkan</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume atas/bawah akan menggerakkan kursor kiri/kanan</string>
     <string name="volbtn_cursor_control_on_reverse">Volume atas/bawah menggerakkan kursor kanan/kiri</string>
     <string name="power_end_call_title">Akhiri panggilan</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">Kecerahan keyboard</string>
     <string name="backlight_timeout_title">Batas waktu pencahayaan</string>
     <string name="backlight_timeout_unlimited">Jangan matikan</string>
-    <string name="backlight_summary_disabled">Dinonaktifkan</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Diaktifkan untuk <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Diaktifkan</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> detik</item>
     </plurals>
@@ -434,7 +444,7 @@
     <string name="network_traffic_settings_title">Monitor lalu lintas jaringan</string>
     <string name="network_traffic_settings_summary">Tampilan dan kustomisasi tingkatan arus lalu lintas jaringan</string>
     <string name="network_traffic_mode_title">Mode tampilan</string>
-    <string name="network_traffic_mode_disable">Dinonaktifkan</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
     <string name="network_traffic_mode_up">Hanya unggah</string>
     <string name="network_traffic_mode_down">Hanya unduh</string>
     <string name="network_traffic_mode_all">Unggah dan unduh</string>
@@ -608,7 +618,7 @@
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Kedipkan Senter untuk panggilan masuk</string>
-    <string name="flashlight_on_call_disabled">Dinonaktifkan</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Saat berdering</string>
     <string name="flashlight_on_call_no_ringer">Saat dering disenyapkan</string>
     <string name="flashlight_on_call_silent">Saat benar-benar senyap (tidak ada dering atau getar)</string>
@@ -919,10 +929,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standar WiFi</string>
     <string name="wifi_standard_icon_summary">Tampilkan standar WiFi di sebelah sinyal WiFi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Layanan Google</string>
-    <string name="gms_enabled_summary">Kontrol layanan Google dan aplikasi inti</string>
-    <string name="gms_enabled_footer">Sebelum menonaktifkan layanan Google dan aplikasi inti, Anda harus menonaktifkan \"Temukan Perangkat Saya\" dan verifikasi 2 langkah di akun Google Anda. Sangat disarankan untuk tetap mengaktifkan setelan ini jika tidak aplikasi yang bergantung pada komponen Google akan terpengaruh. Jika Anda mengalami masalah setelah mengubah setelan ini, lakukan reset pabrik.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Pintasan bawah</string>
     <string name="lockscreen_shortcut_start_title">Pintasan kiri</string>
@@ -1142,4 +1148,58 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Tampilkan animasi coretan</string>
     <string name="show_squiggle_animation_summary">Tampilkan animasi coretan panel media\nSetelah perubahan perlu mengganti musik, menjeda musik, atau memindahkan bilah kemajuan untuk menerapkan</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode Tidur</string>
+    <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Tidak Aktif / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode berdering</string>
+    <string name="sleep_mode_ringer_off_title">Jangan di ubah</string>
+    <string name="sleep_mode_ringer_vibrate_title">Bergetar</string>
+    <string name="sleep_mode_ringer_dnd_title">Jangan Ganggu</string>
+    <string name="sleep_mode_ringer_silent_title">Diam</string>
+    <string name="sleep_mode_schedule_sunset">Matahari terbenam</string>
+    <string name="sleep_mode_schedule_sunrise">Matahari terbit</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Aktifkan dari matahari terbenam hingga waktu khusus</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Aktifkan dari waktu khusus hingga matahari terbit</string>
+    <string name="sleep_mode_toggles_title">Beralih</string>
+    <string name="sleep_mode_wifi_toggle_title">Nonaktifkan Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Menonaktifkan Wi-Fi saat mode Tidur diaktifkan</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Nonaktifkan Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Menonaktifkan Bluetooth saat mode Tidur diaktifkan</string>
+    <string name="sleep_mode_cellular_toggle_title">Nonaktifkan Data seluler</string>
+    <string name="sleep_mode_cellular_toggle_summary">Menonaktifkan Data seluler saat mode Tidur diaktifkan</string>
+    <string name="sleep_mode_location_toggle_title">Nonaktifkan Lokasi</string>
+    <string name="sleep_mode_location_toggle_summary">Menonaktifkan Lokasi saat mode Tidur diaktifkan</string>
+    <string name="sleep_mode_sensors_toggle_title">Nonaktifkan Sensor</string>
+    <string name="sleep_mode_sensors_toggle_summary">Menonaktifkan Sensor saat mode Tidur diaktifkan</string>
+    <string name="sleep_mode_display_text">Mode tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan mengheningkan ponsel saat Anda tidur.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Hidupkan sekarang</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Matikan sekarang</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Aktifkan sampai matahari terbit</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Nonaktifkan sampai matahari terbenam</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Aktifkan sampai <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Nonaktifkan sampai <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
+    <string name="search_apps">Cari aplikasi</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>

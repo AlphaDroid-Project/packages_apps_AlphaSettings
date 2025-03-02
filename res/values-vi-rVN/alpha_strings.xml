@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Đặt lại</string>
-    <string name="save">Lưu</string>
-    <string name="discard_changes">Hủy các thay đổi</string>
-    <string name="never">Không bao giờ</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Màu nhấn (mặc định)</string>
+    <string name="add">Thêm vào</string>
+    <string name="advanced">Nâng cao</string>
     <string name="always">Luôn luôn</string>
+    <string name="back">Quay lại</string>
     <string name="caution">Cảnh báo</string>
+    <string name="choose_app">Chọn ứng dụng</string>
+    <string name="custom_color">Tùy chỉnh màu sắc</string>
     <string name="delete">Xóa</string>
     <string name="delete_message">Xóa mục đã chọn?</string>
-    <string name="choose_app">Chọn ứng dụng</string>
-    <string name="enable">Bật</string>
     <string name="disable">Tắt</string>
-    <string name="string_disabled">Tắt</string>
-    <string name="string_enabled">Bật</string>
-    <string name="on">Bật</string>
-    <string name="off">Tắt</string>
-    <string name="string_default">Mặc định</string>
-    <string name="accent_color">Màu nhấn (mặc định)</string>
+    <string name="disabled">Đã tắt</string>
+    <string name="discard_changes">Hủy các thay đổi</string>
+    <string name="enable">Bật</string>
+    <string name="enabled">Đã bật</string>
+    <string name="finish">Hoàn tất</string>
+    <string name="loading">Đang tải\u2026</string>
+    <string name="name">Tên</string>
+    <string name="never">Không bao giờ</string>
+    <string name="next">Tiếp theo</string>
+    <string name="no">Không</string>
     <string name="notification_color">Màu của thông báo</string>
-    <string name="wallpaper_color">Màu hình nền</string>
-    <string name="custom_color">Tùy chỉnh màu sắc</string>
+    <string name="off">Tắt</string>
+    <string name="on">Bật</string>
+    <string name="reset">Đặt lại</string>
     <string name="restart_systemui">Khởi động lại giao diện hệ thống để thay đổi có hiệu lực!</string>
+    <string name="save">Lưu</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="settings">Cài đặt</string>
+    <string name="wallpaper_color">Màu hình nền</string>
+    <string name="yes">Có</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Cài đặt Alpha</string>
     <string name="alpha_settings_summary">Tùy biến chuyên sâu!</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">Nhấn giữ để sao chép</string>
     <!-- SELinux status -->
     <string name="selinux_status">Trạng thái SELinux</string>
-    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_disabled">Đã tắt</string>
     <string name="selinux_status_permissive">Cho phép</string>
     <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">Điều khiển phát lại</string>
     <string name="volbtn_music_controls_summary">Chuyển bài hát bằng nhấn giữ các phím âm lượng khi màn hình tắt</string>
     <string name="volbtn_cursor_control_title">Điều khiển con trỏ bàn phím</string>
-    <string name="volbtn_cursor_control_off">Tắt</string>
+    <string name="volbtn_cursor_control_off">Đã tắt</string>
     <string name="volbtn_cursor_control_on">Phím tăng/giảm âm di chuyển con trỏ sang trái/phải</string>
     <string name="volbtn_cursor_control_on_reverse">Nút tăng/Giảm âm lượng di chuyển con trỏ sang phải/trái</string>
     <string name="power_end_call_title">Kết thúc cuộc gọi</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">Độ sáng bàn phím</string>
     <string name="backlight_timeout_title">Thời gian phát sáng</string>
     <string name="backlight_timeout_unlimited">Không tắt</string>
-    <string name="backlight_summary_disabled">Tắt</string>
+    <string name="backlight_summary_disabled">Đã tắt</string>
     <string name="backlight_summary_enabled_with_timeout">Đã bật trong <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Bật</string>
+    <string name="backlight_summary_enabled">Đã bật</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> giây</item>
     </plurals>
@@ -434,7 +444,7 @@
     <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
     <string name="network_traffic_settings_summary">Hiển thị và tùy biến mức lưu lượng mạng hiện tại</string>
     <string name="network_traffic_mode_title">Chế độ hiển thị</string>
-    <string name="network_traffic_mode_disable">Tắt</string>
+    <string name="network_traffic_mode_disable">Đã tắt</string>
     <string name="network_traffic_mode_up">Chỉ tải lên</string>
     <string name="network_traffic_mode_down">Chỉ tải xuống</string>
     <string name="network_traffic_mode_all">Tải lên và tải xuống</string>
@@ -608,7 +618,7 @@
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Đèn pin nhấp nháy khi có cuộc gọi đến</string>
-    <string name="flashlight_on_call_disabled">Tắt</string>
+    <string name="flashlight_on_call_disabled">Đã tắt</string>
     <string name="flashlight_on_call_ringer">Khi đổ chuông</string>
     <string name="flashlight_on_call_no_ringer">Khi chuông đã im lặng</string>
     <string name="flashlight_on_call_silent">Khi hoàn toàn im lặng (không có chuông hoặc bộ rung)</string>
@@ -920,10 +930,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Chuẩn mạng không dây</string>
     <string name="wifi_standard_icon_summary">Hiển thị chuẩn wifi ngay cạnh biểu tượng wifi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Các dịch vụ</string>
-    <string name="gms_enabled_summary">Kiểm soát dịch vụ cùng ứng dụng cốt lõi</string>
-    <string name="gms_enabled_footer">Trước khi tắt dịch vụ cùng ứng dụng cốt lõi cũng nên tắt \"tìm thiết bị\" xác minh 2 bước trên tài khoản. Nên bật cài đặt này để ứng dụng phụ thuộc các thành phần không ảnh hưởng. Nếu gặp bất kỳ sự cố sau khi thay đổi hãy thực hiện khôi phục cài đặt gốc.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Các phím tắt phía dưới</string>
     <string name="lockscreen_shortcut_start_title">Phím tắt bên trái</string>
@@ -1143,4 +1149,58 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Hiển thị hoạt ảnh uốn cong</string>
     <string name="show_squiggle_animation_summary">Hiển thị hình ảnh động ngoằn ngoèo trên bảng điều khiển phương tiện\nSau khi thay đổi, cần chuyển nhạc, tạm dừng nhạc hoặc di chuyển thanh tiến trình để áp dụng</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Chế độ ngủ</string>
+    <string name="sleep_mode_summary_on">Bật / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Tắt / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Chế độ chuông</string>
+    <string name="sleep_mode_ringer_off_title">Không thay đổi</string>
+    <string name="sleep_mode_ringer_vibrate_title">Rung</string>
+    <string name="sleep_mode_ringer_dnd_title">Không làm phiền</string>
+    <string name="sleep_mode_ringer_silent_title">Im lặng</string>
+    <string name="sleep_mode_schedule_sunset">Hoàng hôn</string>
+    <string name="sleep_mode_schedule_sunrise">Bình minh</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bật từ hoàng hôn đến thời gian tuỳ chọn</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bật cho tùy chọn thời gian đến lúc bình minh</string>
+    <string name="sleep_mode_toggles_title">Chuyển đổi</string>
+    <string name="sleep_mode_wifi_toggle_title">Tắt Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Tắt Wi-Fi khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Tắt Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Tắt Bluetooth khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_cellular_toggle_title">Tắt dữ liệu di động</string>
+    <string name="sleep_mode_cellular_toggle_summary">Tắt dữ liệu di động khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_location_toggle_title">Tắt vị trí</string>
+    <string name="sleep_mode_location_toggle_summary">Tắt vị trí khi bật chế độ ngủ</string>
+    <string name="sleep_mode_sensors_toggle_title">Tắt cảm biến</string>
+    <string name="sleep_mode_sensors_toggle_summary">Tắt cảm biến khi bật chế độ ngủ</string>
+    <string name="sleep_mode_display_text">Chế độ ngủ cho phép bạn tắt một số dịch vụ nhất định để giúp tiết kiệm pin và tắt tiếng điện thoại khi bạn ngủ.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Bật ngay</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Tắt ngay bây giờ</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Bật cho đến bình minh</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Bật cho đến bình minh</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Bật cho đến <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Tắt cho đến <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Danh sách các ứng dụng ẩn</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Hiển thị các lớp phủ</string>
+    <string name="menu_hide_overlay">Ẩn các lớp phủ</string>
+    <string name="search_apps">Tìm kiếm ứng dụng</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Buộc sử dụng LTE</string>
+    <string name="force_lte_ca_summary">Buộc dùng LTE để hoạt động</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Công cụ hiển thị</string>
+    <string name="display_engine_mode_title">Công cụ hiển thị thực tế</string>
+    <string name="x_reality_engine_mode_title">Công cụ X-Reality</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Hiển thị sống động</string>
+    <string name="display_engine_default">Mặc định</string>
+    <string name="display_engine_mode_footer_text">Lấy cảm hứng từ công cụ Bravia/X-Reality của Sony, Display Engine có chế độ Sống động để tăng cường độ sáng và độ bão hòa màu cũng như chế độ X-Reality để cải thiện chi tiết và độ chính xác của màu.</string>
 </resources>
