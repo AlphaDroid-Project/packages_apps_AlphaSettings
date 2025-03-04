@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Нулиране</string>
-    <string name="save">Запиши</string>
-    <string name="discard_changes">Отхвърляне на промените</string>
-    <string name="never">Никога</string>
+    <!-- Generic strings -->
+    <string name="accent_color">强调色(默认)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Разширени</string>
     <string name="always">Винаги</string>
+    <string name="back">Back</string>
     <string name="caution">Внимание</string>
+    <string name="choose_app">Изберете приложение</string>
+    <string name="custom_color">Потребителски цвят</string>
     <string name="delete">Изтриване</string>
     <string name="delete_message">Премахване на избрания елемент?</string>
-    <string name="choose_app">Изберете приложение</string>
-    <string name="enable">Включване</string>
     <string name="disable">Изключване</string>
-    <string name="string_disabled">Disabled</string>
-    <string name="string_enabled">Enabled</string>
-    <string name="on">On</string>
-    <string name="off">Off</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">强调色(默认)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Отхвърляне на промените</string>
+    <string name="enable">Включване</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Никога</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">通知颜色</string>
-    <string name="wallpaper_color">壁纸颜色</string>
-    <string name="custom_color">Потребителски цвят</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="reset">Нулиране</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">Запиши</string>
+    <string name="search">Search</string>
+    <string name="settings">Настройки</string>
+    <string name="wallpaper_color">壁纸颜色</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
@@ -921,10 +931,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi技术标准</string>
     <string name="wifi_standard_icon_summary">在WiFi信号旁显示WiFi的技术标准</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google服务</string>
-    <string name="gms_enabled_summary">控制 Google 服务和核心应用程序</string>
-    <string name="gms_enabled_footer">Before disabling Google services and core apps, you should disable \"Find My Device\" and 2-step verification on your Google account. It is strongly recommended to keep this setting enabled else apps dependent on Google components will be affected. If you run into any issues after changing this setting, perform a factory reset.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">底部快捷方式</string>
     <string name="lockscreen_shortcut_start_title">左侧快捷方式</string>
@@ -1188,5 +1194,15 @@
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
     <string name="search_apps">Search apps</string>
-    <string name="search">Search</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>

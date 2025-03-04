@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">重置</string>
-    <string name="save">保存</string>
-    <string name="discard_changes">放弃修改</string>
-    <string name="never">从不</string>
+    <!-- Generic strings -->
+    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="add">Add</string>
+    <string name="advanced">高级选项</string>
     <string name="always">始终</string>
+    <string name="back">Back</string>
     <string name="caution">警告</string>
+    <string name="choose_app">选择应用</string>
+    <string name="custom_color">自定义颜色</string>
     <string name="delete">删除</string>
     <string name="delete_message">移除所选项目？</string>
-    <string name="choose_app">选择应用</string>
-    <string name="enable">启用</string>
     <string name="disable">禁用</string>
-    <string name="string_disabled">禁用</string>
-    <string name="string_enabled">启用</string>
-    <string name="on">开</string>
-    <string name="off">关</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">放弃修改</string>
+    <string name="enable">启用</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">从不</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">通知颜色</string>
-    <string name="wallpaper_color">壁纸颜色</string>
-    <string name="custom_color">自定义颜色</string>
+    <string name="off">关</string>
+    <string name="on">开</string>
+    <string name="reset">重置</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="wallpaper_color">壁纸颜色</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 设置</string>
     <string name="alpha_settings_summary">将会有好东西！</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">长按复制</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux 状态</string>
-    <string name="selinux_status_disabled">禁用</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">允许</string>
     <string name="selinux_status_enforcing">强制</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">播放控制</string>
     <string name="volbtn_music_controls_summary">当屏幕关闭时，长按音量键切换音乐</string>
     <string name="volbtn_cursor_control_title">使用按键控制光标</string>
-    <string name="volbtn_cursor_control_off">禁用</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">音量+/-控制光标左/右移动</string>
     <string name="volbtn_cursor_control_on_reverse">音量+/-光标控制右/左移动</string>
     <string name="power_end_call_title">结束通话</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">键盘亮度</string>
     <string name="backlight_timeout_title">背光超时</string>
     <string name="backlight_timeout_unlimited">永不关闭</string>
-    <string name="backlight_summary_disabled">禁用</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光灯 <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">启用</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 秒</item>
     </plurals>
@@ -434,7 +444,7 @@
     <string name="network_traffic_settings_title">网络流量监视器</string>
     <string name="network_traffic_settings_summary">自定义并显示当前流量级别</string>
     <string name="network_traffic_mode_title">显示模式</string>
-    <string name="network_traffic_mode_disable">禁用</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
     <string name="network_traffic_mode_up">仅上传</string>
     <string name="network_traffic_mode_down">仅下载</string>
     <string name="network_traffic_mode_all">上传和下载</string>
@@ -608,7 +618,7 @@
     <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">来电时闪烁闪光灯</string>
-    <string name="flashlight_on_call_disabled">禁用</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">响铃时</string>
     <string name="flashlight_on_call_no_ringer">当铃声静音时</string>
     <string name="flashlight_on_call_silent">完全静音 (未响铃或震动)</string>
@@ -919,10 +929,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi 频段</string>
     <string name="wifi_standard_icon_summary">在 WiFi 图标旁边显示 WiFi 频段</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google 服务</string>
-    <string name="gms_enabled_summary">控制 Google 服务和核心应用</string>
-    <string name="gms_enabled_footer">在禁用 Google 服务和核心应用前，你应该禁用查找我的设备和 Google 账户的两步验证。强烈建议开启该功能，否则依赖 Google 组件的应用将受到影响。如果你在改变这一设置后遇到问题，请恢复出厂设置。</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">底部快捷方式</string>
     <string name="lockscreen_shortcut_start_title">左侧快捷方式</string>
@@ -1186,5 +1192,15 @@
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
     <string name="search_apps">搜索应用</string>
-    <string name="search">搜索</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>

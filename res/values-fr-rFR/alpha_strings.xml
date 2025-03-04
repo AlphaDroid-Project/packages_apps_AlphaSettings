@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Réinitialiser</string>
-    <string name="save">Sauvegarder</string>
-    <string name="discard_changes">Ignorer les modifications</string>
-    <string name="never">Jamais</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Couleur d\'accentuation (par défaut)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Paramètres avancés</string>
     <string name="always">Toujours</string>
+    <string name="back">Back</string>
     <string name="caution">Attention</string>
+    <string name="choose_app">Choisir une application</string>
+    <string name="custom_color">Couleur personnalisée</string>
     <string name="delete">Effacer</string>
     <string name="delete_message">Supprimer l\'élément sélectionné ?</string>
-    <string name="choose_app">Choisir une application</string>
-    <string name="enable">Activer</string>
     <string name="disable">Désactiver</string>
-    <string name="string_disabled">Désactivé</string>
-    <string name="string_enabled">Activé</string>
-    <string name="on">Activé</string>
-    <string name="off">Désactivé</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">Couleur d\'accentuation (par défaut)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Ignorer les modifications</string>
+    <string name="enable">Activer</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Jamais</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Couleurs des notifications</string>
-    <string name="wallpaper_color">Couleurs du fond d\'écran</string>
-    <string name="custom_color">Couleur personnalisée</string>
+    <string name="off">Désactivé</string>
+    <string name="on">Activé</string>
+    <string name="reset">Réinitialiser</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">Sauvegarder</string>
+    <string name="search">Recherche</string>
+    <string name="settings">Paramètres</string>
+    <string name="wallpaper_color">Couleurs du fond d\'écran</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Paramètres Alpha</string>
     <string name="alpha_settings_summary">Il y aura des goodies!</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">Appui long pour copier</string>
     <!-- SELinux status -->
     <string name="selinux_status">Statut SELinux</string>
-    <string name="selinux_status_disabled">Désactivé</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissif</string>
     <string name="selinux_status_enforcing">Renforcé</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">Contrôle de la lecture</string>
     <string name="volbtn_music_controls_summary">Avancer/reculer dans la liste des pistes musicales par appui long sur les boutons de volume lorsque l\'écran est éteint</string>
     <string name="volbtn_cursor_control_title">Contrôle du curseur du clavier</string>
-    <string name="volbtn_cursor_control_off">Désactivé</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume haut/bas déplace le curseur vers la gauche/droite</string>
     <string name="volbtn_cursor_control_on_reverse">Volume haut/bas déplace le curseur vers la droite/gauche</string>
     <string name="power_end_call_title">Terminer l\'appel</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">Luminosité du clavier</string>
     <string name="backlight_timeout_title">Durée du rétroéclairage</string>
     <string name="backlight_timeout_unlimited">Ne pas éteindre</string>
-    <string name="backlight_summary_disabled">Désactivé</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Activé</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> seconde</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> secondes</item>
@@ -435,7 +445,7 @@
     <string name="network_traffic_settings_title">Moniteur de trafic réseau</string>
     <string name="network_traffic_settings_summary">Paramétrer l\'affichage du trafic réseau</string>
     <string name="network_traffic_mode_title">Affichage débits</string>
-    <string name="network_traffic_mode_disable">Désactivé</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
     <string name="network_traffic_mode_up">Débit montant uniquement</string>
     <string name="network_traffic_mode_down">Débit descendant uniquement</string>
     <string name="network_traffic_mode_all">Débits montant et descendant</string>
@@ -609,7 +619,7 @@
     <string name="incall_vibrate_disconnect_title">Vibrer à la fin d\'appel</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Flash pour les appels</string>
-    <string name="flashlight_on_call_disabled">Désactivé</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">En mode sonnerie</string>
     <string name="flashlight_on_call_no_ringer">En mode vibreur</string>
     <string name="flashlight_on_call_silent">En mode silencieux</string>
@@ -921,10 +931,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Norme Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Afficher la norme Wi-Fi à côté du signal Wi-Fi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Services Google</string>
-    <string name="gms_enabled_summary">Contrôler les services et les applications de base de Google</string>
-    <string name="gms_enabled_footer">Avant de désactiver les services Google et les applications principales, vous devriez désactiver \"Localiser mon appareil\" et l\'authentification à deux facteurs sur votre compte Google. Il est fortement recommandé de garder ce paramètre activé sinon les applications qui reposent sur des composants Google seront affectées. Si vous rencontrez des problèmes après avoir modifié ce paramètre, effectuez une réinitialisation d\'usine.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Raccourcis en bas de l\'écran de verrouillage</string>
     <string name="lockscreen_shortcut_start_title">Raccourci de gauche</string>
@@ -1189,5 +1195,15 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
     <string name="search_apps">Rechercher des applications</string>
-    <string name="search">Recherche</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>

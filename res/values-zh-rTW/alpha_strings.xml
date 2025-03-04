@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">重設</string>
-    <string name="save">儲存</string>
-    <string name="discard_changes">捨棄變更</string>
-    <string name="never">從不</string>
+    <!-- Generic strings -->
+    <string name="accent_color">強調色（預設）</string>
+    <string name="add">Add</string>
+    <string name="advanced">進階選項</string>
     <string name="always">一律使用 @Tele_zh_TW 來源</string>
+    <string name="back">Back</string>
     <string name="caution">注意</string>
+    <string name="choose_app">選擇應用程式</string>
+    <string name="custom_color">自訂顏色</string>
     <string name="delete">刪除</string>
     <string name="delete_message">移除所選項目？</string>
-    <string name="choose_app">選擇應用程式</string>
-    <string name="enable">啟用</string>
     <string name="disable">停用</string>
-    <string name="string_disabled">停用</string>
-    <string name="string_enabled">啟用</string>
-    <string name="on">開啟</string>
-    <string name="off">關閉</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">強調色（預設）</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">捨棄變更</string>
+    <string name="enable">啟用</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">從不</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">通知指示燈顏色</string>
-    <string name="wallpaper_color">桌布顏色</string>
-    <string name="custom_color">自訂顏色</string>
+    <string name="off">關閉</string>
+    <string name="on">開啟</string>
+    <string name="reset">重設</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">儲存</string>
+    <string name="search">搜尋</string>
+    <string name="settings">設定</string>
+    <string name="wallpaper_color">桌布顏色</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 設定</string>
     <string name="alpha_settings_summary">更多好用的功能!</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">長按複製</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux 狀態</string>
-    <string name="selinux_status_disabled">停用</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">寬鬆</string>
     <string name="selinux_status_enforcing">強制</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">播放控制</string>
     <string name="volbtn_music_controls_summary">螢幕關閉時，長按音量鍵切換曲目</string>
     <string name="volbtn_cursor_control_title">鍵盤游標控制</string>
-    <string name="volbtn_cursor_control_off">停用</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">按音量上／下鍵來左／右移動游標</string>
     <string name="volbtn_cursor_control_on_reverse">按音量上／下鍵來右／左移動游標</string>
     <string name="power_end_call_title">結束通話</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">鍵盤亮度</string>
     <string name="backlight_timeout_title">背光逾時</string>
     <string name="backlight_timeout_unlimited">永不關閉</string>
-    <string name="backlight_summary_disabled">停用</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光燈開啟 <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">啟用</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 秒</item>
     </plurals>
@@ -434,7 +444,7 @@
     <string name="network_traffic_settings_title">網路流量指示器</string>
     <string name="network_traffic_settings_summary">顯示並自訂目前網路流量狀態</string>
     <string name="network_traffic_mode_title">顯示模式</string>
-    <string name="network_traffic_mode_disable">停用</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
     <string name="network_traffic_mode_up">僅上傳</string>
     <string name="network_traffic_mode_down">僅下載</string>
     <string name="network_traffic_mode_all">上傳和下載</string>
@@ -608,7 +618,7 @@
     <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">來電時閃爍閃光燈</string>
-    <string name="flashlight_on_call_disabled">停用</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">響鈴時</string>
     <string name="flashlight_on_call_no_ringer">靜音時</string>
     <string name="flashlight_on_call_silent">無響鈴或震動時</string>
@@ -919,10 +929,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi-Fi 標準</string>
     <string name="wifi_standard_icon_summary">在訊號圖示上顯示目前所使用的 Wi-Fi 標準</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google 服務</string>
-    <string name="gms_enabled_summary">啟用 Google 系統服務及核心元件</string>
-    <string name="gms_enabled_footer">在關閉 Google 服務之前，請先停用您帳號上的「尋找我的裝置」及兩步驟驗證的功能。這些設定在一般情況下建議保持開啟，以使相關的 Google 應用程式及元件能夠正常運作。若在更改這些設定後發生問題，可以嘗試恢復出廠設定來解決。</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">底部捷徑</string>
     <string name="lockscreen_shortcut_start_title">左側捷徑</string>
@@ -1185,5 +1191,15 @@
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
     <string name="search_apps">搜尋應用程式</string>
-    <string name="search">搜尋</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>
