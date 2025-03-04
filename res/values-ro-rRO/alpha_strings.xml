@@ -16,28 +16,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
-    <string name="reset">Reset</string>
-    <string name="save">Salvaţi</string>
-    <string name="discard_changes">Renunță la modificari</string>
-    <string name="never">Niciodată</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Culoare accent (implicit)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Avansat</string>
     <string name="always">Întotdeauna</string>
+    <string name="back">Back</string>
     <string name="caution">Atenţie</string>
+    <string name="choose_app">Alegeți aplicația</string>
+    <string name="custom_color">Culoare personalizată</string>
     <string name="delete">Șterge</string>
     <string name="delete_message">Şterge elementul selectat?</string>
-    <string name="choose_app">Alegeți aplicația</string>
-    <string name="enable">Activare</string>
     <string name="disable">Dezactivare</string>
-    <string name="string_disabled">Dezactivat</string>
-    <string name="string_enabled">Activat</string>
-    <string name="on">Pornit</string>
-    <string name="off">Oprit</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">Culoare accent (implicit)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Renunță la modificari</string>
+    <string name="enable">Activare</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Niciodată</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Culoare notificare</string>
-    <string name="wallpaper_color">Culoarea imaginii de fundal</string>
-    <string name="custom_color">Culoare personalizată</string>
+    <string name="off">Oprit</string>
+    <string name="on">Pornit</string>
+    <string name="reset">Reset</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">Salvaţi</string>
+    <string name="search">Căutare</string>
+    <string name="settings">Setări</string>
+    <string name="wallpaper_color">Culoarea imaginii de fundal</string>
+    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">Vor fi bunătăți!</string>
@@ -118,7 +128,7 @@
     <string name="longpress_to_clipboard">Apăsare lungă pentru a copia</string>
     <!-- SELinux status -->
     <string name="selinux_status">Stare SELinux</string>
-    <string name="selinux_status_disabled">Dezactivat</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permisiv</string>
     <string name="selinux_status_enforcing">Obligatoriu</string>
     <!-- Firmware info -->
@@ -208,7 +218,7 @@
     <string name="volbtn_music_controls_title">Control redare</string>
     <string name="volbtn_music_controls_summary">Căutați piese prin apăsarea lungă a butoanelor de volum când ecranul este oprit</string>
     <string name="volbtn_cursor_control_title">Control cursor tastatură</string>
-    <string name="volbtn_cursor_control_off">Dezactivat</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volum sus/jos mută cursorul stânga/dreapta</string>
     <string name="volbtn_cursor_control_on_reverse">Tastele volum sus/jos mută cursorul dreapta/stânga</string>
     <string name="power_end_call_title">Terminare apel</string>
@@ -231,9 +241,9 @@
     <string name="keyboard_backlight_seekbar_title">Luminozitate tastatură</string>
     <string name="backlight_timeout_title">Timp expirare iluminare</string>
     <string name="backlight_timeout_unlimited">Nu opriți</string>
-    <string name="backlight_summary_disabled">Dezactivat</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Activat pentru <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Activat</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> secundă</item>
         <item quantity="few"><xliff:g id="seconds">%d</xliff:g> seconds</item>
@@ -436,7 +446,7 @@
     <string name="network_traffic_settings_title">Monitorizare trafic rețea</string>
     <string name="network_traffic_settings_summary">Afişare şi personalizare monitor trafic reţea</string>
     <string name="network_traffic_mode_title">Mod de afișare</string>
-    <string name="network_traffic_mode_disable">Dezactivat</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
     <string name="network_traffic_mode_up">Doar upload</string>
     <string name="network_traffic_mode_down">Doar download</string>
     <string name="network_traffic_mode_all">Upload și download</string>
@@ -610,7 +620,7 @@
     <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Clipire lanternă pentru apel primit</string>
-    <string name="flashlight_on_call_disabled">Dezactivat</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Când sună</string>
     <string name="flashlight_on_call_no_ringer">Când soneria este silenţioasă</string>
     <string name="flashlight_on_call_silent">Când în întregime silențios (fără sonerie sau vibrator)</string>
@@ -923,10 +933,6 @@
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standard WiFi</string>
     <string name="wifi_standard_icon_summary">Afișează standardul WiFi lângă semnalul WiFi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Servicii Google</string>
-    <string name="gms_enabled_summary">Control servicii Google și aplicații de bază</string>
-    <string name="gms_enabled_footer">Înainte de a dezactiva serviciile Google și aplicațiile de bază, ar trebui să dezactivați \"Găsește-mi dispozitivul\" și \"verificarea în 2 pași\" pe contul dvs. Google. Este recomandat să păstrați această setare activată, altfel aplicațiile dependente de componentele Google vor fi afectate. Dacă întâmpinați orice probleme după schimbarea acestei setări, efectuați o revenire la setările din fabrică.</string>
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Comenzi rapide din josul ecranului de deblocare</string>
     <string name="lockscreen_shortcut_start_title">Scurtătură stânga</string>
@@ -1192,5 +1198,15 @@ După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de
     <string name="menu_show_overlay">Show overlay</string>
     <string name="menu_hide_overlay">Hide overlay</string>
     <string name="search_apps">Căutare aplicații</string>
-    <string name="search">Căutare</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 </resources>
