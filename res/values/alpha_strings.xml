@@ -17,43 +17,41 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- General strings -->
-    <string name="ok" translatable="false">@android:string/ok</string>
-    <string name="reset">Reset</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-    <string name="save">Save</string>
-    <string name="discard_changes">Discard changes</string>
-    <string name="never">Never</string>
+    <!-- Generic strings -->
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Advanced</string>
     <string name="always">Always</string>
+    <string name="back">Back</string>
+    <string name="cancel" translatable="false">@android:string/cancel</string>
     <string name="caution">Caution</string>
+    <string name="choose_app">Choose app</string>
+    <string name="custom_color">Custom color</string>
     <string name="delete">Delete</string>
     <string name="delete_message">Remove selected item?</string>
-    <string name="choose_app">Choose app</string>
-    <string name="enable">Enable</string>
     <string name="disable">Disable</string>
-    <string name="string_ok" translatable="false">@string/ok</string>
-    <string name="string_reset" translatable="false">@string/reset</string>
-    <string name="string_cancel" translatable="false">@string/cancel</string>
-    <string name="string_save" translatable="false">@string/save</string>
-    <string name="string_discard_changes" translatable="false">@string/discard_changes</string>
-    <string name="string_never" translatable="false">@string/never</string>
-    <string name="string_always" translatable="false">@string_always</string>
-    <string name="string_caution" translatable="false">@string/caution</string>
-    <string name="string_delete" translatable="false">@string/delete</string>
-    <string name="string_delete_message" translatable="false">@string/delete_message</string>
-    <string name="string_choose_app" translatable="false">@string/choose_app</string>
-    <string name="string_enable" translatable="false">@string/enable</string>
-    <string name="string_disable" translatable="false">@string/disable</string>
-    <string name="string_disabled">Disabled</string>
-    <string name="string_enabled">Enabled</string>
-    <string name="string_on">On</string>
-    <string name="string_off">Off</string>
-    <string name="string_default">Default</string>
-    <string name="accent_color">Accent color (Default)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="dlg_ok" translatable="false">@android:string/ok</string>
+    <string name="enable">Enable</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Never</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
-    <string name="custom_color">Custom color</string>
+    <string name="off">Off</string>
+    <string name="ok" translatable="false">@android:string/ok</string>
+    <string name="on">On</string>
+    <string name="reset">Reset</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="yes">Yes</string>
 
      <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
@@ -527,8 +525,8 @@
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
     <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
-    <string name="network_traffic_show_units_off" translatable="false">@string/string_off</string>
-    <string name="network_traffic_show_units_on" translatable="false">@string/string_on</string>
+    <string name="network_traffic_show_units_off" translatable="false">@string/off</string>
+    <string name="network_traffic_show_units_on" translatable="false">@string/on</string>
     <string name="network_traffic_show_units_compact">Compact</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
     <string name="network_traffic_disabled_clock">Network traffic disabled due to clock position</string>
@@ -1116,11 +1114,6 @@
     <string name="wifi_standard_icon_title">WiFi standard</string>
     <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
 
-    <!-- Google services -->
-    <string name="gms_enabled_title">Google services</string>
-    <string name="gms_enabled_summary">Control Google services and core apps</string>
-    <string name="gms_enabled_footer">Before disabling Google services and core apps, you should disable "Find My Device" and 2-step verification on your Google account. It is strongly recommended to keep this setting enabled else apps dependent on Google components will be affected. If you run into any issues after changing this setting, perform a factory reset.</string>
-
     <!-- Lockscreen bottom shortcuts -->
     <string name="lockscreen_shortcut_category">Bottom shortcuts</string>
     <string name="lockscreen_shortcut_start_title">Left shortcut</string>
@@ -1419,5 +1412,18 @@
     <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
 
 </resources>

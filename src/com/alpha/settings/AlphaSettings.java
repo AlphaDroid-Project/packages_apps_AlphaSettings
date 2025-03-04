@@ -123,12 +123,12 @@ public class AlphaSettings extends DashboardFragment {
         new AlertDialog.Builder(context)
                 .setTitle(R.string.reset_settings_title)
                 .setMessage(R.string.reset_settings_message)
-                .setPositiveButton(R.string.string_ok, new DialogInterface.OnClickListener() {
+                .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         resetAll(context);
                     }
                 })
-                .setNegativeButton(R.string.string_cancel, null)
+                .setNegativeButton(R.string.cancel, null)
                 .show();
     }
 
