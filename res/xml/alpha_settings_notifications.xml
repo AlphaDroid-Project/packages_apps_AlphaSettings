@@ -33,6 +33,13 @@
         settings:units="" />
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
+        android:key="ongoing_action_chip"
+        android:icon="@drawable/ic_progress"
+        android:title="@string/ongoing_action_chip_title"
+        android:summary="@string/ongoing_action_chip_summary"
+        android:defaultValue="true" />
+
+    <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
         android:icon="@drawable/ic_light_switch"
         android:title="@string/alert_slider_notifications_title"
