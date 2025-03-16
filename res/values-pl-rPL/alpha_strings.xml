@@ -583,6 +583,7 @@
     <string name="brightness">Poziom jasności</string>
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Zawsze włączona</string>
+    <string name="pulse_length_blink">Miganie</string>
     <string name="pulse_length_very_short">Bardzo krótko</string>
     <string name="pulse_length_short">Krótko</string>
     <string name="pulse_length_normal">Normalnie</string>
@@ -643,11 +644,11 @@
     <string name="notification_sound_vib_screen_on_summary">Odtwarzaj dźwięk i wibracje dla powiadomień, gdy ekran jest włączony</string>
     <!-- Privacy Indicator -->
     <string name="mic_camera_privacy_indicator_title">Wskaźnik prywatności mikrofonu i aparatu</string>
-    <string name="mic_camera_privacy_indicator_summary">Pokaż oddzielny wskaźnik, gdy jakakolwiek aplikacja używa mikrofonu lub aparatu</string>
+    <string name="mic_camera_privacy_indicator_summary">Pokazuj oddzielny wskaźnik, gdy jakakolwiek aplikacja używa mikrofonu lub aparatu</string>
     <string name="location_privacy_indicator_title">Wskaźnik prywatności lokalizacji</string>
-    <string name="location_privacy_indicator_summary">Pokaż oddzielny wskaźnik, gdy jakakolwiek aplikacja używa lokalizacji</string>
+    <string name="location_privacy_indicator_summary">Pokazuj oddzielny wskaźnik, gdy jakakolwiek aplikacja używa lokalizacji</string>
     <string name="projection_privacy_indicator_title">Wskaźnik prywatności projekcji multimedialnej</string>
-    <string name="projection_privacy_indicator_summary">Pokaż wskaźnik, gdy ekran urządzenia jest wyświetlany</string>
+    <string name="projection_privacy_indicator_summary">Pokazuj wskaźnik, gdy ekran urządzenia jest wyświetlany</string>
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Głęboki sen</string>
     <!-- In-call feedback -->
@@ -1147,9 +1148,6 @@
     <string name="always_on_display_schedule_sunrise">Wschód słońca</string>
     <string name="always_on_display_schedule_mixed_sunset">Działa od zachodu słońca do ustalonej godziny</string>
     <string name="always_on_display_schedule_mixed_sunrise">Działa od ustalonej godziny do wschodu słońca</string>
-    <!-- IME Space -->
-    <string name="navigation_bar_ime_space_title">Przestrzeń IME</string>
-    <string name="navigation_bar_ime_space_summary">Dodawaj odstęp poniżej klawiatury, gdy pasek nawigacji jest wyłączony</string>
     <!-- QS Bluetooth Dialog -->
     <string name="qs_bt_show_dialog_title">Okno dialogowe kafelka Bluetooth</string>
     <string name="qs_bt_show_dialog_summary">Wyświetlaj okno dialogowe Bluetooth lub przełączaj stan Bluetooth po dotknięciu kafelka Bluetooth</string>
@@ -1168,7 +1166,7 @@
     <!-- Ambient wake -->
     <string name="doze_gesture_ambient_title">Pokaż aktywny wyświetlacz</string>
     <string name="doze_gesture_ambient_summary">Pokaż aktywny wyświetlacz, zamiast wybudzać ekran</string>
-    <string name="gesture_wake_ambient">Pokaż aktywny wyświetlacz</string>
+    <string name="gesture_wake_ambient">Pokazuj aktywny wyświetlacz</string>
     <string name="gesture_wake">Wybudzanie</string>
     <!-- Sidebar -->
     <string name="sidebar_title">Panel boczny</string>
@@ -1204,4 +1202,8 @@
     <!-- Circle to search -->
     <string name="search_all_entrypoints_enabled_title">Zakreśl, aby wyszukać</string>
     <string name="search_all_entrypoints_enabled_summary">Używaj CTS zamiast Google Lens podczas przytrzymywania paska nawigacji</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Przestrzeń IME</string>
+    <string name="navigation_bar_ime_space_narrow">Wąski</string>
+    <string name="navigation_bar_ime_space_hidden">Ukryty</string>
 </resources>
