@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2022 crDroid Android Project
+ * Copyright (C) 2017-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -167,13 +167,12 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             frags[0] = new StatusBar();
             frags[1] = new QuickSettings();
             frags[2] = new LockScreen();
-            frags[3] = new Navigation();
-            frags[4] = new Buttons();
-            frags[5] = new UserInterface();
-            frags[6] = new Notifications();
-            frags[7] = new Sound();
-            frags[8] = new Miscellaneous();
-            frags[9] = new About();
+            frags[3] = new Buttons();
+            frags[4] = new UserInterface();
+            frags[5] = new Notifications();
+            frags[6] = new Sound();
+            frags[7] = new Miscellaneous();
+            frags[8] = new About();
         }
 
         @Override
@@ -198,7 +197,6 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             getString(R.string.statusbar_title),
             getString(R.string.quicksettings_title),
             getString(R.string.lockscreen_title),
-            getString(R.string.navigation_title),
             getString(R.string.button_title),
             getString(R.string.ui_title),
             getString(R.string.notifications_title),
