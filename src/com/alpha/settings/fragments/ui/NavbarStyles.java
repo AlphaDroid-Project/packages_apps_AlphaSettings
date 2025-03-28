@@ -155,8 +155,6 @@ public class NavbarStyles extends SettingsPreferenceFragment {
                     updateActivatedStatus(navPkg, true);
                     mSelectedPkg = navPkg;
                     enableOverlays(position);
-                    Settings.System.putStringForUser(getContext().getContentResolver(),
-                            Settings.System.NAVBAR_STYLE, navPkg, UserHandle.USER_CURRENT);
                 }
             });
         }
