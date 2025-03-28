@@ -146,7 +146,7 @@
             android:icon="@drawable/ic_weather_windy"
             android:title="@string/lockscreen_weather_wind_info_title"
             android:summary="@string/lockscreen_weather_wind_info_summary"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:dependency="lockscreen_weather_enabled" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -154,7 +154,7 @@
             android:icon="@drawable/ic_water_percent"
             android:title="@string/lockscreen_weather_humidity_info_title"
             android:summary="@string/lockscreen_weather_humidity_info_summary"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:dependency="lockscreen_weather_enabled" />
 
     </PreferenceCategory>
