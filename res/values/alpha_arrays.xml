@@ -421,17 +421,16 @@
     <string-array name="navbar_layout_entries">
         <item>@string/navbar_layout_normal</item>
         <item>@string/navbar_layout_compact</item>
-        <item>@string/navbar_layout_expanded</item>
+        <!--<item>@string/navbar_layout_expanded</item>-->
         <item>@string/navbar_layout_leftleaning</item>
         <item>@string/navbar_layout_rightleaning</item>
     </string-array>
 
     <string-array name="navbar_layout_values" translatable="false">
-        <item>default</item>
-        <item>left;back,home,recent;right</item>
-        <item>left;back,space,home,space,recent;right</item>
-        <item>left,back,home,recent,right;space;space</item>
-        <item>space;space;left,back,home,recent,right</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
     <!-- Quick Settings brightness slider -->
