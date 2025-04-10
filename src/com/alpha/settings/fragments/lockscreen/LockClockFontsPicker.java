@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 crDroid Android Project
+ * Copyright (C) 2023-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
 
 package com.alpha.settings.fragments.lockscreen;
 
-import static android.os.UserHandle.USER_SYSTEM;
-
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
@@ -26,45 +24,26 @@ import android.graphics.Typeface;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Gravity;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.FrameLayout;
 import android.widget.TextView;
-import android.text.TextUtils;
-import androidx.preference.PreferenceViewHolder;
-import android.view.ViewGroup.LayoutParams;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceViewHolder;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settingslib.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
-
-import com.bumptech.glide.Glide;
 
 import com.android.internal.util.alpha.ThemeUtils;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Arrays;
-
-import org.json.JSONObject;
-import org.json.JSONException;
 
 public class LockClockFontsPicker extends SettingsPreferenceFragment {
 
@@ -101,11 +80,6 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.ALPHA;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
     }
 
     public class Adapter extends RecyclerView.Adapter<Adapter.CustomViewHolder> {
@@ -153,7 +127,7 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
                     updateActivatedStatus(mSelectedPkg, false);
                     updateActivatedStatus(pkg, true);
                     mSelectedPkg = pkg;
-                    enableOverlays(position);
+                    mThemeUtils.setOverlayEnabled(mCategory, mSelectedPkg, "android");
                 }
             });
         }
@@ -209,9 +183,5 @@ public class LockClockFontsPicker extends SettingsPreferenceFragment {
             e.printStackTrace();
         }
         return pkg;
-    }
-
-    public void enableOverlays(int position) {
-        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "android");
     }
 }
