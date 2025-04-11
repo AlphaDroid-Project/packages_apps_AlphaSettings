@@ -55,6 +55,7 @@
     <string name="wallpaper_color">Colore sfondo</string>
     <string name="custom_color">Colore personalizzato</string>
     <string name="restart_systemui">Riavvia SystemUI affinché le modifiche abbiano effetto!</string>
+    <string name="default_value">Predefinito</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Modifiche correnti</string>
     <string name="changelog_crdroid_summary">Visualizza le modifiche della ROM installata</string>
@@ -1178,7 +1179,7 @@
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Aumento del volume suoneria</string>
     <string name="increasing_ring_min_volume_title">Volume iniziale</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Disabilita per VPN</string>
     <string name="vpn_enforce_dns_summary">Disabilita il DNS privato quando connesso a una VPN e ripristina al momento della disconnessione</string>
@@ -1189,7 +1190,7 @@
     <string name="app_downgrade_title">Consenti downgrade applicazione</string>
     <string name="app_downgrade_summary">Questo ti permette di eseguire il downgrade delle applicazioni. Nota che questo potrebbe portare a crash e corruzione dei dati.</string>
     <!-- Heads-up -->
-    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
+    <string name="compact_heads_up_notifications_enabled_title">Heads-up compatte</string>
     <string name="compact_heads_up_notifications_enabled_summary">Visualizza le notifiche in dimensione ridotta</string>
     <!-- Long press navbar to search -->
     <string name="navbar_long_press_gesture_title">Premi a lungo per cercare</string>
@@ -1199,9 +1200,23 @@
     <string name="search_all_entrypoints_enabled_summary">Usa CTS invece di Google Lens in seguito alla pressione prolungata della barra di navigazione</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Spazio IME</string>
-    <string name="navigation_bar_ime_space_narrow">Narrow</string>
+    <string name="navigation_bar_ime_space_narrow">Limitato</string>
     <string name="navigation_bar_ime_space_hidden">Nascosto</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
-    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
+    <string name="navigation_bar_enable_taskbar_title">Barra delle applicazioni</string>
+    <string name="navigation_bar_enable_taskbar_summary">Mostra la barra delle applicazioni con la modalità di navigazione selezionata</string>
+    <!-- SystemUI restart dialog -->
+    <string name="systemui_restart_title">Riavvio SystemUI richiesto</string>
+    <string name="systemui_restart_message">Per applicare i cambiamenti, è richiesto un riavvio della SystemUI. Riavviare la SystemUI ora?</string>
+    <string name="systemui_restart_yes">Sì</string>
+    <string name="systemui_restart_not_now">Non ora</string>
+    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
+    <!-- Notification / Power Menu Styles -->
+    <string name="notification_style_title">Notification style</string>
+    <string name="powermenu_style_title">Power menu style</string>
+    <string name="custom_style_cyberpunk">Cyberpunk</string>
+    <string name="custom_style_duoline">Duoline</string>
+    <string name="custom_style_fluid">Fluid (Transparent)</string>
+    <string name="custom_style_ios">IOS</string>
+    <string name="custom_style_layers">Layers</string>
 </resources>
