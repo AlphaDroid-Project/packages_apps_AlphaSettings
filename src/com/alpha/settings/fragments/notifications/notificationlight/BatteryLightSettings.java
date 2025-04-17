@@ -12,6 +12,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -31,7 +32,6 @@ import org.lineageos.internal.notification.LightsCapabilities;
 
 import lineageos.preference.LineageSystemSettingMainSwitchPreference;
 import lineageos.preference.LineageSystemSettingSwitchPreference;
-import android.provider.Settings;
 
 import java.util.List;
 
@@ -59,7 +59,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private ApplicationLightPreference mLowColorPref;
     private ApplicationLightPreference mMediumColorPref;
     private ApplicationLightPreference mFullColorPref;
-    private ApplicationLightPreference mReallyFullColorPref;
     private LineageSystemSettingMainSwitchPreference mLightEnabledPref;
     private LineageSystemSettingSwitchPreference mLightFullChargeDisabledPref;
     private LineageSystemSettingSwitchPreference mPulseEnabledPref;
@@ -154,17 +153,11 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             mFullColorPref.setDefaultValues(mDefaultFullColor, 0, 0);
             mFullColorPref.setBrightness(batteryBrightness);
 
-            mReallyFullColorPref = prefSet.findPreference(REALLY_FULL_COLOR_PREF);
-            mReallyFullColorPref.setOnPreferenceChangeListener(this);
-            mReallyFullColorPref.setDefaultValues(mDefaultReallyFullColor, 0, 0);
-            mReallyFullColorPref.setBrightness(batteryBrightness);
-
             final BrightnessPreference.OnBrightnessChangedListener brightnessListener =
                     brightness -> {
                 mLowColorPref.setBrightness(brightness);
                 mMediumColorPref.setBrightness(brightness);
                 mFullColorPref.setBrightness(brightness);
-                mReallyFullColorPref.setBrightness(brightness);
             };
             mBatteryBrightnessPref.setOnBrightnessChangedListener(brightnessListener);
         } else {
@@ -176,8 +169,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         if (!mMultiColorLed && !halAdjustableBrightness) {
             prefSet.removePreference(prefSet.findPreference(BRIGHTNESS_SECTION));
         }
-
-        //watch(Settings.System.getUriFor(Settings.System.BATTERY_LIGHT_ENABLED));
     }
 
     @Override
@@ -205,13 +196,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             int fullColor = Settings.System.getIntForUser(resolver,
                     Settings.System.BATTERY_LIGHT_FULL_COLOR, mDefaultFullColor, UserHandle.USER_CURRENT);
             mFullColorPref.setAllValues(fullColor, 0, 0, OnOffType.TOGGLE);
-        }
-
-        if (mReallyFullColorPref != null) {
-            int reallyfullColor = Settings.System.getIntForUser(resolver,
-                    Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR, mDefaultReallyFullColor, UserHandle.USER_CURRENT);
-            mReallyFullColorPref.setAllValues(reallyfullColor, 0, 0, OnOffType.TOGGLE);
-            updateBrightnessPrefColor(reallyfullColor);
         }
     }
 
@@ -244,11 +228,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             case FULL_COLOR_PREF:
                 Settings.System.putIntForUser(resolver,
                         Settings.System.BATTERY_LIGHT_FULL_COLOR, color, UserHandle.USER_CURRENT);
-                break;
-            case REALLY_FULL_COLOR_PREF:
-                Settings.System.putIntForUser(resolver,
-                        Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR, color, UserHandle.USER_CURRENT);
-                updateBrightnessPrefColor(color);
                 break;
         }
     }
@@ -284,8 +263,6 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                 mDefaultMediumColor, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver, Settings.System.BATTERY_LIGHT_FULL_COLOR,
                 mDefaultFullColor, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver, Settings.System.BATTERY_LIGHT_REALLY_FULL_COLOR,
-                mDefaultReallyFullColor, UserHandle.USER_CURRENT);
         refreshColors();
     }
 

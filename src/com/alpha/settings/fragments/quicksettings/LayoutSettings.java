@@ -37,7 +37,7 @@ public class LayoutSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.qs_layout_settings);
+        addPreferencesFromResource(R.xml.quicksettings.layout_settings);
     }
 
     public static void reset(Context mContext) {
@@ -65,7 +65,7 @@ public class LayoutSettings extends SettingsPreferenceFragment {
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.qs_layout_settings) {
+            new BaseSearchIndexProvider(R.xml.quicksettings.layout_settings) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

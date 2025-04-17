@@ -35,8 +35,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.alpha.Utils;
 
-import android.provider.Settings;
-
 
 public class Navigation extends SettingsPreferenceFragment {
 

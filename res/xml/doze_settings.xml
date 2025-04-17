@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2024 crDroid Android Project
+                   2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,6 +18,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/doze_display_title">
+
+    <!--<Preference
+        android:key="ambient_customization"
+        android:title="@string/ambient_text_category_title"
+        android:summary="@string/ambient_text_category_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.doze.AmbientCustomizations" />-->
 
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="doze_enabled"

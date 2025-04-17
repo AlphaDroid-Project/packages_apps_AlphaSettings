@@ -68,12 +68,12 @@ public class DeviceUtils {
 
     public static int getDeviceKeys(Context context) {
         return context.getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
+                org.lineageos.platform.internal.R.integer.config_deviceHardwareKeys);
     }
 
     public static int getDeviceWakeKeys(Context context) {
         return context.getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareWakeKeys);
+                org.lineageos.platform.internal.R.integer.config_deviceHardwareWakeKeys);
     }
 
     /* returns whether the device has power key or not. */
@@ -154,7 +154,7 @@ public class DeviceUtils {
     /* returns whether the device supports button backlight adjusment or not. */
     public static boolean hasButtonBacklightSupport(Context context) {
         final boolean buttonBrightnessControlSupported = context.getResources().getInteger(
-                com.android.internal.R.integer
+                org.lineageos.platform.internal.R.integer
                         .config_deviceSupportsButtonBrightnessControl) != 0;
 
         // All hardware keys besides volume and camera can possibly have a backlight
@@ -165,7 +165,7 @@ public class DeviceUtils {
 
     /* returns whether the device supports keyboard backlight adjusment or not. */
     public static boolean hasKeyboardBacklightSupport(Context context) {
-        return context.getResources().getInteger(com.android.internal.R.integer
+        return context.getResources().getInteger(org.lineageos.platform.internal.R.integer
                 .config_deviceSupportsKeyboardBrightnessControl) != 0;
     }
 

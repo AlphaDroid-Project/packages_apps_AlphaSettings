@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2022 Yet Another AOSP Project
  * Copyright (C) 2021-2024 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.alpha.settings.fragments.ui;
 
 import android.content.ContentResolver;
@@ -39,8 +39,6 @@ import com.alpha.settings.preferences.colorpicker.ColorPickerPreference;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
 
 import java.lang.CharSequence;
-
-import android.provider.Settings;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -104,12 +102,12 @@ public class MonetSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.monet_engine;
+        return R.xml.monet_settings;
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
 
         mThemeStylePref = findPreference(PREF_THEME_STYLE);
         mColorSourcePref = findPreference(PREF_COLOR_SOURCE);
@@ -133,12 +131,6 @@ public class MonetSettings extends DashboardFragment implements
         mChromaPref.setOnPreferenceChangeListener(this);
         mWholePalettePref.setOnPreferenceChangeListener(this);
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
-    }
-
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.BERRY_BLACK_THEME, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
@@ -416,5 +408,5 @@ public class MonetSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.monet_engine);
+            new BaseSearchIndexProvider(R.xml.monet_settings);
 }

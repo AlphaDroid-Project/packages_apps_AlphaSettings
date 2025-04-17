@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      Copyright (C) 2016-2024 crDroid Android Project
+                   2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +17,27 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/misc_title">
+
+    <!-- Smart Pixels -->
+    <Preference
+        android:key="smart_pixels"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary"
+        android:fragment="com.alpha.settings.fragments.misc.SmartPixels" />
+
+    <!-- Display Cutout -->
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:icon="@drawable/ic_fullscreen"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.alpha.settings.fragments.ui.DisplayCutoutForceFullscreenActivity"/>
+    </Preference>
 
     <!-- Gaming mode -->
     <Preference
@@ -31,55 +52,24 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
-    <!-- Google Play Integrity -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.pi"
-        android:icon="@drawable/ic_google"
-        android:title="@string/pi_spoof_title"
-        android:summary="@string/pi_spoof_summary"
-        android:defaultValue="true" />
-
-    <!-- Unlock FPS for specific games -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.games"
-        android:icon="@drawable/ic_backup"
-        android:title="@string/use_games_spoof_title"
-        android:summary="@string/use_games_spoof_summary" />
-
-    <!-- Unlimited google photos storage -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.gphotos"
-        android:icon="@drawable/ic_backup"
-        android:title="@string/use_photos_spoof_title"
-        android:summary="@string/use_photos_spoof_summary"
-        android:defaultValue="true" />
-
-    <!-- Netflix -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.netflix"
-        android:icon="@drawable/ic_netflix"
-        android:title="@string/netflix_spoof_title"
-        android:summary="@string/netflix_spoof_summary"
-        android:defaultValue="false" />
-
-    <!-- Google services
+    <!-- Sidebar -->
     <Preference
-        android:key="gms_enabled_settings"
-        android:icon="@drawable/ic_google"
-        android:title="@string/gms_enabled_title"
-        android:summary="@string/gms_enabled_summary"
-        android:fragment="com.alpha.settings.fragments.misc.GmsSwitch"/> -->
-
-    <!-- Parallel space
-    <Preference
-        android:key="parallel_space"
-        android:icon="@drawable/ic_parallel_space"
-        android:title="@string/laboratory_parallel_space_title"
-        android:summary="@string/laboratory_parallel_space_summary">
+        android:key="sidebar"
+        android:icon="@drawable/ic_floating"
+        android:title="@string/sidebar_title"
+        android:summary="@string/sidebar_summary">
         <intent
-            android:targetPackage="ink.kscope.parallelspace"
-            android:targetClass="ink.kscope.parallelspace.MainActivity" />
-    </Preference> -->
+            android:action="android.intent.action.IA_SETTINGS"
+            android:targetPackage="com.libremobileos.sidebar"
+            android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
+    </Preference>
+
+    <Preference
+        android:key="spoofing"
+        android:title="@string/spoofing_title"
+        android:summary="@string/spoofing_summary"
+        android:icon="@drawable/ic_spoof"
+        android:fragment="com.alpha.settings.fragments.misc.Spoofing" />
 
     <com.alpha.settings.preferences.GlobalSettingSwitchPreference
         android:key="pm_downgrade_allowed"
@@ -87,19 +77,6 @@
         android:title="@string/app_downgrade_title"
         android:summary="@string/app_downgrade_summary"
         android:defaultValue="false"/>
-
-    <!-- Sidebar -->
-    <Preference
-        android:key="sidebar"
-        android:icon="@drawable/ic_floating"
-        android:title="@string/sidebar_title"
-        android:summary="@string/sidebar_summary">
-
-        <intent
-            android:action="android.intent.action.IA_SETTINGS"
-            android:targetPackage="com.libremobileos.sidebar"
-            android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
-    </Preference>
 
     <!-- Three fingers swipe action -->
     <ListPreference

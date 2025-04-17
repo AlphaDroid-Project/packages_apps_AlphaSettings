@@ -23,6 +23,7 @@ import android.content.res.Resources;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,8 +41,6 @@ import com.android.settings.R;
 
 import com.alpha.settings.preferences.CustomDialogPref;
 import com.alpha.settings.utils.DeviceUtils;
-
-import android.provider.Settings;
 
 public class ButtonBacklightBrightness extends CustomDialogPref<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {

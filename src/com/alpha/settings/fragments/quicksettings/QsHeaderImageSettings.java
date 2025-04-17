@@ -51,7 +51,7 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment implements
 
     private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
-    private static final String CUSTOM_HEADER_PROVIDER = "qs_header_provider";
+    private static final String CUSTOM_HEADER_PROVIDER = .quicksettings.header_provider";
     private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String FILE_HEADER_SELECT = "file_header_select";
     private static final int REQUEST_PICK_IMAGE = 10001;
@@ -67,7 +67,7 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.qs_header_image_settings);
+        addPreferencesFromResource(R.xml.quicksettings.header_image_settings);
 
         ContentResolver resolver = getContext().getContentResolver();
 
@@ -134,8 +134,8 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment implements
                 mHeaderProvider.setSummary(mHeaderProvider.getEntries()[valueIndex]);
                 mDaylightHeaderPack.setEnabled(value.equals(mDaylightHeaderProvider));
                 mHeaderBrowse.setEnabled(!value.equals(mFileHeaderProvider));
-                mHeaderBrowse.setTitle(valueIndex == 0 ? R.string.qs_header_browse_title : R.string.qs_header_pick_title);
-                mHeaderBrowse.setSummary(valueIndex == 0 ? R.string.qs_header_browse_summary : R.string.qs_header_pick_summary);
+                mHeaderBrowse.setTitle(valueIndex == 0 ? R.string.quicksettings.header_browse_title : R.string.quicksettings.header_pick_title);
+                mHeaderBrowse.setSummary(valueIndex == 0 ? R.string.quicksettings.header_browse_summary : R.string.quicksettings.header_pick_summary);
                 mFileHeader.setEnabled(value.equals(mFileHeaderProvider));
                 return true;
 
@@ -153,7 +153,7 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment implements
                 startActivityForResult(intent, REQUEST_PICK_IMAGE);
                 return true;
             } catch (Exception e) {
-                Toast.makeText(getContext(), R.string.qs_header_needs_gallery, Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), R.string.quicksettings.header_needs_gallery, Toast.LENGTH_LONG).show();
             }
         }
         return super.onPreferenceTreeClick(preference);
@@ -237,7 +237,7 @@ public class QsHeaderImageSettings extends SettingsPreferenceFragment implements
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.qs_header_image_settings;
+                    sir.xmlResId = R.xml.quicksettings.header_image_settings;
                     result.add(sir);
                     return result;
                 }

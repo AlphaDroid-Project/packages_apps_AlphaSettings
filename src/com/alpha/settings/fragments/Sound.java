@@ -40,13 +40,10 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.sound.AdaptivePlayback;
-import com.alpha.settings.fragments.sound.PulseSettings;
 import com.alpha.settings.utils.TelephonyUtils;
 
 import java.util.List;
 import java.util.ArrayList;
-
-import android.provider.Settings;
 
 @SearchIndexable
 public class Sound extends SettingsPreferenceFragment {
@@ -65,7 +62,7 @@ public class Sound extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_settings_sound);
+        addPreferencesFromResource(R.xml.alpha_settings_sound);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
@@ -102,7 +99,6 @@ public class Sound extends SettingsPreferenceFragment {
                 Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
-        PulseSettings.reset(mContext);
         AdaptivePlayback.reset(mContext);
     }
 
@@ -126,7 +122,7 @@ public class Sound extends SettingsPreferenceFragment {
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_sound) {
+            new BaseSearchIndexProvider(R.xml.alpha_settings_sound) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

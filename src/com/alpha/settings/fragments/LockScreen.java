@@ -15,26 +15,27 @@
  */
 package com.alpha.settings.fragments;
 
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.SwitchPreferenceCompat;
+
+import com.alpha.settings.fragments.lockscreen.DozeSettings;
+import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
+import com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.alpha.OmniJawsClient;
+import com.android.internal.util.alpha.SystemRestartUtils;
 import com.android.internal.util.alpha.Utils;
 
 import com.android.settings.R;
@@ -42,13 +43,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.lockscreen.UdfpsAnimation;
-import com.alpha.settings.fragments.lockscreen.UdfpsIconPicker;
-import com.alpha.settings.utils.SystemUtils;
-
 import java.util.List;
-
-import android.provider.Settings;
 
 @SearchIndexable
 public class LockScreen extends SettingsPreferenceFragment
@@ -79,7 +74,7 @@ public class LockScreen extends SettingsPreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_settings_lockscreen);
+        addPreferencesFromResource(R.xml.alpha_settings_lockscreen);
 
         PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
 
@@ -126,11 +121,11 @@ public class LockScreen extends SettingsPreferenceFragment
         if (preference == mSmartspace) {
             mSmartspace.setChecked((Boolean)newValue);
             updateWeatherSettings();
-            SystemUtils.showSystemUiRestartDialog(getContext());
+            SystemRestartUtils.showSystemUiRestartDialog(getContext());
             return true;
         } else if (preference == mWeather) {
             mWeather.setChecked((Boolean)newValue);
-            SystemUtils.showSystemUiRestartDialog(getContext());
+            SystemRestartUtils.showSystemUiRestartDialog(getContext());
             return true;
         }
 
@@ -167,6 +162,7 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_HUMIDITY_INFO, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_SHOW_CARRIER, 1, UserHandle.USER_CURRENT);
+        DozeSettings.reset(mContext);
         UdfpsAnimation.reset(mContext);
         UdfpsIconPicker.reset(mContext);
     }
@@ -195,7 +191,7 @@ public class LockScreen extends SettingsPreferenceFragment
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_lockscreen) {
+            new BaseSearchIndexProvider(R.xml.alpha_settings_lockscreen) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
