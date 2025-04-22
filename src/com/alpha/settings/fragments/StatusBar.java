@@ -35,13 +35,14 @@ import androidx.preference.SwitchPreferenceCompat;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.alpha.settings.preferences.SystemSettingListPreference;
+import com.android.settings.lineage.statusbar.NetworkTrafficSettings;
+
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.statusbar.BatteryBar;
 import com.alpha.settings.fragments.statusbar.Clock;
-import com.alpha.settings.fragments.statusbar.NetworkTrafficSettings;
+import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.alpha.settings.preferences.SystemSettingSeekBarPreference;
 import com.alpha.settings.utils.DeviceUtils;
 
@@ -194,21 +195,12 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_NOTIF_COUNT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO_POSITION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO_STYLE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.DATA_DISABLED_ICON, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.WIFI_STANDARD_ICON, 0, UserHandle.USER_CURRENT);
 
         BatteryBar.reset(mContext);
         Clock.reset(mContext);
-        NetworkTrafficSettings.reset(mContext);
     }
 
     private void updateQuickPulldownSummary(int value) {

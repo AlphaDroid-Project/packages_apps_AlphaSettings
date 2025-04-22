@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016-2024 crDroid Android Project
+ * Copyright (C) 2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,7 +35,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.misc.SensorBlock;
-
+import com.alpha.settings.fragments.misc.SmartPixels;
 import java.util.List;
 
 import android.provider.Settings;
@@ -51,10 +52,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
     private static final String SYS_NETFLIX_SPOOF = "persist.sys.pixelprops.netflix";
+    private static final String SMART_PIXELS = "smart_pixels";
     private static final String KEY_THREE_FINGERS_SWIPE = "three_fingers_swipe";
 
     private Preference mPocketJudge;
     private ListPreference mThreeFingersSwipeAction;
+    private Preference mSmartPixels;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -68,8 +71,16 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         mPocketJudge = (Preference) prefScreen.findPreference(POCKET_JUDGE);
         boolean mPocketJudgeSupported = res.getBoolean(
                 com.android.internal.R.bool.config_pocketModeSupported);
-        if (!mPocketJudgeSupported)
+        if (!mPocketJudgeSupported && mPocketJudge != null) {
             prefScreen.removePreference(mPocketJudge);
+        }
+
+        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        boolean mSmartPixelsSupported = getResources().getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels);
+        if (!mSmartPixelsSupported && mSmartPixels != null) {
+            prefScreen.removePreference(mSmartPixels);
+        }
 
         Action threeFingersSwipeAction = Action.fromSettings(getContentResolver(),
                 Settings.System.KEY_THREE_FINGERS_SWIPE_ACTION,
@@ -139,6 +150,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                             com.android.internal.R.bool.config_pocketModeSupported);
                     if (!mPocketJudgeSupported)
                         keys.add(POCKET_JUDGE);
+
+
+                    boolean mSmartPixelsSupported = context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_supportSmartPixels);
+                    if (!mSmartPixelsSupported)
+                        keys.add(SMART_PIXELS);
 
                     return keys;
                 }

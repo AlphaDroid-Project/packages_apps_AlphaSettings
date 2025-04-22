@@ -40,7 +40,6 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.sound.AdaptivePlayback;
-import com.alpha.settings.fragments.sound.PulseSettings;
 import com.alpha.settings.utils.TelephonyUtils;
 
 import java.util.List;
@@ -102,7 +101,6 @@ public class Sound extends SettingsPreferenceFragment {
                 Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
-        PulseSettings.reset(mContext);
         AdaptivePlayback.reset(mContext);
     }
 

@@ -362,8 +362,17 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         return mValue;
     }
 
+    public void setMax(int max) {
+        mMaxValue = max < mMinValue ? mMinValue : max;
+        mSeekBar.setMax(mMaxValue);
+    }
+
+    public void setMin(int min) {
+        mMinValue = min > mMaxValue ? mMaxValue : min;
+        mSeekBar.setMin(mMinValue);
+    }
+
     public void refresh(int newValue) {
-        // this will ...
         setValue(newValue, mSeekBar != null);
     }
 }
