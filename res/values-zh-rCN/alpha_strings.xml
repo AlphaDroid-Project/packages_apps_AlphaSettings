@@ -30,7 +30,7 @@
     <string name="dialog_color_picker">取色器</string>
     <string name="press_color_to_apply">点击以使用下列颜色</string>
     <string name="set">设置</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">默认</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play 商店</string>
     <!-- Custom seekbar -->
@@ -107,7 +107,7 @@
     <string name="volbtn_music_controls_title">播放控制</string>
     <string name="volbtn_music_controls_summary">当屏幕关闭时，长按音量键切换音乐</string>
     <string name="volbtn_cursor_control_title">使用按键控制光标</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_off">禁用</string>
     <string name="volbtn_cursor_control_on">音量+/-控制光标左/右移动</string>
     <string name="volbtn_cursor_control_on_reverse">音量+/-光标控制右/左移动</string>
     <string name="power_end_call_title">结束通话</string>
@@ -130,9 +130,9 @@
     <string name="keyboard_backlight_seekbar_title">键盘亮度</string>
     <string name="backlight_timeout_title">背光超时</string>
     <string name="backlight_timeout_unlimited">永不关闭</string>
-    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_disabled">禁用</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光灯 <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_summary_enabled">启用</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 秒</item>
     </plurals>
@@ -286,7 +286,7 @@
     <string name="status_bar_clock_position_center">居中</string>
     <string name="status_bar_clock_position_hidden">隐藏</string>
     <string name="status_bar_clock_auto_hide_title">自动隐藏</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">当桌面可见时隐藏时钟</string>
     <string name="status_bar_clock_auto_hide_summary">定期隐藏和显示时钟以节省状态栏空间</string>
     <string name="status_bar_clock_auto_hide_hdur_title">隐藏持续时间</string>
     <string name="status_bar_clock_auto_hide_hdur_summary">隐藏时钟的秒数</string>
@@ -326,10 +326,10 @@
     <string name="status_bar_battery_percent_title">电量百分比</string>
     <string name="status_bar_battery_percent_hidden">隐藏</string>
     <string name="status_bar_battery_percent_text_inside">图标内</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="status_bar_battery_percent_text_next_right">图标右侧</string>
+    <string name="status_bar_battery_percent_text_next_left">图标左侧</string>
+    <string name="status_bar_battery_text_charging_title">充电时电池百分比</string>
+    <string name="status_bar_battery_text_charging_summary">充电时总是显示电池百分比</string>
     <!-- Status bar - Battery Bar -->
     <string name="battery_bar_title">电量栏</string>
     <string name="battery_bar_summary">显示并自定义电量栏</string>
@@ -386,7 +386,7 @@
     <string name="navbar_arrow_keys_summary">键入时显示左右光标按钮而不显示输入法选择器</string>
     <string name="navbar_layout_title">布局</string>
     <string name="navbar_layout_normal">正常</string>
-    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_compact">紧凑</string>
     <string name="navbar_layout_expanded">扩展</string>
     <string name="navbar_layout_leftleaning">靠左</string>
     <string name="navbar_layout_rightleaning">靠右</string>
@@ -431,7 +431,7 @@
     <string name="qs_show_brightness_slider_expanded">展开时显示</string>
     <string name="qs_show_brightness_slider_always">始终显示</string>
     <string name="qs_show_brightness_slider_not_expanded">未展开时显示</string>
-    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_title">位置</string>
     <string name="qs_brightness_slider_position_top">顶部</string>
     <string name="qs_brightness_slider_position_bottom">底部</string>
     <!-- Brightness slider haptic feedback -->
@@ -492,7 +492,7 @@
     <string name="notification_light_applist_title">应用程序</string>
     <string name="notification_light_phonelist_title">电话</string>
     <string name="notification_light_use_custom">使用自定义值</string>
-    <string name="notification_light_default_value">Default</string>
+    <string name="notification_light_default_value">默认</string>
     <string name="notification_light_missed_call_title">未接来电</string>
     <string name="notification_light_voicemail_title">语音信箱</string>
     <string name="notification_light_screen_on">在屏幕开启时启用指示灯</string>
@@ -531,7 +531,7 @@
     <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">来电时闪烁闪光灯</string>
-    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_disabled">禁用</string>
     <string name="flashlight_on_call_ringer">响铃时</string>
     <string name="flashlight_on_call_no_ringer">当铃声静音时</string>
     <string name="flashlight_on_call_silent">完全静音 (未响铃或震动)</string>
@@ -550,7 +550,7 @@
     <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">屏幕关闭动画</string>
-    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_default">默认</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">缩放</string>
     <!-- Fingerprint authentication vibration -->
@@ -591,7 +591,7 @@
     <string name="volume_panel_category">音量面板</string>
     <string name="volume_dialog_timeout_title">音量面板超时</string>
     <string name="volume_panel_on_left_title">音量面板居左</string>
-    <string name="volume_dialog_haptic_feedback_title">Volume panel haptics</string>
+    <string name="volume_dialog_haptic_feedback_title">音量面板振动反馈</string>
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">视频模式</string>
     <!-- UDFPS settings -->
@@ -816,10 +816,10 @@
     <string name="lockscreen_weather_location_summary">显示当前天气位置</string>
     <string name="lockscreen_weather_text_title">当前状况</string>
     <string name="lockscreen_weather_text_summary">显示当前天气状况摘要</string>
-    <string name="lockscreen_weather_wind_info_title">Wind info</string>
-    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
-    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
-    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
+    <string name="lockscreen_weather_wind_info_title">风力信息</string>
+    <string name="lockscreen_weather_wind_info_summary">显示当前风速和风向</string>
+    <string name="lockscreen_weather_humidity_info_title">湿度信息</string>
+    <string name="lockscreen_weather_humidity_info_summary">显示当前湿度百分比</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">自适应播放</string>
     <string name="adaptive_playback_summary">静音时暂停媒体，并在超时范围内增加音量以恢复媒体</string>
@@ -882,7 +882,8 @@
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
     <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g>个应用程序已受到保护
+<xliff:g example="10" id="Number of applications">%1$d</xliff:g>个应用程序已受到保护</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">解锁​​​​</string>
     <string name="enable_debugging">启用调试</string>
@@ -991,13 +992,13 @@
     <string name="prevent_ringing_option_cycle">在铃声模式之间循环</string>
     <string name="prevent_ringing_option_cycle_summary">开启 (循环铃声模式)</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Allow app downgrade</string>
-    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <string name="app_downgrade_title">允许应用降级</string>
+    <string name="app_downgrade_summary">这允许您降级应用程序。 请注意，这可能会导致崩溃和数据损坏</string>
     <!-- Heads-up -->
     <string name="compact_heads_up_notifications_enabled_title">紧凑型浮动通知</string>
     <string name="compact_heads_up_notifications_enabled_summary">以缩放大小显示通知</string>
     <!-- Long press navbar to search -->
-    <string name="navbar_long_press_gesture_title">Long press to search</string>
+    <string name="navbar_long_press_gesture_title">长按搜索</string>
     <string name="navbar_long_press_gesture_summary">按住主屏幕按钮或导航栏来搜索您屏幕上的内容</string>
     <!-- Circle to search -->
     <string name="search_all_entrypoints_enabled_title">画圈搜索</string>
@@ -1012,7 +1013,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">需要重启系统界面</string>
     <string name="systemui_restart_message">要使更改生效，需要重新启动系统界面。现在要重新启动系统界面吗？</string>
-    <string name="systemui_restart_yes">Yes</string>
+    <string name="systemui_restart_yes">是</string>
     <string name="systemui_restart_not_now">暂不</string>
     <string name="systemui_restart_process">正在重启系统界面以应用更改...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1026,27 +1027,27 @@
     <!-- ALPHA -->
     <!-- Generic strings -->
     <string name="accent_color">首选颜色 (默认)</string>
-    <string name="add">Add</string>
+    <string name="add">添加</string>
     <string name="advanced">高级选项</string>
     <string name="always">始终</string>
-    <string name="back">Back</string>
+    <string name="back">返回</string>
     <string name="caution">警告</string>
     <string name="choose_app">选择应用</string>
     <string name="custom_color">自定义颜色</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">默认</string>
     <string name="delete">删除</string>
     <string name="delete_message">移除所选项目？</string>
     <string name="disable">禁用</string>
-    <string name="disabled">Disabled</string>
+    <string name="disabled">禁用</string>
     <string name="discard_changes">放弃修改</string>
     <string name="enable">启用</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
+    <string name="enabled">启用</string>
+    <string name="finish">完成</string>
+    <string name="loading">加载</string>
+    <string name="name">名称</string>
     <string name="never">从不</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
+    <string name="next">下一个</string>
+    <string name="no">不</string>
     <string name="notification_color">通知颜色</string>
     <string name="off">关</string>
     <string name="on">开</string>
@@ -1056,7 +1057,7 @@
     <string name="search">搜索</string>
     <string name="settings">设置</string>
     <string name="wallpaper_color">壁纸颜色</string>
-    <string name="yes">Yes</string>
+    <string name="yes">是</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 设置</string>
     <string name="alpha_settings_summary">将会有好东西！</string>
@@ -1064,43 +1065,43 @@
     <string name="reset_settings_message">这将会重置当前用户大部分的 AlphaDroid 设置为默认值。您要继续吗？</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
-    <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
+    <string name="top_level_connectivity_category_title">连接性</string>
+    <string name="top_level_system_info_category_title">系统</string>
+    <string name="top_level_personalize_category_title">个性化</string>
+    <string name="top_level_security_privacy_category_title">安全</string>
+    <string name="top_level_account_category_title">账号</string>
+    <string name="top_level_support_category_title">帮助</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">亮度</string>
     <string name="preference_category_battery">电池</string>
     <string name="preference_category_style">风格</string>
     <string name="preference_category_clock">时钟</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">当前更改记录</string>
+    <string name="changelog_summary">查看安装的 ROM 更新记录</string>
+    <string name="changelog_error">无法加载更新记录</string>
     <!-- About AlphaDroid -->
     <string name="about_alpha">关于 AlphaDroid</string>
     <string name="about_device_name">设备</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Share AlphaDroid</string>
-    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_title">分享 AlphaDroid</string>
+    <string name="share_summary">让其他人了解 AlphaDroid</string>
     <string name="share_message">查看 #AlphaDroid Android 的全部内容 @ https://alpha.net/</string>
-    <string name="share_chooser_title">Share AlphaDroid</string>
+    <string name="share_chooser_title">分享 AlphaDroid</string>
     <!-- Sites AlphaDroid -->
-    <string name="source_title">GitHub</string>
-    <string name="source_summary">We love open source, check us out</string>
-    <string name="telegram_title">AlphaDroid community</string>
-    <string name="telegram_summary">We are on telegram. Join us!</string>
-    <string name="telegram_channel_title">Updates channel</string>
-    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
-    <string name="website_title">Official website</string>
-    <string name="website_summary">Visit our official website</string>
-    <string name="translate_title">Translations</string>
-    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+    <string name="source_title">Github</string>
+    <string name="source_summary">我们热爱开源，来看一看</string>
+    <string name="telegram_title">AlphaDroid 社区</string>
+    <string name="telegram_summary">我们也有 Telegram 频道，加入我们</string>
+    <string name="telegram_channel_title">更新频道</string>
+    <string name="telegram_channel_summary">在 Telegram 上获取新版本更新通知</string>
+    <string name="website_title">官方网站</string>
+    <string name="website_summary">查看我们的官网</string>
+    <string name="translate_title">翻译</string>
+    <string name="translate_summary">帮助我们将 ROM 翻译成你的语言</string>
     <!-- Donate AlphaDroid -->
-    <string name="donate_title">Support us</string>
-    <string name="donate_summary">Donate to support further development</string>
+    <string name="donate_title">支持我们</string>
+    <string name="donate_summary">为了持续开发捐助我们</string>
     <string name="donate_team_title">AlphaDroid 团队</string>
     <string name="donate_team_summary">捐赠支持服务器托管，网站正常运行时间和整体管理</string>
     <!-- OTA -->
@@ -1108,7 +1109,7 @@
     <string name="alpha_update_summary">检查并下载最新更新</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux 状态</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_disabled">禁用</string>
     <string name="selinux_status_permissive">允许</string>
     <string name="selinux_status_enforcing">强制</string>
     <!-- Firmware info -->
@@ -1120,32 +1121,32 @@
     <string name="build_status_summary">非官方版</string>
     <string name="build_status_official">官方</string>
     <string name="build_status_unofficial">非官方版</string>
-    <string name="alpha_build_version">AlphaDroid version</string>
-    <string name="alpha_build_date">Build date</string>
+    <string name="alpha_build_version">AlphaDroid 版本</string>
+    <string name="alpha_build_date">构建日期</string>
     <!-- Maintainer -->
     <string name="maintainer_title">维护者</string>
     <string name="maintainer_summary">正在搜索维护者...</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_title">存储</string>
+    <string name="storage_card_info">占用</string>
     <string name="about_device_rom_title">Android %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <string name="about_device_nearby">设备名称为被周围设备所见</string>
     <!-- Hardware info -->
     <string name="platform_revision">平台</string>
     <string name="total_ram">总内存</string>
     <!-- QuickSwitch -->
-    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
-    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher_title">AlphaDroid 桌面</string>
+    <string name="quickswitch_launcher_summary">更改 AlphaDroid 内置桌面</string>
     <string name="quickswitch_launcher3">Launcher3</string>
-    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_nexuslauncher">Nexus 桌面</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
-    <string name="search_bar_text">search</string>
+    <string name="search_bar_text">搜索</string>
     <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings dashboard style</string>
-    <string name="settings_dashboard_style_summary">The style of Settings main page</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
+    <string name="settings_dashboard_style_title">设置面板样式</string>
+    <string name="settings_dashboard_style_summary">设置主页的样式</string>
+    <string name="settings_dashboard_style_aosp_legacy">AOSP 遗留</string>
+    <string name="settings_dashboard_style_aosp_revamped">AOSP 修改</string>
     <string name="settings_dashboard_style_dot">DoT</string>
     <string name="settings_dashboard_style_alpha">Alpha</string>
     <!-- UI styles -->
@@ -1155,14 +1156,14 @@
     <string name="restricted_current_summary">设置允许的最大电流 (mA)</string>
     <string name="fastcharge_disabled_extended_summary">充电电流限制为: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
     <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">Network</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
+    <string name="network_dashboard_short_title">网络</string>
+    <string name="digital_wellbeing_short_title">数字健康</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">通知图标</string>
     <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
     <!-- QS brightness percentage -->
     <string name="qs_show_brightness_percentage_title">亮度</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
+    <string name="qs_show_brightness_percentage_summary">在亮度滑块旁显示亮度百分比</string>
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">显示波浪动画</string>
     <string name="show_squiggle_animation_summary">显示媒体面板的波浪动画\n更改后需要切换音乐、暂停音乐或移动进度条来应用更改</string>
@@ -1204,14 +1205,14 @@
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_custom">保持关闭直到 <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">强制LTE CA</string>
+    <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
     <!-- Reality Display Engine -->
-    <string name="display_engine_category">Display Engine</string>
-    <string name="display_engine_mode_title">Reality Display Engine</string>
-    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
-    <string name="triluminous_display_mode_title">Triluminous Display</string>
-    <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Default</string>
-    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">现实显示</string>
+    <string name="x_reality_engine_mode_title">X-Reality 显示引擎</string>
+    <string name="triluminous_display_mode_title">特丽魅彩显示技术</string>
+    <string name="vivid_engine_mode_title">生动显示</string>
+    <string name="display_engine_default">默认</string>
+    <string name="display_engine_mode_footer_text">受到索尼的 Bravia/X-Reality 引擎启发，显示引擎提供生动模式以增强亮度和色彩饱和度和提高细节和色彩精度的 X-Reality 模式。</string>
 </resources>
