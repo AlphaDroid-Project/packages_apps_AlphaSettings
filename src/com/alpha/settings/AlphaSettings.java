@@ -18,6 +18,7 @@
 package com.alpha.settings;
 
 import static com.android.settings.alpha.AlphaConstants.DASHBOARD_STYLE_AOSP_LEGACY;
+import static com.android.settings.alpha.AlphaConstants.DASHBOARD_STYLE_AOSP_REVAMPED;
 import static com.android.settings.alpha.AlphaConstants.DASHBOARD_STYLE_NAD;
 
 import android.app.Activity;
@@ -65,12 +66,13 @@ public class AlphaSettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        // setAlphaDashboardStyle();
     }
 
-    public void onResume() {
+    /* public void onResume() {
         super.onResume();
         setAlphaDashboardStyle();
-    }
+    } */
 
     private void hideToolbar() {
         if (mCollapsingToolbarLayout == null) {
@@ -84,7 +86,6 @@ public class AlphaSettings extends DashboardFragment {
     private void setAlphaDashboardStyle() {
 
         int style = Utils.getDashboardStyle(getContext());
-        if (style == DASHBOARD_STYLE_AOSP_LEGACY) return;
 
         PreferenceScreen screen = getPreferenceScreen();
         int count = screen.getPreferenceCount();
@@ -93,22 +94,21 @@ public class AlphaSettings extends DashboardFragment {
 
         for (int i = 0; i < count; i++) {
             preference = screen.getPreference(i);
-            key = preference.getKey();
 
-            if (ALPHA_SETTTINGS_LOGO_KEY.equals(key)) {
+            if (ALPHA_SETTTINGS_LOGO_KEY.equals(preference.getKey())) {
                 preference.setLayoutResource(R.layout.alpha_settings_logo);
-            } else if (UI_SETTINGS_CATEGORY_KEY.equals(key) && style == DASHBOARD_STYLE_NAD) {
-                preference.setLayoutResource(R.layout.nad_accent_homepage_preference);
-            } else {
+
+            }
+            else if (style == DASHBOARD_STYLE_NAD) {
                 preference.setLayoutResource(R.layout.nad_homepage_preference);
             }
         }
-        hideToolbar();
+        // hideToolbar();
     }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_RESET, 0, R.string.reset_settings_title)
+        menu.add(0, MENU_RESET, 0, "")
                 .setIcon(R.drawable.ic_reset)
                 .setAlphabeticShortcut('r')
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |

@@ -17,75 +17,23 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:key="alpha_settings_preference_screen"
-    android:title=" "
+    android:title="@string/alpha_settings_title"
     android:persistent="true">
 
     <!-- Alpha settings logo -->
-    <com.android.settingslib.widget.LayoutPreference
+    <!--<com.android.settingslib.widget.LayoutPreference
         android:key="alpha_settings_logo"
         android:layout="@layout/alpha_settings_logo"
         android:selectable="false"
-        settings:searchable="false" />
+        settings:searchable="false" />-->
 
-    <Preference
-        android:key="ui_settings_category"
-        android:title="@string/ui_title"
-        android:fragment="com.alpha.settings.fragments.UserInterface"
-        android:icon="@drawable/ic_themes"/>
-
-    <!-- Status Bar -->
-    <Preference
-        android:key="statusbar_settings_category"
-        android:title="@string/statusbar_title"
-        android:fragment="com.alpha.settings.fragments.StatusBar"
-        android:icon="@drawable/ic_settings_statusbar"/>
-
-    <!-- Quick Settings -->
-    <Preference
-        android:key="quick_settings_category"
-        android:title="@string/quicksettings_title"
-        android:fragment="com.alpha.settings.fragments.QuickSettings"
-        android:icon="@drawable/ic_settings_quicksettings"/>
-
-    <!-- Buttons -->
-    <Preference
-        android:key="button_settings"
-        android:title="@string/button_title"
-        android:icon="@drawable/ic_buttons"
-        android:fragment="com.alpha.settings.fragments.Buttons"/>
-
-    <!-- Lock Screen -->
-    <Preference
-        android:key="lockscreen_settings_category"
-        android:title="@string/lockscreen_title"
-        android:fragment="com.alpha.settings.fragments.LockScreen"
-        android:icon="@drawable/ic_settings_lockscreen"/>
-
-    <!-- Notifications -->
-    <Preference
-        android:key="notification_settings_category"
-        android:title="@string/notifications_title"
-        android:fragment="com.alpha.settings.fragments.Notifications"
-        android:icon="@drawable/ic_notifications"/>
-
-    <!-- Sound -->
-    <Preference
-        android:key="sound_settings_category"
-        android:title="@string/sound_title"
-        android:fragment="com.alpha.settings.fragments.Sound"
-        android:icon="@drawable/ic_settings_sound"/>
-
-    <!-- Misc -->
-    <Preference
-        android:key="misc_settings_category"
-        android:title="@string/misc_title"
-        android:fragment="com.alpha.settings.fragments.Miscellaneous"
-        android:icon="@drawable/ic_settings_misc"/>
+    <com.alpha.settings.AlphaTopMenu
+        android:key="alpha_top_menu" />
 
     <!-- About AlphaDroid -->
-    <Preference
+    <!--<Preference
         android:key="about_alphadroid"
         android:title="@string/about_alpha"
         android:fragment="com.alpha.settings.fragments.About"
-        android:icon="@drawable/ic_settings_about"/>
+        android:icon="@drawable/ic_settings_about"/>-->
 </PreferenceScreen>
