@@ -19,13 +19,16 @@
     <string name="button_title">Gombok</string>
     <string name="lockscreen_title">Záróképernyő</string>
     <string name="misc_title">Egyebek</string>
+    <string name="misc_title_short">Egyéb</string>
     <string name="navigation_title">Navigáció</string>
     <string name="notifications_title">Értesítések</string>
     <string name="quicksettings_title">Gyorsbeállítások</string>
+    <string name="quicksettings_title_short">Gyorsbeállítások</string>
     <string name="sound_title">Hang</string>
-    <string name="statusbar_title">Értesítési sáv</string>
+    <string name="statusbar_title">Állapotsor</string>
     <string name="display_title">Kijelző</string>
     <string name="ui_title">Felhasználói felület</string>
+    <string name="ui_title_short">Kezelőfelület</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Színválasztó</string>
     <string name="press_color_to_apply">Érintsen meg egy színt annak alkalmazáshoz</string>
@@ -107,7 +110,7 @@
     <string name="volbtn_music_controls_title">Lejátszásvezérlés</string>
     <string name="volbtn_music_controls_summary">Zeneszámok keresése a hangerőgombok hosszan nyomásával kikapcsolt kijelzőnél</string>
     <string name="volbtn_cursor_control_title">Billentyűzet kurzorirányítás</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_off">Kikapcsolva</string>
     <string name="volbtn_cursor_control_on">A hangerő fel/le a kurzort balra/jobbra mozgatja</string>
     <string name="volbtn_cursor_control_on_reverse">A hangerő fel/le a kurzort jobbra/balra mozgatja</string>
     <string name="power_end_call_title">Hívásbefejezés</string>
@@ -130,9 +133,9 @@
     <string name="keyboard_backlight_seekbar_title">Billentyűzet-fényerő</string>
     <string name="backlight_timeout_title">A megvilágítás hossza</string>
     <string name="backlight_timeout_unlimited">Ne kapcsoljon ki</string>
-    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_disabled">Kikapcsolva</string>
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g> másodpercig engedélyezve</string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_summary_enabled">Bekapcsolva</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> másodperc</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> másodperc</item>
@@ -532,7 +535,7 @@
     <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Bejövő hívás jelzése villogó LED-fénnyel</string>
-    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_disabled">Kikapcsolva</string>
     <string name="flashlight_on_call_ringer">Csörgés közben</string>
     <string name="flashlight_on_call_no_ringer">Lenémított csörgéskor</string>
     <string name="flashlight_on_call_silent">Teljes némításkor (se csengés, se rezgés)</string>
@@ -1016,7 +1019,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Rendszerfelület-újraindítás szükséges</string>
     <string name="systemui_restart_message">A módosítások érvénybe léptetéséhez szükséges a rendszerfelület újraindítása. Újraindítja most?</string>
-    <string name="systemui_restart_yes">Yes</string>
+    <string name="systemui_restart_yes">Igen</string>
     <string name="systemui_restart_not_now">Most nem</string>
     <string name="systemui_restart_process">Rendszerfelület-újraindítás a változások életbe léptetéséhez...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1030,10 +1033,10 @@
     <!-- ALPHA -->
     <!-- Generic strings -->
     <string name="accent_color">Kiemelőszín (alapértelmezett)</string>
-    <string name="add">Add</string>
+    <string name="add">Hozzáadás</string>
     <string name="advanced">Haladó</string>
     <string name="always">Mindig</string>
-    <string name="back">Back</string>
+    <string name="back">Vissza</string>
     <string name="caution">Figyelmeztetés</string>
     <string name="choose_app">Alkalmazásválasztás</string>
     <string name="custom_color">Egyéni szín</string>
@@ -1041,16 +1044,16 @@
     <string name="delete">Törlés</string>
     <string name="delete_message">Eltávolítja a kijelölt elemet?</string>
     <string name="disable">Letiltás</string>
-    <string name="disabled">Disabled</string>
+    <string name="disabled">Kikapcsolva</string>
     <string name="discard_changes">Módosítások elvetése</string>
     <string name="enable">Engedélyezés</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
+    <string name="enabled">Bekapcsolva</string>
+    <string name="finish">Kész</string>
+    <string name="loading">Betöltés\u2026</string>
+    <string name="name">Név</string>
     <string name="never">Soha</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
+    <string name="next">Következő</string>
+    <string name="no">Nem</string>
     <string name="notification_color">Értesítési szín</string>
     <string name="off">Ki</string>
     <string name="on">Be</string>
@@ -1060,7 +1063,7 @@
     <string name="search">Keresés</string>
     <string name="settings">Beállítások</string>
     <string name="wallpaper_color">Háttérkép-szín</string>
-    <string name="yes">Yes</string>
+    <string name="yes">Igen</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha beállítások</string>
     <string name="alpha_settings_summary">Lesznek nyalánkságok!</string>
@@ -1068,35 +1071,36 @@
     <string name="reset_settings_message">Ez a legtöbb AlphaDroid-beállításértéket visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
-    <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
+    <string name="top_level_connectivity_category_title">Csatlakoztathatóság</string>
+    <string name="top_level_system_info_category_title">Rendszer</string>
+    <string name="top_level_personalize_category_title">Személyreszabás</string>
+    <string name="top_level_security_privacy_category_title">Biztonság</string>
+    <string name="top_level_account_category_title">Fiókok</string>
+    <string name="top_level_support_category_title">Támogatás</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Fényerő</string>
     <string name="preference_category_battery">Akkumulátor</string>
     <string name="preference_category_style">Stílus</string>
     <string name="preference_category_clock">Óra</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Jelenlegi változásnapló</string>
+    <string name="changelog_summary">A telepített ROM változásainak megtekintése</string>
+    <string name="changelog_error">Nem lehet betölteni a változásnaplót</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">A AlphaDroidról</string>
+    <string name="about_alpha">Az Alpháról</string>
+    <string name="about_alpha_dual_line">Rólunk\nAlphaDroid</string>
     <string name="about_device_name">Készülék</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Share AlphaDroid</string>
-    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_title">Az AlphaDroid megosztása</string>
+    <string name="share_summary">Tudassa másokkal az AlphaDroidot</string>
     <string name="share_message">Nézze meg, hogy a #AlphaDroid Android elkészült-e az Ön készülékéhez: @ https://alpha.net/</string>
-    <string name="share_chooser_title">Share AlphaDroid</string>
+    <string name="share_chooser_title">Az AlphaDroid megosztása</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">We love open source, check us out</string>
-    <string name="telegram_title">AlphaDroid community</string>
-    <string name="telegram_summary">We are on telegram. Join us!</string>
-    <string name="telegram_channel_title">Updates channel</string>
+    <string name="source_summary">Imádjuk a nyílt forrásokat, nézz be hozzánk!</string>
+    <string name="telegram_title">AlphaDroid közösség</string>
+    <string name="telegram_summary">Telegrammon is vagyunk. Csatlakozz hozzánk!</string>
+    <string name="telegram_channel_title">Frissítési csatorna</string>
     <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
     <string name="website_title">Official website</string>
     <string name="website_summary">Visit our official website</string>
@@ -1112,7 +1116,7 @@
     <string name="alpha_update_summary">OTA frissítés ellenőrzése</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux állapota</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_disabled">Kikapcsolva</string>
     <string name="selinux_status_permissive">Engedékeny</string>
     <string name="selinux_status_enforcing">Kényszerített</string>
     <!-- Firmware info -->
