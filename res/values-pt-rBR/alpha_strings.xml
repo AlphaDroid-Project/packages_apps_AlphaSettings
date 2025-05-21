@@ -19,7 +19,7 @@
     <string name="button_title">Botões</string>
     <string name="lockscreen_title">Tela de Bloqueio</string>
     <string name="misc_title">Diversos</string>
-    <string name="misc_title_short">Misc</string>
+    <string name="misc_title_short">Diversos</string>
     <string name="navigation_title">Navegação</string>
     <string name="notifications_title">Notificações</string>
     <string name="quicksettings_title">Configurações Rápidas</string>
@@ -28,7 +28,7 @@
     <string name="statusbar_title">Barra de Status</string>
     <string name="display_title">Tela</string>
     <string name="ui_title">Interface do Usuário</string>
-    <string name="ui_title_short">UI</string>
+    <string name="ui_title_short">Interface do Usuário</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Selecione a cor abaixo para aplicar</string>
@@ -110,7 +110,7 @@
     <string name="volbtn_music_controls_title">Controle de reprodução</string>
     <string name="volbtn_music_controls_summary">Procurar músicas utilizando as teclas de volume, enquanto a tela estiver desligada</string>
     <string name="volbtn_cursor_control_title">Controle do cursor no teclado</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_off">Desabilitado</string>
     <string name="volbtn_cursor_control_on">Volume para cima/baixo move o cursor para a esquerda/direita</string>
     <string name="volbtn_cursor_control_on_reverse">Volume para cima/baixo move o cursor para direita/esquerda</string>
     <string name="power_end_call_title">Terminar chamada</string>
@@ -133,9 +133,9 @@
     <string name="keyboard_backlight_seekbar_title">Brilho do teclado</string>
     <string name="backlight_timeout_title">Tempo limite da iluminação</string>
     <string name="backlight_timeout_unlimited">Não desligar</string>
-    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_disabled">Desabilitado</string>
     <string name="backlight_summary_enabled_with_timeout">Ativo por <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_summary_enabled">Habilitado</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> segundo</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> segundos</item>
@@ -535,7 +535,7 @@
     <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Piscar lanterna ao receber ligações</string>
-    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_disabled">Desabilitado</string>
     <string name="flashlight_on_call_ringer">Ao tocar</string>
     <string name="flashlight_on_call_no_ringer">Quando o toque estiver silenciado</string>
     <string name="flashlight_on_call_silent">Quando totalmente silencioso (sem toque ou vibração)</string>
@@ -555,7 +555,7 @@
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animação ao desligar a tela</string>
     <string name="screen_off_animation_default">Default</string>
-    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_crt">TV Antiga</string>
     <string name="screen_off_animation_scale">Escala</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_vibrate_title">Vibrar no desbloqueio por impressão digital</string>
@@ -780,12 +780,12 @@
     <string name="qs_tile_animation_style_rotate">Girar</string>
     <string name="qs_tile_animation_style_flipx">Inverter X</string>
     <string name="qs_tile_animation_style_flipy">Inverter Y</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_fade_in">Fade In</string>
-    <string name="qs_tile_animation_style_bounce_x">Bounce Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_bounce_y">Bounce Effect (Scale Y)</string>
-    <string name="qs_tile_animation_style_pulse_x">Pulse Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_pulse_y">Pulse Effect (Scale Y)</string>
+    <string name="qs_tile_animation_style_shake">Sacudir</string>
+    <string name="qs_tile_animation_style_fade_in">Surgir</string>
+    <string name="qs_tile_animation_style_bounce_x">Efeito quicar (Escala X)</string>
+    <string name="qs_tile_animation_style_bounce_y">Efeito quicar (Escala Y)</string>
+    <string name="qs_tile_animation_style_pulse_x">Efeito de pulso (Escala X)</string>
+    <string name="qs_tile_animation_style_pulse_y">Efeito de pulso (Escala Y)</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
@@ -1021,8 +1021,8 @@
     <string name="navigation_bar_enable_taskbar_title">Barra de tarefas</string>
     <string name="navigation_bar_enable_taskbar_summary">Mostrar barra de tarefas com o modo de navegação selecionado</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Show IME button space</string>
-    <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
+    <string name="show_ime_space_title">Mostrar espaço do botão IME</string>
+    <string name="show_ime_space_summary">Ative o recurso de troca rápida do método de entrada para alternar entre métodos de entrada ou ocultar o teclado na tela pela barra de recursos na parte inferior da tela enquanto digita.</string>
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">É necessário reiniciar a Interface do Sistema</string>
     <string name="systemui_restart_message">Para aplicar as mudanças, é necessário reiniciar a Interface do Usuário. Reiniciar agora?</string>
@@ -1040,10 +1040,10 @@
     <!-- ALPHA -->
     <!-- Generic strings -->
     <string name="accent_color">Cor de destaque (Padrão)</string>
-    <string name="add">Add</string>
+    <string name="add">Adicionar</string>
     <string name="advanced">Avançado</string>
     <string name="always">Sempre</string>
-    <string name="back">Back</string>
+    <string name="back">Voltar</string>
     <string name="caution">Cuidado</string>
     <string name="choose_app">Escolher aplicativo</string>
     <string name="custom_color">Cor personalizada</string>
@@ -1051,10 +1051,10 @@
     <string name="delete">Excluir</string>
     <string name="delete_message">Remover item selecionado?</string>
     <string name="disable">Desativar</string>
-    <string name="disabled">Disabled</string>
+    <string name="disabled">Desabilitado</string>
     <string name="discard_changes">Descartar alterações</string>
     <string name="enable">Ativar</string>
-    <string name="enabled">Enabled</string>
+    <string name="enabled">Habilitado</string>
     <string name="finish">Finish</string>
     <string name="loading">Loading\u2026</string>
     <string name="name">Name</string>
@@ -1094,8 +1094,8 @@
     <string name="changelog_summary">View changes in the ROM installed</string>
     <string name="changelog_error">Unable to load changelog</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">About Alpha</string>
-    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_alpha">Sobre o Alpha</string>
+    <string name="about_alpha_dual_line">Sobre AlphaDroid</string>
     <string name="about_device_name">Dispositivo</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Share AlphaDroid</string>
@@ -1123,7 +1123,7 @@
     <string name="alpha_update_summary">Verificar e baixar a última atualização</string>
     <!-- SELinux status -->
     <string name="selinux_status">Estado do SELinux</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
     <string name="selinux_status_permissive">Permissivo</string>
     <string name="selinux_status_enforcing">Restritivo</string>
     <!-- Firmware info -->
@@ -1135,7 +1135,7 @@
     <string name="build_status_summary">Não oficial</string>
     <string name="build_status_official">Oficial</string>
     <string name="build_status_unofficial">Não oficial</string>
-    <string name="alpha_build_version">AlphaDroid version</string>
+    <string name="alpha_build_version">Versão do AlphaDroid</string>
     <string name="alpha_build_date">Build date</string>
     <!-- Maintainer -->
     <string name="maintainer_title">Mantenedor</string>
@@ -1230,12 +1230,12 @@
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
+    <string name="theme_customization_qs_style_title">Estilo do painel QS</string>
+    <string name="theme_customization_qs_style_summary">Definir estilo personalizado do painel QS</string>
     <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
+    <string name="theme_customization_brightness_bar_title">Estilo da barra de brilho</string>
+    <string name="theme_customization_brightness_bar_summary">Definir estilo personalizado da barra de brilho</string>
     <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
+    <string name="theme_customization_notifications_title">Estilo das notificações</string>
+    <string name="theme_customization_notifications_summary">Definir estilo personalizado de notificações</string>
 </resources>
