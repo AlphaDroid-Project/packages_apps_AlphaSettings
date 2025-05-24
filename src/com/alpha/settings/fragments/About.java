@@ -73,7 +73,7 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mDonate) {
-            launchUrl("https://paypal.me/alphadroidproject");
+            launchUrl("https://www.paypal.com/donate/?hosted_button_id=UKKSXJYZDMH58");
         } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/alphadroid-project");
         } else if (preference == mTelegramUrl) {
