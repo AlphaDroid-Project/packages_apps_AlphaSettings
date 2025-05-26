@@ -163,6 +163,8 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.ENABLE_ROTATION_BUTTON, 1, UserHandle.USER_CURRENT);
         Settings.Global.putInt(resolver, Settings.Global.WINDOW_IGNORE_SECURE, 0);
+        Settings.Secure.putStringForUser(resolver,
+                Settings.Secure.HIDE_DEVELOPER_STATUS, null, UserHandle.USER_CURRENT);
         SystemProperties.set(SYS_PI_SPOOF, "true");
         SystemProperties.set(SYS_GAMES_SPOOF, "false");
         SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
