@@ -19,16 +19,16 @@
     <string name="button_title">Tombol</string>
     <string name="lockscreen_title">Layar Kunci</string>
     <string name="misc_title">Lain-lain</string>
-    <string name="misc_title_short">Misc</string>
+    <string name="misc_title_short">Lainnya</string>
     <string name="navigation_title">Navigasi</string>
     <string name="notifications_title">Notifikasi</string>
     <string name="quicksettings_title">Setelan Cepat</string>
-    <string name="quicksettings_title_short">QS</string>
+    <string name="quicksettings_title_short">Setelan Cepat</string>
     <string name="sound_title">Suara</string>
     <string name="statusbar_title">Bilah Status</string>
     <string name="display_title">Tampilan</string>
     <string name="ui_title">Antarmuka Pengguna</string>
-    <string name="ui_title_short">UI</string>
+    <string name="ui_title_short">Antarmuka</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Pilihan Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
@@ -110,7 +110,7 @@
     <string name="volbtn_music_controls_title">Kontrol pemutaran</string>
     <string name="volbtn_music_controls_summary">Mencari trek musik dengan menekan lama tombol volume saat layar mati</string>
     <string name="volbtn_cursor_control_title">Kontrol kursor papan ketik</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_off">Dinonaktifkan</string>
     <string name="volbtn_cursor_control_on">Volume atas/bawah akan menggerakkan kursor kiri/kanan</string>
     <string name="volbtn_cursor_control_on_reverse">Volume atas/bawah menggerakkan kursor kanan/kiri</string>
     <string name="power_end_call_title">Akhiri panggilan</string>
@@ -133,9 +133,9 @@
     <string name="keyboard_backlight_seekbar_title">Kecerahan keyboard</string>
     <string name="backlight_timeout_title">Batas waktu pencahayaan</string>
     <string name="backlight_timeout_unlimited">Jangan matikan</string>
-    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_disabled">Dinonaktifkan</string>
     <string name="backlight_summary_enabled_with_timeout">Diaktifkan untuk <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_summary_enabled">Diaktifkan</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> detik</item>
     </plurals>
@@ -175,8 +175,8 @@
     <string name="monet_engine_luminance_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih cerah</string>
     <string name="monet_engine_chroma_factor_title">Faktor kroma</string>
     <string name="monet_engine_chroma_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih kuat</string>
-    <string name="monet_engine_whole_palette_title">Whole palette</string>
-    <string name="monet_engine_whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
+    <string name="monet_engine_whole_palette_title">Palet utuh</string>
+    <string name="monet_engine_whole_palette_summary">Membuat efek pemilihan luminansi dan kroma menjadi warna sekunder juga</string>
     <string name="monet_engine_tint_background_title">Warna latar belakang</string>
     <string name="monet_engine_tint_background_summary">Jadikan pemilihan Pencahayaan dan Kroma juga memengaruhi warna latar belakang</string>
     <string name="monet_engine_style_title">Gaya Tema</string>
@@ -459,7 +459,7 @@
     <string name="brightness">Tingkat kecerahan</string>
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Selalu menyala</string>
-    <string name="pulse_length_blink">Blink</string>
+    <string name="pulse_length_blink">Kedipan</string>
     <string name="pulse_length_very_short">Sangat singkat</string>
     <string name="pulse_length_short">Singkat</string>
     <string name="pulse_length_normal">Normal</string>
@@ -534,7 +534,7 @@
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Kedipkan Senter untuk panggilan masuk</string>
-    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_disabled">Dinonaktifkan</string>
     <string name="flashlight_on_call_ringer">Saat berdering</string>
     <string name="flashlight_on_call_no_ringer">Saat dering disenyapkan</string>
     <string name="flashlight_on_call_silent">Saat benar-benar senyap (tidak ada dering atau getar)</string>
@@ -594,7 +594,7 @@
     <string name="volume_panel_category">Panel volume</string>
     <string name="volume_dialog_timeout_title">Waktu habis panel volume</string>
     <string name="volume_panel_on_left_title">Panel volume di kiri</string>
-    <string name="volume_dialog_haptic_feedback_title">Volume panel haptics</string>
+    <string name="volume_dialog_haptic_feedback_title">Getaran panel volume</string>
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">Mode Video</string>
     <!-- UDFPS settings -->
@@ -778,8 +778,8 @@
     <string name="qs_tile_animation_style_rotate">Putar</string>
     <string name="qs_tile_animation_style_flipx">Balik X</string>
     <string name="qs_tile_animation_style_flipy">Balik Y</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_fade_in">Fade In</string>
+    <string name="qs_tile_animation_style_shake">Kocok</string>
+    <string name="qs_tile_animation_style_fade_in">Memudar</string>
     <string name="qs_tile_animation_style_bounce_x">Bounce Effect (Scale X)</string>
     <string name="qs_tile_animation_style_bounce_y">Bounce Effect (Scale Y)</string>
     <string name="qs_tile_animation_style_pulse_x">Pulse Effect (Scale X)</string>
@@ -1012,11 +1012,11 @@
     <string name="navbar_long_press_gesture_title">Long press to search</string>
     <string name="navbar_long_press_gesture_summary">Touch and hold the Home button or the navigation handle to search using the content on your screen</string>
     <!-- Circle to search -->
-    <string name="search_all_entrypoints_enabled_title">Circle to Search</string>
+    <string name="search_all_entrypoints_enabled_title">Melingkar untuk Mencari</string>
     <string name="search_all_entrypoints_enabled_summary">Use CTS instead of Google Lens for navbar long press</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Ruang IME</string>
-    <string name="navigation_bar_ime_space_narrow">Narrow</string>
+    <string name="navigation_bar_ime_space_narrow">Sempit</string>
     <string name="navigation_bar_ime_space_hidden">Tersembunyi</string>
     <!-- Navigation bar taskbar -->
     <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
@@ -1027,7 +1027,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
-    <string name="systemui_restart_yes">Yes</string>
+    <string name="systemui_restart_yes">Ya</string>
     <string name="systemui_restart_not_now">Tidak sekarang</string>
     <string name="systemui_restart_process">Mulai ulang SystemUI untuk menerapkan perubahan...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1041,10 +1041,10 @@
     <!-- ALPHA -->
     <!-- Generic strings -->
     <string name="accent_color">Warna aksen (Bawaan)</string>
-    <string name="add">Add</string>
+    <string name="add">Tambahkan</string>
     <string name="advanced">Lanjutan</string>
     <string name="always">Selalu</string>
-    <string name="back">Back</string>
+    <string name="back">Kembali</string>
     <string name="caution">Peringatan</string>
     <string name="choose_app">Pilih aplikasi</string>
     <string name="custom_color">Warna kustom</string>
@@ -1052,16 +1052,16 @@
     <string name="delete">Hapus</string>
     <string name="delete_message">Hapus item yang dipilih?</string>
     <string name="disable">Nonaktifkan</string>
-    <string name="disabled">Disabled</string>
+    <string name="disabled">Dinonaktifkan</string>
     <string name="discard_changes">Batalkan perubahan</string>
     <string name="enable">Aktifkan</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
+    <string name="enabled">Diaktifkan</string>
+    <string name="finish">Selesai</string>
+    <string name="loading">Memuat\u2026</string>
+    <string name="name">Nama</string>
     <string name="never">Tidak pernah</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
+    <string name="next">Selanjutnya</string>
+    <string name="no">Tidak</string>
     <string name="notification_color">Warna notifikasi</string>
     <string name="off">Nonaktif</string>
     <string name="on">Aktif</string>
@@ -1071,7 +1071,7 @@
     <string name="search">Pencarian</string>
     <string name="settings">Setelan</string>
     <string name="wallpaper_color">Warna wallpaper</string>
-    <string name="yes">Yes</string>
+    <string name="yes">Ya</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
     <string name="alpha_settings_summary">Akan banyak kejutan!</string>
@@ -1079,44 +1079,44 @@
     <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
-    <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
+    <string name="top_level_connectivity_category_title">Konektivitas</string>
+    <string name="top_level_system_info_category_title">Sistem</string>
+    <string name="top_level_personalize_category_title">Personalisasi</string>
+    <string name="top_level_security_privacy_category_title">Keamanan</string>
+    <string name="top_level_account_category_title">Akun</string>
+    <string name="top_level_support_category_title">Dukungan</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Kecerahan:</string>
     <string name="preference_category_battery">Baterai</string>
     <string name="preference_category_style">Gaya</string>
     <string name="preference_category_clock">Jam</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Perubahan saat ini</string>
+    <string name="changelog_summary">Lihat perubahan pada ROM ini</string>
+    <string name="changelog_error">Gagal memuat daftar perubahan</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">About Alpha</string>
-    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_alpha">Tentang AlphaDroid</string>
+    <string name="about_alpha_dual_line">Tentang\nAlphaDroid</string>
     <string name="about_device_name">Perangkat</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Share AlphaDroid</string>
-    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_title">Bagikan AlphaDroid</string>
+    <string name="share_summary">Beritahu orang lain tentang AlphaDroid</string>
     <string name="share_message">Periksa apakah #AlphaDroid tersedia untuk perangkat Anda @ https://alpha.net/</string>
-    <string name="share_chooser_title">Share AlphaDroid</string>
+    <string name="share_chooser_title">Bagikan AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">We love open source, check us out</string>
-    <string name="telegram_title">AlphaDroid community</string>
-    <string name="telegram_summary">We are on telegram. Join us!</string>
-    <string name="telegram_channel_title">Updates channel</string>
-    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
-    <string name="website_title">Official website</string>
-    <string name="website_summary">Visit our official website</string>
-    <string name="translate_title">Translations</string>
-    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+    <string name="source_summary">Kami suka dengan open source, kunjungi kami</string>
+    <string name="telegram_title">Komunitas AlphaDroid</string>
+    <string name="telegram_summary">Kami ada di Telegram. Ayo bergabung!</string>
+    <string name="telegram_channel_title">Saluran Pembaruan</string>
+    <string name="telegram_channel_summary">Dapatkan notifikasi tentang pembaruan baru dari Telegram</string>
+    <string name="website_title">Situs Web Resmi</string>
+    <string name="website_summary">Kunjungi situs resmi kami</string>
+    <string name="translate_title">Terjemahan</string>
+    <string name="translate_summary">Bantu kami menerjemahkan ROM ini ke bahasa Anda!</string>
     <!-- Donate AlphaDroid -->
-    <string name="donate_title">Support us</string>
-    <string name="donate_summary">Donate to support further development</string>
+    <string name="donate_title">Dukung Kami</string>
+    <string name="donate_summary">Ayo donasi untuk mendukung kami</string>
     <string name="donate_team_title">Tim AlphaDroid</string>
     <string name="donate_team_summary">Donasi untuk mendukung server hosting, keaktifan situs serta pemanajemenan secara keseluruhan</string>
     <!-- OTA -->
@@ -1124,7 +1124,7 @@
     <string name="alpha_update_summary">Periksa dan unduh pembaruan terbaru</string>
     <!-- SELinux status -->
     <string name="selinux_status">Status SElinux</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
@@ -1136,19 +1136,19 @@
     <string name="build_status_summary">Tidak Resmi</string>
     <string name="build_status_official">Resmi</string>
     <string name="build_status_unofficial">Tidak Resmi</string>
-    <string name="alpha_build_version">AlphaDroid version</string>
-    <string name="alpha_build_date">Build date</string>
+    <string name="alpha_build_version">Versi AlphaDroid</string>
+    <string name="alpha_build_date">Tanggal pembuatan</string>
     <!-- Maintainer -->
     <string name="maintainer_title">Pengelola</string>
     <string name="maintainer_summary">Mencari pengelola..</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_title">Ruang penyimpanan</string>
+    <string name="storage_card_info">Terpakai</string>
     <string name="about_device_rom_title">Android %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <string name="about_device_nearby">Nama perangkat akan bisa terlihat oleh perangkat di sekitar.</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Total Memori</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
     <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
@@ -1231,7 +1231,7 @@
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
+    <string name="theme_customization_qs_style_title">Gaya Setelan Cepat</string>
     <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
     <!-- Brightness bar styles -->
     <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
