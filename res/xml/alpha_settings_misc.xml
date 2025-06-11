@@ -41,16 +41,29 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
+    <!-- Keybox import -->
+    <Preference
+        android:key="import_keybox"
+        android:icon="@drawable/ic_key_add"
+        android:title="@string/import_keybox_title"
+        android:summary="@string/import_keybox_summary" />
+
+    <Preference
+        android:key="clear_keybox"
+        android:icon="@drawable/ic_key_remove"
+        android:title="@string/clear_keybox_title"
+        android:summary="@string/clear_keybox_summary" />
+
     <!-- Unlock FPS for specific games -->
     <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.games"
+        android:key="persist.sys.pp.gam"
         android:icon="@drawable/ic_backup"
         android:title="@string/use_games_spoof_title"
         android:summary="@string/use_games_spoof_summary" />
 
     <!-- Unlimited google photos storage -->
     <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.gphotos"
+        android:key="persist.sys.pp.gph"
         android:icon="@drawable/ic_backup"
         android:title="@string/use_photos_spoof_title"
         android:summary="@string/use_photos_spoof_summary"
@@ -58,7 +71,7 @@
 
     <!-- Netflix -->
     <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.netflix"
+        android:key="persist.sys.pp.nf"
         android:icon="@drawable/ic_netflix"
         android:title="@string/netflix_spoof_title"
         android:summary="@string/netflix_spoof_summary"
