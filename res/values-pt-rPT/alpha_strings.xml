@@ -19,7 +19,7 @@
     <string name="button_title">Botões</string>
     <string name="lockscreen_title">Ecrã de bloqueio</string>
     <string name="misc_title">Diversos</string>
-    <string name="misc_title_short">Misc</string>
+    <string name="misc_title_short">Diversos</string>
     <string name="navigation_title">Navegação</string>
     <string name="notifications_title">Notificações</string>
     <string name="quicksettings_title">Definições rápidas</string>
@@ -28,7 +28,7 @@
     <string name="statusbar_title">Barra de estado</string>
     <string name="display_title">Ecrã</string>
     <string name="ui_title">Interface de utilizador</string>
-    <string name="ui_title_short">UI</string>
+    <string name="ui_title_short">Interface do utilizador</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Paleta de cores</string>
     <string name="press_color_to_apply">Premir numa cor para aplicar</string>
@@ -595,7 +595,7 @@
     <string name="volume_panel_category">Painel de volume</string>
     <string name="volume_dialog_timeout_title">Tempo limite do painel de volume</string>
     <string name="volume_panel_on_left_title">Painel de volume à esquerda</string>
-    <string name="volume_dialog_haptic_feedback_title">Volume panel haptics</string>
+    <string name="volume_dialog_haptic_feedback_title">Vibração na barra de volume</string>
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">Modo de vídeo</string>
     <!-- UDFPS settings -->
@@ -780,12 +780,12 @@
     <string name="qs_tile_animation_style_rotate">Rodar</string>
     <string name="qs_tile_animation_style_flipx">Inverter X</string>
     <string name="qs_tile_animation_style_flipy">Inverter Y</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_fade_in">Fade In</string>
-    <string name="qs_tile_animation_style_bounce_x">Bounce Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_bounce_y">Bounce Effect (Scale Y)</string>
-    <string name="qs_tile_animation_style_pulse_x">Pulse Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_pulse_y">Pulse Effect (Scale Y)</string>
+    <string name="qs_tile_animation_style_shake">Agitar</string>
+    <string name="qs_tile_animation_style_fade_in">Aparecer gradualmente</string>
+    <string name="qs_tile_animation_style_bounce_x">Efeito de Pingue-pongue (Escala X)</string>
+    <string name="qs_tile_animation_style_bounce_y">Efeito de Pingue-pongue (Escala Y)</string>
+    <string name="qs_tile_animation_style_pulse_x">Efeito de pulsação (Escala X)</string>
+    <string name="qs_tile_animation_style_pulse_y">Efeito de pulsação (Escala Y)</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
@@ -867,6 +867,10 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Máscara de Integridade do Google Play</string>
     <string name="pi_spoof_summary">Disfarçar o seu dispositivo como um modelo diferente para a Netflix</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ocultar estado do Modo Programador</string>
+    <string name="hide_developer_status_summary">Não permitir que as aplicações consultem o estado do Modo Programador</string>
+    <string name="search_apps">Pesquisar aplicações</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Verificar conectividade</string>
     <string name="captive_portal_summary">Determine se o dispositivo pode se conectar à Internet, entrando em contato com o Google. Também usado para detectar portais cativos.</string>
@@ -1018,25 +1022,25 @@
     <string name="navigation_bar_ime_space_narrow">Estreita</string>
     <string name="navigation_bar_ime_space_hidden">Oculto</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
-    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
+    <string name="navigation_bar_enable_taskbar_title">Barra de tarefas</string>
+    <string name="navigation_bar_enable_taskbar_summary">Mostrar barra de tarefas com o modo de navegação selecionado</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Show IME button space</string>
-    <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
+    <string name="show_ime_space_title">Mostrar espaço abaixo do teclado</string>
+    <string name="show_ime_space_summary">Ativar a mudança de método de entrada para alternar os métodos de entrada ou ocultar o teclado na tela da barra de recursos na parte inferior da tela quando digitar</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">SystemUI restart required</string>
-    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
+    <string name="systemui_restart_title">É necessário o reinício da UI do sistema</string>
+    <string name="systemui_restart_message">É necessário reiniciar a interface do sistema para que todas as modificações tenham efeito. Reiniciar agora?</string>
     <string name="systemui_restart_yes">Sim</string>
     <string name="systemui_restart_not_now">Agora não</string>
-    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
+    <string name="systemui_restart_process">A reiniciar a interface do sistema para aplicar as alterações...</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Notification style</string>
-    <string name="powermenu_style_title">Power menu style</string>
+    <string name="notification_style_title">Estilo das notificações</string>
+    <string name="powermenu_style_title">Estilo do menu de energia</string>
     <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Duoline</string>
-    <string name="custom_style_fluid">Fluid (Transparent)</string>
+    <string name="custom_style_duoline">Linha dupla</string>
+    <string name="custom_style_fluid">Fluído (transparente)</string>
     <string name="custom_style_ios">IOS</string>
-    <string name="custom_style_layers">Layers</string>
+    <string name="custom_style_layers">Camadas</string>
     <!-- ALPHA -->
     <!-- Generic strings -->
     <string name="accent_color">Cor de destaque (Padrão)</string>
@@ -1094,8 +1098,8 @@
     <string name="changelog_summary">Ver alterações do sistema recentes</string>
     <string name="changelog_error">Não foi possível carregar o registo de alterações</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">About Alpha</string>
-    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_alpha">Acerca de AlphaDroid</string>
+    <string name="about_alpha_dual_line">Acerca de\nAlphaDroid</string>
     <string name="about_device_name">Dispositivo</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Partilhar AlphaDroid</string>
@@ -1230,12 +1234,22 @@
     <string name="display_engine_default">Predefinido</string>
     <string name="display_engine_mode_footer_text">Inspirado pelo motor da Sony\'s Bravia/Realidade-X, o mecanismo de exibição apresenta o modo vívido para melhor brilho e saturação de cor e modo Realidade-X para melhorar detalhes e precisão de cor.</string>
     <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
+    <string name="theme_customization_qs_style_title">Estilo do painel de configurações rápidas</string>
+    <string name="theme_customization_qs_style_summary">Definir estilo personalizado do painel de configurações rápidas</string>
     <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
+    <string name="theme_customization_brightness_bar_title">Estilo da barra de brilho</string>
+    <string name="theme_customization_brightness_bar_summary">Personalizar o estilo da barra de controlo do brilho</string>
     <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
+    <string name="theme_customization_notifications_title">Estilo das notificações</string>
+    <string name="theme_customization_notifications_summary">Personalizar o estilo das notificações</string>
+    <!-- Keybox import -->
+    <string name="import_keybox_title">Importar chaves</string>
+    <string name="import_keybox_summary">Importar chaves personalizadas de máscara. As chaves devem estar no formato PKCS#8</string>
+    <string name="import_success">Chaves importadas com sucesso!</string>
+    <string name="import_failed">Erro ao importar chaves.</string>
+    <string name="import_io_error">Erro na operação do ficheiro</string>
+    <string name="clear_keybox_title">Limpar chaves</string>
+    <string name="clear_keybox_summary">Desativar máscara de chaves</string>
+    <string name="clear_success">Chaves removidas com sucesso. A desativar máscara de chaves...</string>
+    <string name="clear_failed">Erro ao remover chaves.</string>
 </resources>

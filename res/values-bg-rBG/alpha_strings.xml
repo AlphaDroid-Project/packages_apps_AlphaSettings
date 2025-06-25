@@ -867,6 +867,10 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play Integrity spoof</string>
     <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">连接检查</string>
     <string name="captive_portal_summary">通过联系 Google 确定设备是否可以连接到互联网，也用于检测强制登录页面。</string>
@@ -1238,4 +1242,14 @@
     <!-- Notifications style -->
     <string name="theme_customization_notifications_title">Notifications style</string>
     <string name="theme_customization_notifications_summary">Set custom notifications style</string>
+    <!-- Keybox import -->
+    <string name="import_keybox_title">Import Keybox</string>
+    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
+    <string name="import_success">Keybox imported successfully!</string>
+    <string name="import_failed">Failed to import keybox</string>
+    <string name="import_io_error">File operation error</string>
+    <string name="clear_keybox_title">Clear Keybox</string>
+    <string name="clear_keybox_summary">Disable keybox spoofing</string>
+    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
+    <string name="clear_failed">Failed to remove keybox</string>
 </resources>

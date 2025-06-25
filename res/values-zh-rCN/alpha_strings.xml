@@ -865,6 +865,10 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play 验证伪装</string>
     <string name="pi_spoof_summary">将你的设备伪装成其他的型号以通过 Google Play 完整性验证</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">隐藏开发者状态</string>
+    <string name="hide_developer_status_summary">对应用隐藏开发者状态</string>
+    <string name="search_apps">搜索应用</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">连通性检查</string>
     <string name="captive_portal_summary">通过与 Google 服务器连接以确定设备是否已到互联网。 同样用于检测强制门户。</string>
@@ -1237,4 +1241,14 @@
     <!-- Notifications style -->
     <string name="theme_customization_notifications_title">通知样式</string>
     <string name="theme_customization_notifications_summary">设置自定义通知样式</string>
+    <!-- Keybox import -->
+    <string name="import_keybox_title">导入 keybox</string>
+    <string name="import_keybox_summary">导入自定义的 keybox 损坏。keybox 必须为 PKCS#8 格式</string>
+    <string name="import_success">keybox 导入成功！</string>
+    <string name="import_failed">导入 keybox 失败</string>
+    <string name="import_io_error">文件操作错误</string>
+    <string name="clear_keybox_title">清楚 keybox</string>
+    <string name="clear_keybox_summary">禁用 keybox 伪装</string>
+    <string name="clear_success">已成功删除 keybox。已禁用 keybox 伪装</string>
+    <string name="clear_failed">删除 keybox 失败</string>
 </resources>

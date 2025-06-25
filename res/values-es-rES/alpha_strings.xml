@@ -868,6 +868,10 @@ Mantén presionado para establecer</string>
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Integridad de Google Play simulada</string>
     <string name="pi_spoof_summary">Simule el dispositivo como un modelo diferente para la integridad de Google Play</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Buscar apps</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Comprobación de conectividad</string>
     <string name="captive_portal_summary">Comprueba si el dispositivo puede conectarse a Internet conectándose a Google. También se utiliza para detectar portales cautivos.</string>
@@ -1027,7 +1031,7 @@ Mantén presionado para establecer</string>
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Se requiere el reinicio de la interfaz de usuario del sistema</string>
     <string name="systemui_restart_message">Para que los cambios surtan efecto, se requiere el reinicio de la interfaz de usuario del sistema. ¿Reiniciar ahora?</string>
-    <string name="systemui_restart_yes">Yes</string>
+    <string name="systemui_restart_yes">Si</string>
     <string name="systemui_restart_not_now">Ahora no</string>
     <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1056,11 +1060,11 @@ Mantén presionado para establecer</string>
     <string name="discard_changes">Descartar cambios</string>
     <string name="enable">Activar</string>
     <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
+    <string name="finish">Finalizado</string>
+    <string name="loading">Cargando</string>
+    <string name="name">Nombre</string>
     <string name="never">Nunca</string>
-    <string name="next">Next</string>
+    <string name="next">Siguiente</string>
     <string name="no">No</string>
     <string name="notification_color">Color de la notificación</string>
     <string name="off">Apagado</string>
@@ -1071,7 +1075,7 @@ Mantén presionado para establecer</string>
     <string name="search">Buscar</string>
     <string name="settings">Ajustes</string>
     <string name="wallpaper_color">Color del fondo de pantalla</string>
-    <string name="yes">Yes</string>
+    <string name="yes">Si</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Ajustes de Alpha</string>
     <string name="alpha_settings_summary">¡Habrá mejoras!</string>
@@ -1079,8 +1083,8 @@ Mantén presionado para establecer</string>
     <string name="reset_settings_message">Esto restablecerá la mayor parte de la configuración de AlphaDroid a sus valores predeterminados para el usuario actual. ¿Deseas continuar?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
+    <string name="top_level_connectivity_category_title">Sistema</string>
+    <string name="top_level_system_info_category_title">Sistema</string>
     <string name="top_level_personalize_category_title">Personalization</string>
     <string name="top_level_security_privacy_category_title">Security</string>
     <string name="top_level_account_category_title">Accounts</string>
@@ -1240,4 +1244,14 @@ Después cambia de música, pausala o mueve la barra de progreso para aplicarla<
     <!-- Notifications style -->
     <string name="theme_customization_notifications_title">Notifications style</string>
     <string name="theme_customization_notifications_summary">Set custom notifications style</string>
+    <!-- Keybox import -->
+    <string name="import_keybox_title">Import Keybox</string>
+    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
+    <string name="import_success">Keybox imported successfully!</string>
+    <string name="import_failed">Failed to import keybox</string>
+    <string name="import_io_error">File operation error</string>
+    <string name="clear_keybox_title">Clear Keybox</string>
+    <string name="clear_keybox_summary">Disable keybox spoofing</string>
+    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
+    <string name="clear_failed">Failed to remove keybox</string>
 </resources>
