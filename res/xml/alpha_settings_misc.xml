@@ -77,6 +77,23 @@
         android:summary="@string/netflix_spoof_summary"
         android:defaultValue="false" />
 
+    <!-- Hide ADB and developer status -->
+    <Preference
+        android:key="hide_developer_status_settings"
+        android:icon="@drawable/ic_hide"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.alpha.settings.fragments.misc.HideDeveloperStatusSettings"
+        settings:controller="com.alpha.settings.fragments.misc.HideDeveloperStatusPreferenceController" />
+
+
+    <com.alpha.settings.preferences.GlobalSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:icon="@drawable/ic_settings_security"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false" />
+
     <!-- Parallel space
     <Preference
         android:key="parallel_space"
@@ -94,15 +111,6 @@
         android:title="@string/app_downgrade_title"
         android:summary="@string/app_downgrade_summary"
         android:defaultValue="false"/>
-
-    <!-- Hide ADB and developer status -->
-    <Preference
-    android:key="hide_developer_status_settings"
-    android:icon="@drawable/ic_hide"
-    android:title="@string/hide_developer_status_title"
-    android:summary="@string/hide_developer_status_summary"
-    android:fragment="com.alpha.settings.fragments.misc.HideDeveloperStatusSettings"
-    settings:controller="com.alpha.settings.fragments.misc.HideDeveloperStatusPreferenceController" />
 
     <!-- Sidebar -->
     <Preference
