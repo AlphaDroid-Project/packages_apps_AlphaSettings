@@ -54,6 +54,14 @@
         android:title="@string/clear_keybox_title"
         android:summary="@string/clear_keybox_summary" />
 
+    <!-- Google Play Integrity -->
+    <com.alpha.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.pp.pi"
+        android:icon="@drawable/ic_google"
+        android:title="@string/pi_spoof_title"
+        android:summary="@string/pi_spoof_summary"
+        android:defaultValue="true" />
+
     <!-- Unlock FPS for specific games -->
     <com.alpha.settings.preferences.SystemPropertySwitchPreference
         android:key="persist.sys.pp.gam"
