@@ -74,6 +74,14 @@
             android:summary="@string/lockscreen_show_carrier_summary"
             android:defaultValue="true" />
 
+        <!-- Pulse music visualizer -->
+        <Preference
+            android:key="pulse_settings"
+            android:icon="@drawable/ic_pulse"
+            android:title="@string/pulse_settings_title"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.alpha.settings.fragments.lockscreen.PulseSettings" />
+
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="ls_media_art_enabled"
             android:icon="@drawable/ic_movie"
