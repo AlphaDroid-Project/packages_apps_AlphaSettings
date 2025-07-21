@@ -573,6 +573,10 @@ Mantén presionado para establecer</string>
     <string name="app_volume">Volumen de la aplicación</string>
     <string name="app_volume_title">Control de volumen por aplicación</string>
     <string name="app_volume_summary">Mostrar el botón de volumen por aplicación en el diálogo de volumen</string>
+    <!-- Cloudflare Block Malware DNS Option -->
+    <!-- Cloudflare Block Malware DNS hostname -->
+    <!-- Cloudflare Block Malware and Adult Content DNS Option -->
+    <!-- Cloudflare Block Malware and Adult Content DNS hostname -->
     <!-- AdGuard DNS Option -->
     <!-- AdGuard DNS hostname -->
     <!-- Open DNS Option -->
@@ -581,6 +585,12 @@ Mantén presionado para establecer</string>
     <!-- Cleanbrowsing DNS hostname -->
     <!-- Quad9 DNS Option -->
     <!-- Quad9 DNS hostname -->
+    <!-- Quad9 Unsecured DNS Option -->
+    <!-- Quad9 Unsecured DNS hostname -->
+    <!-- Quad9 ECS DNS Option -->
+    <!-- Quad9 ECS DNS hostname -->
+    <!-- Quad9 Unsecured ECS DNS Option -->
+    <!-- Quad9 Unsecured ECS DNS hostname -->
     <!-- Comss DNS Option -->
     <!-- Comss DNS hostname -->
     <!-- Alert Slider Notifications (OnePlus devices) -->
@@ -1083,35 +1093,35 @@ Mantén presionado para establecer</string>
     <string name="reset_settings_message">Esto restablecerá la mayor parte de la configuración de AlphaDroid a sus valores predeterminados para el usuario actual. ¿Deseas continuar?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Sistema</string>
+    <string name="top_level_connectivity_category_title">Conectividad</string>
     <string name="top_level_system_info_category_title">Sistema</string>
     <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
+    <string name="top_level_security_privacy_category_title">Seguridad</string>
+    <string name="top_level_account_category_title">Cuentas</string>
+    <string name="top_level_support_category_title">Soporte</string>
     <!-- Preference categories -->
     <string name="preference_category_brightness">Brillo</string>
     <string name="preference_category_battery">Batería</string>
     <string name="preference_category_style">Estilo</string>
     <string name="preference_category_clock">Reloj</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Registro de cambios</string>
+    <string name="changelog_summary">Ver los cambios en la ROM instalada</string>
+    <string name="changelog_error">No se ha podido cargar el registro de cambios</string>
     <!-- About AlphaDroid -->
     <string name="about_alpha">About Alpha</string>
     <string name="about_alpha_dual_line">About\nAlphaDroid</string>
     <string name="about_device_name">Dispositivo</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Share AlphaDroid</string>
-    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_title">Compartir AlphaDroid</string>
+    <string name="share_summary">Haz saber a los demás qué es AlphaDroid</string>
     <string name="share_message">Echa un vistazo si #AlphaDroid está disponible para tu dispositivo @ https://alpha.net/</string>
-    <string name="share_chooser_title">Share AlphaDroid</string>
+    <string name="share_chooser_title">Compartir AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">We love open source, check us out</string>
+    <string name="source_summary">Nos encanta el código abierto, échanos un vistazo</string>
     <string name="telegram_title">AlphaDroid community</string>
-    <string name="telegram_summary">We are on telegram. Join us!</string>
+    <string name="telegram_summary">Estamos en Telegram. ¡Únete!</string>
     <string name="telegram_channel_title">Updates channel</string>
     <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
     <string name="website_title">Official website</string>
@@ -1254,4 +1264,7 @@ Después cambia de música, pausala o mueve la barra de progreso para aplicarla<
     <string name="clear_keybox_summary">Disable keybox spoofing</string>
     <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
     <string name="clear_failed">Failed to remove keybox</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
 </resources>
