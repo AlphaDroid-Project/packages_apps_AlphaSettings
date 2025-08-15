@@ -11,18 +11,24 @@ import android.net.Network;
 import android.net.NetworkCapabilities;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceFragmentCompat;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceManager;
-
-import android.provider.Settings;
+import androidx.preference.PreferenceViewHolder;
 
 import com.android.settings.R;
+import com.android.settingslib.widget.UsageProgressBarPreference;
 
 import org.json.JSONObject;
 
@@ -39,37 +45,44 @@ public class DonateActivity extends AppCompatActivity {
 
     private static final String TAG = "DonateActivity";
 
-    private ProgressBar progressBar;
-    private TextView statSummary;
-
     private final ExecutorService executor = Executors.newSingleThreadExecutor();
 
     @Override
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
-
         setContentView(R.layout.activity_donate);
 
         Button donateNow = findViewById(R.id.crdroid_donate_button);
         Button dismiss = findViewById(R.id.crdroid_later_button);
 
-        progressBar = findViewById(R.id.crdroid_donate_progress);
-        statSummary = findViewById(R.id.crdroid_donate_stat_summary);
-
         donateNow.setOnClickListener(v -> openDonatePage());
         dismiss.setOnClickListener(v -> onDismissClick());
+
+        TextView msg = findViewById(R.id.crdroid_donate_message);
+        if (msg != null) {
+            msg.setMovementMethod(new ScrollingMovementMethod());
+        }
 
         DonateReceiver.cancelNotification(this);
         setLastChecked();
 
+        FragmentManager fm = getSupportFragmentManager();
+        DonateFragment fragment = (DonateFragment) fm.findFragmentByTag(DonateFragment.TAG);
+        if (fragment == null) {
+            fragment = new DonateFragment();
+            fm.beginTransaction()
+                    .replace(R.id.preference_container, fragment, DonateFragment.TAG)
+                    .commitNow();
+        }
         if (isNetworkAvailable(this)) {
-            fetchDonationData();
+            fetchDonationData(fragment);
         }
     }
 
     private void openDonatePage() {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://crdroid.net/donate")));
-        finish();
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://crdroid.net/donate"));
+        i.addCategory(Intent.CATEGORY_BROWSABLE);
+        startActivity(i);
     }
 
     private void onDismissClick() {
@@ -94,7 +107,7 @@ public class DonateActivity extends AppCompatActivity {
         return capabilities != null && capabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET);
     }
 
-    private void fetchDonationData() {
+    private void fetchDonationData(DonateFragment fragment) {
         executor.execute(() -> {
             JSONObject json = null;
             HttpURLConnection connection = null;
@@ -108,7 +121,7 @@ public class DonateActivity extends AppCompatActivity {
 
                 if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     try (InputStream in = new BufferedInputStream(connection.getInputStream());
-                        BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
+                         BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
                         StringBuilder sb = new StringBuilder();
                         String line;
                         while ((line = reader.readLine()) != null) sb.append(line);
@@ -122,45 +135,80 @@ public class DonateActivity extends AppCompatActivity {
             }
 
             final JSONObject finalJson = json;
-            runOnUiThread(() -> updateUI(finalJson));
+            runOnUiThread(() -> fragment.updateFromJson(finalJson));
         });
-    }
-
-    private void updateUI(JSONObject json) {
-        if (json == null || json.has("error")) {
-            progressBar.setVisibility(View.GONE);
-            statSummary.setVisibility(View.GONE);
-            return;
-        }
-
-        try {
-            double raised = json.optDouble("raised", 0);
-            double goal = json.optDouble("goal", 0);
-
-            progressBar.setVisibility(View.VISIBLE);
-            statSummary.setVisibility(View.VISIBLE);
-
-            int progress = (int) ((raised / goal) * 100);
-            progressBar.setMax(100);
-            progressBar.setProgress(Math.min(progress, 100));
-
-            if (goal == 0 || raised >= goal) {
-                statSummary.setText(getString(R.string.crdroid_donate_thank_you));
-            } else {
-                double remaining = goal - raised;
-                statSummary.setText(getString(R.string.crdroid_donate_still_needed, (int) remaining));
-            }
-        } catch (Exception e) {
-            Log.d(TAG, "json: " + json);
-            Log.e(TAG, "Error: ", e);
-            progressBar.setVisibility(View.GONE);
-            statSummary.setVisibility(View.GONE);
-        }
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         executor.shutdownNow();
+    }
+
+    public static class DonateFragment extends PreferenceFragmentCompat {
+
+        static final String TAG = "DonateFragment";
+        private static final String KEY_USAGE_PREF = "donation_usage_pref";
+
+        private UsageProgressBarPreference usagePref;
+
+        @Override
+        public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+            PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(requireContext());
+            setPreferenceScreen(screen);
+
+            usagePref = new UsageProgressBarPreference(requireContext()) {
+                @Override
+                public void onBindViewHolder(PreferenceViewHolder holder) {
+                    super.onBindViewHolder(holder);
+                    TextView bottom = (TextView) holder.findViewById(com.android.settingslib.widget.preference.usage.R.id.bottom_summary);
+                    if (bottom != null) {
+                        bottom.setTextAppearance(holder.itemView.getContext(),
+                            androidx.appcompat.R.style.TextAppearance_AppCompat_Subhead);
+                    }
+                }
+            };
+            usagePref.setKey(KEY_USAGE_PREF);
+            usagePref.setSelectable(false);
+            usagePref.setUsageSummary(getString(R.string.crdroid_donate_loading));
+            usagePref.setTotalSummary("");
+            usagePref.setPercent(0, 100);
+            usagePref.setVisible(false);
+            screen.addPreference(usagePref);
+        }
+
+        void updateFromJson(@Nullable JSONObject json) {
+            if (!isAdded() || usagePref == null) return;
+
+            if (json == null || json.has("error")) {
+                usagePref.setVisible(false);
+                return;
+            }
+
+            try {
+                double raised = json.optDouble("raised", 0);
+                double goal = json.optDouble("goal", 0);
+
+                usagePref.setVisible(true);
+                String raisedTxt = getString(R.string.crdroid_donate_raised, (int) raised);
+                String totalTxt = getString(R.string.crdroid_donate_total, (int) goal);
+                usagePref.setUsageSummary(raisedTxt);
+                usagePref.setTotalSummary(totalTxt);
+                usagePref.setPercent((long) raised, (long) Math.max(raised, goal));
+
+                if (goal == 0 || raised >= goal) {
+                    usagePref.setBottomSummary(getString(R.string.crdroid_donate_thank_you));
+                    usagePref.setBottomSummaryContentDescription(getString(R.string.crdroid_donate_thank_you));
+                } else {
+                    double remaining = goal - raised;
+                    String bottom = getString(R.string.crdroid_donate_still_needed, (int) remaining);
+                    usagePref.setBottomSummary(bottom);
+                    usagePref.setBottomSummaryContentDescription(bottom);
+                }
+            } catch (Exception e) {
+                Log.e(TAG, "Error updating UI from JSON", e);
+                usagePref.setVisible(false);
+            }
+        }
     }
 }
