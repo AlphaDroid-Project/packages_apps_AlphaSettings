@@ -17,6 +17,7 @@ package com.alpha.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -329,5 +330,20 @@ public class QuickSettings extends SettingsPreferenceFragment implements
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_quicksettings);
+            new BaseSearchIndexProvider(R.xml.crdroid_settings_quicksettings) {
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    final Resources res = context.getResources();
+
+                    boolean automaticAvailable = res.getBoolean(
+                            com.android.internal.R.bool.config_automatic_brightness_available);
+                    if (!automaticAvailable) {
+                        keys.add(KEY_SHOW_AUTO_BRIGHTNESS);
+                    }
+
+                    return keys;
+                }
+            };
 }
