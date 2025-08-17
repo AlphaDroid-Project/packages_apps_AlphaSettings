@@ -159,19 +159,19 @@
 
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
 
-        <ListPreference
-            android:key="qs_tile_ui_style"
+        <com.alpha.settings.preferences.SystemSettingListPreference
+            android:key="qs_tile_shape"
             android:icon="@drawable/ic_shapes"
-            android:title="@string/qs_tile_ui_style_title"
-            android:entries="@array/qs_tile_ui_style_entries"
-            android:entryValues="@array/qs_tile_ui_style_values"
+            android:title="@string/qs_tile_shape_title"
+            android:entries="@array/qs_tile_shape_entries"
+            android:entryValues="@array/qs_tile_shape_values"
             android:defaultValue="0" />
 
-        <ListPreference
+        <!--<ListPreference
             android:key="qs_panel_style"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/qs_panel_style_title"
@@ -208,9 +208,9 @@
             android:icon="@drawable/ic_qs_tile"
             android:title="@string/qs_layout_columns_rows_title"
             android:summary="@string/qs_layout_columns_rows_summary"
-            android:fragment="com.alpha.settings.fragments.quicksettings.LayoutSettings" />
+            android:fragment="com.alpha.settings.fragments.quicksettings.LayoutSettings" />-->
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
     <!--<PreferenceCategory
         android:title="@string/qs_tile_animation_title">
