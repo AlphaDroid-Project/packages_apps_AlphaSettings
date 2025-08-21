@@ -34,9 +34,8 @@
     <!-- Keybox Data -->
     <com.alpha.settings.preferences.KeyboxDataPreference
         android:key="keybox_data_setting"
-        android:title="@string/keybox_data_title"
-        android:summary="@string/keybox_data_summary"
-        android:defaultValue=""/>
+        android:icon="@drawable/ic_key"
+        android:title="@string/keybox_data_title"/>
 
     <!-- Unlock FPS for specific games -->
     <com.alpha.settings.preferences.SystemPropertySwitchPreference
