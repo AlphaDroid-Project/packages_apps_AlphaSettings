@@ -136,6 +136,14 @@
             android:entryValues="@array/qs_show_brightness_slider_values"
             android:defaultValue="1" />
 
+        <com.alpha.settings.preferences.SystemSettingListPreference
+            android:key="qs_brightness_slider_shape"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/qs_brightness_slider_shape_title"
+            android:entries="@array/qs_brightness_slider_shape_entries"
+            android:entryValues="@array/qs_brightness_slider_shape_values"
+            android:defaultValue="0" />
+
         <lineageos.preference.LineageSecureSettingListPreference
             android:key="qs_brightness_slider_position"
             android:icon="@drawable/ic_brightness"
