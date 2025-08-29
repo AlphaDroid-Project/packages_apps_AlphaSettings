@@ -81,11 +81,22 @@
     <string name="crdroid_translate_summary">Hjælp til lokalisering af ROM på dit sprog!</string>
     <string name="crdroid_sponsor_summary">Visit our website host partner</string>
     <string name="crdroid_buildserversponsor_summary">We recommend their servers if interested in one</string>
-    <!-- Donate crDroid -->
+    <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">Støt os</string>
     <string name="crdroid_donate_preference_summary">Donate to support further development</string>
-    <string name="donate_team_title">crDroid-team</string>
-    <string name="donate_team_summary">Donér for at støtte server-hosting, opetid på webstedet og generel håndterng</string>
+    <string name="crdroid_donate_title">crDroid needs your help!</string>
+    <string name="crdroid_donate_notification_text">Tap to learn more</string>
+    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
+A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
+    <string name="crdroid_donate_button">Donate now</string>
+    <string name="crdroid_later_button">Maybe later</string>
+    <string name="crdroid_channel_name">crDroid notifications</string>
+    <string name="crdroid_channel_desc">Project specific notifications</string>
+    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
+    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
+    <string name="crdroid_donate_raised">€%,d raised</string>
+    <string name="crdroid_donate_total">of €%,d goal</string>
+    <string name="crdroid_donate_loading">Updating progress...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Opdateringer</string>
     <string name="crdroid_update_summary">Se efter OTA-opdatering og links til enheden</string>
@@ -1235,4 +1246,13 @@
     <string name="custom_style_fluid">Fluid (Transparent)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Layers</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
 </resources>
