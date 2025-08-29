@@ -81,11 +81,22 @@
     <string name="crdroid_translate_summary">Aiutaci a tradurre la ROM nella tua lingua!</string>
     <string name="crdroid_sponsor_summary">Visita il nostro sito host partner</string>
     <string name="crdroid_buildserversponsor_summary">Consigliamo i loro server se interposti in uno</string>
-    <!-- Donate crDroid -->
+    <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">Supportaci</string>
     <string name="crdroid_donate_preference_summary">Dona per sostenere l\'ulteriore sviluppo</string>
-    <string name="donate_team_title">team crDroid</string>
-    <string name="donate_team_summary">Fai una donazione per supportare l\'hosting del server, l\'uptime del sito e la gestione complessiva</string>
+    <string name="crdroid_donate_title">crDroid ha bisogno del tuo aiuto!</string>
+    <string name="crdroid_donate_notification_text">Tocca per saperne di più</string>
+    <string name="crdroid_donate_message">crDroid Android è un progetto open-source che ha bisogno del vostro aiuto per mantenere il sito web online, i nostri build servers in esecuzione, e per fornire build di alta qualità per il tuo dispositivo.\n\n
+Una piccola donazione aiuta a mantenere vivo e a migliorare questo progetto. Puoi respingere questo messaggio, ma il tuo supporto significa molto per noi.</string>
+    <string name="crdroid_donate_button">Dona adesso</string>
+    <string name="crdroid_later_button">Forse dopo</string>
+    <string name="crdroid_channel_name">notifiche crDroid</string>
+    <string name="crdroid_channel_desc">Notifiche specifiche del progetto</string>
+    <string name="crdroid_donate_still_needed">Abbiamo ancora bisogno di €%,d questo mese. Aiutaci a raggiungere il nostro obiettivo.</string>
+    <string name="crdroid_donate_thank_you">Apprezziamo tutte le donazioni per questo mese. Puoi ancora contribuire e fare la differenza!</string>
+    <string name="crdroid_donate_raised">€%,d raggiunti</string>
+    <string name="crdroid_donate_total">dell\'obiettivo di €%,d</string>
+    <string name="crdroid_donate_loading">Avanzamento aggiornamento...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Aggiornamenti</string>
     <string name="crdroid_update_summary">Controlla l\'aggiornamento Ota e i link per il tuo dispositivo</string>
@@ -152,7 +163,7 @@
     <string name="hardware_keys_action_last_app">Ultima app</string>
     <string name="hardware_keys_action_split_screen">Schermo diviso</string>
     <string name="hardware_keys_action_close_app">Termina app</string>
-    <string name="hardware_keys_action_play_pause_music">Play/pause music playback</string>
+    <string name="hardware_keys_action_play_pause_music">Ferma/Riprendi la riproduzione della musica</string>
     <string name="hardware_keys_action_torch">Accendi/Spegni torcia</string>
     <string name="hardware_keys_action_screenshot">Effettua uno screenshot</string>
     <string name="hardware_keys_action_volume_panel">Attiva/disattiva pannello volume</string>
@@ -1236,4 +1247,13 @@
     <string name="custom_style_fluid">Fluido (Trasparente)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Livelli</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Override della keybox attestation</string>
+    <string name="keybox_data_summary">Carica un XML custom di keybox per sovrascrivere l\'attestazione del dispositivo</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML caricato. Elimina per cancellare.</string>
+    <string name="keybox_delete_content_description">Cancella dati keybox</string>
+    <string name="keybox_toast_invalid_file_selected">Non è un XML. Scegli un keybox XML valido.</string>
+    <string name="keybox_toast_missing_data">Keybox XML non valido: campi obbligatori mancanti</string>
+    <string name="keybox_toast_file_loaded">Keybox caricato</string>
+    <string name="keybox_toast_file_cleared">Keybox cancellato</string>
 </resources>

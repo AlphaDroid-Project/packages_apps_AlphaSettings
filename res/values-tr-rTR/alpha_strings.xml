@@ -81,11 +81,22 @@
     <string name="crdroid_translate_summary">ROM\'u kendi dilinize çevirmek için bize yardım edin!</string>
     <string name="crdroid_sponsor_summary">Web sitesi barındırma ortağımızı ziyaret edin</string>
     <string name="crdroid_buildserversponsor_summary">Biriyle ilgileniyorsanız sunucularını öneririz</string>
-    <!-- Donate crDroid -->
+    <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">Bizi destekle</string>
     <string name="crdroid_donate_preference_summary">Daha fazla gelişmeyi desteklemek için bağış yapın</string>
-    <string name="donate_team_title">crDroid ekibi</string>
-    <string name="donate_team_summary">Sunucu hostingi, site çalışma zamanı ve genel yönetimi desteklemek için bağış yapın</string>
+    <string name="crdroid_donate_title">crDroid sizin yardımınıza ihtiyaç duyuyor!</string>
+    <string name="crdroid_donate_notification_text">Daha fazla bilgi edinmek için dokunun</string>
+    <string name="crdroid_donate_message">crDroid Android, web sitesini çevrimiçi tutmak, derleme sunucularımızı çalışır durumda tutmak ve cihazınız için yüksek kaliteli derlemeler sunmak için yardımınıza ihtiyaç duyan açık kaynaklı bir projedir.\n\n
+Küçük bir bağış, bu projenin devam etmesine ve gelişmesine yardımcı olur. Bu mesajı kapatabilirsiniz, ancak desteğiniz bizim için çok önemlidir.</string>
+    <string name="crdroid_donate_button">Şimdi bağış yap</string>
+    <string name="crdroid_later_button">Belki sonra</string>
+    <string name="crdroid_channel_name">crDroid bildirimleri</string>
+    <string name="crdroid_channel_desc">Projeye özgü bildirimler</string>
+    <string name="crdroid_donate_still_needed">Bize bu ay hâlâ %,d € lazım. Hedefimize ulaşmamızda yardımcı olun.</string>
+    <string name="crdroid_donate_thank_you">Bu ayki tüm bağışlar için minnettarız! Bize hâlâ katkıda bulunup bir fark yaratabilirsiniz.</string>
+    <string name="crdroid_donate_raised">%,d € toplandı</string>
+    <string name="crdroid_donate_total">Hedef %,d €</string>
+    <string name="crdroid_donate_loading">İlerleme güncelleniyor...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Güncellemeler</string>
     <string name="crdroid_update_summary">En son güncellemeyi kontrol edin ve indirin</string>
@@ -1235,4 +1246,13 @@
     <string name="custom_style_fluid">Akışkan (Şeffaf)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Katmanlar</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
 </resources>
