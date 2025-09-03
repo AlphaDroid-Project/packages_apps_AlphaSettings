@@ -79,6 +79,7 @@
             android:defaultValue="14"
             android:max="30"
             settings:min="1"
+            settings:interval="1"
             settings:units="@string/unit_pixels"
             android:dependency="pulse_fading_bars_category"/>
 
@@ -98,6 +99,7 @@
             android:defaultValue="4"
             android:max="8"
             settings:min="4"
+            settings:interval="1"
             settings:units="@string/unit_pixels"
             android:dependency="pulse_fading_bars_category"/>
 
@@ -107,6 +109,7 @@
             android:defaultValue="1"
             android:max="4"
             settings:min="0"
+            settings:interval="1"
             settings:units="@string/unit_pixels"
             android:dependency="pulse_fading_bars_category"/>
 
@@ -116,6 +119,7 @@
             android:defaultValue="4"
             android:max="6"
             settings:min="2"
+            settings:interval="1"
             android:dependency="pulse_fading_bars_category"/>
     </PreferenceCategory>
 
@@ -136,6 +140,7 @@
             android:defaultValue="200"
             android:max="255"
             settings:min="0"
+            settings:interval="1"
             android:dependency="pulse_2"/>
 
         <com.alpha.settings.preferences.SecureSettingSeekBarPreference
@@ -153,6 +158,7 @@
             android:defaultValue="4"
             android:max="8"
             settings:min="2"
+            settings:interval="1"
             android:dependency="pulse_2"/>
     </PreferenceCategory>
 
