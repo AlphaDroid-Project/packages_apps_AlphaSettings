@@ -32,9 +32,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.preference.PreferenceFragmentCompat;
-
 import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -44,7 +43,7 @@ import java.util.regex.Matcher;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class ChangelogFragment extends PreferenceFragmentCompat {
+public class ChangelogFragment extends SettingsPreferenceFragment {
 
     TextView textView;
 
@@ -121,4 +120,9 @@ public class ChangelogFragment extends PreferenceFragmentCompat {
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
 
     }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.ALPHA;
+     }
 }
