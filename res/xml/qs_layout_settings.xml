@@ -20,23 +20,23 @@
     android:title="@string/qs_layout_columns_rows_title">
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qs_layout_columns"
+        android:key="qs_tiles_columns"
         android:title="@string/qs_columns_portrait_title"
-        android:max="5"
+        android:max="6"
         settings:min="2"
         settings:interval="1"
-        android:defaultValue="2" />
+        android:defaultValue="4" />
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qs_layout_columns_landscape"
+        android:key="qs_tiles_columns_landscape"
         android:title="@string/qs_columns_landscape_title"
         android:max="6"
         settings:min="2"
         settings:interval="1"
-        android:defaultValue="2" />
+        android:defaultValue="4" />
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qs_layout_rows"
+        android:key="qs_tiles_rows"
         android:title="@string/qs_rows_portrait_title"
         android:max="5"
         settings:min="2"
@@ -44,7 +44,7 @@
         android:defaultValue="4" />
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qs_layout_rows_landscape"
+        android:key="qs_tiles_rows_landscape"
         android:title="@string/qs_rows_landscape_title"
         android:max="3"
         settings:min="1"
@@ -52,7 +52,7 @@
         android:defaultValue="2" />
 
     <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qqs_layout_rows"
+        android:key="qqs_tiles_rows"
         android:title="@string/qqs_rows_portrait_title"
         android:max="3"
         settings:min="1"
@@ -60,17 +60,17 @@
         android:defaultValue="2" />
 
     <!--<com.alpha.settings.preferences.SystemSettingSeekBarPreference
-        android:key="qqs_layout_rows_landscape"
+        android:key="qqs_tiles_rows_landscape"
         android:title="@string/qqs_rows_landscape_title"
         android:max="3"
         settings:min="1"
         settings:interval="1"
         android:defaultValue="1" />-->
 
-    <com.android.settingslib.widget.FooterPreference
+    <!--<com.android.settingslib.widget.FooterPreference
         android:key="qs_layout_columns_rows_footer"
         android:title="@string/qs_layout_columns_rows_footer_text"
         android:selectable="false"
-        settings:searchable="false" />
+        settings:searchable="false" />-->
 
 </PreferenceScreen>
