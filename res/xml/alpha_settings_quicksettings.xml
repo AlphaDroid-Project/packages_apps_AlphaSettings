@@ -218,6 +218,12 @@
             android:summary="@string/qs_layout_columns_rows_summary"
             android:fragment="com.alpha.settings.fragments.quicksettings.LayoutSettings" />
 
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_haptic"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/qs_brightness_slider_haptic_title"
+            android:summary="@string/qs_tile_haptic_summary" />
+
     </PreferenceCategory>
 
     <!--<PreferenceCategory
