@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      Copyright (C) 2016-2025 crDroid Android Project
+     Copyright (C) 2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,121 +17,154 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/misc_title">
 
-    <!-- Gaming mode -->
-    <Preference
-        android:key="gaming_mode"
-        android:icon="@drawable/ic_gaming"
-        android:title="@string/gaming_mode_title"
-        android:summary="@string/gaming_mode_summary">
+    <PreferenceCategory
+         android:title="@string/misc_spoofing_category">
 
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="io.chaldeaprjkt.gamespace"
-            android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
-    </Preference>
+        <!-- Keybox Data -->
+        <com.alpha.settings.preferences.KeyboxDataPreference
+            android:key="keybox_data_setting"
+            android:icon="@drawable/ic_key"
+            android:title="@string/keybox_data_title"/>
 
-    <!-- Keybox Data -->
-    <com.alpha.settings.preferences.KeyboxDataPreference
-        android:key="keybox_data_setting"
-        android:icon="@drawable/ic_key"
-        android:title="@string/keybox_data_title"/>
+            <!-- Google Play Integrity -->
+        <com.alpha.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.pi"
+            android:icon="@drawable/ic_google"
+            android:title="@string/pi_spoof_title"
+            android:summary="@string/pi_spoof_summary"
+            android:defaultValue="true" />
 
-    <!-- Google Play Integrity -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.pi"
-        android:icon="@drawable/ic_google"
-        android:title="@string/pi_spoof_title"
-        android:summary="@string/pi_spoof_summary"
-        android:defaultValue="true" />
+        <!-- Unlock FPS for specific games -->
+        <com.alpha.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.games"
+            android:icon="@drawable/ic_backup"
+            android:title="@string/use_games_spoof_title"
+            android:summary="@string/use_games_spoof_summary" />
 
-    <!-- Unlock FPS for specific games -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.games"
-        android:icon="@drawable/ic_backup"
-        android:title="@string/use_games_spoof_title"
-        android:summary="@string/use_games_spoof_summary" />
+        <!-- Unlimited google photos storage -->
+        <com.alpha.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.gphotos"
+            android:icon="@drawable/ic_backup"
+            android:title="@string/use_photos_spoof_title"
+            android:summary="@string/use_photos_spoof_summary"
+            android:defaultValue="true" />
 
-    <!-- Unlimited google photos storage -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.gphotos"
-        android:icon="@drawable/ic_backup"
-        android:title="@string/use_photos_spoof_title"
-        android:summary="@string/use_photos_spoof_summary"
-        android:defaultValue="true" />
+        <!-- Netflix -->
+        <com.alpha.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.netflix"
+            android:icon="@drawable/ic_netflix"
+            android:title="@string/netflix_spoof_title"
+            android:summary="@string/netflix_spoof_summary"
+            android:defaultValue="false" />
 
-    <!-- Netflix -->
-    <com.alpha.settings.preferences.SystemPropertySwitchPreference
-        android:key="persist.sys.pixelprops.netflix"
-        android:icon="@drawable/ic_netflix"
-        android:title="@string/netflix_spoof_title"
-        android:summary="@string/netflix_spoof_summary"
-        android:defaultValue="false" />
+    </PreferenceCategory>
 
-    <!-- Google services
-    <Preference
-        android:key="gms_enabled_settings"
-        android:icon="@drawable/ic_google"
-        android:title="@string/gms_enabled_title"
-        android:summary="@string/gms_enabled_summary"
-        android:fragment="com.alpha.settings.fragments.misc.GmsSwitch"/> -->
+    <PreferenceCategory
+         android:title="@string/misc_system_category">
 
-    <!-- Parallel space
-    <Preference
-        android:key="parallel_space"
-        android:icon="@drawable/ic_parallel_space"
-        android:title="@string/laboratory_parallel_space_title"
-        android:summary="@string/laboratory_parallel_space_summary">
-        <intent
-            android:targetPackage="ink.kscope.parallelspace"
-            android:targetClass="ink.kscope.parallelspace.MainActivity" />
-    </Preference> -->
+        <!-- Smart Pixels -->
+        <Preference
+            android:key="smart_pixels"
+            android:icon="@drawable/ic_smart_pixels"
+            android:title="@string/smart_pixels_title"
+            android:summary="@string/smart_pixels_summary"
+            android:fragment="com.alpha.settings.fragments.misc.SmartPixels" />
 
-    <com.alpha.settings.preferences.GlobalSettingSwitchPreference
-        android:key="pm_downgrade_allowed"
-        android:icon="@drawable/ic_arrow_down_box"
-        android:title="@string/app_downgrade_title"
-        android:summary="@string/app_downgrade_summary"
-        android:defaultValue="false"/>
+        <!-- Gaming mode -->
+        <Preference
+            android:key="gaming_mode"
+            android:icon="@drawable/ic_gaming"
+            android:title="@string/gaming_mode_title"
+            android:summary="@string/gaming_mode_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="io.chaldeaprjkt.gamespace"
+                android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+        </Preference>
 
-    <!-- Sidebar -->
-    <Preference
-        android:key="sidebar"
-        android:icon="@drawable/ic_floating"
-        android:title="@string/sidebar_title"
-        android:summary="@string/sidebar_summary">
+        <!-- Sidebar -->
+        <Preference
+            android:key="sidebar"
+            android:icon="@drawable/ic_floating"
+            android:title="@string/sidebar_title"
+            android:summary="@string/sidebar_summary">
+            <intent
+                android:action="android.intent.action.IA_SETTINGS"
+                android:targetPackage="com.libremobileos.sidebar"
+                android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
+        </Preference>
 
-        <intent
-            android:action="android.intent.action.IA_SETTINGS"
-            android:targetPackage="com.libremobileos.sidebar"
-            android:targetClass="com.libremobileos.sidebar.ui.sidebar.SidebarSettingsActivity" />
-    </Preference>
+        <com.alpha.settings.preferences.GlobalSettingSwitchPreference
+            android:key="pm_downgrade_allowed"
+            android:icon="@drawable/ic_arrow_down_box"
+            android:title="@string/app_downgrade_title"
+            android:summary="@string/app_downgrade_summary"
+            android:defaultValue="false"/>
 
-    <!-- Three fingers swipe action -->
-    <ListPreference
-        android:key="three_fingers_swipe"
-        android:icon="@drawable/ic_three_finger_gesture"
-        android:dialogTitle="@string/three_fingers_swipe_title"
-        android:title="@string/three_fingers_swipe_title"
-        android:entries="@array/hardware_keys_action_entries"
-        android:entryValues="@array/hardware_keys_action_values"
-        android:persistent="false" />
+        <!-- Sensor block per package -->
+        <Preference
+            android:key="sensor_block_settings"
+            android:icon="@drawable/ic_remote"
+            android:title="@string/sensor_block_title"
+            android:summary="@string/sensor_block_summary"
+            android:fragment="com.alpha.settings.fragments.misc.SensorBlock"/>
 
-    <!-- Sensor block per package -->
-    <Preference
-        android:key="sensor_block_settings"
-        android:icon="@drawable/ic_remote"
-        android:title="@string/sensor_block_title"
-        android:summary="@string/sensor_block_summary"
-        android:fragment="com.alpha.settings.fragments.misc.SensorBlock"/>
+        <!-- Pocket Judge -->
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:icon="@drawable/ic_pocket"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false" />
 
-    <!-- Pocket Judge -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="pocket_judge"
-        android:icon="@drawable/ic_pocket"
-        android:title="@string/pocket_judge_title"
-        android:summary="@string/pocket_judge_summary"
-        android:defaultValue="false" />
+    </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/misc_animations_category">
+
+        <!-- Charging animation -->
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="charging_animation"
+            android:icon="@drawable/ic_battery_charging"
+            android:title="@string/charging_animation_title"
+            android:summary="@string/charging_animation_summary"
+            android:defaultValue="true" />
+
+        <!-- Rotation button -->
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="enable_rotation_button"
+            android:icon="@drawable/ic_rotation"
+            android:title="@string/floating_rotation_button_title"
+            android:summary="@string/floating_rotation_button_summary"
+            android:defaultValue="true" />
+
+        <!-- Screen Off animation -->
+        <!-- <com.alpha.settings.preferences.SystemSettingListPreference
+            android:key="screen_off_animation"
+            android:icon="@drawable/ic_television_classic"
+            android:title="@string/screen_off_animation_title"
+            android:dialogTitle="@string/screen_off_animation_title"
+            android:entries="@array/screen_off_animation_entries"
+            android:entryValues="@array/screen_off_animation_values"
+            android:defaultValue="0" /> -->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/misc_gestures_category">
+
+        <!-- Three fingers swipe action -->
+        <ListPreference
+            android:key="three_fingers_swipe"
+            android:icon="@drawable/ic_three_finger_gesture"
+            android:dialogTitle="@string/three_fingers_swipe_title"
+            android:title="@string/three_fingers_swipe_title"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2023 crDroid Android Project
+                   2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,53 +17,8 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-    <!-- Ambient Display -->
-    <Preference
-        android:key="doze_fragment"
-        android:icon="@drawable/ic_ambient"
-        android:title="@string/doze_display_title"
-        android:summary="@string/doze_display_summary"
-        android:fragment="com.alpha.settings.fragments.ui.DozeSettings" />
-
-    <!-- Charging animation -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="charging_animation"
-        android:icon="@drawable/ic_battery_charging"
-        android:title="@string/charging_animation_title"
-        android:summary="@string/charging_animation_summary"
-        android:defaultValue="true" />
-
-    <!-- Display Cutout -->
-    <Preference
-        android:key="display_cutout_force_fullscreen_settings"
-        android:icon="@drawable/ic_fullscreen"
-        android:title="@string/display_cutout_force_fullscreen_title"
-        android:summary="@string/display_cutout_force_fullscreen_summary">
-        <intent android:action="android.intent.action.MAIN"
-             android:targetPackage="com.android.settings"
-             android:targetClass="com.alpha.settings.fragments.ui.DisplayCutoutForceFullscreenActivity"/>
-    </Preference>
-
-    <!-- Screen Off animation -->
-    <com.alpha.settings.preferences.SystemSettingListPreference
-        android:key="screen_off_animation"
-        android:icon="@drawable/ic_television_classic"
-        android:title="@string/screen_off_animation_title"
-        android:dialogTitle="@string/screen_off_animation_title"
-        android:entries="@array/screen_off_animation_entries"
-        android:entryValues="@array/screen_off_animation_values"
-        android:defaultValue="0" />
-
-    <!-- Smart Pixels -->
-    <Preference
-        android:key="smart_pixels"
-        android:icon="@drawable/ic_smart_pixels"
-        android:title="@string/smart_pixels_title" 
-        android:summary="@string/smart_pixels_summary" 
-        android:fragment="com.alpha.settings.fragments.misc.SmartPixels" />
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/ui_title">
 
     <!-- Monet Theme Engine -->
     <Preference
@@ -139,13 +95,5 @@
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
         android:fragment="com.alpha.settings.fragments.ui.IconShapes"/>
-
-    <!-- Rotation button -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="enable_rotation_button"
-        android:icon="@drawable/ic_rotation"
-        android:title="@string/floating_rotation_button_title"
-        android:summary="@string/floating_rotation_button_summary"
-        android:defaultValue="true" />
 
 </PreferenceScreen>

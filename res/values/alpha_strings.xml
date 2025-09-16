@@ -16,23 +16,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Alpha Settings</string>
-    <string name="crdroid_settings_summary">Open goodness</string>
-    <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most crdroid settings to their default values for the current user. Would you like to continue?</string>
-
     <!-- Personalization Categories -->
     <string name="button_title">Buttons</string>
-    <string name="lockscreen_title">Lock Screen</string>
+    <string name="lockscreen_title">Lockscreen</string>
     <string name="misc_title">Miscellaneous</string>
+    <string name="misc_title_short">Misc</string>
     <string name="navigation_title">Navigation</string>
     <string name="notifications_title">Notifications</string>
     <string name="quicksettings_title">Quick Settings</string>
+    <string name="quicksettings_title_short">QS</string>
     <string name="sound_title">Sound</string>
-    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_title">Statusbar</string>
     <string name="display_title">Display</string>
     <string name="ui_title">User Interface</string>
+    <string name="ui_title_short">UI</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -45,77 +42,41 @@
     <string name="color_default">Default</string>
 
     <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
-    <string name="discard_changes">Discard changes</string>
-    <string name="never">Never</string>
+    <string name="accent_color">Accent color (Default)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Advanced</string>
     <string name="always">Always</string>
+    <string name="back">Back</string>
+    <string name="cancel" translatable="false">@android:string/cancel</string>
     <string name="caution">Caution</string>
+    <string name="choose_app">Choose app</string>
+    <string name="custom_color">Custom color</string>
+    <string name="default_value">Default</string>
     <string name="delete">Delete</string>
     <string name="delete_message">Remove selected item?</string>
-    <string name="choose_app">Choose app</string>
-    <string name="enable">Enable</string>
     <string name="disable">Disable</string>
-    <string name="accent_color">Accent color (Default)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="dlg_ok" translatable="false">@android:string/ok</string>
+    <string name="enable">Enable</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Never</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Notification color</string>
-    <string name="wallpaper_color">Wallpaper color</string>
-    <string name="custom_color">Custom color</string>
+    <string name="off">Off</string>
+    <string name="ok" translatable="false">@android:string/ok</string>
+    <string name="on">On</string>
+    <string name="reset">Reset</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
-    <string name="default_value">Default</string>
-
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Current changelog</string>
-    <string name="changelog_crdroid_summary">View changes in the ROM installed</string>
-    <string name="changelog_crdroid_error">Unable to load changelog</string>
-
-    <!-- About crDroid -->
-    <string name="about_crdroid">About crDroid</string>
-    <string name="about_device_name">Device</string>
-
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Share crDroid</string>
-    <string name="share_crdroid_summary">Let others know about crDroid</string>
-    <string name="share_message">Check out if #crDroidAndroid is available for your device @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Share crDroid</string>
-
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">We love open source, check us out</string>
-    <string name="crdroid_telegram_title">crDroid community</string>
-    <string name="crdroid_telegram_summary">We are on telegram. Join us!</string>
-    <string name="crdroid_telegram_channel_title">Updates channel</string>
-    <string name="crdroid_telegram_channel_summary">Get notified of new builds on Telegram</string>
-    <string name="crdroid_website_title">Official website</string>
-    <string name="crdroid_website_summary">Visit our official website</string>
-    <string name="crdroid_translate_title">Translations</string>
-    <string name="crdroid_translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="crdroid_sponsor_title" translatable="false">ScopeHosts</string>
-    <string name="crdroid_sponsor_summary">Visit our website host partner</string>
-    <string name="crdroid_buildserversponsor_title" translatable="false">InterServer</string>
-    <string name="crdroid_buildserversponsor_summary">We recommend their servers if interested in one</string>
-
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Support us</string>
-    <string name="crdroid_donate_preference_summary">Donate to support further development</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
-
-    <!-- OTA -->
-    <string name="crdroid_update_title">Updates</string>
-    <string name="crdroid_update_summary">Check and download latest update</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="wallpaper_color">Wallpaper color</string>
+    <string name="yes">Yes</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -135,10 +96,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
-
-    <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
@@ -634,9 +591,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
     <string name="qs_footer_services_icon_title">Running services shortcut</string>
     <string name="qs_footer_settings_icon_title">Settings shortcut</string>
-
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid legal</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Brightness slider</string>
@@ -1178,45 +1132,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time</string>
     <string name="adaptive_playback_timeout_title">Playback timeout</string>
 
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
-    <string name="status_bar_logo_position_title">Logo position</string>
-    <string name="status_bar_logo_style_title">Logo style</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alien</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
-    <string name="status_bar_logo_style_fire">Fire</string>
-    <string name="status_bar_logo_style_heart">Heart</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Ghost</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Flash</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
-
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installed: %1$s</string>
     <string name="app_info_update_time">Updated: %1$s</string>
@@ -1511,4 +1426,120 @@ A small donation helps keep this project alive and improving. You can dismiss th
 
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+
+    <!-- ALPHA -->
+
+     <!--  Alpha settings -->
+    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="reset_settings_title">Reset settings</string>
+    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
+
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">Connectivity</string>
+    <string name="top_level_system_info_category_title">System</string>
+    <string name="top_level_personalize_category_title">Personalization</string>
+    <string name="top_level_security_privacy_category_title">Security</string>
+    <string name="top_level_account_category_title">Accounts</string>
+    <string name="top_level_support_category_title">Support</string>
+
+    <string name="lockscreen_clock_category">Clock</string>
+
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Gestures</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Current changelog</string>
+    <string name="changelog_summary">View changes in the ROM installed</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">About Alpha</string>
+    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_device_name">Device</string>
+
+    <!-- Share AlphaDroid -->
+    <string name="share_title">Share AlphaDroid</string>
+    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
+    <string name="share_chooser_title">Share AlphaDroid</string>
+
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">We love open source, check us out</string>
+    <string name="telegram_title">AlphaDroid community</string>
+    <string name="telegram_summary">We are on telegram. Join us!</string>
+    <string name="telegram_channel_title">Updates channel</string>
+    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
+    <string name="website_title">Official website</string>
+    <string name="website_summary">Visit our official website</string>
+    <string name="translate_title">Translations</string>
+    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">Support us</string>
+    <string name="donate_summary">Donate to support further development</string>
+    <string name="donate_team_title">AlphaDroid team</string>
+    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
+
+    <!-- OTA -->
+    <string name="alpha_update_title">Updates</string>
+    <string name="alpha_update_summary">Check and download latest update</string>
+
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Device</string>
+
+    <!-- Build info -->
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_official">Official</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <string name="alpha_build_version">AlphaDroid version</string>
+    <string name="alpha_build_date">Build date</string>
+
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
+
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
+
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
+    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+
+    <!-- Search bar -->
+    <string name="search_bar_text">search</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+
 </resources>

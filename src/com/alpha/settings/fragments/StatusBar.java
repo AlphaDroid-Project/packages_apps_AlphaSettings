@@ -81,7 +81,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_settings_statusbar);
+        addPreferencesFromResource(R.xml.alpha_settings_statusbar);
 
         ContentResolver resolver = getActivity().getContentResolver();
         Context mContext = getActivity().getApplicationContext();
@@ -194,12 +194,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_NOTIF_COUNT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO_POSITION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO_STYLE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.DATA_DISABLED_ICON, 1, UserHandle.USER_CURRENT);
@@ -243,5 +237,5 @@ public class StatusBar extends SettingsPreferenceFragment implements
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_statusbar);
+            new BaseSearchIndexProvider(R.xml.alpha_settings_statusbar);
 }
