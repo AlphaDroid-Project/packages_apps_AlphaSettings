@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +18,8 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/notifications_title">
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"

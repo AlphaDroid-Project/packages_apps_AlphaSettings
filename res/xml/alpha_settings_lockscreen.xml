@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2025 crDroid Android Project
+                   2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,11 +18,20 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
+    android:title="@string/lockscreen_title">
+
+    <!-- Ambient Display -->
+    <Preference
+        android:key="doze_fragment"
+        android:icon="@drawable/ic_ambient"
+        android:title="@string/doze_display_title"
+        android:summary="@string/doze_display_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.DozeSettings" />
 
     <PreferenceCategory
         android:key="lockscreen_clock_category"
-        android:title="@string/qs_clock_title">
+        android:title="@string/lockscreen_clock_category">
 
         <!-- Lockscreen Clock Font style -->
         <Preference
@@ -30,36 +40,6 @@
             android:title="@string/theme_customization_lock_clock_title"
             android:summary="@string/theme_customization_lock_clock_summary"
             android:fragment="com.alpha.settings.fragments.lockscreen.LockClockFontsPicker"/>
-
-        <!--<com.alpha.settings.preferences.SecureSettingSeekBarPreference
-            android:key="kg_custom_clock_top_margin"
-            android:icon="@drawable/ic_lock_clock"
-            android:title="@string/kg_custom_clock_top_margin_title"
-            android:max="500"
-            settings:min="80"
-            settings:interval="1"
-            android:defaultValue="280"
-            settings:units="@string/unit_pixels" />
-
-        <com.alpha.settings.preferences.SecureSettingSeekBarPreference
-            android:key="kg_small_clock_text_size"
-            android:icon="@drawable/ic_font"
-            android:title="@string/kg_small_clock_text_size_title"
-            android:max="100"
-            settings:min="25"
-            settings:interval="1"
-            android:defaultValue="86"
-            settings:units="@string/unit_pixels" />
-
-        <com.alpha.settings.preferences.SecureSettingSeekBarPreference
-            android:key="kg_large_clock_text_size"
-            android:icon="@drawable/ic_font"
-            android:title="@string/kg_large_clock_text_size_title"
-            android:max="250"
-            settings:min="25"
-            settings:interval="1"
-            android:defaultValue="180"
-            settings:units="@string/unit_pixels" />-->
 
     </PreferenceCategory>
 

@@ -15,91 +15,25 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Configurações crDroid</string>
-    <string name="crdroid_settings_summary">O melhor está aqui</string>
-    <string name="reset_settings_title">Redefinir configurações</string>
-    <string name="reset_settings_message">Isso vai redefinir as alterações feitas nas configurações crDroid. Gostaria de continuar?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Botões</string>
     <string name="lockscreen_title">Tela de Bloqueio</string>
     <string name="misc_title">Diversos</string>
+    <string name="misc_title_short">Diversos</string>
     <string name="navigation_title">Navegação</string>
     <string name="notifications_title">Notificações</string>
     <string name="quicksettings_title">Configurações Rápidas</string>
+    <string name="quicksettings_title_short">QS</string>
     <string name="sound_title">Som</string>
     <string name="statusbar_title">Barra de Status</string>
     <string name="display_title">Tela</string>
     <string name="ui_title">Interface do Usuário</string>
+    <string name="ui_title_short">Interface do Usuário</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Seletor de cores</string>
     <string name="press_color_to_apply">Selecione a cor abaixo para aplicar</string>
     <string name="set">Aplicar</string>
     <string name="color_default">Padrão</string>
-    <!-- General strings -->
-    <string name="ok">Confirmar</string>
-    <string name="reset">Redefinir</string>
-    <string name="cancel">Cancelar</string>
-    <string name="save">Salvar</string>
-    <string name="discard_changes">Descartar alterações</string>
-    <string name="never">Nunca</string>
-    <string name="always">Sempre</string>
-    <string name="caution">Cuidado</string>
-    <string name="delete">Excluir</string>
-    <string name="delete_message">Remover item selecionado?</string>
-    <string name="choose_app">Escolher aplicativo</string>
-    <string name="enable">Ativar</string>
-    <string name="disable">Desativar</string>
-    <string name="accent_color">Cor de destaque (Padrão)</string>
-    <string name="notification_color">Cor da notificação</string>
-    <string name="wallpaper_color">Cor do papel de parede</string>
-    <string name="custom_color">Cor personalizada</string>
-    <string name="restart_systemui">Reinicie o SystemUI para que a alteração tenha efeito!</string>
-    <string name="default_value">Padrão</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Registro das últimas alterações</string>
-    <string name="changelog_crdroid_summary">Mostrar alterações da ROM instalada</string>
-    <string name="changelog_crdroid_error">Não foi possível carregar o registro de mudanças</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Sobre crDroid</string>
-    <string name="about_device_name">Dispositivo</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Compartilhar crDroid</string>
-    <string name="share_crdroid_summary">Deixe que outros saibam sobre a crDroid</string>
-    <string name="share_message">Verifique se #crDroidAndroid está disponível para o seu dispositivo @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Compartilhar crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Nós amamos o código aberto, confira</string>
-    <string name="crdroid_telegram_title">Comunidade crDroid</string>
-    <string name="crdroid_telegram_summary">Estamos no telegram. Junte-se a nós!</string>
-    <string name="crdroid_telegram_channel_title">Canal de atualizações</string>
-    <string name="crdroid_telegram_channel_summary">Seja notificado sobre novas compilações no Telegram</string>
-    <string name="crdroid_website_title">Site oficial</string>
-    <string name="crdroid_website_summary">Visite nosso site oficial</string>
-    <string name="crdroid_translate_title">Traduções</string>
-    <string name="crdroid_translate_summary">Ajude a traduzir a ROM para o seu idioma!</string>
-    <string name="crdroid_sponsor_summary">Visite nosso parceiro de hospedagem de site</string>
-    <string name="crdroid_buildserversponsor_summary">Recomendamos seus servidores se estiver interessado em um</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Apoie-nos</string>
-    <string name="crdroid_donate_preference_summary">Doe para apoiar o desenvolvimento</string>
-    <string name="crdroid_donate_title">crDroid precisa da sua ajuda!</string>
-    <string name="crdroid_donate_notification_text">Toque para saber mais</string>
-    <string name="crdroid_donate_message">crDroid Android é um projeto de código aberto que precisa de sua ajuda para se manter online, nossos servidores de build rodando e fornecendo compilações de alta qualidade para o seu dispositivo.\n\n
-Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode descartar esta mensagem, mas o seu apoio significa muito para nós.</string>
-    <string name="crdroid_donate_button">Doar agora</string>
-    <string name="crdroid_later_button">Talvez mais tarde</string>
-    <string name="crdroid_channel_name">Notificações crDroid</string>
-    <string name="crdroid_channel_desc">Notificações específicas do projeto</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Atualização em progresso...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Atualizações</string>
-    <string name="crdroid_update_summary">Verificar e baixar a última atualização</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play Store</string>
     <!-- Custom seekbar -->
@@ -113,9 +47,6 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Plataforma</string>
-    <string name="total_ram">Total de RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar histórico de notificações</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -984,44 +915,6 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="adaptive_playback_summary">Pausar mídia quando o volume é silenciado e retomá-lo aumentando o volume dentro do tempo limite</string>
     <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido</string>
     <string name="adaptive_playback_timeout_title">Tempo limite de reprodução</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logotipo</string>
-    <string name="status_bar_logo_summary">Exibe uma logo personalizada no lado esquerdo ou direito da barra de status</string>
-    <string name="status_bar_logo_position_title">Posição do logo</string>
-    <string name="status_bar_logo_style_title">Estilo do logo</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alienígena</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Vingadores</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman O Cavaleiro das Trevas</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Maconha</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon legal</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticon demônio</string>
-    <string name="status_bar_logo_style_fire">Fogo</string>
-    <string name="status_bar_logo_style_heart">Coração</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Homem-Aranha</string>
-    <string name="status_bar_logo_style_superman">Super-Homem</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Fantasma</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robô</string>
-    <string name="status_bar_logo_style_ironman">Homem de Ferro</string>
-    <string name="status_bar_logo_style_captain_america">Capitão América</string>
-    <string name="status_bar_logo_style_flash">Flash</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Instalado: %1$s</string>
     <string name="app_info_update_time">Atualizado %1$s</string>
@@ -1053,6 +946,10 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Mascarar Integridade da Google Play</string>
     <string name="pi_spoof_summary">Mascare seu dispositivo como um modelo diferente para a Integridade da Google Play</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ocultar status de desenvolvedor</string>
+    <string name="hide_developer_status_summary">Ocultar status de desenvolvedor dos apps</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Verificar conectividade</string>
     <string name="captive_portal_summary">Determine se o dispositivo pode conectar-se à internet, entrando em contato com o Google. Também usado para detectar portais cativos.</string>
@@ -1246,13 +1143,218 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Você pode d
     <string name="custom_style_fluid">Fluído (transparente)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Camadas</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox attestation override</string>
-    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
-    <string name="keybox_delete_content_description">Clear keybox data</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- ALPHA -->
+    <!-- Generic strings -->
+    <string name="accent_color">Cor de destaque (Padrão)</string>
+    <string name="add">Adicionar</string>
+    <string name="advanced">Avançado</string>
+    <string name="always">Sempre</string>
+    <string name="back">Voltar</string>
+    <string name="caution">Cuidado</string>
+    <string name="choose_app">Escolher aplicativo</string>
+    <string name="custom_color">Cor personalizada</string>
+    <string name="default_value">Padrão</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_message">Remover item selecionado?</string>
+    <string name="disable">Desativar</string>
+    <string name="disabled">Desabilitado</string>
+    <string name="discard_changes">Descartar alterações</string>
+    <string name="enable">Ativar</string>
+    <string name="enabled">Habilitado</string>
+    <string name="finish">Finalizar</string>
+    <string name="loading">Carregando\u2026</string>
+    <string name="name">Nome</string>
+    <string name="never">Nunca</string>
+    <string name="next">Próximo</string>
+    <string name="no">Não</string>
+    <string name="notification_color">Cor da notificação</string>
+    <string name="off">Desligar</string>
+    <string name="on">Ligar</string>
+    <string name="reset">Redefinir</string>
+    <string name="restart_systemui">Reinicie o SystemUi para que a alteração tenha efeito!</string>
+    <string name="save">Salvar</string>
+    <string name="search">Pesquisar</string>
+    <string name="settings">Configurações</string>
+    <string name="wallpaper_color">Cor do papel de parede</string>
+    <string name="yes">Sim</string>
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Configurações Alpha</string>
+    <string name="alpha_settings_summary">Haverá coisas boas!</string>
+    <string name="reset_settings_title">Redefinir configurações</string>
+    <string name="reset_settings_message">Isso vai redefinir as alterações feitas nas configurações AlphaDroid. Gostaria de continuar?</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">Conectividade</string>
+    <string name="top_level_system_info_category_title">Sistema</string>
+    <string name="top_level_personalize_category_title">Personalização</string>
+    <string name="top_level_security_privacy_category_title">Segurança</string>
+    <string name="top_level_account_category_title">Contas</string>
+    <string name="top_level_support_category_title">Suporte</string>
+    <!-- Preference categories -->
+    <string name="preference_category_brightness">Brilho</string>
+    <string name="preference_category_battery">Bateria</string>
+    <string name="preference_category_style">Estilo</string>
+    <string name="lockscreen_clock_category">Relógio</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Registro de mudanças atual</string>
+    <string name="changelog_summary">Ver alterações na ROM instalada</string>
+    <string name="changelog_error">Não foi possível carregar o registro de mudanças</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">Sobre o Alpha</string>
+    <string name="about_alpha_dual_line">Sobre AlphaDroid</string>
+    <string name="about_device_name">Dispositivo</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">Compartilhar o AlphaDroid</string>
+    <string name="share_summary">Deixe os outros saberem sobre o AlphaDroid</string>
+    <string name="share_message">Verifique se #AlphaDroid está disponível para o seu dispositivo @ https://alpha.net/</string>
+    <string name="share_chooser_title">Compartilhar o AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">Amamos código aberto, confira a gente</string>
+    <string name="telegram_title">Comunidade AlphaDroid</string>
+    <string name="telegram_summary">Estamos no Telegram. Junte-se a nós!</string>
+    <string name="telegram_channel_title">Canal de atualizações</string>
+    <string name="telegram_channel_summary">Receba notificações de novas builds no Telegram</string>
+    <string name="website_title">Site oficial</string>
+    <string name="website_summary">Visite nosso site oficial</string>
+    <string name="translate_title">Traduções</string>
+    <string name="translate_summary">Colabore na tradução da ROM para o seu idioma!</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">Apoie-nos</string>
+    <string name="donate_summary">Faça uma doação para ajudar no desenvolvimento</string>
+    <string name="donate_team_title">Equipe AlphaDroid</string>
+    <string name="donate_team_summary">Contribua para manter o servidor de hospedagem, tempo de atividade e gerenciamento geral do site</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">Atualizações</string>
+    <string name="alpha_update_summary">Verificar e baixar a última atualização</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">Estado do SELinux</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Restritivo</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Dispositivo</string>
+    <!-- Build info -->
+    <string name="build_status_title">Status da compilação</string>
+    <string name="build_status_summary">Não oficial</string>
+    <string name="build_status_official">Oficial</string>
+    <string name="build_status_unofficial">Não oficial</string>
+    <string name="alpha_build_version">Versão do AlphaDroid</string>
+    <string name="alpha_build_date">Data da compilação</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Mantenedor</string>
+    <string name="maintainer_summary">Procurando um mantenedor...</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Armazenamento</string>
+    <string name="storage_card_info">Ocupado</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">O nome do dispositivo pode e será visto pelos dispositivos próximos.</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">Total de RAM</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">Launcher AlphaDroid</string>
+    <string name="quickswitch_launcher_summary">Mudar o launcher nativo do AlphaDroid</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Launcher Nexus</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">Pesquisar</string>
+    <!-- Settings dashboard style -->
+    <string name="settings_dashboard_style_title">Estilo do painel de configurações</string>
+    <string name="settings_dashboard_style_summary">O estilo da página principal das Configurações</string>
+    <string name="settings_dashboard_style_aosp_legacy">Estilo legado do AOSP</string>
+    <string name="settings_dashboard_style_aosp_revamped">AOSP reformulado</string>
+    <string name="settings_dashboard_style_dot">DoT</string>
+    <string name="settings_dashboard_style_alpha">Alpha</string>
+    <!-- UI styles -->
+    <string name="theme_customization_ui_style_title">Estilo da interface do usuário</string>
+    <string name="theme_customization_ui_style_summary">Definir um estilo customizado para a sua interface</string>
+    <!-- Fastcharge -->
+    <string name="restricted_current_summary">Definir a corrente máxima permitida (mA)</string>
+    <string name="fastcharge_disabled_extended_summary">Carregamento limitado a: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
+    <!-- Network & internet small tile -->
+    <string name="network_dashboard_short_title">Rede</string>
+    <string name="digital_wellbeing_short_title">Bem-estar Digital</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Ícones da notificação</string>
+    <string name="max_visible_notification_icons_summary">Máximo de ícones de notificação visíveis na barra de status</string>
+    <!-- QS brightness percentage -->
+    <string name="qs_show_brightness_percentage_title">Porcentagem do brilho</string>
+    <string name="qs_show_brightness_percentage_summary">Mostrar o texto da porcentagem de brilho junto com o controle deslizante</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Mostrar animação de linha ondulada</string>
+    <string name="show_squiggle_animation_summary">Mostrar animação de linha ondulada no painel de mídia.\nApós a alteração é necessário alternar a música, pausar ou mover a barra de progresso para aplicar</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo de suspensão</string>
+    <string name="sleep_mode_summary_on">Ativado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desativado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de toque</string>
+    <string name="sleep_mode_ringer_off_title">Não mudar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não Perturbe</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do Sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do Sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Liga do pôr do sol até um horário personalizado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Liga de um horário personalizado até o nascer do sol</string>
+    <string name="sleep_mode_toggles_title">Alternadores</string>
+    <string name="sleep_mode_wifi_toggle_title">Desligar Wi-fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativar Wi-Fi quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desligar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativar o Bluetooth quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desligar Dados Móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativar os Dados Móveis quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desligar Localização</string>
+    <string name="sleep_mode_location_toggle_summary">Desativar a Localização quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desligar Sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativar sensores quando o modo de suspensão estiver ativado</string>
+    <string name="sleep_mode_display_text">O modo de suspensão permite que você desative certos serviços para ajudar a economizar bateria e silenciar seu telefone enquanto você dorme.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Ligar agora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Desligar agora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Ligar até o nascer do sol</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Desligar até o pôr do sol</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Ligar até <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Desligar até <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Forçar LTE CA</string>
+    <string name="force_lte_ca_summary">Forçar agregação de portadora LTE a funcionar</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de Exibição</string>
+    <string name="display_engine_mode_title">Motor de Exibição Reality</string>
+    <string name="x_reality_engine_mode_title">Motor X-Reality</string>
+    <string name="triluminous_display_mode_title">Display Triluminoso</string>
+    <string name="vivid_engine_mode_title">Tela vívido</string>
+    <string name="display_engine_default">Padrão</string>
+    <string name="display_engine_mode_footer_text">Inspirado na tecnologia Bravia/X-Reality da Sony, o Display Engine inclui o modo Vivido para maior brilho e saturação de cores, e o modo X-Reality para melhor detalhamento e precisão de cores</string>
+    <!-- QS panel styles -->
+    <string name="theme_customization_qs_style_title">Estilo do painel QS</string>
+    <string name="theme_customization_qs_style_summary">Definir estilo personalizado do painel QS</string>
+    <!-- Brightness bar styles -->
+    <string name="theme_customization_brightness_bar_title">Estilo da barra de brilho</string>
+    <string name="theme_customization_brightness_bar_summary">Definir estilo personalizado da barra de brilho</string>
+    <!-- Notifications style -->
+    <string name="theme_customization_notifications_title">Estilo das notificações</string>
+    <string name="theme_customization_notifications_summary">Definir estilo personalizado de notificações</string>
+    <!-- Keybox import -->
+    <string name="import_keybox_title">Importar Keybox</string>
+    <string name="import_keybox_summary">Importar uma caixa de chave personalizada para spoofing do keybox. A caixa de chave deve estar no formato PKCS#8</string>
+    <string name="import_success">Keybox importada com sucesso!</string>
+    <string name="import_failed">Falha ao importar o keybox</string>
+    <string name="import_io_error">Erro na operação</string>
+    <string name="clear_keybox_title">Limpar Keybox</string>
+    <string name="clear_keybox_summary">Desativar spoofing de keybox</string>
+    <string name="clear_success">Keybox removido com sucesso. Desativando spoofing de keybox</string>
+    <string name="clear_failed">Falha ao remover o keybox</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Permitir captura de tela em janelas seguras</string>
+    <string name="ignore_window_secure_summary">Remove as restrições de segurança para capturas de tela e gravações de tela. Isso pode ser útil em alguns casos, mas pode causar vazamentos de privacidade.</string>
 </resources>

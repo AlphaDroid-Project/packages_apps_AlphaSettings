@@ -57,7 +57,6 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private PreferenceCategory mPowerMenuItemsCategory;
 
     private SwitchPreferenceCompat mScreenshotPref;
-    private SwitchPreferenceCompat mOnTheGoPref;
     private SwitchPreferenceCompat mAirplanePref;
     private SwitchPreferenceCompat mUsersPref;
     private SwitchPreferenceCompat mLockDownPref;
@@ -85,8 +84,6 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         for (String action : PowerMenuConstants.getAllActions()) {
             if (action.equals(GLOBAL_ACTION_KEY_SCREENSHOT)) {
                 mScreenshotPref = (SwitchPreferenceCompat) findPreference(GLOBAL_ACTION_KEY_SCREENSHOT);
-            } else if (action.equals(GLOBAL_ACTION_KEY_ONTHEGO)) {
-                mOnTheGoPref = (SwitchPreferenceCompat) findPreference(GLOBAL_ACTION_KEY_ONTHEGO);    
             } else if (action.equals(GLOBAL_ACTION_KEY_AIRPLANE)) {
                 mAirplanePref = (SwitchPreferenceCompat) findPreference(GLOBAL_ACTION_KEY_AIRPLANE);
             } else if (action.equals(GLOBAL_ACTION_KEY_USERS)) {
@@ -113,11 +110,6 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         if (mScreenshotPref != null) {
             mScreenshotPref.setChecked(mLineageGlobalActions.userConfigContains(
                     GLOBAL_ACTION_KEY_SCREENSHOT));
-        }
-
-        if (mOnTheGoPref != null) {
-            mOnTheGoPref.setChecked(mLineageGlobalActions.userConfigContains(
-                    GLOBAL_ACTION_KEY_ONTHEGO));
         }
 
         if (mAirplanePref != null) {
@@ -163,10 +155,6 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         if (preference == mScreenshotPref) {
             value = mScreenshotPref.isChecked();
             mLineageGlobalActions.updateUserConfig(value, GLOBAL_ACTION_KEY_SCREENSHOT);
-
-        } else if (preference == mOnTheGoPref) {
-            value = mOnTheGoPref.isChecked();
-            mLineageGlobalActions.updateUserConfig(value, GLOBAL_ACTION_KEY_ONTHEGO);
 
         } else if (preference == mAirplanePref) {
             value = mAirplanePref.isChecked();

@@ -77,7 +77,7 @@ public class LockScreen extends SettingsPreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_settings_lockscreen);
+        addPreferencesFromResource(R.xml.alpha_settings_lockscreen);
 
         PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
 
@@ -192,7 +192,7 @@ public class LockScreen extends SettingsPreferenceFragment
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_lockscreen) {
+            new BaseSearchIndexProvider(R.xml.alpha_settings_lockscreen) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
