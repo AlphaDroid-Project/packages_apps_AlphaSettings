@@ -15,80 +15,58 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Nastavení crDroid</string>
-    <string name="crdroid_settings_summary">Odhalte jeho možnosti</string>
-    <string name="reset_settings_title">Obnovit nastavení</string>
-    <string name="reset_settings_message">Tímto obnovíte většinu nastavení crDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="lockscreen_title">Obrazovka uzamčení</string>
     <string name="misc_title">Různé</string>
+    <string name="misc_title_short">Misc</string>
     <string name="navigation_title">Navigace</string>
     <string name="notifications_title">Oznámení</string>
     <string name="quicksettings_title">Rychlá nastavení</string>
+    <string name="quicksettings_title_short">QS</string>
     <string name="sound_title">Zvuk</string>
     <string name="statusbar_title">Stavový řádek</string>
     <string name="display_title">Zobrazení</string>
     <string name="ui_title">Uživatelské rozhraní</string>
+    <string name="ui_title_short">UI</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Výběr barvy</string>
     <string name="press_color_to_apply">Klepněte na barvu, kterou chcete použít</string>
     <string name="set">Nastavit</string>
     <string name="color_default">Výchozí</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Resetovat</string>
-    <string name="cancel">Zrušit</string>
-    <string name="save">Uložit</string>
-    <string name="discard_changes">Zrušit změny</string>
-    <string name="never">Nikdy</string>
+    <string name="accent_color">Doplňková barva (výchozí)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Advanced</string>
     <string name="always">Vždy</string>
+    <string name="back">Back</string>
     <string name="caution">Upozornění</string>
+    <string name="choose_app">Vybrat aplikaci</string>
+    <string name="custom_color">Vlastní barva</string>
+    <string name="default_value">Výchozí</string>
     <string name="delete">Odstranit</string>
     <string name="delete_message">Odstranit vybranou položku?</string>
-    <string name="choose_app">Vybrat aplikaci</string>
-    <string name="enable">Povolit</string>
     <string name="disable">Zakázat</string>
-    <string name="accent_color">Doplňková barva (výchozí)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Zrušit změny</string>
+    <string name="enable">Povolit</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Nikdy</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Barva oznámení</string>
-    <string name="wallpaper_color">Barva tapety</string>
-    <string name="custom_color">Vlastní barva</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="reset">Resetovat</string>
     <string name="restart_systemui">Aby se změna projevila, restartujte SystemUI!</string>
-    <string name="default_value">Výchozí</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Aktuální seznam změn</string>
-    <string name="changelog_crdroid_summary">Zobrazit změny v\u00a0nainstalované ROM</string>
-    <string name="changelog_crdroid_error">Nelze načíst seznam změn</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">O crDroidu</string>
-    <string name="about_device_name">Zařízení</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Sdílet crDroid</string>
-    <string name="share_crdroid_summary">Dejte vědět ostatním o\u00a0crDroidu</string>
-    <string name="share_message">Podívejte se, jestli je k dispozici #crDroidAndroid pro vaše zařízení @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Sdílet crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Máme rádi open source. Podívejte se, co děláme</string>
-    <string name="crdroid_telegram_title">Komunita crDroidu</string>
-    <string name="crdroid_telegram_summary">Jsme na Telegramu. Přidejte se k\u00a0nám!</string>
-    <string name="crdroid_telegram_channel_title">Kanál aktualizací</string>
-    <string name="crdroid_telegram_channel_summary">Dostávejte na Telegramu oznámení o\u00a0nových sestaveních</string>
-    <string name="crdroid_website_title">Oficiální web</string>
-    <string name="crdroid_website_summary">Navštivte naše oficiální webové stránky</string>
-    <string name="crdroid_translate_title">Překlady</string>
-    <string name="crdroid_translate_summary">Pomozte nám s\u00a0lokalizací ROM do vašeho jazyka!</string>
-    <string name="crdroid_sponsor_summary">Navštivte hostitele našeho webu</string>
-    <string name="crdroid_buildserversponsor_summary">Doporučujeme jejich servery, pokud o\u00a0ně máte zájem</string>
-    <!-- Donate crDroid -->
-    <string name="crdroid_donate_preference_title">Podpořte nás</string>
-    <string name="crdroid_donate_preference_summary">Přispějte a\u00a0podpořte tak další vývoj</string>
-    <string name="donate_team_title">Tým crDroidu</string>
-    <string name="donate_team_summary">Přispějte na podporu hostingového serveru, provoz a\u00a0celkovou správu webu</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Aktualizace</string>
-    <string name="crdroid_update_summary">Zkontrolovat aktualizaci OTA a\u00a0odkazy pro zařízení</string>
+    <string name="save">Uložit</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="wallpaper_color">Barva tapety</string>
+    <string name="yes">Yes</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Obchod Play</string>
     <!-- Custom seekbar -->
@@ -102,9 +80,6 @@
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Platforma</string>
-    <string name="total_ram">Celkem RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -172,7 +147,7 @@
     <string name="volbtn_music_controls_title">Ovládání přehrávání</string>
     <string name="volbtn_music_controls_summary">Při vypnuté obrazovce přepínat hudební stopy dlouhým stiskem jednoho z\u00a0tlačítek hlasitosti</string>
     <string name="volbtn_cursor_control_title">Ovládání kurzoru klávesnice</string>
-    <string name="volbtn_cursor_control_off">Vypnuto</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Tlačítko zvýšení/snížení hlasitosti posune kurzor vlevo/vpravo</string>
     <string name="volbtn_cursor_control_on_reverse">Tlačítko zvýšení/snížení hlasitosti posune kurzor vpravo/vlevo</string>
     <string name="power_end_call_title">Ukončit hovor</string>
@@ -195,9 +170,9 @@
     <string name="keyboard_backlight_seekbar_title">Intenzita podsvícení klávesnice</string>
     <string name="backlight_timeout_title">Doba trvání podsvícení</string>
     <string name="backlight_timeout_unlimited">Nevypínat podsvícení</string>
-    <string name="backlight_summary_disabled">Nepodsvěcovat</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Podsvícení zapnuto na <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Podsvícení zapnuto</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> sekunda</item>
         <item quantity="few"><xliff:g id="seconds">%d</xliff:g> sekundy</item>
@@ -214,7 +189,7 @@
     <string name="power_menu_advanced_title">Rozšířené možnosti restartování</string>
     <string name="power_menu_airplane_title">Letadlo</string>
     <string name="power_menu_torch_title">Svítilna</string>
-    <string name="power_menu_settings_title">Nastavení</string>
+    <string name="power_menu_settings_title">Settings</string>
     <string name="power_menu_lockdown_title">Uzamčení</string>
     <string name="power_menu_lockdown_unavailable">Uzamčení je zakázáno, protože obrazovka uzamčení není zabezpečena</string>
     <string name="power_menu_soundpanel_title">Panel hlasitosti</string>
@@ -307,15 +282,15 @@
     <string name="status_bar_quick_qs_pulldown_summary">Stažením stavového řádku dolů z\u00a0%1$s strany se zcela rozbalí Rychlé nastavení</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">levé</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">pravé</string>
-    <string name="status_bar_quick_qs_pulldown_off">Je vypnuto</string>
-    <string name="status_bar_quick_qs_pulldown_left">Stažením zleva</string>
-    <string name="status_bar_quick_qs_pulldown_right">Stažením zprava</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_quick_qs_pulldown_left">levé</string>
+    <string name="status_bar_quick_qs_pulldown_right">pravé</string>
     <string name="status_bar_quick_qs_pulldown_always">Vždy zcela rozbalit Rychlé nastavení při stažení stavového řádku z\u00a0jakékoliv strany</string>
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">Chytré rozbalení Rychlého nastavení</string>
     <string name="smart_pulldown_summary">Rychlé nastavení se zcela rozbalí, je‑li přítomno %1$s\u00a0oznámení</string>
     <string name="smart_pulldown_none_summary">Rychlé nastavení se zcela rozbalí, nejsou‑li přítomna žádná oznámení</string>
-    <string name="smart_pulldown_off">Je vypnuto</string>
+    <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">žádná oznámení</string>
     <string name="smart_pulldown_dismissable">nezrušitelné oznámení</string>
     <string name="smart_pulldown_ongoing">neprobíhající oznámení</string>
@@ -349,8 +324,8 @@
     <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
     <string name="status_bar_clock_seconds_summary">Zobrazit na stavovém řádku vedle hodin i\u00a0sekundy</string>
     <string name="status_bar_clock_position_title">Umístění hodin</string>
-    <string name="status_bar_clock_position_right">Vpravo</string>
-    <string name="status_bar_clock_position_left">Vlevo</string>
+    <string name="status_bar_clock_position_right">pravé</string>
+    <string name="status_bar_clock_position_left">levé</string>
     <string name="status_bar_clock_position_center">Uprostřed</string>
     <string name="status_bar_clock_position_hidden">Skryté</string>
     <string name="status_bar_clock_auto_hide_title">Automaticky skrývat</string>
@@ -390,7 +365,7 @@
     <string name="status_bar_battery_style_dotted_circle">Přerušovaný kroužek</string>
     <string name="status_bar_battery_style_filled_circle">Vyplněný kroužek</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Skrytý</string>
+    <string name="status_bar_battery_style_hidden">Skryté</string>
     <string name="status_bar_battery_percent_title">Procenta baterie</string>
     <string name="status_bar_battery_percent_hidden">Skryté</string>
     <string name="status_bar_battery_percent_text_inside">Uvnitř ikony</string>
@@ -437,9 +412,9 @@
     <string name="network_traffic_settings_title">Indikátor síťového provozu</string>
     <string name="network_traffic_settings_summary">Zobrazit a\u00a0přizpůsobit aktuální úroveň vytížení sítě</string>
     <string name="network_traffic_location_title">Umístění</string>
-    <string name="network_traffic_location_disable">Zakázáno</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Stavový řádek</string>
-    <string name="network_traffic_location_quick_statusbar">Panel Rychlého nastavení</string>
+    <string name="network_traffic_location_quick_statusbar">Stavový řádek Rychlého nastavení</string>
     <string name="network_traffic_mode_title">Režim zobrazení</string>
     <string name="network_traffic_mode_up">Pouze odchozí data</string>
     <string name="network_traffic_mode_down">Pouze příchozí data</string>
@@ -551,8 +526,6 @@
     <string name="qs_footer_show_power_menu_title">Zkratka menu napájení</string>
     <string name="qs_footer_services_icon_title">Zástupce spuštěných služeb</string>
     <string name="qs_footer_settings_icon_title">Zástupce Nastavení</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Licence crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Posuvník jasu</string>
     <string name="qs_show_brightness_slider_title">Posuvník jasu</string>
@@ -563,9 +536,10 @@
     <string name="qs_brightness_slider_position_title">Umístění</string>
     <string name="qs_brightness_slider_position_top">Nahoře</string>
     <string name="qs_brightness_slider_position_bottom">Dole</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Hmatová odezva</string>
     <string name="qs_brightness_slider_haptic_summary">Poskytnout hmatovou odezvu při změně jasu pomocí posuvníku</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Ikona automatického jasu</string>
     <string name="qs_show_auto_brightness_summary">Zobrazit přepínač adaptivního jasu vedle posuvníku</string>
@@ -598,7 +572,7 @@
     <string name="pulse_speed_very_slow">Velmi pomalá</string>
     <!-- Common light settings strings -->
     <string name="light_brightness_title">Úrovně jasu</string>
-    <string name="light_brightness_normal">V běžném režimu</string>
+    <string name="light_brightness_normal">Normální</string>
     <string name="light_brightness_zen">V režimu „Nerušit“</string>
     <!-- Battery light settings -->
     <string name="light_brightness_category">Nastavení vlastností světla LED</string>
@@ -617,7 +591,7 @@
     <string name="notification_light_enable_title">Zapnout oznamovací LED</string>
     <string name="notification_light_summary">Konfigurovat barvy, jas a\u00a0frekvenci blikání světla LED při přijetí oznámení</string>
     <string name="notification_light_general_title">Obecné</string>
-    <string name="notification_light_advanced_title">Rozšířené</string>
+    <string name="notification_light_advanced_title">Advanced</string>
     <string name="notification_light_applist_title">Aplikace</string>
     <string name="notification_light_phonelist_title">Telefon</string>
     <string name="notification_light_use_custom">Použít vlastní hodnoty</string>
@@ -660,7 +634,7 @@
     <string name="incall_vibrate_disconnect_title">Zavibrovat při zavěšení</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Rozblikat svítilnu během příchozího hovoru</string>
-    <string name="flashlight_on_call_disabled">Vypnuto</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Při vyzvánění</string>
     <string name="flashlight_on_call_no_ringer">Při tichém vyzvánění</string>
     <string name="flashlight_on_call_silent">Při zcela tichém režimu (žádné vyzvánění nebo vibrace)</string>
@@ -824,7 +798,7 @@
     <string name="thick_label">Tlustá</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Celá obrazovka</string>
-    <string name="back_height_high_label">Spodní část</string>
+    <string name="back_height_high_label">Dole</string>
     <string name="back_height_title">Výška gesta „Zpět“</string>
     <string name="back_height_summary">Výška obrazovky platná pro gesto „Zpět“</string>
     <!-- Notification guts kill app button -->
@@ -977,44 +951,6 @@
     <string name="adaptive_playback_summary">Pozastavit média, je‑li ztlumena hlasitost a\u00a0pokračovat v\u00a0přehrávání zvyšováním hlasitosti v\u00a0rozmezí časového limitu</string>
     <string name="adaptive_playback_intro_text">Automaticky pozastaví média, když je hlasitost ztlumena a po obnovení hlasitosti v časovém limitu se automaticky obnoví</string>
     <string name="adaptive_playback_timeout_title">Časový limit přehrávání</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Zobrazit vlastní logo vlevo nebo vpravo na stavové liště</string>
-    <string name="status_bar_logo_position_title">Umístění loga</string>
-    <string name="status_bar_logo_style_title">Styl loga</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alien</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman Temný rytíř</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biologické riziko</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Konopí</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emotikon bezva</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emotikon ďábel</string>
-    <string name="status_bar_logo_style_fire">Oheň</string>
-    <string name="status_bar_logo_style_heart">Srdce</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider‑Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Duch</string>
-    <string name="status_bar_logo_style_ninja">Nindža</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Blesk</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Nainstalováno: %1$s</string>
     <string name="app_info_update_time">Aktualizováno: %1$s</string>
@@ -1073,7 +1009,7 @@
     <string name="lockscreen_shortcut_camera">Fotoaparát</string>
     <string name="lockscreen_shortcut_remote">Google TV Remote</string>
     <string name="lockscreen_shortcut_dnd">Režim „Nerušit“</string>
-    <string name="lockscreen_shortcut_none">Žádná</string>
+    <string name="lockscreen_shortcut_none">Žádný</string>
     <string name="lockscreen_shortcut_enforce_title">Vynutit zkratky</string>
     <string name="lockscreen_shortcut_enforce_summary">Nezobrazovat další dostupnou zkratku, pokud vybraná zkratka není k\u00a0dispozici</string>
     <!-- App lock -->
@@ -1132,11 +1068,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Motiv duálního tónu</string>
     <string name="qs_dual_tone_summary">Použít dvojité barvy pozadí namísto jednoduchého tónu AOSP</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">Styl QS dlaždic</string>
-    <string name="qs_tile_ui_style_a11_circle">Kruhové dlaždice</string>
-    <string name="qs_tile_ui_style_a11_square">Čtvercové dlaždice</string>
-    <string name="qs_tile_ui_style_a11_mix">Kruhové a čtvercové dlaždice</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">Styl QS panelu</string>
     <string name="qs_panel_style_outline">Ohraničení</string>
@@ -1220,7 +1151,7 @@
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Prostor IME</string>
     <string name="navigation_bar_ime_space_narrow">Úzký</string>
-    <string name="navigation_bar_ime_space_hidden">Skrytý</string>
+    <string name="navigation_bar_ime_space_hidden">Skryté</string>
     <!-- Navigation bar taskbar -->
     <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
     <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
@@ -1230,7 +1161,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Je vyžadován restart SystemUI</string>
     <string name="systemui_restart_message">Aby se projevily všechny změny, je třeba restartovat SystemUI. Restartovat jej nyní?</string>
-    <string name="systemui_restart_yes">Ano</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Teď ne</string>
     <string name="systemui_restart_process">Restartuje se SystemUI, aby se projevily změny…</string>
     <!-- Notification / Power Menu Styles -->
@@ -1241,4 +1172,132 @@
     <string name="custom_style_fluid">Fluid (Průhledný)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Vrstvy</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Kroužek</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <!-- ALPHA -->
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="reset_settings_title">Obnovit nastavení</string>
+    <string name="reset_settings_message">Tímto obnovíte většinu nastavení crDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">Connectivity</string>
+    <string name="top_level_system_info_category_title">System</string>
+    <string name="top_level_personalize_category_title">Personalization</string>
+    <string name="top_level_security_privacy_category_title">Security</string>
+    <string name="top_level_account_category_title">Accounts</string>
+    <string name="top_level_support_category_title">Support</string>
+    <string name="lockscreen_clock_category">Hodiny</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Gesta</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Current changelog</string>
+    <string name="changelog_summary">View changes in the ROM installed</string>
+    <string name="changelog_error">Unable to load changelog</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">About Alpha</string>
+    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_device_name">Zařízení</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">Share AlphaDroid</string>
+    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_message">Podívejte se, jestli je k dispozici #crDroidAndroid pro vaše zařízení @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Share AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">We love open source, check us out</string>
+    <string name="telegram_title">AlphaDroid community</string>
+    <string name="telegram_summary">We are on telegram. Join us!</string>
+    <string name="telegram_channel_title">Updates channel</string>
+    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
+    <string name="website_title">Official website</string>
+    <string name="website_summary">Visit our official website</string>
+    <string name="translate_title">Translations</string>
+    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">Support us</string>
+    <string name="donate_summary">Donate to support further development</string>
+    <string name="donate_team_title">Tým crDroidu</string>
+    <string name="donate_team_summary">Přispějte na podporu hostingového serveru, provoz a\u00a0celkovou správu webu</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">Updates</string>
+    <string name="alpha_update_summary">Check and download latest update</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Zařízení</string>
+    <!-- Build info -->
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_official">Official</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <string name="alpha_build_version">AlphaDroid version</string>
+    <string name="alpha_build_date">Build date</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Platforma</string>
+    <string name="total_ram">Celkem RAM</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
+    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">search</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Výchozí</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
 </resources>
