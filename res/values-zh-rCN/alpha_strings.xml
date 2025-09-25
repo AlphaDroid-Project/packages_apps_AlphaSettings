@@ -34,6 +34,39 @@
     <string name="press_color_to_apply">点击以使用下列颜色</string>
     <string name="set">设置</string>
     <string name="color_default">默认</string>
+    <!-- General strings -->
+    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="add">添加</string>
+    <string name="advanced">高级选项</string>
+    <string name="always">始终</string>
+    <string name="back">返回</string>
+    <string name="caution">警告</string>
+    <string name="choose_app">选择应用</string>
+    <string name="custom_color">自定义颜色</string>
+    <string name="default_value">默认</string>
+    <string name="delete">删除</string>
+    <string name="delete_message">移除所选项目？</string>
+    <string name="disable">禁用</string>
+    <string name="disabled">禁用</string>
+    <string name="discard_changes">放弃修改</string>
+    <string name="enable">启用</string>
+    <string name="enabled">启用</string>
+    <string name="finish">完成</string>
+    <string name="loading">加载</string>
+    <string name="name">名称</string>
+    <string name="never">从不</string>
+    <string name="next">下一个</string>
+    <string name="no">不</string>
+    <string name="notification_color">通知颜色</string>
+    <string name="off">关</string>
+    <string name="on">开</string>
+    <string name="reset">重置</string>
+    <string name="restart_systemui">重启系统界面以使更改生效！</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="wallpaper_color">壁纸颜色</string>
+    <string name="yes">是</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play 商店</string>
     <!-- Custom seekbar -->
@@ -246,7 +279,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">沿状态栏的 %1$s 边缘下拉开启快捷设置完整菜单</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
-    <string name="status_bar_quick_qs_pulldown_off">关闭</string>
+    <string name="status_bar_quick_qs_pulldown_off">关</string>
     <string name="status_bar_quick_qs_pulldown_left">左侧</string>
     <string name="status_bar_quick_qs_pulldown_right">右侧</string>
     <string name="status_bar_quick_qs_pulldown_always">状态栏下拉时始终显示快捷设置</string>
@@ -254,7 +287,7 @@
     <string name="smart_pulldown_title">智能下拉</string>
     <string name="smart_pulldown_summary">当 %1$s 通知时打开快速设置</string>
     <string name="smart_pulldown_none_summary">没有通知时打开快速设置面板</string>
-    <string name="smart_pulldown_off">关闭</string>
+    <string name="smart_pulldown_off">关</string>
     <string name="smart_pulldown_none">无通知</string>
     <string name="smart_pulldown_dismissable">无可清除通知</string>
     <string name="smart_pulldown_ongoing">没有正在进行的通知</string>
@@ -356,7 +389,7 @@
     <string name="battery_bar_blend_color_reverse_summary_off">充满 &#8594; 空: 红色 &#8592; 绿色 &#8592; 蓝色 &#8592; 红色</string>
     <string name="battery_bar_blend_color_reverse_summary_on">充满 &#8594; 空: 红色 &#8594; 绿色 &#8594; 蓝色 &#8594; 红色</string>
     <!-- Quick setting categories -->
-    <string name="qs_misc_category">杂项</string>
+    <string name="qs_misc_category">其它</string>
     <string name="qs_footer_category">页脚</string>
     <!-- QS clock -->
     <string name="qs_clock_title">时钟</string>
@@ -490,8 +523,6 @@
     <string name="qs_footer_show_power_menu_title">电源菜单快捷方式</string>
     <string name="qs_footer_services_icon_title">运行中服务快捷方式</string>
     <string name="qs_footer_settings_icon_title">设置快捷方式</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid 法律信息</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">亮度滑块</string>
     <string name="qs_show_brightness_slider_title">亮度滑块</string>
@@ -502,9 +533,10 @@
     <string name="qs_brightness_slider_position_title">位置</string>
     <string name="qs_brightness_slider_position_top">顶部</string>
     <string name="qs_brightness_slider_position_bottom">底部</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">触觉反馈</string>
     <string name="qs_brightness_slider_haptic_summary">在使用滑块改变亮度时提供震动反馈</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">自动亮度图标</string>
     <string name="qs_show_auto_brightness_summary">在亮度滑块附近显示自动调节亮度开关</string>
@@ -913,44 +945,6 @@
     <string name="adaptive_playback_summary">静音时暂停媒体，并在超时范围内增加音量以恢复媒体</string>
     <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复</string>
     <string name="adaptive_playback_timeout_title">播放超时</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">在状态栏左侧或右侧显示自定义 Logo</string>
-    <string name="status_bar_logo_position_title">Logo 位置</string>
-    <string name="status_bar_logo_style_title">Logo 样式</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">阿迪达斯</string>
-    <string name="status_bar_logo_style_alien">外星人</string>
-    <string name="status_bar_logo_style_apple">苹果</string>
-    <string name="status_bar_logo_style_avengers">复仇者联盟</string>
-    <string name="status_bar_logo_style_batman">蝙蝠侠</string>
-    <string name="status_bar_logo_style_batman_tdk">蝙蝠侠 黑暗骑士</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">生化</string>
-    <string name="status_bar_logo_style_blackberry">黑莓</string>
-    <string name="status_bar_logo_style_cannabis">大麻</string>
-    <string name="status_bar_logo_style_emoticon_cool">表情扮酷</string>
-    <string name="status_bar_logo_style_emoticon_devil">表情魔鬼</string>
-    <string name="status_bar_logo_style_fire">火焰</string>
-    <string name="status_bar_logo_style_heart">心形</string>
-    <string name="status_bar_logo_style_nike">耐克</string>
-    <string name="status_bar_logo_style_pacman">吃豆人</string>
-    <string name="status_bar_logo_style_puma">彪马</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">蜘蛛侠</string>
-    <string name="status_bar_logo_style_superman">超人</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">幽灵</string>
-    <string name="status_bar_logo_style_ninja">忍者</string>
-    <string name="status_bar_logo_style_robot">机器人</string>
-    <string name="status_bar_logo_style_ironman">钢铁侠</string>
-    <string name="status_bar_logo_style_captain_america">美国队长</string>
-    <string name="status_bar_logo_style_flash">闪电</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">安装时间: %1$s</string>
     <string name="app_info_update_time">更新时间: %1$s</string>
@@ -1067,11 +1061,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">双色调主题</string>
     <string name="qs_dual_tone_summary">使用双色调背景色而非 AOSP 单色调</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">快速设置磁贴风格</string>
-    <string name="qs_tile_ui_style_a11_circle">圆形磁贴</string>
-    <string name="qs_tile_ui_style_a11_square">方形磁贴</string>
-    <string name="qs_tile_ui_style_a11_mix">圆形 &amp; 方形磁贴</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">快速设置面板样式</string>
     <string name="qs_panel_style_outline">描边</string>
@@ -1165,7 +1154,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">需要重启系统界面</string>
     <string name="systemui_restart_message">要使更改生效，需要重新启动系统界面。现在要重新启动系统界面吗？</string>
-    <string name="systemui_restart_yes">是的</string>
+    <string name="systemui_restart_yes">是</string>
     <string name="systemui_restart_not_now">暂不</string>
     <string name="systemui_restart_process">正在重启系统界面以应用更改……</string>
     <!-- Notification / Power Menu Styles -->
@@ -1176,40 +1165,27 @@
     <string name="custom_style_fluid">流体(透明)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">层次</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">环形图标</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- ALPHA -->
-    <!-- Generic strings -->
-    <string name="accent_color">首选颜色 (默认)</string>
-    <string name="add">添加</string>
-    <string name="advanced">高级选项</string>
-    <string name="always">始终</string>
-    <string name="back">返回</string>
-    <string name="caution">警告</string>
-    <string name="choose_app">选择应用</string>
-    <string name="custom_color">自定义颜色</string>
-    <string name="default_value">默认</string>
-    <string name="delete">删除</string>
-    <string name="delete_message">移除所选项目？</string>
-    <string name="disable">禁用</string>
-    <string name="disabled">禁用</string>
-    <string name="discard_changes">放弃修改</string>
-    <string name="enable">启用</string>
-    <string name="enabled">启用</string>
-    <string name="finish">完成</string>
-    <string name="loading">加载</string>
-    <string name="name">名称</string>
-    <string name="never">从不</string>
-    <string name="next">下一个</string>
-    <string name="no">不</string>
-    <string name="notification_color">通知颜色</string>
-    <string name="off">关</string>
-    <string name="on">开</string>
-    <string name="reset">重置</string>
-    <string name="restart_systemui">重启系统界面以使更改生效！</string>
-    <string name="save">保存</string>
-    <string name="search">搜索</string>
-    <string name="settings">设置</string>
-    <string name="wallpaper_color">壁纸颜色</string>
-    <string name="yes">是</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 设置</string>
     <string name="alpha_settings_summary">将会有好东西！</string>
@@ -1223,11 +1199,12 @@
     <string name="top_level_security_privacy_category_title">安全</string>
     <string name="top_level_account_category_title">账号</string>
     <string name="top_level_support_category_title">帮助</string>
-    <!-- Preference categories -->
-    <string name="preference_category_brightness">亮度</string>
-    <string name="preference_category_battery">电池</string>
-    <string name="preference_category_style">风格</string>
     <string name="lockscreen_clock_category">时钟</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">系统</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">手势</string>
     <!-- Changelog -->
     <string name="changelog_title">当前更改记录</string>
     <string name="changelog_summary">查看安装的 ROM 更新记录</string>
@@ -1295,71 +1272,6 @@
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
     <string name="search_bar_text">搜索</string>
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">设置面板样式</string>
-    <string name="settings_dashboard_style_summary">设置主页的样式</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP 遗留</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP 修改</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
-    <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI 风格</string>
-    <string name="theme_customization_ui_style_summary">为你的界面设置自定义风格</string>
-    <!-- Fastcharge -->
-    <string name="restricted_current_summary">设置允许的最大电流 (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">充电电流限制为: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
-    <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">网络</string>
-    <string name="digital_wellbeing_short_title">数字健康</string>
-    <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">通知图标</string>
-    <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
-    <!-- QS brightness percentage -->
-    <string name="qs_show_brightness_percentage_title">亮度</string>
-    <string name="qs_show_brightness_percentage_summary">在亮度滑块旁显示亮度百分比</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">显示波浪动画</string>
-    <string name="show_squiggle_animation_summary">显示媒体面板的波浪动画\n更改后需要切换音乐、暂停音乐或移动进度条来应用更改</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">睡眠模式</string>
-    <string name="sleep_mode_summary_on">开启 / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">关闭 / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">响铃模式</string>
-    <string name="sleep_mode_ringer_off_title">不更改</string>
-    <string name="sleep_mode_ringer_vibrate_title">振动</string>
-    <string name="sleep_mode_ringer_dnd_title">勿扰</string>
-    <string name="sleep_mode_ringer_silent_title">静音</string>
-    <string name="sleep_mode_schedule_sunset">日落</string>
-    <string name="sleep_mode_schedule_sunrise">日出</string>
-    <string name="sleep_mode_schedule_mixed_sunset">从日落开启到某一时间关闭</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">从某一时间开启到日出关闭</string>
-    <string name="sleep_mode_toggles_title">快捷开关</string>
-    <string name="sleep_mode_wifi_toggle_title">关闭 WiFi</string>
-    <string name="sleep_mode_wifi_toggle_summary">开启睡眠模式时禁用WiFi</string>
-    <string name="sleep_mode_bluetooth_toggle_title">关闭蓝牙</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">开启睡眠模式时禁用蓝牙</string>
-    <string name="sleep_mode_cellular_toggle_title">关闭移动数据</string>
-    <string name="sleep_mode_cellular_toggle_summary">开启睡眠模式时禁用移动数据</string>
-    <string name="sleep_mode_location_toggle_title">关闭位置信息</string>
-    <string name="sleep_mode_location_toggle_summary">开启睡眠模式时禁用位置信息</string>
-    <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
-    <string name="sleep_mode_sensors_toggle_summary">开启睡眠模式时禁用传感器</string>
-    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务以帮助在您睡觉时节省电量并静音您的手机</string>
-    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">立即开启</string>
-    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">立即关闭</string>
-    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">保持开启状态，直到日出</string>
-    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">保持关闭状态，直到日落</string>
-    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">保持开启直到 <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">保持关闭直到 <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">强制LTE CA</string>
-    <string name="force_lte_ca_summary">强制开启 LTE 载波聚合</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">显示引擎</string>
     <string name="display_engine_mode_title">现实显示</string>
@@ -1368,26 +1280,17 @@
     <string name="vivid_engine_mode_title">生动显示</string>
     <string name="display_engine_default">默认</string>
     <string name="display_engine_mode_footer_text">受到索尼的 Bravia/X-Reality 引擎启发，显示引擎提供生动模式以增强亮度和色彩饱和度和提高细节和色彩精度的 X-Reality 模式。</string>
-    <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">快捷设置面板样式</string>
-    <string name="theme_customization_qs_style_summary">设置自定义快速设置面板样式</string>
-    <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">亮度滑块样式</string>
-    <string name="theme_customization_brightness_bar_summary">设置自定义亮度滑块样式</string>
-    <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">通知样式</string>
-    <string name="theme_customization_notifications_summary">设置自定义通知样式</string>
-    <!-- Keybox import -->
-    <string name="import_keybox_title">导入 keybox</string>
-    <string name="import_keybox_summary">导入自定义的 keybox 损坏。keybox 必须为 PKCS#8 格式</string>
-    <string name="import_success">keybox 导入成功！</string>
-    <string name="import_failed">导入 keybox 失败</string>
-    <string name="import_io_error">文件操作错误</string>
-    <string name="clear_keybox_title">清楚 keybox</string>
-    <string name="clear_keybox_summary">禁用 keybox 伪装</string>
-    <string name="clear_success">已成功删除 keybox。已禁用 keybox 伪装</string>
-    <string name="clear_failed">删除 keybox 失败</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">显示波浪动画</string>
+    <string name="show_squiggle_animation_summary">显示媒体面板的波浪动画\n更改后需要切换音乐、暂停音乐或移动进度条来应用更改</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">通知图标</string>
+    <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
 </resources>
