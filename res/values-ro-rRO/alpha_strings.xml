@@ -34,6 +34,39 @@
     <string name="press_color_to_apply">Apăsaţi pe culoarea de mai jos pentru a aplica</string>
     <string name="set">Setează</string>
     <string name="color_default">Default</string>
+    <!-- General strings -->
+    <string name="accent_color">Culoare accent (implicit)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Avansat</string>
+    <string name="always">Întotdeauna</string>
+    <string name="back">Back</string>
+    <string name="caution">Atenţie</string>
+    <string name="choose_app">Alegeți aplicația</string>
+    <string name="custom_color">Culoare personalizată</string>
+    <string name="default_value">Default</string>
+    <string name="delete">Șterge</string>
+    <string name="delete_message">Şterge elementul selectat?</string>
+    <string name="disable">Dezactivare</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Renunță la modificari</string>
+    <string name="enable">Activare</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Niciodată</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="notification_color">Culoare notificare</string>
+    <string name="off">Oprit</string>
+    <string name="on">Pornit</string>
+    <string name="reset">Reset</string>
+    <string name="restart_systemui">Reporniți SystemUI pentru ca modificările să aibă efect!</string>
+    <string name="save">Salvaţi</string>
+    <string name="search">Căutare</string>
+    <string name="settings">Setări</string>
+    <string name="wallpaper_color">Culoarea imaginii de fundal</string>
+    <string name="yes">Yes</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Magazin Play</string>
     <!-- Custom seekbar -->
@@ -106,7 +139,7 @@
     <string name="home_answer_call_summary">Răspundeți la apelurile primite apăsând butonul acasă</string>
     <string name="camera_sleep_on_release_title">Aruncare privire la ecran</string>
     <string name="camera_sleep_on_release_summary">O jumătate de apăsare va ține ecranul aprins atât timp cât butonul este apăsat</string>
-    <string name="camera_launch_title">Lansare Cameră foto</string>
+    <string name="camera_launch_title">Lansare cameră foto</string>
     <string name="camera_launch_summary">O apăsare prelungită urmarită de lăsarea butonului va porni camera foto</string>
     <string name="torch_long_press_power_gesture_title">Apăsaţi lung pentru lanternă</string>
     <string name="torch_long_press_power_gesture_desc">Activați lanterna prin apăsarea lungă a butonului pornire în timp ce ecranul este oprit</string>
@@ -114,7 +147,7 @@
     <string name="volbtn_music_controls_title">Control redare</string>
     <string name="volbtn_music_controls_summary">Căutați piese prin apăsarea lungă a butoanelor de volum când ecranul este oprit</string>
     <string name="volbtn_cursor_control_title">Control cursor tastatură</string>
-    <string name="volbtn_cursor_control_off">Dezactivat</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volum sus/jos mută cursorul stânga/dreapta</string>
     <string name="volbtn_cursor_control_on_reverse">Tastele volum sus/jos mută cursorul dreapta/stânga</string>
     <string name="power_end_call_title">Terminare apel</string>
@@ -137,9 +170,9 @@
     <string name="keyboard_backlight_seekbar_title">Luminozitate tastatură</string>
     <string name="backlight_timeout_title">Timp expirare iluminare</string>
     <string name="backlight_timeout_unlimited">Nu opriți</string>
-    <string name="backlight_summary_disabled">Dezactivat</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Activat pentru <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Activ</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> secundă</item>
         <item quantity="few"><xliff:g id="secunde">%d</xliff:g> secunde</item>
@@ -261,7 +294,7 @@
     <string name="smart_pulldown_dismissable">nerevocabil</string>
     <string name="smart_pulldown_ongoing">nu este în curs de desfăşurare</string>
     <!-- Tap to sleep on status bar -->
-    <string name="lockscreen_doubletap_sleep_title">Atingeți pentru a adormi</string>
+    <string name="lockscreen_doubletap_sleep_title">Dublu tap pentru sleep</string>
     <string name="lockscreen_doubletap_sleep_summary">Atingeți de două ori ecranul de blocare pentru a adormi dispozitivul</string>
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Stil font</string>
@@ -378,7 +411,7 @@
     <string name="network_traffic_settings_title">Monitorizare trafic rețea</string>
     <string name="network_traffic_settings_summary">Afişare şi personalizare monitor trafic reţea</string>
     <string name="network_traffic_location_title">Locaţie</string>
-    <string name="network_traffic_location_disable">Dezactivat</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Bara de stare</string>
     <string name="network_traffic_location_quick_statusbar">Bara de stare rapidă</string>
     <string name="network_traffic_mode_title">Mod de afișare</string>
@@ -492,8 +525,6 @@
     <string name="qs_footer_show_power_menu_title">Scurtătură meniu pornire</string>
     <string name="qs_footer_services_icon_title">Scurtătură servicii rulante</string>
     <string name="qs_footer_settings_icon_title">Scurtătură setări</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Legal crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Cursor luminozitate</string>
     <string name="qs_show_brightness_slider_title">Cursor luminozitate</string>
@@ -504,9 +535,10 @@
     <string name="qs_brightness_slider_position_title">Poziție</string>
     <string name="qs_brightness_slider_position_top">Sus</string>
     <string name="qs_brightness_slider_position_bottom">Jos</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Feedback haptic</string>
     <string name="qs_brightness_slider_haptic_summary">Furnizați feedback haptic despre schimbarea luminozității folosind glisorul</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Pictogramă luminozitate automată</string>
     <string name="qs_show_auto_brightness_summary">Arată comutator pentru luminozitate adaptivă lângă glisor</string>
@@ -521,7 +553,7 @@
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Editare setări lumină</string>
     <string name="pulse_speed_title">Durata și viteza pulsării</string>
-    <string name="default_time">Normală</string>
+    <string name="default_time">Normal</string>
     <string name="custom_time">Personalizat</string>
     <string name="brightness">Nivel de luminozitate</string>
     <!-- Values for the notification light pulse spinners -->
@@ -562,7 +594,7 @@
     <string name="notification_light_applist_title">Aplicaţii</string>
     <string name="notification_light_phonelist_title">Telefon</string>
     <string name="notification_light_use_custom">Utilizează valori personalizate</string>
-    <string name="notification_light_default_value">Prestabilit</string>
+    <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Apel pierdut</string>
     <string name="notification_light_voicemail_title">Mesagerie vocală</string>
     <string name="notification_light_screen_on">Lumini cu ecranul pornit</string>
@@ -601,7 +633,7 @@
     <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Clipire lanternă pentru apel primit</string>
-    <string name="flashlight_on_call_disabled">Dezactivat</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Când sună</string>
     <string name="flashlight_on_call_no_ringer">Când soneria este silenţioasă</string>
     <string name="flashlight_on_call_silent">Când în întregime silențios (fără sonerie sau vibrator)</string>
@@ -623,7 +655,7 @@
     <string name="old_mobiletype_summary">Îmbinați semnalul și pictogramele tipului de semnal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animație oprire ecran</string>
-    <string name="screen_off_animation_default">Implicit</string>
+    <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scala</string>
     <!-- Fingerprint authentication vibration -->
@@ -632,7 +664,7 @@
     <string name="fp_error_vibrate_title">Vibrație eroare amprentă</string>
     <string name="fp_error_vibrate_summary">Vibrează când autentificarea cu amprentă eșuează</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Animație la încărcare</string>
+    <string name="charging_animation_title">Animaţie la încărcare</string>
     <string name="charging_animation_summary">Afișează o animație atunci când dispozitivul este conectat</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Luminozitate automată cu o singură lovitură</string>
@@ -867,12 +899,6 @@
     <string name="qs_tile_animation_style_rotate">Rotire</string>
     <string name="qs_tile_animation_style_flipx">Rotire X</string>
     <string name="qs_tile_animation_style_flipy">Rotire Y</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_fade_in">Fade In</string>
-    <string name="qs_tile_animation_style_bounce_x">Bounce Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_bounce_y">Bounce Effect (Scale Y)</string>
-    <string name="qs_tile_animation_style_pulse_x">Pulse Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_pulse_y">Pulse Effect (Scale Y)</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Liniar</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerare</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerare</string>
@@ -954,10 +980,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Falsifică integritate Google Play</string>
     <string name="pi_spoof_summary">Falsifică indentitatea telefonului cu un alt model pentru a putea trece de verificare integritate Google Play</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Căutare aplicații</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Verificare conectivitate</string>
     <string name="captive_portal_summary">Stabiliți dacă dispozitivul se poate conecta la internet, contactând Google. De asemenea este folosit pentru a detecta portaluri captive.</string>
@@ -1043,11 +1065,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Ton dublu tematic</string>
     <string name="qs_dual_tone_summary">Folosește culori de fundal pentru tonuri duble în locul unui singur ton AOSP</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">Stil Setări rapide</string>
-    <string name="qs_tile_ui_style_a11_circle">Circular</string>
-    <string name="qs_tile_ui_style_a11_square">Pătrat</string>
-    <string name="qs_tile_ui_style_a11_mix">Cirular &amp; pătrat</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">Stil panou QS</string>
     <string name="qs_panel_style_outline">Contur</string>
@@ -1141,7 +1158,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Este necesară repornirea interfeței sistemului</string>
     <string name="systemui_restart_message">Pentru ca modificările să aibă efect, este necesară o repornire a interfeței sistemului. Reporniți interfața de sistem acum?</string>
-    <string name="systemui_restart_yes">Da</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Nu acum</string>
     <string name="systemui_restart_process">Se repornește interfața sistem pentru a aplica modificările...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1152,40 +1169,27 @@
     <string name="custom_style_fluid">Lichid (transparent)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Straturi</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Cerc</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- ALPHA -->
-    <!-- Generic strings -->
-    <string name="accent_color">Culoare accent (implicit)</string>
-    <string name="add">Add</string>
-    <string name="advanced">Avansat</string>
-    <string name="always">Întotdeauna</string>
-    <string name="back">Back</string>
-    <string name="caution">Atenţie</string>
-    <string name="choose_app">Alegeți aplicația</string>
-    <string name="custom_color">Culoare personalizată</string>
-    <string name="default_value">Default</string>
-    <string name="delete">Șterge</string>
-    <string name="delete_message">Şterge elementul selectat?</string>
-    <string name="disable">Dezactivare</string>
-    <string name="disabled">Disabled</string>
-    <string name="discard_changes">Renunță la modificari</string>
-    <string name="enable">Activare</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
-    <string name="never">Niciodată</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
-    <string name="notification_color">Culoare notificare</string>
-    <string name="off">Oprit</string>
-    <string name="on">Pornit</string>
-    <string name="reset">Reset</string>
-    <string name="restart_systemui">Reporniți SystemUI pentru ca modificările să aibă efect!</string>
-    <string name="save">Salvaţi</string>
-    <string name="search">Căutare</string>
-    <string name="settings">Setări</string>
-    <string name="wallpaper_color">Culoarea imaginii de fundal</string>
-    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">Vor fi bunătăți!</string>
@@ -1199,11 +1203,12 @@
     <string name="top_level_security_privacy_category_title">Security</string>
     <string name="top_level_account_category_title">Accounts</string>
     <string name="top_level_support_category_title">Support</string>
-    <!-- Preference categories -->
-    <string name="preference_category_brightness">Luminozitate</string>
-    <string name="preference_category_battery">Baterie</string>
-    <string name="preference_category_style">Stil</string>
     <string name="lockscreen_clock_category">Ceas</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Gesturi</string>
     <!-- Changelog -->
     <string name="changelog_title">Current changelog</string>
     <string name="changelog_summary">View changes in the ROM installed</string>
@@ -1271,72 +1276,6 @@
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
     <string name="search_bar_text">search</string>
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings dashboard style</string>
-    <string name="settings_dashboard_style_summary">The style of Settings main page</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
-    <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">Stil interfață utilizator</string>
-    <string name="theme_customization_ui_style_summary">Setează stil personalizat pentru interfață</string>
-    <!-- Fastcharge -->
-    <string name="restricted_current_summary">Setează curentul maxim permis (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Încărcare limitată la: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
-    <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">Network</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
-    <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Pictograme notificare</string>
-    <string name="max_visible_notification_icons_summary">Nr. maxim de pictograme de notificare vizibile pe bara de stare</string>
-    <!-- QS brightness percentage -->
-    <string name="qs_show_brightness_percentage_title">Procentaj luminozitate</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Afișează animația de tip squiggle</string>
-    <string name="show_squiggle_animation_summary">Se afișează animația de tip squiggle în panoul media
-După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de progres</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Apus</string>
-    <string name="sleep_mode_schedule_sunrise">Răsărit</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Turn on now</string>
-    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Turn off now</string>
-    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
-    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
-    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1345,26 +1284,18 @@ După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
-    <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
-    <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
-    <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
-    <!-- Keybox import -->
-    <string name="import_keybox_title">Import Keybox</string>
-    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
-    <string name="import_success">Keybox imported successfully!</string>
-    <string name="import_failed">Failed to import keybox</string>
-    <string name="import_io_error">File operation error</string>
-    <string name="clear_keybox_title">Clear Keybox</string>
-    <string name="clear_keybox_summary">Disable keybox spoofing</string>
-    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
-    <string name="clear_failed">Failed to remove keybox</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Căutare aplicații</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Afișează animația de tip squiggle</string>
+    <string name="show_squiggle_animation_summary">Se afișează animația de tip squiggle în panoul media
+După comutare, trebuie schimbată sau întreruptă muzica, sau de mutat bara de progres</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Pictograme notificare</string>
+    <string name="max_visible_notification_icons_summary">Nr. maxim de pictograme de notificare vizibile pe bara de stare</string>
 </resources>
