@@ -34,6 +34,39 @@
     <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine basın</string>
     <string name="set">Ayarla</string>
     <string name="color_default">Default</string>
+    <!-- General strings -->
+    <string name="accent_color">Vurgu rengi (Varsayılan)</string>
+    <string name="add">Eklemek</string>
+    <string name="advanced">Gelişmiş</string>
+    <string name="always">Her zaman</string>
+    <string name="back">Back</string>
+    <string name="caution">Dikkat</string>
+    <string name="choose_app">Uygulama seç</string>
+    <string name="custom_color">Özel renk</string>
+    <string name="default_value">Default</string>
+    <string name="delete">Sil</string>
+    <string name="delete_message">Seçili öğe silinsin mi?</string>
+    <string name="disable">Devre dışı bırak</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Değişiklileri yoksay</string>
+    <string name="enable">Etkinleştir</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Asla</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="notification_color">Bildirim rengi</string>
+    <string name="off">Kapalı</string>
+    <string name="on">Açık</string>
+    <string name="reset">Sıfırla</string>
+    <string name="restart_systemui">Değişikliklerin etkili olması için SystemUI yeniden başlatılmalı!</string>
+    <string name="save">Kaydet</string>
+    <string name="search">Ara</string>
+    <string name="settings">Ayarlar</string>
+    <string name="wallpaper_color">Duvar kağıdı rengi</string>
+    <string name="yes">Yes</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google play</string>
     <!-- Custom seekbar -->
@@ -114,7 +147,7 @@
     <string name="volbtn_music_controls_title">Oynatma kontrolü</string>
     <string name="volbtn_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <string name="volbtn_cursor_control_title">Klavye imleç kontrolü</string>
-    <string name="volbtn_cursor_control_off">Devre dışı</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Ses seviyesi tuşlarına yukarı/aşağı basarak sola/sağa kaydır</string>
     <string name="volbtn_cursor_control_on_reverse">Ses seviyesi tuşlarına yukarı/aşağı basarak sağa/sola kaydır</string>
     <string name="power_end_call_title">Aramayı sonlandır</string>
@@ -137,9 +170,9 @@
     <string name="keyboard_backlight_seekbar_title">Klavye parlaklığı</string>
     <string name="backlight_timeout_title">Aydınlatma zaman aşımı</string>
     <string name="backlight_timeout_unlimited">Kapatma</string>
-    <string name="backlight_summary_disabled">Devre dışı</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout"> %s </xliff:g> için etkin</string>
-    <string name="backlight_summary_enabled">Etkin</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> saniye</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> saniye</item>
@@ -304,9 +337,9 @@
     <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Küçük</string>
-    <string name="status_bar_am_pm_hidden">Gizle</string>
+    <string name="status_bar_am_pm_hidden">Gizli</string>
     <string name="status_bar_date_title">Tarih</string>
-    <string name="status_bar_date_none">Gizle</string>
+    <string name="status_bar_date_none">Gizli</string>
     <string name="status_bar_date_small">Küçük</string>
     <string name="status_bar_date_normal">Normal</string>
     <string name="status_bar_date_format_title">Tarih biçimi</string>
@@ -330,7 +363,7 @@
     <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_filled_circle">Dolgulu daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
-    <string name="status_bar_battery_style_hidden">Gizle</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
     <string name="status_bar_battery_percent_title">Pil yüzdesi</string>
     <string name="status_bar_battery_percent_hidden">Gizli</string>
     <string name="status_bar_battery_percent_text_inside">Simge içinde</string>
@@ -377,7 +410,7 @@
     <string name="network_traffic_settings_title">Ağ trafiği göstergesi</string>
     <string name="network_traffic_settings_summary">Ağ etkinliğini görüntüleyin ve özelleştirin</string>
     <string name="network_traffic_location_title">Konum</string>
-    <string name="network_traffic_location_disable">Devre dışı</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Durum çubuğu</string>
     <string name="network_traffic_location_quick_statusbar">Hızlı ayarlar çubuğu</string>
     <string name="network_traffic_mode_title">Görüntüleme modu</string>
@@ -491,8 +524,6 @@
     <string name="qs_footer_show_power_menu_title">Güç menüsü kısayolu</string>
     <string name="qs_footer_services_icon_title">Çalışan hizmetler kısayolu</string>
     <string name="qs_footer_settings_icon_title">Ayarlar kısayolu</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid yasal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Parlaklık kaydırıcısı</string>
     <string name="qs_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
@@ -503,9 +534,10 @@
     <string name="qs_brightness_slider_position_title">Parlaklık konumu</string>
     <string name="qs_brightness_slider_position_top">Üst</string>
     <string name="qs_brightness_slider_position_bottom">Alt</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Dokunumsal geri bildirim</string>
     <string name="qs_brightness_slider_haptic_summary">Parlaklık kaydırıcıyla değiştirildiğinde dokunsal geri bildirim sağla</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
     <string name="qs_show_auto_brightness_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
@@ -561,7 +593,7 @@
     <string name="notification_light_applist_title">Uygulamalar</string>
     <string name="notification_light_phonelist_title">Telefon</string>
     <string name="notification_light_use_custom">Özel değerler kullan</string>
-    <string name="notification_light_default_value">Varsayılan</string>
+    <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Cevapsız arama</string>
     <string name="notification_light_voicemail_title">Sesli mesaj</string>
     <string name="notification_light_screen_on">Ekran açıkken yanıp sön</string>
@@ -600,7 +632,7 @@
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Gelen aramalarda el fenerini yakıp söndür</string>
-    <string name="flashlight_on_call_disabled">Devre dışı</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Zil sesi çalarken</string>
     <string name="flashlight_on_call_no_ringer">Zil sesi sessiz olduğunda</string>
     <string name="flashlight_on_call_silent">Tamamen sessizken (zil sesi veya titreşim yok)</string>
@@ -622,7 +654,7 @@
     <string name="old_mobiletype_summary">Sinyal ve sinyal türü simgelerini birleştir</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
-    <string name="screen_off_animation_default">Varsayılan</string>
+    <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Ölçek</string>
     <!-- Fingerprint authentication vibration -->
@@ -865,12 +897,6 @@
     <string name="qs_tile_animation_style_rotate">Döndür</string>
     <string name="qs_tile_animation_style_flipx">Çevir X</string>
     <string name="qs_tile_animation_style_flipy">Çevir Y</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_fade_in">Fade In</string>
-    <string name="qs_tile_animation_style_bounce_x">Bounce Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_bounce_y">Bounce Effect (Scale Y)</string>
-    <string name="qs_tile_animation_style_pulse_x">Pulse Effect (Scale X)</string>
-    <string name="qs_tile_animation_style_pulse_y">Pulse Effect (Scale Y)</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Doğrusal</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">Hızlandır</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Yavaşlat</string>
@@ -952,10 +978,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play Integrity aldatma</string>
     <string name="pi_spoof_summary">Cihazınızı Google Play Integrity\'de farklı bir modelmiş gibi gösterin</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Uygulamalar ara</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Bağlantı kontrolü</string>
     <string name="captive_portal_summary">Google ile iletişime geçerek cihazın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca sabit portalları tespit etmek için kullanılır.</string>
@@ -983,7 +1005,7 @@
     <string name="lockscreen_shortcut_camera">Kamera</string>
     <string name="lockscreen_shortcut_remote">Google TV Kumandası</string>
     <string name="lockscreen_shortcut_dnd">DND</string>
-    <string name="lockscreen_shortcut_none">Hiçbiri</string>
+    <string name="lockscreen_shortcut_none">Yok</string>
     <string name="lockscreen_shortcut_enforce_title">Kısayolları zorla</string>
     <string name="lockscreen_shortcut_enforce_summary">Seçilen kısayol mevcut değilse bir sonraki mevcut kısayolu gösterme</string>
     <!-- App lock -->
@@ -1040,11 +1062,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Çift ton temalı</string>
     <string name="qs_dual_tone_summary">AOSP tek ton yerine çift tonlu arka plan renkleri kullanın</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">Hızlı ayarlar kare stili</string>
-    <string name="qs_tile_ui_style_a11_circle">Daire kareler</string>
-    <string name="qs_tile_ui_style_a11_square">Kare butonlar</string>
-    <string name="qs_tile_ui_style_a11_mix">Daire &amp; Kare butonlar</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">Hızlı ayarlar paneli stili</string>
     <string name="qs_panel_style_outline">Anahat</string>
@@ -1138,7 +1155,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Sistem arayüzünü yeniden başlatmak gerekli</string>
     <string name="systemui_restart_message">Değişikliklerin aktif olması için Sistem Arayüzü yeniden başlatılmalı Sistem Arayüzü yeniden başlatılsın mı?</string>
-    <string name="systemui_restart_yes">Evet</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Şimdi değil</string>
     <string name="systemui_restart_process">Değişiklikleri uygulamak için sistem arayüzü yeniden başlatılıyor...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1149,40 +1166,27 @@
     <string name="custom_style_fluid">Akışkan (Şeffaf)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Katmanlar</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Daire</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- ALPHA -->
-    <!-- Generic strings -->
-    <string name="accent_color">Vurgu rengi (Varsayılan)</string>
-    <string name="add">Eklemek</string>
-    <string name="advanced">Gelişmiş</string>
-    <string name="always">Her zaman</string>
-    <string name="back">Back</string>
-    <string name="caution">Dikkat</string>
-    <string name="choose_app">Uygulama seç</string>
-    <string name="custom_color">Özel renk</string>
-    <string name="default_value">Default</string>
-    <string name="delete">Sil</string>
-    <string name="delete_message">Seçili öğe silinsin mi?</string>
-    <string name="disable">Devre dışı bırak</string>
-    <string name="disabled">Disabled</string>
-    <string name="discard_changes">Değişiklileri yoksay</string>
-    <string name="enable">Etkinleştir</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
-    <string name="never">Asla</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
-    <string name="notification_color">Bildirim rengi</string>
-    <string name="off">Kapalı</string>
-    <string name="on">Açık</string>
-    <string name="reset">Sıfırla</string>
-    <string name="restart_systemui">Değişikliklerin etkili olması için SystemUI yeniden başlatılmalı!</string>
-    <string name="save">Kaydet</string>
-    <string name="search">Ara</string>
-    <string name="settings">Ayarlar</string>
-    <string name="wallpaper_color">Duvar kağıdı rengi</string>
-    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha ayarları</string>
     <string name="alpha_settings_summary">Süprizler olacak!</string>
@@ -1196,11 +1200,12 @@
     <string name="top_level_security_privacy_category_title">Security</string>
     <string name="top_level_account_category_title">Accounts</string>
     <string name="top_level_support_category_title">Support</string>
-    <!-- Preference categories -->
-    <string name="preference_category_brightness">Parlaklık</string>
-    <string name="preference_category_battery">Pil</string>
-    <string name="preference_category_style">Stil</string>
     <string name="lockscreen_clock_category">Saat</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Hareketler</string>
     <!-- Changelog -->
     <string name="changelog_title">Current changelog</string>
     <string name="changelog_summary">View changes in the ROM installed</string>
@@ -1268,71 +1273,6 @@
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
     <string name="search_bar_text">search</string>
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings dashboard style</string>
-    <string name="settings_dashboard_style_summary">The style of Settings main page</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
-    <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">Kullanıcı arayüzü stili</string>
-    <string name="theme_customization_ui_style_summary">Arayüzünüz için özel stil belirleyin</string>
-    <!-- Fastcharge -->
-    <string name="restricted_current_summary">Maksimum izin verilen akım (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Şarj <xliff:g id="current" example="3000 mA">%1$s</xliff:g> ile sınırlandı</string>
-    <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">Network</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
-    <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Bildirim simgeleri</string>
-    <string name="max_visible_notification_icons_summary">Durum çubuğunda görünen maksimum bildirim simgesi</string>
-    <!-- QS brightness percentage -->
-    <string name="qs_show_brightness_percentage_title">Parlaklık yüzdesi</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Dalgalanma animasyonunu göster</string>
-    <string name="show_squiggle_animation_summary">Medya paneli dalgalı animasyonu göster\nDeğişiklikten sonra uygulanması için müziği değiştirmek, müziği duraklatmak veya ilerleme çubuğunu hareket ettirmek gerekir</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Uyku Modu</string>
-    <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Kapalı / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Zil sesi modu</string>
-    <string name="sleep_mode_ringer_off_title">Hayır, Değiştirme</string>
-    <string name="sleep_mode_ringer_vibrate_title">Titreşim</string>
-    <string name="sleep_mode_ringer_dnd_title">Rahatsız etmeyin</string>
-    <string name="sleep_mode_ringer_silent_title">Sessize al</string>
-    <string name="sleep_mode_schedule_sunset">Gün batımı</string>
-    <string name="sleep_mode_schedule_sunrise">Gün doğumu</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından özel bir zamana kadar açılır</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Özel bir zamandan gün doğumuna kadar açılır</string>
-    <string name="sleep_mode_toggles_title">Düğmeler</string>
-    <string name="sleep_mode_wifi_toggle_title">Wi-Fi\'yi kapat</string>
-    <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıldığında Wi-Fi\'yi devre dışı bırakın</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth özelliğini kapat</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıldığında Bluetooth\'u devre dışı bırak</string>
-    <string name="sleep_mode_cellular_toggle_title">Mobil veriyi kapat</string>
-    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıldığında Mobil veriyi devre dışı bırak</string>
-    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
-    <string name="sleep_mode_location_toggle_summary">Uyku modu açıldığında konum hizmetlerini devre dışı bırak</string>
-    <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
-    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
-    <string name="sleep_mode_display_text">Uyku modu, siz uyurken pilden tasarruf etmenize ve telefonunuzu sessize almanıza yardımcı olmak için belirli hizmetleri devre dışı bırakmanıza olanak tanır.</string>
-    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Şimdi etkinleştir</string>
-    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Şimdi kapat</string>
-    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Güneş doğana kadar açık tut</string>
-    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Gün batımına kadar kapalı tut</string>
-    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Şu saate kadar açık tut <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Şu saate kadar kapalı tut <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1341,26 +1281,17 @@
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
-    <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
-    <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
-    <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
-    <!-- Keybox import -->
-    <string name="import_keybox_title">Import Keybox</string>
-    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
-    <string name="import_success">Keybox imported successfully!</string>
-    <string name="import_failed">Failed to import keybox</string>
-    <string name="import_io_error">File operation error</string>
-    <string name="clear_keybox_title">Clear Keybox</string>
-    <string name="clear_keybox_summary">Disable keybox spoofing</string>
-    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
-    <string name="clear_failed">Failed to remove keybox</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Uygulamalar ara</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Dalgalanma animasyonunu göster</string>
+    <string name="show_squiggle_animation_summary">Medya paneli dalgalı animasyonu göster\nDeğişiklikten sonra uygulanması için müziği değiştirmek, müziği duraklatmak veya ilerleme çubuğunu hareket ettirmek gerekir</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Bildirim simgeleri</string>
+    <string name="max_visible_notification_icons_summary">Durum çubuğunda görünen maksimum bildirim simgesi</string>
 </resources>

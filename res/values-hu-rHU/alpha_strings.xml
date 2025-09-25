@@ -34,6 +34,39 @@
     <string name="press_color_to_apply">Érintsen meg egy színt annak alkalmazáshoz</string>
     <string name="set">Beállít</string>
     <string name="color_default">Default</string>
+    <!-- General strings -->
+    <string name="accent_color">Kiemelőszín (alapértelmezett)</string>
+    <string name="add">Hozzáadás</string>
+    <string name="advanced">Haladó</string>
+    <string name="always">Mindig</string>
+    <string name="back">Vissza</string>
+    <string name="caution">Figyelmeztetés</string>
+    <string name="choose_app">Alkalmazásválasztás</string>
+    <string name="custom_color">Egyéni szín</string>
+    <string name="default_value">Default</string>
+    <string name="delete">Törlés</string>
+    <string name="delete_message">Eltávolítja a kijelölt elemet?</string>
+    <string name="disable">Letiltás</string>
+    <string name="disabled">Kikapcsolva</string>
+    <string name="discard_changes">Módosítások elvetése</string>
+    <string name="enable">Engedélyezés</string>
+    <string name="enabled">Bekapcsolva</string>
+    <string name="finish">Kész</string>
+    <string name="loading">Betöltés\u2026</string>
+    <string name="name">Név</string>
+    <string name="never">Soha</string>
+    <string name="next">Következő</string>
+    <string name="no">Nem</string>
+    <string name="notification_color">Értesítési szín</string>
+    <string name="off">Ki</string>
+    <string name="on">Be</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="restart_systemui">Indítsa újra a rendszerfelületet a változtatás érvénybe léptetéséhez!</string>
+    <string name="save">Mentés</string>
+    <string name="search">Keresés</string>
+    <string name="settings">Beállítások</string>
+    <string name="wallpaper_color">Háttérkép-szín</string>
+    <string name="yes">Igen</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play Áruház</string>
     <!-- Custom seekbar -->
@@ -114,7 +147,7 @@
     <string name="volbtn_music_controls_title">Lejátszásvezérlés</string>
     <string name="volbtn_music_controls_summary">Zeneszámok keresése a hangerőgombok hosszan nyomásával kikapcsolt kijelzőnél</string>
     <string name="volbtn_cursor_control_title">Billentyűzet kurzorirányítás</string>
-    <string name="volbtn_cursor_control_off">Letiltva</string>
+    <string name="volbtn_cursor_control_off">Kikapcsolva</string>
     <string name="volbtn_cursor_control_on">A hangerő fel/le a kurzort balra/jobbra mozgatja</string>
     <string name="volbtn_cursor_control_on_reverse">A hangerő fel/le a kurzort jobbra/balra mozgatja</string>
     <string name="power_end_call_title">Hívásbefejezés</string>
@@ -137,9 +170,9 @@
     <string name="keyboard_backlight_seekbar_title">Billentyűzet-fényerő</string>
     <string name="backlight_timeout_title">A megvilágítás hossza</string>
     <string name="backlight_timeout_unlimited">Ne kapcsoljon ki</string>
-    <string name="backlight_summary_disabled">Letiltva</string>
+    <string name="backlight_summary_disabled">Kikapcsolva</string>
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g> másodpercig engedélyezve</string>
-    <string name="backlight_summary_enabled">Engedélyezve</string>
+    <string name="backlight_summary_enabled">Bekapcsolva</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> másodperc</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> másodperc</item>
@@ -289,8 +322,8 @@
     <string name="status_bar_clock_seconds_title">Másodperc kijelzése</string>
     <string name="status_bar_clock_seconds_summary">Másodpercek kijelzése az állapotsorban</string>
     <string name="status_bar_clock_position_title">Órastílus</string>
-    <string name="status_bar_clock_position_right">Jobbra</string>
-    <string name="status_bar_clock_position_left">Balra</string>
+    <string name="status_bar_clock_position_right">Jobb</string>
+    <string name="status_bar_clock_position_left">Bal</string>
     <string name="status_bar_clock_position_center">Középre</string>
     <string name="status_bar_clock_position_hidden">Rejtett</string>
     <string name="status_bar_clock_auto_hide_title">Automatikus elrejtés</string>
@@ -377,7 +410,7 @@
     <string name="network_traffic_settings_title">Hálózatiforgalom-figyelő</string>
     <string name="network_traffic_settings_summary">Testreszabhatja a jelenlegi Hálózatiforgalom-figyelőt</string>
     <string name="network_traffic_location_title">Tartózkodási hely</string>
-    <string name="network_traffic_location_disable">Letiltva</string>
+    <string name="network_traffic_location_disable">Kikapcsolva</string>
     <string name="network_traffic_location_statusbar">Állapotsor</string>
     <string name="network_traffic_location_quick_statusbar">Gyors állapotsor</string>
     <string name="network_traffic_mode_title">Megjelenítési mód</string>
@@ -491,8 +524,6 @@
     <string name="qs_footer_show_power_menu_title">Kikapcsolómenű-parancsikon</string>
     <string name="qs_footer_services_icon_title">\'Futó szolgáltatások\'-parancsikon</string>
     <string name="qs_footer_settings_icon_title">Beállítások-parancsikon</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid jogok</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Fényerőszabályzó-csúszka</string>
     <string name="qs_show_brightness_slider_title">Fényerőszabályzó-csúszka</string>
@@ -503,9 +534,10 @@
     <string name="qs_brightness_slider_position_title">Pozíció</string>
     <string name="qs_brightness_slider_position_top">Felül</string>
     <string name="qs_brightness_slider_position_bottom">Alul</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Rezgő visszajelzés</string>
     <string name="qs_brightness_slider_haptic_summary">Rezgéssel jelzi, ha fényerő-szabályzás történt a csúszkával</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Az automatikus fényerő ikonja</string>
     <string name="qs_show_auto_brightness_summary">Az alkalmazkodó fényerő kapcsolója a csúszka közelében</string>
@@ -520,7 +552,7 @@
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">LED-beállítások szerkesztése</string>
     <string name="pulse_speed_title">Pulzálás hossza és gyorsasága</string>
-    <string name="default_time">Normál</string>
+    <string name="default_time">Szokásos</string>
     <string name="custom_time">Egyéni</string>
     <string name="brightness">Fényerőszintek</string>
     <!-- Values for the notification light pulse spinners -->
@@ -528,17 +560,17 @@
     <string name="pulse_length_blink">Villogás</string>
     <string name="pulse_length_very_short">Nagyon rövid</string>
     <string name="pulse_length_short">Rövid</string>
-    <string name="pulse_length_normal">Normál</string>
+    <string name="pulse_length_normal">Szokásos</string>
     <string name="pulse_length_long">Hosszú</string>
     <string name="pulse_length_very_long">Nagyon hosszú</string>
     <string name="pulse_speed_very_fast">Nagyon gyors</string>
     <string name="pulse_speed_fast">Gyors</string>
-    <string name="pulse_speed_normal">Normál</string>
+    <string name="pulse_speed_normal">Szokásos</string>
     <string name="pulse_speed_slow">Lassú</string>
     <string name="pulse_speed_very_slow">Nagyon lassú</string>
     <!-- Common light settings strings -->
     <string name="light_brightness_title">Fényerőszintek</string>
-    <string name="light_brightness_normal">Normál</string>
+    <string name="light_brightness_normal">Szokásos</string>
     <string name="light_brightness_zen">Ne zavarjanak (DND)</string>
     <!-- Battery light settings -->
     <string name="light_brightness_category">LED-fényerő beállítások</string>
@@ -561,7 +593,7 @@
     <string name="notification_light_applist_title">Alkalmazások</string>
     <string name="notification_light_phonelist_title">Telefon</string>
     <string name="notification_light_use_custom">Egyéni értékek használata</string>
-    <string name="notification_light_default_value">Alapértelmezett</string>
+    <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
     <string name="notification_light_voicemail_title">Hangüzenet</string>
     <string name="notification_light_screen_on">Értesítési fények bekapcsolt képernyőnél</string>
@@ -604,7 +636,7 @@
     <string name="flashlight_on_call_ringer">Csörgés közben</string>
     <string name="flashlight_on_call_no_ringer">Lenémított csörgéskor</string>
     <string name="flashlight_on_call_silent">Teljes némításkor (se csengés, se rezgés)</string>
-    <string name="flashlight_on_call_always">Minden esetben</string>
+    <string name="flashlight_on_call_always">Mindig</string>
     <string name="flashlight_on_call_ignore_dnd_title">A \'Ne zavarjanak\' figyelmen kívül hagyása</string>
     <string name="flashlight_on_call_ignore_dnd_summary">Villogjon-e \'Ne zavarjanak\' üzemmódban</string>
     <string name="flashlight_on_call_rate_title">A villogás intenzitása</string>
@@ -622,7 +654,7 @@
     <string name="old_mobiletype_summary">Összevonja a jelerősség-ikonokat</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Képernyő-kikapcsolási animáció</string>
-    <string name="screen_off_animation_default">Alapértelmezett</string>
+    <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Skálázott</string>
     <!-- Fingerprint authentication vibration -->
@@ -631,7 +663,7 @@
     <string name="fp_error_vibrate_title">Ujjlenyomat-hiba rezgő jelzése</string>
     <string name="fp_error_vibrate_summary">Rezgéssel jelzi az ujjlenyomat sikertelen hitelesítését</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Töltésanimáció</string>
+    <string name="charging_animation_title">Töltési animáció</string>
     <string name="charging_animation_summary">Töltéskor megjelenít egy animációt</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Egylövéses automata-fényerő</string>
@@ -762,7 +794,7 @@
     <string name="thick_label">Vastag</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Teljes</string>
-    <string name="back_height_high_label">Alsó</string>
+    <string name="back_height_high_label">Alul</string>
     <string name="back_height_title">A \'Vissza\' vezérlés magassága</string>
     <string name="back_height_summary">Az érvényes terület nagysága a \'Vissza\' vezérléshez</string>
     <!-- Notification guts kill app button -->
@@ -808,7 +840,7 @@
     <string name="columbus_setting_action_open_app_title">Alkalmazásindítás</string>
     <string name="columbus_setting_action_overview_title">Az előzményalkalmazások megjelenítése</string>
     <string name="columbus_setting_action_play_pause_title">Médiaindítás vagy szüneteltetés</string>
-    <string name="columbus_setting_action_screenshot_title">Képernyőkép-készítés</string>
+    <string name="columbus_setting_action_screenshot_title">Képernyőkép készítés</string>
     <string name="columbus_setting_actions_title">Koppintsa meg kétszer a készüléke hátlapját</string>
     <string name="columbus_setting_additional_settings_title">Az érintések erőssége</string>
     <string name="columbus_setting_app_selection_help_text">Válasszon alkalmazást, amit duplakoppal szeretne inditani. Ha valaha is törli ezt az alkalmazást a Gyors érintések funkciója leáll, míg be nem állít más alkalmazást.</string>
@@ -946,10 +978,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Trükközés a Google Play Integrity-vel</string>
     <string name="pi_spoof_summary">A Google Play sértettlenségének ellenőrzésekor más telefonnak álcázza az Ön készülékét</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Appok keresése</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Kapcsolódási teszt</string>
     <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
@@ -1036,11 +1064,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Kéttónusúan témázott</string>
     <string name="qs_dual_tone_summary">Használjon kéttónusú háttérszíneket az AOSP egytónusú helyett</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">A Gyorsbeállítás-csempék stílusa</string>
-    <string name="qs_tile_ui_style_a11_circle">Körcsempék</string>
-    <string name="qs_tile_ui_style_a11_square">Négyzetcsempék</string>
-    <string name="qs_tile_ui_style_a11_mix">Kör- és négyzetcsempék</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">A Gyorsbeállítások panel stílusa</string>
     <string name="qs_panel_style_outline">Körvonalas</string>
@@ -1085,7 +1108,7 @@
     <!-- Ambient wake -->
     <string name="doze_gesture_ambient_title">Környezeti ébredés</string>
     <string name="doze_gesture_ambient_summary">\'Környezeti kijelző\', a képernyő teljes ébresztése helyett</string>
-    <string name="gesture_wake_ambient">Környezeti ébresztés</string>
+    <string name="gesture_wake_ambient">Környezeti ébredés</string>
     <string name="gesture_wake">Teljes ébresztés</string>
     <!-- Sidebar -->
     <string name="sidebar_title">Oldalsáv</string>
@@ -1145,40 +1168,27 @@
     <string name="custom_style_fluid">Folyékony (Átlátszó)</string>
     <string name="custom_style_ios">iOS</string>
     <string name="custom_style_layers">Réteges</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Kör</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- ALPHA -->
-    <!-- Generic strings -->
-    <string name="accent_color">Kiemelőszín (alapértelmezett)</string>
-    <string name="add">Hozzáadás</string>
-    <string name="advanced">Haladó</string>
-    <string name="always">Mindig</string>
-    <string name="back">Vissza</string>
-    <string name="caution">Figyelmeztetés</string>
-    <string name="choose_app">Alkalmazásválasztás</string>
-    <string name="custom_color">Egyéni szín</string>
-    <string name="default_value">Default</string>
-    <string name="delete">Törlés</string>
-    <string name="delete_message">Eltávolítja a kijelölt elemet?</string>
-    <string name="disable">Letiltás</string>
-    <string name="disabled">Kikapcsolva</string>
-    <string name="discard_changes">Módosítások elvetése</string>
-    <string name="enable">Engedélyezés</string>
-    <string name="enabled">Bekapcsolva</string>
-    <string name="finish">Kész</string>
-    <string name="loading">Betöltés\u2026</string>
-    <string name="name">Név</string>
-    <string name="never">Soha</string>
-    <string name="next">Következő</string>
-    <string name="no">Nem</string>
-    <string name="notification_color">Értesítési szín</string>
-    <string name="off">Ki</string>
-    <string name="on">Be</string>
-    <string name="reset">Visszaállítás</string>
-    <string name="restart_systemui">Indítsa újra a rendszerfelületet a változtatás érvénybe léptetéséhez!</string>
-    <string name="save">Mentés</string>
-    <string name="search">Keresés</string>
-    <string name="settings">Beállítások</string>
-    <string name="wallpaper_color">Háttérkép-szín</string>
-    <string name="yes">Igen</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha beállítások</string>
     <string name="alpha_settings_summary">Lesznek nyalánkságok!</string>
@@ -1192,11 +1202,12 @@
     <string name="top_level_security_privacy_category_title">Biztonság</string>
     <string name="top_level_account_category_title">Fiókok</string>
     <string name="top_level_support_category_title">Támogatás</string>
-    <!-- Preference categories -->
-    <string name="preference_category_brightness">Fényerő</string>
-    <string name="preference_category_battery">Akkumulátor</string>
-    <string name="preference_category_style">Stílus</string>
     <string name="lockscreen_clock_category">Óra</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">Rendszer</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Gesztusok</string>
     <!-- Changelog -->
     <string name="changelog_title">Jelenlegi változásnapló</string>
     <string name="changelog_summary">A telepített ROM változásainak megtekintése</string>
@@ -1264,71 +1275,6 @@
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
     <string name="search_bar_text">search</string>
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings dashboard style</string>
-    <string name="settings_dashboard_style_summary">The style of Settings main page</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
-    <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI stílus</string>
-    <string name="theme_customization_ui_style_summary">Egyéni felület stílus beállítása</string>
-    <!-- Fastcharge -->
-    <string name="restricted_current_summary">Maximális megengedett áramerősség (mA) beállítása</string>
-    <string name="fastcharge_disabled_extended_summary">Töltési korlát: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
-    <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">Network</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
-    <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Értesítés ikonok</string>
-    <string name="max_visible_notification_icons_summary">Max. látható értesítés ikon az állapotsávon</string>
-    <!-- QS brightness percentage -->
-    <string name="qs_show_brightness_percentage_title">Fényerő százalék</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Hullámzó animáció mutatása</string>
-    <string name="show_squiggle_animation_summary">Média panel hullámzó animáció mutatása\nVáltoztatás után zene váltás, szüneteltetés, vagy az állapot sáv mozgatása szükséges az érvényesüléshez</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Alvómód</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Hívásértesítési mód</string>
-    <string name="sleep_mode_ringer_off_title">Ne változtassa meg</string>
-    <string name="sleep_mode_ringer_vibrate_title">Rezgés</string>
-    <string name="sleep_mode_ringer_dnd_title">Ne zavarjanak (DND)</string>
-    <string name="sleep_mode_ringer_silent_title">Néma</string>
-    <string name="sleep_mode_schedule_sunset">Napnyugta</string>
-    <string name="sleep_mode_schedule_sunrise">Napkelte</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Napnyugtától a beállított időig bekapcsol</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">A beállított időtől napkeltéig bekapcsol</string>
-    <string name="sleep_mode_toggles_title">Kapcsolók</string>
-    <string name="sleep_mode_wifi_toggle_title">Wi-Fi kikapcsolása</string>
-    <string name="sleep_mode_wifi_toggle_summary">Kikapcsolja a Wi-Fi-t amikor az alvómód be van kapcsolva</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth kikapcsolása</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Kikapcsolja a Bluetooth-t amikor az alvómód be van kapcsolva</string>
-    <string name="sleep_mode_cellular_toggle_title">Mobiladat kikapcsolása</string>
-    <string name="sleep_mode_cellular_toggle_summary">Letiltja a mobilinternetet, ha az alvómód be van kapcsolva</string>
-    <string name="sleep_mode_location_toggle_title">Helymeghatározás kikapcsolása</string>
-    <string name="sleep_mode_location_toggle_summary">Letiltja a helymeghatározást, ha az alvómód be van kapcsolva</string>
-    <string name="sleep_mode_sensors_toggle_title">Szenzorok kikapcsolása</string>
-    <string name="sleep_mode_sensors_toggle_summary">Letiltja a szenzorokat, ha az alvómód be van kapcsolva</string>
-    <string name="sleep_mode_display_text">Az alvómód lehetővé teszi, hogy letiltson szolgáltatásokat az akkumulátor kímélése és a telefon alvás közbeni némítása érdekében.</string>
-    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Bekapcsolás most</string>
-    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Kikapcsolás most</string>
-    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Bekapcsolás napkeltéig</string>
-    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Kikapcsolás napnyugtáig</string>
-    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Bekapcsolás eddig: <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Kikapcsolás eddig: <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1337,26 +1283,17 @@
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
-    <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
-    <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
-    <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
-    <!-- Keybox import -->
-    <string name="import_keybox_title">Import Keybox</string>
-    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
-    <string name="import_success">Keybox imported successfully!</string>
-    <string name="import_failed">Failed to import keybox</string>
-    <string name="import_io_error">File operation error</string>
-    <string name="clear_keybox_title">Clear Keybox</string>
-    <string name="clear_keybox_summary">Disable keybox spoofing</string>
-    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
-    <string name="clear_failed">Failed to remove keybox</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Appok keresése</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Hullámzó animáció mutatása</string>
+    <string name="show_squiggle_animation_summary">Média panel hullámzó animáció mutatása\nVáltoztatás után zene váltás, szüneteltetés, vagy az állapot sáv mozgatása szükséges az érvényesüléshez</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Értesítés ikonok</string>
+    <string name="max_visible_notification_icons_summary">Max. látható értesítés ikon az állapotsávon</string>
 </resources>

@@ -34,6 +34,39 @@
     <string name="press_color_to_apply">Πατήστε στο χρώμα από κάτω για να εφαρμοστεί</string>
     <string name="set">Ορισμός</string>
     <string name="color_default">Default</string>
+    <!-- General strings -->
+    <string name="accent_color">Χρώμα έμφασης (Προεπιλογή)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Για προχωρημένους</string>
+    <string name="always">Πάντα</string>
+    <string name="back">Back</string>
+    <string name="caution">Προσοχή</string>
+    <string name="choose_app">Επιλέξτε εφαρμογή</string>
+    <string name="custom_color">Προσαρμοσμένο χρώμα</string>
+    <string name="default_value">Default</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="delete_message">Αφαίρεση επιλεγμένου στοιχείου;</string>
+    <string name="disable">Απενεργοποίηση</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Απόρριψη αλλαγών</string>
+    <string name="enable">Ενεργοποίηση</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Ποτέ</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="notification_color">Χρώμα ειδοποίησης</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="restart_systemui">Επανεκκίνηση του SystemUI για να τεθεί σε ισχύ η αλλαγή!</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="search">Search</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="wallpaper_color">Χρώμα ταπετσαρίας</string>
+    <string name="yes">Yes</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -114,7 +147,7 @@
     <string name="volbtn_music_controls_title">Έλεγχος αναπαραγωγής</string>
     <string name="volbtn_music_controls_summary">Αναζήτηση μουσικών κομματιών πιέζοντας παρατεταμένα τα πλήκτρα έντασης ενώ η οθόνη είναι απενεργοποιημένη</string>
     <string name="volbtn_cursor_control_title">Έλεγχος κέρσορα πληκτρολογίου</string>
-    <string name="volbtn_cursor_control_off">Απενεργοποιημένο</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Τα κουμπιά έντασης πάνω/κάτω κινούν τον δρομέα αριστερά/δεξιά</string>
     <string name="volbtn_cursor_control_on_reverse">Τα κουμπιά έντασης πάνω/κάτω κινούν τον κέρσορα δεξιά/αριστερά</string>
     <string name="power_end_call_title">Τερματισμός κλήσης</string>
@@ -137,9 +170,9 @@
     <string name="keyboard_backlight_seekbar_title">Φωτεινότητα πληκτρολογίου</string>
     <string name="backlight_timeout_title">Χρονικό όριο φωτισμού</string>
     <string name="backlight_timeout_unlimited">Να μην απενεργοποιείται</string>
-    <string name="backlight_summary_disabled">Απενεργοποιημένο</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Ενεργοποιημένο για <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Ενεργοποιημένο</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> δευτερόλεπτο</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> δευτερόλεπτα</item>
@@ -247,7 +280,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">Τραβώντας προς τα κάτω την %1$s άκρη της μπάρας κατάστασης εμφανίζονται οι Γρήγορες ρυθμίσεις</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Αριστερά</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Δεξιά</string>
-    <string name="status_bar_quick_qs_pulldown_off">Απενεργοποιημένο</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
     <string name="status_bar_quick_qs_pulldown_left">Αριστερά</string>
     <string name="status_bar_quick_qs_pulldown_right">Δεξιά</string>
     <string name="status_bar_quick_qs_pulldown_always">Να εμφανίζονται πάντα οι γρήγορες ρυθμίσεις στο κατέβασμα της γραμμής κατάστασης</string>
@@ -255,7 +288,7 @@
     <string name="smart_pulldown_title">Έξυπνο τράβηγμα</string>
     <string name="smart_pulldown_summary">Ανοίξτε τις γρήγορες ρυθμίσεις όταν υπάρχουν %1$s ειδοποιήσεις</string>
     <string name="smart_pulldown_none_summary">Ανοίξτε τις γρήγορες ρυθμίσεις όταν δεν υπάρχουν ειδοποιήσεις</string>
-    <string name="smart_pulldown_off">Ανενεργό</string>
+    <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">χωρίς ειδοποιήσεις</string>
     <string name="smart_pulldown_dismissable">Μη απορρίψιμο</string>
     <string name="smart_pulldown_ongoing">τίποτα σε εξέλιξη</string>
@@ -306,12 +339,12 @@
     <string name="status_bar_am_pm_small">Μικρό</string>
     <string name="status_bar_am_pm_hidden">Κρυμμένο</string>
     <string name="status_bar_date_title">Ημερομηνία</string>
-    <string name="status_bar_date_none">Κρυμμένη</string>
-    <string name="status_bar_date_small">Μικρή</string>
-    <string name="status_bar_date_normal">Κανονική</string>
+    <string name="status_bar_date_none">Κρυμμένο</string>
+    <string name="status_bar_date_small">Μικρό</string>
+    <string name="status_bar_date_normal">Κανονικό</string>
     <string name="status_bar_date_format_title">Μορφή ημερομηνίας</string>
     <string name="status_bar_date_style">Στυλ ημερομηνίας</string>
-    <string name="status_bar_date_style_normal">Κανονική</string>
+    <string name="status_bar_date_style_normal">Κανονικό</string>
     <string name="status_bar_date_style_lowercase">Μικρά γράμματα</string>
     <string name="status_bar_date_style_uppercase">Κεφαλαία</string>
     <string name="status_bar_date_format_custom">Προσαρμοσμένη μορφή java</string>
@@ -377,7 +410,7 @@
     <string name="network_traffic_settings_title">Εποπτεία της κίνησης δικτύου</string>
     <string name="network_traffic_settings_summary">Εμφάνιση και προσαρμογή των τρεχόντων επιπέδων κίνησης δικτύου</string>
     <string name="network_traffic_location_title">Τοποθεσία</string>
-    <string name="network_traffic_location_disable">Απενεργοποιημένο</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Γραμμή κατάστασης</string>
     <string name="network_traffic_location_quick_statusbar">Γρήγορη Γραμμή Κατάστασης</string>
     <string name="network_traffic_mode_title">Λειτουργία προβολής</string>
@@ -452,7 +485,7 @@
     <string name="navbar_arrow_keys_title">Εμφάνιση βελών κατά την πληκτρολόγηση</string>
     <string name="navbar_arrow_keys_summary">Εμφάνιση αριστερού και δεξιού κουμπιού κέρσορα κατά την πληκτρολόγηση. Παρακάμπτει τον διακόπτη IME.</string>
     <string name="navbar_layout_title">Διάταξη</string>
-    <string name="navbar_layout_normal">Κανονική</string>
+    <string name="navbar_layout_normal">Κανονικό</string>
     <string name="navbar_layout_compact">Συμπαγής</string>
     <string name="navbar_layout_expanded">Εκτεταμένη</string>
     <string name="navbar_layout_leftleaning">Αριστερού προσανατολισμού</string>
@@ -491,8 +524,6 @@
     <string name="qs_footer_show_power_menu_title">Συντόμευση μενού ισχύος</string>
     <string name="qs_footer_services_icon_title">Συντόμευση υπηρεσιών που εκτελούνται</string>
     <string name="qs_footer_settings_icon_title">Συντόμευση ρυθμίσεων</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Νομικές σημειώσεις του crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Ρυθμιστής φωτεινότητας</string>
     <string name="qs_show_brightness_slider_title">Ρυθμιστικό φωτεινότητας</string>
@@ -503,9 +534,10 @@
     <string name="qs_brightness_slider_position_title">Θέση</string>
     <string name="qs_brightness_slider_position_top">Πάνω</string>
     <string name="qs_brightness_slider_position_bottom">Κάτω</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Απτική ανάδραση</string>
     <string name="qs_brightness_slider_haptic_summary">Παρέχετε απτική ανάδραση κατά την αλλαγή της φωτεινότητας χρησιμοποιώντας το ρυθμιστικό</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Εικονίδιο αυτόματης φωτεινότητας</string>
     <string name="qs_show_auto_brightness_summary">Εμφάνιση διακόπτη για προσαρμοστική φωτεινότητα δίπλα στο ρυθμιστικό</string>
@@ -520,20 +552,20 @@
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Επεξεργασία ρυθμίσεων φωτισμού</string>
     <string name="pulse_speed_title">Διάρκεια και ταχύτητα Παλμού</string>
-    <string name="default_time">Κανονική</string>
-    <string name="custom_time">Προσαρμοσμένη</string>
+    <string name="default_time">Κανονικό</string>
+    <string name="custom_time">Προσαρμοσμένο</string>
     <string name="brightness">Επίπεδο φωτεινότητας</string>
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Πάντα ενεργό</string>
     <string name="pulse_length_blink">Αναβοσβήνει</string>
     <string name="pulse_length_very_short">Πολύ σύντομη</string>
     <string name="pulse_length_short">Σύντομη</string>
-    <string name="pulse_length_normal">Κανονική</string>
+    <string name="pulse_length_normal">Κανονικό</string>
     <string name="pulse_length_long">Μεγάλη</string>
     <string name="pulse_length_very_long">Πολύ μεγάλη</string>
     <string name="pulse_speed_very_fast">Πολύ γρήγορη</string>
     <string name="pulse_speed_fast">Γρήγορη</string>
-    <string name="pulse_speed_normal">Κανονική</string>
+    <string name="pulse_speed_normal">Κανονικό</string>
     <string name="pulse_speed_slow">Αργή</string>
     <string name="pulse_speed_very_slow">Πολύ αργή</string>
     <!-- Common light settings strings -->
@@ -561,7 +593,7 @@
     <string name="notification_light_applist_title">Εφαρμογές</string>
     <string name="notification_light_phonelist_title">Τηλέφωνο</string>
     <string name="notification_light_use_custom">Χρήση προσαρμοσμένων τιμών</string>
-    <string name="notification_light_default_value">Προεπιλογή</string>
+    <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Αναπάντητη κλήση</string>
     <string name="notification_light_voicemail_title">Μήνυμα αυτόματου τηλεφωνητή</string>
     <string name="notification_light_screen_on">Ενεργοποίηση ενδεικτικής λυχνίας όταν είναι ενεργοποιημένη η οθόνη</string>
@@ -600,7 +632,7 @@
     <string name="incall_vibrate_disconnect_title">Δόνηση κατά την αποσύνδεση</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Αναβόσβημα του φακού για εισερχόμενη κλήση</string>
-    <string name="flashlight_on_call_disabled">Απενεργοποιημένο</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Κατά το κουδούνισμα</string>
     <string name="flashlight_on_call_no_ringer">Όταν ο ήχος είναι στο αθόρυβο</string>
     <string name="flashlight_on_call_silent">Όταν είναι εντελώς αθόρυβο (χωρίς κουδούνισμα ή δόνηση)</string>
@@ -622,7 +654,7 @@
     <string name="old_mobiletype_summary">Συγχώνευση εικονιδίων σήματος και τύπου σήματος</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Εφέ απενεργοποίησης οθόνης</string>
-    <string name="screen_off_animation_default">Προεπιλογή</string>
+    <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT (Τηλεόραση)</string>
     <string name="screen_off_animation_scale">Κλίμακα</string>
     <!-- Fingerprint authentication vibration -->
@@ -631,7 +663,7 @@
     <string name="fp_error_vibrate_title">Δόνηση σφάλματος δακτυλικού αποτυπώματος</string>
     <string name="fp_error_vibrate_summary">Δόνηση όταν αποτύχει ο έλεγχος δακτυλικού αποτυπώματος</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Γραφικά φόρτισης</string>
+    <string name="charging_animation_title">Εφέ φόρτισης</string>
     <string name="charging_animation_summary">Εμφάνιση ενός εφέ, όταν η συσκευή φορτίζει</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Αυτόματη φωτεινότητα με τη μία</string>
@@ -754,8 +786,8 @@
     <string name="lockscreen_enable_power_menu_summary">Επιτρέψτε την πρόσβαση στο μενού απενεργοποίησης σε ασφαλή οθόνη κλειδώματος</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Μήκος pill</string>
-    <string name="short_label">Μικρό</string>
-    <string name="long_label">Μεγάλο</string>
+    <string name="short_label">Σύντομη</string>
+    <string name="long_label">Μεγάλη</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Μέγεθος pill</string>
     <string name="thin_label">Λεπτό</string>
@@ -929,7 +961,7 @@
     <string name="add_sensor_block_package_summary">Σημαντικοί αισθητήρες κίνησης, επιταχυνσιόμετρο, γραμμικής επιτάχυνσης θα αποκλειστούν για αυτές τις εφαρμογές</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Μοτίβο δόνησης ήχου κλήσης</string>
-    <string name="pattern_custom">Προσαρμογή</string>
+    <string name="pattern_custom">Προσαρμοσμένο</string>
     <string name="custom_vibration_pattern_title">Προσαρμοσμένο μοτίβο</string>
     <string name="custom_vibration_pattern_summary">Ορισμός προσαρμοσμένου μοτίβου δόνησης</string>
     <!-- Per-channel vibration pattern -->
@@ -946,10 +978,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Παραπλάνηση Google Play Integrity</string>
     <string name="pi_spoof_summary">Παραπλανήστε τη συσκευή σας ως διαφορετικό μοντέλο για το Google Play Integrity</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Search apps</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Έλεγχος συνδεσιμότητας</string>
     <string name="captive_portal_summary">Καθορίστε εάν η συσκευή μπορεί να συνδεθεί στο διαδίκτυο, επικοινωνώντας με την Google. Χρησιμοποιείται επίσης για τον εντοπισμό captive portals.</string>
@@ -1034,11 +1062,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Θέμα διπλού τόνου</string>
     <string name="qs_dual_tone_summary">Χρησιμοποιήστε χρώματα φόντου διπλού τόνου αντί για μονό τόνο AOSP</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">Στυλ πλάκιδιων Γρήγορων Ρυθμίσεων</string>
-    <string name="qs_tile_ui_style_a11_circle">Κυκλικά πλακίδια</string>
-    <string name="qs_tile_ui_style_a11_square">Τετράγωνα πλακίδια</string>
-    <string name="qs_tile_ui_style_a11_mix">Κυκλικά &amp; Τετράγωνα πλακίδια</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">Στυλ πίνακα Γρήγορων Ρυθμίσεων</string>
     <string name="qs_panel_style_outline">Περίγραμμα</string>
@@ -1143,40 +1166,27 @@
     <string name="custom_style_fluid">Fluid (Transparent)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Layers</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Κύκλος</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- ALPHA -->
-    <!-- Generic strings -->
-    <string name="accent_color">Χρώμα έμφασης (Προεπιλογή)</string>
-    <string name="add">Add</string>
-    <string name="advanced">Για προχωρημένους</string>
-    <string name="always">Πάντα</string>
-    <string name="back">Back</string>
-    <string name="caution">Προσοχή</string>
-    <string name="choose_app">Επιλέξτε εφαρμογή</string>
-    <string name="custom_color">Προσαρμοσμένο χρώμα</string>
-    <string name="default_value">Default</string>
-    <string name="delete">Διαγραφή</string>
-    <string name="delete_message">Αφαίρεση επιλεγμένου στοιχείου;</string>
-    <string name="disable">Απενεργοποίηση</string>
-    <string name="disabled">Disabled</string>
-    <string name="discard_changes">Απόρριψη αλλαγών</string>
-    <string name="enable">Ενεργοποίηση</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
-    <string name="never">Ποτέ</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
-    <string name="notification_color">Χρώμα ειδοποίησης</string>
-    <string name="off">Off</string>
-    <string name="on">On</string>
-    <string name="reset">Επαναφορά</string>
-    <string name="restart_systemui">Επανεκκίνηση του SystemUI για να τεθεί σε ισχύ η αλλαγή!</string>
-    <string name="save">Αποθήκευση</string>
-    <string name="search">Search</string>
-    <string name="settings">Ρυθμίσεις</string>
-    <string name="wallpaper_color">Χρώμα ταπετσαρίας</string>
-    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
@@ -1190,11 +1200,12 @@
     <string name="top_level_security_privacy_category_title">Security</string>
     <string name="top_level_account_category_title">Accounts</string>
     <string name="top_level_support_category_title">Support</string>
-    <!-- Preference categories -->
-    <string name="preference_category_brightness">Φωτεινότητα</string>
-    <string name="preference_category_battery">Μπαταρία</string>
-    <string name="preference_category_style">Στυλ</string>
     <string name="lockscreen_clock_category">Ρολόι</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Χειρονομίες</string>
     <!-- Changelog -->
     <string name="changelog_title">Current changelog</string>
     <string name="changelog_summary">View changes in the ROM installed</string>
@@ -1262,71 +1273,6 @@
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
     <string name="search_bar_text">search</string>
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings dashboard style</string>
-    <string name="settings_dashboard_style_summary">The style of Settings main page</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
-    <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">UI Style</string>
-    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
-    <!-- Fastcharge -->
-    <string name="restricted_current_summary">Set max allowed current (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Charge limited to: <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
-    <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">Network</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
-    <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Εικονίδια ειδοποιήσεων</string>
-    <string name="max_visible_notification_icons_summary">Μέγ. ορατά εικονίδια ειδοποιήσεων στη γραμμή κατάστασης</string>
-    <!-- QS brightness percentage -->
-    <string name="qs_show_brightness_percentage_title">Brightness percentage</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
-    <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Turn on now</string>
-    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Turn off now</string>
-    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
-    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
-    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1335,26 +1281,17 @@
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
-    <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
-    <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
-    <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
-    <!-- Keybox import -->
-    <string name="import_keybox_title">Import Keybox</string>
-    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
-    <string name="import_success">Keybox imported successfully!</string>
-    <string name="import_failed">Failed to import keybox</string>
-    <string name="import_io_error">File operation error</string>
-    <string name="clear_keybox_title">Clear Keybox</string>
-    <string name="clear_keybox_summary">Disable keybox spoofing</string>
-    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
-    <string name="clear_failed">Failed to remove keybox</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Εικονίδια ειδοποιήσεων</string>
+    <string name="max_visible_notification_icons_summary">Μέγ. ορατά εικονίδια ειδοποιήσεων στη γραμμή κατάστασης</string>
 </resources>
