@@ -34,6 +34,39 @@
     <string name="press_color_to_apply">Premi sul colore sottostante per applicare</string>
     <string name="set">Imposta</string>
     <string name="color_default">Default</string>
+    <!-- General strings -->
+    <string name="accent_color">Colore primario (predefinito)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Avanzate</string>
+    <string name="always">Sempre</string>
+    <string name="back">Back</string>
+    <string name="caution">Attenzione</string>
+    <string name="choose_app">Scegli applicazione</string>
+    <string name="custom_color">Colore personalizzato</string>
+    <string name="default_value">Default</string>
+    <string name="delete">Elimina</string>
+    <string name="delete_message">Eliminare l\'elemento selezionato?</string>
+    <string name="disable">Disabilita</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Annulla modifiche</string>
+    <string name="enable">Abilita</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Mai</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="notification_color">Colore notifiche</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="reset">Ripristina</string>
+    <string name="restart_systemui">Riavvia SystemUI affinché le modifiche abbiano effetto!</string>
+    <string name="save">Salva</string>
+    <string name="search">Cerca</string>
+    <string name="settings">Impostazioni</string>
+    <string name="wallpaper_color">Colore sfondo</string>
+    <string name="yes">Yes</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -114,7 +147,7 @@
     <string name="volbtn_music_controls_title">Controllo di riproduzione</string>
     <string name="volbtn_music_controls_summary">Cambia la traccia musicale premendo a lungo i tasti del volume quando lo schermo è spento</string>
     <string name="volbtn_cursor_control_title">Controllo cursore con tasti</string>
-    <string name="volbtn_cursor_control_off">Disabilitato</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">I pulsanti Volume su/giù spostano il cursore nel testo a sinistra/destra</string>
     <string name="volbtn_cursor_control_on_reverse">I pulsanti volume su/giù spostano il cursore a destra/sinistra</string>
     <string name="power_end_call_title">Termina chiamata</string>
@@ -137,9 +170,9 @@
     <string name="keyboard_backlight_seekbar_title">Luminosità tastiera</string>
     <string name="backlight_timeout_title">Tempo di illuminazione</string>
     <string name="backlight_timeout_unlimited">Non spegnere</string>
-    <string name="backlight_summary_disabled">Disattivato</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Abilita per <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Abilitato</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds"> %d </xliff:g> secondo</item>
         <item quantity="other"><xliff:g id="seconds"> %d </xliff:g> secondi</item>
@@ -247,7 +280,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">Il bordo %1$s della barra di stato mostra le impostazioni rapide</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Sinistra</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Destra</string>
-    <string name="status_bar_quick_qs_pulldown_off">Spenta</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
     <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
     <string name="status_bar_quick_qs_pulldown_right">Destra</string>
     <string name="status_bar_quick_qs_pulldown_always">Mostra sempre le impostazioni rapide nella discesa della barra di stato</string>
@@ -255,7 +288,7 @@
     <string name="smart_pulldown_title">Discesa intelligente</string>
     <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche presenti</string>
     <string name="smart_pulldown_none_summary">Apri le impostazioni rapide quando non ci sono notifiche presenti</string>
-    <string name="smart_pulldown_off">Spenta</string>
+    <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">nessuna notifica</string>
     <string name="smart_pulldown_dismissable">non rimovibile</string>
     <string name="smart_pulldown_ongoing">non in corso</string>
@@ -304,9 +337,9 @@
     <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
     <string name="status_bar_am_pm_normal">Normale</string>
     <string name="status_bar_am_pm_small">Piccola</string>
-    <string name="status_bar_am_pm_hidden">Nascosta</string>
+    <string name="status_bar_am_pm_hidden">Nascosto</string>
     <string name="status_bar_date_title">Data</string>
-    <string name="status_bar_date_none">Nascosta</string>
+    <string name="status_bar_date_none">Nascosto</string>
     <string name="status_bar_date_small">Piccola</string>
     <string name="status_bar_date_normal">Normale</string>
     <string name="status_bar_date_format_title">Formato della data</string>
@@ -330,9 +363,9 @@
     <string name="status_bar_battery_style_dotted_circle">Cerchio tratteggiato</string>
     <string name="status_bar_battery_style_filled_circle">Cerchio pieno</string>
     <string name="status_bar_battery_style_text">Testo</string>
-    <string name="status_bar_battery_style_hidden">Nascosta</string>
+    <string name="status_bar_battery_style_hidden">Nascosto</string>
     <string name="status_bar_battery_percent_title">Percentuale batteria</string>
-    <string name="status_bar_battery_percent_hidden">Nascosta</string>
+    <string name="status_bar_battery_percent_hidden">Nascosto</string>
     <string name="status_bar_battery_percent_text_inside">All\'interno dell\'icona</string>
     <string name="status_bar_battery_percent_text_next_right">Accanto all\'icona (a destra)</string>
     <string name="status_bar_battery_percent_text_next_left">Accanto all\'icona (a sinistra)</string>
@@ -377,7 +410,7 @@
     <string name="network_traffic_settings_title">Monitoraggio del traffico di rete</string>
     <string name="network_traffic_settings_summary">Visualizza e personalizza i livelli di traffico di rete attuali</string>
     <string name="network_traffic_location_title">Posizione</string>
-    <string name="network_traffic_location_disable">Disattivato</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Barra di stato</string>
     <string name="network_traffic_location_quick_statusbar">Barra di stato rapida</string>
     <string name="network_traffic_mode_title">Modalità schermo</string>
@@ -491,8 +524,6 @@
     <string name="qs_footer_show_power_menu_title">Scorciatoia menù alimentazione</string>
     <string name="qs_footer_services_icon_title">Collegamento ai servizi in esecuzione</string>
     <string name="qs_footer_settings_icon_title">Collegamento alle impostazioni</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">team crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Cursore luminosità</string>
     <string name="qs_show_brightness_slider_title">Quando mostrare</string>
@@ -503,9 +534,10 @@
     <string name="qs_brightness_slider_position_title">Posizione</string>
     <string name="qs_brightness_slider_position_top">In alto</string>
     <string name="qs_brightness_slider_position_bottom">In basso</string>
-    <!-- Brightness slider haptic feedback -->
+    <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Feedback aptico</string>
     <string name="qs_brightness_slider_haptic_summary">Fornisci un feedback aptico sulla modifica della luminosità usando il cursore</string>
+    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Icona luminosità automatica</string>
     <string name="qs_show_auto_brightness_summary">Mostra il toggle per la luminosità adattiva vicino al cursore</string>
@@ -561,7 +593,7 @@
     <string name="notification_light_applist_title">Applicazioni</string>
     <string name="notification_light_phonelist_title">Telefono</string>
     <string name="notification_light_use_custom">Usa valori personalizzati</string>
-    <string name="notification_light_default_value">Predefinito</string>
+    <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Chiamata persa</string>
     <string name="notification_light_voicemail_title">Segreteria</string>
     <string name="notification_light_screen_on">Luci con schermo acceso</string>
@@ -600,7 +632,7 @@
     <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Torcia lampeggiante per le chiamate in arrivo</string>
-    <string name="flashlight_on_call_disabled">Disabilitato</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Quando squilla</string>
     <string name="flashlight_on_call_no_ringer">Quando la suoneria è silenziosa</string>
     <string name="flashlight_on_call_silent">Quando completamente silenzioso (nessuna suoneria o vibrazione)</string>
@@ -622,7 +654,7 @@
     <string name="old_mobiletype_summary">Unisci le icone del segnale e del tipo di segnale</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animazione di spegnimento dello schermo</string>
-    <string name="screen_off_animation_default">Predefinita</string>
+    <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">Tubo catodico</string>
     <string name="screen_off_animation_scale">Scala</string>
     <!-- Fingerprint authentication vibration -->
@@ -754,15 +786,15 @@
     <string name="lockscreen_enable_power_menu_summary">Consente l\'accesso al menù di alimentazione sulla schermata di blocco</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Lunghezza della barra</string>
-    <string name="short_label">Corta</string>
-    <string name="long_label">Lunga</string>
+    <string name="short_label">Breve</string>
+    <string name="long_label">Lungo</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Raggio della barra</string>
     <string name="thin_label">Sottile</string>
     <string name="thick_label">Spesso</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Pieno</string>
-    <string name="back_height_high_label">Basso</string>
+    <string name="back_height_high_label">In basso</string>
     <string name="back_height_title">Altezza gesto indietro</string>
     <string name="back_height_summary">Altezza dello schermo valida per il gesto indietro</string>
     <!-- Notification guts kill app button -->
@@ -946,10 +978,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Maschera integrità Google Play</string>
     <string name="pi_spoof_summary">Maschera il dispositivo come un modello diverso per l\'integrità di Google Play</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Cerca App</string>
     <!-- Captive portal -->
     <string name="captive_portal_title">Controllo connettività</string>
     <string name="captive_portal_summary">Determinare se il dispositivo può connettersi a internet, contattando Google. Utilizzato anche per rilevare portali vincolati.</string>
@@ -977,7 +1005,7 @@
     <string name="lockscreen_shortcut_camera">Fotocamera</string>
     <string name="lockscreen_shortcut_remote">Telecomando Google TV</string>
     <string name="lockscreen_shortcut_dnd">Non disturbare</string>
-    <string name="lockscreen_shortcut_none">Niente</string>
+    <string name="lockscreen_shortcut_none">Nessuna</string>
     <string name="lockscreen_shortcut_enforce_title">Forza scorciatoie</string>
     <string name="lockscreen_shortcut_enforce_summary">Non mostrare la scorciatoia seguente se la scorciatoia scelta non è disponibile</string>
     <!-- App lock -->
@@ -1035,11 +1063,6 @@
     <!-- QS Dual Tone Colors -->
     <string name="qs_dual_tone_title">Tema doppio tono</string>
     <string name="qs_dual_tone_summary">Usa colori di sfondo doppio tono invece di AOSP singolo tono</string>
-    <!-- QS Tiles Style -->
-    <string name="qs_tile_ui_style_title">Stile dei riquadri</string>
-    <string name="qs_tile_ui_style_a11_circle">Stile circolare</string>
-    <string name="qs_tile_ui_style_a11_square">Stile quadrate</string>
-    <string name="qs_tile_ui_style_a11_mix">Cerchio &amp; Quadrati</string>
     <!-- QS Panel Style -->
     <string name="qs_panel_style_title">Stile pannello QS</string>
     <string name="qs_panel_style_outline">Contorno</string>
@@ -1133,7 +1156,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Riavvio SystemUI richiesto</string>
     <string name="systemui_restart_message">Per applicare i cambiamenti, è richiesto un riavvio della SystemUI. Riavviare la SystemUI ora?</string>
-    <string name="systemui_restart_yes">Sì</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Non ora</string>
     <string name="systemui_restart_process">Riavvio SystemUI per applicare i cambiamenti...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1144,40 +1167,27 @@
     <string name="custom_style_fluid">Fluido (Trasparente)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Livelli</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_circle">Cerchio</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
+    <!-- Force dark mode -->
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <!-- Brightness Slider Style -->
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- ALPHA -->
-    <!-- Generic strings -->
-    <string name="accent_color">Colore primario (predefinito)</string>
-    <string name="add">Add</string>
-    <string name="advanced">Avanzate</string>
-    <string name="always">Sempre</string>
-    <string name="back">Back</string>
-    <string name="caution">Attenzione</string>
-    <string name="choose_app">Scegli applicazione</string>
-    <string name="custom_color">Colore personalizzato</string>
-    <string name="default_value">Default</string>
-    <string name="delete">Elimina</string>
-    <string name="delete_message">Eliminare l\'elemento selezionato?</string>
-    <string name="disable">Disabilita</string>
-    <string name="disabled">Disabled</string>
-    <string name="discard_changes">Annulla modifiche</string>
-    <string name="enable">Abilita</string>
-    <string name="enabled">Enabled</string>
-    <string name="finish">Finish</string>
-    <string name="loading">Loading\u2026</string>
-    <string name="name">Name</string>
-    <string name="never">Mai</string>
-    <string name="next">Next</string>
-    <string name="no">No</string>
-    <string name="notification_color">Colore notifiche</string>
-    <string name="off">Off</string>
-    <string name="on">On</string>
-    <string name="reset">Ripristina</string>
-    <string name="restart_systemui">Riavvia SystemUI affinché le modifiche abbiano effetto!</string>
-    <string name="save">Salva</string>
-    <string name="search">Cerca</string>
-    <string name="settings">Impostazioni</string>
-    <string name="wallpaper_color">Colore sfondo</string>
-    <string name="yes">Yes</string>
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Impostazioni Alpha</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
@@ -1191,11 +1201,12 @@
     <string name="top_level_security_privacy_category_title">Security</string>
     <string name="top_level_account_category_title">Accounts</string>
     <string name="top_level_support_category_title">Support</string>
-    <!-- Preference categories -->
-    <string name="preference_category_brightness">Luminosità</string>
-    <string name="preference_category_battery">Batteria</string>
-    <string name="preference_category_style">Stile</string>
     <string name="lockscreen_clock_category">Orologio</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Gesti</string>
     <!-- Changelog -->
     <string name="changelog_title">Current changelog</string>
     <string name="changelog_summary">View changes in the ROM installed</string>
@@ -1263,71 +1274,6 @@
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
     <string name="search_bar_text">search</string>
-    <!-- Settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings dashboard style</string>
-    <string name="settings_dashboard_style_summary">The style of Settings main page</string>
-    <string name="settings_dashboard_style_aosp_legacy">AOSP legacy</string>
-    <string name="settings_dashboard_style_aosp_revamped">AOSP revamped</string>
-    <string name="settings_dashboard_style_dot">DoT</string>
-    <string name="settings_dashboard_style_alpha">Alpha</string>
-    <!-- UI styles -->
-    <string name="theme_customization_ui_style_title">Stile interfaccia utente</string>
-    <string name="theme_customization_ui_style_summary">Imposta stile personalizzato per la tua interfaccia</string>
-    <!-- Fastcharge -->
-    <string name="restricted_current_summary">Imposta la corrente massima consentita (mA)</string>
-    <string name="fastcharge_disabled_extended_summary">Ricarica limitata a <xliff:g id="current" example="3000 mA">%1$s</xliff:g>.</string>
-    <!-- Network & internet small tile -->
-    <string name="network_dashboard_short_title">Network</string>
-    <string name="digital_wellbeing_short_title">Digital wellbeing</string>
-    <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Icone notifica</string>
-    <string name="max_visible_notification_icons_summary">Numero massimo di icone notifiche visibili nella statusbar</string>
-    <!-- QS brightness percentage -->
-    <string name="qs_show_brightness_percentage_title">Percentuale luminosità</string>
-    <string name="qs_show_brightness_percentage_summary">Show brightness percentage text along with the slider</string>
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Mostra animazione ondulatoria</string>
-    <string name="show_squiggle_animation_summary">Mostra l\'animazione ondulatoria del pannello multimediale, dopo la modifica è necessario cambiare musica, mettere in pausa o spostare la barra di avanzamento per applicarla</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Tramonto</string>
-    <string name="sleep_mode_schedule_sunrise">Alba</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_manual">Turn on now</string>
-    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_manual">Turn off now</string>
-    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_twilight">Turn on until sunrise</string>
-    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_twilight">Turn off until sunset</string>
-    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_on_custom">Turn on until <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
-    <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-    <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1336,26 +1282,17 @@
     <string name="vivid_engine_mode_title">Vivid Display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
-    <!-- QS panel styles -->
-    <string name="theme_customization_qs_style_title">QS Panel style</string>
-    <string name="theme_customization_qs_style_summary">Set custom QS Panel style</string>
-    <!-- Brightness bar styles -->
-    <string name="theme_customization_brightness_bar_title">Brightness bar style</string>
-    <string name="theme_customization_brightness_bar_summary">Set custom brightness bar style</string>
-    <!-- Notifications style -->
-    <string name="theme_customization_notifications_title">Notifications style</string>
-    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
-    <!-- Keybox import -->
-    <string name="import_keybox_title">Import Keybox</string>
-    <string name="import_keybox_summary">Import custom keybox for keybox spoofing. The keybox must be in PKCS#8 format</string>
-    <string name="import_success">Keybox imported successfully!</string>
-    <string name="import_failed">Failed to import keybox</string>
-    <string name="import_io_error">File operation error</string>
-    <string name="clear_keybox_title">Clear Keybox</string>
-    <string name="clear_keybox_summary">Disable keybox spoofing</string>
-    <string name="clear_success">Keybox removed successfully. Disabling keybox spoofing</string>
-    <string name="clear_failed">Failed to remove keybox</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Cerca App</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Mostra animazione ondulatoria</string>
+    <string name="show_squiggle_animation_summary">Mostra l\'animazione ondulatoria del pannello multimediale, dopo la modifica è necessario cambiare musica, mettere in pausa o spostare la barra di avanzamento per applicarla</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Icone notifica</string>
+    <string name="max_visible_notification_icons_summary">Numero massimo di icone notifiche visibili nella statusbar</string>
 </resources>
