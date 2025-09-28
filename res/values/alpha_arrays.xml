@@ -319,23 +319,6 @@
         <item>3</item>
     </string-array>
 
-    <!-- Lockscreen album art filter -->
-    <string-array name="lockscreen_albumart_filter_entries">
-        <item>@string/lockscreen_albumart_filter_none</item>
-        <item>@string/lockscreen_albumart_filter_grayscale</item>
-        <item>@string/lockscreen_albumart_filter_tint</item>
-        <item>@string/lockscreen_albumart_filter_blur</item>
-        <item>@string/lockscreen_albumart_filter_grayblur</item>
-    </string-array>
-
-    <string-array name="lockscreen_albumart_filter_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
     <!-- Pulse music visualizer -->
     <string-array name="pulse_render_mode_entries">
        <item>@string/pulse_render_mode_fading_bars</item>
@@ -1024,5 +1007,26 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+
+    <!-- Lock screen album art filter -->
+    <string-array name="ls_media_art_filter_entries">
+        <item>@string/ls_media_art_filter_none</item>
+        <item>@string/ls_media_art_filter_blur</item>
+        <item>@string/ls_media_art_filter_grayscale</item>
+        <item>@string/ls_media_art_filter_sepia</item>
+        <item>@string/ls_media_art_filter_tint</item>
+        <item>@string/ls_media_art_filter_invert</item>
+        <item>@string/ls_media_art_filter_grayblur</item>
+    </string-array>
+
+    <string-array name="ls_media_art_filter_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 </resources>
