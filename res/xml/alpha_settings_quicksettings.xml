@@ -89,15 +89,16 @@
             android:key="qs_show_battery_estimate"
             android:icon="@drawable/ic_timelapse_cr"
             android:title="@string/battery_estimate_title"
-            android:summary="@string/battery_estimate_summary" />
+            android:summary="@string/battery_estimate_summary" />-->
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="secure_lockscreen_qs_disabled"
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="enable_lockscreen_quick_settings"
             android:icon="@drawable/ic_lock_alert"
-            android:title="@string/disable_qs_title"
-            android:summary="@string/disable_qs_summary"/>
+            android:title="@string/lockscreen_quick_settings_title"
+            android:summary="@string/lockscreen_quick_settings_summary"
+            android:defaultValue="true" />
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_dual_tone"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/qs_dual_tone_title"
