@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -31,6 +31,13 @@
         android:icon="@drawable/ic_bell_ring"
         android:title="@string/notification_sound_vib_screen_on_title"
         android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="notification_row_transparency"
+        android:icon="@drawable/ic_chat_dashed"
+        android:title="@string/notification_row_transparency_title"
+        android:summary="@string/notification_row_transparency_summary"
         android:defaultValue="true" />
 
     <!-- Notification guts kill app button -->
