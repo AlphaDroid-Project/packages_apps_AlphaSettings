@@ -33,7 +33,7 @@
     <string name="dialog_color_picker">Pilihan Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
     <string name="set">Atur</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Bawaan</string>
     <!-- General strings -->
     <string name="accent_color">Warna aksen (Bawaan)</string>
     <string name="add">Tambahkan</string>
@@ -43,7 +43,7 @@
     <string name="caution">Peringatan</string>
     <string name="choose_app">Pilih aplikasi</string>
     <string name="custom_color">Warna kustom</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">Bawaan</string>
     <string name="delete">Hapus</string>
     <string name="delete_message">Hapus item yang dipilih?</string>
     <string name="disable">Nonaktifkan</string>
@@ -127,7 +127,7 @@
     <string name="hardware_keys_action_last_app">Aplikasi terakhir</string>
     <string name="hardware_keys_action_split_screen">Belah layar</string>
     <string name="hardware_keys_action_close_app">Matikan aplikasi</string>
-    <string name="hardware_keys_action_play_pause_music">Play/pause music playback</string>
+    <string name="hardware_keys_action_play_pause_music">Putar/jeda pemutaran musik</string>
     <string name="hardware_keys_action_torch">Hidup/matikan senter</string>
     <string name="hardware_keys_action_screenshot">Ambil tangkapan layar</string>
     <string name="hardware_keys_action_volume_panel">Tombol alihkan Panel Volume</string>
@@ -536,7 +536,7 @@
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Umpan balik haptik</string>
     <string name="qs_brightness_slider_haptic_summary">Berikan umpan balik haptik untuk mengubah kecerahan menggunakan slider</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
+    <string name="qs_tile_haptic_summary">Umpan balik haptik saat menekan ubin QS</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Ikon Kecerahan Otomatis</string>
     <string name="qs_show_auto_brightness_summary">Tampilkan tombol kecerahan otomatis di dekat slider kecerahan</string>
@@ -592,7 +592,7 @@
     <string name="notification_light_applist_title">Aplikasi</string>
     <string name="notification_light_phonelist_title">Ponsel</string>
     <string name="notification_light_use_custom">Gunakan nilai kustom</string>
-    <string name="notification_light_default_value">Default</string>
+    <string name="notification_light_default_value">Bawaan</string>
     <string name="notification_light_missed_call_title">Panggilan tak terjawab</string>
     <string name="notification_light_voicemail_title">Pesan suara</string>
     <string name="notification_light_screen_on">Lampu dengan layar menyala</string>
@@ -653,7 +653,7 @@
     <string name="old_mobiletype_summary">Gabungkan ikon sinyal dan tipe sinyal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animasi layar mati</string>
-    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_default">Bawaan</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Skala</string>
     <!-- Fingerprint authentication vibration -->
@@ -708,7 +708,7 @@
     <string name="volume_panel_category">Panel volume</string>
     <string name="volume_dialog_timeout_title">Waktu habis panel volume</string>
     <string name="volume_panel_on_left_title">Panel volume di kiri</string>
-    <string name="volume_dialog_haptic_feedback_title">Volume panel haptics</string>
+    <string name="volume_dialog_haptic_feedback_title">Sentuhan panel volume</string>
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">Mode Video</string>
     <!-- UDFPS settings -->
@@ -771,8 +771,8 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Hingga <xliff:g id="device_num">%1$d</xliff:g> perangkat dapat terhubung ke hotspot ini</item>
     </plurals>
@@ -1137,21 +1137,21 @@
     <string name="navbar_long_press_gesture_title">Tekan lama untuk mencari</string>
     <string name="navbar_long_press_gesture_summary">Tekan dan tahan tombol home atau pil navigasi untuk mencari berdasarkan konten di layarmu</string>
     <!-- Circle to search -->
-    <string name="search_all_entrypoints_enabled_title">Circle to Search</string>
-    <string name="search_all_entrypoints_enabled_summary">Use CTS instead of Google Lens for navbar long press</string>
+    <string name="search_all_entrypoints_enabled_title">Lingkari untuk menelusuri</string>
+    <string name="search_all_entrypoints_enabled_summary">Gunakan CTS bukan Google Lens untuk menekan lama navbar</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Ruang IME</string>
     <string name="navigation_bar_ime_space_narrow">Narrow</string>
     <string name="navigation_bar_ime_space_hidden">Tersembunyi</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
-    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
+    <string name="navigation_bar_enable_taskbar_title">Bilah tugas</string>
+    <string name="navigation_bar_enable_taskbar_summary">Tampilkan bilah tugas dengan mode navigasi yang dipilih</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Show IME button space</string>
+    <string name="show_ime_space_title">Tampilkan ruang tombol IME</string>
     <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">Dibutuhkan mengulang SystemUI</string>
-    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
+    <string name="systemui_restart_title">Diperlukan mengulang SystemUI</string>
+    <string name="systemui_restart_message">Agar perubahan diterapkan, SystemUI perlu direstart. Restart SystemUI sekarang?</string>
     <string name="systemui_restart_yes">Ya</string>
     <string name="systemui_restart_not_now">Tidak sekarang</string>
     <string name="systemui_restart_process">Mulai ulang SystemUI untuk menerapkan perubahan...</string>
@@ -1164,28 +1164,29 @@
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Lapisan</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox attestation override</string>
-    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_data_title">Penggantian pengesahan keybox</string>
+    <string name="keybox_data_summary">Muat keybox XML khusus untuk mengganti pengesahan kunci perangkat</string>
+    <string name="keybox_data_loaded_summary">Kustom keybox sudah dimuat. Hapus untuk membersihkan</string>
     <string name="keybox_delete_content_description">Bersihkan data keybox</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <string name="keybox_toast_invalid_file_selected">Bukan berkas XML. Pilih keybox valid XML</string>
+    <string name="keybox_toast_missing_data">Keybox XML tidak valid: bidang yang diperlukan tidak ada</string>
+    <string name="keybox_toast_file_loaded">Keybox dimuat</string>
+    <string name="keybox_toast_file_cleared">Keybox dibersihkan</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">Bentuk ubin QS</string>
+    <string name="qs_tile_shape_dynamic">Dinamis</string>
     <string name="qs_tile_shape_circle">Lingkaran</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square">Kotak bulat</string>
+    <string name="qs_tile_shape_square">Persegi</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">Mode hitam untuk aplikasi ketiga</string>
+    <string name="force_dark_summary">Memaksa warna lebih gelap pada aplikasi yang tidak memiliki mode gelap.
+Beberapa layar mungkin tampak mati.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">Bentuk penggeser kecerahan</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Paksa LTE CA</string>
+    <string name="force_lte_ca_summary">Paksa agregasi operator LTE agar berfungsi</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
@@ -1202,9 +1203,9 @@
     <string name="top_level_support_category_title">Dukungan</string>
     <string name="lockscreen_clock_category">Jam</string>
     <!-- Misc categories -->
-    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_spoofing_category">Memalsukan</string>
     <string name="misc_system_category">Sistem</string>
-    <string name="misc_animations_category">Animations</string>
+    <string name="misc_animations_category">Animasi</string>
     <string name="misc_gestures_category">Gestur</string>
     <!-- Changelog -->
     <string name="changelog_title">Perubahan saat ini</string>
@@ -1244,7 +1245,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
-    <string name="category_android_info">Android</string>
+    <string name="category_android_info">Lawnchair</string>
     <string name="category_alpha_info">AlphaDroid</string>
     <string name="category_device_info">Perangkat</string>
     <!-- Build info -->
@@ -1266,27 +1267,27 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total Memori</string>
     <!-- QuickSwitch -->
-    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
-    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher_title">Launcher AlphaDroid</string>
+    <string name="quickswitch_launcher_summary">Ubah peluncur bawaan AlphaDroid</string>
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
-    <string name="search_bar_text">search</string>
+    <string name="search_bar_text">Cari</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Default</string>
-    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    <string name="display_engine_default">Bawaan</string>
+    <string name="display_engine_mode_footer_text">Terinspirasi oleh mesin Bravia/X-Reality milik Sony, Display Engine menampilkan mode Vivid untuk peningkatan kecerahan dan saturasi warna, dan mode X-Reality untuk peningkatan detail dan akurasi warna.</string>
     <!-- Ignore window secure flag -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">Abaikan tanda jendela aman</string>
+    <string name="ignore_window_secure_summary">Hapus batasan keamanan tangkapan layar dan rekaman layar. Hal ini mungkin praktis dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi.</string>
     <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="hide_developer_status_title">Sembunyikan status developer</string>
+    <string name="hide_developer_status_summary">Sembunyikan status developer dari aplikasi</string>
     <string name="search_apps">Cari aplikasi</string>
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Tampilkan animasi coretan</string>
