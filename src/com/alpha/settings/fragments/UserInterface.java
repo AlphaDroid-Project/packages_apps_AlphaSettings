@@ -38,6 +38,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.lockscreen.DozeSettings;
+import com.alpha.settings.fragments.ui.EdgeLightSettings;
 import com.alpha.settings.fragments.misc.SmartPixels;
 import com.alpha.settings.fragments.ui.MonetSettings;
 
@@ -94,6 +95,7 @@ public class UserInterface extends SettingsPreferenceFragment implements
                 Settings.System.ENABLE_ROTATION_BUTTON, 1, UserHandle.USER_CURRENT);
 
         DozeSettings.reset(mContext);
+        EdgeLightSettings.reset(mContext);
         MonetSettings.reset(mContext);
         SmartPixels.reset(mContext);
     }
