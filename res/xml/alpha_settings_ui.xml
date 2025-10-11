@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -26,6 +26,14 @@
         android:title="@string/doze_display_title"
         android:summary="@string/doze_display_summary"
         android:fragment="com.alpha.settings.fragments.ui.DozeSettings" />
+
+    <!-- Edge Light -->
+    <Preference
+        android:key="edge_light_settings"
+        android:icon="@drawable/ic_edge_light"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.alpha.settings.fragments.ui.EdgeLightSettings" />
 
     <!-- Charging animation -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference

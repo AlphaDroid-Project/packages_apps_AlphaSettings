@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018-2024 crDroid Android Project
+ * Copyright (C) 2018-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,7 +43,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.lockscreen.doze.EdgeLightSettings;
 import com.alpha.settings.fragments.lockscreen.doze.Utils;
 import com.alpha.settings.preferences.SecureSettingSeekBarPreference;
 
@@ -274,7 +273,6 @@ public class DozeSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.DOZE_GESTURE_VIBRATE, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.DOZE_ON_CHARGE, 0, UserHandle.USER_CURRENT);
-        EdgeLightSettings.reset(mContext);
     }
 
     @Override

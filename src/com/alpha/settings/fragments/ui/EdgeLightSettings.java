@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 crDroid Android Project
+ * Copyright (C) 2023-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,39 +14,20 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.lockscreen.doze;
+package com.alpha.settings.fragments.ui;
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.Intent;
-import android.content.DialogInterface;
-import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.UserHandle;
 import android.provider.Settings;
-
-import androidx.preference.ListPreference;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import java.util.List;
-import java.util.ArrayList;
-
-public class EdgeLightSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+public class EdgeLightSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,23 +35,18 @@ public class EdgeLightSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.edge_light_settings);
     }
 
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
-    }
-
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
+    public static void reset(Context context) {
+        ContentResolver resolver = context.getContentResolver();
         Settings.System.putIntForUser(resolver,
                 Settings.System.EDGE_LIGHT_ENABLED, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.EDGE_LIGHT_ALWAYS_TRIGGER_ON_PULSE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.EDGE_LIGHT_REPEAT_ANIMATION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.EDGE_LIGHT_COLOR_MODE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putStringForUser(resolver,
+                Settings.System.EDGE_LIGHT_COLOR_MODE, "accent", UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.EDGE_LIGHT_CUSTOM_COLOR, Color.WHITE, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.EDGE_LIGHT_PULSE_COUNT, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.EDGE_LIGHT_STROKE_WIDTH, 8, UserHandle.USER_CURRENT);
     }
 
     @Override
