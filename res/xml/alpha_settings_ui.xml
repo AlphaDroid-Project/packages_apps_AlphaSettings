@@ -27,6 +27,13 @@
         android:summary="@string/doze_display_summary"
         android:fragment="com.alpha.settings.fragments.lockscreen.DozeSettings" />
 
+    <!-- Ambient Music Ticker -->
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:icon="@drawable/ic_music_note"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary" />
+
     <!-- Edge Light -->
     <Preference
         android:key="edge_light_settings"
@@ -147,13 +154,5 @@
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
         android:fragment="com.alpha.settings.fragments.ui.IconShapes"/>
-
-    <!-- Rotation button -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="enable_rotation_button"
-        android:icon="@drawable/ic_rotation"
-        android:title="@string/floating_rotation_button_title"
-        android:summary="@string/floating_rotation_button_summary"
-        android:defaultValue="true" />
 
 </PreferenceScreen>
