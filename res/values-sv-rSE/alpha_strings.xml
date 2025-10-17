@@ -54,7 +54,7 @@
     <string name="notification_color">Aviseringsfärg</string>
     <string name="wallpaper_color">Bakgrundsfärg</string>
     <string name="custom_color">Anpassad färg</string>
-    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="restart_systemui">Starta om systemets grafiska gränssnitt för att ändringen ska få effekt!</string>
     <string name="default_value">Standard</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">Nuvarande ändringslogg</string>
@@ -80,18 +80,18 @@
     <string name="crdroid_translate_title">Översättningar</string>
     <string name="crdroid_translate_summary">Bidra med att lokalisera ROM till ditt språk!</string>
     <string name="crdroid_sponsor_summary">Besök sponsorn till vår hemsida</string>
-    <string name="crdroid_buildserversponsor_summary">We recommend their servers if interested in one</string>
+    <string name="crdroid_buildserversponsor_summary">Vi rekommenderar deras servrar om intresse finns</string>
     <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">Stöd oss</string>
     <string name="crdroid_donate_preference_summary">Skänk en donation för att stödja vidare utveckling</string>
     <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
+    <string name="crdroid_donate_notification_text">Tryck för att lära dig mer</string>
+    <string name="crdroid_donate_message">crDroid Android är ett projekt med öppen källkod som behöver din hjälp för att hålla hemsidan igång, hålla igång våra bygg-servrar och för att leverera högkvalitativa byggnationer till din enhet.\n\n
+En liten donation hjälper oss att hålla det här projektet vid liv och för att förbättra det. Du kan stänga det här meddelandet, men ditt stöd betyder jättemycket för oss.</string>
+    <string name="crdroid_donate_button">Donera nu</string>
+    <string name="crdroid_later_button">Kanske senare</string>
+    <string name="crdroid_channel_name">crDroid-aviseringar</string>
+    <string name="crdroid_channel_desc">Projektspecifika aviseringar</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
     <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
     <string name="crdroid_donate_raised">€%,d raised</string>
@@ -290,12 +290,11 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Edge light -->
     <string name="edge_light_title">Kantbelysning</string>
     <string name="edge_light_summary">Lys upp skärmens sidor vid pulserande aviseringar</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
-    <string name="edge_light_repeat_animation_title">Upprepa animering</string>
-    <string name="edge_light_repeat_animation_summary_on">Upprepa till timeout</string>
-    <string name="edge_light_repeat_animation_summary_off">Visa endast en gång</string>
-    <string name="edge_light_color_mode_title">Edge light color mode</string>
+    <string name="edge_light_color_mode_title">Color mode</string>
+    <string name="edge_light_pulse_count_title">Pulse count</string>
+    <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
+    <string name="edge_light_stroke_width_title">Stroke width</string>
+    <string name="edge_light_stroke_width_summary">Set thickness for edge light bars</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Musiknotering</string>
     <string name="pulse_on_new_tracks_summary">Visa musiknotering på aktiv låsskärm vid låtbyte</string>
@@ -1060,7 +1059,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Visa alltid vid laddning</string>
-    <string name="doze_on_charge_summary">Visa att enheten laddas</string>
+    <string name="doze_on_charge_summary">Display info when device is charging</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Länka ring- &amp; och aviseringsvolym</string>
     <!-- Radio Info -->
@@ -1259,4 +1258,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
     <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
     <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+    <!-- Ambient Wallpaper -->
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
 </resources>

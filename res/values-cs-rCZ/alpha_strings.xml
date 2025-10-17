@@ -291,12 +291,11 @@
     <!-- Edge light -->
     <string name="edge_light_title">Nasvícení okrajů</string>
     <string name="edge_light_summary">Rozsvítit boční okraje obrazovky po přijetí oznámení</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Vždy spouštět při pulsování</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Zobrazovat nasvícení okrajů vždy, když je zobrazen ambientní displej a nikoliv jen při oznámeních</string>
-    <string name="edge_light_repeat_animation_title">Opakování animace</string>
-    <string name="edge_light_repeat_animation_summary_on">Opakovat do vypršení časového limitu</string>
-    <string name="edge_light_repeat_animation_summary_off">Zobrazit pouze jednou</string>
-    <string name="edge_light_color_mode_title">Režim barev nasvícení okrajů</string>
+    <string name="edge_light_color_mode_title">Režim barev</string>
+    <string name="edge_light_pulse_count_title">Počet pulzů</string>
+    <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
+    <string name="edge_light_stroke_width_title">Stroke width</string>
+    <string name="edge_light_stroke_width_summary">Set thickness for edge light bars</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Hudební text oznámení</string>
     <string name="pulse_on_new_tracks_summary">Zobrazit na Ambientním displeji při změně skladby hudební oznámení</string>
@@ -1065,7 +1064,7 @@
     <string name="hide_from_launcher_summary">Zabránit této aplikaci, aby se zobrazila v\u00a0jakémkoliv spouštěči. Vyžaduje to restart spouštěče, aby se změny projevily.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Vždy zobrazovat při nabíjení</string>
-    <string name="doze_on_charge_summary">Zobrazit zařízení se nabíjí</string>
+    <string name="doze_on_charge_summary">Zobrazit informace při nabíjení zařízení</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Sjednotit hlasitosti vyzvánění a\u00a0oznámení</string>
     <!-- Radio Info -->
@@ -1210,11 +1209,11 @@
     <string name="keybox_toast_file_loaded">Keybox načten</string>
     <string name="keybox_toast_file_cleared">Úložiště klíčů vymazáno</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">Tvar dlaždic QS</string>
+    <string name="qs_tile_shape_dynamic">Dynamický</string>
     <string name="qs_tile_shape_circle">Kroužek</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square">Zaoblený čtverec</string>
+    <string name="qs_tile_shape_square">Čtverec</string>
     <!-- Force dark mode -->
     <string name="force_dark_title">Dark mode for third-party apps</string>
     <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
@@ -1234,10 +1233,10 @@
     <string name="ls_media_art_filter_none">Žádný</string>
     <string name="ls_media_art_filter_blur">Rozostření</string>
     <string name="ls_media_art_filter_grayscale">Odstíny šedi</string>
-    <string name="ls_media_art_filter_sepia">Sepia</string>
+    <string name="ls_media_art_filter_sepia">Sépie</string>
     <string name="ls_media_art_filter_tint">Zabarven dle doplňkové barvy</string>
     <string name="ls_media_art_filter_invert">Invert</string>
-    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
+    <string name="ls_media_art_filter_grayblur">Škála šedé a rozmazání</string>
     <!-- Lock screen media art fade level -->
     <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
     <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
@@ -1250,7 +1249,7 @@
     <string name="pulse_rounded_bars_title">Rounded bars</string>
     <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
     <string name="pulse_color">Visualizer color</string>
-    <string name="pulse_color_lavalamp">Lavalamp</string>
+    <string name="pulse_color_lavalamp">Lávová lampa</string>
     <string name="pulse_color_album">Album art</string>
     <string name="pulse_color_accent">Doplňková barva</string>
     <string name="pulse_bar_count_title">Number of bars</string>
@@ -1264,4 +1263,7 @@
     <string name="notification_row_transparency_summary">Nastavit v QS průsvitné pozadí oznámení</string>
     <string name="notification_row_transparency_lockscreen_title">Průsvitná oznámení na obrazovce uzamčení</string>
     <string name="notification_row_transparency_lockscreen_summary">Nastavit na obrazovce uzamčení průsvitné pozadí oznámení</string>
+    <!-- Ambient Wallpaper -->
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
 </resources>

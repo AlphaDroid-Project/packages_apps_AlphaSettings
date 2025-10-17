@@ -289,12 +289,11 @@
     <!-- Edge light -->
     <string name="edge_light_title">엣지 라이트</string>
     <string name="edge_light_summary">알림을 보여줄 때 화면 가장자리 빛내기</string>
-    <string name="edge_light_always_trigger_on_pulse_title">항상 사용</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">알림뿐만 아니라 절전 모드 자동 해제 화면에서도 엣지 라이트 사용</string>
-    <string name="edge_light_repeat_animation_title">애니메이션 반복</string>
-    <string name="edge_light_repeat_animation_summary_on">시간 제한이 끝날 때까지 반복</string>
-    <string name="edge_light_repeat_animation_summary_off">한 번만</string>
-    <string name="edge_light_color_mode_title">엣지 라이트 색상 모드</string>
+    <string name="edge_light_color_mode_title">Color mode</string>
+    <string name="edge_light_pulse_count_title">Pulse count</string>
+    <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
+    <string name="edge_light_stroke_width_title">Stroke width</string>
+    <string name="edge_light_stroke_width_summary">Set thickness for edge light bars</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">음악 표시</string>
     <string name="pulse_on_new_tracks_summary">트랙 이동 시 절전 모드 자동 해제 화면에 음악 표시</string>
@@ -1057,7 +1056,7 @@
     <string name="hide_from_launcher_summary">홈 화면에서 이 앱을 숨깁니다. 설정을 적용하려면 홈 화면 애플리케이션을 다시 시작해야 합니다.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">충전 중일 때 항상 표시</string>
-    <string name="doze_on_charge_summary">기기가 충전 중일 때 표시</string>
+    <string name="doze_on_charge_summary">Display info when device is charging</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">벨소리 및 알림 소리 볼륨 동기화</string>
     <!-- Radio Info -->
@@ -1253,5 +1252,10 @@
     <string name="pulse_renderer_fading">사라지는 블록</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
+    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
+    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
+    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+    <!-- Ambient Wallpaper -->
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
 </resources>
