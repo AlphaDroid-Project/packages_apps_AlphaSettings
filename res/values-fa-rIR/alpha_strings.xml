@@ -290,12 +290,11 @@
     <!-- Edge light -->
     <string name="edge_light_title">نور لبه</string>
     <string name="edge_light_summary">لبه های کناری صفحه نمایش را با پالس اعلان روشن کنید</string>
-    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">هر زمان که صفحه نمایش محیط نشان داده می شود و نه فقط برای اعلان، نور لبه را نشان می دهد یا خیر</string>
-    <string name="edge_light_repeat_animation_title">تکرار انیمیشن</string>
-    <string name="edge_light_repeat_animation_summary_on">تا پایان زمان تکرار شود</string>
-    <string name="edge_light_repeat_animation_summary_off">فقط یک بار نمایش داده شود</string>
-    <string name="edge_light_color_mode_title">حالت رنگ نور لبه</string>
+    <string name="edge_light_color_mode_title">حالت رنگ</string>
+    <string name="edge_light_pulse_count_title">تعداد نبض</string>
+    <string name="edge_light_pulse_count_summary">تعداد نبض‌ها برای نور لبه</string>
+    <string name="edge_light_stroke_width_title">ضخامت حاشیه</string>
+    <string name="edge_light_stroke_width_summary">ضخامت میله‌های نور لبه را تنظیم کنید</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">کنترل موسیقی</string>
     <string name="pulse_on_new_tracks_summary">نمایش کنترل موسیقی در حالت نمایشگر حساس به محیط در زمان عوض شدن موسیقی</string>
@@ -1060,7 +1059,7 @@
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">همیشه هنگام شارژ نشان داده شود</string>
-    <string name="doze_on_charge_summary">Display device is charging</string>
+    <string name="doze_on_charge_summary">نمایش اطلاعات هنگام شارژ شدن دستگاه</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Radio Info -->
@@ -1205,22 +1204,22 @@
     <string name="keybox_toast_file_loaded">کیباکس اجرا شد</string>
     <string name="keybox_toast_file_cleared">کیباکس پاک شد</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">شکل کاشی‌های ت. س</string>
+    <string name="qs_tile_shape_dynamic">پویا</string>
     <string name="qs_tile_shape_circle">دایره</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square">مربع گوشه‌گِرد</string>
+    <string name="qs_tile_shape_square">مربع</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">حالت تاریک برای برنامه‌های شخص ثالث</string>
+    <string name="force_dark_summary">رنگ‌های تیره‌تر را در برنامه‌هایی که حالت تاریک ندارند، اجباری می‌کند. ممکن است برخی از صفحه‌ها خاموش به نظر برسند.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">شکل کشویی روشنایی</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">نسل چهارم اجباری</string>
+    <string name="force_lte_ca_summary">حالت فقط نسل چهار را اجباری کنید</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
-    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
+    <string name="lockscreen_quick_settings_title">ت. س روی صفحه قفل</string>
+    <string name="lockscreen_quick_settings_summary">برای مشاهده تنظیمات سریع، انگشت خود را روی صفحه قفل به پایین بکشید</string>
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">کاور رسانه موسیقی</string>
     <string name="ls_media_art_summary">نمایش تصویر هنری رسانه ها هنگامی که موجود باشد</string>
@@ -1229,34 +1228,37 @@
     <string name="ls_media_art_filter_none">هیچ‌کدام</string>
     <string name="ls_media_art_filter_blur">محو سازی</string>
     <string name="ls_media_art_filter_grayscale">سیاه‌وسفید</string>
-    <string name="ls_media_art_filter_sepia">Sepia</string>
+    <string name="ls_media_art_filter_sepia">قهوه ای</string>
     <string name="ls_media_art_filter_tint">رنگ تاکیدی</string>
-    <string name="ls_media_art_filter_invert">Invert</string>
-    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
+    <string name="ls_media_art_filter_invert">معکوس</string>
+    <string name="ls_media_art_filter_grayblur">خاکستری و تاری</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
-    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
+    <string name="ls_media_art_fade_level_title">سطح محو شدن تصویر جلد رسانه</string>
+    <string name="ls_media_art_fade_level_summary">تنظیم سطح محو شدن تصویر جلد رسانه</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Media art blur level</string>
-    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
+    <string name="ls_media_art_blur_level_title">تار کننده کاور موسیقی</string>
+    <string name="ls_media_art_blur_level_summary">شدت تاری هنگام اعمال فیلتر تاری</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Pulse Visualizer</string>
+    <string name="pulse_settings_title">نبض بصری‌ساز</string>
     <string name="pulse_settings_summary">اکولایزر گرافیکی صوتی برای نوار ناوبری و قفل صفحه</string>
-    <string name="pulse_rounded_bars_title">Rounded bars</string>
-    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
-    <string name="pulse_color">Visualizer color</string>
-    <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Album art</string>
+    <string name="pulse_rounded_bars_title">میله‌های گرد</string>
+    <string name="pulse_rounded_bars_summary">نمایش میله‌های بصری‌ساز با گوشه‌های گرد</string>
+    <string name="pulse_color">رنگ بصری‌ساز</string>
+    <string name="pulse_color_lavalamp">لامپ گدازه ای</string>
+    <string name="pulse_color_album">تصویر آلبوم</string>
     <string name="pulse_color_accent">قوت</string>
-    <string name="pulse_bar_count_title">Number of bars</string>
-    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
-    <string name="pulse_bar_count_units">bars</string>
-    <string name="pulse_renderer">Visualizer style</string>
+    <string name="pulse_bar_count_title">تعداد میله‌ها</string>
+    <string name="pulse_bar_count_summary">تنظیم تعداد میله‌های نمایش داده شده در بصری‌ساز</string>
+    <string name="pulse_bar_count_units">میله ها</string>
+    <string name="pulse_renderer">سبک بصری‌ساز</string>
     <string name="pulse_renderer_solid">خطوط یکپارچه</string>
     <string name="pulse_renderer_fading">بلوک های محو کننده</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
-    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
-    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+    <string name="notification_row_transparency_title">اعلان‌های شفاف</string>
+    <string name="notification_row_transparency_summary">تنظیم پس‌زمینه شفاف برای اعلان‌ها در ت. س</string>
+    <string name="notification_row_transparency_lockscreen_title">اعلان‌های شفاف صفحه قفل</string>
+    <string name="notification_row_transparency_lockscreen_summary">تنظیم پس‌زمینه شفاف برای اعلان‌ها در صفحه قفل</string>
+    <!-- Ambient Wallpaper -->
+    <string name="doze_always_on_wallpaper_title">تصویر‌زمینه محیطی</string>
+    <string name="doze_always_on_wallpaper_summary">نمایش تصویر‌زمینه قفل صفحه در صفحه محیطی</string>
 </resources>

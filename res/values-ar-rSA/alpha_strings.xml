@@ -84,14 +84,14 @@
     <!-- Support crDroid -->
     <string name="crdroid_donate_preference_title">ادعمنا</string>
     <string name="crdroid_donate_preference_summary">تبرع لدعم المزيد من التطوير</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
+    <string name="crdroid_donate_title">CrDroid يحتاج إلى مساعدتك!</string>
+    <string name="crdroid_donate_notification_text">انقر لمعرفة المزيد</string>
+    <string name="crdroid_donate_message">crDroid أندرويد هو مشروع مفتوح المصدر يحتاج مساعدتك للحفاظ على الموقع على الإنترنت خوادم البناء لدينا قيد التشغيل، ولتقديم بنايات عالية الجودة لجهازك.\n\n
+تبرع صغير يساعد على إبقاء هذا المشروع على قيد الحياة وتحسينه. يمكنك تجاهل هذه الرسالة، ولكن دعمك يعني الكثير لنا.</string>
+    <string name="crdroid_donate_button">تبرع الآن</string>
+    <string name="crdroid_later_button">ربما لاحقًا</string>
+    <string name="crdroid_channel_name">إظهار الإشعارات</string>
+    <string name="crdroid_channel_desc">إشعارات مشروع محدد</string>
     <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
     <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
     <string name="crdroid_donate_raised">€%,d raised</string>
@@ -295,12 +295,11 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Edge light -->
     <string name="edge_light_title">إضاءة الحواف</string>
     <string name="edge_light_summary">تضيء الحواف الجانبية للشاشة على نبض الإعلام</string>
-    <string name="edge_light_always_trigger_on_pulse_title">فرض تشغيل خطوط فيض الصوت</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">ما سيظهر عندما يتم عرض الشاشة الدائمة للإشعارات أو غير ذلك</string>
-    <string name="edge_light_repeat_animation_title">تكرار الرسوم</string>
-    <string name="edge_light_repeat_animation_summary_on">كرر لمدة</string>
-    <string name="edge_light_repeat_animation_summary_off">اظهره مرة واحدة</string>
-    <string name="edge_light_color_mode_title">لون وضع إضاءة الحافة</string>
+    <string name="edge_light_color_mode_title">Color mode</string>
+    <string name="edge_light_pulse_count_title">Pulse count</string>
+    <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
+    <string name="edge_light_stroke_width_title">Stroke width</string>
+    <string name="edge_light_stroke_width_summary">Set thickness for edge light bars</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">شريط الأغاني</string>
     <string name="pulse_on_new_tracks_summary">إظهار مؤشر الموسيقى على الشاشة الدائمة أثناء تغيير المسار</string>
@@ -1073,7 +1072,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="hide_from_launcher_summary">امنع هذا التطبيق من الظهور في أي مشغل. يتطلب هذا إعادة تشغيل المشغل حتى تصبح نافذة المفعول.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">اظهره دائما عند الشحن</string>
-    <string name="doze_on_charge_summary">اعرض كلمة الجهاز يشحن</string>
+    <string name="doze_on_charge_summary">Display info when device is charging</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">اربط صوت الرنين&amp; صوت الإشعارات</string>
     <!-- Radio Info -->
@@ -1272,4 +1271,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
     <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
     <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+    <!-- Ambient Wallpaper -->
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
 </resources>
