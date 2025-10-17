@@ -15,21 +15,16 @@
  */
 package com.alpha.settings.fragments;
 
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.Intent;
-import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
-import android.text.TextUtils;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
@@ -49,8 +44,6 @@ import com.alpha.settings.utils.SystemUtils;
 
 import java.util.List;
 
-import android.provider.Settings;
-
 @SearchIndexable
 public class LockScreen extends SettingsPreferenceFragment
             implements Preference.OnPreferenceChangeListener  {
@@ -64,12 +57,10 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
     private static final String KEY_UDFPS_ANIMATIONS = "udfps_recognizing_animation_preview";
     private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
-    private static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
 
     private Preference mUdfpsAnimations;
     private Preference mUdfpsIcons;
     private Preference mRippleEffect;
-    private Preference mScreenOffUdfps;
 
     private SwitchPreferenceCompat mSmartspace;
     private SwitchPreferenceCompat mWeather;
@@ -87,13 +78,11 @@ public class LockScreen extends SettingsPreferenceFragment
         mUdfpsAnimations = (Preference) findPreference(KEY_UDFPS_ANIMATIONS);
         mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
         mRippleEffect = (Preference) findPreference(KEY_RIPPLE_EFFECT);
-        mScreenOffUdfps = (Preference) findPreference(SCREEN_OFF_UDFPS_ENABLED);
 
         if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
             gestCategory.removePreference(mUdfpsAnimations);
             gestCategory.removePreference(mUdfpsIcons);
             gestCategory.removePreference(mRippleEffect);
-            gestCategory.removePreference(mScreenOffUdfps);
         } else {
             if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.animations")) {
                 gestCategory.removePreference(mUdfpsAnimations);
@@ -101,13 +90,6 @@ public class LockScreen extends SettingsPreferenceFragment
             if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
                 gestCategory.removePreference(mUdfpsIcons);
             }
-            Resources resources = getResources();
-            boolean screenOffUdfpsAvailable = resources.getBoolean(
-                    com.android.internal.R.bool.config_supportScreenOffUdfps) ||
-                    !TextUtils.isEmpty(resources.getString(
-                        com.android.internal.R.string.config_dozeUdfpsLongPressSensorType));
-            if (!screenOffUdfpsAvailable)
-                gestCategory.removePreference(mScreenOffUdfps);
         }
 
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
@@ -137,8 +119,6 @@ public class LockScreen extends SettingsPreferenceFragment
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.SCREEN_OFF_UDFPS_ENABLED, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.LOCKSCREEN_SMARTSPACE_ENABLED, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -214,7 +194,6 @@ public class LockScreen extends SettingsPreferenceFragment
                         keys.add(KEY_UDFPS_ANIMATIONS);
                         keys.add(KEY_UDFPS_ICONS);
                         keys.add(KEY_RIPPLE_EFFECT);
-                        keys.add(SCREEN_OFF_UDFPS_ENABLED);
                     } else {
                         if (!Utils.isPackageInstalled(context, "com.alpha.udfps.animations")) {
                             keys.add(KEY_UDFPS_ANIMATIONS);
@@ -222,14 +201,7 @@ public class LockScreen extends SettingsPreferenceFragment
                         if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
                             keys.add(KEY_UDFPS_ICONS);
                         }
-                        Resources resources = context.getResources();
-                        boolean screenOffUdfpsAvailable = resources.getBoolean(
-                            com.android.internal.R.bool.config_supportScreenOffUdfps) ||
-                            !TextUtils.isEmpty(resources.getString(
-                                com.android.internal.R.string.config_dozeUdfpsLongPressSensorType));
-                        if (!screenOffUdfpsAvailable)
-                            keys.add(SCREEN_OFF_UDFPS_ENABLED);
-                        }
+                    }
                     return keys;
                 }
             };
