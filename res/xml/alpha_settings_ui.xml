@@ -27,6 +27,14 @@
         android:summary="@string/doze_display_summary"
         android:fragment="com.alpha.settings.fragments.ui.DozeSettings" />
 
+    <!-- Ambient Wallpaper -->
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="doze_always_on_wallpaper_enabled"
+        android:icon="@drawable/ic_screensaver"
+        android:title="@string/doze_always_on_wallpaper_title"
+        android:summary="@string/doze_always_on_wallpaper_summary"
+        android:defaultValue="@*android:bool/config_dozeSupportsAodWallpaper" />
+
     <!-- Ambient Music Ticker -->
     <com.alpha.settings.preferences.SecureSettingSwitchPreference
         android:key="pulse_on_new_tracks"
