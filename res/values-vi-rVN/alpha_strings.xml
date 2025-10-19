@@ -53,6 +53,7 @@
     <string name="accent_color">Màu nhấn (mặc định)</string>
     <string name="notification_color">Màu của thông báo</string>
     <string name="wallpaper_color">Màu hình nền</string>
+    <string name="rainbow_color">Rainbow color</string>
     <string name="custom_color">Tùy chỉnh màu sắc</string>
     <string name="restart_systemui">Khởi động lại giao diện hệ thống để thay đổi có hiệu lực!</string>
     <string name="default_value">Mặc định</string>
@@ -100,13 +101,6 @@
     <!-- OTA -->
     <string name="crdroid_update_title">Cập nhật</string>
     <string name="crdroid_update_summary">Kiểm tra cập nhật</string>
-    <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Cửa hàng ứng dụng</string>
-    <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">mặc định</string>
-    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
-    <string name="custom_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
     <!-- Units -->
     <string name="unit_seconds">giây</string>
     <string name="unit_milliseconds">tích tắc</string>
@@ -290,10 +284,13 @@
     <string name="edge_light_title">Ánh sáng cạnh</string>
     <string name="edge_light_summary">Làm sáng các cạnh bên của màn hình khi có thông báo</string>
     <string name="edge_light_color_mode_title">Chế độ màu</string>
-    <string name="edge_light_pulse_count_title">Pulse count</string>
-    <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
-    <string name="edge_light_stroke_width_title">Stroke width</string>
-    <string name="edge_light_stroke_width_summary">Set thickness for edge light bars</string>
+    <string name="edge_light_pulse_count_title">Số lượng xung</string>
+    <string name="edge_light_pulse_count_summary">Số lượng xung cho ánh sáng cạnh</string>
+    <string name="edge_light_stroke_width_title">Độ rộng viền</string>
+    <string name="edge_light_stroke_width_summary">Đặt độ dày cho thanh đèn cạnh</string>
+    <string name="edge_light_style_title">Render style</string>
+    <string name="edge_light_style_default">Default (left/right)</string>
+    <string name="edge_light_style_frame">Frame (all sides)</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Thông báo cho nhạc</string>
     <string name="pulse_on_new_tracks_summary">Hiển thị nhạc trên màn hình xung quanh trong khi thay đổi bản nhạc</string>
@@ -433,9 +430,6 @@
     <string name="qs_date_title">Ngày tháng</string>
     <string name="qs_date_summary">Hiển thị ngày tháng ở phía trên thanh phím tắt nhanh</string>
     <!-- QS battery -->
-    <string name="qs_battery_location_title">Vị trí pin</string>
-    <string name="qs_battery_location_qs_panel">Bảng cài đặt nhanh</string>
-    <string name="qs_battery_location_qs_statusbar">Thanh trạng thái nhanh</string>
     <string name="qs_use_status_bar_battery_style">Theo kiểu thanh trạng thái</string>
     <!-- Battery estimate -->
     <string name="battery_estimate_title">Ước tính thời lượng pin còn lại</string>
@@ -529,7 +523,7 @@
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Rung phản hồi</string>
     <string name="qs_brightness_slider_haptic_summary">Rung khi thay đổi độ sáng bằng thanh trượt</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
+    <string name="qs_tile_haptic_summary">Phản hồi xúc giác khi nhấn các ô cài đặt nhanh</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
     <string name="qs_show_auto_brightness_summary">Hiển thị công tắc độ sáng thích nghi gần thanh trượt</string>
@@ -635,9 +629,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Không gian trò chơi</string>
     <string name="gaming_mode_summary">Các tính năng bổ sung cho trải nghiệm chơi game nhập vai</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Hiệu ứng Pixel</string>
-    <string name="pixel_navbar_anim_summary">Bật hoạt ảnh kiểu pixel cho thanh điều hướng 2 nút / 3 nút</string>
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
     <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
@@ -702,8 +693,6 @@
     <string name="volume_dialog_timeout_title">Thời gian chờ hộp thoại âm lượng</string>
     <string name="volume_panel_on_left_title">Hiện bảng điều khiển âm lượng bên trái</string>
     <string name="volume_dialog_haptic_feedback_title">Rung khi điều khiển âm lượng</string>
-    <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Chế độ video</string>
     <!-- UDFPS settings -->
     <string name="udfps_settings_title">Các tùy chỉnh vân tay dưới màn hình</string>
     <string name="udfps_settings_summary">Các tùy chỉnh nâng cao cho mở khóa bằng vân tay</string>
@@ -788,59 +777,6 @@
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Phím buộc dừng</string>
     <string name="notification_guts_kill_app_button_summary">Hiển thị nút buộc dừng trong menu khi nhấn giữ thông báo</string>
-    <!-- Screen off UDFPS -->
-    <string name="screen_off_udfps_title">Vân tay khi màn hình tắt</string>
-    <string name="screen_off_udfps_summary">Luôn bật vân tay khi màn hình tắt</string>
-    <!-- Columbus -->
-    <string name="columbus_gesture_detected">Nhấn nhanh đã được phát hiện!</string>
-    <string name="columbus_gesture_enrollment_complete">Xong</string>
-    <string name="columbus_gesture_enrollment_do_it_later">Không phải bây giờ</string>
-    <string name="columbus_gesture_enrollment_settings">Vào cài đặt</string>
-    <string name="columbus_gesture_enrollment_try_it">Hãy thử nó</string>
-    <string name="columbus_gesture_training_action_no_selection_error">Vui lòng chọn một hành động để thực hiện</string>
-    <string name="columbus_gesture_training_action_text">Chọn những gì sẽ xảy ra khi bạn sử dụng Nhấn nhanh. Bạn có thể thay đổi điều này sau trong cài đặt.</string>
-    <string name="columbus_gesture_training_action_title">Chọn tùy chọn nhấn nhanh</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture">… Đã phát hiện thấy nhấn đúp vào 1 trong số 2</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_text">Hãy thử điều đó một lần nữa. Nhấn nhanh vào mặt sau điện thoại của bạn hai lần.</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_title">Tuyệt!</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture">… Đã phát hiện thấy nhấn đúp vào 2 trong số 2</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_text">Bạn đã sẵn sàng để bắt đầu sử dụng tính năng Nhấn nhanh</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_title">Bạn đã hiểu!</string>
-    <string name="columbus_gesture_training_enrolling_text">Nhấn nhanh vào mặt sau điện thoại của bạn hai lần.</string>
-    <string name="columbus_gesture_training_enrolling_title">Thử Nhấn nhanh</string>
-    <string name="columbus_gesture_training_finished_text">Để thay đổi cường độ nhấn cần thiết để sử dụng Nhấn nhanh, hãy đi tới Cài đặt.</string>
-    <string name="columbus_gesture_training_finished_title">Bạn đã thiết lập tính năng Nhấn nhanh</string>
-    <string name="columbus_gesture_training_intro_text_accidental">Bạn vừa nhấn hai lần vào mặt sau của thiết bị, điều này cho phép bạn sử dụng Trợ lý khi di chuyển. Bạn có thể tùy chỉnh cử chỉ này trong cài đặt.</string>
-    <string name="columbus_gesture_training_intro_text_suw">Chụp ảnh màn hình, hiển thị thông báo hoặc bắt đầu một hành động khác chỉ bằng hai lần nhấn.</string>
-    <string name="columbus_gesture_training_intro_title">Nhấn nhanh để thực hiện các thao tác nhanh</string>
-    <string name="columbus_gesture_training_launch_no_selection_error">Vui lòng chọn một ứng dụng để mở</string>
-    <string name="columbus_gesture_training_launch_text">Chọn ứng dụng bạn muốn mở khi sử dụng Nhấn nhanh.</string>
-    <string name="columbus_gesture_training_launch_title">Chọn ứng dụng để mở</string>
-    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s cài đặt phím tắt</string>
-    <string name="columbus_launch_settings_activity_title">Cài đặt Nhấn nhanh</string>
-    <string name="columbus_name">Nhấn nhanh</string>
-    <string name="columbus_radio_button_extra_widget_a11y_label">Cài đặt %1$s</string>
-    <string name="columbus_setting_action_assistant_title">Truy cập trợ lý kỹ thuật số của bạn</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">Không có ứng dụng được chọn</string>
-    <string name="columbus_setting_action_launch_summary_not_installed">Ứng dụng chưa được cài đặt</string>
-    <string name="columbus_setting_action_launch_title">Mở ứng dụng</string>
-    <string name="columbus_setting_action_notification_title">Hiển thị thông báo</string>
-    <string name="columbus_setting_action_open_app_title">Mở ứng dụng</string>
-    <string name="columbus_setting_action_overview_title">Xem các ứng dụng gần đây</string>
-    <string name="columbus_setting_action_play_pause_title">Phát hoặc tạm dừng phương tiện</string>
-    <string name="columbus_setting_action_screenshot_title">Chụp màn hình</string>
-    <string name="columbus_setting_actions_title">Nhấn vào sau điện thoại hai lần để</string>
-    <string name="columbus_setting_additional_settings_title">Cường độ chạm nhanh</string>
-    <string name="columbus_setting_app_selection_help_text">Chọn một ứng dụng để mở khi bạn nhấn hai lần vào mặt sau của điện thoại. Nếu bạn gỡ cài đặt ứng dụng, tính năng Nhấn nhanh sẽ tắt cho đến khi bạn chọn một ứng dụng khác.</string>
-    <string name="columbus_setting_app_shortcut_selection_help_text">Chọn điều gì sẽ xảy ra khi bạn mở ứng dụng này bằng tính năng Nhấn nhanh.</string>
-    <string name="columbus_setting_enable_switch_title">Sử dụng Nhấn nhanh</string>
-    <string name="columbus_setting_sensitivity_title">Yêu cầu nhấn mạnh hơn</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Hiển thị lối tắt Bảng điều khiển trò chơi trong trò chơi</string>
-    <string name="game_dashboard_always_on_title">Trang tổng quan trò chơi</string>
-    <string name="game_dashboard_dnd_rule_name">Đang chơi</string>
-    <string name="game_dashboard_dnd_summary">Chỉ những người và ứng dụng quan trọng nhận được thông báo khi chơi trò chơi</string>
-    <string name="game_dashboard_dnd_title">Không làm phiền cho trò chơi</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào bao nhiêu điểm bạn quyết định tắt, bạn có thể thấy cải thiện thời gian sử dụng pin</string>
     <string name="smart_pixels_title">Điểm ảnh thông minh</string>
@@ -901,8 +837,6 @@
     <string name="qs_tile_label_hide_title">Ẩn tiêu đề các ô</string>
     <string name="qs_tile_label_size_title">Kích thước văn bản tiêu đề</string>
     <string name="qs_tile_label_hide_summary">Chỉ hiển thị biểu tượng</string>
-    <string name="qs_tile_layout_title">Bố cục dọc</string>
-    <string name="qs_tile_layout_summary">Hiển thị tên ô bên dưới thay vì bên cạnh biểu tượng</string>
     <string name="qs_layout_columns_rows_title">Cột &amp; hàng</string>
     <string name="qs_layout_columns_rows_summary">Tùy chỉnh cột với hàng cài đặt nhanh</string>
     <string name="qs_layout_columns_rows_footer_text">Hàng cài đặt nhanh phải bằng hoặc lớn hơn. Sử dụng số lượng cột cao hơn cho kiểu ô hình tròn/hình vuông (android 11).</string>
@@ -990,11 +924,6 @@
     <string name="pattern_custom">Tùy chỉnh</string>
     <string name="custom_vibration_pattern_title">Tuỳ chỉnh mẫu</string>
     <string name="custom_vibration_pattern_summary">Đặt kiểu rung tùy chỉnh</string>
-    <!-- Per-channel vibration pattern -->
-    <string name="notification_custom_vibrate_title">Cường độ rung và chuông</string>
-    <string name="notification_custom_vibrate_summary">Chỉ thay thế mẫu mặc định\nMẫu thiết lập ứng dụng được ưu tiên</string>
-    <string name="notification_custom_vibrate_slider1">Rung</string>
-    <string name="notification_custom_vibrate_slider2">Tạm dừng</string>
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Nút xoay màn hình nổi</string>
     <string name="floating_rotation_button_summary">Hiển thị nút xoay nổi khi xoay thiết bị</string>
@@ -1011,30 +940,9 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Đặt lại</string>
     <string name="battery_stats_message">Dữ liệu mức sử dụng pin sẽ bị mất</string>
-    <!-- Parallel space -->
-    <string name="laboratory_parallel_space_title">Nhiều không gian</string>
-    <string name="laboratory_parallel_space_summary">Cho phép nhân bản ứng dụng để sử dụng nhiều tài khoản</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Chuẩn mạng không dây</string>
     <string name="wifi_standard_icon_summary">Hiển thị chuẩn wifi ngay cạnh biểu tượng wifi</string>
-    <!-- Google services -->
-    <string name="gms_enabled_title">Các dịch vụ</string>
-    <string name="gms_enabled_summary">Kiểm soát dịch vụ cùng ứng dụng cốt lõi</string>
-    <string name="gms_enabled_footer">Trước khi tắt dịch vụ cùng ứng dụng cốt lõi cũng nên tắt \"tìm thiết bị\" xác minh 2 bước trên tài khoản. Nên bật cài đặt này để ứng dụng phụ thuộc các thành phần không ảnh hưởng. Nếu gặp bất kỳ sự cố sau khi thay đổi hãy thực hiện khôi phục cài đặt gốc.</string>
-    <!-- Lockscreen bottom shortcuts -->
-    <string name="lockscreen_shortcut_category">Các phím tắt phía dưới</string>
-    <string name="lockscreen_shortcut_start_title">Phím tắt bên trái</string>
-    <string name="lockscreen_shortcut_end_title">Phím tắt bên phải</string>
-    <string name="lockscreen_shortcut_wallet">Ví tiền</string>
-    <string name="lockscreen_shortcut_home">Điều khiển phím trang chủ</string>
-    <string name="lockscreen_shortcut_flashlight">Đèn pin</string>
-    <string name="lockscreen_shortcut_qr">Máy quét mã vạch</string>
-    <string name="lockscreen_shortcut_camera">Máy ảnh</string>
-    <string name="lockscreen_shortcut_remote">Điều khiển từ xa</string>
-    <string name="lockscreen_shortcut_dnd">Không làm phiền</string>
-    <string name="lockscreen_shortcut_none">Không</string>
-    <string name="lockscreen_shortcut_enforce_title">Thực thi các phím tắt</string>
-    <string name="lockscreen_shortcut_enforce_summary">Không hiện phím tắt khả dụng tiếp theo nếu phím tắt đã chọn không có sẵn</string>
     <!-- App lock -->
     <string name="app_lock_title">Khóa ứng dụng</string>
     <plurals name="app_lock_summary">
@@ -1058,7 +966,7 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="hide_from_launcher_summary">Không cho ứng dụng này hiện trong bất kỳ trình khởi chạy nào. Yêu cầu khởi động lại trình khởi chạy để thay đổi có hiệu lực.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
-    <string name="doze_on_charge_summary">Display info when device is charging</string>
+    <string name="doze_on_charge_summary">Hiển thị thông tin khi thiết bị đang nạp pin</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Radio Info -->
@@ -1082,24 +990,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="qs_header_needs_gallery">Hãy cài đặt một ứng dụng xem ảnh!</string>
     <string name="qs_header_offset_title">Độ lệch hình ảnh</string>
     <string name="qs_header_offset_summary">Điều chỉnh kích thước hình ảnh</string>
-    <!-- Lockscreen Clock -->
-    <string name="kg_custom_clock_top_margin_title">Vị trí của đồng hồ kép</string>
-    <string name="kg_small_clock_text_size_title">Kích cỡ của đồng hồ</string>
-    <string name="kg_large_clock_text_size_title">Kích cỡ của đồng hồ kép</string>
-    <!-- QS Dual Tone Colors -->
-    <string name="qs_dual_tone_title">Tông nền màu kép</string>
-    <string name="qs_dual_tone_summary">Sử dụng tông màu kép cho nền thông báo</string>
-    <!-- QS Panel Style -->
-    <string name="qs_panel_style_title">Kiểu bảng cài đặt nhanh</string>
-    <string name="qs_panel_style_outline">Đường nét</string>
-    <string name="qs_panel_style_two_tone">Hai tông màu</string>
-    <string name="qs_panel_style_color_pop">Màu sắc nổi bật</string>
-    <string name="qs_panel_style_shaded">Bóng mờ</string>
-    <string name="qs_panel_style_cyberpunk">Bối cảnh</string>
-    <string name="qs_panel_style_neumorph">Biến hóa</string>
-    <string name="qs_panel_style_reflected">Phản xạ</string>
-    <string name="qs_panel_style_surround">Bao quanh</string>
-    <string name="qs_panel_style_thin">Dòng kẻ mảnh</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- Volume Steps -->
     <string name="volume_steps_title">Các mức âm lượng</string>
@@ -1163,16 +1053,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Heads-up -->
     <string name="compact_heads_up_notifications_enabled_title">Thông báo nổi nhỏ gọn</string>
     <string name="compact_heads_up_notifications_enabled_summary">Thông báo nổi sẽ hiển thị với kích thước nhỏ gọn</string>
-    <!-- Long press navbar to search -->
-    <string name="navbar_long_press_gesture_title">Nhấn giữ để tìm kiếm</string>
-    <string name="navbar_long_press_gesture_summary">Chạm giữ nút trang chủ hoặc thanh cử chỉ để mở tìm kiếm nội dung trên màn hình</string>
-    <!-- Circle to search -->
-    <string name="search_all_entrypoints_enabled_title">Khoanh tròn để tìm kiếm</string>
-    <string name="search_all_entrypoints_enabled_summary">Dùng khoanh tròn để tìm kiếm thay cho ống kính</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
-    <string name="navigation_bar_ime_space_narrow">Thu hẹp</string>
-    <string name="navigation_bar_ime_space_hidden">Ẩn</string>
     <!-- Navigation bar taskbar -->
     <string name="navigation_bar_enable_taskbar_title">Thanh tác vụ</string>
     <string name="navigation_bar_enable_taskbar_summary">Hiện thanh tác vụ với chế độ điều hướng đã chọn</string>
@@ -1203,22 +1083,22 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="keybox_toast_file_loaded">Đã nạp hộp khóa</string>
     <string name="keybox_toast_file_cleared">Đã xóa bỏ hộp khóa</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">Hình dạng ô cài đặt nhanh</string>
+    <string name="qs_tile_shape_dynamic">Năng động</string>
     <string name="qs_tile_shape_circle">Vòng tròn</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square">Hình vuông bo tròn</string>
+    <string name="qs_tile_shape_square">Hình vuông</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">Chế độ tối cho ứng dụng bên thứ ba</string>
+    <string name="force_dark_summary">Áp dụng màu tối cho ứng dụng không hỗ trợ chế độ tối. Một số giao diện có thể hiển thị không đúng.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">Hình dạng thanh trượt độ sáng</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Buộc LTE CA</string>
     <string name="force_lte_ca_summary">Buộc dùng LTE để hoạt động</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
-    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
+    <string name="lockscreen_quick_settings_title">Cài đặt nhanh trên màn hình khóa</string>
+    <string name="lockscreen_quick_settings_summary">Cho phép vuốt xuống trên màn hình khóa để xem cài đặt nhanh</string>
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Ảnh bìa đa phương tiện</string>
     <string name="ls_media_art_summary">Hiển thị ảnh bìa đa phương tiện khi có sẵn</string>
@@ -1227,37 +1107,42 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="ls_media_art_filter_none">Không</string>
     <string name="ls_media_art_filter_blur">Mờ</string>
     <string name="ls_media_art_filter_grayscale">Trắng đen</string>
-    <string name="ls_media_art_filter_sepia">Sepia</string>
+    <string name="ls_media_art_filter_sepia">Nâu đỏ</string>
     <string name="ls_media_art_filter_tint">Đồng bộ màu</string>
-    <string name="ls_media_art_filter_invert">Invert</string>
-    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
+    <string name="ls_media_art_filter_invert">Đảo ngược</string>
+    <string name="ls_media_art_filter_grayblur">Thang độ xám và làm mờ</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
-    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
+    <string name="ls_media_art_fade_level_title">Mức độ mờ của bìa đa phương tiện</string>
+    <string name="ls_media_art_fade_level_summary">Đặt mức độ mờ của ảnh bìa</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Media art blur level</string>
-    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
+    <string name="ls_media_art_blur_level_title">Độ mờ ảnh bìa đa phương tiện</string>
+    <string name="ls_media_art_blur_level_summary">Mức độ mờ khi áp dụng bộ lọc làm mờ</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Pulse Visualizer</string>
+    <string name="pulse_settings_title">Trình trực quan hóa xung</string>
     <string name="pulse_settings_summary">Bộ cân bằng đồ họa âm thanh cho thanh điều hướng và màn hình khoá</string>
-    <string name="pulse_rounded_bars_title">Rounded bars</string>
-    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
-    <string name="pulse_color">Visualizer color</string>
-    <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Album art</string>
+    <string name="ambient_pulse_enabled_title">Sáng nhạc màn hình chờ</string>
+    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
+    <string name="pulse_rounded_bars_title">Thanh tròn</string>
+    <string name="pulse_rounded_bars_summary">Hiển thị thanh trực quan với góc bo tròn</string>
+    <string name="pulse_color">Màu sắc của trình trực quan</string>
+    <string name="pulse_color_lavalamp">Đèn dung nham</string>
+    <string name="pulse_color_album">Bìa bộ sưu tập</string>
     <string name="pulse_color_accent">Màu nhấn</string>
-    <string name="pulse_bar_count_title">Number of bars</string>
-    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
-    <string name="pulse_bar_count_units">bars</string>
-    <string name="pulse_renderer">Visualizer style</string>
+    <string name="pulse_bar_count_title">Số lượng thanh</string>
+    <string name="pulse_bar_count_summary">Thiết lập số lượng thanh được hiển thị trong trình trực quan hóa</string>
+    <string name="pulse_bar_count_units">thanh</string>
+    <string name="pulse_renderer">Kiểu trực quan hóa</string>
     <string name="pulse_renderer_solid">Đường liền nét</string>
     <string name="pulse_renderer_fading">Khối mờ dần</string>
+    <string name="pulse_renderer_neon_glow">Neon glow</string>
+    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
+    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
-    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
+    <string name="notification_row_transparency_title">Thông báo trong suốt</string>
+    <string name="notification_row_transparency_summary">Đặt nền mờ cho thông báo trong cài đặt nhanh</string>
+    <string name="notification_row_transparency_lockscreen_title">Thông báo trong suốt ở màn hình khóa</string>
     <string name="notification_row_transparency_lockscreen_summary">Đặt nền mờ cho thông báo màn hình khoá</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
-    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
+    <string name="doze_always_on_wallpaper_title">Hình nền xung quanh</string>
+    <string name="doze_always_on_wallpaper_summary">Hiển thị hình nền màn hình khóa trên màn hình xung quanh</string>
 </resources>
