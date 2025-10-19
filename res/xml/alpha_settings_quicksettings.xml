@@ -66,15 +66,6 @@
             android:entryValues="@array/qs_battery_style_values"
             android:defaultValue="-1" />
 
-        <!-- Battery location
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="qs_battery_location"
-            android:icon="@drawable/ic_battery"
-            android:title="@string/qs_battery_location_title"
-            android:entries="@array/qs_battery_location_entries"
-            android:entryValues="@array/qs_battery_location_values"
-            android:defaultValue="0" /> -->
-
         <!-- Battery percent -->
         <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="qs_show_battery_percent"
@@ -98,14 +89,7 @@
             android:summary="@string/lockscreen_quick_settings_summary"
             android:defaultValue="true" />
 
-        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_dual_tone"
-            android:icon="@drawable/ic_color_bucket"
-            android:title="@string/qs_dual_tone_title"
-            android:summary="@string/qs_dual_tone_summary"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/qs_opacity_title"
@@ -180,15 +164,7 @@
             android:entryValues="@array/qs_tile_shape_values"
             android:defaultValue="0" />
 
-        <!--<ListPreference
-            android:key="qs_panel_style"
-            android:icon="@drawable/ic_color_bucket"
-            android:title="@string/qs_panel_style_title"
-            android:entries="@array/qs_panel_style_entries"
-            android:entryValues="@array/qs_panel_style_values"
-            android:defaultValue="0" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:icon="@drawable/ic_text"
             android:title="@string/qs_tile_label_hide_title"
@@ -203,14 +179,7 @@
             settings:min="10"
             settings:interval="1"
             settings:units="sp"
-            android:defaultValue="14" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_tile_vertical_layout"
-            android:icon="@drawable/ic_qs_tile"
-            android:title="@string/qs_tile_layout_title"
-            android:summary="@string/qs_tile_layout_summary"
-            android:defaultValue="false" />-->
+            android:defaultValue="14" />-->
 
         <Preference
             android:key="qs_layout_columns_rows"
