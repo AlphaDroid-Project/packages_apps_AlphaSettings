@@ -39,6 +39,14 @@
         android:summary="@string/pi_spoof_summary"
         android:defaultValue="true" />
 
+    <!-- Vbmeta hash attestation -->
+    <com.alpha.settings.preferences.SystemPropertySwitchPreference
+        android:key="persist.sys.vbmeta.update"
+        android:icon="@drawable/ic_hash"
+        android:title="@string/vbmeta_attestation_title"
+        android:summary="@string/vbmeta_attestation_summary"
+        android:defaultValue="true" />
+
     <!-- Keybox Data -->
     <com.alpha.settings.preferences.KeyboxDataPreference
         android:key="keybox_data_setting"
