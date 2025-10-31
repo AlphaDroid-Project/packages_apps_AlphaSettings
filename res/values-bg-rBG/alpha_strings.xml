@@ -292,6 +292,13 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="edge_light_style_title">Render style</string>
     <string name="edge_light_style_default">Default (left/right)</string>
     <string name="edge_light_style_frame">Frame (all sides)</string>
+    <string name="edge_light_animation_effect_title">Animation effect</string>
+    <string name="edge_light_animation_effect_none">Standard</string>
+    <string name="edge_light_animation_effect_breathing">Breathing</string>
+    <string name="edge_light_animation_effect_wave">Wave</string>
+    <string name="edge_light_animation_effect_sparkle">Sparkle</string>
+    <string name="edge_light_animation_effect_chase">Chase</string>
+    <string name="edge_light_animation_effect_comet">Comet</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Музикално обозначаване</string>
     <string name="pulse_on_new_tracks_summary">Показване на музикално обозначение на дисплея по време на смяна на песента</string>
@@ -1083,10 +1090,14 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
     <string name="keybox_toast_file_loaded">Keybox loaded</string>
     <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <!-- Block attestation even with Keybox Data -->
+    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
+    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">QS tiles shape</string>
     <string name="qs_tile_shape_dynamic">Dynamic</string>
     <string name="qs_tile_shape_circle">Кръг</string>
+    <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
     <string name="qs_tile_shape_rounded_square">Rounded square</string>
     <string name="qs_tile_shape_square">Square</string>
     <!-- Force dark mode -->
@@ -1146,4 +1157,7 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Ambient Wallpaper -->
     <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
     <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
+    <!-- Squiggle animation for media notification -->
+    <string name="media_squiggle_animation_title">Squiggle animation</string>
+    <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
 </resources>

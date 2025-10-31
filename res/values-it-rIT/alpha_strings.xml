@@ -53,7 +53,7 @@
     <string name="accent_color">Colore primario (predefinito)</string>
     <string name="notification_color">Colore notifiche</string>
     <string name="wallpaper_color">Colore sfondo</string>
-    <string name="rainbow_color">Rainbow color</string>
+    <string name="rainbow_color">Colore Arcobaleno</string>
     <string name="custom_color">Colore personalizzato</string>
     <string name="restart_systemui">Riavvia SystemUI affinché le modifiche abbiano effetto!</string>
     <string name="default_value">Predefinito</string>
@@ -289,9 +289,16 @@ Una piccola donazione aiuta a mantenere vivo e a migliorare questo progetto. Puo
     <string name="edge_light_pulse_count_summary">Numero di impulsi per luce di bordo</string>
     <string name="edge_light_stroke_width_title">Spessore tratto</string>
     <string name="edge_light_stroke_width_summary">Imposta lo spessore per le barre laterali</string>
-    <string name="edge_light_style_title">Render style</string>
-    <string name="edge_light_style_default">Default (left/right)</string>
-    <string name="edge_light_style_frame">Frame (all sides)</string>
+    <string name="edge_light_style_title">Stile minimalista</string>
+    <string name="edge_light_style_default">Predefinito (sinistra/destra)</string>
+    <string name="edge_light_style_frame">Cornice (tutti i lati)</string>
+    <string name="edge_light_animation_effect_title">Effetto animazione</string>
+    <string name="edge_light_animation_effect_none">Predefinito</string>
+    <string name="edge_light_animation_effect_breathing">Respirazione</string>
+    <string name="edge_light_animation_effect_wave">Onda</string>
+    <string name="edge_light_animation_effect_sparkle">Scintilla</string>
+    <string name="edge_light_animation_effect_chase">Inseguimento</string>
+    <string name="edge_light_animation_effect_comet">Cometa</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">Ticker musicale</string>
     <string name="pulse_on_new_tracks_summary">Mostra ticker musicale su Ambient Display durante il cambio traccia</string>
@@ -1084,10 +1091,14 @@ Una piccola donazione aiuta a mantenere vivo e a migliorare questo progetto. Puo
     <string name="keybox_toast_missing_data">Keybox XML non valido: campi obbligatori mancanti</string>
     <string name="keybox_toast_file_loaded">Keybox caricato</string>
     <string name="keybox_toast_file_cleared">Keybox cancellato</string>
+    <!-- Block attestation even with Keybox Data -->
+    <string name="pi_gmscertchain_title">Disattiva l\'imposizione di integrità forte</string>
+    <string name="pi_gmscertchain_summary">Se abilitata, non applicare una forte integrità da keybox personalizzato valido e dipendi da Google Play Integrity spoof per risolvere applicazioni come Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Stile dei riquadri</string>
     <string name="qs_tile_shape_dynamic">Dinamico</string>
     <string name="qs_tile_shape_circle">Cerchio</string>
+    <string name="qs_tile_shape_rounded_square_smooth">Quadrato arrotondato (liscio)</string>
     <string name="qs_tile_shape_rounded_square">Quadrato smussato</string>
     <string name="qs_tile_shape_square">Quadrato</string>
     <!-- Force dark mode -->
@@ -1123,7 +1134,7 @@ Una piccola donazione aiuta a mantenere vivo e a migliorare questo progetto. Puo
     <string name="pulse_settings_title">Visualizzatore Pulse</string>
     <string name="pulse_settings_summary">Equalizzatore grafico audio per la barra di navigazione e schermata di blocco</string>
     <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
-    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
+    <string name="ambient_pulse_enabled_summary">Mostra visualizzatore su Ambient Display</string>
     <string name="pulse_rounded_bars_title">Barre arrotondate</string>
     <string name="pulse_rounded_bars_summary">Mostra barre di visualizzazione con angoli arrotondati</string>
     <string name="pulse_color">Colore del visualizzatore</string>
@@ -1136,9 +1147,9 @@ Una piccola donazione aiuta a mantenere vivo e a migliorare questo progetto. Puo
     <string name="pulse_renderer">Stile visualizzatore</string>
     <string name="pulse_renderer_solid">Linee continue</string>
     <string name="pulse_renderer_fading">Dissolvenza blocchi</string>
-    <string name="pulse_renderer_neon_glow">Neon glow</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
-    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
+    <string name="pulse_renderer_neon_glow">Bagliore al neon</string>
+    <string name="pulse_renderer_retro_vu_meter">Misuratore di volume retro</string>
+    <string name="pulse_renderer_minimal_wave">Onda minima</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notifiche semitrasparenti</string>
     <string name="notification_row_transparency_summary">Imposta sfondo traslucido per le notifiche nelle impostazioni rapide</string>
@@ -1147,4 +1158,7 @@ Una piccola donazione aiuta a mantenere vivo e a migliorare questo progetto. Puo
     <!-- Ambient Wallpaper -->
     <string name="doze_always_on_wallpaper_title">Sfondo ambientale</string>
     <string name="doze_always_on_wallpaper_summary">Mostra sfondo nella schermata di blocco su Ambient Display</string>
+    <!-- Squiggle animation for media notification -->
+    <string name="media_squiggle_animation_title">Squiggle animation</string>
+    <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
 </resources>
