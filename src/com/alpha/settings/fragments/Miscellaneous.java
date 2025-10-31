@@ -22,6 +22,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.View;
@@ -166,6 +167,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.PI_NETFLIX_SPOOF, 0, UserHandle.USER_CURRENT);
         SensorBlock.reset(mContext);
+        SystemProperties.set("persist.sys.vbmeta.update", "true");
     }
 
     @Override
