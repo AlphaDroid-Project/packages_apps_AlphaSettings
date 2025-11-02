@@ -153,6 +153,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LS_MEDIA_ART_FADE_LEVEL, 40, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LS_MEDIA_ART_BLUR_LEVEL, 200, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.AMBIENT_MEDIA_ART_ENABLED, 1, UserHandle.USER_CURRENT);
         PulseSettings.reset(mContext);
         UdfpsAnimation.reset(mContext);
         UdfpsIconPicker.reset(mContext);
