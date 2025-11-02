@@ -537,7 +537,7 @@
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Retorno tátil</string>
     <string name="qs_brightness_slider_haptic_summary">Vibrar ao deslizar pela barra de brilho</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on taping QS tiles</string>
+    <string name="qs_tile_haptic_summary">Vibrar ao tocar nos ícones de configurações rápidas</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Ícone de brilho automático</string>
     <string name="qs_show_auto_brightness_summary">Mostrar botão de brilho automático</string>
@@ -655,7 +655,7 @@
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animação ao desligar a tela</string>
     <string name="screen_off_animation_default">Padrão</string>
-    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_crt">TV Antiga</string>
     <string name="screen_off_animation_scale">Escala</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fp_success_vibrate_title">Vibrar no desbloqueio por impressão digital</string>
@@ -772,8 +772,8 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar ao ponto de acesso</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível. Dispositivos conectados e bloqueados aparecerão quando disponíveis.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivos podem se conectar a este ponto de acesso</item>
         <item quantity="one">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivo pode se conectar a este ponto de acesso</item>
@@ -1112,7 +1112,7 @@
     <string name="sidebar_title">Barra lateral</string>
     <string name="sidebar_summary">Abrir aplicativos rapidamente em uma janela flutuante</string>
     <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_title">Espaço Inteligente</string>
     <string name="lockscreen_smartspace_summary">Mostrar Google Smartspace quando disponível</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_title">Limpar área de transferência automaticamente</string>
@@ -1167,28 +1167,28 @@
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Camadas</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox attestation override</string>
-    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
-    <string name="keybox_delete_content_description">Clear keybox data</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <string name="keybox_data_title">Substituição de atestado do Keybox</string>
+    <string name="keybox_data_summary">Carregue um keybox XML personalizado para substituir a atestação de chave do dispositivo</string>
+    <string name="keybox_data_loaded_summary">Keybox XML personalizado carregado. Exclua para limpar.</string>
+    <string name="keybox_delete_content_description">Limpar dados de keybox</string>
+    <string name="keybox_toast_invalid_file_selected">Não é um arquivo XML. Escolha um keybox XML válido.</string>
+    <string name="keybox_toast_missing_data">Keybox XML inválido: campos obrigatórios faltando</string>
+    <string name="keybox_toast_file_loaded">Keybox carregado</string>
+    <string name="keybox_toast_file_cleared">Keybox limpo</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">Formato dos ícones das Configurações Rápidas</string>
+    <string name="qs_tile_shape_dynamic">Dinâmico</string>
     <string name="qs_tile_shape_circle">Círculo</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square">Quadrado arredondado</string>
+    <string name="qs_tile_shape_square">Quadrado</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">Modo escuro para aplicativos de terceiros</string>
+    <string name="force_dark_summary">Forçar cores mais escuras em apps com falta de modo escuro. Algumas telas podem parecer desligadas.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">Forma do controle deslizante de brilho</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Forçar LTE CA</string>
+    <string name="force_lte_ca_summary">Forçar funcionamento de Agregação da Portadora LTE</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Configurações Alpha</string>
@@ -1205,9 +1205,9 @@
     <string name="top_level_support_category_title">Suporte</string>
     <string name="lockscreen_clock_category">Relógio</string>
     <!-- Misc categories -->
-    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_spoofing_category">Mascaramento</string>
     <string name="misc_system_category">Sistema</string>
-    <string name="misc_animations_category">Animations</string>
+    <string name="misc_animations_category">Animações</string>
     <string name="misc_gestures_category">Gestos</string>
     <!-- Changelog -->
     <string name="changelog_title">Registro de mudanças atual</string>
