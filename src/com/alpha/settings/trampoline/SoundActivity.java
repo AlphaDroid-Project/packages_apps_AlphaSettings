@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022-2025 crDroid Android Project
+ * Copyright (C) 2019 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,18 +13,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alpha.settings.fragments.ui;
+
+package com.alpha.settings.trampoline;
 
 import android.os.Bundle;
-import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
-public class DisplayCutoutForceFullscreenActivity extends CollapsingToolbarBaseActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.alpha.settings.fragments.Sound;
+
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.settings.core.SubSettingLauncher;
+
+/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+public class SoundActivity extends AppCompatActivity {
+
+    private static final String TAG = "SoundActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportFragmentManager().beginTransaction()
-                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                        new DisplayCutoutForceFullscreenFragment())
-                .commit();
+        new SubSettingLauncher(this)
+                .setDestination(Sound.class.getName())
+                .setSourceMetricsCategory(MetricsEvent.ALPHA)
+                .launch();
+        finish();
     }
 }

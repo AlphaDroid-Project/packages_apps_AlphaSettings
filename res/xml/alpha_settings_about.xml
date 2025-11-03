@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      Copyright (C) 2016-2024 crDroid Android Project
+                   2023-2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,91 +19,74 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- crDroid Changelog -->
+    <!-- AlphaDroid Changelog -->
     <Preference
-        android:key="crdroid_changelog"
+        android:key="about_changelog"
         android:icon="@drawable/ic_changelog"
-        android:title="@string/changelog_crdroid_title"
-        android:summary="@string/changelog_crdroid_summary">
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary">
         <intent android:action="android.intent.action.MAIN"
              android:targetPackage="com.android.settings"
              android:targetClass="com.alpha.settings.fragments.about.ChangelogActivity"/>
     </Preference>
 
-    <!-- crDroid Website -->
+    <!-- AlphaDroid Website
     <Preference
-        android:key="crdroid_website"
+        android:key="about_website"
         android:icon="@drawable/ic_web"
-        android:title="@string/crdroid_website_title"
-        android:summary="@string/crdroid_website_summary" />
+        android:title="@string/website_title"
+    android:summary="@string/website_summary" />-->
 
-    <!-- crDroid Translate -->
+    <!-- AlphaDroid Translate -->
     <Preference
-        android:key="crdroid_translate"
+        android:key="about_translate"
         android:icon="@drawable/ic_translate"
-        android:title="@string/crdroid_translate_title"
-        android:summary="@string/crdroid_translate_summary" />
+        android:title="@string/translate_title"
+        android:summary="@string/translate_summary" />
 
-    <!-- crDroid Share -->
+    <!-- AlphaDroid Share -->
     <Preference
-        android:key="crdroid_share"
+        android:key="about_share"
         android:icon="@drawable/ic_share"
-        android:title="@string/share_crdroid_title"
-        android:summary="@string/share_crdroid_summary" />
+        android:title="@string/share_title"
+        android:summary="@string/share_summary" />
 
-    <!-- crDroid Donate -->
+    <!-- AlphaDroid Donate -->
     <Preference
-        android:key="crdroid_donate"
+        android:key="about_donate"
         android:icon="@drawable/ic_donate"
-        android:title="@string/crdroid_donate_preference_title"
-        android:summary="@string/crdroid_donate_preference_summary">
-        <intent android:action="android.intent.action.MAIN"
-             android:targetPackage="com.android.settings"
-             android:targetClass="com.alpha.settings.fragments.about.DonateActivity"/>
-    </Preference>
+        android:title="@string/donate_title"
+        android:summary="@string/donate_summary" />
 
-    <!-- crDroid Source -->
+    <!-- AlphaDroid Source -->
     <Preference
-        android:key="crdroid_source"
+        android:key="about_source"
         android:icon="@drawable/ic_source"
-        android:title="@string/crdroid_source_title"
-        android:summary="@string/crdroid_source_summary" />
+        android:title="@string/source_title"
+        android:summary="@string/source_summary" />
 
-    <!-- crDroid Telegram -->
+    <!-- AlphaDroid Telegram -->
     <Preference
-        android:key="crdroid_telegram"
+        android:key="about_telegram"
         android:icon="@drawable/ic_telegram"
-        android:title="@string/crdroid_telegram_title"
-        android:summary="@string/crdroid_telegram_summary" />
+        android:title="@string/telegram_title"
+        android:summary="@string/telegram_summary" />
 
-    <!-- crDroid Telegram Updates Channel -->
+    <!-- AlphaDroid Telegram Updates Channel -->
     <Preference
-        android:key="crdroid_telegram_channel"
+        android:key="about_telegram_channel"
         android:icon="@drawable/ic_telegram_channel"
-        android:title="@string/crdroid_telegram_channel_title"
-        android:summary="@string/crdroid_telegram_channel_summary" />
+        android:title="@string/telegram_channel_title"
+        android:summary="@string/telegram_channel_summary" />
 
-    <!-- crDroid buildserver sponsor -->
-    <Preference
-        android:key="crdroid_buildserversponsor"
-        android:icon="@drawable/ic_sponsor"
-        android:title="@string/crdroid_buildserversponsor_title"
-        android:summary="@string/crdroid_buildserversponsor_summary" />
-
-    <!-- crDroid sponsor -->
-    <Preference
-        android:key="crdroid_sponsor"
-        android:icon="@drawable/ic_sponsor"
-        android:title="@string/crdroid_sponsor_title"
-        android:summary="@string/crdroid_sponsor_summary" />
-
-    <!-- crDroid OTA update -->
-    <Preference
+    <!-- AlphaDroid OTA update -->
+    <!--Preference
         android:key="system_update_settings"
-        android:title="@string/crdroid_update_title"
-        android:summary="@string/crdroid_update_summary"
+        android:title="@string/ota_update_title"
+        android:summary="@string/ota_update_summary"
         android:icon="@drawable/ic_update"
         settings:controller="com.android.settings.system.SystemUpdatePreferenceController">
         <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
-    </Preference>
+    </Preference-->
+
 </PreferenceScreen>

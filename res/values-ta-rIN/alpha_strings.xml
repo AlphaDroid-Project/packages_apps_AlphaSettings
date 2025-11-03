@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crட்ராய்டு அமைப்புகள்</string>
-    <string name="crdroid_settings_summary">திறந்த நன்மை</string>
     <string name="reset_settings_title">அமைப்புகளை மீட்டமைக்கவும்</string>
     <string name="reset_settings_message">இது பெரும்பாலான crdroid அமைப்புகளை தற்போதைய பயனருக்கான இயல்புநிலை மதிப்புகளுக்கு மீட்டமைக்கும்.  நீங்கள் தொடர விரும்புகிறீர்களா?</string>
     <!-- Personalization Categories -->
@@ -57,59 +54,17 @@
     <string name="custom_color">தனிப்பயன் நிறம்</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <string name="default_value">இயல்புநிலை</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">தற்போதைய மாற்றங்கள்</string>
-    <string name="changelog_crdroid_summary">நிறுவப்பட்ட ROM இல் மாற்றங்களைக் காண்க</string>
-    <string name="changelog_crdroid_error">மாற்றப் பதிவேட்டை திறக்க முடியவில்லை</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">crDroid ஐப் பற்றி</string>
-    <string name="about_device_name">சாதனம்</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">crDroid ஐப் பகிர்</string>
-    <string name="share_crdroid_summary">crDroid பற்றி மற்றவர்களுக்குத் தெரியப்படுத்தவும்</string>
-    <string name="share_message">உங்கள் சாதனத்தில் #crDroidAndroid உள்ளதா எனப் பார்க்கவும் @ https://crdroid.net/</string>
-    <string name="share_chooser_title">crDroid ஐப் பகிர்</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">கிட்ஹப்</string>
-    <string name="crdroid_source_summary">நாங்கள் திறந்த மூலத்தை விரும்புகிறோம், எங்களைப் பார்க்கவும்</string>
-    <string name="crdroid_telegram_title">crDroid சமூகம்</string>
-    <string name="crdroid_telegram_summary">நாங்கள் தந்தியில் இருக்கிறோம்.  எங்களுடன் சேர்!</string>
-    <string name="crdroid_telegram_channel_title">சேனலைப் புதுப்பிக்கிறது</string>
-    <string name="crdroid_telegram_channel_summary">டெலிகிராமில் புதிய உருவாக்கங்கள் பற்றிய அறிவிப்பைப் பெறுங்கள்</string>
-    <string name="crdroid_website_title">அதிகாரப்பூர்வ வலைத்தளம்</string>
-    <string name="crdroid_website_summary">எங்கள் அதிகாரப்பூர்வ வலைத்தளத்தைப் பார்வையிடவும்</string>
-    <string name="crdroid_translate_title">மொழிபெயர்ப்புகள்</string>
-    <string name="crdroid_translate_summary">இந்த ROM-ஐ உங்கள் மொழியில் மொழிபெயர்க்க உதவிடுங்கள்!</string>
-    <string name="crdroid_sponsor_summary">எங்கள் Website Host Partner-ஐ பார்வையிட</string>
-    <string name="crdroid_buildserversponsor_summary">இதில் ஆர்வம் இருந்தால், நாங்கள் அவர்களின் சேவையகங்களைப் பரிந்துரைக்கிறோம்</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">எங்களை ஆதரியுங்கள்</string>
-    <string name="crdroid_donate_preference_summary">வளர்ச்சிக்கு உதவிட நன்கொடை அளியுங்கள்</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">புதுப்பிப்புகள்</string>
-    <string name="crdroid_update_summary">Check for OTA update and links for your device</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">மதிப்பு: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">இயல்புநிலை மூலம்</string>
+    <string name="custom_seekbar_default_value_to_set">இயல்புநிலை மதிப்பு: <xliff:g id="v">%s</xliff:g>\n அமைக்க நீண்ட நேரம் தட்டவும்</string>
+    <string name="custom_seekbar_default_value_is_set">இயல்புநிலை மதிப்பு அமைக்கப்பட்டுள்ளது</string>
     <!-- Units -->
     <string name="unit_seconds">நொடிகள்</string>
     <string name="unit_milliseconds">மில்லி வினாடி</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Clipboard-க்கு நகலெடுக்கப்பட்டது</string>
     <string name="longpress_to_clipboard">நகலெடுக்க நீண்டு அழுத்தவும்</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">தளம்</string>
-    <string name="total_ram">மொத்த RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">அறிவிப்புகள் வரலாறு பதிவைக் காட்டு</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

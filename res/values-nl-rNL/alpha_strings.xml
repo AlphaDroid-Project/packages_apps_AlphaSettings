@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Instellingen</string>
-    <string name="crdroid_settings_summary">Goodies</string>
     <string name="reset_settings_title">Instellingen resetten</string>
     <string name="reset_settings_message">Dit zal de meeste crdroid instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
     <!-- Personalization Categories -->
@@ -57,59 +54,17 @@
     <string name="custom_color">Aangepaste kleur</string>
     <string name="restart_systemui">Herstart SystemUI om veranderingen van kracht te laten worden!</string>
     <string name="default_value">Standaard</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Huidige veranderingen</string>
-    <string name="changelog_crdroid_summary">Bekijk wijzigingen in de geïnstalleerde rom</string>
-    <string name="changelog_crdroid_error">Kan changelog niet laden</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Over crDroid</string>
-    <string name="about_device_name">Apparaat</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Deel crDroid</string>
-    <string name="share_crdroid_summary">Laat anderen weten over crDroid</string>
-    <string name="share_message">Kijk eens of #crDroidAndroid beschikbaar is voor uw apparaat @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Deel crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">Github</string>
-    <string name="crdroid_source_summary">We houden van open source, neem een kijkje</string>
-    <string name="crdroid_telegram_title">crDroid gemeenschap</string>
-    <string name="crdroid_telegram_summary">Wij zitten op Telegram. Kom er bij!</string>
-    <string name="crdroid_telegram_channel_title">Updatekanaal</string>
-    <string name="crdroid_telegram_channel_summary">Ontvang een melding van nieuwe builds op Telegram</string>
-    <string name="crdroid_website_title">Officiële website</string>
-    <string name="crdroid_website_summary">Bezoek onze officiële website</string>
-    <string name="crdroid_translate_title">Vertalingen</string>
-    <string name="crdroid_translate_summary">Help met lokalisatie van de ROM in jouw taal!</string>
-    <string name="crdroid_sponsor_summary">Bezoek onze website host partner</string>
-    <string name="crdroid_buildserversponsor_summary">Indien interesse raden we zeker hun servers aan</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Steun ons</string>
-    <string name="crdroid_donate_preference_summary">Doneer om verdere ontwikkeling te ondersteunen</string>
-    <string name="crdroid_donate_title">crDroid heeft je hulp nodig!</string>
-    <string name="crdroid_donate_notification_text">Tik om meer te weten te komen</string>
-    <string name="crdroid_donate_message">crDroid Android is een open-source project dat uw hulp nodig heeft om de website online te houden, onze build servers lopen en om hoogwaardige builds te leveren voor uw apparaat.\n\n
-Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt dit bericht negeren, maar uw steun betekent veel voor ons.</string>
-    <string name="crdroid_donate_button">Doneer nu</string>
-    <string name="crdroid_later_button">Misschien later</string>
-    <string name="crdroid_channel_name">crDroid meldingen</string>
-    <string name="crdroid_channel_desc">Projectspecifieke notificaties</string>
-    <string name="crdroid_donate_still_needed">We hebben deze maand nog €% nodig. Help ons ons ons ons doel te bereiken.</string>
-    <string name="crdroid_donate_thank_you">We waarderen alle donaties voor deze maand. Je kunt nog steeds bijdragen en een verschil maken!</string>
-    <string name="crdroid_donate_raised">€%,d opgehaald</string>
-    <string name="crdroid_donate_total">van € %,d doel</string>
-    <string name="crdroid_donate_loading">Voortgang bijwerken...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Bijwerken</string>
-    <string name="crdroid_update_summary">Controleer en download de nieuwste updates</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Waarde: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">standaard</string>
+    <string name="custom_seekbar_default_value_to_set">Standaard waarde: <xliff:g id="v">%s</xliff:g>\nLang indrukken om in te stellen</string>
+    <string name="custom_seekbar_default_value_is_set">Standaard waarde is ingesteld</string>
     <!-- Units -->
     <string name="unit_seconds">seconden</string>
     <string name="unit_milliseconds">milliseconden</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Naar klembord gekopieerd</string>
     <string name="longpress_to_clipboard">Lang ingedrukt houden om te kopiëren</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Totale RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Toon meldingsgeschiedenis</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

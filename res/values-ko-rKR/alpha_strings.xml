@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid 설정</string>
-    <string name="crdroid_settings_summary">기기의 더 자세한 부분까지 사용자 정의</string>
     <string name="reset_settings_title">추가 사용자 정의 설정 초기화</string>
     <string name="reset_settings_message">추가 사용자 정의 설정을 기본값으로 초기화합니다. 정말 계속하시겠습니까?</string>
     <!-- Personalization Categories -->
@@ -57,59 +54,17 @@
     <string name="custom_color">사용자 정의 색상</string>
     <string name="restart_systemui">변경 사항을 적용하려면 시스템 UI를 다시 시작해야 합니다.</string>
     <string name="default_value">기본값</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">현재 변경 내역</string>
-    <string name="changelog_crdroid_summary">설치된 ROM의 변경 사항을 봅니다.</string>
-    <string name="changelog_crdroid_error">변경 사항을 읽을 수 없습니다.</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">crDroid에 관하여</string>
-    <string name="about_device_name">기기</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">crDroid 공유</string>
-    <string name="share_crdroid_summary">crDroid에 대해 다른 사람들에게 알리기</string>
-    <string name="share_message">당신의 장치를 위한 #crDroidAndroid 이 있는지 확인하려면 @ https://crdroid.net을 확인하세요.</string>
-    <string name="share_chooser_title">crDroid 공유</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">우리는 오픈 소스를 사랑합니다. 확인해 보세요.</string>
-    <string name="crdroid_telegram_title">crDroid 커뮤니티</string>
-    <string name="crdroid_telegram_summary">우리는 텔레그램에 있습니다. 가입하세요!</string>
-    <string name="crdroid_telegram_channel_title">업데이트 채널</string>
-    <string name="crdroid_telegram_channel_summary">새로운 빌드가 나오면 텔레그램으로 알림 받기</string>
-    <string name="crdroid_website_title">공식 웹사이트</string>
-    <string name="crdroid_website_summary">공식 웹사이트 방문하기</string>
-    <string name="crdroid_translate_title">번역</string>
-    <string name="crdroid_translate_summary">귀하의 언어로 ROM 현지화를 도와주세요!</string>
-    <string name="crdroid_sponsor_summary">웹 사이트 호스팅 파트너 방문하기</string>
-    <string name="crdroid_buildserversponsor_summary">관심이 있는 경우 해당 서버를 추천합니다.</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">지원하기</string>
-    <string name="crdroid_donate_preference_summary">기부해서 개발 지원하기</string>
-    <string name="crdroid_donate_title">crDroid는 당신의 도움이 필요합니다!</string>
-    <string name="crdroid_donate_notification_text">탭해서 더 알아보기</string>
-    <string name="crdroid_donate_message">crDroid 안드로이드는 오픈소스 프로젝트이기 때문에 웹사이트를 유지하고, 서버를 운영해 높은 품질의 빌드를 단말기에 제공하는데 당신의 도움이 필요합니다. \n\n
-작은 도네이션도 이 프로젝트가 계속 운영되고 발전하는데 도움이 됩니다. 이 메시지를 꺼도 되지만, 당신의 지원은 우리에게 큰 도움이 됩니다.</string>
-    <string name="crdroid_donate_button">지금 기부하기</string>
-    <string name="crdroid_later_button">나중에 하기</string>
-    <string name="crdroid_channel_name">crDroid 알림</string>
-    <string name="crdroid_channel_desc">프로젝트 관련 알림</string>
-    <string name="crdroid_donate_still_needed">이번달에 €%,d만큼 필요합니다. 목표를 달성할 수 있도록 도와주세요.</string>
-    <string name="crdroid_donate_thank_you">이번 달 모든 기부에 감사드립니다. 계속 지원해서 차이를 만들 수 있습니다!</string>
-    <string name="crdroid_donate_raised">€%,d 모집됨</string>
-    <string name="crdroid_donate_total">목표 €%,d 중</string>
-    <string name="crdroid_donate_loading">진행사항 업데이트 중...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">업데이트</string>
-    <string name="crdroid_update_summary">확인 후 최신 업데이트를 자동으로 다운로드</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">값: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">기본값</string>
+    <string name="custom_seekbar_default_value_to_set">기본값: <xliff:g id="v">%s</xliff:g>\n길게 누르면 기본값으로 초기화합니다.</string>
+    <string name="custom_seekbar_default_value_is_set">기본값으로 초기화했습니다.</string>
     <!-- Units -->
     <string name="unit_seconds">초</string>
     <string name="unit_milliseconds">밀리초</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">클립보드에 복사했습니다.</string>
     <string name="longpress_to_clipboard">길게 누르면 클립보드에 복사합니다.</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">플랫폼</string>
-    <string name="total_ram">전체 RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">알림 기록 표시</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

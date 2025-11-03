@@ -37,6 +37,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.lockscreen.DozeSettings;
 import com.alpha.settings.fragments.lockscreen.PulseSettings;
 import com.alpha.settings.fragments.lockscreen.MediaArtSettings;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
@@ -70,7 +71,7 @@ public class LockScreen extends SettingsPreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_settings_lockscreen);
+        addPreferencesFromResource(R.xml.alpha_settings_lockscreen);
 
         PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
 
@@ -146,6 +147,14 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_HUMIDITY_INFO, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_SHOW_CARRIER, 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.PULSE_ON_NEW_TRACKS, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.DOZE_ALWAYS_ON_WALLPAPER_ENABLED, mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_dozeSupportsAodWallpaper) ? 1 : 0,
+                UserHandle.USER_CURRENT);
+
+        DozeSettings.reset(mContext);
         PulseSettings.reset(mContext);
         MediaArtSettings.reset(mContext);
         UdfpsAnimation.reset(mContext);
@@ -176,7 +185,7 @@ public class LockScreen extends SettingsPreferenceFragment
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_lockscreen) {
+            new BaseSearchIndexProvider(R.xml.alpha_settings_lockscreen) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

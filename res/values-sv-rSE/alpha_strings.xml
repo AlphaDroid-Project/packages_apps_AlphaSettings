@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Inställningar</string>
-    <string name="crdroid_settings_summary">Öppna godsaker</string>
     <string name="reset_settings_title">Återställ inställningar</string>
     <string name="reset_settings_message">Detta kommer att återställa de flesta inställningar för crdroid till deras standardvärden för den aktuella användaren. Vill du fortsätta?</string>
     <!-- Personalization Categories -->
@@ -53,63 +50,20 @@
     <string name="accent_color">Accentfärg (standard)</string>
     <string name="notification_color">Aviseringsfärg</string>
     <string name="wallpaper_color">Bakgrundsfärg</string>
-    <string name="rainbow_color">Regnbågsfärg</string>
     <string name="custom_color">Anpassad färg</string>
-    <string name="restart_systemui">Starta om systemets grafiska gränssnitt för att ändringen ska få effekt!</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <string name="default_value">Standard</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Nuvarande ändringslogg</string>
-    <string name="changelog_crdroid_summary">Visa ändringar i den ROM som är installerad</string>
-    <string name="changelog_crdroid_error">Laddningen av ändringsloggen kunde inte genomföras</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Om crDroid</string>
-    <string name="about_device_name">Enhet</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Dela crDroid</string>
-    <string name="share_crdroid_summary">Dela med dig av crDroid till andra</string>
-    <string name="share_message">Kontrollera ifall #crDroidAndroid finns tillgänglig för din enhet @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Dela med dig av crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Vi älskar öppen källkod, kolla in oss</string>
-    <string name="crdroid_telegram_title">crDroid gemenskap</string>
-    <string name="crdroid_telegram_summary">Vi finns på telegram. Anslut dig till oss!</string>
-    <string name="crdroid_telegram_channel_title">Kanal för uppdateringar</string>
-    <string name="crdroid_telegram_channel_summary">Bli informerad om nya versioner på Telegram</string>
-    <string name="crdroid_website_title">Officiell hemsida</string>
-    <string name="crdroid_website_summary">Besök vår officiella hemsida</string>
-    <string name="crdroid_translate_title">Översättningar</string>
-    <string name="crdroid_translate_summary">Bidra med att lokalisera ROM till ditt språk!</string>
-    <string name="crdroid_sponsor_summary">Besök sponsorn till vår hemsida</string>
-    <string name="crdroid_buildserversponsor_summary">Vi rekommenderar deras servrar om intresse finns</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Stöd oss</string>
-    <string name="crdroid_donate_preference_summary">Skänk en donation för att stödja vidare utveckling</string>
-    <string name="crdroid_donate_title">crDroid behöver din hjälp!</string>
-    <string name="crdroid_donate_notification_text">Tryck för att lära dig mer</string>
-    <string name="crdroid_donate_message">crDroid Android är ett projekt med öppen källkod som behöver din hjälp för att hålla hemsidan igång, hålla igång våra bygg-servrar och för att leverera högkvalitativa byggnationer till din enhet.\n\n
-En liten donation hjälper oss att hålla det här projektet vid liv och för att förbättra det. Du kan stänga det här meddelandet, men ditt stöd betyder jättemycket för oss.</string>
-    <string name="crdroid_donate_button">Donera nu</string>
-    <string name="crdroid_later_button">Kanske senare</string>
-    <string name="crdroid_channel_name">crDroid-aviseringar</string>
-    <string name="crdroid_channel_desc">Projektspecifika aviseringar</string>
-    <string name="crdroid_donate_still_needed">Vi behöver fortfarande € %,d den här månaden. Hjälp oss att nå vårt mål.</string>
-    <string name="crdroid_donate_thank_you">Vi uppskattar alla donationer för denna månad. Du kan fortfarande bidra och göra skillnad!</string>
-    <string name="crdroid_donate_raised">€%,d insamlat</string>
-    <string name="crdroid_donate_total">av €%,d mål</string>
-    <string name="crdroid_donate_loading">Uppdaterar...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Uppdateringar</string>
-    <string name="crdroid_update_summary">Kontrollera och hämta senaste uppdateringen</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Värde: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">som standard</string>
+    <string name="custom_seekbar_default_value_to_set">Standardvärde: <xliff:g id="v">%s</xliff:g>\nLångtryck för att ställa in</string>
+    <string name="custom_seekbar_default_value_is_set">Standardvärdet är angivet</string>
     <!-- Units -->
     <string name="unit_seconds">sekunder</string>
     <string name="unit_milliseconds">millisekunder</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Kopierat till urklipp</string>
     <string name="longpress_to_clipboard">Långtryck för att kopiera</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Plattform</string>
-    <string name="total_ram">RAM totalt</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Visa den registrerade aviseringshistoriken</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

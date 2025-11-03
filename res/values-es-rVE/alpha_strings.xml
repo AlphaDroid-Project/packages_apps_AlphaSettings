@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Ajustes de crDroid</string>
-    <string name="crdroid_settings_summary">Abre lo bueno</string>
     <string name="reset_settings_title">Restablecer ajustes</string>
     <string name="reset_settings_message">Esto restablecerá la mayor parte de la configuración de crDroid a sus valores predeterminados para el usuario actual. ¿Deseas continuar?</string>
     <!-- Personalization Categories -->
@@ -53,54 +50,15 @@
     <string name="accent_color">Color de énfasis (Por defecto)</string>
     <string name="notification_color">Color de notificación</string>
     <string name="wallpaper_color">Color del fondo de pantalla</string>
-    <string name="rainbow_color">Colores del Arcoíris</string>
     <string name="custom_color">Color personalizado</string>
     <string name="restart_systemui">¡Reinicia la interfaz del sistema para aplicar los cambios!</string>
     <string name="default_value">Predeterminado</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Registro de cambios</string>
-    <string name="changelog_crdroid_summary">Ver los cambios en la ROM instalada</string>
-    <string name="changelog_crdroid_error">No se ha podido cargar el registro de cambios</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Acerca de crDroid</string>
-    <string name="about_device_name">Dispositivo</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Compartir crDroid</string>
-    <string name="share_crdroid_summary">Haz saber a los demás qué es crDroid</string>
-    <string name="share_message">Echa un vistazo si #crDroidAndroid está disponible para tu dispositivo @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Compartir crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Nos encanta el código abierto, échanos un vistazo</string>
-    <string name="crdroid_telegram_title">comunidad de crDroid</string>
-    <string name="crdroid_telegram_summary">Estamos en telegrama. ¡Únete!</string>
-    <string name="crdroid_telegram_channel_title">Canal de actualización</string>
-    <string name="crdroid_telegram_channel_summary">Recibe notificaciones de nuevas versiones en Telegram</string>
-    <string name="crdroid_website_title">Página web oficial</string>
-    <string name="crdroid_website_summary">Visita nuestra página web oficial</string>
-    <string name="crdroid_translate_title">Traducciones</string>
-    <string name="crdroid_translate_summary">¡Ayuda con la traducción de la ROM en tu idioma!</string>
-    <string name="crdroid_sponsor_summary">Visita a nuestro socio de alojamiento web</string>
-    <string name="crdroid_buildserversponsor_summary">Recomendamos sus servidores si están interesados en uno</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Apóyanos</string>
-    <string name="crdroid_donate_preference_summary">Donar para apoyar un mejor desarrollo</string>
-    <string name="crdroid_donate_title">¡CrDroid necesita tu ayuda!</string>
-    <string name="crdroid_donate_notification_text">Toque para obtener más información</string>
-    <string name="crdroid_donate_message">crDroid Android es un proyecto de código abierto que necesita tu ayuda para mantener nuestro sitio web en línea, nuestros servidores de compilación en funcionamiento y para ofrecer compilaciones de alta calidad para tu dispositivo.\n\n
-Una pequeña donación ayuda a mantener este proyecto vivo y en constante mejora. Puedes ignorar este mensaje, pero tu apoyo es muy importante para nosotros.</string>
-    <string name="crdroid_donate_button">Dona ahora</string>
-    <string name="crdroid_later_button">Quizás más tarde</string>
-    <string name="crdroid_channel_name">Notificaciones de crDroid</string>
-    <string name="crdroid_channel_desc">Notificaciones específicas del proyecto</string>
-    <string name="crdroid_donate_still_needed">Todavía necesitamos €%,d este mes. Ayúdanos a alcanzar nuestra meta.</string>
-    <string name="crdroid_donate_thank_you">Agradecemos todas las donaciones de este mes. ¡Aún puedes contribuir y marcar la diferencia!</string>
-    <string name="crdroid_donate_raised">€%,d recaudado</string>
-    <string name="crdroid_donate_total">de €%,d objetivo</string>
-    <string name="crdroid_donate_loading">Proceso de actualización</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Actualizaciones</string>
-    <string name="crdroid_update_summary">Buscar y descargar la última actualización</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">predeterminado</string>
+    <string name="custom_seekbar_default_value_to_set">Valor predeterminado: <xliff:g id="v">%s</xliff:g>\n
+Mantén presionado para establecer</string>
+    <string name="custom_seekbar_default_value_is_set">Está establecido el valor predeterminado</string>
     <!-- Units -->
     <string name="unit_seconds">segundos</string>
     <string name="unit_milliseconds">milisegundos</string>

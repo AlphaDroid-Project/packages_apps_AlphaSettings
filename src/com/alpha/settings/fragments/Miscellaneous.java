@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016-2025 crDroid Android Project
+ * Copyright (C) 2025 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,6 +15,8 @@
  * limitations under the License.
  */
 package com.alpha.settings.fragments;
+
+import static org.lineageos.internal.util.DeviceKeysConstants.*;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -43,12 +46,11 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.misc.SensorBlock;
 import com.alpha.settings.preferences.KeyboxDataPreference;
+import com.alpha.settings.fragments.misc.SmartPixels;
 
 import java.util.List;
 
-import android.provider.Settings;
 
-import static org.lineageos.internal.util.DeviceKeysConstants.*;
 
 @SearchIndexable
 public class Miscellaneous extends SettingsPreferenceFragment implements
@@ -60,18 +62,20 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     private static final String KEY_GMS_CERT_SPOOF = "pi_gms_cert_chain";
     private static final String KEY_THREE_FINGERS_SWIPE = "three_fingers_swipe";
     private static final String KEYBOX_DATA_KEY = "keybox_data_setting";
+    private static final String SMART_PIXELS = "smart_pixels";
 
     private ActivityResultLauncher<Intent> mKeyboxFilePickerLauncher;
     private KeyboxDataPreference mKeyboxDataPreference;
     private SwitchPreferenceCompat mDisableForceIntegrity;
     private Preference mPocketJudge;
     private ListPreference mThreeFingersSwipeAction;
+    private Preference mSmartPixels;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.crdroid_settings_misc);
+        addPreferencesFromResource(R.xml.alpha_settings_misc);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
@@ -79,8 +83,16 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         mPocketJudge = (Preference) prefScreen.findPreference(POCKET_JUDGE);
         boolean mPocketJudgeSupported = res.getBoolean(
                 com.android.internal.R.bool.config_pocketModeSupported);
-        if (!mPocketJudgeSupported)
+        if (!mPocketJudgeSupported && mPocketJudge != null) {
             prefScreen.removePreference(mPocketJudge);
+        }
+
+        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        boolean mSmartPixelsSupported = getResources().getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels);
+        if (!mSmartPixelsSupported && mSmartPixels != null) {
+            prefScreen.removePreference(mSmartPixels);
+        }
 
         Action threeFingersSwipeAction = Action.fromSettings(getContentResolver(),
                 Settings.System.KEY_THREE_FINGERS_SWIPE_ACTION,
@@ -151,8 +163,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
-                Settings.System.ENABLE_ROTATION_BUTTON, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.POCKET_JUDGE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
@@ -168,6 +178,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 Settings.Secure.PI_NETFLIX_SPOOF, 0, UserHandle.USER_CURRENT);
         SensorBlock.reset(mContext);
         SystemProperties.set("persist.sys.vbmeta.update", "true");
+        SmartPixels.reset(mContext);
     }
 
     @Override
@@ -179,7 +190,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
      * For search
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.crdroid_settings_misc) {
+            new BaseSearchIndexProvider(R.xml.alpha_settings_misc) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
@@ -190,6 +201,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                             com.android.internal.R.bool.config_pocketModeSupported);
                     if (!mPocketJudgeSupported)
                         keys.add(POCKET_JUDGE);
+
+
+                    boolean mSmartPixelsSupported = context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_supportSmartPixels);
+                    if (!mSmartPixelsSupported)
+                        keys.add(SMART_PIXELS);
 
                     return keys;
                 }

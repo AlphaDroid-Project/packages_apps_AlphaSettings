@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Налаштування crDroid</string>
-    <string name="crdroid_settings_summary">Додаткові налаштування</string>
     <string name="reset_settings_title">Скинути налаштування</string>
     <string name="reset_settings_message">Буде здійснено скидання більшості параметрів crdroid до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
     <!-- Personalization Categories -->
@@ -57,59 +54,17 @@
     <string name="custom_color">Власний колір</string>
     <string name="restart_systemui">Перезапустіть SystemUI для застосування змін!</string>
     <string name="default_value">За замовчуванням</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Поточний список змін</string>
-    <string name="changelog_crdroid_summary">Переглянути список змін встановленого ПЗ</string>
-    <string name="changelog_crdroid_error">Не вдається завантажити список змін</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Про crDroid</string>
-    <string name="about_device_name">Пристрій</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Поділитися crDroid</string>
-    <string name="share_crdroid_summary">Нехай інші знають про crDroid</string>
-    <string name="share_message">Перевірте, чи доступний #crDroidAndroid для Вашого пристрою @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Поділитися crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Ми любимо відкритий вихідний код, перевірте нас</string>
-    <string name="crdroid_telegram_title">crDroid спільнота</string>
-    <string name="crdroid_telegram_summary">Ми також є в Telegram. Приєднуйтесь!</string>
-    <string name="crdroid_telegram_channel_title">Канал оновлень</string>
-    <string name="crdroid_telegram_channel_summary">Отримувати сповіщення про нові збірки в Telegram</string>
-    <string name="crdroid_website_title">Офіційний сайт</string>
-    <string name="crdroid_website_summary">Відвідати наш офіційний сайт</string>
-    <string name="crdroid_translate_title">Переклади</string>
-    <string name="crdroid_translate_summary">Допоможіть з локалізацією ROM вашою мовою!</string>
-    <string name="crdroid_sponsor_summary">Завітайте на веб-сайт нашого партнера з хостингу</string>
-    <string name="crdroid_buildserversponsor_summary">Ми рекомендуємо їхнім серверам, якщо вони зацікавлені в</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Підтримати нас</string>
-    <string name="crdroid_donate_preference_summary">Пожертвуйте для підтримки подальшого розвитку</string>
-    <string name="crdroid_donate_title">crDroid потребує вашої допомоги!</string>
-    <string name="crdroid_donate_notification_text">Торкніться, щоб дізнатись більше</string>
-    <string name="crdroid_donate_message">crDroid Android є проектом з відкритим вихідним кодом, який потребує вашої допомоги, щоб зберігати веб-сайт. наші сервери збірки запущені та забезпечують якісні збірки для вашого пристрою.\n\n
-Невелика пожертва допомагає зберегти цей проект живим та поліпшити. Ви можете звільнити це повідомлення, але ваша підтримка багато для нас значить.</string>
-    <string name="crdroid_donate_button">Пожертвувати зараз</string>
-    <string name="crdroid_later_button">Можливо пізніше</string>
-    <string name="crdroid_channel_name">crDroid сповіщення</string>
-    <string name="crdroid_channel_desc">Конкретні сповіщення в проєкті</string>
-    <string name="crdroid_donate_still_needed">Нам все ще потрібно €%,d у цьому місяці. Допоможіть нам досягти поставленої мети.</string>
-    <string name="crdroid_donate_thank_you">Ми цінуємо всі пожертвування за цей місяць. Ви все ще можете внести свій внесок!</string>
-    <string name="crdroid_donate_raised">€%,d піднято</string>
-    <string name="crdroid_donate_total">від €%,d мета</string>
-    <string name="crdroid_donate_loading">Виконується оновлення...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Оновлення</string>
-    <string name="crdroid_update_summary">Перевірка та завантаження останнього оновлення</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значення: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">за замовчуванням</string>
+    <string name="custom_seekbar_default_value_to_set">Значення за замовчуванням: <xliff:g id="v">%s</xliff:g>\nДовге натискання для встановлення</string>
+    <string name="custom_seekbar_default_value_is_set">Значення за замовчуванням встановлено</string>
     <!-- Units -->
     <string name="unit_seconds">секунди</string>
     <string name="unit_milliseconds">мілісекунди</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Скопійовано до буферу обміну</string>
     <string name="longpress_to_clipboard">Довге натискання для копіювання</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Платформа</string>
-    <string name="total_ram">Загалом ОЗП</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Показати історію сповіщень</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

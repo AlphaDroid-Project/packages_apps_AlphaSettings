@@ -15,101 +15,72 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Các thiết lập tùy chỉnh</string>
-    <string name="crdroid_settings_summary">Khám phá tính năng hay nhất</string>
-    <string name="reset_settings_title">Đặt lại cài đặt</string>
-    <string name="reset_settings_message">Tiếp tục đặt lại toàn bộ các thiết lập về giá trị mặc định cho người dùng hiện tại không?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Phím</string>
     <string name="lockscreen_title">Màn hình khóa</string>
     <string name="misc_title">Các tùy chọn khác</string>
+    <string name="misc_title_short">Misc</string>
     <string name="navigation_title">Điều hướng</string>
     <string name="notifications_title">Thông báo</string>
     <string name="quicksettings_title">Cài đặt nhanh</string>
+    <string name="quicksettings_title_short">QS</string>
     <string name="sound_title">Âm thanh</string>
     <string name="statusbar_title">Thanh trạng thái</string>
     <string name="display_title">Hiển thị</string>
     <string name="ui_title">Giao diện người dùng</string>
+    <string name="ui_title_short">UI</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Bộ chọn màu</string>
     <string name="press_color_to_apply">Chạm vào một màu ở phía dưới để áp dụng</string>
     <string name="set">Đặt</string>
     <string name="color_default">Mặc định</string>
     <!-- General strings -->
-    <string name="ok">Đồng ý</string>
-    <string name="reset">Đặt lại</string>
-    <string name="cancel">Hủy</string>
-    <string name="save">Lưu</string>
-    <string name="discard_changes">Hủy các thay đổi</string>
-    <string name="never">Không bao giờ</string>
+    <string name="accent_color">Màu nhấn (mặc định)</string>
+    <string name="add">Thêm vào</string>
+    <string name="advanced">Nâng cao</string>
     <string name="always">Luôn luôn</string>
+    <string name="back">Quay lại</string>
     <string name="caution">Cảnh báo</string>
+    <string name="choose_app">Chọn ứng dụng</string>
+    <string name="custom_color">Tùy chỉnh màu sắc</string>
+    <string name="default_value">Mặc định</string>
     <string name="delete">Xóa</string>
     <string name="delete_message">Xóa mục đã chọn?</string>
-    <string name="choose_app">Chọn ứng dụng</string>
-    <string name="enable">Bật</string>
     <string name="disable">Tắt</string>
-    <string name="accent_color">Màu nhấn (mặc định)</string>
+    <string name="disabled">Đã tắt</string>
+    <string name="discard_changes">Hủy các thay đổi</string>
+    <string name="enable">Bật</string>
+    <string name="enabled">Đã bật</string>
+    <string name="finish">Hoàn tất</string>
+    <string name="loading">Đang tải\u2026</string>
+    <string name="name">Tên</string>
+    <string name="never">Không bao giờ</string>
+    <string name="next">Tiếp theo</string>
+    <string name="no">Không</string>
     <string name="notification_color">Màu của thông báo</string>
-    <string name="wallpaper_color">Màu hình nền</string>
     <string name="rainbow_color">Rainbow color</string>
-    <string name="custom_color">Tùy chỉnh màu sắc</string>
+    <string name="off">Tắt</string>
+    <string name="on">Bật</string>
+    <string name="reset">Đặt lại</string>
     <string name="restart_systemui">Khởi động lại giao diện hệ thống để thay đổi có hiệu lực!</string>
-    <string name="default_value">Mặc định</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Thay đổi hiện tại</string>
-    <string name="changelog_crdroid_summary">Xem những thay đổi của bản ROM được cài đặt</string>
-    <string name="changelog_crdroid_error">Không thể tải nhật ký thay đổi</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Tìm hiểu thêm</string>
-    <string name="about_device_name">Thiết bị</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Chia sẻ crDroid</string>
-    <string name="share_crdroid_summary">Cho những người khác biết về crDroid</string>
-    <string name="share_message">Kiểm tra nếu #crDroidAndroid khả dụng cho thiết bị của bạn @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Chia sẻ crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">Mã nguồn</string>
-    <string name="crdroid_source_summary">Chúng tôi yêu nguồn mở, kiểm tra với chúng tôi</string>
-    <string name="crdroid_telegram_title">Cộng đồng crDroid</string>
-    <string name="crdroid_telegram_summary">Hãy tham gia kênh telegram của chúng tôi !</string>
-    <string name="crdroid_telegram_channel_title">Kênh cập nhật</string>
-    <string name="crdroid_telegram_channel_summary">Nhận thông báo của các bản dựng trên telegram</string>
-    <string name="crdroid_website_title">Trang web chính thức</string>
-    <string name="crdroid_website_summary">Truy cập vào trang mạng chính thức</string>
-    <string name="crdroid_translate_title">Dịch thuật</string>
-    <string name="crdroid_translate_summary">Giúp bản ROM phù hợp với ngôn ngữ của bạn!</string>
-    <string name="crdroid_sponsor_summary">Ghé thăm đối tác lưu trữ trang web của chúng tôi</string>
-    <string name="crdroid_buildserversponsor_summary">Chúng tôi khuyến nghị máy chủ của họ nếu có hứng thú</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Hỗ trợ chúng tôi</string>
-    <string name="crdroid_donate_preference_summary">Đóng góp để hỗ trợ phát triển hơn nữa</string>
-    <string name="crdroid_donate_title">Phát hành cần sự giúp đỡ của người dùng!</string>
-    <string name="crdroid_donate_notification_text">Chạm để tìm hiểu thêm</string>
-    <string name="crdroid_donate_message">Dự án mã nguồn mở cần sự giúp đỡ của người dùng để duy trì hoạt động của trang mạng, máy chủ xây dựng của chúng tôi cung cấp các bản dựng chất lượng cao cho các thiết bị.\n\n
-Đóng góp nhỏ sẽ giúp dự án này tiếp tục phát triển nên ủng hộ này rất có ý nghĩa với chúng tôi.</string>
-    <string name="crdroid_donate_button">Quyên góp ngay</string>
-    <string name="crdroid_later_button">Lúc khác</string>
-    <string name="crdroid_channel_name">Thông báo phát hành</string>
-    <string name="crdroid_channel_desc">Thông báo cụ thể của dự án</string>
-    <string name="crdroid_donate_still_needed">Vẫn cần €%,d trong tháng này hãy giúp chúng tôi đạt được mục tiêu.</string>
-    <string name="crdroid_donate_thank_you">Chúng tôi trân trọng mọi đóng góp trong tháng này. Người dùng có thể đóng góp để tạo nên sự khác biệt!</string>
-    <string name="crdroid_donate_raised">Đã huy động được €%,d</string>
-    <string name="crdroid_donate_total">trên tổng mục tiêu €%,d</string>
-    <string name="crdroid_donate_loading">Đang cập nhật tiến trình...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Cập nhật</string>
-    <string name="crdroid_update_summary">Kiểm tra cập nhật</string>
+    <string name="save">Lưu</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="settings">Cài đặt</string>
+    <string name="wallpaper_color">Màu hình nền</string>
+    <string name="yes">Có</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Cửa hàng ứng dụng</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="custom_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
     <!-- Units -->
     <string name="unit_seconds">giây</string>
     <string name="unit_milliseconds">tích tắc</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Đã sao chép vào bảng tạm</string>
     <string name="longpress_to_clipboard">Nhấn giữ để sao chép</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Nền tảng</string>
-    <string name="total_ram">Bộ nhớ truy cập</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Lịch sử thông báo</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -1162,4 +1133,109 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- ALPHA -->
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Cài đặt Alpha</string>
+    <string name="alpha_settings_summary">Tùy biến chuyên sâu!</string>
+    <string name="reset_settings_title">Đặt lại cài đặt</string>
+    <string name="reset_settings_message">Tiếp tục đặt lại toàn bộ các thiết lập về giá trị mặc định cho người dùng hiện tại không?</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">Kết nối</string>
+    <string name="top_level_system_info_category_title">Hệ thống</string>
+    <string name="top_level_personalize_category_title">Cá nhân hóa</string>
+    <string name="top_level_security_privacy_category_title">Bảo mật</string>
+    <string name="top_level_account_category_title">Tài khoản</string>
+    <string name="top_level_support_category_title">Hỗ trợ</string>
+    <string name="lockscreen_clock_category">Đồng hồ</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">Hệ thống</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Cử chỉ</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Thay đổi hiện tại</string>
+    <string name="changelog_summary">Xem những thay đổi của bản ROM được cài đặt</string>
+    <string name="changelog_error">Không thể tải nhật ký thay đổi</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">About Alpha</string>
+    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_device_name">Thiết bị</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">Chia sẻ AlphaDroid</string>
+    <string name="share_summary">Cho những người khác biết về AlphaDroid</string>
+    <string name="share_message">Kiểm tra nếu #AlphaDroid khả dụng cho thiết bị của bạn @ https://alpha.net/</string>
+    <string name="share_chooser_title">Chia sẻ AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">Chúng tôi yêu nguồn mở, kiểm tra với chúng tôi</string>
+    <string name="telegram_title">Cộng đồng AlphaDroid</string>
+    <string name="telegram_summary">Hãy tham gia kênh telegram của chúng tôi!</string>
+    <string name="telegram_channel_title">Kênh cập nhật</string>
+    <string name="telegram_channel_summary">Nhận thông báo về các bản dựng mới trên Telegram</string>
+    <string name="website_title">Website chính thức</string>
+    <string name="website_summary">Truy cập vào trang web chính thức</string>
+    <string name="translate_title">Các bản dịch</string>
+    <string name="translate_summary">Giúp bản ROM phù hợp với ngôn ngữ của bạn!</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">Hỗ trợ chúng tôi</string>
+    <string name="donate_summary">Đóng góp để hỗ trợ phát triển hơn nữa</string>
+    <string name="donate_team_title">Đội ngũ AlphaDroid</string>
+    <string name="donate_team_summary">Đóng góp để hỗ trợ lưu trữ máy chủ thời gian hoạt động của trang mạng và quản lý tổng thể</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">Cập nhật</string>
+    <string name="alpha_update_summary">Kiểm tra cập nhật</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Đã tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Thiết bị</string>
+    <!-- Build info -->
+    <string name="build_status_title">Trạng thái bản dựng</string>
+    <string name="build_status_summary">Không chính thức</string>
+    <string name="build_status_official">Official</string>
+    <string name="build_status_unofficial">Không chính thức</string>
+    <string name="alpha_build_version">Phiên bản AlphaDroid</string>
+    <string name="alpha_build_date">Ngày dựng</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Người bảo trì</string>
+    <string name="maintainer_summary">Đang tìm kiếm người bảo trì...</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Bộ nhớ</string>
+    <string name="storage_card_info">Đã dùng</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">Tên thiết bị có thể và sẽ được nhìn thấy bởi các thiết bị gần đó.</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Nền tảng</string>
+    <string name="total_ram">Bộ nhớ truy cập</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
+    <string name="quickswitch_launcher_summary">Thay đổi AlphaDroid launcher có sẵn</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">tìm kiếm</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Công cụ hiển thị</string>
+    <string name="display_engine_mode_title">Công cụ hiển thị thực tế</string>
+    <string name="x_reality_engine_mode_title">Công cụ X-Reality</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Hiển thị sống động</string>
+    <string name="display_engine_default">Mặc định</string>
+    <string name="display_engine_mode_footer_text">Lấy cảm hứng từ công cụ Bravia/X-Reality của Sony, Display Engine có chế độ Sống động để tăng cường độ sáng và độ bão hòa màu cũng như chế độ X-Reality để cải thiện chi tiết và độ chính xác của màu.</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Tìm kiếm ứng dụng</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Biểu tượng thông báo</string>
+    <string name="max_visible_notification_icons_summary">Số biểu tượng thông báo hiển thị trên thanh trạng thái</string>
 </resources>

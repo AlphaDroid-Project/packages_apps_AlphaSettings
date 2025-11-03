@@ -48,6 +48,18 @@
             android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
     </lineageos.preference.RemotePreference>
 
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary" />
+
+    <Preference
+        android:key="edge_light_settings"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.doze.EdgeLightSettings"
+        android:dependency="doze_enabled" />
+
     <PreferenceCategory
         android:key="doze_sensor"
         android:title="@string/doze_sensor_title" >

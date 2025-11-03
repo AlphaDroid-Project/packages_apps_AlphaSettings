@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2025 crDroid Android Project
+     Copyright (C) 2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +18,8 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
+    android:title="@string/quicksettings_title">
 
     <PreferenceCategory
          android:title="@string/qs_misc_category">
@@ -111,9 +113,9 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-         android:title="@string/qs_brightness_slider_category">
+        android:title="@string/qs_brightness_slider_category">
 
-        <lineageos.preference.LineageSecureSettingListPreference
+        <lineageos.preference.LineageSystemSettingListPreference
             android:key="qs_show_brightness_slider"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_show_brightness_slider_title"
@@ -129,7 +131,7 @@
             android:entryValues="@array/qs_brightness_slider_shape_values"
             android:defaultValue="0" />
 
-        <lineageos.preference.LineageSecureSettingListPreference
+        <lineageos.preference.LineageSystemSettingListPreference
             android:key="qs_brightness_slider_position"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_brightness_slider_position_title"
@@ -143,7 +145,7 @@
             android:title="@string/qs_brightness_slider_haptic_title"
             android:summary="@string/qs_brightness_slider_haptic_summary" />
 
-        <lineageos.preference.LineageSecureSettingSwitchPreference
+        <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="qs_show_auto_brightness"
             android:icon="@drawable/ic_brightness_auto"
             android:title="@string/qs_show_auto_brightness_title"
@@ -164,7 +166,15 @@
             android:entryValues="@array/qs_tile_shape_values"
             android:defaultValue="0" />
 
-        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <!--<ListPreference
+            android:key="qs_panel_style"
+            android:icon="@drawable/ic_color_bucket"
+            android:title="@string/qs_panel_style_title"
+            android:entries="@array/qs_panel_style_entries"
+            android:entryValues="@array/qs_panel_style_values"
+            android:defaultValue="0" />
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:icon="@drawable/ic_text"
             android:title="@string/qs_tile_label_hide_title"
@@ -235,49 +245,6 @@
             android:icon="@drawable/ic_swap_vertical"
             android:title="@string/qs_footer_datausage_title"
             android:summary="@string/qs_footer_datausage_summary" />
-
-        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_warnings"
-            android:icon="@drawable/ic_key"
-            android:title="@string/qs_footer_warnings_title"
-            android:summary="@string/qs_footer_warnings_summary"
-            android:defaultValue="true"/>
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_show_user"
-            android:icon="@drawable/ic_account"
-            android:title="@string/qs_footer_users_icon_title"
-            android:summary="@string/qs_footer_users_icon_summary"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_show_edit"
-            android:icon="@drawable/ic_pencil"
-            android:title="@string/qs_footer_edit_icon_title"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_show_power_menu"
-            android:icon="@drawable/ic_power"
-            android:title="@string/qs_footer_show_power_menu_title"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_show_services"
-            android:icon="@drawable/ic_services"
-            android:title="@string/qs_footer_services_icon_title" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_show_settings"
-            android:icon="@drawable/ic_settings_main"
-            android:title="@string/qs_footer_settings_icon_title"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="notification_material_dismiss"
-            android:icon="@drawable/ic_notification_clear_all"
-            android:title="@string/notification_material_dismiss_title"
-            android:summary="@string/notification_material_dismiss_summary" />-->
 
     </PreferenceCategory>
 </PreferenceScreen>

@@ -15,100 +15,72 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Nastavení crDroid</string>
-    <string name="crdroid_settings_summary">Odhalte jeho možnosti</string>
-    <string name="reset_settings_title">Obnovit nastavení</string>
-    <string name="reset_settings_message">Tímto obnovíte většinu nastavení crDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="lockscreen_title">Obrazovka uzamčení</string>
     <string name="misc_title">Různé</string>
+    <string name="misc_title_short">Misc</string>
     <string name="navigation_title">Navigace</string>
     <string name="notifications_title">Oznámení</string>
     <string name="quicksettings_title">Rychlá nastavení</string>
+    <string name="quicksettings_title_short">QS</string>
     <string name="sound_title">Zvuk</string>
     <string name="statusbar_title">Stavový řádek</string>
     <string name="display_title">Zobrazení</string>
     <string name="ui_title">Uživatelské rozhraní</string>
+    <string name="ui_title_short">UI</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Výběr barvy</string>
     <string name="press_color_to_apply">Klepněte na barvu, kterou chcete použít</string>
     <string name="set">Nastavit</string>
     <string name="color_default">Výchozí</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Resetovat</string>
-    <string name="cancel">Zrušit</string>
-    <string name="save">Uložit</string>
-    <string name="discard_changes">Zrušit změny</string>
-    <string name="never">Nikdy</string>
+    <string name="accent_color">Doplňková barva (výchozí)</string>
+    <string name="add">Add</string>
+    <string name="advanced">Advanced</string>
     <string name="always">Vždy</string>
+    <string name="back">Back</string>
     <string name="caution">Upozornění</string>
+    <string name="choose_app">Vybrat aplikaci</string>
+    <string name="custom_color">Vlastní barva</string>
+    <string name="default_value">Výchozí</string>
     <string name="delete">Odstranit</string>
     <string name="delete_message">Odstranit vybranou položku?</string>
-    <string name="choose_app">Vybrat aplikaci</string>
-    <string name="enable">Povolit</string>
     <string name="disable">Zakázat</string>
-    <string name="accent_color">Doplňková barva (výchozí)</string>
+    <string name="disabled">Disabled</string>
+    <string name="discard_changes">Zrušit změny</string>
+    <string name="enable">Povolit</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
+    <string name="never">Nikdy</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">Barva oznámení</string>
-    <string name="wallpaper_color">Barva tapety</string>
     <string name="rainbow_color">Duhová barva</string>
-    <string name="custom_color">Vlastní barva</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="reset">Resetovat</string>
     <string name="restart_systemui">Aby se změna projevila, restartujte SystemUI!</string>
-    <string name="default_value">Výchozí</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Aktuální seznam změn</string>
-    <string name="changelog_crdroid_summary">Zobrazit změny v\u00a0nainstalované ROM</string>
-    <string name="changelog_crdroid_error">Nelze načíst seznam změn</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">O crDroidu</string>
-    <string name="about_device_name">Zařízení</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Sdílet crDroid</string>
-    <string name="share_crdroid_summary">Dejte vědět ostatním o\u00a0crDroidu</string>
-    <string name="share_message">Podívejte se, jestli je k dispozici #crDroidAndroid pro vaše zařízení @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Sdílet crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Máme rádi open source. Podívejte se, co děláme</string>
-    <string name="crdroid_telegram_title">Komunita crDroidu</string>
-    <string name="crdroid_telegram_summary">Jsme na Telegramu. Přidejte se k\u00a0nám!</string>
-    <string name="crdroid_telegram_channel_title">Kanál aktualizací</string>
-    <string name="crdroid_telegram_channel_summary">Dostávejte na Telegramu oznámení o\u00a0nových sestaveních</string>
-    <string name="crdroid_website_title">Oficiální web</string>
-    <string name="crdroid_website_summary">Navštivte naše oficiální webové stránky</string>
-    <string name="crdroid_translate_title">Překlady</string>
-    <string name="crdroid_translate_summary">Pomozte nám s\u00a0lokalizací ROM do vašeho jazyka!</string>
-    <string name="crdroid_sponsor_summary">Navštivte hostitele našeho webu</string>
-    <string name="crdroid_buildserversponsor_summary">Doporučujeme jejich servery, pokud o\u00a0ně máte zájem</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Podpořte nás</string>
-    <string name="crdroid_donate_preference_summary">Přispějte a\u00a0podpořte tak další vývoj</string>
-    <string name="crdroid_donate_title">crDroid potřebuje tvou pomoc!</string>
-    <string name="crdroid_donate_notification_text">Klepni sem pro více info</string>
-    <string name="crdroid_donate_message">crDroid Android je open-source projekt, který potřebuje tvou pomoc, aby mohla fungovat naše webová stránka, naše servery pro buildy ROMek a abychom mohli poskytovat vysoce kvalitní sestavení pro tvé zařízení.\n\nI malé přispění pomůže udržovat tento projekt naživu a také zajistí jeho vylepšování. Tuto zprávu můžeš zrušit, ale tvoje podpora pro nás znamená hodně.</string>
-    <string name="crdroid_donate_button">Přispět nyní</string>
-    <string name="crdroid_later_button">Možná později</string>
-    <string name="crdroid_channel_name">Oznámení crDroidu</string>
-    <string name="crdroid_channel_desc">Oznámení týkající se projektu</string>
-    <string name="crdroid_donate_still_needed">Tento měsíc stále potřebujeme získat %,d €. Pomozte nám dosáhnout našeho cíle.</string>
-    <string name="crdroid_donate_thank_you">Jsme rádi za všechny obdržené dary za tento měsíc. Stále můžeš přispět a něco změnit!</string>
-    <string name="crdroid_donate_raised">Vybráno %,d €</string>
-    <string name="crdroid_donate_total">z cíle ve výši %,d €</string>
-    <string name="crdroid_donate_loading">Aktualizuji průběh...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Aktualizace</string>
-    <string name="crdroid_update_summary">Zkontrolovat aktualizaci OTA a\u00a0odkazy pro zařízení</string>
+    <string name="save">Uložit</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="wallpaper_color">Barva tapety</string>
+    <string name="yes">Yes</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Obchod Play</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Hodnota: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">výchozí hodnota</string>
+    <string name="custom_seekbar_default_value_to_set">Výchozí hodnota: <xliff:g id="v">%s</xliff:g>\nDlouze klepněte na šipku pro její nastavení</string>
+    <string name="custom_seekbar_default_value_is_set">Výchozí hodnota je nastavena</string>
     <!-- Units -->
     <string name="unit_seconds">s</string>
     <string name="unit_milliseconds">ms</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Platforma</string>
-    <string name="total_ram">Celkem RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -1168,4 +1140,112 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Automaticky opravit detekci VBMeta</string>
     <string name="vbmeta_attestation_summary">Provést ověření klíče pro generování ověřeného boot hashe při spuštění. Vyžaduje restart systému.</string>
+    <!-- ALPHA -->
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="reset_settings_title">Obnovit nastavení</string>
+    <string name="reset_settings_message">Tímto obnovíte většinu nastavení crDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">Connectivity</string>
+    <string name="top_level_system_info_category_title">System</string>
+    <string name="top_level_personalize_category_title">Personalization</string>
+    <string name="top_level_security_privacy_category_title">Security</string>
+    <string name="top_level_account_category_title">Accounts</string>
+    <string name="top_level_support_category_title">Support</string>
+    <string name="lockscreen_clock_category">Hodiny</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">Gesta</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Current changelog</string>
+    <string name="changelog_summary">View changes in the ROM installed</string>
+    <string name="changelog_error">Unable to load changelog</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">About Alpha</string>
+    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_device_name">Zařízení</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">Share AlphaDroid</string>
+    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_message">Podívejte se, jestli je k dispozici #crDroidAndroid pro vaše zařízení @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Share AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">We love open source, check us out</string>
+    <string name="telegram_title">AlphaDroid community</string>
+    <string name="telegram_summary">We are on telegram. Join us!</string>
+    <string name="telegram_channel_title">Updates channel</string>
+    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
+    <string name="website_title">Official website</string>
+    <string name="website_summary">Visit our official website</string>
+    <string name="translate_title">Translations</string>
+    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">Support us</string>
+    <string name="donate_summary">Donate to support further development</string>
+    <string name="donate_team_title">Tým crDroidu</string>
+    <string name="donate_team_summary">Přispějte na podporu hostingového serveru, provoz a\u00a0celkovou správu webu</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">Updates</string>
+    <string name="alpha_update_summary">Check and download latest update</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Zařízení</string>
+    <!-- Build info -->
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_official">Official</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <string name="alpha_build_version">AlphaDroid version</string>
+    <string name="alpha_build_date">Build date</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Platforma</string>
+    <string name="total_ram">Celkem RAM</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
+    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">search</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Vivid Display</string>
+    <string name="display_engine_default">Výchozí</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Show squiggle animation</string>
+    <string name="show_squiggle_animation_summary">Show media panel squiggle animation\nAfter change need to switch music, pause music or move the progress bar to apply</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
 </resources>

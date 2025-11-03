@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crDroidin asetukset</string>
-    <string name="crdroid_settings_summary">Avaa hyvyys</string>
     <string name="reset_settings_title">Nollaa asetukset</string>
     <string name="reset_settings_message">Tämä palauttaa nykyiselle käyttäjälle useimmat crDroid-asetukset niiden oletusarvoille. Haluatko jatkaa?</string>
     <!-- Personalization Categories -->
@@ -57,59 +54,17 @@
     <string name="custom_color">Mukautettu väri</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <string name="default_value">Oletus</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Nykyinen muutosloki</string>
-    <string name="changelog_crdroid_summary">Näytä muutokset asennetussa ROMissa</string>
-    <string name="changelog_crdroid_error">Muutoslokin lataaminen epäonnistui</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Tietoja crDroidista</string>
-    <string name="about_device_name">Laite</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Jaa crDroid</string>
-    <string name="share_crdroid_summary">Anna muiden tietää crDroidista</string>
-    <string name="share_message">Tarkista, onko #crDroidAndroid saatavilla laitteellesi @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Jaa crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Rakastamme avointa lähdekoodia, tutustu meihin</string>
-    <string name="crdroid_telegram_title">crDroid-yhteisö</string>
-    <string name="crdroid_telegram_summary">Olemme telegramissa. Liity meihin!</string>
-    <string name="crdroid_telegram_channel_title">Päivitykset-kanava</string>
-    <string name="crdroid_telegram_channel_summary">Saa ilmoitukset uusista päivityksistä Telegramissa</string>
-    <string name="crdroid_website_title">Virallinen verkkosivu</string>
-    <string name="crdroid_website_summary">Vieraile virallisella verkkosivuillamme</string>
-    <string name="crdroid_translate_title">Käännökset</string>
-    <string name="crdroid_translate_summary">Auta kääntämään ROM omalle kielellesi!</string>
-    <string name="crdroid_sponsor_summary">Vieraile sivustomme isäntäkumppanin luona</string>
-    <string name="crdroid_buildserversponsor_summary">Suosittelemme heidän palvelimiaan, jos olet kiinnostunut sellaisista</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Tue meitä</string>
-    <string name="crdroid_donate_preference_summary">Tue jatkokehitystä lahjoittamalla</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Päivitykset</string>
-    <string name="crdroid_update_summary">Tarkista ja lataa uusin päivitys</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Arvo: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">oletuksena</string>
+    <string name="custom_seekbar_default_value_to_set">Oletusarvo: <xliff:g id="v">%s</xliff:g>\nAseta napauttamalla pitkään</string>
+    <string name="custom_seekbar_default_value_is_set">Oletusarvo on asetettu</string>
     <!-- Units -->
     <string name="unit_seconds">sekuntia</string>
     <string name="unit_milliseconds">millisekuntia</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Kopioitu leikepöydälle</string>
     <string name="longpress_to_clipboard">Paina pitkään kopioidaksesi</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Alusta</string>
-    <string name="total_ram">RAM-muisti</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Näytä ilmoitushistorian loki</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

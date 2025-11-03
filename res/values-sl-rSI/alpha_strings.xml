@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid nastavitve</string>
-    <string name="crdroid_settings_summary">Odprte dobrote</string>
     <string name="reset_settings_title">Ponastavi nastavitve</string>
     <string name="reset_settings_message">To bo ponastavilo večino nastavitev na njihove privzete vrednosti za trenutnega uporabnika. Ali želite nadaljevati?</string>
     <!-- Personalization Categories -->
@@ -57,59 +54,17 @@
     <string name="custom_color">Barva po meri</string>
     <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <string name="default_value">Privzeta</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Trenutni dnevnik sprememb</string>
-    <string name="changelog_crdroid_summary">Pokaži spremembe v nameščenem ROM-u</string>
-    <string name="changelog_crdroid_error">Dnevnika sprememb ni mogoče naložiti</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">O crDroid-u</string>
-    <string name="about_device_name">Naprava</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Deli crDroid</string>
-    <string name="share_crdroid_summary">Dajte drugim vedeti o crDroid-u</string>
-    <string name="share_message">Preverite, če je #crDroidAndroid na voljo za vašo napravo na https://crdroid.net/</string>
-    <string name="share_chooser_title">Deli crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Radi imamo odprto kodo, preverite nas</string>
-    <string name="crdroid_telegram_title">crDroid skupnost</string>
-    <string name="crdroid_telegram_summary">Smo na telegramu. Pridružite se nam!</string>
-    <string name="crdroid_telegram_channel_title">Kanal s posodobitvami</string>
-    <string name="crdroid_telegram_channel_summary">Bodite obveščeni o novih izgradnjah na Telegramu</string>
-    <string name="crdroid_website_title">Uradna spletna stran</string>
-    <string name="crdroid_website_summary">Obiščite našo uradno spletno stran</string>
-    <string name="crdroid_translate_title">Prevodi</string>
-    <string name="crdroid_translate_summary">Pomagajte s prevajanjem ROM-a v vaš jezik!</string>
-    <string name="crdroid_sponsor_summary">Obiščite gostitelja naše spletne strani</string>
-    <string name="crdroid_buildserversponsor_summary">Priporočamo njihove strežnike, v kolikor se zanimate zanje</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Podprite nas</string>
-    <string name="crdroid_donate_preference_summary">Prispevajte, da podprete nadaljnji razvoj</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Posodobitve</string>
-    <string name="crdroid_update_summary">Preverite in prenesite zadnjo posodobitev</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Vrednost: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">privzeto</string>
+    <string name="custom_seekbar_default_value_to_set">Privzeta vrednost: <xliff:g id="v">%s</xliff:g>\nTapnite in pridžite, da nastavite</string>
+    <string name="custom_seekbar_default_value_is_set">Privzeta vrednost je nastavljena</string>
     <!-- Units -->
     <string name="unit_seconds">sekund</string>
     <string name="unit_milliseconds">milisekund</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Kopirano v odložišče</string>
     <string name="longpress_to_clipboard">Pridrži za kopiranje</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Platforma</string>
-    <string name="total_ram">Skupno pomnilnika</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Prikaži dnevnik zgodovine obvestil</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

@@ -15,101 +15,72 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid 设置</string>
-    <string name="crdroid_settings_summary">个性化设置</string>
-    <string name="reset_settings_title">重置设置</string>
-    <string name="reset_settings_message">这将会重置当前用户大部分的 crDroid 设置为默认值。您要继续吗？</string>
     <!-- Personalization Categories -->
     <string name="button_title">按键</string>
     <string name="lockscreen_title">锁屏界面</string>
     <string name="misc_title">其它</string>
+    <string name="misc_title_short">其他​​</string>
     <string name="navigation_title">导航栏</string>
     <string name="notifications_title">通知栏</string>
     <string name="quicksettings_title">快速设置</string>
+    <string name="quicksettings_title_short">快速设置</string>
     <string name="sound_title">声音</string>
     <string name="statusbar_title">状态栏</string>
     <string name="display_title">显示</string>
     <string name="ui_title">用户界面</string>
+    <string name="ui_title_short">界面</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">取色器</string>
     <string name="press_color_to_apply">点击以使用下列颜色</string>
     <string name="set">设置</string>
     <string name="color_default">默认</string>
     <!-- General strings -->
-    <string name="ok">确定</string>
-    <string name="reset">重置</string>
-    <string name="cancel">取消</string>
-    <string name="save">保存</string>
-    <string name="discard_changes">放弃修改</string>
-    <string name="never">从不</string>
+    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="add">添加</string>
+    <string name="advanced">高级选项</string>
     <string name="always">始终</string>
+    <string name="back">返回</string>
     <string name="caution">警告</string>
+    <string name="choose_app">选择应用</string>
+    <string name="custom_color">自定义颜色</string>
+    <string name="default_value">默认</string>
     <string name="delete">删除</string>
     <string name="delete_message">移除所选项目？</string>
-    <string name="choose_app">选择应用</string>
-    <string name="enable">启用</string>
     <string name="disable">禁用</string>
-    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="disabled">禁用</string>
+    <string name="discard_changes">放弃修改</string>
+    <string name="enable">启用</string>
+    <string name="enabled">启用</string>
+    <string name="finish">完成</string>
+    <string name="loading">加载</string>
+    <string name="name">名称</string>
+    <string name="never">从不</string>
+    <string name="next">下一个</string>
+    <string name="no">不</string>
     <string name="notification_color">通知颜色</string>
-    <string name="wallpaper_color">壁纸颜色</string>
     <string name="rainbow_color">彩虹色</string>
-    <string name="custom_color">自定义颜色</string>
+    <string name="off">关</string>
+    <string name="on">开</string>
+    <string name="reset">重置</string>
     <string name="restart_systemui">重启系统界面以使更改生效！</string>
-    <string name="default_value">默认</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">更新日志</string>
-    <string name="changelog_crdroid_summary">查看已安装 ROM 中的变化</string>
-    <string name="changelog_crdroid_error">无法加载更新日志</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">关于 crDroid</string>
-    <string name="about_device_name">设备</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">分享 crDroid</string>
-    <string name="share_crdroid_summary">让更多人了解 crDroid</string>
-    <string name="share_message">查看 #crDroid Android 的全部内容 @ https://crdroid.net/</string>
-    <string name="share_chooser_title">分享 crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">我们热爱开源，来看看我们的代码吧。</string>
-    <string name="crdroid_telegram_title">crDroid 社区</string>
-    <string name="crdroid_telegram_summary">我们有 TG 群。加入我们！</string>
-    <string name="crdroid_telegram_channel_title">更新频道</string>
-    <string name="crdroid_telegram_channel_summary">在 Telegram 上获取更新通知</string>
-    <string name="crdroid_website_title">官方网站</string>
-    <string name="crdroid_website_summary">访问我们的官方网站</string>
-    <string name="crdroid_translate_title">翻译</string>
-    <string name="crdroid_translate_summary">帮助用您的语言本地化 ROM！</string>
-    <string name="crdroid_sponsor_summary">访问我们的网站托管合作伙伴</string>
-    <string name="crdroid_buildserversponsor_summary">我们十分推荐这些服务器提供商</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">支持我们</string>
-    <string name="crdroid_donate_preference_summary">捐赠以支持开发</string>
-    <string name="crdroid_donate_title">crDroid 需要您的帮助！</string>
-    <string name="crdroid_donate_notification_text">点击了解更多</string>
-    <string name="crdroid_donate_message">crDroid Android 是一个开源项目，需要您的帮助才能保持网站上线。 我们的构建服务器运行，并为您的设备提供高质量的构建。\n\n
-小额捐款有助于保持这个项目的活力和改进。 您可以忽略此消息，但您的支持对我们有很大的意义。</string>
-    <string name="crdroid_donate_button">立即捐助</string>
-    <string name="crdroid_later_button">以后再说</string>
-    <string name="crdroid_channel_name">crDroid 通知</string>
-    <string name="crdroid_channel_desc">项目特定通知</string>
-    <string name="crdroid_donate_still_needed">我们本月仍然需要%d。帮助我们实现我们的目标。</string>
-    <string name="crdroid_donate_thank_you">我们感谢本月份的所有捐款。你仍然可以作出贡献并有所作为！</string>
-    <string name="crdroid_donate_raised">已筹得%,d</string>
-    <string name="crdroid_donate_total">为 %,d 目标</string>
-    <string name="crdroid_donate_loading">正在更新进度…</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">更新</string>
-    <string name="crdroid_update_summary">检查并下载最新更新</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="wallpaper_color">壁纸颜色</string>
+    <string name="yes">是</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Play 商店</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">值：<xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值：<xliff:g id="v">%s</xliff:g>\n长按以设置</string>
+    <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
     <!-- Units -->
     <string name="unit_seconds">秒</string>
     <string name="unit_milliseconds">毫秒</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="longpress_to_clipboard">长按复制</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">平台</string>
-    <string name="total_ram">总内存</string>
     <!-- Notification log -->
     <string name="notification_log_summary">显示通知历史记录日志</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -1162,4 +1133,109 @@
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- ALPHA -->
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Alpha 设置</string>
+    <string name="alpha_settings_summary">将会有好东西！</string>
+    <string name="reset_settings_title">重置设置</string>
+    <string name="reset_settings_message">这将会重置当前用户大部分的 AlphaDroid 设置为默认值。您要继续吗？</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">连接性</string>
+    <string name="top_level_system_info_category_title">系统</string>
+    <string name="top_level_personalize_category_title">个性化</string>
+    <string name="top_level_security_privacy_category_title">安全</string>
+    <string name="top_level_account_category_title">账号</string>
+    <string name="top_level_support_category_title">帮助</string>
+    <string name="lockscreen_clock_category">时钟</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">系统</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">手势</string>
+    <!-- Changelog -->
+    <string name="changelog_title">当前更改记录</string>
+    <string name="changelog_summary">查看安装的 ROM 更新记录</string>
+    <string name="changelog_error">无法加载更新记录</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">关于 Alpha</string>
+    <string name="about_alpha_dual_line">关于\nAlphaDroid</string>
+    <string name="about_device_name">设备</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">分享 AlphaDroid</string>
+    <string name="share_summary">让其他人了解 AlphaDroid</string>
+    <string name="share_message">查看 #AlphaDroid Android 的全部内容 @ https://alpha.net/</string>
+    <string name="share_chooser_title">分享 AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">Github</string>
+    <string name="source_summary">我们热爱开源，来看一看</string>
+    <string name="telegram_title">AlphaDroid 社区</string>
+    <string name="telegram_summary">我们也有 Telegram 频道，加入我们</string>
+    <string name="telegram_channel_title">更新频道</string>
+    <string name="telegram_channel_summary">在 Telegram 上获取新版本更新通知</string>
+    <string name="website_title">官方网站</string>
+    <string name="website_summary">查看我们的官网</string>
+    <string name="translate_title">翻译</string>
+    <string name="translate_summary">帮助我们将 ROM 翻译成你的语言</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">支持我们</string>
+    <string name="donate_summary">为了持续开发捐助我们</string>
+    <string name="donate_team_title">AlphaDroid 团队</string>
+    <string name="donate_team_summary">捐赠支持服务器托管，网站正常运行时间和整体管理</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">更新</string>
+    <string name="alpha_update_summary">检查并下载最新更新</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">禁用</string>
+    <string name="selinux_status_permissive">允许</string>
+    <string name="selinux_status_enforcing">强制</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">设备</string>
+    <!-- Build info -->
+    <string name="build_status_title">构建状态</string>
+    <string name="build_status_summary">非官方版</string>
+    <string name="build_status_official">官方</string>
+    <string name="build_status_unofficial">非官方版</string>
+    <string name="alpha_build_version">AlphaDroid 版本</string>
+    <string name="alpha_build_date">构建日期</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">维护者</string>
+    <string name="maintainer_summary">正在搜索维护者...</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">存储</string>
+    <string name="storage_card_info">占用</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">设备名称为被周围设备所见</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">总内存</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">AlphaDroid 桌面</string>
+    <string name="quickswitch_launcher_summary">更改 AlphaDroid 内置桌面</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus 桌面</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">搜索</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">现实显示</string>
+    <string name="x_reality_engine_mode_title">X-Reality 显示引擎</string>
+    <string name="triluminous_display_mode_title">特丽魅彩显示技术</string>
+    <string name="vivid_engine_mode_title">生动显示</string>
+    <string name="display_engine_default">默认</string>
+    <string name="display_engine_mode_footer_text">受到索尼的 Bravia/X-Reality 引擎启发，显示引擎提供生动模式以增强亮度和色彩饱和度和提高细节和色彩精度的 X-Reality 模式。</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">通知图标</string>
+    <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
 </resources>

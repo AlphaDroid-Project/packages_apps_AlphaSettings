@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">تنظیمات crDroid</string>
-    <string name="crdroid_settings_summary">باز کردن تنظیمات ویژه</string>
     <string name="reset_settings_title">بازنشانی تنظیمات</string>
     <string name="reset_settings_message">با این کار بیشتر تنظیمات crdroid برای کاربر فعلی به مقادیر پیشفرض بازنشانی میشود،دوست دارید ادامه دهید؟</string>
     <!-- Personalization Categories -->
@@ -53,63 +50,20 @@
     <string name="accent_color">رنگ تاکیدی (پیش‌فرض)</string>
     <string name="notification_color">رنگ اعلان ها</string>
     <string name="wallpaper_color">رنگ کاغذ دیواری</string>
-    <string name="rainbow_color">رنگ رنگین‌کمان</string>
     <string name="custom_color">رنگ سفارشی</string>
     <string name="restart_systemui">برای اعمال تغییرات، SystemUI را مجددا راه‌اندازی کنید!</string>
     <string name="default_value">پیش‌فرض</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">تغییرات فعلی</string>
-    <string name="changelog_crdroid_summary">دیدن تغییرات ایجاد شده در این ورژن</string>
-    <string name="changelog_crdroid_error">قادر به بارگذاری لیست تغییرات نیست</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">درباره ی crDroid</string>
-    <string name="about_device_name">دستگاه</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">اشتراک گذاری crDroid</string>
-    <string name="share_crdroid_summary">به دیگران crDroid را معرفی کنید</string>
-    <string name="share_message">ببین آیا #crDroidAndroid برای دستگاه شما در دسترس هس @ https://crdroid.net/</string>
-    <string name="share_chooser_title">اشتراک گذاری crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">گیت‌هاب</string>
-    <string name="crdroid_source_summary">ما عاشق open source هستیم، ببینید</string>
-    <string name="crdroid_telegram_title">جامعه crDroid</string>
-    <string name="crdroid_telegram_summary">ما در تلگرام هستیم. به ما بپیوند!</string>
-    <string name="crdroid_telegram_channel_title">کانال به‌روزرسانی‌ها</string>
-    <string name="crdroid_telegram_channel_summary">در تلگرام از بروزرسانی ها مطلع شوید</string>
-    <string name="crdroid_website_title">تارنمای رسمی</string>
-    <string name="crdroid_website_summary">سایت رسمی ما را دیدن کنید</string>
-    <string name="crdroid_translate_title">ترجمه‌ها</string>
-    <string name="crdroid_translate_summary">به ترجمه crDroid به زبان خودتان کمک کنید!</string>
-    <string name="crdroid_sponsor_summary">از سایت همکار میزبان ما دیدن کنید</string>
-    <string name="crdroid_buildserversponsor_summary">ما سرورهای آنها را در صورت علاقه به یکی توصیه می کنیم</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">از ما حمایت کنید</string>
-    <string name="crdroid_donate_preference_summary">برای حمایت کردن از توسعه بیشتر کمک مالی کنید</string>
-    <string name="crdroid_donate_title">crDroid به کمک شما نیاز دارد!</string>
-    <string name="crdroid_donate_notification_text">برای اطلاعات بیشتر کلیک کنید</string>
-    <string name="crdroid_donate_message">crDroid Android یک پروژه متن‌باز است که برای آنلاین نگه داشتن وب‌سایت، فعال نگه داشتن سرورهای ساخت ما و ارائه نسخه‌های با کیفیت بالا برای دستگاه شما به کمک شما نیاز دارد.\n\n
-کمک مالی کوچک به زنده نگه داشتن و بهبود این پروژه کمک می‌کند. می‌توانید این پیام را نادیده بگیرید، اما حمایت شما برای ما بسیار ارزشمند است.</string>
-    <string name="crdroid_donate_button">اکنون کمک کنید</string>
-    <string name="crdroid_later_button">شاید بعداً</string>
-    <string name="crdroid_channel_name">اعلان‌های crDroid</string>
-    <string name="crdroid_channel_desc">اطلاعیه‌های ویژه پروژه</string>
-    <string name="crdroid_donate_still_needed">ما هنوز برای این ماه به €% نیاز داریم. به ما کمک کنید تا به هدفمان برسیم.</string>
-    <string name="crdroid_donate_thank_you">ما از تمام کمک‌های مالی شما در این ماه قدردانی می‌کنیم. شما هنوز هم می‌توانید کمک کنید و تغییری ایجاد کنید!</string>
-    <string name="crdroid_donate_raised">€%،d افزایش یافت</string>
-    <string name="crdroid_donate_total">از €%،d هدف</string>
-    <string name="crdroid_donate_loading">در حال به‌روزرسانی پیشرفت...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">بروزرسانی ها و آپدیت ها</string>
-    <string name="crdroid_update_summary">آخرین آپدیت را بررسی و دانلود کنید</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">ارزش: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">به طور پیش فرض</string>
+    <string name="custom_seekbar_default_value_to_set">ارزش پیش‌فرض: <xliff:g id="v">%s</xliff:g>\n برای تنظیم نگه دارید</string>
+    <string name="custom_seekbar_default_value_is_set">مقدار پیش‌فرض تعیین شده است</string>
     <!-- Units -->
     <string name="unit_seconds">ثانیه</string>
     <string name="unit_milliseconds">میلی‌ثانیه</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">در کلیپ‌بورد کپی شد</string>
     <string name="longpress_to_clipboard">برای کپی کردن لمس طولانی کنید</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">پلتفرم</string>
-    <string name="total_ram">کل رم</string>
     <!-- Notification log -->
     <string name="notification_log_summary">نمایش گزارش تاریخچه ی اعلان ها</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->

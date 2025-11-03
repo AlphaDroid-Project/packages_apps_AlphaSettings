@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2025 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +18,8 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
+    android:title="@string/statusbar_title">
 
     <!-- Status bar icons customizations -->
     <PreferenceCategory
@@ -68,12 +70,12 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true"/>
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:icon="@drawable/ic_fourg"
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
-            android:defaultValue="false"/>
+            android:defaultValue="false"/>-->
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="bluetooth_show_battery"
@@ -123,36 +125,6 @@
 	        android:title="@string/statusbar_notif_count_title"
 	        android:summary="@string/statusbar_notif_count_summary"
 	        android:defaultValue="false" />
-    </PreferenceCategory>
-
-    <!-- Custom logo -->
-    <PreferenceCategory
-        android:title="@string/status_bar_logo_title" >
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="status_bar_logo"
-            android:icon="@drawable/ic_tag"
-            android:title="@string/status_bar_logo_title"
-            android:summary="@string/status_bar_logo_summary" />
-
-         <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="status_bar_logo_position"
-            android:icon="@drawable/ic_tag"
-            android:title="@string/status_bar_logo_position_title"
-            android:entries="@array/status_bar_logo_position_entries"
-            android:entryValues="@array/status_bar_logo_position_values"
-            android:defaultValue="0"
-            android:dependency="status_bar_logo" />
-
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="status_bar_logo_style"
-            android:icon="@drawable/ic_tag"
-            android:title="@string/status_bar_logo_style_title"
-            android:entries="@array/status_bar_logo_style_entries"
-            android:entryValues="@array/status_bar_logo_style_values"
-            android:defaultValue="0"
-            android:dependency="status_bar_logo" />
-
     </PreferenceCategory>
 
     <!-- Status bar battery customizations -->
@@ -216,14 +188,6 @@
             android:entryValues="@array/status_bar_quick_qs_pulldown_values"
             android:defaultValue="0" />
 
-        <!--<com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="qs_smart_pulldown"
-            android:icon="@drawable/ic_arrow_down"
-            android:title="@string/smart_pulldown_title"
-            android:entries="@array/smart_pulldown_entries"
-            android:entryValues="@array/smart_pulldown_values"
-            android:defaultValue="0" />-->
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -260,5 +224,4 @@
             settings:min="-30" />
 
     </PreferenceCategory>
-
 </PreferenceScreen>

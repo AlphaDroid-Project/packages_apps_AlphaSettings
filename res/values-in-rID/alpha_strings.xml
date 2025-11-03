@@ -15,101 +15,72 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="crdroid_settings_title">Setelan crDroid</string>
-    <string name="crdroid_settings_summary">Kebaikan terbuka</string>
-    <string name="reset_settings_title">Setel ulang pengaturan</string>
-    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan crdroid ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tombol</string>
     <string name="lockscreen_title">Layar Kunci</string>
     <string name="misc_title">Lain-lain</string>
+    <string name="misc_title_short">Lainnya</string>
     <string name="navigation_title">Navigasi</string>
     <string name="notifications_title">Notifikasi</string>
     <string name="quicksettings_title">Setelan Cepat</string>
+    <string name="quicksettings_title_short">Setelan Cepat</string>
     <string name="sound_title">Suara</string>
     <string name="statusbar_title">Bilah Status</string>
     <string name="display_title">Tampilan</string>
     <string name="ui_title">Antarmuka Pengguna</string>
+    <string name="ui_title_short">Antarmuka</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Pilihan Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
     <string name="set">Atur</string>
     <string name="color_default">Bawaan</string>
     <!-- General strings -->
-    <string name="ok">Oke</string>
-    <string name="reset">Setel ulang</string>
-    <string name="cancel">Batal</string>
-    <string name="save">Simpan</string>
-    <string name="discard_changes">Batalkan perubahan</string>
-    <string name="never">Tidak pernah</string>
+    <string name="accent_color">Warna aksen (Bawaan)</string>
+    <string name="add">Tambahkan</string>
+    <string name="advanced">Lanjutan</string>
     <string name="always">Selalu</string>
+    <string name="back">Kembali</string>
     <string name="caution">Peringatan</string>
+    <string name="choose_app">Pilih aplikasi</string>
+    <string name="custom_color">Warna kustom</string>
+    <string name="default_value">Bawaan</string>
     <string name="delete">Hapus</string>
     <string name="delete_message">Hapus item yang dipilih?</string>
-    <string name="choose_app">Pilih aplikasi</string>
-    <string name="enable">Aktifkan</string>
     <string name="disable">Nonaktifkan</string>
-    <string name="accent_color">Warna aksen (Bawaan)</string>
+    <string name="disabled">Dinonaktifkan</string>
+    <string name="discard_changes">Batalkan perubahan</string>
+    <string name="enable">Aktifkan</string>
+    <string name="enabled">Diaktifkan</string>
+    <string name="finish">Selesai</string>
+    <string name="loading">Memuat\u2026</string>
+    <string name="name">Nama</string>
+    <string name="never">Tidak pernah</string>
+    <string name="next">Selanjutnya</string>
+    <string name="no">Tidak</string>
     <string name="notification_color">Warna notifikasi</string>
-    <string name="wallpaper_color">Warna wallpaper</string>
     <string name="rainbow_color">Rainbow color</string>
-    <string name="custom_color">Warna kustom</string>
+    <string name="off">Nonaktif</string>
+    <string name="on">Aktif</string>
+    <string name="reset">Setel ulang</string>
     <string name="restart_systemui">Mulai ulang SystemUI agar perubahan diterapkan!</string>
-    <string name="default_value">Bawaan</string>
-    <!-- Changelog -->
-    <string name="changelog_crdroid_title">Perubahan saat ini</string>
-    <string name="changelog_crdroid_summary">Lihat perubahan pada ROM terpasang</string>
-    <string name="changelog_crdroid_error">Tidak dapat memuat daftar perubahan</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Tentang crDroid</string>
-    <string name="about_device_name">Perangkat</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Bagikan crDroid</string>
-    <string name="share_crdroid_summary">Biarkan orang lain tahu tentang crDroid</string>
-    <string name="share_message">Periksa apakah #crDroidAndroid tersedia untuk perangkat Anda @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Bagikan crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Kami cinta open source, periksa kami</string>
-    <string name="crdroid_telegram_title">Komunitas crDroid</string>
-    <string name="crdroid_telegram_summary">Kami ada di Telegram. Ayo bergabung!</string>
-    <string name="crdroid_telegram_channel_title">Saluran Pembaruan</string>
-    <string name="crdroid_telegram_channel_summary">Dapatkan notifikasi tentang pembaruan baru dari Telegram</string>
-    <string name="crdroid_website_title">Situs Web Resmi</string>
-    <string name="crdroid_website_summary">Kunjungi situs resmi</string>
-    <string name="crdroid_translate_title">Terjemahan</string>
-    <string name="crdroid_translate_summary">Bantu kami menerjemahkan ROM ini ke bahasa Anda!</string>
-    <string name="crdroid_sponsor_summary">Kunjungi mitra host situs web kami</string>
-    <string name="crdroid_buildserversponsor_summary">Kami merekomendasikan server mereka jika anda tertarik</string>
-    <!-- Support crDroid -->
-    <string name="crdroid_donate_preference_title">Dukung Kami</string>
-    <string name="crdroid_donate_preference_summary">Donasi untuk mendukung pengembangan lebih lanjut</string>
-    <string name="crdroid_donate_title">crDroid needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">crDroid Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
-    <string name="crdroid_later_button">Maybe later</string>
-    <string name="crdroid_channel_name">crDroid notifications</string>
-    <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">Pembaruan</string>
-    <string name="crdroid_update_summary">Periksa dan unduh pembaruan terbaru</string>
+    <string name="save">Simpan</string>
+    <string name="search">Pencarian</string>
+    <string name="settings">Setelan</string>
+    <string name="wallpaper_color">Warna wallpaper</string>
+    <string name="yes">Ya</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google play</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">secara default</string>
+    <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk menerapkan</string>
+    <string name="custom_seekbar_default_value_is_set">Nilai bawaan telah diterapkan</string>
     <!-- Units -->
     <string name="unit_seconds">detik</string>
     <string name="unit_milliseconds">milidetik</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Disalin ke papan klip</string>
     <string name="longpress_to_clipboard">Tekan lama untuk menyalin</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Tampilkan log riwayat notifikasi</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -1160,4 +1131,109 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- ALPHA -->
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Pengaturan Alpha</string>
+    <string name="alpha_settings_summary">Akan banyak kejutan!</string>
+    <string name="reset_settings_title">Setel ulang pengaturan</string>
+    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">Konektivitas</string>
+    <string name="top_level_system_info_category_title">Sistem</string>
+    <string name="top_level_personalize_category_title">Personalisasi</string>
+    <string name="top_level_security_privacy_category_title">Keamanan</string>
+    <string name="top_level_account_category_title">Akun</string>
+    <string name="top_level_support_category_title">Dukungan</string>
+    <string name="lockscreen_clock_category">Jam</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Memalsukan</string>
+    <string name="misc_system_category">Sistem</string>
+    <string name="misc_animations_category">Animasi</string>
+    <string name="misc_gestures_category">Gestur</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Perubahan saat ini</string>
+    <string name="changelog_summary">Lihat perubahan pada ROM ini</string>
+    <string name="changelog_error">Gagal memuat daftar perubahan</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">Tentang AlphaDroid</string>
+    <string name="about_alpha_dual_line">Tentang\nAlphaDroid</string>
+    <string name="about_device_name">Perangkat</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">Bagikan AlphaDroid</string>
+    <string name="share_summary">Beritahu orang lain tentang AlphaDroid</string>
+    <string name="share_message">Periksa apakah #AlphaDroid tersedia untuk perangkat Anda @ https://alpha.net/</string>
+    <string name="share_chooser_title">Bagikan AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">Kami suka dengan open source, kunjungi kami</string>
+    <string name="telegram_title">Komunitas AlphaDroid</string>
+    <string name="telegram_summary">Kami ada di Telegram. Ayo bergabung!</string>
+    <string name="telegram_channel_title">Saluran Pembaruan</string>
+    <string name="telegram_channel_summary">Dapatkan notifikasi tentang pembaruan baru dari Telegram</string>
+    <string name="website_title">Situs Web Resmi</string>
+    <string name="website_summary">Kunjungi situs resmi kami</string>
+    <string name="translate_title">Terjemahan</string>
+    <string name="translate_summary">Bantu kami menerjemahkan ROM ini ke bahasa Anda!</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">Dukung Kami</string>
+    <string name="donate_summary">Ayo donasi untuk mendukung kami</string>
+    <string name="donate_team_title">Tim AlphaDroid</string>
+    <string name="donate_team_summary">Donasi untuk mendukung server hosting, keaktifan situs serta pemanajemenan secara keseluruhan</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">Pembaruan</string>
+    <string name="alpha_update_summary">Periksa dan unduh pembaruan terbaru</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">Status SElinux</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Lawnchair</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">Perangkat</string>
+    <!-- Build info -->
+    <string name="build_status_title">Status Build</string>
+    <string name="build_status_summary">Tidak Resmi</string>
+    <string name="build_status_official">Resmi</string>
+    <string name="build_status_unofficial">Tidak Resmi</string>
+    <string name="alpha_build_version">Versi AlphaDroid</string>
+    <string name="alpha_build_date">Tanggal pembuatan</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">Pengelola</string>
+    <string name="maintainer_summary">Mencari pengelola..</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Ruang penyimpanan</string>
+    <string name="storage_card_info">Terpakai</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">Nama perangkat akan bisa terlihat oleh perangkat di sekitar.</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total Memori</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">Launcher AlphaDroid</string>
+    <string name="quickswitch_launcher_summary">Ubah peluncur bawaan AlphaDroid</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">Cari</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Mesin tampilan</string>
+    <string name="display_engine_mode_title">Mesin Tampilan Realitas</string>
+    <string name="x_reality_engine_mode_title">Mesin X-Realita</string>
+    <string name="triluminous_display_mode_title">Tampilan Triluminous</string>
+    <string name="vivid_engine_mode_title">Tampilan Jelas</string>
+    <string name="display_engine_default">Bawaan</string>
+    <string name="display_engine_mode_footer_text">Terinspirasi oleh mesin Bravia/X-Reality milik Sony, Display Engine menampilkan mode Vivid untuk peningkatan kecerahan dan saturasi warna, dan mode X-Reality untuk peningkatan detail dan akurasi warna.</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Abaikan tanda jendela aman</string>
+    <string name="ignore_window_secure_summary">Hapus batasan keamanan tangkapan layar dan rekaman layar. Hal ini mungkin praktis dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi.</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Sembunyikan status developer</string>
+    <string name="hide_developer_status_summary">Sembunyikan status developer dari aplikasi</string>
+    <string name="search_apps">Cari aplikasi</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">Ikon notifikasi</string>
+    <string name="max_visible_notification_icons_summary">Maksimal ikon notifikasi terlihat di bilah status</string>
 </resources>
