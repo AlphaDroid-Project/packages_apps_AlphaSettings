@@ -38,6 +38,7 @@ import com.android.settingslib.search.SearchIndexable;
 import com.alpha.settings.fragments.quicksettings.LayoutSettings;
 import com.alpha.settings.fragments.quicksettings.QsHeaderImageSettings;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
+import com.alpha.settings.utils.DeviceUtils;
 
 import android.provider.Settings;
 
@@ -54,11 +55,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_BRIGHTNESS_SLIDER_POSITION = "qs_brightness_slider_position";
     private static final String KEY_BRIGHTNESS_SLIDER_HAPTIC = "qs_brightness_slider_haptic";
     private static final String KEY_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
+    private static final String KEY_QS_TILE_HAPTIC = "qs_tile_haptic";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
     private SwitchPreferenceCompat mBrightnessSliderHaptic;
     private SwitchPreferenceCompat mShowAutoBrightness;
+    private SwitchPreferenceCompat mQsTileHaptic;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,7 +82,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mBrightnessSliderPosition.setEnabled(showSlider);
 
         mBrightnessSliderHaptic = findPreference(KEY_BRIGHTNESS_SLIDER_HAPTIC);
-        mBrightnessSliderHaptic.setEnabled(showSlider);
+        mQsTileHaptic = findPreference(KEY_QS_TILE_HAPTIC);
+        boolean hapticAvailable = DeviceUtils.hasVibrator(context);
+
+        if (hapticAvailable) {
+            mBrightnessSliderHaptic.setEnabled(showSlider);
+        } else {
+            prefScreen.removePreference(mBrightnessSliderHaptic);
+            prefScreen.removePreference(mQsTileHaptic);
+        }
 
         mShowAutoBrightness = findPreference(KEY_SHOW_AUTO_BRIGHTNESS);
         boolean automaticAvailable = context.getResources().getBoolean(
@@ -99,7 +110,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         if (preference == mShowBrightnessSlider) {
             int value = Integer.parseInt((String) newValue);
             mBrightnessSliderPosition.setEnabled(value > 0);
-            mBrightnessSliderHaptic.setEnabled(value > 0);
+            if (mBrightnessSliderHaptic != null)
+                mBrightnessSliderHaptic.setEnabled(value > 0);
             if (mShowAutoBrightness != null)
                 mShowAutoBrightness.setEnabled(value > 0);
             return true;
@@ -157,6 +169,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                             com.android.internal.R.bool.config_automatic_brightness_available);
                     if (!automaticAvailable) {
                         keys.add(KEY_SHOW_AUTO_BRIGHTNESS);
+                    }
+
+                    boolean hapticAvailable = DeviceUtils.hasVibrator(context);
+                    if (!hapticAvailable) {
+                        keys.add(KEY_BRIGHTNESS_SLIDER_HAPTIC);
+                        keys.add(KEY_QS_TILE_HAPTIC);
                     }
 
                     return keys;

@@ -17,14 +17,13 @@ package com.alpha.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
@@ -41,6 +40,7 @@ import com.alpha.settings.fragments.lockscreen.PulseSettings;
 import com.alpha.settings.fragments.lockscreen.MediaArtSettings;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker;
+import com.alpha.settings.utils.DeviceUtils;
 import com.alpha.settings.utils.SystemUtils;
 
 import java.util.List;
@@ -51,13 +51,14 @@ public class LockScreen extends SettingsPreferenceFragment
 
     public static final String TAG = "LockScreen";
 
-    private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
-    private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
     private static final String KEY_SMARTSPACE = "lockscreen_smartspace_enabled";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
     private static final String KEY_UDFPS_ANIMATIONS = "udfps_recognizing_animation_preview";
     private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
+
+    private static final String KEY_FP_SUCCESS = "fp_success_vibrate";
+    private static final String KEY_FP_ERROR = "fp_error_vibrate";
 
     private Preference mUdfpsAnimations;
     private Preference mUdfpsIcons;
@@ -65,32 +66,40 @@ public class LockScreen extends SettingsPreferenceFragment
 
     private SwitchPreferenceCompat mSmartspace;
     private SwitchPreferenceCompat mWeather;
+    private SwitchPreferenceCompat mFpSuccessVib;
+    private SwitchPreferenceCompat mFpErrorVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.alpha_settings_lockscreen);
+        final Context context = getContext();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
-
-        FingerprintManager mFingerprintManager = (FingerprintManager)
-                getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mUdfpsAnimations = (Preference) findPreference(KEY_UDFPS_ANIMATIONS);
         mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
-        mRippleEffect = (Preference) findPreference(KEY_RIPPLE_EFFECT);
+        mFpSuccessVib = findPreference(KEY_FP_SUCCESS);
+        mFpErrorVib = findPreference(KEY_FP_ERROR);
 
-        if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
-            gestCategory.removePreference(mUdfpsAnimations);
-            gestCategory.removePreference(mUdfpsIcons);
-            gestCategory.removePreference(mRippleEffect);
+        boolean hasFingerprint = DeviceUtils.hasFingerprint(context);
+        if (!hasFingerprint) {
+            prefScreen.removePreference(mUdfpsAnimations);
+            prefScreen.removePreference(mUdfpsIcons);
+            prefScreen.removePreference(mRippleEffect);
         } else {
-            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.animations")) {
-                gestCategory.removePreference(mUdfpsAnimations);
+            if (!Utils.isPackageInstalled(context, "com.alpha.udfps.animations")) {
+                prefScreen.removePreference(mUdfpsAnimations);
             }
-            if (!Utils.isPackageInstalled(getContext(), "com.alpha.udfps.icons")) {
-                gestCategory.removePreference(mUdfpsIcons);
+            if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
+                prefScreen.removePreference(mUdfpsIcons);
             }
+        }
+
+        boolean hapticAvailable = DeviceUtils.hasVibrator(context);
+        if (!hasFingerprint || !hapticAvailable) {
+            prefScreen.removePreference(mFpSuccessVib);
+            prefScreen.removePreference(mFpErrorVib);
         }
 
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
@@ -182,9 +191,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
 
-                    FingerprintManager mFingerprintManager = (FingerprintManager)
-                            context.getSystemService(Context.FINGERPRINT_SERVICE);
-                    if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
+                    boolean hasFingerprint = DeviceUtils.hasFingerprint(context);
+                    if (!hasFingerprint) {
                         keys.add(KEY_UDFPS_ANIMATIONS);
                         keys.add(KEY_UDFPS_ICONS);
                         keys.add(KEY_RIPPLE_EFFECT);
@@ -195,6 +203,11 @@ public class LockScreen extends SettingsPreferenceFragment
                         if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
                             keys.add(KEY_UDFPS_ICONS);
                         }
+                    }
+                    boolean hapticAvailable = DeviceUtils.hasVibrator(context);
+                    if (!hasFingerprint || !hapticAvailable) {
+                        keys.add(KEY_FP_SUCCESS);
+                        keys.add(KEY_FP_ERROR);
                     }
                     return keys;
                 }

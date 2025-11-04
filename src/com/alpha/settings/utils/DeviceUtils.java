@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2024 crDroid Android Project
+ * Copyright (C) 2016-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,12 +18,14 @@ package com.alpha.settings.utils;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.hardware.fingerprint.FingerprintManager;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
 import android.os.Build;
 import android.os.SystemProperties;
+import android.os.Vibrator;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.Display;
@@ -188,5 +190,21 @@ public class DeviceUtils {
             // Ignore
         }
         return false;
+    }
+
+    public static boolean hasVibrator(Context context) {
+        Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        if (vibrator == null || !vibrator.hasVibrator()) {
+            return false;
+        }
+        return true;
+    }
+
+    public static boolean hasFingerprint(Context context) {
+        FingerprintManager fp = (FingerprintManager) context.getSystemService(Context.FINGERPRINT_SERVICE);
+        if (fp == null || !fp.isHardwareDetected()) {
+            return false;
+        }
+        return true;
     }
 }

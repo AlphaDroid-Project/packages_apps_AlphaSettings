@@ -40,6 +40,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.sound.AdaptivePlayback;
+import com.alpha.settings.utils.DeviceUtils;
 import com.alpha.settings.utils.TelephonyUtils;
 
 import java.util.List;
@@ -57,8 +58,10 @@ public class Sound extends SettingsPreferenceFragment {
     private static final String KEY_VIBRATE_CALLWAITING = "vibrate_on_callwaiting";
     private static final String KEY_VIBRATE_DISCONNECT = "vibrate_on_disconnect";
     private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
+    private static final String KEY_VOLUME_HAPTIC = "volume_dialog_haptic_feedback";
 
     private SwitchPreferenceCompat mVolumePanelLeft;
+    private SwitchPreferenceCompat mVolumeHaptic;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,21 +69,28 @@ public class Sound extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.alpha_settings_sound);
 
+        final Context context = getContext();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        ContentResolver resolver = getActivity().getContentResolver();
-
-        boolean isAudioPanelOnLeft = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(getActivity()) ? 1 : 0,
+        boolean isAudioPanelOnLeft = Settings.Secure.getIntForUser(context.getContentResolver(),
+                Settings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(context) ? 1 : 0,
                 UserHandle.USER_CURRENT) != 0;
 
-        mVolumePanelLeft = (SwitchPreferenceCompat) prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
+        mVolumePanelLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
         mVolumePanelLeft.setChecked(isAudioPanelOnLeft);
+
+        mVolumeHaptic = prefScreen.findPreference(KEY_VOLUME_HAPTIC);
 
         final PreferenceCategory vibCategory = prefScreen.findPreference(KEY_VIBRATE_CATEGORY);
 
-        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+        boolean voiceCapable = TelephonyUtils.isVoiceCapable(context);
+        boolean hapticAvailable = DeviceUtils.hasVibrator(context);
+
+        if (!voiceCapable || !hapticAvailable) {
             prefScreen.removePreference(vibCategory);
+        }
+        if (!hapticAvailable) {
+            prefScreen.removePreference(mVolumeHaptic);
         }
     }
 
@@ -130,13 +140,18 @@ public class Sound extends SettingsPreferenceFragment {
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
 
-                    if (!TelephonyUtils.isVoiceCapable(context)) {
+                    boolean voiceCapable = TelephonyUtils.isVoiceCapable(context);
+                    boolean hapticAvailable = DeviceUtils.hasVibrator(context);
+
+                    if (!voiceCapable || !hapticAvailable) {
                         keys.add(KEY_VIBRATE_CATEGORY);
                         keys.add(KEY_VIBRATE_CONNECT);
                         keys.add(KEY_VIBRATE_CALLWAITING);
                         keys.add(KEY_VIBRATE_DISCONNECT);
                     }
-
+                    if (!hapticAvailable) {
+                        keys.add(KEY_VOLUME_HAPTIC);
+                    }
                     return keys;
                 }
             };
