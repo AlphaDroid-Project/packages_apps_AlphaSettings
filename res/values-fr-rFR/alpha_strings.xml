@@ -58,15 +58,15 @@
     <string name="next">Suivant</string>
     <string name="no">Non</string>
     <string name="notification_color">Couleurs des notifications</string>
+    <string name="rainbow_color">Rainbow color</string>
     <string name="off">Désactivé</string>
     <string name="on">Activé</string>
     <string name="reset">Réinitialiser</string>
-    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="restart_systemui">Redémarrer l’interface système pour appliquer les changements !</string>
     <string name="save">Sauvegarder</string>
     <string name="search">Recherche</string>
     <string name="settings">Paramètres</string>
     <string name="wallpaper_color">Couleurs du fond d\'écran</string>
-    <string name="rainbow_color">Rainbow color</string>
     <string name="yes">Oui</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -157,7 +157,7 @@
     <string name="swap_volume_buttons_summary">Permuter les boutons de volume en fonction de l\'orientation de l\'écran</string>
     <string name="button_wake_title">Sortir l\'appareil de veille</string>
     <string name="button_wake_summary">Réveiller l\'appareil en appuyant sur le bouton</string>
-    <string name="volume_answer_call_title">Répondre à l\'appel</string>
+    <string name="volume_answer_call_title">Prendre l\'appel</string>
     <string name="volume_answer_call_summary">Répondre aux appels en appuyant sur les boutons de volume</string>
     <string name="click_partial_screenshot_title">Cliquer pour capturer l\'écran partiellement</string>
     <string name="click_partial_screenshot_summary">Cliquez brièvement sur Volume Bas et Power pour prendre une capture d\'écran partielle</string>
@@ -209,7 +209,7 @@
     <string name="monet_engine_custom_color_summary">Choisir une couleur personnalisée pour l\'accentuation</string>
     <string name="monet_engine_custom_bgcolor_title">Couleur d\'arrière-plan</string>
     <string name="monet_engine_custom_bgcolor_summary">Choisir une couleur personnalisée pour l\'arrière-plan</string>
-    <string name="monet_engine_color_override_title">Couleur personalisée</string>
+    <string name="monet_engine_color_override_title">Couleur personnalisée</string>
     <string name="monet_engine_luminance_factor_title">Luminance</string>
     <string name="monet_engine_luminance_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
     <string name="monet_engine_chroma_factor_title">Facteur Chroma</string>
@@ -255,7 +255,7 @@
     <!-- Edge light -->
     <string name="edge_light_title">Éclairage des bords d\'écran</string>
     <string name="edge_light_summary">Éclairer les bords de l\'écran si notification</string>
-    <string name="edge_light_color_mode_title">Color mode</string>
+    <string name="edge_light_color_mode_title">Mode de couleur de la lumière des bords</string>
     <string name="edge_light_pulse_count_title">Pulse count</string>
     <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
     <string name="edge_light_stroke_width_title">Stroke width</string>
@@ -291,8 +291,8 @@
     <string name="status_bar_quick_qs_pulldown_summary_left">gauche</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">droit</string>
     <string name="status_bar_quick_qs_pulldown_off">Désactivé</string>
-    <string name="status_bar_quick_qs_pulldown_left">Gauche</string>
-    <string name="status_bar_quick_qs_pulldown_right">Droite</string>
+    <string name="status_bar_quick_qs_pulldown_left">gauche</string>
+    <string name="status_bar_quick_qs_pulldown_right">droit</string>
     <string name="status_bar_quick_qs_pulldown_always">Toujours dérouler totalement les réglages rapides</string>
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">Déroulement intelligent</string>
@@ -332,8 +332,8 @@
     <string name="status_bar_clock_seconds_title">Secondes</string>
     <string name="status_bar_clock_seconds_summary">Afficher les secondes dans l\'horloge</string>
     <string name="status_bar_clock_position_title">Style de l\'horloge</string>
-    <string name="status_bar_clock_position_right">Droite</string>
-    <string name="status_bar_clock_position_left">Gauche</string>
+    <string name="status_bar_clock_position_right">droit</string>
+    <string name="status_bar_clock_position_left">gauche</string>
     <string name="status_bar_clock_position_center">Centrer</string>
     <string name="status_bar_clock_position_hidden">Masquée</string>
     <string name="status_bar_clock_auto_hide_title">Masquage automatique</string>
@@ -347,7 +347,7 @@
     <string name="status_bar_am_pm_info">Le Format 24h est activé</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Petit</string>
-    <string name="status_bar_am_pm_hidden">Caché</string>
+    <string name="status_bar_am_pm_hidden">Masquée</string>
     <string name="status_bar_date_title">Date</string>
     <string name="status_bar_date_none">Masquée</string>
     <string name="status_bar_date_small">Petit</string>
@@ -373,7 +373,7 @@
     <string name="status_bar_battery_style_dotted_circle">Cercle en pointillés</string>
     <string name="status_bar_battery_style_filled_circle">Cercle plein</string>
     <string name="status_bar_battery_style_text">Texte</string>
-    <string name="status_bar_battery_style_hidden">Caché</string>
+    <string name="status_bar_battery_style_hidden">Masquée</string>
     <string name="status_bar_battery_percent_title">Pourcentage de la batterie</string>
     <string name="status_bar_battery_percent_hidden">Masquée</string>
     <string name="status_bar_battery_percent_text_inside">Dans l\'icône</string>
@@ -400,7 +400,7 @@
     <string name="battery_bar_blend_color_reverse_summary_off">Plein &#8594; vide : rouge &#8592; vert &#8592; bleu &#8592; rouge</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Plein &#8594; vide : rouge &#8594; vert &#8594; bleu &#8594; rouge</string>
     <!-- Quick setting categories -->
-    <string name="qs_misc_category">Panneau et en-tête de panneau</string>
+    <string name="qs_misc_category">Divers</string>
     <string name="qs_footer_category">Pied de panneau</string>
     <!-- QS clock -->
     <string name="qs_clock_title">Horloge</string>
@@ -487,8 +487,6 @@
     <string name="qs_footer_show_power_menu_title">Raccourci du menu marche/arrêt</string>
     <string name="qs_footer_services_icon_title">Services en cours d\'exécution</string>
     <string name="qs_footer_settings_icon_title">Paramètres Android</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Licence crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Curseur de luminosité</string>
     <string name="qs_show_brightness_slider_title">Curseur de luminosité</string>
@@ -518,7 +516,7 @@
     <string name="edit_light_settings">Éditer les paramètres de la LED</string>
     <string name="pulse_speed_title">Durée et fréquence du clignotement</string>
     <string name="default_time">Normal</string>
-    <string name="custom_time">Personnalisé</string>
+    <string name="custom_time">Personnalisée</string>
     <string name="brightness">Luminosité</string>
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Toujours allumé</string>
@@ -616,7 +614,7 @@
     <string name="old_mobiletype_summary">Fusionner les icônes d\'indicateur et de signal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animation d\'extinction d\'écran</string>
-    <string name="screen_off_animation_default">Fondu progressif</string>
+    <string name="screen_off_animation_default">Par défaut</string>
     <string name="screen_off_animation_crt">Tube cathodique</string>
     <string name="screen_off_animation_scale">Vers le centre</string>
     <!-- Fingerprint authentication vibration -->
@@ -625,7 +623,7 @@
     <string name="fp_error_vibrate_title">Vibration en cas d\'échec d\'authentification de l\'empreinte digitale</string>
     <string name="fp_error_vibrate_summary">Vibrer quand l\'authentification de l\'empreinte échoue</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Animation de charge</string>
+    <string name="charging_animation_title">Animation lors de la charge</string>
     <string name="charging_animation_summary">Afficher une animation lorsque l\'appareil est branché</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Luminosité automatique rapide</string>
@@ -739,7 +737,7 @@
         <item quantity="one">Jusqu\'à <xliff:g id="device_num">%1$d</xliff:g> appareil peut se connecter à ce point d\'accès</item>
     </plurals>
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Menu marche/arrêt</string>
+    <string name="lockscreen_enable_power_menu_title">Menu Marche/Arrêt</string>
     <string name="lockscreen_enable_power_menu_summary">Autoriser l\'accès au menu Marche/Arrêt sur l\'écran de verrouillage   </string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Longueur de la barre de navigation</string>
@@ -849,44 +847,6 @@
     <string name="adaptive_playback_summary">Mettre en pause lorsque le volume est mis en sourdine et reprendre la lecture en augmentant le volume suivant le délai réglé</string>
     <string name="adaptive_playback_intro_text">Met automatiquement les médias en pause lorsque le volume est mis en sourdine et reprend automatiquement lorsque le volume est restauré dans le délai défini</string>
     <string name="adaptive_playback_timeout_title">Délais de reprise</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Afficher un logo personnalisé à gauche ou à droite de la barre d\'état</string>
-    <string name="status_bar_logo_position_title">Position du logo</string>
-    <string name="status_bar_logo_style_title">Style du logo</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alien</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman le Chevalier Noir</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticône cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Émoticône diable</string>
-    <string name="status_bar_logo_style_fire">Feu</string>
-    <string name="status_bar_logo_style_heart">Coeur</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-Man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Fantôme</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Flash</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installé : %1$s</string>
     <string name="app_info_update_time">Mis à jour : %1$s</string>
@@ -946,7 +906,7 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="hide_from_launcher_summary">Empêcher cette application d\'apparaître dans tous les lanceurs d\'applications. Nécessite un redémarrage du lanceur pour que les changements prennent effet.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Toujours allumé pendant la charge</string>
-    <string name="doze_on_charge_summary">Display info when device is charging</string>
+    <string name="doze_on_charge_summary">L\'affichage de l\'appareil est en cours de chargement</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier le volume de la sonnerie et des notifications</string>
     <!-- Radio Info -->
@@ -1040,7 +1000,7 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="show_ime_space_title">Afficher le mode de saisie</string>
     <string name="show_ime_space_summary">Activer la fonction de commutation rapide de la méthode de saisie pour changer de mode de saisie ou masquer le clavier à l\'écran de la barre de fonction en bas de l\'écran lors de la saisie</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">Redémarrage de l’interface système requis</string>
+    <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">Un redémarrage de l’interface système est nécessaire pour appliquer les changements. Redémarrer maintenant ?</string>
     <string name="systemui_restart_yes">Oui</string>
     <string name="systemui_restart_not_now">Plus tard</string>
@@ -1086,6 +1046,9 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Pochette de l\'album</string>
     <string name="ls_media_art_summary">Afficher les pochettes d\'albums si disponibles</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Filtre des pochettes d\'albums</string>
     <string name="ls_media_art_filter_none">Aucun</string>
@@ -1093,7 +1056,7 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="ls_media_art_filter_grayscale">Niveaux de gris</string>
     <string name="ls_media_art_filter_sepia">Sépia</string>
     <string name="ls_media_art_filter_tint">Teinte d\'accentuation</string>
-    <string name="ls_media_art_filter_invert"></string>
+    <string name="ls_media_art_filter_invert">Invert</string>
     <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
     <!-- Lock screen media art fade level -->
     <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
@@ -1111,9 +1074,9 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="pulse_color">Visualizer color</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
     <string name="pulse_color_album">Album art</string>
-    <string name="pulse_color_accent">Accentuation</string>
+    <string name="pulse_color_accent">Couleur d\'accentuation</string>
     <string name="pulse_bar_count_title">Number of bars</string>
-    <string name="pulse_bar_count_summary"></string>
+    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
     <string name="pulse_bar_count_units">bars</string>
     <string name="pulse_renderer">Visualizer style</string>
     <string name="pulse_renderer_solid">Colonnes pleines</string>
@@ -1135,6 +1098,7 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <!-- Vbmeta hash attestation -->
     <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
     <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Paramètres Alpha</string>
     <string name="alpha_settings_summary">Il y aura des goodies!</string>
