@@ -81,6 +81,7 @@ public class LockScreen extends SettingsPreferenceFragment
         mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
         mFpSuccessVib = findPreference(KEY_FP_SUCCESS);
         mFpErrorVib = findPreference(KEY_FP_ERROR);
+        mRippleEffect = (Preference) findPreference(KEY_RIPPLE_EFFECT);
 
         boolean hasFingerprint = DeviceUtils.hasFingerprint(context);
         if (!hasFingerprint) {
