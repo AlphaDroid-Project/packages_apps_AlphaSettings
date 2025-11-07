@@ -24,7 +24,7 @@ import android.provider.Settings;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
@@ -51,6 +51,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     public static final String TAG = "QuickSettings";
 
+    private static final String QS_BRIGHTNESS_CATEGORY = "qs_brightness_slider_category";
+    private static final String QS_LAYOUT_CATEGORY = "qs_layout_category";
     private static final String KEY_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
     private static final String KEY_BRIGHTNESS_SLIDER_POSITION = "qs_brightness_slider_position";
     private static final String KEY_BRIGHTNESS_SLIDER_HAPTIC = "qs_brightness_slider_haptic";
@@ -71,7 +73,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         final Context context = getContext();
         final ContentResolver resolver = context.getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        PreferenceCategory brightnessCategory = (PreferenceCategory) findPreference(QS_BRIGHTNESS_CATEGORY);
+        PreferenceCategory tileCategory = (PreferenceCategory) findPreference(QS_LAYOUT_CATEGORY);
 
         mShowBrightnessSlider = findPreference(KEY_SHOW_BRIGHTNESS_SLIDER);
         mShowBrightnessSlider.setOnPreferenceChangeListener(this);
@@ -88,8 +92,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         if (hapticAvailable) {
             mBrightnessSliderHaptic.setEnabled(showSlider);
         } else {
-            prefScreen.removePreference(mBrightnessSliderHaptic);
-            prefScreen.removePreference(mQsTileHaptic);
+            brightnessCategory.removePreference(mBrightnessSliderHaptic);
+            tileCategory.removePreference(mQsTileHaptic);
         }
 
         mShowAutoBrightness = findPreference(KEY_SHOW_AUTO_BRIGHTNESS);
@@ -99,7 +103,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         if (automaticAvailable) {
             mShowAutoBrightness.setEnabled(showSlider);
         } else {
-            prefScreen.removePreference(mShowAutoBrightness);
+            brightnessCategory.removePreference(mShowAutoBrightness);
         }
     }
 

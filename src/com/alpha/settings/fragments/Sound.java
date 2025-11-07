@@ -19,7 +19,6 @@ import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.SystemProperties;
@@ -53,6 +52,7 @@ public class Sound extends SettingsPreferenceFragment {
 
     public static final String TAG = "Sound";
 
+    private static final String KEY_VOLUME_CATEGORY = "volume_panel";
     private static final String KEY_VIBRATE_CATEGORY = "incall_vib_options";
     private static final String KEY_VIBRATE_CONNECT = "vibrate_on_connect";
     private static final String KEY_VIBRATE_CALLWAITING = "vibrate_on_callwaiting";
@@ -79,18 +79,17 @@ public class Sound extends SettingsPreferenceFragment {
         mVolumePanelLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
         mVolumePanelLeft.setChecked(isAudioPanelOnLeft);
 
-        mVolumeHaptic = prefScreen.findPreference(KEY_VOLUME_HAPTIC);
-
-        final PreferenceCategory vibCategory = prefScreen.findPreference(KEY_VIBRATE_CATEGORY);
-
         boolean voiceCapable = TelephonyUtils.isVoiceCapable(context);
         boolean hapticAvailable = DeviceUtils.hasVibrator(context);
 
         if (!voiceCapable || !hapticAvailable) {
+            final PreferenceCategory vibCategory = prefScreen.findPreference(KEY_VIBRATE_CATEGORY);
             prefScreen.removePreference(vibCategory);
         }
         if (!hapticAvailable) {
-            prefScreen.removePreference(mVolumeHaptic);
+            final PreferenceCategory volCategory = prefScreen.findPreference(KEY_VOLUME_CATEGORY);
+            mVolumeHaptic = volCategory.findPreference(KEY_VOLUME_HAPTIC);
+            volCategory.removePreference(mVolumeHaptic);
         }
     }
 
@@ -119,8 +118,9 @@ public class Sound extends SettingsPreferenceFragment {
             Context con = context.createPackageContext("org.lineageos.lineagesettings", 0);
             int id = con.getResources().getIdentifier("def_volume_panel_on_left",
                     "bool", "org.lineageos.lineagesettings");
+            if (id <= 0) return false;
             return con.getResources().getBoolean(id);
-        } catch (PackageManager.NameNotFoundException e) {
+        } catch (Exception e) {
             return false;
         }
     }

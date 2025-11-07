@@ -23,7 +23,7 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
@@ -51,6 +51,7 @@ public class LockScreen extends SettingsPreferenceFragment
 
     public static final String TAG = "LockScreen";
 
+    private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
     private static final String KEY_SMARTSPACE = "lockscreen_smartspace_enabled";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
@@ -75,7 +76,8 @@ public class LockScreen extends SettingsPreferenceFragment
 
         addPreferencesFromResource(R.xml.alpha_settings_lockscreen);
         final Context context = getContext();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        PreferenceCategory gestCategory = (PreferenceCategory) findPreference(LOCKSCREEN_GESTURES_CATEGORY);
 
         mUdfpsAnimations = (Preference) findPreference(KEY_UDFPS_ANIMATIONS);
         mUdfpsIcons = (Preference) findPreference(KEY_UDFPS_ICONS);
@@ -85,22 +87,22 @@ public class LockScreen extends SettingsPreferenceFragment
 
         boolean hasFingerprint = DeviceUtils.hasFingerprint(context);
         if (!hasFingerprint) {
-            prefScreen.removePreference(mUdfpsAnimations);
-            prefScreen.removePreference(mUdfpsIcons);
-            prefScreen.removePreference(mRippleEffect);
+            gestCategory.removePreference(mUdfpsAnimations);
+            gestCategory.removePreference(mUdfpsIcons);
+            gestCategory.removePreference(mRippleEffect);
         } else {
             if (!Utils.isPackageInstalled(context, "com.alpha.udfps.animations")) {
-                prefScreen.removePreference(mUdfpsAnimations);
+                gestCategory.removePreference(mUdfpsAnimations);
             }
             if (!Utils.isPackageInstalled(context, "com.alpha.udfps.icons")) {
-                prefScreen.removePreference(mUdfpsIcons);
+                gestCategory.removePreference(mUdfpsIcons);
             }
         }
 
         boolean hapticAvailable = DeviceUtils.hasVibrator(context);
         if (!hasFingerprint || !hapticAvailable) {
-            prefScreen.removePreference(mFpSuccessVib);
-            prefScreen.removePreference(mFpErrorVib);
+            gestCategory.removePreference(mFpSuccessVib);
+            gestCategory.removePreference(mFpErrorVib);
         }
 
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
