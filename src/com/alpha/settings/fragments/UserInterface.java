@@ -27,7 +27,6 @@ import android.text.TextUtils;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
@@ -41,6 +40,7 @@ import com.alpha.settings.fragments.lockscreen.DozeSettings;
 import com.alpha.settings.fragments.ui.EdgeLightSettings;
 import com.alpha.settings.fragments.misc.SmartPixels;
 import com.alpha.settings.fragments.ui.MonetSettings;
+import com.alpha.settings.utils.TelephonyUtils;
 
 import com.android.internal.util.alpha.ThemeUtils;
 
@@ -54,6 +54,8 @@ public class UserInterface extends SettingsPreferenceFragment implements
 
     private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
     private static final String SMART_PIXELS = "smart_pixels";
+
+    private static final String KEY_SIGNAL_ICON = "android.theme.customization.signal_icon";
 
     private Preference mShowCutoutForce;
     private Preference mSmartPixels;
@@ -80,6 +82,11 @@ public class UserInterface extends SettingsPreferenceFragment implements
                 com.android.internal.R.bool.config_supportSmartPixels);
         if (!mSmartPixelsSupported)
             prefScreen.removePreference(mSmartPixels);
+
+        boolean voiceCapable = TelephonyUtils.isVoiceCapable(mContext);
+        if (!voiceCapable) {
+            prefScreen.removePreference(prefScreen.findPreference(KEY_SIGNAL_ICON));
+        }
     }
 
     @Override
@@ -130,6 +137,11 @@ public class UserInterface extends SettingsPreferenceFragment implements
                             com.android.internal.R.bool.config_supportSmartPixels);
                     if (!mSmartPixelsSupported)
                         keys.add(SMART_PIXELS);
+
+                    boolean voiceCapable = TelephonyUtils.isVoiceCapable(context);
+                    if (!voiceCapable) {
+                        keys.add(KEY_SIGNAL_ICON);
+                    }
 
                     return keys;
                 }
