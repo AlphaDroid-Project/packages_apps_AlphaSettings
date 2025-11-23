@@ -42,6 +42,7 @@ import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsIconPicker;
 import com.alpha.settings.utils.DeviceUtils;
 import com.alpha.settings.utils.SystemUtils;
+import com.alpha.settings.utils.TelephonyUtils;
 
 import java.util.List;
 
@@ -52,6 +53,7 @@ public class LockScreen extends SettingsPreferenceFragment
     public static final String TAG = "LockScreen";
 
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
+    private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
     private static final String KEY_SMARTSPACE = "lockscreen_smartspace_enabled";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
@@ -60,6 +62,8 @@ public class LockScreen extends SettingsPreferenceFragment
 
     private static final String KEY_FP_SUCCESS = "fp_success_vibrate";
     private static final String KEY_FP_ERROR = "fp_error_vibrate";
+
+    private static final String KEY_CARRIER_NAME = "lockscreen_show_carrier";
 
     private Preference mUdfpsAnimations;
     private Preference mUdfpsIcons;
@@ -103,6 +107,12 @@ public class LockScreen extends SettingsPreferenceFragment
         if (!hasFingerprint || !hapticAvailable) {
             gestCategory.removePreference(mFpSuccessVib);
             gestCategory.removePreference(mFpErrorVib);
+        }
+
+        if (!TelephonyUtils.isVoiceCapable(context)) {
+            PreferenceCategory intCategory = (PreferenceCategory) findPreference(LOCKSCREEN_INTERFACE_CATEGORY);
+            SwitchPreferenceCompat carrierName = findPreference(KEY_CARRIER_NAME);
+            intCategory.removePreference(carrierName);
         }
 
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
@@ -211,6 +221,9 @@ public class LockScreen extends SettingsPreferenceFragment
                     if (!hasFingerprint || !hapticAvailable) {
                         keys.add(KEY_FP_SUCCESS);
                         keys.add(KEY_FP_ERROR);
+                    }
+                    if (!TelephonyUtils.isVoiceCapable(context)) {
+                        keys.add(KEY_CARRIER_NAME);
                     }
                     return keys;
                 }
