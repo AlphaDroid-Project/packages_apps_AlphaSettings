@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@
         settings:searchable="false"
         app:lottie_rawRes="@raw/lottie_adaptive_playback"/>
 
-    <com.android.settingslib.widget.MainSwitchPreference
+    <lineageos.preference.SystemSettingMainSwitchPreference
         android:key="adaptive_playback_enabled"
         android:title="@string/enable"
         android:persistent="false" />

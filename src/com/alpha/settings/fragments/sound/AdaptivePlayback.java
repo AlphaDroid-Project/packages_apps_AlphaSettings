@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2024 crDroid Android Project
+ * Copyright (C) 2016-2025 crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,60 +20,24 @@ import android.content.ContentResolver;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
-import android.widget.CompoundButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
-
-import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settingslib.widget.MainSwitchPreference;
 
-import com.alpha.settings.preferences.colorpicker.ColorPickerPreference;
-
-public class AdaptivePlayback extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener, OnCheckedChangeListener {
+public class AdaptivePlayback extends SettingsPreferenceFragment {
 
     private static final String TAG = AdaptivePlayback.class.getSimpleName();
-
-    private static final String PREF_KEY_ENABLE = "adaptive_playback_enabled";
-
-    private MainSwitchPreference mEnable;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.adaptive_playback_settings);
-
-        mEnable = (MainSwitchPreference) findPreference(PREF_KEY_ENABLE);
-        boolean enable = Settings.System.getIntForUser(getContext().getContentResolver(),
-                Settings.System.ADAPTIVE_PLAYBACK_ENABLED, 0, UserHandle.USER_CURRENT) != 0;
-        mEnable.setChecked(enable);
-        mEnable.addOnSwitchChangeListener(this);
     }
 
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
-    }
-
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        mEnable.setChecked(isChecked);
-        if (isChecked) {
-            Settings.System.putIntForUser(getContext().getContentResolver(),
-                Settings.System.ADAPTIVE_PLAYBACK_ENABLED, 1, UserHandle.USER_CURRENT);
-        } else {
-            Settings.System.putIntForUser(getContext().getContentResolver(),
-                Settings.System.ADAPTIVE_PLAYBACK_ENABLED, 0, UserHandle.USER_CURRENT);
-        }
-    }
-
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
+    public static void reset(Context context) {
+        ContentResolver resolver = context.getContentResolver();
         Settings.System.putIntForUser(resolver,
                 Settings.System.ADAPTIVE_PLAYBACK_ENABLED, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
