@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 AlphaDroid
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/alpha_settings_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="user_interface"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="statusbar"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="quick_settings"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="buttons"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="lockscreen"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="notifications"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="sound"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="misc"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="about"
+        android:layout="@layout/preference_alpha_slash"
+        android:selectable="false" />
+
+</PreferenceScreen>
