@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Кнопки</string>
     <string name="lockscreen_title">Экран блокировки</string>
     <string name="misc_title">Прочее</string>
@@ -29,6 +30,15 @@
     <string name="display_title">Экран</string>
     <string name="ui_title">Пользовательский интерфейс</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на выбранный цвет для применения</string>
@@ -47,7 +57,7 @@
     <string name="delete">Удалить</string>
     <string name="delete_message">Удалить выбранный элемент?</string>
     <string name="disable">Выключить</string>
-    <string name="disabled">Неполноценный</string>
+    <string name="disabled">Выключено</string>
     <string name="discard_changes">Отменить изменения</string>
     <string name="enable">Включить</string>
     <string name="enabled">Включено</string>
@@ -148,7 +158,7 @@
     <string name="volbtn_music_controls_title">Управление воспроизведением</string>
     <string name="volbtn_music_controls_summary">Переключать треки удержанием кнопок громкости при выключенном экране</string>
     <string name="volbtn_cursor_control_title">Управление курсором с клавиатуры</string>
-    <string name="volbtn_cursor_control_off">Неполноценный</string>
+    <string name="volbtn_cursor_control_off">Выключено</string>
     <string name="volbtn_cursor_control_on">Кнопки громкости вверх/вниз перемещают курсор влево/вправо</string>
     <string name="volbtn_cursor_control_on_reverse">Кнопки громкости вверх/вниз перемещают курсор вправо/влево</string>
     <string name="power_end_call_title">Завершить вызов</string>
@@ -171,7 +181,7 @@
     <string name="keyboard_backlight_seekbar_title">Яркость клавиатуры</string>
     <string name="backlight_timeout_title">Длительность подсветки</string>
     <string name="backlight_timeout_unlimited">Не выключать</string>
-    <string name="backlight_summary_disabled">Неполноценный</string>
+    <string name="backlight_summary_disabled">Выключено</string>
     <string name="backlight_summary_enabled_with_timeout">Включена на <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Включено</string>
     <plurals name="backlight_timeout_time">
@@ -419,7 +429,7 @@
     <string name="network_traffic_settings_title">Сетевая активность</string>
     <string name="network_traffic_settings_summary">Отображение и настройка монитора скорости сетевой активности</string>
     <string name="network_traffic_location_title">Расположение</string>
-    <string name="network_traffic_location_disable">Неполноценный</string>
+    <string name="network_traffic_location_disable">Выключено</string>
     <string name="network_traffic_location_statusbar">Строка состояния</string>
     <string name="network_traffic_location_quick_statusbar">Быстрая строка состояния</string>
     <string name="network_traffic_mode_title">Вид активности</string>
@@ -597,7 +607,7 @@
     <string name="incall_vibrate_disconnect_title">При отключении</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Мигать при входящем звонке</string>
-    <string name="flashlight_on_call_disabled">Неполноценный</string>
+    <string name="flashlight_on_call_disabled">Выключено</string>
     <string name="flashlight_on_call_ringer">При звонке</string>
     <string name="flashlight_on_call_no_ringer">Когда звонок беззвучный</string>
     <string name="flashlight_on_call_silent">Когда полная тишина (без звука или вибрации)</string>
@@ -924,14 +934,14 @@
     <string name="qs_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
     <string name="qs_header_static_provider_title">Статичное изображение</string>
     <string name="qs_header_daylight_provider_title">Коллекция изображений</string>
-    <string name="qs_header_file_provider_title">Своё изображение</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Источник изображения</string>
     <string name="qs_header_browse_title">Просмотр установленных заголовков</string>
     <string name="qs_header_browse_summary">Просмотр всех доступных коллекций</string>
     <string name="qs_header_pick_title">Выбор изображения заголовка</string>
     <string name="qs_header_pick_summary">Выберите изображение для использования в статическом режиме</string>
     <string name="qs_header_file_select_title">Выбор изображения</string>
-    <string name="qs_header_file_select_summary">Выбор своего изображения</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">Вы должны установить приложение галереи!</string>
     <string name="qs_header_offset_title">Смещение изображения</string>
     <string name="qs_header_offset_summary">Изменение высоты изображения заголовка</string>
@@ -1157,7 +1167,7 @@
     <string name="alpha_update_summary">Проверка и загрузка последних обновлений</string>
     <!-- SELinux status -->
     <string name="selinux_status">Статус SELinux</string>
-    <string name="selinux_status_disabled">Неполноценный</string>
+    <string name="selinux_status_disabled">Выключено</string>
     <string name="selinux_status_permissive">Разрешающий</string>
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Firmware info -->
@@ -1176,7 +1186,8 @@
     <string name="maintainer_summary">В поиске сопровождающего...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Хранилище</string>
-    <string name="storage_card_info">Занято</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Устройство</string>
     <string name="about_device_rom_title">Андроид %s</string>
     <string name="about_device_nearby">Имя устройства может и будет видно находящимся поблизости устройствам.</string>
     <!-- Hardware info -->
@@ -1196,7 +1207,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Трехцветный дисплей</string>
     <string name="vivid_engine_mode_title">Яркий дисплей</string>
-    <string name="display_engine_default">По умолчанию</string>
     <string name="display_engine_mode_footer_text">Display Engine, созданный на основе процессора Sony Bravia/X-Reality, оснащен режимом Vivid для повышения яркости и насыщенности цветов, а также режимом X-Reality для улучшения детализации и точности цветопередачи.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Игнорировать флаг защищенного окна</string>
