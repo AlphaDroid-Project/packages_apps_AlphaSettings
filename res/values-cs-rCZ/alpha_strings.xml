@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Tlačítka</string>
     <string name="lockscreen_title">Obrazovka uzamčení</string>
     <string name="misc_title">Různé</string>
@@ -29,6 +30,15 @@
     <string name="display_title">Zobrazení</string>
     <string name="ui_title">Uživatelské rozhraní</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Výběr barvy</string>
     <string name="press_color_to_apply">Klepněte na barvu, kterou chcete použít</string>
@@ -924,14 +934,14 @@
     <string name="qs_header_shadow_summary">Pro lepší viditelnost ikon při použití pestrých obrázků v\u00a0záhlaví</string>
     <string name="qs_header_static_provider_title">Statický obrázek</string>
     <string name="qs_header_daylight_provider_title">Sbírka obrázků</string>
-    <string name="qs_header_file_provider_title">Vlastní obrázek</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Poskytovatel záhlaví</string>
     <string name="qs_header_browse_title">Procházet předinstalovaná záhlaví</string>
     <string name="qs_header_browse_summary">Procházet všechny dostupné sbírky záhlaví</string>
     <string name="qs_header_pick_title">Vyberte obrázek záhlaví</string>
     <string name="qs_header_pick_summary">Vyberte obrázek, který chcete použít ve statickém režimu</string>
     <string name="qs_header_file_select_title">Vybrat obrázek</string>
-    <string name="qs_header_file_select_summary">Vybrat vlastní obrázek</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">Musíte nainstalovat aplikaci galerie!</string>
     <string name="qs_header_offset_title">Odsazení obrázku záhlaví</string>
     <string name="qs_header_offset_summary">Upravit velikost záhlaví obrázku</string>
@@ -1176,7 +1186,8 @@
     <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Zařízení</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
@@ -1196,7 +1207,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Výchozí</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
