@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Phím</string>
     <string name="lockscreen_title">Màn hình khóa</string>
     <string name="misc_title">Các tùy chọn khác</string>
@@ -29,6 +30,15 @@
     <string name="display_title">Hiển thị</string>
     <string name="ui_title">Giao diện người dùng</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Bộ chọn màu</string>
     <string name="press_color_to_apply">Chạm vào một màu ở phía dưới để áp dụng</string>
@@ -148,7 +158,7 @@
     <string name="volbtn_music_controls_title">Điều khiển phát lại</string>
     <string name="volbtn_music_controls_summary">Chuyển bài hát bằng nhấn giữ các phím âm lượng khi màn hình tắt</string>
     <string name="volbtn_cursor_control_title">Điều khiển con trỏ bàn phím</string>
-    <string name="volbtn_cursor_control_off">Tắt</string>
+    <string name="volbtn_cursor_control_off">Đã tắt</string>
     <string name="volbtn_cursor_control_on">Phím tăng/giảm âm di chuyển con trỏ sang trái/phải</string>
     <string name="volbtn_cursor_control_on_reverse">Nút tăng/Giảm âm lượng di chuyển con trỏ sang phải/trái</string>
     <string name="power_end_call_title">Kết thúc cuộc gọi</string>
@@ -171,9 +181,9 @@
     <string name="keyboard_backlight_seekbar_title">Độ sáng bàn phím</string>
     <string name="backlight_timeout_title">Thời gian phát sáng</string>
     <string name="backlight_timeout_unlimited">Không tắt</string>
-    <string name="backlight_summary_disabled">Tắt</string>
+    <string name="backlight_summary_disabled">Đã tắt</string>
     <string name="backlight_summary_enabled_with_timeout">Đã bật trong <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Bật</string>
+    <string name="backlight_summary_enabled">Đã bật</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> giây</item>
     </plurals>
@@ -399,7 +409,7 @@
     <string name="battery_bar_blend_color_reverse_summary_off">Đầy đủ &#8594; rỗng: đỏ &#8592; màu xanh lá cây &#8592; xanh &#8592; màu đỏ</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Đầy đủ &#8594; rỗng: đỏ &#8594; màu xanh lá cây &#8594; xanh &#8594; màu đỏ</string>
     <!-- Quick setting categories -->
-    <string name="qs_misc_category">Khác</string>
+    <string name="qs_misc_category">Các tùy chọn khác</string>
     <string name="qs_footer_category">Phần đáy</string>
     <!-- QS clock -->
     <string name="qs_clock_title">Đồng hồ</string>
@@ -416,7 +426,7 @@
     <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
     <string name="network_traffic_settings_summary">Hiển thị và tùy biến mức lưu lượng mạng hiện tại</string>
     <string name="network_traffic_location_title">Vị trí</string>
-    <string name="network_traffic_location_disable">Tắt</string>
+    <string name="network_traffic_location_disable">Đã tắt</string>
     <string name="network_traffic_location_statusbar">Thanh trạng thái</string>
     <string name="network_traffic_location_quick_statusbar">Thanh trạng thái nhanh</string>
     <string name="network_traffic_mode_title">Chế độ hiển thị</string>
@@ -454,7 +464,7 @@
     <string name="navbar_layout_rightleaning">Nghiêng sang phải</string>
     <string name="navbar_invert_layout_title">Đảo ngược bố cục</string>
     <string name="navbar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
-    <string name="navbar_actions_category_title">Chức năng</string>
+    <string name="navbar_actions_category_title">Hành động</string>
     <string name="navbar_back_long_press_title">Nhấn giữ phím quay lại</string>
     <string name="navbar_back_double_tap_title">Nhấn đúp phím quay lại</string>
     <string name="navbar_home_long_press_title">Nhấn giữ phím trang chủ</string>
@@ -486,8 +496,6 @@
     <string name="qs_footer_show_power_menu_title">Lối tắt trình đơn nguồn</string>
     <string name="qs_footer_services_icon_title">Lối tắt các dịch vụ đang chạy</string>
     <string name="qs_footer_settings_icon_title">Lối tắt cài đặt</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Giấy phép crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Thanh trượt chỉnh độ sáng</string>
     <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
@@ -596,7 +604,7 @@
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Đèn pin nhấp nháy khi có cuộc gọi đến</string>
-    <string name="flashlight_on_call_disabled">Tắt</string>
+    <string name="flashlight_on_call_disabled">Đã tắt</string>
     <string name="flashlight_on_call_ringer">Khi đổ chuông</string>
     <string name="flashlight_on_call_no_ringer">Khi chuông đã im lặng</string>
     <string name="flashlight_on_call_silent">Khi hoàn toàn im lặng (không có chuông hoặc bộ rung)</string>
@@ -847,44 +855,6 @@
     <string name="adaptive_playback_summary">Tạm dừng phát khi âm lượng bị tắt và tiếp tục phát khi tăng âm lượng trong thời gian chờ</string>
     <string name="adaptive_playback_intro_text">Tạm dừng phát khi âm lượng bị tắt và tự động tiếp tục phát khi âm lượng được khôi phục trong thời gian đã đặt</string>
     <string name="adaptive_playback_timeout_title">Thời gian chờ phát lại</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Biểu tượng</string>
-    <string name="status_bar_logo_summary">Hiển thị biểu tượng tùy chỉnh ở bên trái hoặc bên phải của thanh trạng thái</string>
-    <string name="status_bar_logo_position_title">Vị trí biểu tượng</string>
-    <string name="status_bar_logo_style_title">Kiểu dáng của biểu tượng</string>
-    <string name="status_bar_logo_style_crdroid">hệ thống</string>
-    <string name="status_bar_logo_style_android">Hệ điều hành</string>
-    <string name="status_bar_logo_style_adidas">Tập đoàn phân phối</string>
-    <string name="status_bar_logo_style_alien">Người ngoài hành tinh</string>
-    <string name="status_bar_logo_style_apple">Táo khuyết</string>
-    <string name="status_bar_logo_style_avengers">Biệt đội siêu anh hùng</string>
-    <string name="status_bar_logo_style_batman">Người dơi</string>
-    <string name="status_bar_logo_style_batman_tdk">Người dơi hiệp sĩ bóng tối</string>
-    <string name="status_bar_logo_style_beats">Nhịp đập</string>
-    <string name="status_bar_logo_style_biohazard">Nguy hiểm sinh học</string>
-    <string name="status_bar_logo_style_blackberry">Quả mâm xôi</string>
-    <string name="status_bar_logo_style_cannabis">Cần sa</string>
-    <string name="status_bar_logo_style_emoticon_cool">Biểu tượng cảm xúc cực ngầu</string>
-    <string name="status_bar_logo_style_emoticon_devil">Biểu tượng cảm xúc ác quỷ</string>
-    <string name="status_bar_logo_style_fire">Lửa</string>
-    <string name="status_bar_logo_style_heart">Trái tim</string>
-    <string name="status_bar_logo_style_nike">Tập đoàn giày dép</string>
-    <string name="status_bar_logo_style_pacman">Cuộc chơi hoàn hảo</string>
-    <string name="status_bar_logo_style_puma">Báo sư tử</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Người nhện</string>
-    <string name="status_bar_logo_style_superman">Siêu người máy</string>
-    <string name="status_bar_logo_style_windows">Các cửa sổ</string>
-    <string name="status_bar_logo_style_xbox">Thương hiệu trò chơi</string>
-    <string name="status_bar_logo_style_ghost">Ma quỷ</string>
-    <string name="status_bar_logo_style_ninja">Nhẫn giả</string>
-    <string name="status_bar_logo_style_robot">Người máy</string>
-    <string name="status_bar_logo_style_ironman">Người sắt</string>
-    <string name="status_bar_logo_style_captain_america">Đội trưởng</string>
-    <string name="status_bar_logo_style_flash">Tia chớp</string>
-    <string name="status_bar_logo_style_tux">Lễ phục</string>
-    <string name="status_bar_logo_style_ubuntu">Tình người</string>
-    <string name="status_bar_logo_style_mint">Bột rửa</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Đã cài đặt: %1$s</string>
     <string name="app_info_update_time">Đã cập nhật: %1$s</string>
@@ -957,14 +927,14 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="qs_header_shadow_summary">Cho khả năng nhìn thấy tốt hơn với các hình ảnh sáng</string>
     <string name="qs_header_static_provider_title">Ảnh tĩnh</string>
     <string name="qs_header_daylight_provider_title">Bộ sưu tập ảnh</string>
-    <string name="qs_header_file_provider_title">Hình ảnh tùy chỉnh</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Nơi cung cấp</string>
     <string name="qs_header_browse_title">Xem những gì có sẵn</string>
     <string name="qs_header_browse_summary">Xem tất cả có sẵn trong bộ sưu tập</string>
     <string name="qs_header_pick_title">Chọn ảnh</string>
     <string name="qs_header_pick_summary">Chọn một hình ảnh để sử dụng cho chế độ tĩnh</string>
     <string name="qs_header_file_select_title">Chọn hình ảnh</string>
-    <string name="qs_header_file_select_summary">Chọn ảnh tùy chỉnh</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">Hãy cài đặt một ứng dụng xem ảnh!</string>
     <string name="qs_header_offset_title">Độ lệch hình ảnh</string>
     <string name="qs_header_offset_summary">Điều chỉnh kích thước hình ảnh</string>
@@ -1040,7 +1010,7 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Yêu cầu khởi động lại giao diện hệ thống</string>
     <string name="systemui_restart_message">Khởi động lại giao diện hệ thống để áp dụng các thay đổi?</string>
-    <string name="systemui_restart_yes">Đồng ý</string>
+    <string name="systemui_restart_yes">Có</string>
     <string name="systemui_restart_not_now">Không phải bây giờ</string>
     <string name="systemui_restart_process">Đang mở lại giao diện hệ thống để áp dụng các thay đổi...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1084,6 +1054,9 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Ảnh bìa đa phương tiện</string>
     <string name="ls_media_art_summary">Hiển thị ảnh bìa đa phương tiện khi có sẵn</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Bộ lọc ảnh bìa đa phương tiện</string>
     <string name="ls_media_art_filter_none">Không</string>
@@ -1206,7 +1179,8 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="maintainer_summary">Đang tìm kiếm người bảo trì...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Bộ nhớ</string>
-    <string name="storage_card_info">Đã dùng</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Thiết bị</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">Tên thiết bị có thể và sẽ được nhìn thấy bởi các thiết bị gần đó.</string>
     <!-- Hardware info -->
@@ -1226,7 +1200,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="x_reality_engine_mode_title">Công cụ X-Reality</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Hiển thị sống động</string>
-    <string name="display_engine_default">Mặc định</string>
     <string name="display_engine_mode_footer_text">Lấy cảm hứng từ công cụ Bravia/X-Reality của Sony, Display Engine có chế độ Sống động để tăng cường độ sáng và độ bão hòa màu cũng như chế độ X-Reality để cải thiện chi tiết và độ chính xác của màu.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>

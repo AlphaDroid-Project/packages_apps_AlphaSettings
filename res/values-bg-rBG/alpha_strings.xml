@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Бутони</string>
     <string name="lockscreen_title">Екран за заключване</string>
     <string name="misc_title">Разни</string>
@@ -29,6 +30,15 @@
     <string name="display_title">Дисплей</string>
     <string name="ui_title">Потребителски интерфейс</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Избор на цвят</string>
     <string name="press_color_to_apply">Изберете цвят по-долу, за да го приложите</string>
@@ -58,6 +68,7 @@
     <string name="next">Next</string>
     <string name="no">No</string>
     <string name="notification_color">通知颜色</string>
+    <string name="rainbow_color">Rainbow color</string>
     <string name="off">Off</string>
     <string name="on">On</string>
     <string name="reset">Нулиране</string>
@@ -67,6 +78,8 @@
     <string name="settings">Settings</string>
     <string name="wallpaper_color">壁纸颜色</string>
     <string name="yes">Yes</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Стойност: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">по подразбиране</string>
@@ -145,7 +158,7 @@
     <string name="volbtn_music_controls_title">Управление на възпроизвеждането</string>
     <string name="volbtn_music_controls_summary">Търси песни чрез дълъго натискане на бутоните на звука докато дисплеят е изключен</string>
     <string name="volbtn_cursor_control_title">Контрол на курсора</string>
-    <string name="volbtn_cursor_control_off">Деактивирано</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Бутоните за звук нагоре/надолу преместват курсора наляво/надясно</string>
     <string name="volbtn_cursor_control_on_reverse">Бутоните за звук нагоре/надолу преместват курсора надясно/наляво</string>
     <string name="power_end_call_title">Край на повикването</string>
@@ -168,9 +181,9 @@
     <string name="keyboard_backlight_seekbar_title">Яркост на клавиатурата</string>
     <string name="backlight_timeout_title">Време на изчакване на осветлението</string>
     <string name="backlight_timeout_unlimited">Не изключвай</string>
-    <string name="backlight_summary_disabled">Деактивирано</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Разрешена за <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Разрешено</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d </xliff:g> секунда</item>
         <item quantity="other"><xliff:g id="seconds">%d </xliff:g> секунди</item>
@@ -185,7 +198,7 @@
     <string name="power_menu_advanced_title">Меню за разширено рестартиране</string>
     <string name="power_menu_airplane_title">Самолетен режим</string>
     <string name="power_menu_torch_title">Фенерче</string>
-    <string name="power_menu_settings_title">Настройки</string>
+    <string name="power_menu_settings_title">Settings</string>
     <string name="power_menu_lockdown_title">Заключване</string>
     <string name="power_menu_lockdown_unavailable">Блокировката е деактивирана, тъй като защитата на клавиатурата не е сигурна</string>
     <string name="power_menu_soundpanel_title">Звуков панел</string>
@@ -252,7 +265,7 @@
     <!-- Edge light -->
     <string name="edge_light_title">全景光效</string>
     <string name="edge_light_summary">有通知时点亮全景光效</string>
-    <string name="edge_light_color_mode_title">Color mode</string>
+    <string name="edge_light_color_mode_title">全景光效颜色模式</string>
     <string name="edge_light_pulse_count_title">Pulse count</string>
     <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
     <string name="edge_light_stroke_width_title">Stroke width</string>
@@ -287,20 +300,20 @@
     <string name="status_bar_quick_qs_pulldown_summary">Дръпнете %1$s страна на лентата на състоянието за показване на бързи настройки</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Ляво</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Дясно</string>
-    <string name="status_bar_quick_qs_pulldown_off">Изключено</string>
-    <string name="status_bar_quick_qs_pulldown_left">Отляво</string>
-    <string name="status_bar_quick_qs_pulldown_right">Отдясно</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_quick_qs_pulldown_left">Ляво</string>
+    <string name="status_bar_quick_qs_pulldown_right">Дясно</string>
     <string name="status_bar_quick_qs_pulldown_always">Винаги показвай бързи настройки в лентата на състоянието</string>
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">Интелигентно издърпване</string>
     <string name="smart_pulldown_summary">Отваряне на бързи настройки, когато има %1$s известия</string>
     <string name="smart_pulldown_none_summary">Отваряне на бързи настройки, когато няма известия</string>
-    <string name="smart_pulldown_off">Изключено</string>
+    <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">няма известия</string>
     <string name="smart_pulldown_dismissable">без отхвърляне</string>
     <string name="smart_pulldown_ongoing">няма текущи</string>
     <!-- Tap to sleep on status bar -->
-    <string name="lockscreen_doubletap_sleep_title">Докосване за заспиване</string>
+    <string name="lockscreen_doubletap_sleep_title">Натиснете, за заспиване</string>
     <string name="lockscreen_doubletap_sleep_summary">Докоснете два пъти където и да е на заключения екран, за да заспи устройството</string>
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Стил на шрифт</string>
@@ -329,8 +342,8 @@
     <string name="status_bar_clock_seconds_title">Секунди на часовника</string>
     <string name="status_bar_clock_seconds_summary">Показване на секундите до часовника в лентата на състоянието</string>
     <string name="status_bar_clock_position_title">Стил на часовника</string>
-    <string name="status_bar_clock_position_right">Отдясно</string>
-    <string name="status_bar_clock_position_left">Отляво</string>
+    <string name="status_bar_clock_position_right">Дясно</string>
+    <string name="status_bar_clock_position_left">Ляво</string>
     <string name="status_bar_clock_position_center">В средата</string>
     <string name="status_bar_clock_position_hidden">Скрит</string>
     <string name="status_bar_clock_auto_hide_title">Автоматично скриване</string>
@@ -414,9 +427,9 @@
     <string name="network_traffic_settings_title">Монитор на мрежовия трафик</string>
     <string name="network_traffic_settings_summary">Показване и персонализиране на текущите нива на мрежов трафик</string>
     <string name="network_traffic_location_title">Местоположение</string>
-    <string name="network_traffic_location_disable">Деактивирано</string>
-    <string name="network_traffic_location_statusbar">Навигационната лента</string>
-    <string name="network_traffic_location_quick_statusbar">Панел бързи настройки на навигационната лента</string>
+    <string name="network_traffic_location_disable">Disabled</string>
+    <string name="network_traffic_location_statusbar">Лента на състоянието</string>
+    <string name="network_traffic_location_quick_statusbar">Панел бързи настройки</string>
     <string name="network_traffic_mode_title">Режим на показване</string>
     <string name="network_traffic_mode_up">Само качване</string>
     <string name="network_traffic_mode_down">Само изтегляне</string>
@@ -445,7 +458,7 @@
     <string name="navbar_arrow_keys_title">Показване на стрелките при въвеждане</string>
     <string name="navbar_arrow_keys_summary">Показване на левия и десния бутон на курсора, докато пишете. Отменя превключвателя на IME.</string>
     <string name="navbar_layout_title">Оформление</string>
-    <string name="navbar_layout_normal">Нормално</string>
+    <string name="navbar_layout_normal">Нормален</string>
     <string name="navbar_layout_compact">Компактен</string>
     <string name="navbar_layout_expanded">展开</string>
     <string name="navbar_layout_leftleaning">Лява ориентация</string>
@@ -484,8 +497,6 @@
     <string name="qs_footer_show_power_menu_title">Пряк път към менюто за захранване</string>
     <string name="qs_footer_services_icon_title">Пряк път за стартиране на услуги</string>
     <string name="qs_footer_settings_icon_title">Пряк път настройки</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid лиценз</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Плъзгач за яркост</string>
     <string name="qs_show_brightness_slider_title">Плъзгач за яркост</string>
@@ -522,17 +533,17 @@
     <string name="pulse_length_blink">Мигане</string>
     <string name="pulse_length_very_short">Много кратко</string>
     <string name="pulse_length_short">Кратко</string>
-    <string name="pulse_length_normal">Нормално</string>
+    <string name="pulse_length_normal">Нормален</string>
     <string name="pulse_length_long">Дълго</string>
     <string name="pulse_length_very_long">Много дълго</string>
     <string name="pulse_speed_very_fast">Много бързо</string>
     <string name="pulse_speed_fast">Бързо</string>
-    <string name="pulse_speed_normal">Нормално</string>
+    <string name="pulse_speed_normal">Нормален</string>
     <string name="pulse_speed_slow">Бавно</string>
     <string name="pulse_speed_very_slow">Много бавно</string>
     <!-- Common light settings strings -->
     <string name="light_brightness_title">Нива на яркостта</string>
-    <string name="light_brightness_normal">Нормално</string>
+    <string name="light_brightness_normal">Нормален</string>
     <string name="light_brightness_zen">Не безпокойте</string>
     <!-- Battery light settings -->
     <string name="light_brightness_category">Настройки на яркостта на светлината</string>
@@ -551,7 +562,7 @@
     <string name="notification_light_enable_title">Активирай светлинната индикация за известията</string>
     <string name="notification_light_summary">Конфигуриране на цвят за известия</string>
     <string name="notification_light_general_title">Основни</string>
-    <string name="notification_light_advanced_title">Разширени</string>
+    <string name="notification_light_advanced_title">Advanced</string>
     <string name="notification_light_applist_title">Приложения</string>
     <string name="notification_light_phonelist_title">Телефон</string>
     <string name="notification_light_use_custom">Използвайте стойности по избор</string>
@@ -594,7 +605,7 @@
     <string name="incall_vibrate_disconnect_title">Вибрация при затваряне</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Нотификация за входящи повиквания</string>
-    <string name="flashlight_on_call_disabled">Деактивирано</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">При звънене</string>
     <string name="flashlight_on_call_no_ringer">При звънене безшумно</string>
     <string name="flashlight_on_call_silent">Когато е напълно безшумно (без звънене или вибриране)</string>
@@ -740,7 +751,7 @@
     <string name="lockscreen_enable_power_menu_summary">Разрешаване на достъп до менюто за захранване на защитен заключен екран</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Дължина на хапчето</string>
-    <string name="short_label">Кратък</string>
+    <string name="short_label">Кратко</string>
     <string name="long_label">Дълго</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">药丸形圆角</string>
@@ -846,44 +857,6 @@
     <string name="adaptive_playback_summary">当音量静音时暂停媒体播放，你可以在息屏前通过增加音量来恢复播放</string>
     <string name="adaptive_playback_intro_text">当音量静音时自动暂停媒体播放，并在设定的时间内音量恢复时自动恢复播放</string>
     <string name="adaptive_playback_timeout_title">播放超时时间</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Лого</string>
-    <string name="status_bar_logo_summary">在状态栏的左侧或右侧显示自定义徽标</string>
-    <string name="status_bar_logo_position_title">Позиция на лого</string>
-    <string name="status_bar_logo_style_title">Стил на логото</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Андроид</string>
-    <string name="status_bar_logo_style_adidas">adidas</string>
-    <string name="status_bar_logo_style_alien">外星人</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">复仇者联盟（Avengers）</string>
-    <string name="status_bar_logo_style_batman">Батман</string>
-    <string name="status_bar_logo_style_batman_tdk">蝙蝠侠：黑暗骑士（Batman The Dark Knight）</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">黑莓</string>
-    <string name="status_bar_logo_style_cannabis">大麻</string>
-    <string name="status_bar_logo_style_emoticon_cool">Емотикон - готин</string>
-    <string name="status_bar_logo_style_emoticon_devil">Емотикон - дявол</string>
-    <string name="status_bar_logo_style_fire">火焰</string>
-    <string name="status_bar_logo_style_heart">Сърце</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">吃豆人（Pac-Man）</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">华硕（ROG）</string>
-    <string name="status_bar_logo_style_spiderman">蜘蛛侠（Spider-Man）</string>
-    <string name="status_bar_logo_style_superman">Супермен</string>
-    <string name="status_bar_logo_style_windows">Уиндоус</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Призрак</string>
-    <string name="status_bar_logo_style_ninja">Нинджа</string>
-    <string name="status_bar_logo_style_robot">Робот</string>
-    <string name="status_bar_logo_style_ironman">钢铁侠（Iron Man）</string>
-    <string name="status_bar_logo_style_captain_america">祖国人（Captain America）</string>
-    <string name="status_bar_logo_style_flash">Светкавица</string>
-    <string name="status_bar_logo_style_tux">Tux（Linux吉祥物）</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu（乌班图）</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">已安装: %1$s</string>
     <string name="app_info_update_time">已更新: %1$s</string>
@@ -942,7 +915,7 @@
     <string name="hide_from_launcher_summary">Скриване от всеки домашен екран. Трябва да рестирате домашния екран при смяна на тази настройка.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Винаги покажи при зареждане</string>
-    <string name="doze_on_charge_summary">Display info when device is charging</string>
+    <string name="doze_on_charge_summary">Показване при зареждане</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Еднакво ниво на звук за звънене и известия</string>
     <!-- Radio Info -->
@@ -955,14 +928,14 @@
     <string name="qs_header_shadow_summary">За по-добра видимост на ярки изображения</string>
     <string name="qs_header_static_provider_title">Статично изображение</string>
     <string name="qs_header_daylight_provider_title">Колекция изображение</string>
-    <string name="qs_header_file_provider_title">Избрана снимка</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Източник на заглавни изображения</string>
     <string name="qs_header_browse_title">Преглед на инсталираните заглавни изображения</string>
     <string name="qs_header_browse_summary">Преглед на всички налични заглавни колекции</string>
     <string name="qs_header_pick_title">Изберете заглавно изображение</string>
     <string name="qs_header_pick_summary">Дълго натиснете върху което и да е изображение, за да го използвате в статичен режим</string>
     <string name="qs_header_file_select_title">Избери снимка</string>
-    <string name="qs_header_file_select_summary">Изберете потребителско изображение</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">You must install a gallery app!</string>
     <string name="qs_header_offset_title">Header image offset</string>
     <string name="qs_header_offset_summary">Adjust the image header size</string>
@@ -1038,7 +1011,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
-    <string name="systemui_restart_yes">Да</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Не сега</string>
     <string name="systemui_restart_process">Рестартиране на launcher-a за прилагане на промените...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1082,6 +1055,9 @@
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Обложки на песните</string>
     <string name="ls_media_art_summary">Да се показват обложките на песните, когато са налице</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Филтър обложки медия</string>
     <string name="ls_media_art_filter_none">Няма</string>
@@ -1107,7 +1083,7 @@
     <string name="pulse_color">Visualizer color</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
     <string name="pulse_color_album">Album art</string>
-    <string name="pulse_color_accent">Акцент</string>
+    <string name="pulse_color_accent">Цвят на акцента</string>
     <string name="pulse_bar_count_title">Number of bars</string>
     <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
     <string name="pulse_bar_count_units">bars</string>
@@ -1119,7 +1095,7 @@
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
+    <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
     <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
     <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
     <!-- Ambient Wallpaper -->
@@ -1204,7 +1180,8 @@
     <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Устройство</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
@@ -1224,7 +1201,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">По подразбиране</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>

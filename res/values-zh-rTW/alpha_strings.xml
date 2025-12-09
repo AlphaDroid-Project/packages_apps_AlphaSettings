@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">按鍵</string>
     <string name="lockscreen_title">鎖定螢幕</string>
     <string name="misc_title">雜項</string>
@@ -29,11 +30,20 @@
     <string name="display_title">顯示</string>
     <string name="ui_title">介面</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">顏色選取器</string>
     <string name="press_color_to_apply">輕觸下方顏色以套用</string>
     <string name="set">設定</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">預設</string>
     <!-- General strings -->
     <string name="accent_color">強調色（預設）</string>
     <string name="add">Add</string>
@@ -43,7 +53,7 @@
     <string name="caution">注意</string>
     <string name="choose_app">選擇應用程式</string>
     <string name="custom_color">自訂顏色</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">預設</string>
     <string name="delete">刪除</string>
     <string name="delete_message">移除所選項目？</string>
     <string name="disable">停用</string>
@@ -148,7 +158,7 @@
     <string name="volbtn_music_controls_title">播放控制</string>
     <string name="volbtn_music_controls_summary">螢幕關閉時，長按音量鍵切換曲目</string>
     <string name="volbtn_cursor_control_title">鍵盤游標控制</string>
-    <string name="volbtn_cursor_control_off">停用</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">按音量上／下鍵來左／右移動游標</string>
     <string name="volbtn_cursor_control_on_reverse">按音量上／下鍵來右／左移動游標</string>
     <string name="power_end_call_title">結束通話</string>
@@ -171,9 +181,9 @@
     <string name="keyboard_backlight_seekbar_title">鍵盤亮度</string>
     <string name="backlight_timeout_title">背光逾時</string>
     <string name="backlight_timeout_unlimited">永不關閉</string>
-    <string name="backlight_summary_disabled">停用</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光燈開啟 <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">啟用</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 秒</item>
     </plurals>
@@ -289,7 +299,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">沿著狀態列的%1$s邊緣下拉開啟快速設定面板</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">左側</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">右側</string>
-    <string name="status_bar_quick_qs_pulldown_off">停用</string>
+    <string name="status_bar_quick_qs_pulldown_off">關閉</string>
     <string name="status_bar_quick_qs_pulldown_left">左側</string>
     <string name="status_bar_quick_qs_pulldown_right">右側</string>
     <string name="status_bar_quick_qs_pulldown_always">下拉狀態列時一律開啟快速設定</string>
@@ -297,12 +307,12 @@
     <string name="smart_pulldown_title">智慧下拉</string>
     <string name="smart_pulldown_summary">當有 %1$s 條通知時打開快速設定</string>
     <string name="smart_pulldown_none_summary">沒有通知時打開快速設定面板</string>
-    <string name="smart_pulldown_off">停用</string>
+    <string name="smart_pulldown_off">關閉</string>
     <string name="smart_pulldown_none">沒有通知時</string>
     <string name="smart_pulldown_dismissable">沒有可清除通知時</string>
     <string name="smart_pulldown_ongoing">沒有正在進行的通知時</string>
     <!-- Tap to sleep on status bar -->
-    <string name="lockscreen_doubletap_sleep_title">雙擊休眠</string>
+    <string name="lockscreen_doubletap_sleep_title">雙擊關閉螢幕</string>
     <string name="lockscreen_doubletap_sleep_summary">在鎖定畫面空白處點擊兩下，使裝置進入休眠</string>
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">字型樣式</string>
@@ -416,7 +426,7 @@
     <string name="network_traffic_settings_title">網路流量指示器</string>
     <string name="network_traffic_settings_summary">顯示並自訂目前網路流量狀態</string>
     <string name="network_traffic_location_title">位置</string>
-    <string name="network_traffic_location_disable">停用</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">狀態列</string>
     <string name="network_traffic_location_quick_statusbar">快速狀態列</string>
     <string name="network_traffic_mode_title">顯示模式</string>
@@ -446,7 +456,7 @@
     <string name="navbar_layout_category_title">佈局</string>
     <string name="navbar_arrow_keys_title">輸入時顯示方向鍵</string>
     <string name="navbar_arrow_keys_summary">打字時顯示左右遊標按鈕以取代輸入法切換</string>
-    <string name="navbar_layout_title">版面</string>
+    <string name="navbar_layout_title">佈局</string>
     <string name="navbar_layout_normal">正常</string>
     <string name="navbar_layout_compact">精簡模式</string>
     <string name="navbar_layout_expanded">延伸</string>
@@ -486,8 +496,6 @@
     <string name="qs_footer_show_power_menu_title">電源選單圖示</string>
     <string name="qs_footer_services_icon_title">正在運作中的服務圖示</string>
     <string name="qs_footer_settings_icon_title">設定圖示</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid 條款</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">亮度控制條</string>
     <string name="qs_show_brightness_slider_title">亮度控制條</string>
@@ -596,11 +604,11 @@
     <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">來電時閃爍閃光燈</string>
-    <string name="flashlight_on_call_disabled">停用</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">響鈴時</string>
     <string name="flashlight_on_call_no_ringer">靜音時</string>
     <string name="flashlight_on_call_silent">無響鈴或震動時</string>
-    <string name="flashlight_on_call_always">總是</string>
+    <string name="flashlight_on_call_always">一律使用 @Tele_zh_TW 來源</string>
     <string name="flashlight_on_call_ignore_dnd_title">忽略零打擾模式</string>
     <string name="flashlight_on_call_ignore_dnd_summary">零打擾模式下閃爍閃光燈</string>
     <string name="flashlight_on_call_rate_title">閃爍頻率</string>
@@ -694,7 +702,7 @@
     <string name="bluetooth_timeout_summary">不要自動關閉藍牙</string>
     <string name="bluetooth_timeout_summary_auto">如果沒有連接任何裝置，則在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉藍牙</string>
     <!-- Custom Timeouts -->
-    <string name="custom_timeout_summary_never">永不</string>
+    <string name="custom_timeout_summary_never">從不</string>
     <string name="custom_timeout_summary_5secs">5 秒</string>
     <string name="custom_timeout_summary_10secs">10 秒</string>
     <string name="custom_timeout_summary_15secs">15 秒</string>
@@ -749,7 +757,7 @@
     <string name="thick_label">粗</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">高</string>
-    <string name="back_height_high_label">低</string>
+    <string name="back_height_high_label">底部</string>
     <string name="back_height_title">返回手勢觸發高度</string>
     <string name="back_height_summary">調整能夠觸發返回手勢的高度</string>
     <!-- Notification guts kill app button -->
@@ -847,44 +855,6 @@
     <string name="adaptive_playback_summary">在靜音時暫停媒體播放，並在一定時間內逐漸恢復音量</string>
     <string name="adaptive_playback_intro_text">靜音後，媒體將會自動暫停播放，當音量在設定時間內恢復時會自動恢復播放。</string>
     <string name="adaptive_playback_timeout_title">逾時長度</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">圖示</string>
-    <string name="status_bar_logo_summary">在狀態列左側顯示自訂圖示</string>
-    <string name="status_bar_logo_position_title">圖示位置</string>
-    <string name="status_bar_logo_style_title">圖示樣式</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">愛迪達</string>
-    <string name="status_bar_logo_style_alien">外星人</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">復仇者聯盟</string>
-    <string name="status_bar_logo_style_batman">蝙蝠俠</string>
-    <string name="status_bar_logo_style_batman_tdk">蝙蝠俠</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">生化危害</string>
-    <string name="status_bar_logo_style_blackberry">黑莓</string>
-    <string name="status_bar_logo_style_cannabis">大麻</string>
-    <string name="status_bar_logo_style_emoticon_cool">耍酷表情</string>
-    <string name="status_bar_logo_style_emoticon_devil">惡魔表情</string>
-    <string name="status_bar_logo_style_fire">火焰</string>
-    <string name="status_bar_logo_style_heart">愛心</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">小精靈</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">蜘蛛人</string>
-    <string name="status_bar_logo_style_superman">超人</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">幽靈</string>
-    <string name="status_bar_logo_style_ninja">忍者</string>
-    <string name="status_bar_logo_style_robot">機器人</string>
-    <string name="status_bar_logo_style_ironman">鋼鐵人</string>
-    <string name="status_bar_logo_style_captain_america">美國隊長</string>
-    <string name="status_bar_logo_style_flash">閃電</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">已安裝: %1$s</string>
     <string name="app_info_update_time">更新於：%1$s</string>
@@ -955,14 +925,14 @@
     <string name="qs_header_shadow_summary">為了在使用較明亮的圖片時能有更好的可見度</string>
     <string name="qs_header_static_provider_title">靜態圖像</string>
     <string name="qs_header_daylight_provider_title">圖像合集</string>
-    <string name="qs_header_file_provider_title">自訂圖像</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">頂部圖像提供者</string>
     <string name="qs_header_browse_title">瀏覽已安裝的頂部圖像</string>
     <string name="qs_header_browse_summary">瀏覽所有可用的頂部圖像合集</string>
     <string name="qs_header_pick_title">選擇頂部圖像</string>
     <string name="qs_header_pick_summary">選擇用於靜態模式的圖像</string>
     <string name="qs_header_file_select_title">選擇圖像</string>
-    <string name="qs_header_file_select_summary">選擇自訂圖像</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">您必須安裝相簿應用程式！</string>
     <string name="qs_header_offset_title">頂部圖像位移</string>
     <string name="qs_header_offset_summary">調整頂部圖像大小</string>
@@ -1038,7 +1008,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">需要重新啟動系統介面</string>
     <string name="systemui_restart_message">需要重新啟動系統介面以套用更改，是否現在重新啟動？</string>
-    <string name="systemui_restart_yes">是</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">暫時不要</string>
     <string name="systemui_restart_process">正在重新啟動系統介面以套用變更...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1082,6 +1052,9 @@
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">專輯封面</string>
     <string name="ls_media_art_summary">可用時顯示專輯封面</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">媒體封面效果</string>
     <string name="ls_media_art_filter_none">無</string>
@@ -1107,7 +1080,7 @@
     <string name="pulse_color">可視化效果顏色</string>
     <string name="pulse_color_lavalamp">熔岩燈</string>
     <string name="pulse_color_album">專輯封面</string>
-    <string name="pulse_color_accent">強調色</string>
+    <string name="pulse_color_accent">主題顏色</string>
     <string name="pulse_bar_count_title">柱數</string>
     <string name="pulse_bar_count_summary">設定在音樂可視化效果中顯示的柱狀數量</string>
     <string name="pulse_bar_count_units">條數</string>
@@ -1204,7 +1177,8 @@
     <string name="maintainer_summary">正在尋找維護者...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">裝置</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
@@ -1224,7 +1198,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>

@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Tasten</string>
     <string name="lockscreen_title">Sperrbildschirm</string>
     <string name="misc_title">Sonstiges</string>
@@ -29,11 +30,20 @@
     <string name="display_title">Bildschirm</string>
     <string name="ui_title">Benutzeroberfläche</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Farbauswahl</string>
     <string name="press_color_to_apply">Gewünschte Farbe antippen, um sie anzuwenden</string>
     <string name="set">Übernehmen</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Standard</string>
     <!-- General strings -->
     <string name="accent_color">Akzentfarbe (Standard)</string>
     <string name="add">Add</string>
@@ -43,7 +53,7 @@
     <string name="caution">Achtung</string>
     <string name="choose_app">App auswählen</string>
     <string name="custom_color">Benutzerdefinierte Farbe</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">Standard</string>
     <string name="delete">Löschen</string>
     <string name="delete_message">Ausgewählte löschen?</string>
     <string name="disable">Deaktivieren</string>
@@ -68,6 +78,8 @@
     <string name="settings">Einstellungen</string>
     <string name="wallpaper_color">Hintergrundfarbe</string>
     <string name="yes">Yes</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Wert: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Standardmäßig</string>
@@ -146,7 +158,7 @@
     <string name="volbtn_music_controls_title">Musikwiedergabe steuern</string>
     <string name="volbtn_music_controls_summary">Bei ausgeschaltetem Display durch langes Drücken der Lautstärketasten zum nächsten/vorherigen Titel springen</string>
     <string name="volbtn_cursor_control_title">Cursorsteuerung mit Lautstärketasten</string>
-    <string name="volbtn_cursor_control_off">Deaktiviert</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts</string>
     <string name="volbtn_cursor_control_on_reverse">Lauter-/Leiser-Taste bewegt den Cursor nach rechts/links</string>
     <string name="power_end_call_title">Anruf beenden</string>
@@ -169,9 +181,9 @@
     <string name="keyboard_backlight_seekbar_title">Tastaturhelligkeit</string>
     <string name="backlight_timeout_title">Dauer der Beleuchtung</string>
     <string name="backlight_timeout_unlimited">Nie ausschalten</string>
-    <string name="backlight_summary_disabled">Deaktiviert</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Aktiviert für <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Aktiviert</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
@@ -330,8 +342,8 @@
     <string name="status_bar_clock_seconds_title">Sekundenanzeige</string>
     <string name="status_bar_clock_seconds_summary">Sekunden neben der Uhr in der Statusleiste anzeigen</string>
     <string name="status_bar_clock_position_title">Anzeigeort der Uhr</string>
-    <string name="status_bar_clock_position_right">Rechts</string>
-    <string name="status_bar_clock_position_left">Links</string>
+    <string name="status_bar_clock_position_right">Rechter Rand</string>
+    <string name="status_bar_clock_position_left">Linker Rand</string>
     <string name="status_bar_clock_position_center">Mittig</string>
     <string name="status_bar_clock_position_hidden">Ausgeblendet</string>
     <string name="status_bar_clock_auto_hide_title">Automatisch ausblenden</string>
@@ -415,9 +427,9 @@
     <string name="network_traffic_settings_title">Netzwerkverkehrsanzeige</string>
     <string name="network_traffic_settings_summary">Anpassen der Anzeige des Netzwerkverkehrs</string>
     <string name="network_traffic_location_title">Anzeigeort</string>
-    <string name="network_traffic_location_disable">Deaktiviert</string>
-    <string name="network_traffic_location_statusbar">Statusleiste (immer)</string>
-    <string name="network_traffic_location_quick_statusbar">Statusleiste (nur bei geöffnetem Benachrichtigungsfeld)</string>
+    <string name="network_traffic_location_disable">Disabled</string>
+    <string name="network_traffic_location_statusbar">Statusleiste</string>
+    <string name="network_traffic_location_quick_statusbar">Statusleiste (bei geöffnetem Benachrichtigungsfeld)</string>
     <string name="network_traffic_mode_title">Anzeigemodus</string>
     <string name="network_traffic_mode_up">Nur Upload</string>
     <string name="network_traffic_mode_down">Nur Download</string>
@@ -485,8 +497,6 @@
     <string name="qs_footer_show_power_menu_title">Verknüpfung zum Ein-/Aus-Menü</string>
     <string name="qs_footer_services_icon_title">Verknüpfung zu aktiven Diensten</string>
     <string name="qs_footer_settings_icon_title">Verknüpfung zu Einstellungen</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Rechtliche Hinweise zu crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Helligkeitsregler</string>
     <string name="qs_show_brightness_slider_title">Helligkeitsregler</string>
@@ -595,7 +605,7 @@
     <string name="incall_vibrate_disconnect_title">Beim Trennen der Verbindung vibrieren</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Aufblitzen bei eingehendem Anruf</string>
-    <string name="flashlight_on_call_disabled">Deaktiviert</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Wenn es klingelt</string>
     <string name="flashlight_on_call_no_ringer">Wenn Klingelton stummgeschaltet</string>
     <string name="flashlight_on_call_silent">Wenn ganz stummgeschaltet (weder Klingelton noch Vibration)</string>
@@ -693,7 +703,7 @@
     <string name="bluetooth_timeout_summary">Bluetooth nie automatisch ausschalten</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth wird nach <xliff:g id="timeout_description">%1$s</xliff:g> ausgeschaltet, sofern kein Gerät verbunden ist</string>
     <!-- Custom Timeouts -->
-    <string name="custom_timeout_summary_never">Nie</string>
+    <string name="custom_timeout_summary_never">Niemals</string>
     <string name="custom_timeout_summary_5secs">5 Sekunden</string>
     <string name="custom_timeout_summary_10secs">10 Sekunden</string>
     <string name="custom_timeout_summary_15secs">15 Sekunden</string>
@@ -847,44 +857,6 @@
     <string name="adaptive_playback_summary">Medien bei Stummschaltung pausieren, Wiedergabe durch Lautstärkeerhöhung innerhalb des Zeitlimits wiederaufnehmen</string>
     <string name="adaptive_playback_intro_text">Medien werden bei Stummschaltung automatisch pausiert und bei Aufhebung der Stummschaltung innerhalb des Zeitlimits wieder fortgesetzt</string>
     <string name="adaptive_playback_timeout_title">Wiedergabe-Zeitlimit</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Benutzerdefiniertes Logo rechts oder links in der Statusleiste anzeigen</string>
-    <string name="status_bar_logo_position_title">Logoposition</string>
-    <string name="status_bar_logo_style_title">Logostil</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alien</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon: Cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticon: Teufel</string>
-    <string name="status_bar_logo_style_fire">Feuer</string>
-    <string name="status_bar_logo_style_heart">Herz</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-Man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Geist</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Roboter</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Flash</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installiert: %1$s</string>
     <string name="app_info_update_time">Aktualisiert: %1$s</string>
@@ -956,14 +928,14 @@
     <string name="qs_header_shadow_summary">Für bessere Sichtbarkeit auf hellen Hintergründen</string>
     <string name="qs_header_static_provider_title">Statisches Bild</string>
     <string name="qs_header_daylight_provider_title">Bildersammlung</string>
-    <string name="qs_header_file_provider_title">Benutzerdefiniertes Bild</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Kopfzeilenanbieter</string>
     <string name="qs_header_browse_title">Installierte Kopfzeilen durchsuchen</string>
     <string name="qs_header_browse_summary">Durchsuche alle verfügbaren Kopfzeilenpakete</string>
     <string name="qs_header_pick_title">Hintergrundbild für Kopfzeile auswählen</string>
     <string name="qs_header_pick_summary">Bild für statischen Modus wählen</string>
     <string name="qs_header_file_select_title">Bild auswählen</string>
-    <string name="qs_header_file_select_summary">Benutzerdefiniertes Bild auswählen</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">Dafür muss eine Galerie-App installiert sein!</string>
     <string name="qs_header_offset_title">Zoomfaktor des Kopfzeilenbilds</string>
     <string name="qs_header_offset_summary">Größe des Kopfzeilenbilds anpassen</string>
@@ -1037,11 +1009,11 @@
     <string name="show_ime_space_title">IME-Schaltflächenfreiraum anzeigen</string>
     <string name="show_ime_space_summary">Aktiviert die Schnellwechselfunktion der Eingabemethode, um die Eingabemethode zu wechseln oder die Bildschirmtastatur beim Tippen über die Funktionsleiste am unteren Bildschirmrand auszublenden</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">Neustart Systemoberfläche erforderlich</string>
+    <string name="systemui_restart_title">System-UI-Neustart erforderlich</string>
     <string name="systemui_restart_message">Zum Anwenden der Änderungen ist ein Neustart der Systemoberfläche notwendig. Jetzt Systemoberfläche neu starten?</string>
-    <string name="systemui_restart_yes">Ja</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Später</string>
-    <string name="systemui_restart_process">System-UI wird neu gestartet, um Änderungen anzuwenden …</string>
+    <string name="systemui_restart_process">Neustart der Systemoberfläche, um Änderungen anzuwenden...</string>
     <!-- Notification / Power Menu Styles -->
     <string name="notification_style_title">Benachrichtigungsdesign</string>
     <string name="powermenu_style_title">Stil des Ein-/Aus-Menüs</string>
@@ -1083,6 +1055,9 @@
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Albumcover</string>
     <string name="ls_media_art_summary">Albumcover anzeigen, wenn verfügbar</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Albumcover-Filter</string>
     <string name="ls_media_art_filter_none">Aus</string>
@@ -1205,7 +1180,8 @@
     <string name="maintainer_summary">Suche nach Entwickler</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Gerät</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
@@ -1225,7 +1201,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>

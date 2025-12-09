@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Pulsanti</string>
     <string name="lockscreen_title">Schermata di blocco</string>
     <string name="misc_title">Varie</string>
@@ -29,11 +30,20 @@
     <string name="display_title">Schermo</string>
     <string name="ui_title">Interfaccia utente</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selettore dei colori</string>
     <string name="press_color_to_apply">Premi sul colore sottostante per applicare</string>
     <string name="set">Imposta</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Predefinito</string>
     <!-- General strings -->
     <string name="accent_color">Colore primario (predefinito)</string>
     <string name="add">Add</string>
@@ -43,7 +53,7 @@
     <string name="caution">Attenzione</string>
     <string name="choose_app">Scegli applicazione</string>
     <string name="custom_color">Colore personalizzato</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">Predefinito</string>
     <string name="delete">Elimina</string>
     <string name="delete_message">Eliminare l\'elemento selezionato?</string>
     <string name="disable">Disabilita</string>
@@ -68,6 +78,8 @@
     <string name="settings">Impostazioni</string>
     <string name="wallpaper_color">Colore sfondo</string>
     <string name="yes">Yes</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valore: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">impostazione predefinita</string>
@@ -146,7 +158,7 @@
     <string name="volbtn_music_controls_title">Controllo di riproduzione</string>
     <string name="volbtn_music_controls_summary">Cambia la traccia musicale premendo a lungo i tasti del volume quando lo schermo è spento</string>
     <string name="volbtn_cursor_control_title">Controllo cursore con tasti</string>
-    <string name="volbtn_cursor_control_off">Disabilitato</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">I pulsanti Volume su/giù spostano il cursore nel testo a sinistra/destra</string>
     <string name="volbtn_cursor_control_on_reverse">I pulsanti volume su/giù spostano il cursore a destra/sinistra</string>
     <string name="power_end_call_title">Termina chiamata</string>
@@ -169,9 +181,9 @@
     <string name="keyboard_backlight_seekbar_title">Luminosità tastiera</string>
     <string name="backlight_timeout_title">Tempo di illuminazione</string>
     <string name="backlight_timeout_unlimited">Non spegnere</string>
-    <string name="backlight_summary_disabled">Disattivato</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Abilita per <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Abilitato</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds"> %d </xliff:g> secondo</item>
         <item quantity="other"><xliff:g id="seconds"> %d </xliff:g> secondi</item>
@@ -288,7 +300,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">Il bordo %1$s della barra di stato mostra le impostazioni rapide</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Sinistra</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Destra</string>
-    <string name="status_bar_quick_qs_pulldown_off">Spenta</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
     <string name="status_bar_quick_qs_pulldown_left">Sinistra</string>
     <string name="status_bar_quick_qs_pulldown_right">Destra</string>
     <string name="status_bar_quick_qs_pulldown_always">Mostra sempre le impostazioni rapide nella discesa della barra di stato</string>
@@ -296,7 +308,7 @@
     <string name="smart_pulldown_title">Discesa intelligente</string>
     <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche presenti</string>
     <string name="smart_pulldown_none_summary">Apri le impostazioni rapide quando non ci sono notifiche presenti</string>
-    <string name="smart_pulldown_off">Spenta</string>
+    <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">nessuna notifica</string>
     <string name="smart_pulldown_dismissable">non rimovibile</string>
     <string name="smart_pulldown_ongoing">non in corso</string>
@@ -345,9 +357,9 @@
     <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
     <string name="status_bar_am_pm_normal">Normale</string>
     <string name="status_bar_am_pm_small">Piccola</string>
-    <string name="status_bar_am_pm_hidden">Nascosta</string>
+    <string name="status_bar_am_pm_hidden">Nascosto</string>
     <string name="status_bar_date_title">Data</string>
-    <string name="status_bar_date_none">Nascosta</string>
+    <string name="status_bar_date_none">Nascosto</string>
     <string name="status_bar_date_small">Piccola</string>
     <string name="status_bar_date_normal">Normale</string>
     <string name="status_bar_date_format_title">Formato della data</string>
@@ -371,9 +383,9 @@
     <string name="status_bar_battery_style_dotted_circle">Cerchio tratteggiato</string>
     <string name="status_bar_battery_style_filled_circle">Cerchio pieno</string>
     <string name="status_bar_battery_style_text">Testo</string>
-    <string name="status_bar_battery_style_hidden">Nascosta</string>
+    <string name="status_bar_battery_style_hidden">Nascosto</string>
     <string name="status_bar_battery_percent_title">Percentuale batteria</string>
-    <string name="status_bar_battery_percent_hidden">Nascosta</string>
+    <string name="status_bar_battery_percent_hidden">Nascosto</string>
     <string name="status_bar_battery_percent_text_inside">All\'interno dell\'icona</string>
     <string name="status_bar_battery_percent_text_next_right">Accanto all\'icona (a destra)</string>
     <string name="status_bar_battery_percent_text_next_left">Accanto all\'icona (a sinistra)</string>
@@ -415,7 +427,7 @@
     <string name="network_traffic_settings_title">Monitoraggio del traffico di rete</string>
     <string name="network_traffic_settings_summary">Visualizza e personalizza i livelli di traffico di rete attuali</string>
     <string name="network_traffic_location_title">Posizione</string>
-    <string name="network_traffic_location_disable">Disattivato</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Barra di stato</string>
     <string name="network_traffic_location_quick_statusbar">Barra di stato rapida</string>
     <string name="network_traffic_mode_title">Modalità schermo</string>
@@ -485,8 +497,6 @@
     <string name="qs_footer_show_power_menu_title">Scorciatoia menù alimentazione</string>
     <string name="qs_footer_services_icon_title">Collegamento ai servizi in esecuzione</string>
     <string name="qs_footer_settings_icon_title">Collegamento alle impostazioni</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">team crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Cursore luminosità</string>
     <string name="qs_show_brightness_slider_title">Quando mostrare</string>
@@ -595,7 +605,7 @@
     <string name="incall_vibrate_disconnect_title">Vibra alla chiusura</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Torcia lampeggiante per le chiamate in arrivo</string>
-    <string name="flashlight_on_call_disabled">Disabilitato</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Quando squilla</string>
     <string name="flashlight_on_call_no_ringer">Quando la suoneria è silenziosa</string>
     <string name="flashlight_on_call_silent">Quando completamente silenzioso (nessuna suoneria o vibrazione)</string>
@@ -614,7 +624,7 @@
     <string name="old_mobiletype_summary">Unisci le icone del segnale e del tipo di segnale</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animazione di spegnimento dello schermo</string>
-    <string name="screen_off_animation_default">Predefinita</string>
+    <string name="screen_off_animation_default">Predefinito</string>
     <string name="screen_off_animation_crt">Tubo catodico</string>
     <string name="screen_off_animation_scale">Scala</string>
     <!-- Fingerprint authentication vibration -->
@@ -741,15 +751,15 @@
     <string name="lockscreen_enable_power_menu_summary">Consente l\'accesso al menù di alimentazione sulla schermata di blocco</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Lunghezza della barra</string>
-    <string name="short_label">Corta</string>
-    <string name="long_label">Lunga</string>
+    <string name="short_label">Breve</string>
+    <string name="long_label">Lungo</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Raggio della barra</string>
     <string name="thin_label">Sottile</string>
     <string name="thick_label">Spesso</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Pieno</string>
-    <string name="back_height_high_label">Basso</string>
+    <string name="back_height_high_label">In basso</string>
     <string name="back_height_title">Altezza gesto indietro</string>
     <string name="back_height_summary">Altezza dello schermo valida per il gesto indietro</string>
     <!-- Notification guts kill app button -->
@@ -847,44 +857,6 @@
     <string name="adaptive_playback_summary">Metti in pausa quando il volume multimediale è disattivato e riprendi la riproduzione aumentando il volume in base al tempo impostato</string>
     <string name="adaptive_playback_intro_text">Metti in pausa automaticamente quando il volume è silenziato e riprendi automaticamente quando il volume viene ripristinato entro il tempo impostato</string>
     <string name="adaptive_playback_timeout_title">Timeout riproduzione</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Mostra un logo personalizzato a sinistra o a destra della barra di stato</string>
-    <string name="status_bar_logo_position_title">Posizione logo</string>
-    <string name="status_bar_logo_style_title">Stile logo</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Alieno</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Avengers</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman Il Cavaliere Oscuro</string>
-    <string name="status_bar_logo_style_beats">Battiti</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Cannabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticon diavolo</string>
-    <string name="status_bar_logo_style_fire">Fiamma</string>
-    <string name="status_bar_logo_style_heart">Cuore</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-Man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Fantasma</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Iron Man</string>
-    <string name="status_bar_logo_style_captain_america">Captain America</string>
-    <string name="status_bar_logo_style_flash">Fulmine</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installato: %1$s</string>
     <string name="app_info_update_time">Aggiornato: %1$s</string>
@@ -957,14 +929,14 @@
     <string name="qs_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
     <string name="qs_header_static_provider_title">Immagine statica</string>
     <string name="qs_header_daylight_provider_title">Collezione di immagini</string>
-    <string name="qs_header_file_provider_title">Immagine personalizzata</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Provider intestazione</string>
     <string name="qs_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="qs_header_browse_summary">Sfoglia tutti i pacchetti delle immagini d\'intestazione disponibili</string>
     <string name="qs_header_pick_title">Seleziona immagine d\'intestazione</string>
     <string name="qs_header_pick_summary">Seleziona un\'immagine da utilizzare per la modalità statica</string>
     <string name="qs_header_file_select_title">Seleziona immagine</string>
-    <string name="qs_header_file_select_summary">Seleziona immagine personalizzata</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">Devi installare un\'app galleria!</string>
     <string name="qs_header_offset_title">Spostamento immagine intestazione</string>
     <string name="qs_header_offset_summary">Regola la dimensione intestazione immagine</string>
@@ -1040,7 +1012,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Riavvio SystemUI richiesto</string>
     <string name="systemui_restart_message">Per applicare i cambiamenti, è richiesto un riavvio della SystemUI. Riavviare la SystemUI ora?</string>
-    <string name="systemui_restart_yes">Sì</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Non ora</string>
     <string name="systemui_restart_process">Riavvio SystemUI per applicare i cambiamenti...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1084,6 +1056,9 @@
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Copertina applicazioni multimediali</string>
     <string name="ls_media_art_summary">Mostra la copertina multimediale sulla schermata di blocco quando disponibile</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Filtro copertina multimediale</string>
     <string name="ls_media_art_filter_none">Nessuna</string>
@@ -1109,7 +1084,7 @@
     <string name="pulse_color">Colore del visualizzatore</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
     <string name="pulse_color_album">Copertina album</string>
-    <string name="pulse_color_accent">Colore primario</string>
+    <string name="pulse_color_accent">Colore in rilievo</string>
     <string name="pulse_bar_count_title">Numero di barre</string>
     <string name="pulse_bar_count_summary">Imposta quante barre sono mostrate nel visualizzatore</string>
     <string name="pulse_bar_count_units">barre</string>
@@ -1206,7 +1181,8 @@
     <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Dispositivo</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
@@ -1226,7 +1202,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>

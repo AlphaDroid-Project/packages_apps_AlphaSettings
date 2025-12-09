@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">Butoane</string>
     <string name="lockscreen_title">Ecran de blocare</string>
     <string name="misc_title">Diverse</string>
@@ -29,11 +30,20 @@
     <string name="display_title">Afișaj</string>
     <string name="ui_title">Interfață utilizator</string>
     <string name="ui_title_short">UI</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Selectorul de culoare</string>
     <string name="press_color_to_apply">Apăsaţi pe culoarea de mai jos pentru a aplica</string>
     <string name="set">Setează</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Prestabilit</string>
     <!-- General strings -->
     <string name="accent_color">Culoare accent (implicit)</string>
     <string name="add">Add</string>
@@ -43,7 +53,7 @@
     <string name="caution">Atenţie</string>
     <string name="choose_app">Alegeți aplicația</string>
     <string name="custom_color">Culoare personalizată</string>
-    <string name="default_value">Default</string>
+    <string name="default_value">Prestabilit</string>
     <string name="delete">Șterge</string>
     <string name="delete_message">Şterge elementul selectat?</string>
     <string name="disable">Dezactivare</string>
@@ -128,7 +138,7 @@
     <string name="hardware_keys_action_last_app">Ultima aplicație</string>
     <string name="hardware_keys_action_split_screen">Ecran împărțit</string>
     <string name="hardware_keys_action_close_app">Închide aplicația</string>
-    <string name="hardware_keys_action_play_pause_music">Redare/pauză muzică</string>
+    <string name="hardware_keys_action_play_pause_music">Redare/pauză Muzicii</string>
     <string name="hardware_keys_action_torch">Comutare lanternă</string>
     <string name="hardware_keys_action_screenshot">Captură ecran</string>
     <string name="hardware_keys_action_volume_panel">Comută panoul de volum</string>
@@ -140,7 +150,7 @@
     <string name="home_answer_call_summary">Răspundeți la apelurile primite apăsând butonul acasă</string>
     <string name="camera_sleep_on_release_title">Aruncare privire la ecran</string>
     <string name="camera_sleep_on_release_summary">O jumătate de apăsare va ține ecranul aprins atât timp cât butonul este apăsat</string>
-    <string name="camera_launch_title">Lansare Cameră foto</string>
+    <string name="camera_launch_title">Lansare cameră foto</string>
     <string name="camera_launch_summary">O apăsare prelungită urmarită de lăsarea butonului va porni camera foto</string>
     <string name="torch_long_press_power_gesture_title">Apăsaţi lung pentru lanternă</string>
     <string name="torch_long_press_power_gesture_desc">Activați lanterna prin apăsarea lungă a butonului pornire în timp ce ecranul este oprit</string>
@@ -148,7 +158,7 @@
     <string name="volbtn_music_controls_title">Control redare</string>
     <string name="volbtn_music_controls_summary">Căutați piese prin apăsarea lungă a butoanelor de volum când ecranul este oprit</string>
     <string name="volbtn_cursor_control_title">Control cursor tastatură</string>
-    <string name="volbtn_cursor_control_off">Dezactivat</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volum sus/jos mută cursorul stânga/dreapta</string>
     <string name="volbtn_cursor_control_on_reverse">Tastele volum sus/jos mută cursorul dreapta/stânga</string>
     <string name="power_end_call_title">Terminare apel</string>
@@ -171,9 +181,9 @@
     <string name="keyboard_backlight_seekbar_title">Luminozitate tastatură</string>
     <string name="backlight_timeout_title">Timp expirare iluminare</string>
     <string name="backlight_timeout_unlimited">Nu opriți</string>
-    <string name="backlight_summary_disabled">Dezactivat</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Activat pentru <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Activ</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> secundă</item>
         <item quantity="few"><xliff:g id="secunde">%d</xliff:g> secunde</item>
@@ -304,7 +314,7 @@
     <string name="smart_pulldown_dismissable">nerevocabil</string>
     <string name="smart_pulldown_ongoing">nu este în curs de desfăşurare</string>
     <!-- Tap to sleep on status bar -->
-    <string name="lockscreen_doubletap_sleep_title">Atingeți pentru a adormi</string>
+    <string name="lockscreen_doubletap_sleep_title">Dublu tap pentru sleep</string>
     <string name="lockscreen_doubletap_sleep_summary">Atingeți de două ori ecranul de blocare pentru a adormi dispozitivul</string>
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Stil font</string>
@@ -418,7 +428,7 @@
     <string name="network_traffic_settings_title">Monitorizare trafic rețea</string>
     <string name="network_traffic_settings_summary">Afişare şi personalizare monitor trafic reţea</string>
     <string name="network_traffic_location_title">Locaţie</string>
-    <string name="network_traffic_location_disable">Dezactivat</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Bara de stare</string>
     <string name="network_traffic_location_quick_statusbar">Bara de stare rapidă</string>
     <string name="network_traffic_mode_title">Mod de afișare</string>
@@ -488,8 +498,6 @@
     <string name="qs_footer_show_power_menu_title">Scurtătură meniu pornire</string>
     <string name="qs_footer_services_icon_title">Scurtătură servicii rulante</string>
     <string name="qs_footer_settings_icon_title">Scurtătură setări</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Legal crDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Cursor luminozitate</string>
     <string name="qs_show_brightness_slider_title">Cursor luminozitate</string>
@@ -518,7 +526,7 @@
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Editare setări lumină</string>
     <string name="pulse_speed_title">Durata și viteza pulsării</string>
-    <string name="default_time">Normală</string>
+    <string name="default_time">Normal</string>
     <string name="custom_time">Personalizat</string>
     <string name="brightness">Nivel de luminozitate</string>
     <!-- Values for the notification light pulse spinners -->
@@ -598,7 +606,7 @@
     <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Clipire lanternă pentru apel primit</string>
-    <string name="flashlight_on_call_disabled">Dezactivat</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">Când sună</string>
     <string name="flashlight_on_call_no_ringer">Când soneria este silenţioasă</string>
     <string name="flashlight_on_call_silent">Când în întregime silențios (fără sonerie sau vibrator)</string>
@@ -617,7 +625,7 @@
     <string name="old_mobiletype_summary">Îmbinați semnalul și pictogramele tipului de semnal</string>
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Animație oprire ecran</string>
-    <string name="screen_off_animation_default">Implicit</string>
+    <string name="screen_off_animation_default">Prestabilit</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scala</string>
     <!-- Fingerprint authentication vibration -->
@@ -626,7 +634,7 @@
     <string name="fp_error_vibrate_title">Vibrație eroare amprentă</string>
     <string name="fp_error_vibrate_summary">Vibrează când autentificarea cu amprentă eșuează</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Animație la încărcare</string>
+    <string name="charging_animation_title">Animaţie la încărcare</string>
     <string name="charging_animation_summary">Afișează o animație atunci când dispozitivul este conectat</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Luminozitate automată cu o singură lovitură</string>
@@ -851,44 +859,6 @@
     <string name="adaptive_playback_summary">Întrerupeți media atunci când volumul este dezactivat și reluați-l prin creșterea volumului în termenul de expirare</string>
     <string name="adaptive_playback_intro_text">Pauzează automat media atunci când volumul este dezactivat și se va relua automat atunci când volumul este restaurat în timpul setat</string>
     <string name="adaptive_playback_timeout_title">Timp expirare redare</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">Afișează o siglă personalizată pe partea stângă sau dreaptă a barei de stare</string>
-    <string name="status_bar_logo_position_title">Pozitie logo</string>
-    <string name="status_bar_logo_style_title">Stil logo</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">Adidas</string>
-    <string name="status_bar_logo_style_alien">Extraterestru</string>
-    <string name="status_bar_logo_style_apple">Apple</string>
-    <string name="status_bar_logo_style_avengers">Răzbunători</string>
-    <string name="status_bar_logo_style_batman">Batman</string>
-    <string name="status_bar_logo_style_batman_tdk">Batman Cavalerul Întunecat</string>
-    <string name="status_bar_logo_style_beats">Bătăi</string>
-    <string name="status_bar_logo_style_biohazard">Risc biologic</string>
-    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
-    <string name="status_bar_logo_style_cannabis">Canabis</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoticon drăcușor</string>
-    <string name="status_bar_logo_style_fire">Foc</string>
-    <string name="status_bar_logo_style_heart">Inimă</string>
-    <string name="status_bar_logo_style_nike">Nike</string>
-    <string name="status_bar_logo_style_pacman">Pac-man</string>
-    <string name="status_bar_logo_style_puma">Puma</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
-    <string name="status_bar_logo_style_superman">Superman</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">Fantomă</string>
-    <string name="status_bar_logo_style_ninja">Ninja</string>
-    <string name="status_bar_logo_style_robot">Robot</string>
-    <string name="status_bar_logo_style_ironman">Omul de fier</string>
-    <string name="status_bar_logo_style_captain_america">Căpitanul America</string>
-    <string name="status_bar_logo_style_flash">Bliț</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Instalat: %1$s</string>
     <string name="app_info_update_time">Actualizat: %1$s</string>
@@ -961,14 +931,14 @@
     <string name="qs_header_shadow_summary">Pentru o mai bună vizibilitate pe imagini luminoase</string>
     <string name="qs_header_static_provider_title">Imagine statică</string>
     <string name="qs_header_daylight_provider_title">Colecţia de imagini</string>
-    <string name="qs_header_file_provider_title">Imagine particularizată</string>
+    <string name="qs_header_file_provider_title">Custom image/Animated GIF</string>
     <string name="qs_header_provider_title">Furnizor de antet</string>
     <string name="qs_header_browse_title">Răsfoire anteturi instalate</string>
     <string name="qs_header_browse_summary">Parcurge toate colectiile disponibile in antet</string>
     <string name="qs_header_pick_title">Selectaţi imagine antet</string>
     <string name="qs_header_pick_summary">Selectati o imagine pentru a utiliza in modul static</string>
     <string name="qs_header_file_select_title">Selectează imagine</string>
-    <string name="qs_header_file_select_summary">Selectaţi imagine particularizată</string>
+    <string name="qs_header_file_select_summary">Select custom image/animated GIF</string>
     <string name="qs_header_needs_gallery">Trebuie să instalați o aplicație galerie!</string>
     <string name="qs_header_offset_title">Decalaj imagine antet</string>
     <string name="qs_header_offset_summary">Reglaţi dimensiunea antetului imaginii</string>
@@ -1044,7 +1014,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">Este necesară repornirea interfeței sistemului</string>
     <string name="systemui_restart_message">Pentru ca modificările să aibă efect, este necesară o repornire a interfeței sistemului. Reporniți interfața de sistem acum?</string>
-    <string name="systemui_restart_yes">Da</string>
+    <string name="systemui_restart_yes">Yes</string>
     <string name="systemui_restart_not_now">Nu acum</string>
     <string name="systemui_restart_process">Se repornește interfața sistem pentru a aplica modificările...</string>
     <!-- Notification / Power Menu Styles -->
@@ -1088,6 +1058,9 @@
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">Copertă media</string>
     <string name="ls_media_art_summary">Afişează coperta media atunci când este disponibiă</string>
+    <!-- Lock screen media art on Ambient Display -->
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Filtru cover media</string>
     <string name="ls_media_art_filter_none">Nici unul</string>
@@ -1113,7 +1086,7 @@
     <string name="pulse_color">Culoare vizualizare</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
     <string name="pulse_color_album">Copertă album</string>
-    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_color_accent">Nuanță culoare</string>
     <string name="pulse_bar_count_title">Număr de bare</string>
     <string name="pulse_bar_count_summary">Setează câte bare sunt afișate în vizualizator</string>
     <string name="pulse_bar_count_units">bare</string>
@@ -1210,7 +1183,8 @@
     <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">Dispozitiv</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
@@ -1230,7 +1204,6 @@
     <string name="x_reality_engine_mode_title">X-Reality Engine</string>
     <string name="triluminous_display_mode_title">Triluminous Display</string>
     <string name="vivid_engine_mode_title">Vivid Display</string>
-    <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
