@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2026 crDroid Android Project
+                   2026 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,18 +18,44 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
+    android:title="@string/lockscreen_title">
+
+    <!-- Ambient Display -->
+    <Preference
+        android:key="doze_fragment"
+        android:icon="@drawable/ic_ambient"
+        android:title="@string/doze_display_title"
+        android:summary="@string/doze_display_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.DozeSettings" />
+
+    <!-- Pulse music visualizer -->
+    <Preference
+        android:key="pulse_settings"
+        android:icon="@drawable/ic_pulse"
+        android:title="@string/pulse_settings_title"
+        android:summary="@string/pulse_settings_summary"
+        android:fragment="com.alpha.settings.fragments.lockscreen.PulseSettings" />
+
+    <!-- Ambient Wallpaper -->
+    <com.alpha.settings.preferences.SecureSettingSwitchPreference
+        android:key="doze_always_on_wallpaper_enabled"
+        android:icon="@drawable/ic_screensaver"
+        android:title="@string/doze_always_on_wallpaper_title"
+        android:summary="@string/doze_always_on_wallpaper_summary"
+        android:defaultValue="@*android:bool/config_dozeSupportsAodWallpaper" />
 
     <PreferenceCategory
         android:key="lockscreen_clock_category"
-        android:title="@string/qs_clock_title">
+        android:title="@string/lockscreen_clock_category">
 
         <!-- Lockscreen Clock Font style -->
         <com.alpha.settings.preferences.LockClockFontsPreference
             android:key="lock_clock_font"
             android:icon="@drawable/ic_font"
             android:title="@string/theme_customization_lock_clock_title"
-            android:summary="theme_customization_lock_clock_summary" />
+            android:summary="@string/theme_customization_lock_clock_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -41,14 +68,6 @@
             android:title="@string/lockscreen_show_carrier_title"
             android:summary="@string/lockscreen_show_carrier_summary"
             android:defaultValue="true" />
-
-        <!-- Pulse music visualizer -->
-        <Preference
-            android:key="pulse_settings"
-            android:icon="@drawable/ic_pulse"
-            android:title="@string/pulse_settings_title"
-            android:summary="@string/pulse_settings_summary"
-            android:fragment="com.alpha.settings.fragments.lockscreen.PulseSettings" />
 
         <!-- Lockscreen Media Art -->
         <Preference

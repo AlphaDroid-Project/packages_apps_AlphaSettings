@@ -17,10 +17,22 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto">
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
+    android:title="@string/notifications_title">
 
     <PreferenceCategory
          android:title="@string/qs_misc_category">
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="max_visible_notification_icons"
+            android:icon="@drawable/ic_notification_peek"
+            android:title="@string/max_visible_notification_icons_title"
+            android:summary="@string/max_visible_notification_icons_summary"
+            android:defaultValue="4"
+            settings:defaultValueText="4"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
 
         <!-- QS Header -->
         <Preference
@@ -29,33 +41,6 @@
             android:title="@string/qs_header_image_title"
             android:summary="@string/qs_header_image_summary"
             android:fragment="com.alpha.settings.fragments.quicksettings.QsHeaderImageSettings" />
-
-        <!-- QS clock
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="show_qs_clock"
-            android:icon="@drawable/ic_clock"
-            android:title="@string/qs_clock_title"
-            android:summary="@string/qs_clock_summary"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="qs_header_clock_size"
-            android:icon="@drawable/ic_font"
-            android:title="@string/clock_font_size_title"
-            android:max="27"
-            settings:min="10"
-            settings:interval="1"
-            android:defaultValue="14"
-            android:dependency="show_qs_clock"
-            settings:units="@string/unit_pixels" /> -->
-
-        <!-- QS date
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="show_qs_date"
-            android:icon="@drawable/ic_calendar"
-            android:title="@string/qs_date_title"
-            android:summary="@string/qs_date_summary"
-            android:defaultValue="true" /> -->
 
         <!-- Battery styles
         <com.alpha.settings.preferences.SystemSettingListPreference
@@ -106,7 +91,7 @@
          android:key="qs_brightness_slider_category"
          android:title="@string/qs_brightness_slider_category">
 
-        <lineageos.preference.LineageSecureSettingListPreference
+        <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="qs_show_brightness_slider"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_show_brightness_slider_title"
@@ -122,7 +107,7 @@
             android:entryValues="@array/qs_brightness_slider_shape_values"
             android:defaultValue="0" />
 
-        <lineageos.preference.LineageSecureSettingListPreference
+        <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="qs_brightness_slider_position"
             android:icon="@drawable/ic_brightness"
             android:title="@string/qs_brightness_slider_position_title"
@@ -137,7 +122,7 @@
             android:summary="@string/qs_brightness_slider_haptic_summary"
             android:defaultValue="true" />
 
-        <lineageos.preference.LineageSecureSettingSwitchPreference
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_show_auto_brightness"
             android:icon="@drawable/ic_brightness_auto"
             android:title="@string/qs_show_auto_brightness_title"
@@ -222,7 +207,7 @@
 
     </PreferenceCategory>-->
 
-    <PreferenceCategory 
+    <PreferenceCategory
          android:title="@string/qs_footer_category">
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -230,13 +215,6 @@
             android:icon="@drawable/ic_swap_vertical"
             android:title="@string/qs_footer_datausage_title"
             android:summary="@string/qs_footer_datausage_summary" />
-
-        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_footer_warnings"
-            android:icon="@drawable/ic_key"
-            android:title="@string/qs_footer_warnings_title"
-            android:summary="@string/qs_footer_warnings_summary"
-            android:defaultValue="true"/>
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_show_user"
@@ -267,12 +245,6 @@
             android:icon="@drawable/ic_settings_main"
             android:title="@string/qs_footer_settings_icon_title"
             android:defaultValue="true" />
-
-        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="notification_material_dismiss"
-            android:icon="@drawable/ic_notification_clear_all"
-            android:title="@string/notification_material_dismiss_title"
-            android:summary="@string/notification_material_dismiss_summary" />-->
 
     </PreferenceCategory>
 </PreferenceScreen>

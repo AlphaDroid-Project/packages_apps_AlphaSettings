@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
+     Copyright (C) 2026 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +18,19 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/notifications_title">
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="max_visible_notification_icons"
+        android:icon="@drawable/ic_notification_peek"
+        android:title="@string/max_visible_notification_icons_title"
+        android:summary="@string/max_visible_notification_icons_summary"
+        android:defaultValue="4"
+        settings:defaultValueText="4"
+        android:max="10"
+        settings:min="0"
+        settings:units="" />
 
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
@@ -118,7 +131,7 @@
             android:icon="@drawable/ic_flashlight"
             android:title="@string/flashlight_on_call_ignore_dnd_title"
             android:summary="@string/flashlight_on_call_ignore_dnd_summary"
-            android:defaultValue="false" /> 
+            android:defaultValue="false" />
 
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="flashlight_on_call_rate"

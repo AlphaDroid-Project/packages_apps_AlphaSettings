@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0
  */
 
-package com.alpha.settings.fragments.lockscreen
+package com.alpha.settings.fragments.lockscreen.udfps
 
 import android.content.ContentResolver
 import android.content.Context

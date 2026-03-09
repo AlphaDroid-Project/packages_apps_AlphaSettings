@@ -40,8 +40,6 @@ import com.alpha.settings.fragments.quicksettings.QsHeaderImageSettings;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
 import com.alpha.settings.utils.DeviceUtils;
 
-import android.provider.Settings;
-
 import java.util.List;
 import java.util.ArrayList;
 
@@ -79,8 +77,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mShowBrightnessSlider = findPreference(KEY_SHOW_BRIGHTNESS_SLIDER);
         mShowBrightnessSlider.setOnPreferenceChangeListener(this);
-        boolean showSlider = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT) > 0;
+        boolean showSlider = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT) > 0;
 
         mBrightnessSliderPosition = findPreference(KEY_BRIGHTNESS_SLIDER_POSITION);
         mBrightnessSliderPosition.setEnabled(showSlider);
@@ -143,12 +141,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_HAPTIC, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_SHAPE, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
         LayoutSettings.reset(mContext);
         QsHeaderImageSettings.reset(mContext);
     }

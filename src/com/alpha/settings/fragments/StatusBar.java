@@ -43,11 +43,9 @@ import com.alpha.settings.fragments.statusbar.BatteryBar;
 import com.alpha.settings.fragments.statusbar.Clock;
 import com.alpha.settings.fragments.statusbar.NetworkTrafficSettings;
 import com.alpha.settings.fragments.statusbar.OngoingProgressBar;
+import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.alpha.settings.preferences.SystemSettingSeekBarPreference;
 import com.alpha.settings.utils.DeviceUtils;
-
-import lineageos.preference.LineageSystemSettingListPreference;
-import android.provider.Settings;
 
 import java.util.List;
 
@@ -65,8 +63,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final int PULLDOWN_DIR_LEFT = 2;
     private static final int PULLDOWN_DIR_ALWAYS = 3;
 
-    private LineageSystemSettingListPreference mStatusBarClock;
-    private LineageSystemSettingListPreference mQuickPulldown;
+    private SystemSettingListPreference mStatusBarClock;
+    private SystemSettingListPreference mQuickPulldown;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,7 +78,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mStatusBarClock =
-                (LineageSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
+                (SystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
 
         // Adjust status bar preferences for RTL
         if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
@@ -97,7 +95,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
         }
 
         mQuickPulldown =
-                (LineageSystemSettingListPreference) findPreference(QUICK_PULLDOWN);
+                (SystemSettingListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
 
@@ -149,12 +147,6 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 Settings.System.STATUSBAR_EXTRA_PADDING_END, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.STATUSBAR_NOTIF_COUNT, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO_POSITION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.STATUS_BAR_LOGO_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.DATA_DISABLED_ICON, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,

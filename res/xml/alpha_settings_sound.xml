@@ -17,7 +17,8 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/sound_title">
 
     <!-- Screenshot Sound  -->
     <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -59,7 +60,7 @@
             android:key="volume_dialog_haptic_feedback"
             android:icon="@drawable/ic_volume_vibrate"
             android:title="@string/volume_dialog_haptic_feedback_title"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <!-- In-call feedback -->

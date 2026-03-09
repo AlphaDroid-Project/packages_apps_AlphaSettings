@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2025 crDroid Android Project
+                   2026 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,46 +17,8 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:lineage="http://schemas.android.com/apk/res-auto"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-    <!-- Ambient Display -->
-    <Preference
-        android:key="doze_fragment"
-        android:icon="@drawable/ic_ambient"
-        android:title="@string/doze_display_title"
-        android:summary="@string/doze_display_summary"
-        android:fragment="com.alpha.settings.fragments.lockscreen.DozeSettings" />
-
-    <!-- Ambient Wallpaper -->
-    <com.alpha.settings.preferences.SecureSettingSwitchPreference
-        android:key="doze_always_on_wallpaper_enabled"
-        android:icon="@drawable/ic_screensaver"
-        android:title="@string/doze_always_on_wallpaper_title"
-        android:summary="@string/doze_always_on_wallpaper_summary"
-        android:defaultValue="@*android:bool/config_dozeSupportsAodWallpaper" />
-
-    <!-- Ambient Music Ticker -->
-    <com.alpha.settings.preferences.SecureSettingSwitchPreference
-        android:key="pulse_on_new_tracks"
-        android:icon="@drawable/ic_music_note"
-        android:title="@string/pulse_on_new_tracks_title"
-        android:summary="@string/pulse_on_new_tracks_summary" />
-
-    <!-- Edge Light -->
-    <Preference
-        android:key="edge_light_settings"
-        android:icon="@drawable/ic_edge_light"
-        android:title="@string/edge_light_title"
-        android:summary="@string/edge_light_summary"
-        android:fragment="com.alpha.settings.fragments.ui.EdgeLightSettings" />
-
-    <!-- Font style -->
-    <com.alpha.settings.preferences.FontsPickerPreference
-        android:key="system_font"
-        android:icon="@drawable/ic_font"
-        android:title="@string/theme_customization_font_title"
-        android:summary="theme_customization_font_summary" />
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/ui_title">
 
     <!-- Monet Theme Engine -->
     <Preference
@@ -65,44 +28,15 @@
         android:summary="@string/monet_summary"
         android:fragment="com.alpha.settings.fragments.ui.MonetSettings" />
 
-    <!-- Charging animation -->
-    <com.alpha.settings.preferences.SystemSettingSwitchPreference
-        android:key="charging_animation"
-        android:icon="@drawable/ic_battery_charging"
-        android:title="@string/charging_animation_title"
-        android:summary="@string/charging_animation_summary"
-        android:defaultValue="true" />
-
-    <!-- Display Cutout -->
+    <!-- UI Style -->
     <Preference
-        android:key="display_cutout_force_fullscreen_settings"
-        android:icon="@drawable/ic_fullscreen"
-        android:title="@string/display_cutout_force_fullscreen_title"
-        android:summary="@string/display_cutout_force_fullscreen_summary">
-        <intent android:action="android.intent.action.MAIN"
-             android:targetPackage="com.android.settings"
-             android:targetClass="com.alpha.settings.fragments.ui.DisplayCutoutForceFullscreenActivity"/>
-    </Preference>
+        android:key="ui_style_settings"
+        android:icon="@*android:drawable/ic_ui_style"
+        android:title="@string/ui_style_title"
+        android:summary="@string/ui_style_summary"
+        android:fragment="com.alpha.settings.fragments.ui.UiStyleSettings" />
 
-    <!-- Screen Off animation -->
-    <com.alpha.settings.preferences.SystemSettingListPreference
-        android:key="screen_off_animation"
-        android:icon="@drawable/ic_television_classic"
-        android:title="@string/screen_off_animation_title"
-        android:dialogTitle="@string/screen_off_animation_title"
-        android:entries="@array/screen_off_animation_entries"
-        android:entryValues="@array/screen_off_animation_values"
-        android:defaultValue="0" />
-
-    <!-- Smart Pixels -->
-    <Preference
-        android:key="smart_pixels"
-        android:icon="@drawable/ic_smart_pixels"
-        android:title="@string/smart_pixels_title" 
-        android:summary="@string/smart_pixels_summary" 
-        android:fragment="com.alpha.settings.fragments.misc.SmartPixels" />
-
-    <!-- Navbar Style
+    <!-- Navbar Style -->
     <Preference
         android:key="android.theme.customization.navbar"
         android:icon="@drawable/ic_navbar"
@@ -110,25 +44,12 @@
         android:summary="@string/theme_customization_navbar_summary"
         android:fragment="com.alpha.settings.fragments.ui.NavbarStyles"/> -->
 
-    <!-- Notification Style
-    <com.alpha.settings.preferences.SystemSettingListPreference
-        android:key="notification_style"
-        android:icon="@drawable/ic_message_text_outline"
-        android:title="@string/notification_style_title"
-        android:entries="@array/custom_style_entries"
-        android:entryValues="@array/custom_style_values"
-        android:summary="%s"
-        android:defaultValue="0" /> -->
-
-    <!-- Powermenu Style
-    <com.alpha.settings.preferences.SystemSettingListPreference
-        android:key="powermenu_style"
-        android:icon="@drawable/ic_settings_powermenu"
-        android:title="@string/powermenu_style_title"
-        android:entries="@array/custom_style_entries"
-        android:entryValues="@array/custom_style_values"
-        android:summary="%s"
-        android:defaultValue="0" /> -->
+    <!-- Font style -->
+    <com.alpha.settings.preferences.FontsPickerPreference
+        android:key="android.theme.customization.fonts"
+        android:icon="@drawable/ic_font"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary" />
 
     <!-- Icon pack
     <Preference

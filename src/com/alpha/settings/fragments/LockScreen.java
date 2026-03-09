@@ -36,6 +36,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.alpha.settings.fragments.lockscreen.DozeSettings;
 import com.alpha.settings.fragments.lockscreen.PulseSettings;
 import com.alpha.settings.fragments.lockscreen.MediaArtSettings;
 import com.alpha.settings.fragments.lockscreen.udfps.UdfpsAnimation;
@@ -168,6 +169,14 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_HUMIDITY_INFO, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_SHOW_CARRIER, 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.PULSE_ON_NEW_TRACKS, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.DOZE_ALWAYS_ON_WALLPAPER_ENABLED, mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_dozeSupportsAodWallpaper) ? 1 : 0,
+                UserHandle.USER_CURRENT);
+
+        DozeSettings.reset(mContext);
         PulseSettings.reset(mContext);
         MediaArtSettings.reset(mContext);
         UdfpsAnimation.Companion.reset(mContext);

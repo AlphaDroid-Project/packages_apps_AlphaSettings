@@ -175,8 +175,8 @@
 
     <!-- Status bar - Battery -->
     <string-array name="status_bar_battery_style_entries" translatable="false">
-        <!--<item>@string/status_bar_battery_style_icon_portrait</item>--> 
-        <item>@string/status_bar_battery_style_icon_rlandscape</item> 
+        <!--<item>@string/status_bar_battery_style_icon_portrait</item>-->
+        <item>@string/status_bar_battery_style_icon_rlandscape</item>
         <!--<item>@string/status_bar_battery_style_icon_landscape</item> -->
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_dotted_circle</item>
@@ -224,9 +224,9 @@
     <!-- QS battery style  -->
     <string-array name="qs_battery_style_entries" translatable="false">
         <item>@string/qs_use_status_bar_battery_style</item>
-        <item>@string/status_bar_battery_style_icon_portrait</item> 
-        <item>@string/status_bar_battery_style_icon_rlandscape</item> 
-        <item>@string/status_bar_battery_style_icon_landscape</item> 
+        <item>@string/status_bar_battery_style_icon_portrait</item>
+        <item>@string/status_bar_battery_style_icon_rlandscape</item>
+        <item>@string/status_bar_battery_style_icon_landscape</item>
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_dotted_circle</item>
         <item>@string/status_bar_battery_style_filled_circle</item>
@@ -635,79 +635,6 @@
         <item>1</item>
     </string-array>
 
-    <!-- Custom logo style -->
-    <string-array name="statusbar_logo_labels" translatable="false">
-        <item>@string/status_bar_logo_style_alpha</item>
-        <item>@string/status_bar_logo_style_android</item>
-        <item>@string/status_bar_logo_style_adidas</item>
-        <item>@string/status_bar_logo_style_alien</item>
-        <item>@string/status_bar_logo_style_apple</item>
-        <item>@string/status_bar_logo_style_avengers</item>
-        <item>@string/status_bar_logo_style_batman</item>
-        <item>@string/status_bar_logo_style_batman_tdk</item>
-        <item>@string/status_bar_logo_style_beats</item>
-        <item>@string/status_bar_logo_style_biohazard</item>
-        <item>@string/status_bar_logo_style_blackberry</item>
-        <item>@string/status_bar_logo_style_cannabis</item>
-        <item>@string/status_bar_logo_style_emoticon_cool</item>
-        <item>@string/status_bar_logo_style_emoticon_devil</item>
-        <item>@string/status_bar_logo_style_fire</item>
-        <item>@string/status_bar_logo_style_heart</item>
-        <item>@string/status_bar_logo_style_nike</item>
-        <item>@string/status_bar_logo_style_pacman</item>
-        <item>@string/status_bar_logo_style_puma</item>
-        <item>@string/status_bar_logo_style_rog</item>
-        <item>@string/status_bar_logo_style_spiderman</item>
-        <item>@string/status_bar_logo_style_superman</item>
-        <item>@string/status_bar_logo_style_windows</item>
-        <item>@string/status_bar_logo_style_xbox</item>
-        <item>@string/status_bar_logo_style_ghost</item>
-        <item>@string/status_bar_logo_style_ninja</item>
-        <item>@string/status_bar_logo_style_robot</item>
-        <item>@string/status_bar_logo_style_ironman</item>
-        <item>@string/status_bar_logo_style_captain_america</item>
-        <item>@string/status_bar_logo_style_flash</item>
-        <item>@string/status_bar_logo_style_tux</item>
-        <item>@string/status_bar_logo_style_ubuntu</item>
-        <item>@string/status_bar_logo_style_mint</item>
-    </string-array>
-
-    <string-array name="statusbar_logo_drawables" translatable="false">
-        <item>ic_alpha_logo</item>
-        <item>ic_android_logo</item>
-        <item>ic_adidas</item>
-        <item>ic_alien</item>
-        <item>ic_apple_logo</item>
-        <item>ic_avengers</item>
-        <item>ic_batman</item>
-        <item>ic_batman_tdk</item>
-        <item>ic_beats</item>
-        <item>ic_biohazard</item>
-        <item>ic_blackberry</item>
-        <item>ic_cannabis</item>
-        <item>ic_emoticon_cool</item>
-        <item>ic_emoticon_devil</item>
-        <item>ic_fire</item>
-        <item>ic_heart</item>
-        <item>ic_nike</item>
-        <item>ic_pac_man</item>
-        <item>ic_puma</item>
-        <item>ic_rog</item>
-        <item>ic_spiderman</item>
-        <item>ic_superman</item>
-        <item>ic_windows</item>
-        <item>ic_xbox</item>
-        <item>ic_ghost</item>
-        <item>ic_ninja</item>
-        <item>ic_robot</item>
-        <item>ic_ironman</item>
-        <item>ic_captain_america</item>
-        <item>ic_flash</item>
-        <item>ic_tux_logo</item>
-        <item>ic_ubuntu_logo</item>
-        <item>ic_mint_logo</item>
-    </string-array>
-
     <!-- Vibration patterns -->
     <string-array name="vibration_pattern_entries" translatable="false">
         <item>@string/pattern_dzzz_dzzz</item>
@@ -1019,16 +946,50 @@
         <item>sb_date_bg12</item>
     </string-array>
 
-    <!-- Ongoing acton chip -->
-    <string-array name="ongoing_chip_color_mode_entries">
-        <item>@string/ongoing_chip_color_mode_accent</item>
-        <item>@string/ongoing_chip_color_mode_icon</item>
-        <item>@string/ongoing_chip_color_mode_album_art</item>
+    <!-- Display Engine -->
+    <string-array name="display_engine_mode_entries">
+        <item>@string/display_engine_mode_default</item>
+        <item>@string/display_engine_mode_xreality</item>
+        <item>@string/display_engine_mode_vivid</item>
+        <item>@string/display_engine_mode_triluminous</item>
     </string-array>
 
-    <string-array name="ongoing_chip_color_mode_values">
+    <string-array name="display_engine_mode_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Apps list to hide from Hide developer status setting -->
+    <string-array name="hide_developer_status_hidden_apps" translatable="false">
+        <item>android</item>
+        <item>com.android.settings</item>
+        <item>com.android.systemui</item>
+        <item>com.android.shell</item>
+    </string-array>
+
+    <string-array name="ui_style_entries">
+        <item>@*android:string/ui_style_system_default</item>
+        <item>@*android:string/ui_style_outline</item>
+        <item>@*android:string/ui_style_neon</item>
+        <item>@*android:string/ui_style_bevel</item>
+        <item>@*android:string/ui_style_gradient</item>
+        <item>@*android:string/ui_style_reflective</item>
+        <item>@*android:string/ui_style_slash</item>
+        <item>@*android:string/ui_style_aerogel</item>
+        <item>@*android:string/ui_style_metallic</item>
+    </string-array>
+
+    <string-array name="ui_style_values">
+        <item>system_default</item>
+        <item>outline</item>
+        <item>neon</item>
+        <item>bevel</item>
+        <item>gradient</item>
+        <item>reflective</item>
+        <item>slash</item>
+        <item>aerogel</item>
+        <item>metallic</item>
     </string-array>
 </resources>

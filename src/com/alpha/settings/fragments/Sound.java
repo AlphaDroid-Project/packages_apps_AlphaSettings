@@ -44,8 +44,6 @@ import com.alpha.settings.utils.TelephonyUtils;
 import java.util.List;
 import java.util.ArrayList;
 
-import android.provider.Settings;
-
 @SearchIndexable
 public class Sound extends SettingsPreferenceFragment {
 
@@ -72,7 +70,7 @@ public class Sound extends SettingsPreferenceFragment {
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         boolean isAudioPanelOnLeft = Settings.Secure.getIntForUser(context.getContentResolver(),
-                Settings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(context) ? 1 : 0,
+                Settings.Secure.VOLUME_PANEL_ON_LEFT, 0,
                 UserHandle.USER_CURRENT) != 0;
 
         mVolumePanelLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
@@ -95,7 +93,7 @@ public class Sound extends SettingsPreferenceFragment {
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(mContext) ? 1 : 0,
+                Settings.Secure.VOLUME_PANEL_ON_LEFT, 0,
                 UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.VOLUME_DIALOG_DISMISS_TIMEOUT, 3000, UserHandle.USER_CURRENT);
@@ -109,18 +107,6 @@ public class Sound extends SettingsPreferenceFragment {
                 Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
-    }
-
-    private static boolean isAudioPanelOnLeftSide(Context context) {
-        try {
-            Context con = context.createPackageContext("org.lineageos.lineagesettings", 0);
-            int id = con.getResources().getIdentifier("def_volume_panel_on_left",
-                    "bool", "org.lineageos.lineagesettings");
-            if (id <= 0) return false;
-            return con.getResources().getBoolean(id);
-        } catch (Exception e) {
-            return false;
-        }
     }
 
     @Override

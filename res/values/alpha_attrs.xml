@@ -16,6 +16,11 @@
 -->
 <resources>
 
+    <!-- Attributes for SettingPrimarySwitchPreference. -->
+    <declare-styleable name="SettingPrimarySwitchPreference">
+        <attr name="observe" format="boolean" />
+    </declare-styleable>
+
     <!-- ColorPicker -->
     <declare-styleable name="ColorPickerPreference">
         <attr name="alphaSlider" format="boolean" />
@@ -35,4 +40,11 @@
     </declare-styleable>
 
     <attr name="secureValue" format="string" />
+
+    <!-- AlphaSettings main page preference -->
+    <declare-styleable name="AlphaSlashPreference">
+        <attr name="slashIcon" format="reference" />
+        <attr name="slashColor" format="color" />
+    </declare-styleable>
+
 </resources>

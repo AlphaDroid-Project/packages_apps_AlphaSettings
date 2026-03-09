@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 AlphaDroid
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/ui_style_title">
+
+    <!-- Style Selection -->
+    <ListPreference
+        android:key="ui_style"
+        android:icon="@*android:drawable/ic_ui_style"
+        android:title="@string/ui_style_title"
+        android:summary="%s"
+        android:entries="@array/ui_style_entries"
+        android:entryValues="@array/ui_style_values"
+        android:defaultValue="system_default" />
+
+    <!-- Light Theme Section -->
+    <!-- Applied custom layout to header -->
+    <com.alpha.settings.preferences.ResetCategoryPreference
+        android:key="category_light_theme"
+        android:title="@string/ui_style_light_theme"
+        android:layout="@layout/preference_category_reset">
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="light_saturation"
+            android:title="@*android:string/ui_style_param_saturation"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="0"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="light_lightness"
+            android:title="@*android:string/ui_style_param_lightness"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="0"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="light_opacity"
+            android:title="@*android:string/ui_style_param_opacity"
+            android:defaultValue="100"
+            android:max="100"
+            settings:min="20"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="light_strength"
+            android:title="@*android:string/ui_style_param_strength"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="20"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="light_angle"
+            android:title="@*android:string/ui_style_param_angle"
+            android:defaultValue="0"
+            android:max="180"
+            settings:min="-180"
+            settings:interval="1"
+            settings:units="°"
+            settings:showSign="true"
+            settings:defaultValueText="@string/ui_style_default" />
+
+    </com.alpha.settings.preferences.ResetCategoryPreference>
+
+    <!-- Dark Theme Section -->
+    <!-- Applied custom layout to header -->
+    <com.alpha.settings.preferences.ResetCategoryPreference
+        android:key="category_dark_theme"
+        android:title="@string/ui_style_dark_theme"
+        android:layout="@layout/preference_category_reset">
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="dark_saturation"
+            android:title="@*android:string/ui_style_param_saturation"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="0"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="dark_lightness"
+            android:title="@*android:string/ui_style_param_lightness"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="0"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="dark_opacity"
+            android:title="@*android:string/ui_style_param_opacity"
+            android:defaultValue="100"
+            android:max="100"
+            settings:min="20"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="dark_strength"
+            android:title="@*android:string/ui_style_param_strength"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="20"
+            settings:interval="1"
+            settings:units="%"
+            settings:defaultValueText="@string/ui_style_default" />
+
+        <com.alpha.settings.preferences.CustomSeekBarPreference
+            android:key="dark_angle"
+            android:title="@*android:string/ui_style_param_angle"
+            android:defaultValue="0"
+            android:max="180"
+            settings:min="-180"
+            settings:interval="1"
+            settings:units="°"
+            settings:showSign="true"
+            settings:defaultValueText="@string/ui_style_default" />
+
+    </com.alpha.settings.preferences.ResetCategoryPreference>
+
+</PreferenceScreen>

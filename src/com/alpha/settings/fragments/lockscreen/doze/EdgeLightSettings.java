@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alpha.settings.fragments.ui;
+package com.alpha.settings.fragments.lockscreen.doze;
 
 import android.content.ContentResolver;
 import android.content.Context;

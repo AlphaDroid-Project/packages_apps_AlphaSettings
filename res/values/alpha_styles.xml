@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016-2025 crDroid Android Project
+     Copyright (C)      2026 AlphaDroid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -23,43 +24,16 @@
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
 
-    <style name="SupportStyle" parent="Theme.AppCompat.DayNight">
-        <item name="android:colorBackground">@color/legacy_settingslib_materialColorSurfaceContainer</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="colorAccent">@*android:color/accent_device_default_light</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="CrDroidTabText" parent="TextAppearance.AppCompat.Body2">
-        <item name="android:textAllCaps">true</item>
-    </style>
-
-    <style name="CrDroidTabTextSelected" parent="TextAppearance.AppCompat.Body2">
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CrDroidTabLayout" parent="Widget.MaterialComponents.TabLayout">
-        <item name="tabTextAppearance">@style/CrDroidTabText</item>
-        <item name="tabSelectedTextAppearance">@style/CrDroidTabTextSelected</item>
-
-        <item name="tabTextColor">?android:attr/textColorSecondary</item>
-        <item name="tabSelectedTextColor">?android:attr/textColorPrimary</item>
-
-        <item name="tabIndicatorFullWidth">false</item>
-        <item name="tabRippleColor">@android:color/system_accent1_200</item>
-
-        <item name="tabIndicatorHeight">5dp</item>
-        <item name="tabIndicatorColor">@android:color/system_accent1_300</item>
-        <item name="tabInlineLabel">true</item>
-        <item name="tabMode">scrollable</item>
-
-    </style>
-
-    <style name="CrDroidMaterialOverlay" parent="ThemeOverlay.MaterialComponents">
-        <item name="colorAccent">@android:color/system_accent1_600</item>
-        <item name="colorPrimary">@android:color/system_accent1_600</item>
-        <item name="colorSecondary">@android:color/system_accent1_600</item>
+    <style name="AlphaSettingsPreferenceTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItem</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:alpha">0.9</item>
+        <item name="android:paddingHorizontal">6dp</item>
+        <item name="android:paddingVertical">2dp</item>
     </style>
 </resources>
