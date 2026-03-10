@@ -15,101 +15,82 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- App Title -->
-    <string name="alpha_settings_title">AlphaDroid 设置</string>
-    <string name="alpha_settings_summary">个性化设置</string>
-    <string name="reset_settings_title">重置设置</string>
-    <string name="reset_settings_message">这将会重置当前用户大部分的 AlphaDroid 设置为默认值。您要继续吗？</string>
     <!-- Personalization Categories -->
+    <string name="about_title">About</string>
     <string name="button_title">按键</string>
     <string name="lockscreen_title">锁屏界面</string>
     <string name="misc_title">其它</string>
+    <string name="misc_title_short">其他​​</string>
     <string name="navigation_title">导航栏</string>
     <string name="notifications_title">通知栏</string>
     <string name="quicksettings_title">快速设置</string>
+    <string name="quicksettings_title_short">快速设置</string>
     <string name="sound_title">声音</string>
     <string name="statusbar_title">状态栏</string>
     <string name="display_title">显示</string>
     <string name="ui_title">用户界面</string>
+    <string name="ui_title_short">界面</string>
+    <string name="ui_summary">Monet, styles, icon packs</string>
+    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">取色器</string>
     <string name="press_color_to_apply">点击以使用下列颜色</string>
     <string name="set">设置</string>
     <string name="color_default">默认</string>
     <!-- General strings -->
-    <string name="ok">确定</string>
-    <string name="reset">重置</string>
-    <string name="cancel">取消</string>
-    <string name="save">保存</string>
-    <string name="discard_changes">放弃修改</string>
-    <string name="never">从不</string>
+    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="add">添加</string>
+    <string name="advanced">高级选项</string>
     <string name="always">始终</string>
+    <string name="back">返回</string>
     <string name="caution">警告</string>
+    <string name="choose_app">选择应用</string>
+    <string name="custom_color">自定义颜色</string>
+    <string name="default_value">默认</string>
     <string name="delete">删除</string>
     <string name="delete_message">移除所选项目？</string>
-    <string name="choose_app">选择应用</string>
-    <string name="enable">启用</string>
     <string name="disable">禁用</string>
-    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="disabled">禁用</string>
+    <string name="discard_changes">放弃修改</string>
+    <string name="enable">启用</string>
+    <string name="enabled">启用</string>
+    <string name="finish">完成</string>
+    <string name="loading">加载</string>
+    <string name="name">名称</string>
+    <string name="never">从不</string>
+    <string name="next">下一个</string>
+    <string name="no">不</string>
     <string name="notification_color">通知颜色</string>
-    <string name="wallpaper_color">壁纸颜色</string>
     <string name="rainbow_color">彩虹色</string>
-    <string name="custom_color">自定义颜色</string>
+    <string name="off">关</string>
+    <string name="on">开</string>
+    <string name="reset">重置</string>
     <string name="restart_systemui">重启系统界面以使更改生效！</string>
-    <string name="default_value">默认</string>
-    <!-- Changelog -->
-    <string name="changelog_alpha_title">更新日志</string>
-    <string name="changelog_alpha_summary">查看已安装 ROM 中的变化</string>
-    <string name="changelog_alpha_error">无法加载更新日志</string>
-    <!-- About AlphaDroid -->
-    <string name="about_alpha">关于 AlphaDroid</string>
-    <string name="about_device_name">设备</string>
-    <!-- Share AlphaDroid -->
-    <string name="share_alpha_title">分享 AlphaDroid</string>
-    <string name="share_alpha_summary">让更多人了解 AlphaDroid</string>
-    <string name="share_message">查看 #AlphaDroid Android 的全部内容 @ https://crdroid.net/</string>
-    <string name="share_chooser_title">分享 AlphaDroid</string>
-    <!-- Sites AlphaDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">我们热爱开源，来看看我们的代码吧。</string>
-    <string name="crdroid_telegram_title">AlphaDroid 社区</string>
-    <string name="crdroid_telegram_summary">我们有 TG 群。加入我们！</string>
-    <string name="crdroid_telegram_channel_title">更新频道</string>
-    <string name="crdroid_telegram_channel_summary">在 Telegram 上获取更新通知</string>
-    <string name="crdroid_website_title">官方网站</string>
-    <string name="crdroid_website_summary">访问我们的官方网站</string>
-    <string name="crdroid_translate_title">翻译</string>
-    <string name="crdroid_translate_summary">帮助用您的语言本地化 ROM！</string>
-    <string name="crdroid_sponsor_summary">访问我们的网站托管合作伙伴</string>
-    <string name="crdroid_buildserversponsor_summary">我们十分推荐这些服务器提供商</string>
-    <!-- Support AlphaDroid -->
-    <string name="crdroid_donate_preference_title">支持我们</string>
-    <string name="crdroid_donate_preference_summary">捐赠以支持开发</string>
-    <string name="crdroid_donate_title">AlphaDroid 需要您的帮助！</string>
-    <string name="crdroid_donate_notification_text">点击了解更多</string>
-    <string name="crdroid_donate_message">AlphaDroid Android 是一个开源项目，需要您的帮助才能保持网站上线。 我们的构建服务器运行，并为您的设备提供高质量的构建。\n\n
-小额捐款有助于保持这个项目的活力和改进。 您可以忽略此消息，但您的支持对我们有很大的意义。</string>
-    <string name="crdroid_donate_button">立即捐助</string>
-    <string name="crdroid_later_button">也许下个月</string>
-    <string name="crdroid_channel_name">AlphaDroid 通知</string>
-    <string name="crdroid_channel_desc">项目特定通知</string>
-    <string name="crdroid_donate_still_needed">我们本月仍然需要%d。帮助我们实现我们的目标。</string>
-    <string name="crdroid_donate_thank_you">我们感谢本月份的所有捐款。你仍然可以作出贡献并有所作为！</string>
-    <string name="crdroid_donate_raised">已筹得%,d</string>
-    <string name="crdroid_donate_total">为 %,d 目标</string>
-    <string name="crdroid_donate_loading">正在更新进度…</string>
-    <!-- OTA -->
-    <string name="crdroid_update_title">更新</string>
-    <string name="crdroid_update_summary">检查并下载最新更新</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="wallpaper_color">壁纸颜色</string>
+    <string name="yes">是</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Play 商店</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">值：<xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值：<xliff:g id="v">%s</xliff:g>\n长按以设置</string>
+    <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
     <!-- Units -->
     <string name="unit_seconds">秒</string>
     <string name="unit_milliseconds">毫秒</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">已复制到剪贴板</string>
     <string name="longpress_to_clipboard">长按复制</string>
-    <!-- Hardware info -->
-    <string name="platform_revision">平台</string>
-    <string name="total_ram">总内存</string>
     <!-- Notification log -->
     <string name="notification_log_summary">显示通知历史记录日志</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
@@ -312,7 +293,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">沿状态栏的 %1$s 边缘下拉开启快捷设置完整菜单</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">左侧</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">右侧</string>
-    <string name="status_bar_quick_qs_pulldown_off">关闭</string>
+    <string name="status_bar_quick_qs_pulldown_off">关</string>
     <string name="status_bar_quick_qs_pulldown_left">左侧</string>
     <string name="status_bar_quick_qs_pulldown_right">右侧</string>
     <string name="status_bar_quick_qs_pulldown_always">状态栏下拉时始终显示快捷设置</string>
@@ -320,7 +301,7 @@
     <string name="smart_pulldown_title">智能下拉</string>
     <string name="smart_pulldown_summary">当 %1$s 通知时打开快速设置</string>
     <string name="smart_pulldown_none_summary">没有通知时打开快速设置面板</string>
-    <string name="smart_pulldown_off">关闭</string>
+    <string name="smart_pulldown_off">关</string>
     <string name="smart_pulldown_none">无通知</string>
     <string name="smart_pulldown_dismissable">无可清除通知</string>
     <string name="smart_pulldown_ongoing">没有正在进行的通知</string>
@@ -416,7 +397,7 @@
     <string name="battery_bar_blend_color_reverse_summary_off">充满 &#8594; 空: 红色 &#8592; 绿色 &#8592; 蓝色 &#8592; 红色</string>
     <string name="battery_bar_blend_color_reverse_summary_on">充满 &#8594; 空: 红色 &#8594; 绿色 &#8594; 蓝色 &#8594; 红色</string>
     <!-- Quick setting categories -->
-    <string name="qs_misc_category">杂项</string>
+    <string name="qs_misc_category">其它</string>
     <string name="qs_footer_category">页脚</string>
     <!-- QS clock -->
     <string name="qs_clock_title">时钟</string>
@@ -503,8 +484,6 @@
     <string name="qs_footer_show_power_menu_title">电源菜单快捷方式</string>
     <string name="qs_footer_services_icon_title">运行中服务快捷方式</string>
     <string name="qs_footer_settings_icon_title">设置快捷方式</string>
-    <!-- Device Info screen. AlphaDroid legal. -->
-    <string name="crdroid_license_title">AlphaDroid 法律信息</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">亮度滑块</string>
     <string name="qs_show_brightness_slider_title">亮度滑块</string>
@@ -667,9 +646,6 @@
     <!-- Quad9 Unsecured ECS DNS hostname -->
     <!-- Comss DNS Option -->
     <!-- Comss DNS hostname -->
-    <!-- Alert Slider Notifications (OnePlus devices) -->
-    <string name="alert_slider_notifications_title">三段式开关</string>
-    <string name="alert_slider_notifications_summary">更改三段式开关位置时显示通知</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
@@ -873,44 +849,6 @@
     <string name="adaptive_playback_summary">静音时暂停媒体，并在超时范围内增加音量以恢复媒体</string>
     <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复</string>
     <string name="adaptive_playback_timeout_title">播放超时</string>
-    <!-- Custom logo -->
-    <string name="status_bar_logo_title">Logo</string>
-    <string name="status_bar_logo_summary">在状态栏左侧或右侧显示自定义 Logo</string>
-    <string name="status_bar_logo_position_title">Logo 位置</string>
-    <string name="status_bar_logo_style_title">Logo 样式</string>
-    <string name="status_bar_logo_style_alpha">AlphaDroid</string>
-    <string name="status_bar_logo_style_android">Android</string>
-    <string name="status_bar_logo_style_adidas">阿迪达斯</string>
-    <string name="status_bar_logo_style_alien">外星人</string>
-    <string name="status_bar_logo_style_apple">苹果</string>
-    <string name="status_bar_logo_style_avengers">复仇者联盟</string>
-    <string name="status_bar_logo_style_batman">蝙蝠侠</string>
-    <string name="status_bar_logo_style_batman_tdk">蝙蝠侠 黑暗骑士</string>
-    <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">生化</string>
-    <string name="status_bar_logo_style_blackberry">黑莓</string>
-    <string name="status_bar_logo_style_cannabis">大麻</string>
-    <string name="status_bar_logo_style_emoticon_cool">表情扮酷</string>
-    <string name="status_bar_logo_style_emoticon_devil">表情魔鬼</string>
-    <string name="status_bar_logo_style_fire">火焰</string>
-    <string name="status_bar_logo_style_heart">心形</string>
-    <string name="status_bar_logo_style_nike">耐克</string>
-    <string name="status_bar_logo_style_pacman">吃豆人</string>
-    <string name="status_bar_logo_style_puma">彪马</string>
-    <string name="status_bar_logo_style_rog">ROG</string>
-    <string name="status_bar_logo_style_spiderman">蜘蛛侠</string>
-    <string name="status_bar_logo_style_superman">超人</string>
-    <string name="status_bar_logo_style_windows">Windows</string>
-    <string name="status_bar_logo_style_xbox">Xbox</string>
-    <string name="status_bar_logo_style_ghost">幽灵</string>
-    <string name="status_bar_logo_style_ninja">忍者</string>
-    <string name="status_bar_logo_style_robot">机器人</string>
-    <string name="status_bar_logo_style_ironman">钢铁侠</string>
-    <string name="status_bar_logo_style_captain_america">美国队长</string>
-    <string name="status_bar_logo_style_flash">闪电</string>
-    <string name="status_bar_logo_style_tux">Tux</string>
-    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
-    <string name="status_bar_logo_style_mint">Linux Mint</string>
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">安装时间: %1$s</string>
     <string name="app_info_update_time">更新时间: %1$s</string>
@@ -1059,7 +997,7 @@
     <!-- SystemUI restart dialog -->
     <string name="systemui_restart_title">需要重启系统界面</string>
     <string name="systemui_restart_message">要使更改生效，需要重新启动系统界面。现在要重新启动系统界面吗？</string>
-    <string name="systemui_restart_yes">是的</string>
+    <string name="systemui_restart_yes">是</string>
     <string name="systemui_restart_not_now">暂不</string>
     <string name="systemui_restart_process">正在重启系统界面以应用更改……</string>
     <!-- Notification / Power Menu Styles -->
@@ -1104,8 +1042,8 @@
     <string name="ls_media_art_title">媒体封面</string>
     <string name="ls_media_art_summary">可用时显示媒体封面</string>
     <!-- Lock screen media art on Ambient Display -->
-    <string name="ambient_media_art_title">息屏显示媒体封面</string>
-    <string name="ambient_media_art_summary">息屏显示可用时显示媒体封面</string>
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">媒体封面艺术过滤器</string>
     <string name="ls_media_art_filter_none">无</string>
@@ -1131,7 +1069,7 @@
     <string name="pulse_color">可视化效果颜色</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
     <string name="pulse_color_album">专辑封面</string>
-    <string name="pulse_color_accent">强调色</string>
+    <string name="pulse_color_accent">配色方案</string>
     <string name="pulse_bar_count_title">条数</string>
     <string name="pulse_bar_count_summary">设定视觉显示器显示多少条</string>
     <string name="pulse_bar_count_units">条</string>
@@ -1141,7 +1079,7 @@
     <string name="pulse_renderer_neon_glow">霓虹灯</string>
     <string name="pulse_renderer_retro_vu_meter">音量调节器</string>
     <string name="pulse_renderer_minimal_wave">最小波浪</string>
-    <string name="pulse_renderer_sparkle">闪烁</string>
+    <string name="pulse_renderer_sparkle">闪耀</string>
     <string name="pulse_renderer_matrix">矩阵</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">半透明通知</string>
@@ -1155,8 +1093,8 @@
     <string name="media_squiggle_animation_title">波浪动画</string>
     <string name="media_squiggle_animation_summary">播放媒体时在媒体面板中显示波浪动画</string>
     <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">自动修复 VBMeta 检测</string>
-    <string name="vbmeta_attestation_summary">执行密钥验证以在启动时生成验证的启动哈希。需要重启系统。</string>
+    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
+    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">不验证</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -1183,4 +1121,222 @@
     <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
     <string name="cycle_type_daily_title">Usage cycle reset hour</string>
     <string name="cycle_type_daily_sub">Hour of each day:</string>
+    <!-- Ongoing action chip -->
+    <string name="ongoing_progress_settings_title">Status bar action chip</string>
+    <string name="ongoing_progress_settings_summary">Customize action chip to show progress indicator</string>
+    <string name="ongoing_action_chip_title">Ongoing action chip</string>
+    <string name="ongoing_action_chip_summary">Display progress indicator for ongoing actions like downloads</string>
+    <string name="ongoing_media_progress_title">Media progress</string>
+    <string name="ongoing_media_progress_summary">Display media playback progress</string>
+    <string name="ongoing_progress_footer_text">\"The status bar action chip provides real-time updates for both media playback and active downloads/uploads.
+
+Media Progress:
+• Displays playback progress for music and video when media is playing.
+• Single tap opens playback controls.
+• Double tap toggles play/pause.
+• Swipe left skips to the previous track.
+• Swipe right skips to the next track.
+• Long press opens the media app. 
+
+Download/Upload Progress:
+• Shows progress for ongoing downloads and uploads.
+• Automatically hides when no active transfers are detected.
+• Single tap opens the app responsible for the download.
+
+The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance.\"
+    </string>
+    <string name="ongoing_compact_mode_title">Compact progress indicator</string>
+    <string name="ongoing_compact_mode_summary">Use a compact circular indicator for ongoing actions</string>
+    <string name="ongoing_chip_color_mode_title">Media chip background color</string>
+    <string name="ongoing_chip_color_mode_accent">System accent color</string>
+    <string name="ongoing_chip_color_mode_icon">App icon color</string>
+    <string name="ongoing_chip_color_mode_album_art">Album art color</string>
+    <!-- ALPHA -->
+    <!--  Alpha settings -->
+    <string name="alpha_settings_title">Alpha 设置</string>
+    <string name="alpha_settings_summary">将会有好东西！</string>
+    <string name="reset_settings_title">重置设置</string>
+    <string name="reset_settings_message">这将会重置当前用户大部分的 AlphaDroid 设置为默认值。您要继续吗？</string>
+    <!-- Top level categories -->
+    <string name="top_level_alpha_category_title">AlphaDroid</string>
+    <string name="top_level_connectivity_category_title">连接性</string>
+    <string name="top_level_system_info_category_title">系统</string>
+    <string name="top_level_personalize_category_title">个性化</string>
+    <string name="top_level_security_privacy_category_title">安全</string>
+    <string name="top_level_account_category_title">账号</string>
+    <string name="top_level_support_category_title">帮助</string>
+    <string name="lockscreen_clock_category">时钟</string>
+    <!-- Misc categories -->
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">系统</string>
+    <string name="misc_animations_category">Animations</string>
+    <string name="misc_gestures_category">手势</string>
+    <!-- Changelog -->
+    <string name="changelog_title">当前更改记录</string>
+    <string name="changelog_summary">查看安装的 ROM 更新记录</string>
+    <string name="changelog_error">无法加载更新记录</string>
+    <!-- About AlphaDroid -->
+    <string name="about_alpha">关于 Alpha</string>
+    <string name="about_alpha_dual_line">关于\nAlphaDroid</string>
+    <string name="about_device_name">设备</string>
+    <!-- Share AlphaDroid -->
+    <string name="share_title">分享 AlphaDroid</string>
+    <string name="share_summary">让其他人了解 AlphaDroid</string>
+    <string name="share_message">查看 #AlphaDroid Android 的全部内容 @ https://alpha.net/</string>
+    <string name="share_chooser_title">分享 AlphaDroid</string>
+    <!-- Sites AlphaDroid -->
+    <string name="source_title">Github</string>
+    <string name="source_summary">我们热爱开源，来看一看</string>
+    <string name="telegram_title">AlphaDroid 社区</string>
+    <string name="telegram_summary">我们也有 Telegram 频道，加入我们</string>
+    <string name="telegram_channel_title">更新频道</string>
+    <string name="telegram_channel_summary">在 Telegram 上获取新版本更新通知</string>
+    <string name="website_title">官方网站</string>
+    <string name="website_summary">查看我们的官网</string>
+    <string name="translate_title">翻译</string>
+    <string name="translate_summary">帮助我们将 ROM 翻译成你的语言</string>
+    <!-- Donate AlphaDroid -->
+    <string name="donate_title">支持我们</string>
+    <string name="donate_summary">为了持续开发捐助我们</string>
+    <string name="donate_team_title">AlphaDroid 团队</string>
+    <string name="donate_team_summary">捐赠支持服务器托管，网站正常运行时间和整体管理</string>
+    <!-- AlphaDroid build server sponsor -->
+    <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
+    <!-- OTA -->
+    <string name="alpha_update_title">更新</string>
+    <string name="alpha_update_summary">检查并下载最新更新</string>
+    <!-- SELinux status -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">禁用</string>
+    <string name="selinux_status_permissive">允许</string>
+    <string name="selinux_status_enforcing">强制</string>
+    <!-- Firmware info -->
+    <string name="category_android_info">Android</string>
+    <string name="category_alpha_info">AlphaDroid</string>
+    <string name="category_device_info">设备</string>
+    <!-- Build info -->
+    <string name="build_status_title">构建状态</string>
+    <string name="build_status_summary">非官方版</string>
+    <string name="build_status_official">官方</string>
+    <string name="build_status_unofficial">非官方版</string>
+    <string name="alpha_build_version">AlphaDroid 版本</string>
+    <string name="alpha_build_date">构建日期</string>
+    <!-- Maintainer -->
+    <string name="maintainer_title">维护者</string>
+    <string name="maintainer_summary">正在搜索维护者...</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">存储</string>
+    <string name="storage_card_info">Used/total</string>
+    <string name="about_device_name_title">设备</string>
+    <string name="about_device_rom_title">Android %s</string>
+    <string name="about_device_nearby">设备名称为被周围设备所见</string>
+    <!-- Hardware info -->
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">总内存</string>
+    <!-- QuickSwitch -->
+    <string name="quickswitch_launcher_title">AlphaDroid 桌面</string>
+    <string name="quickswitch_launcher_summary">更改 AlphaDroid 内置桌面</string>
+    <string name="quickswitch_launcher3">Launcher3</string>
+    <string name="quickswitch_nexuslauncher">Nexus 桌面</string>
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+    <!-- Search bar -->
+    <string name="search_bar_text">搜索</string>
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">现实显示</string>
+    <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
+    <string name="display_engine_mode_xreality">X-Reality 显示引擎</string>
+    <string name="display_engine_mode_vivid">生动显示</string>
+    <string name="display_engine_mode_triluminous">特丽魅彩显示技术</string>
+    <string name="display_engine_mode_footer_text">受到索尼的 Bravia/X-Reality 引擎启发，显示引擎提供生动模式以增强亮度和色彩饱和度和提高细节和色彩精度的 X-Reality 模式。</string>
+    <!-- Ignore window secure flag -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
+    <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Max visible notification icons -->
+    <string name="max_visible_notification_icons_title">通知图标</string>
+    <string name="max_visible_notification_icons_summary">状态栏显示通知最大图标</string>
+    <!-- UI styles -->
+    <string name="ui_style_title">UI Style</string>
+    <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
+    <string name="ui_style_light_theme">Light theme</string>
+    <string name="ui_style_dark_theme">Dark theme</string>
+    <string name="ui_style_reset_section">Reset to defaults</string>
+    <string name="ui_style_reset_all">Reset all styles</string>
+    <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
+    <!-- Cutout Progress -->
+    <string name="cutout_progress_title">Cutout Progress Ring</string>
+    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
+    <string name="cutout_progress_enabled_title">Enable cutout progress ring</string>
+    <string name="cutout_progress_enabled_summary">Show a progress ring around the camera cutout during downloads</string>
+    <string name="cutout_progress_cat_appearance">Appearance</string>
+    <string name="cutout_progress_cat_behaviour">Behaviour</string>
+    <string name="cutout_progress_cat_bg_ring">Background ring</string>
+    <string name="cutout_progress_cat_finish">Finish animation</string>
+    <string name="cutout_progress_cat_geometry">Ring geometry</string>
+    <string name="cutout_progress_cat_labels">Labels</string>
+    <string name="cutout_progress_cat_badge">Download count badge</string>
+    <string name="cutout_progress_ring_color_title">Ring custom color</string>
+    <string name="cutout_progress_error_color_title">Error color</string>
+    <string name="cutout_progress_finish_flash_color_title">Finish flash color</string>
+    <string name="cutout_progress_bg_ring_color_title">Background ring color</string>
+    <string name="cutout_progress_opacity_title">Ring opacity</string>
+    <string name="cutout_progress_stroke_width_title">边框宽度</string>
+    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
+    <string name="cutout_progress_clockwise_title">Clockwise direction</string>
+    <string name="cutout_progress_clockwise_summary">Fill the ring clockwise; disable for counter-clockwise</string>
+    <string name="cutout_progress_min_vis_title">Minimum display time</string>
+    <string name="cutout_progress_min_vis_summary">Keep ring visible for a minimum duration so brief downloads don\'t flash</string>
+    <string name="cutout_progress_min_vis_ms_title">Minimum duration</string>
+    <string name="cutout_progress_easing_title">Progress easing</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Show background ring</string>
+    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
+    <string name="cutout_progress_bg_ring_opacity_title">Background ring opacity</string>
+    <string name="cutout_progress_finish_style_title">Finish animation style</string>
+    <string name="cutout_progress_finish_hold_title">Hold duration</string>
+    <string name="cutout_progress_finish_exit_title">Exit duration</string>
+    <string name="cutout_progress_finish_flash_title">Use flash color on finish</string>
+    <string name="cutout_progress_finish_flash_summary">Briefly flash the ring with the finish flash color when complete</string>
+    <string name="cutout_progress_pulse_title">Completion pulse</string>
+    <string name="cutout_progress_pulse_summary">Brief brightness pulse before the finish animation</string>
+    <string name="cutout_progress_path_mode_title">Capsule / pill mode</string>
+    <string name="cutout_progress_path_mode_summary">Use a pill-shaped path renderer (for elongated cutouts)</string>
+    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
+    <string name="cutout_progress_scale_y_title">Vertical scale</string>
+    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
+    <string name="cutout_progress_offset_y_title">Vertical offset</string>
+    <string name="cutout_progress_percent_enabled_title">Show percentage</string>
+    <string name="cutout_progress_percent_enabled_summary">Display current download progress as a percentage label</string>
+    <string name="cutout_progress_percent_size_title">Percentage text size</string>
+    <string name="cutout_progress_percent_bold_title">Bold percentage</string>
+    <string name="cutout_progress_percent_position_title">Percentage position</string>
+    <string name="cutout_progress_filename_enabled_title">Show filename</string>
+    <string name="cutout_progress_filename_enabled_summary">Display the name of the file being downloaded</string>
+    <string name="cutout_progress_filename_size_title">Filename text size</string>
+    <string name="cutout_progress_filename_bold_title">Bold filename</string>
+    <string name="cutout_progress_filename_position_title">Filename position</string>
+    <string name="cutout_progress_filename_max_chars_title">Max filename length</string>
+    <string name="cutout_progress_filename_truncate_title">Filename truncation</string>
+    <string name="cutout_progress_badge_title">Show download count badge</string>
+    <string name="cutout_progress_badge_summary">Show a pill badge with the number of active downloads</string>
+    <string name="cutout_progress_badge_size_title">Badge text size</string>
+    <string name="cutout_progress_badge_offset_x_title">Badge horizontal offset</string>
+    <string name="cutout_progress_badge_offset_y_title">Badge vertical offset</string>
+    <string name="cutout_progress_ring_color_mode_title">Ring color</string>
+    <string name="cutout_progress_color_picker_title">Choose color</string>
+    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
+    <string name="cutout_progress_ring_color_mode_rainbow">彩虹</string>
+    <string name="cutout_progress_ring_color_mode_custom">自定义</string>
+    <!-- Charging Ring -->
+    <string name="cutout_progress_cat_charging">Charging ring</string>
+    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
+    <string name="cutout_progress_charging_ring_summary">Display battery level as a symmetric ring around the cutout while charging</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
 </resources>
