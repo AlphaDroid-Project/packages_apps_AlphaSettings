@@ -21,6 +21,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -49,6 +50,7 @@ public class NavbarStyles extends SettingsPreferenceFragment {
     private ThemeUtils mThemeUtils;
     private final String mCategory = "android.theme.customization.navbar";
     private List<String> mPkgs;
+    private String mTargetPkg;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,7 +58,11 @@ public class NavbarStyles extends SettingsPreferenceFragment {
         if (!isAdded()) return;
         requireActivity().setTitle(R.string.theme_customization_navbar_title);
         mThemeUtils = new ThemeUtils(requireContext());
-        mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, "com.android.launcher3");
+
+        // Dynamically fetch the active launcher via SystemProperties
+        mTargetPkg = getActiveLauncherPackage(requireContext());
+
+        mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, mTargetPkg);
     }
 
     @Override
@@ -65,7 +71,7 @@ public class NavbarStyles extends SettingsPreferenceFragment {
         View view = inflater.inflate(R.layout.item_view, container, false);
         mRecyclerView = view.findViewById(R.id.recycler_view);
         mRecyclerView.setLayoutManager(new GridLayoutManager(requireContext(), 2));
-        mRecyclerView.setAdapter(new Adapter(requireContext(), mPkgs, mThemeUtils, mCategory, mRecyclerView));
+        mRecyclerView.setAdapter(new Adapter(requireContext(), mPkgs, mThemeUtils, mCategory, mRecyclerView, mTargetPkg));
         return view;
     }
 
@@ -83,27 +89,50 @@ public class NavbarStyles extends SettingsPreferenceFragment {
         return MetricsEvent.ALPHA;
     }
 
+    // Helper to find which launcher is currently active using persist.sys.default_launcher
+    private String getActiveLauncherPackage(Context context) {
+        // Default to 0 (Launcher3) if the property is missing or unreadable
+        int launcherIndex = SystemProperties.getInt("persist.sys.default_launcher", 0);
+
+        try {
+            String[] launcherPackages = context.getResources().getStringArray(
+                    com.android.internal.R.array.config_launcherPackages);
+
+            // Ensure the index from the prop isn't out of bounds for the array
+            if (launcherIndex >= 0 && launcherIndex < launcherPackages.length) {
+                return launcherPackages[launcherIndex];
+            }
+        } catch (Resources.NotFoundException e) {
+            Log.e(TAG, "config_launcherPackages array not found", e);
+        }
+
+        // Fallback if everything fails
+        return "com.android.launcher3";
+    }
+
     public static class Adapter extends RecyclerView.Adapter<Adapter.CustomViewHolder> {
         private final WeakReference<Context> contextRef;
         private final List<String> mPkgs;
         private final ThemeUtils mThemeUtils;
         private final String mCategory;
         private final RecyclerView mRecyclerView;
+        private final String mTargetPkg;
         private final String mAppliedPkg;
         private String mSelectedPkg;
 
-        public Adapter(Context context, List<String> pkgs, ThemeUtils themeUtils, String category, RecyclerView recyclerView) {
+        public Adapter(Context context, List<String> pkgs, ThemeUtils themeUtils, String category, RecyclerView recyclerView, String targetPkg) {
             this.contextRef = new WeakReference<>(context);
             this.mPkgs = pkgs;
             this.mThemeUtils = themeUtils;
             this.mCategory = category;
             this.mRecyclerView = recyclerView;
+            this.mTargetPkg = targetPkg;
 
-            mAppliedPkg = mThemeUtils.getOverlayInfos(mCategory, "com.android.launcher3").stream()
+            mAppliedPkg = mThemeUtils.getOverlayInfos(mCategory, mTargetPkg).stream()
                     .filter(info -> info.isEnabled())
                     .map(info -> info.packageName)
                     .findFirst()
-                    .orElse("com.android.launcher3");
+                    .orElse(mTargetPkg);
             mSelectedPkg = mAppliedPkg;
         }
 
@@ -126,7 +155,7 @@ public class NavbarStyles extends SettingsPreferenceFragment {
             holder.image3.setBackgroundDrawable(getDrawable(context, pkg, "ic_sysbar_recent"));
 
             String label = getLabel(context, pkg);
-            holder.name.setText("com.android.launcher3".equals(pkg) ? "Default" : label);
+            holder.name.setText(mTargetPkg.equals(pkg) ? "Default" : label);
             holder.itemView.setActivated(pkg.equals(mSelectedPkg));
 
             holder.itemView.setOnClickListener(view -> {
@@ -134,7 +163,7 @@ public class NavbarStyles extends SettingsPreferenceFragment {
                     String oldPkg = mSelectedPkg;
                     mSelectedPkg = pkg;
                     mThemeUtils.setOverlayEnabled(mCategory, oldPkg, oldPkg);
-                    mThemeUtils.setOverlayEnabled(mCategory, pkg, "com.android.launcher3");
+                    mThemeUtils.setOverlayEnabled(mCategory, pkg, mTargetPkg);
                 }
                 updateActivatedStatus();
             });
@@ -164,8 +193,8 @@ public class NavbarStyles extends SettingsPreferenceFragment {
 
         private Drawable getDrawable(Context context, String pkg, String drawableName) {
             try {
-                if ("com.android.launcher3".equals(pkg)) {
-                    pkg = "com.android.settings";
+                if (mTargetPkg.equals(pkg)) {
+                    pkg = "com.android.settings"; // Fallback for default drawables
                 }
                 PackageManager pm = context.getPackageManager();
                 Resources res = pm.getResourcesForApplication(pkg);
