@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2024-2026 Lunaris AOSP
+ * Copyright (C) 2026 AlphaDroid
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,6 +19,7 @@ package com.alpha.settings.fragments.statusbar
 
 import android.os.Bundle
 import android.provider.Settings
+import android.view.WindowManager
 import androidx.compose.ui.graphics.Color
 import androidx.preference.ListPreference
 import androidx.preference.Preference
@@ -46,6 +48,9 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
         private const val KEY_FILENAME_POSITION = "cutout_progress_filename_position"
         private const val KEY_FILENAME_TRUNCATE = "cutout_progress_filename_truncate"
 
+        // Dynamic Island Keys
+        private const val KEY_ISLAND_POSITION = "cutout_progress_island_position"
+
         private const val DEFAULT_RING_COLOR = 0xFF2196F3.toInt()
         private const val DEFAULT_ERROR_COLOR = 0xFFF44336.toInt()
         private const val DEFAULT_FLASH_COLOR = 0xFFFFFFFF.toInt()
@@ -53,6 +58,7 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
     }
 
     private lateinit var ringColorModePref: ListPreference
+    private lateinit var islandPosPref: ListPreference
 
     private lateinit var ringColorPref: Preference
     private lateinit var errorColorPref: Preference
@@ -69,6 +75,7 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
         addPreferencesFromResource(R.xml.cutout_progress_settings)
 
         ringColorModePref = findPreference(KEY_RING_COLOR_MODE)!!
+        islandPosPref = findPreference(KEY_ISLAND_POSITION)!!
 
         ringColorPref = findPreference(KEY_RING_COLOR)!!
         errorColorPref = findPreference(KEY_ERROR_COLOR)!!
@@ -83,8 +90,9 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
 
         refreshColorSummaries()
         syncListPreferences()
+        setupIslandPositionPreference()
 
-        val storedMode = readSecureInt(KEY_RING_COLOR_MODE, COLOR_MODE_ACCENT)
+        val storedMode = readSystemInt(KEY_RING_COLOR_MODE, COLOR_MODE_ACCENT)
         ringColorModePref.value = storedMode.toString()
         updateColorPickerVisibility(storedMode)
 
@@ -130,16 +138,61 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
         fnameTruncPref.onPreferenceChangeListener = this
     }
 
+    private fun setupIslandPositionPreference() {
+        val windowManager = requireContext().getSystemService(WindowManager::class.java)
+        val windowMetrics = windowManager.currentWindowMetrics
+        val displayWidth = windowMetrics.bounds.width()
+        val cutout = windowMetrics.windowInsets.displayCutout
+
+        var isLeftCutout = false
+        var isRightCutout = false
+
+        // Detect physical hardware camera position
+        cutout?.boundingRects?.forEach { rect ->
+            if (rect.centerX() < displayWidth / 3) isLeftCutout = true
+            else if (rect.centerX() > displayWidth * 2 / 3) isRightCutout = true
+        }
+
+        val entries = mutableListOf<CharSequence>()
+        val values = mutableListOf<CharSequence>()
+
+        // 0 = Center Split, 1 = Left, 2 = Right
+        entries.add(getString(R.string.cutout_island_pos_center)) // e.g. "Center Split"
+        values.add("0")
+
+        if (!isLeftCutout) {
+            entries.add(getString(R.string.cutout_island_pos_left)) // e.g. "Left"
+            values.add("1")
+        }
+        if (!isRightCutout) {
+            entries.add(getString(R.string.cutout_island_pos_right)) // e.g. "Right"
+            values.add("2")
+        }
+
+        islandPosPref.entries = entries.toTypedArray()
+        islandPosPref.entryValues = values.toTypedArray()
+
+        // Fallback to Center if user had an invalid selection previously saved
+        var currentPos = readSystemInt(KEY_ISLAND_POSITION, 0)
+        if ((currentPos == 1 && isLeftCutout) || (currentPos == 2 && isRightCutout)) {
+            currentPos = 0
+            writeSystemInt(KEY_ISLAND_POSITION, currentPos)
+        }
+
+        islandPosPref.value = currentPos.toString()
+        islandPosPref.onPreferenceChangeListener = this
+    }
+
     override fun onPreferenceChange(preference: Preference, newValue: Any): Boolean {
         val intValue = (newValue as? String)?.toIntOrNull() ?: return false
 
         if (preference.key == KEY_RING_COLOR_MODE) {
-            writeSecureInt(KEY_RING_COLOR_MODE, intValue)
+            writeSystemInt(KEY_RING_COLOR_MODE, intValue)
             updateColorPickerVisibility(intValue)
             return true
         }
 
-        writeSecureInt(preference.key, intValue)
+        writeSystemInt(preference.key, intValue)
         return true
     }
 
@@ -156,12 +209,12 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
             fnamePosPref to 4,
             fnameTruncPref to 0
         ).forEach { (pref, default) ->
-            pref.value = readSecureInt(pref.key, default).toString()
+            pref.value = readSystemInt(pref.key, default).toString()
         }
     }
 
     private fun showColorPicker(title: String, key: String, default: Int) {
-        val currentArgb = readSecureInt(key, default)
+        val currentArgb = readSystemInt(key, default)
         val currentHex = argbToHex(currentArgb)
 
         val dialog = CutoutProgressColorPickerDialogFragment.newInstance(
@@ -169,24 +222,25 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
             colorHex = currentHex
         )
         dialog.setOnColorSelectedListener { color: Color ->
-            writeSecureInt(key, color.toArgb())
+            writeSystemInt(key, color.toArgb())
             refreshColorSummaries()
         }
         dialog.show(parentFragmentManager, CutoutProgressColorPickerDialogFragment.TAG)
     }
 
     private fun refreshColorSummaries() {
-        ringColorPref.summary = "#${argbToHex(readSecureInt(KEY_RING_COLOR, DEFAULT_RING_COLOR))}"
-        errorColorPref.summary = "#${argbToHex(readSecureInt(KEY_ERROR_COLOR, DEFAULT_ERROR_COLOR))}"
-        flashColorPref.summary = "#${argbToHex(readSecureInt(KEY_FLASH_COLOR, DEFAULT_FLASH_COLOR))}"
-        bgColorPref.summary = "#${argbToHex(readSecureInt(KEY_BG_COLOR, DEFAULT_BG_COLOR))}"
+        ringColorPref.summary = "#${argbToHex(readSystemInt(KEY_RING_COLOR, DEFAULT_RING_COLOR))}"
+        errorColorPref.summary = "#${argbToHex(readSystemInt(KEY_ERROR_COLOR, DEFAULT_ERROR_COLOR))}"
+        flashColorPref.summary = "#${argbToHex(readSystemInt(KEY_FLASH_COLOR, DEFAULT_FLASH_COLOR))}"
+        bgColorPref.summary = "#${argbToHex(readSystemInt(KEY_BG_COLOR, DEFAULT_BG_COLOR))}"
     }
 
-    private fun readSecureInt(key: String, default: Int): Int =
-        Settings.Secure.getInt(requireContext().contentResolver, key, default)
+    // Switched to Settings.System to match SystemUI changes
+    private fun readSystemInt(key: String, default: Int): Int =
+        Settings.System.getInt(requireContext().contentResolver, key, default)
 
-    private fun writeSecureInt(key: String, value: Int) {
-        Settings.Secure.putInt(requireContext().contentResolver, key, value)
+    private fun writeSystemInt(key: String, value: Int) {
+        Settings.System.putInt(requireContext().contentResolver, key, value)
     }
 
     private fun argbToHex(argb: Int): String =
