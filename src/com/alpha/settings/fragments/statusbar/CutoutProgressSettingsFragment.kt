@@ -27,12 +27,14 @@ import com.android.settings.R
 import com.android.settings.SettingsPreferenceFragment
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent
 import com.alpha.settings.utils.toArgb
-import com.alpha.settings.utils.toHexString
 
 class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
     Preference.OnPreferenceChangeListener {
 
     companion object {
+        // Feature Keys are handled natively by SystemSettingSwitchPreference
+        // We only need to define keys here that require manual UI manipulation (like color dialogs)
+
         private const val KEY_RING_COLOR_MODE = "cutout_progress_ring_color_mode"
         private const val COLOR_MODE_ACCENT = 0
         private const val COLOR_MODE_RAINBOW = 1
@@ -42,13 +44,13 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
         private const val KEY_ERROR_COLOR = "cutout_progress_error_color"
         private const val KEY_FLASH_COLOR = "cutout_progress_finish_flash_color"
         private const val KEY_BG_COLOR = "cutout_progress_bg_ring_color"
+
         private const val KEY_FINISH_STYLE = "cutout_progress_finish_style"
         private const val KEY_EASING = "cutout_progress_easing"
         private const val KEY_PERCENT_POSITION = "cutout_progress_percent_position"
         private const val KEY_FILENAME_POSITION = "cutout_progress_filename_position"
         private const val KEY_FILENAME_TRUNCATE = "cutout_progress_filename_truncate"
 
-        // Dynamic Island Keys
         private const val KEY_ISLAND_POSITION = "cutout_progress_island_position"
 
         private const val DEFAULT_RING_COLOR = 0xFF2196F3.toInt()
@@ -235,7 +237,6 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
         bgColorPref.summary = "#${argbToHex(readSystemInt(KEY_BG_COLOR, DEFAULT_BG_COLOR))}"
     }
 
-    // Switched to Settings.System to match SystemUI changes
     private fun readSystemInt(key: String, default: Int): Int =
         Settings.System.getInt(requireContext().contentResolver, key, default)
 

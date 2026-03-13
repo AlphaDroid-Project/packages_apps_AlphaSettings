@@ -25,7 +25,7 @@ import com.alpha.settings.fragments.UserInterface;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.core.SubSettingLauncher;
 
-/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+/** Trampoline activity for launching the {@link UserInterface} fragment. */
 public class UserInterfaceActivity extends AppCompatActivity {
 
     private static final String TAG = "UserInterfaceActivity";

@@ -25,7 +25,7 @@ import com.alpha.settings.fragments.Buttons;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.core.SubSettingLauncher;
 
-/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+/** Trampoline activity for launching the {@link Buttons} fragment. */
 public class ButtonsActivity extends AppCompatActivity {
 
     private static final String TAG = "ButtonsActivity";

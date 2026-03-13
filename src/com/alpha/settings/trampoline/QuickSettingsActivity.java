@@ -25,7 +25,7 @@ import com.alpha.settings.fragments.QuickSettings;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.core.SubSettingLauncher;
 
-/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+/** Trampoline activity for launching the {@link QuickSettings} fragment. */
 public class QuickSettingsActivity extends AppCompatActivity {
 
     private static final String TAG = "QuickSettingsActivity";
