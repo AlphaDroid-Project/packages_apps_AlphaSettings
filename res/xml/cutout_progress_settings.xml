@@ -8,17 +8,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/cutout_progress_title">
 
-    <!-- ============================================== -->
-    <!-- CHARGING PROGRESS                              -->
-    <!-- ============================================== -->
-    <PreferenceCategory
-        android:key="cutout_progress_cat_charging"
-        android:title="@string/cutout_progress_cat_charging">
+    <PreferenceCategory android:title="@string/cutout_progress_cat_features">
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="cutout_progress_download_enabled"
+            android:title="@string/cutout_progress_download_enabled_title"
+            android:defaultValue="true" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="cutout_progress_charging_ring_enabled"
             android:title="@string/cutout_progress_charging_ring_title"
-            android:summary="@string/cutout_progress_charging_ring_summary"
             android:defaultValue="true" />
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
@@ -30,17 +29,7 @@
 
     </PreferenceCategory>
 
-    <!-- ============================================== -->
-    <!-- DOWNLOAD PROGRESS                              -->
-    <!-- ============================================== -->
-    <PreferenceCategory
-        android:key="cutout_progress_cat_download"
-        android:title="Download progress">
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_download_enabled"
-            android:title="Enable download progress ring"
-            android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/cutout_progress_cat_appearance">
 
         <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="cutout_progress_ring_color_mode"
@@ -48,247 +37,13 @@
             android:summary="%s"
             android:entries="@array/cutout_progress_ring_color_mode_entries"
             android:entryValues="@array/cutout_progress_ring_color_mode_values"
-            android:defaultValue="0"
-            android:dependency="cutout_progress_download_enabled" />
+            android:defaultValue="0" />
 
         <Preference
             android:key="cutout_progress_ring_color"
             android:title="@string/cutout_progress_ring_color_title"
             android:summary="#2196F3"
-            android:persistent="false"
-            android:dependency="cutout_progress_download_enabled" />
-
-        <Preference
-            android:key="cutout_progress_error_color"
-            android:title="@string/cutout_progress_error_color_title"
-            android:summary="#F44336"
-            android:persistent="false"
-            android:dependency="cutout_progress_download_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_clockwise"
-            android:title="@string/cutout_progress_clockwise_title"
-            android:summary="@string/cutout_progress_clockwise_summary"
-            android:defaultValue="true"
-            android:dependency="cutout_progress_download_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="cutout_progress_easing"
-            android:title="@string/cutout_progress_easing_title"
-            android:summary="%s"
-            android:entries="@array/cutout_progress_easing_entries"
-            android:entryValues="@array/cutout_progress_easing_values"
-            android:defaultValue="0"
-            android:dependency="cutout_progress_download_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_min_vis_enabled"
-            android:title="@string/cutout_progress_min_vis_title"
-            android:summary="@string/cutout_progress_min_vis_summary"
-            android:defaultValue="true"
-            android:dependency="cutout_progress_download_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_min_vis_ms"
-            android:title="@string/cutout_progress_min_vis_ms_title"
-            android:max="3000"
-            settings:min="100"
-            settings:interval="100"
-            settings:units="ms"
-            android:defaultValue="500"
-            android:dependency="cutout_progress_min_vis_enabled" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="cutout_progress_cat_download_labels"
-        android:title="Download labels &amp; badges"
-        android:dependency="cutout_progress_download_enabled">
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_percent_enabled"
-            android:title="@string/cutout_progress_percent_enabled_title"
-            android:summary="@string/cutout_progress_percent_enabled_summary"
-            android:defaultValue="false" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_percent_size_sp10"
-            android:title="@string/cutout_progress_percent_size_title"
-            android:max="200"
-            settings:min="60"
-            settings:interval="5"
-            settings:units=" (×0.1 sp)"
-            android:defaultValue="80"
-            android:dependency="cutout_progress_percent_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_percent_bold"
-            android:title="@string/cutout_progress_percent_bold_title"
-            android:defaultValue="true"
-            android:dependency="cutout_progress_percent_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="cutout_progress_percent_position"
-            android:title="@string/cutout_progress_percent_position_title"
-            android:summary="%s"
-            android:entries="@array/cutout_progress_position_entries"
-            android:entryValues="@array/cutout_progress_position_values"
-            android:defaultValue="0"
-            android:dependency="cutout_progress_percent_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_filename_enabled"
-            android:title="@string/cutout_progress_filename_enabled_title"
-            android:summary="@string/cutout_progress_filename_enabled_summary"
-            android:defaultValue="false" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_filename_size_sp10"
-            android:title="@string/cutout_progress_filename_size_title"
-            android:max="180"
-            settings:min="50"
-            settings:interval="5"
-            settings:units=" (×0.1 sp)"
-            android:defaultValue="70"
-            android:dependency="cutout_progress_filename_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_filename_bold"
-            android:title="@string/cutout_progress_filename_bold_title"
-            android:defaultValue="false"
-            android:dependency="cutout_progress_filename_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="cutout_progress_filename_position"
-            android:title="@string/cutout_progress_filename_position_title"
-            android:summary="%s"
-            android:entries="@array/cutout_progress_position_entries"
-            android:entryValues="@array/cutout_progress_position_values"
-            android:defaultValue="4"
-            android:dependency="cutout_progress_filename_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_filename_max_chars"
-            android:title="@string/cutout_progress_filename_max_chars_title"
-            android:max="60"
-            settings:min="5"
-            settings:interval="1"
-            android:defaultValue="20"
-            android:dependency="cutout_progress_filename_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="cutout_progress_filename_truncate"
-            android:title="@string/cutout_progress_filename_truncate_title"
-            android:summary="%s"
-            android:entries="@array/cutout_progress_truncate_entries"
-            android:entryValues="@array/cutout_progress_truncate_values"
-            android:defaultValue="0"
-            android:dependency="cutout_progress_filename_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_show_count_badge"
-            android:title="@string/cutout_progress_badge_title"
-            android:summary="@string/cutout_progress_badge_summary"
-            android:defaultValue="false" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_badge_text_size_sp10"
-            android:title="@string/cutout_progress_badge_size_title"
-            android:max="180"
-            settings:min="60"
-            settings:interval="5"
-            settings:units=" (×0.1 sp)"
-            android:defaultValue="100"
-            android:dependency="cutout_progress_show_count_badge" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_badge_offset_x_dp10"
-            android:title="@string/cutout_progress_badge_offset_x_title"
-            android:max="100"
-            settings:min="-100"
-            settings:interval="5"
-            settings:units=" (×0.1 dp)"
-            android:defaultValue="0"
-            android:dependency="cutout_progress_show_count_badge" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_badge_offset_y_dp10"
-            android:title="@string/cutout_progress_badge_offset_y_title"
-            android:max="100"
-            settings:min="-100"
-            settings:interval="5"
-            settings:units=" (×0.1 dp)"
-            android:defaultValue="0"
-            android:dependency="cutout_progress_show_count_badge" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="cutout_progress_cat_finish"
-        android:title="Download completion animation"
-        android:dependency="cutout_progress_download_enabled">
-
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="cutout_progress_finish_style"
-            android:title="@string/cutout_progress_finish_style_title"
-            android:summary="%s"
-            android:entries="@array/cutout_progress_finish_style_entries"
-            android:entryValues="@array/cutout_progress_finish_style_values"
-            android:defaultValue="0" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_finish_hold_ms"
-            android:title="@string/cutout_progress_finish_hold_title"
-            android:max="2000"
-            settings:min="0"
-            settings:interval="50"
-            settings:units="ms"
-            android:defaultValue="500" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_finish_exit_ms"
-            android:title="@string/cutout_progress_finish_exit_title"
-            android:max="2000"
-            settings:min="0"
-            settings:interval="50"
-            settings:units="ms"
-            android:defaultValue="500" />
-
-        <Preference
-            android:key="cutout_progress_finish_flash_color"
-            android:title="@string/cutout_progress_finish_flash_color_title"
-            android:summary="#FFFFFF"
             android:persistent="false" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_finish_use_flash"
-            android:title="@string/cutout_progress_finish_flash_title"
-            android:summary="@string/cutout_progress_finish_flash_summary"
-            android:defaultValue="true" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_completion_pulse"
-            android:title="@string/cutout_progress_pulse_title"
-            android:summary="@string/cutout_progress_pulse_summary"
-            android:defaultValue="true" />
-
-    </PreferenceCategory>
-
-    <!-- ============================================== -->
-    <!-- COMMON SETTINGS & GEOMETRY                     -->
-    <!-- ============================================== -->
-    <PreferenceCategory
-        android:key="cutout_progress_cat_geometry"
-        android:title="Common geometry &amp; appearance">
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_opacity"
-            android:title="@string/cutout_progress_opacity_title"
-            android:max="100"
-            settings:min="0"
-            settings:interval="1"
-            settings:units="%"
-            android:defaultValue="90" />
 
         <com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="cutout_progress_stroke_width_dp10"
@@ -299,88 +54,14 @@
             settings:units=" (×0.1 dp)"
             android:defaultValue="20" />
 
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_ring_gap_x1000"
-            android:title="@string/cutout_progress_ring_gap_title"
-            android:max="2000"
-            settings:min="1000"
-            settings:interval="10"
-            settings:units=" (×0.001)"
-            android:defaultValue="1155" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="cutout_progress_path_mode"
-            android:title="@string/cutout_progress_path_mode_title"
-            android:summary="@string/cutout_progress_path_mode_summary"
-            android:defaultValue="false" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_ring_scale_x_x1000"
-            android:title="@string/cutout_progress_scale_x_title"
-            android:max="3000"
-            settings:min="500"
-            settings:interval="50"
-            settings:units=" (×0.001)"
-            android:defaultValue="1000" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_ring_scale_y_x1000"
-            android:title="@string/cutout_progress_scale_y_title"
-            android:max="3000"
-            settings:min="500"
-            settings:interval="50"
-            settings:units=" (×0.001)"
-            android:defaultValue="1000" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_ring_offset_x_dp10"
-            android:title="@string/cutout_progress_offset_x_title"
-            android:max="200"
-            settings:min="-200"
-            settings:interval="5"
-            settings:units=" (×0.1 dp)"
-            android:defaultValue="0" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_ring_offset_y_dp10"
-            android:title="@string/cutout_progress_offset_y_title"
-            android:max="200"
-            settings:min="-200"
-            settings:interval="5"
-            settings:units=" (×0.1 dp)"
-            android:defaultValue="0" />
-
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="cutout_progress_bg_ring_enabled"
             android:title="@string/cutout_progress_bg_ring_enabled_title"
-            android:summary="@string/cutout_progress_bg_ring_enabled_summary"
             android:defaultValue="true" />
-
-        <Preference
-            android:key="cutout_progress_bg_ring_color"
-            android:title="@string/cutout_progress_bg_ring_color_title"
-            android:summary="#808080"
-            android:persistent="false"
-            android:dependency="cutout_progress_bg_ring_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_bg_ring_opacity"
-            android:title="@string/cutout_progress_bg_ring_opacity_title"
-            android:max="100"
-            settings:min="0"
-            settings:interval="1"
-            settings:units="%"
-            android:defaultValue="30"
-            android:dependency="cutout_progress_bg_ring_enabled" />
 
     </PreferenceCategory>
 
-    <!-- ============================================== -->
-    <!-- EXPANDED MODE (DYNAMIC ISLAND)                 -->
-    <!-- ============================================== -->
-    <PreferenceCategory
-        android:key="cutout_progress_cat_island"
-        android:title="Expanded mode (Dynamic Island)">
+    <PreferenceCategory android:title="@string/cutout_progress_cat_island">
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="cutout_progress_island_compact"
@@ -403,15 +84,6 @@
             settings:interval="1"
             settings:units="s"
             android:defaultValue="3" />
-
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="cutout_progress_island_bg_opacity"
-            android:title="@string/cutout_progress_island_opacity_title"
-            android:max="100"
-            settings:min="0"
-            settings:interval="1"
-            settings:units="%"
-            android:defaultValue="70" />
 
     </PreferenceCategory>
 
