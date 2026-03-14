@@ -30,13 +30,13 @@
     <string name="display_title">Εμφάνιση</string>
     <string name="ui_title">Περιβάλλον χρήστη</string>
     <string name="ui_title_short">UI</string>
-    <string name="ui_summary">Monet, styles, icon packs</string>
-    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="ui_summary">Monet, styles</string>
+    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
     <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
     <string name="button_summary">Hardware buttons and power menu</string>
     <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
     <string name="notifications_summary">Alerts, heads up, lights</string>
-    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="sound_summary">Volume panel, vibration</string>
     <string name="misc_summary">Game Space, spoofing, misc.</string>
     <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
@@ -750,72 +750,72 @@
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Τα έξυπνα πίξελ είναι μια δυνατότητα εξοικονόμησης ενέργειας. Ανάλογα με το πόσα πίξελ αποφασίζετε να απενεργοποιήσετε, θα μπορούσατε να δείτε βελτίωση στη διάρκεια ζωής της μπαταρίας. Σημειώστε ότι σε ορισμένες περιπτώσεις μπορεί να οδηγήσει σε περιοχές που δεν ανταποκρίνονται στην οθόνη αφής</string>
     <string name="smart_pixels_title">Έξυπνα Πίξελ</string>
-    <string name="smart_pixels_summary">Εξοικονόμηση μπαταρίας απενεργοποιώντας τα έξτρα πίξελ</string>
-    <string name="smart_pixels_enable_title">Ενεργοποίηση Έξυπνων Πίξελ</string>
-    <string name="smart_pixels_enable_summary">Απενεργοποιήστε πίξελ για να μειώσετε την κατανάλωση ενέργειας</string>
-    <string name="smart_pixels_on_power_save_title">Αυτόματη ενεργοποίηση στην εξοικονόμηση μπαταρίας</string>
-    <string name="smart_pixels_on_power_save_summary">Ενεργοποίηση Έξυπνων Πίξελ όταν η εξοικονόμηση μπαταρίας είναι ενεργοποιημένη</string>
-    <string name="smart_pixels_percent">Ποσοστό των πίξελ για απενεργοποίηση</string>
-    <string name="smart_pixels_shift_title">Προστασία από Burn-in</string>
-    <string name="smart_pixels_shift_summary">Αποτρέπει το burn-in σε συσκευές με OLED οθόνη μετακινώντας τα πίξελ συχνά</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift_title">Burn-in protection</string>
+    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Χρήση μαύρου θέματος</string>
-    <string name="system_black_theme_summary">Εξαναγκασμός μαύρων χρωμάτων φόντου</string>
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Κουμπί διαγραφής όλων των ειδοποιήσεων</string>
-    <string name="notification_material_dismiss_summary">Αντικαταστήστε το κείμενο διαγραφής όλων των ειδοποιήσεων με το κυμαινόμενο σε material στυλ κουμπί</string>
+    <string name="notification_material_dismiss_title">Clear all notification button</string>
+    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_title">Εφέ χειρονομίας πίσω</string>
-    <string name="back_gesture_arrow_summary">Εμφάνιση ενός κινούμενου βέλους για χειρονομία πίσω</string>
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Απτική δόνηση χειρονομίας πίσω</string>
-    <string name="back_gesture_haptic_summary">Δόνηση κατά την εκτέλεση μιας πίσω χειρονομίας</string>
+    <string name="back_gesture_haptic_title">Back gesture haptic</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Τρέχουσα χωρητικότητα μπαταρίας</string>
-    <string name="designed_battery_capacity">Σχεδιασμένη χωρητικότητα μπαταρίας</string>
-    <string name="battery_charge_cycles">Ολοκληρωμένοι κύκλοι φόρτισης</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Θερμοκρασία μπαταρίας</string>
+    <string name="battery_temperature">Battery temperature</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Αδιαφάνεια φόντου</string>
-    <string name="qs_opacity_summary">Ορισμός επιπέδου αδιαφάνειας για φόντο γρήγορων ρυθμίσεων</string>
+    <string name="qs_opacity_title">Background opacity</string>
+    <string name="qs_opacity_summary">Set opacity level for QS background</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Χρήση δεδομένων</string>
-    <string name="qs_footer_datausage_summary">Εμφάνιση σύνοψης χρήσης δεδομένων στο υποσέλιδο γρήγορων ρυθμίσεων</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Εφέ κίνησης πλακιδίων</string>
-    <string name="qs_tile_animation_style_title">Στυλ εφέ</string>
-    <string name="qs_tile_animation_duration_title">Διάρκεια εφέ κίνησης</string>
-    <string name="qs_tile_animation_interpolator_title">Παρεμβολή εφέ κίνησης</string>
-    <string name="qs_tile_animation_style_off">Χωρίς εφέ</string>
-    <string name="qs_tile_animation_style_rotate">Περιστροφή</string>
-    <string name="qs_tile_animation_style_flipx">Αναποδογύρισμα X</string>
-    <string name="qs_tile_animation_style_flipy">Αναποδογύρισμα Υ</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Γραμμικό</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Επιτάχυνση</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Επιβράδυνση</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Επιτάχυνση και επιβράδυνση</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Αναπήδηση</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Υπέρβαση</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Ανυπομονησία</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Ανυπομονησία και υπέρβαση</string>
+    <string name="qs_tile_animation_title">Tiles animation</string>
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_style_flipx">Flip X</string>
+    <string name="qs_tile_animation_style_flipy">Flip Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
     <!-- Screenshot shutter sound  -->
-    <string name="screenshot_shutter_sound_title">Ήχος στιγμιότυπου οθόνης</string>
-    <string name="screenshot_shutter_sound_summary">Αναπαραγωγή ήχου όταν λαμβάνεται στιγμιότυπο οθόνης</string>
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
     <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">Διάταξη πλακιδίων</string>
-    <string name="qs_tile_label_hide_title">Απόκρυψη ετικέτας</string>
-    <string name="qs_tile_label_size_title">Μέγεθος κειμένου ετικέτας</string>
-    <string name="qs_tile_label_hide_summary">Εμφάνιση μόνο εικονιδίου στο πλακίδιο</string>
-    <string name="qs_layout_columns_rows_title">Στήλες &amp; σειρές</string>
-    <string name="qs_layout_columns_rows_summary">Προσαρμογή στηλών και γραμμών γρήγορων ρυθμίσεων</string>
-    <string name="qs_layout_columns_rows_footer_text">Οι σειρές QS πρέπει να είναι ίσες ή μεγαλύτερες από τις σειρές QQS. Χρησιμοποιήστε μεγαλύτερο αριθμό στηλών για στυλ πλακιδίου QS κύκλου/τετράγωνου (A11).</string>
-    <string name="qs_columns_portrait_title">Στήλες (κατακόρυφος προσανατολισμός)</string>
-    <string name="qs_columns_landscape_title">Στήλες (οριζόντια)</string>
-    <string name="qs_rows_portrait_title">Σειρές (κατακόρυφος προσανατολισμός)</string>
-    <string name="qs_rows_landscape_title">Σειρές (οριζόντια)</string>
-    <string name="qqs_rows_portrait_title">Γρήγορες Γραμμές Γρήγορων Ρυθμίσεων (κατακόρυφα)</string>
-    <string name="qqs_rows_landscape_title">Γρήγορες Γραμμές Γρήγορων Ρυθμίσεων (οριζόντια)</string>
+    <string name="qs_layout_category_title">Tiles layout</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_layout_columns_rows_title">Columns &amp; rows</string>
+    <string name="qs_layout_columns_rows_summary">Customize QS columns and rows</string>
+    <string name="qs_layout_columns_rows_footer_text">QS rows should be equal or greater than QQS rows. Use higher number of columns for circle / square (A11) QS tile style.</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
+    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Παρασκήνιο chip</string>
     <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
@@ -832,163 +832,163 @@
     <string name="solid_gradient_shape">Sharp gradient corner</string>
     <string name="solid_gradient_void_light">Gradient void light</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Ρυθμίσεις καιρού</string>
-    <string name="weather_settings_summary">Ρύθμιση πακέτου εικονιδίων καιρού και υπηρεσίας</string>
-    <string name="lockscreen_weather_category">Καιρός</string>
-    <string name="lockscreen_weather_title">Ενημέρωση καιρού</string>
-    <string name="lockscreen_weather_summary">Εμφάνιση τρέχουσας ενημέρωσης καιρού</string>
-    <string name="lockscreen_weather_enabled_info">Απαιτεί διαμορφωμένη προσαρμοσμένη υπηρεσία καιρού και απενεργοποιημένο το smartspace</string>
-    <string name="lockscreen_weather_location_title">Τρέχουσα τοποθεσία</string>
-    <string name="lockscreen_weather_location_summary">Εμφάνιση καιρού της τρέχουσας τοποθεσίας</string>
-    <string name="lockscreen_weather_text_title">Τρέχουσα κατάσταση</string>
-    <string name="lockscreen_weather_text_summary">Εμφάνιση σύνοψης της τρέχουσας καιρικής κατάστασης</string>
-    <string name="lockscreen_weather_wind_info_title">Πληροφορίες ανέμων</string>
-    <string name="lockscreen_weather_wind_info_summary">Εμφάνιση τρέχουσας ταχύτητας και κατεύθυνσης ανέμου</string>
-    <string name="lockscreen_weather_humidity_info_title">Πληροφορίες σχετικά με την υγρασία</string>
-    <string name="lockscreen_weather_humidity_info_summary">Εμφάνιση τρέχουσας υγρασίας ως ποσοστό</string>
+    <string name="weather_settings_title">Weather settings</string>
+    <string name="weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_title">Weather update</string>
+    <string name="lockscreen_weather_summary">Display current weather update</string>
+    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
+    <string name="lockscreen_weather_location_title">Current location</string>
+    <string name="lockscreen_weather_location_summary">Display current weather location</string>
+    <string name="lockscreen_weather_text_title">Current condition</string>
+    <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_title">Προσαρμοστική αναπαραγωγή</string>
-    <string name="adaptive_playback_summary">Παύση μέσων όταν η ένταση είναι σε σίγαση και επανέναρξη αυξάνοντας την ένταση εντός του χρονικού ορίου</string>
-    <string name="adaptive_playback_intro_text">Αυτόματη παύση πολυμέσων όταν η ένταση είναι σε σίγαση και θα συνεχιστεί αυτόματα όταν επαναφερθεί η ένταση μέσα στην καθορισμένη ώρα</string>
-    <string name="adaptive_playback_timeout_title">Χρονικό όριο αναπαραγωγής</string>
+    <string name="adaptive_playback_title">Adaptive playback</string>
+    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time</string>
+    <string name="adaptive_playback_timeout_title">Playback timeout</string>
     <!-- APK details on App info screen -->
-    <string name="app_info_install_time">Εγκαταστάθηκε: %1$s</string>
-    <string name="app_info_update_time">Ενημερώθηκε: %1$s</string>
+    <string name="app_info_install_time">Installed: %1$s</string>
+    <string name="app_info_update_time">Updated: %1$s</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Εμφάνιση επικάλυψης πρόχειρου</string>
-    <string name="show_clipboard_overlay_summary">Εμφάνιση επικάλυψης στην κάτω αριστερή γωνία της οθόνης όταν κάτι αντιγράφεται στο πρόχειρο</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Μπλοκάρισμα αισθητήρα ανά πακέτο</string>
-    <string name="sensor_block_summary">Αποκλεισμός πρόσβασης ορισμένων εφαρμογών σε συγκεκριμένους αισθητήρες για εξοικονόμηση μπαταρίας</string>
-    <string name="sensor_block_app_picker_title">Αποκλεισμός αισθητήρων για αυτές τις εφαρμογές</string>
-    <string name="add_sensor_block_package_title">Προσθέστε εφαρμογές για μπλοκάρισμα αισθητήρα</string>
-    <string name="add_sensor_block_package_summary">Σημαντικοί αισθητήρες κίνησης, επιταχυνσιόμετρο, γραμμικής επιτάχυνσης θα αποκλειστούν για αυτές τις εφαρμογές</string>
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Μοτίβο δόνησης ήχου κλήσης</string>
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_custom">Προσαρμοσμένο</string>
-    <string name="custom_vibration_pattern_title">Προσαρμοσμένο μοτίβο</string>
-    <string name="custom_vibration_pattern_summary">Ορισμός προσαρμοσμένου μοτίβου δόνησης</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <!-- Floating rotation button -->
-    <string name="floating_rotation_button_title">Αιωρούμενο κουμπί περιστροφής</string>
-    <string name="floating_rotation_button_summary">Εμφάνιση ενός αιωρούμενου κουμπιού περιστροφής όταν η συσκευή περιστρέφεται</string>
+    <string name="floating_rotation_button_title">Floating rotate button</string>
+    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Παραπλάνηση Netflix</string>
-    <string name="netflix_spoof_summary">Δηλώστε τη συσκευή σας ως διαφορετικό μοντέλο για το Netflix</string>
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Παραπλάνηση Google Play Integrity</string>
-    <string name="pi_spoof_summary">Παραπλανήστε τη συσκευή σας ως διαφορετικό μοντέλο για το Google Play Integrity</string>
+    <string name="pi_spoof_title">Google Play Integrity spoof</string>
+    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Έλεγχος συνδεσιμότητας</string>
-    <string name="captive_portal_summary">Καθορίστε εάν η συσκευή μπορεί να συνδεθεί στο διαδίκτυο, επικοινωνώντας με την Google. Χρησιμοποιείται επίσης για τον εντοπισμό captive portals.</string>
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Επαναφορά στατιστικών;</string>
-    <string name="battery_stats_message">Τα δεδομένα χρήσης της μπαταρίας θα χαθούν</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">Συχνότητα WiFi</string>
-    <string name="wifi_standard_icon_summary">Εμφάνιση συχνότητας WiFi δίπλα στο σήμα WiFi</string>
+    <string name="wifi_standard_icon_title">WiFi standard</string>
+    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
     <!-- App lock -->
-    <string name="app_lock_title">Κλείδωμα εφαρμογών</string>
+    <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> εφαρμογή προστατεύεται</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> εφαρμογές προστατεύονται</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Ξεκλείδωμα</string>
-    <string name="enable_debugging">Ενεργοποίηση εντοπισμού σφαλμάτων</string>
-    <string name="disable_debugging">Απενεργοποίηση εντοπισμού σφαλμάτων</string>
-    <string name="app_lock_packages_title">Προστατευμένες εφαρμογές</string>
-    <string name="app_lock_packages_summary">Επιλέξτε τις εφαρμογές για προστασία με βιομετρικά στοιχεία ή διαπιστευτήρια συσκευής</string>
-    <string name="app_lock_timeout_title">Χρονικό όριο αυτόματου κλειδώματος</string>
-    <string name="app_lock_timeout_summary">Διάρκεια χρόνου μετά την οποία μια ξεκλείδωτη εφαρμογή στο παρασκήνιο θα πρέπει να κλειδωθεί</string>
-    <string name="app_lock_notifications_title">Σύμπτυξη ειδοποιήσεων</string>
-    <string name="app_lock_notifications_summary">Το περιεχόμενο ειδοποιήσεων θα αποκρύπτεται και θα συμπτύσσεται για επιλεγμένες εφαρμογές όταν είναι κλειδωμένες. Οι ειδοποιήσεις heads up θα απενεργοποιηθούν αυτόματα.</string>
-    <string name="app_lock_notifications_disabled_summary">Προστατέψτε πρώτα μια εφαρμογή</string>
-    <string name="app_lock_biometrics_allowed_title">Ενεργοποίηση βιομετρικών στοιχείων για ξεκλείδωμα</string>
-    <string name="app_lock_footer_text">Οι Φούσκες θα απορριφθούν αυτόματα μετά το χρονικό όριο</string>
-    <string name="enable_protection">Ενεργοποίηση προστασίας</string>
-    <string name="hide_from_launcher_title">Απόκρυψη από τον launcher</string>
-    <string name="hide_from_launcher_summary">Αποτρέψτε την εμφάνιση αυτής της εφαρμογής σε οποιονδήποτε launcher. Απαιτεί επανεκκίνηση του launcher για να τεθούν σε ισχύ οι αλλαγές.</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Να εμφανίζεται πάντα κατά τη φόρτιση</string>
-    <string name="doze_on_charge_summary">Η συσκευή οθόνης φορτίζει</string>
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display info when device is charging</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Σύνδεση εντάσεων ήχου κλήσης &amp; ειδοποίησης</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Πληροφορίες Πομποδέκτη</string>
+    <string name="radio_info_title">Radio info</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Εικόνα επικεφαλίδας</string>
-    <string name="qs_header_image_summary">Επιλέξτε εικόνα κεφαλίδας φόντου γρήγορων ρυθμίσεων</string>
-    <string name="qs_header_daylight_pack_title">Συλλογή εικόνων κεφαλίδας</string>
-    <string name="qs_header_shadow_title">Σκιά εικόνας κεφαλίδας</string>
-    <string name="qs_header_shadow_summary">Για καλύτερη ορατότητα σε φωτεινές εικόνες</string>
-    <string name="qs_header_static_provider_title">Στατική εικόνα</string>
-    <string name="qs_header_daylight_provider_title">Συλλογή εικόνων</string>
+    <string name="qs_header_image_title">Header image</string>
+    <string name="qs_header_image_summary">Select QS background header image</string>
+    <string name="qs_header_daylight_pack_title">Header image collection</string>
+    <string name="qs_header_shadow_title">Header image shadow</string>
+    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
+    <string name="qs_header_static_provider_title">Static image</string>
+    <string name="qs_header_daylight_provider_title">Image collection</string>
     <string name="qs_header_file_provider_title">Προσαρμοσμένη εικόνα</string>
-    <string name="qs_header_provider_title">Πάροχος κεφαλίδας</string>
-    <string name="qs_header_browse_title">Αναζήτηση εγκατεστημένων κεφαλίδων</string>
-    <string name="qs_header_browse_summary">Περιήγηση σε όλες τις διαθέσιμες εικόνες κεφαλίδων</string>
-    <string name="qs_header_pick_title">Επιλέξτε εικόνα κεφαλίδας</string>
-    <string name="qs_header_pick_summary">Επιλέξτε μια εικόνα για χρήση στατικής λειτουργίας</string>
-    <string name="qs_header_file_select_title">Επιλέξτε εικόνα</string>
+    <string name="qs_header_provider_title">Header provider</string>
+    <string name="qs_header_browse_title">Browse installed headers</string>
+    <string name="qs_header_browse_summary">Browse all available header collections</string>
+    <string name="qs_header_pick_title">Select header image</string>
+    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
+    <string name="qs_header_file_select_title">Select image</string>
     <string name="qs_header_file_select_summary">Επιλέξτε προσαρμοσμένη εικόνα</string>
-    <string name="qs_header_needs_gallery">Πρέπει να εγκαταστήσετε μια εφαρμογή συλλογής!</string>
-    <string name="qs_header_offset_title">Μετατόπιση εικόνας κεφαλίδας</string>
-    <string name="qs_header_offset_summary">Προσαρμογή μεγέθους κεφαλίδας εικόνας</string>
+    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
+    <string name="qs_header_offset_title">Header image offset</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Πρόγραμμα προβολής</string>
-    <string name="always_on_display_schedule_summary">Ορισμός χρονοδιαγράμματος για την οθόνη πάντα ενεργή</string>
-    <string name="always_on_display_schedule_sunset">Δύση ηλίου</string>
-    <string name="always_on_display_schedule_sunrise">Ανατολή ηλίου</string>
-    <string name="always_on_display_schedule_mixed_sunset">Ενεργοποιείται από τη δύση του ηλίου μέχρι κάποια στιγμή</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Ενεργοποιείται από μια ώρα έως την ανατολή ηλίου</string>
+    <string name="always_on_display_schedule_title">Display schedule</string>
+    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Διάλογος πλακιδίου Bluetooth</string>
-    <string name="qs_bt_show_dialog_summary">Εμφάνιση διαλόγου bluetooth ή εναλλαγή κατάστασης bluetooth κατά το πάτημα πλακιδίου bluetooth</string>
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Όνομα παρόχου</string>
-    <string name="lockscreen_show_carrier_summary">Εμφάνιση ονόματος παρόχου στη γραμμή κατάστασης</string>
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Επιπλέον επένδυση</string>
-    <string name="statusbar_extra_padding_start_title">Εκκίνηση γεμίσματος</string>
-    <string name="statusbar_extra_padding_top_title">Πάνω γέμισμα</string>
-    <string name="statusbar_extra_padding_end_title">Τέλος γεμίσματος</string>
+    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_start_title">Start padding</string>
+    <string name="statusbar_extra_padding_top_title">Top padding</string>
+    <string name="statusbar_extra_padding_end_title">End padding</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Χρήση τυχαίας MAC ανά σύνδεση (προεπιλογή)</string>
-    <string name="wifi_per_network_random_mac_addr">Χρήση τυχαίας MAC ανά δίκτυο</string>
-    <string name="wifi_device_mac_addr">Χρήση MAC συσκευής</string>
+    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
+    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
+    <string name="wifi_device_mac_addr">Use device MAC</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Εμφάνιση Οθόνης περιβάλλοντος</string>
-    <string name="doze_gesture_ambient_summary">Εμφάνιση οθόνης περιβάλλοντος αντί για πλήρη αφύπνιση της οθόνης</string>
-    <string name="gesture_wake_ambient">Εμφάνιση Οθόνης περιβάλλοντος</string>
-    <string name="gesture_wake">Πλήρης αφύπνιση</string>
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
     <!-- Sidebar -->
-    <string name="sidebar_title">Πλαϊνή μπάρα</string>
-    <string name="sidebar_summary">Γρήγορο άνοιγμα εφαρμογών σε αιωρούμενο παράθυρο</string>
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Smartspace</string>
-    <string name="lockscreen_smartspace_summary">Εμφάνιση Google Smartspace όταν είναι διαθέσιμο</string>
+    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Χρονικό όριο αυτόματης εκκαθάρισης προχείρου</string>
-    <string name="clipboard_auto_clear_title">Αυτόματη εκκαθάριση προχείρου</string>
-    <string name="clipboard_auto_clear_summary">Αυτόματη εκκαθάριση πρόχειρου στην προγραμματισμένη ώρα</string>
-    <string name="clipboard_auto_clear_enabled_title">Χρήση αυτόματης εκκαθάρισης προχείρου</string>
-    <string name="clipboard_auto_clear_timeout_disable_clipboard">Απενεργοποίηση πρόχειρου</string>
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
+    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
+    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Αυξανόμενη ένταση κουδουνίσματος</string>
-    <string name="increasing_ring_min_volume_title">Αρχική ένταση</string>
-    <string name="increasing_ring_ramp_up_time_title">Χρονικό διάστημα κλιμάκωσης</string>
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Απενεργοποίηση για VPN</string>
-    <string name="vpn_enforce_dns_summary">Απενεργοποιήστε το ιδιωτικό DNS όταν είστε συνδέεστε σε VPN και επαναφέρετε κατά την αποσύνδεση</string>
+    <string name="vpn_enforce_dns_title">Disable for VPN</string>
+    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Κυκλική μετάβαση λειτουργιών</string>
-    <string name="prevent_ringing_option_cycle_summary">Ενεργό (κυκλική μετάβαση λειτουργιών)</string>
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Να επιτρέπεται υποβάθμιση της έκδοσης της εφαρμογής</string>
-    <string name="app_downgrade_summary">Αυτό σας επιτρέπει να υποβαθμίσετε τις εκδόσεις των εφαρμογών. Σημειώστε ότι αυτό μπορεί να οδηγήσει σε προβλήματα ακόμα και απώλεια δεδομένων.</string>
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
     <!-- Heads-up -->
     <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
-    <string name="compact_heads_up_notifications_enabled_summary">Εμφάνιση ειδοποιήσεων σε συμπαγές μέγεθος</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
     <!-- Navigation bar taskbar -->
     <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
     <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
@@ -999,7 +999,7 @@
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
     <string name="systemui_restart_yes">Yes</string>
-    <string name="systemui_restart_not_now">Όχι τώρα</string>
+    <string name="systemui_restart_not_now">Not now</string>
     <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
     <!-- Notification / Power Menu Styles -->
     <string name="notification_style_title">Notification style</string>
@@ -1040,18 +1040,18 @@
     <string name="lockscreen_quick_settings_title">QS on lock screen</string>
     <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
     <!-- Lock screen media art -->
-    <string name="ls_media_art_title">Εξώφυλλο μουσικών κομματιών</string>
-    <string name="ls_media_art_summary">Εμφάνιση εξώφυλλου μέσων όταν είναι διαθέσιμο</string>
+    <string name="ls_media_art_title">Media cover art</string>
+    <string name="ls_media_art_summary">Display media cover art when available</string>
     <!-- Lock screen media art on Ambient Display -->
     <string name="ambient_media_art_title">Ambient media cover art</string>
     <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
-    <string name="ls_media_art_filter_title">Φίλτρο εξωφύλλου πολυμέσων</string>
-    <string name="ls_media_art_filter_none">Κανένα</string>
-    <string name="ls_media_art_filter_blur">Θόλωμα</string>
-    <string name="ls_media_art_filter_grayscale">Κλίμακα του γκρι</string>
+    <string name="ls_media_art_filter_title">Media cover art filter</string>
+    <string name="ls_media_art_filter_none">None</string>
+    <string name="ls_media_art_filter_blur">Blur</string>
+    <string name="ls_media_art_filter_grayscale">Grayscale</string>
     <string name="ls_media_art_filter_sepia">Sepia</string>
-    <string name="ls_media_art_filter_tint">Χρωματισμός τόνου</string>
+    <string name="ls_media_art_filter_tint">Accent tinted</string>
     <string name="ls_media_art_filter_invert">Invert</string>
     <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
     <!-- Lock screen media art fade level -->
@@ -1062,8 +1062,8 @@
     <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_settings_title">Pulse Visualizer</string>
-    <string name="pulse_settings_summary">Ισοσταθμιστής γραφικών ήχου για γραμμή πλοήγησης και οθόνη κλειδώματος</string>
-    <string name="ambient_pulse_enabled_title">Παλμός Οθόνης Περιβάλλοντος</string>
+    <string name="pulse_settings_summary">Show a bar visualizer on the lock screen while music is playing</string>
+    <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
     <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
     <string name="pulse_rounded_bars_title">Rounded bars</string>
     <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
@@ -1075,8 +1075,8 @@
     <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
     <string name="pulse_bar_count_units">bars</string>
     <string name="pulse_renderer">Visualizer style</string>
-    <string name="pulse_renderer_solid">Συμπαγείς γραμμές</string>
-    <string name="pulse_renderer_fading">Ξεθώριασμα μπλοκ</string>
+    <string name="pulse_renderer_solid">Solid lines</string>
+    <string name="pulse_renderer_fading">Fading blocks</string>
     <string name="pulse_renderer_neon_glow">Neon glow</string>
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
@@ -1084,7 +1084,7 @@
     <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
+    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
     <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
     <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
     <!-- Ambient Wallpaper -->
@@ -1156,8 +1156,8 @@ The progress bar dynamically switches between media and download states, ensurin
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
     <string name="alpha_settings_summary">There will be goodies!</string>
-    <string name="reset_settings_title">Επαναφορά ρυθμίσεων</string>
-    <string name="reset_settings_message">Αυτό θα επαναφέρει τις περισσότερες ρυθμίσεις alpha στις προεπιλεγμένες τιμές τους για τον τρέχοντα χρήστη. Θέλετε να συνεχίσετε;</string>
+    <string name="reset_settings_title">Reset settings</string>
+    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
     <string name="top_level_connectivity_category_title">Connectivity</string>
@@ -1179,11 +1179,11 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- About AlphaDroid -->
     <string name="about_alpha">About Alpha</string>
     <string name="about_alpha_dual_line">About\nAlphaDroid</string>
-    <string name="about_device_name">Συσκευή</string>
+    <string name="about_device_name">Device</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Share AlphaDroid</string>
     <string name="share_summary">Let others know about AlphaDroid</string>
-    <string name="share_message">Ελέγξτε αν το #AlphaDroid είναι διαθέσιμο για τη συσκευή σας @ https://alpha.net/</string>
+    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
     <string name="share_chooser_title">Share AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1199,13 +1199,13 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
-    <string name="donate_team_title">Ομάδα AlphaDroid</string>
-    <string name="donate_team_summary">Δωρεά για την υποστήριξη της φιλοξενίας διακομιστή, του χρόνου λειτουργίας του ιστότοπου και της συνολικής διαχείρισης</string>
+    <string name="donate_team_title">AlphaDroid team</string>
+    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
-    <string name="alpha_update_title">Ενημερώσεις</string>
-    <string name="alpha_update_summary">Ελέγξτε και κατεβάστε την τελευταία ενημέρωση</string>
+    <string name="alpha_update_title">Updates</string>
+    <string name="alpha_update_summary">Check and download latest update</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
@@ -1214,7 +1214,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Συσκευή</string>
+    <string name="category_device_info">Device</string>
     <!-- Build info -->
     <string name="build_status_title">Build Status</string>
     <string name="build_status_summary">Unofficial</string>
@@ -1228,12 +1228,12 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Used/total</string>
-    <string name="about_device_name_title">Συσκευή</string>
+    <string name="about_device_name_title">Device</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Πλατφόρμα</string>
-    <string name="total_ram">Συνολική RAM</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
     <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
@@ -1261,8 +1261,8 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
     <string name="search_apps">Search apps</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Εικονίδια ειδοποιήσεων</string>
-    <string name="max_visible_notification_icons_summary">Μέγ. ορατά εικονίδια ειδοποιήσεων στη γραμμή κατάστασης</string>
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
     <!-- UI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
@@ -1271,81 +1271,32 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ui_style_reset_section">Reset to defaults</string>
     <string name="ui_style_reset_all">Reset all styles</string>
     <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
-    <!-- Cutout Progress -->
+    <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Cutout Progress Ring</string>
     <string name="cutout_progress_summary">Show progress ring around punch hole</string>
-    <string name="cutout_progress_enabled_title">Enable cutout progress ring</string>
-    <string name="cutout_progress_enabled_summary">Show a progress ring around the camera cutout during downloads</string>
+    <!-- Categories -->
+    <string name="cutout_progress_cat_features">Features</string>
     <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_behaviour">Behaviour</string>
-    <string name="cutout_progress_cat_bg_ring">Background ring</string>
-    <string name="cutout_progress_cat_finish">Finish animation</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
-    <string name="cutout_progress_cat_labels">Labels</string>
-    <string name="cutout_progress_cat_badge">Download count badge</string>
-    <string name="cutout_progress_ring_color_title">Ring custom color</string>
-    <string name="cutout_progress_error_color_title">Error color</string>
-    <string name="cutout_progress_finish_flash_color_title">Finish flash color</string>
-    <string name="cutout_progress_bg_ring_color_title">Background ring color</string>
-    <string name="cutout_progress_opacity_title">Ring opacity</string>
-    <string name="cutout_progress_stroke_width_title">Stroke width</string>
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_clockwise_title">Clockwise direction</string>
-    <string name="cutout_progress_clockwise_summary">Fill the ring clockwise; disable for counter-clockwise</string>
-    <string name="cutout_progress_min_vis_title">Minimum display time</string>
-    <string name="cutout_progress_min_vis_summary">Keep ring visible for a minimum duration so brief downloads don\'t flash</string>
-    <string name="cutout_progress_min_vis_ms_title">Minimum duration</string>
-    <string name="cutout_progress_easing_title">Progress easing</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background ring</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
-    <string name="cutout_progress_bg_ring_opacity_title">Background ring opacity</string>
-    <string name="cutout_progress_finish_style_title">Finish animation style</string>
-    <string name="cutout_progress_finish_hold_title">Hold duration</string>
-    <string name="cutout_progress_finish_exit_title">Exit duration</string>
-    <string name="cutout_progress_finish_flash_title">Use flash color on finish</string>
-    <string name="cutout_progress_finish_flash_summary">Briefly flash the ring with the finish flash color when complete</string>
-    <string name="cutout_progress_pulse_title">Completion pulse</string>
-    <string name="cutout_progress_pulse_summary">Brief brightness pulse before the finish animation</string>
-    <string name="cutout_progress_path_mode_title">Capsule / pill mode</string>
-    <string name="cutout_progress_path_mode_summary">Use a pill-shaped path renderer (for elongated cutouts)</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
-    <string name="cutout_progress_percent_enabled_title">Show percentage</string>
-    <string name="cutout_progress_percent_enabled_summary">Display current download progress as a percentage label</string>
-    <string name="cutout_progress_percent_size_title">Percentage text size</string>
-    <string name="cutout_progress_percent_bold_title">Bold percentage</string>
-    <string name="cutout_progress_percent_position_title">Percentage position</string>
-    <string name="cutout_progress_filename_enabled_title">Show filename</string>
-    <string name="cutout_progress_filename_enabled_summary">Display the name of the file being downloaded</string>
-    <string name="cutout_progress_filename_size_title">Filename text size</string>
-    <string name="cutout_progress_filename_bold_title">Bold filename</string>
-    <string name="cutout_progress_filename_position_title">Filename position</string>
-    <string name="cutout_progress_filename_max_chars_title">Max filename length</string>
-    <string name="cutout_progress_filename_truncate_title">Filename truncation</string>
-    <string name="cutout_progress_badge_title">Show download count badge</string>
-    <string name="cutout_progress_badge_summary">Show a pill badge with the number of active downloads</string>
-    <string name="cutout_progress_badge_size_title">Badge text size</string>
-    <string name="cutout_progress_badge_offset_x_title">Badge horizontal offset</string>
-    <string name="cutout_progress_badge_offset_y_title">Badge vertical offset</string>
-    <string name="cutout_progress_ring_color_mode_title">Ring color</string>
-    <string name="cutout_progress_color_picker_title">Choose color</string>
+    <string name="cutout_progress_cat_island">Expanded mode</string>
+    <!-- Features -->
+    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
+    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <!-- Appearance -->
+    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
     <string name="cutout_progress_ring_color_mode_accent">Accent</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Ουράνιο τόξο</string>
     <string name="cutout_progress_ring_color_mode_custom">Προσαρμοσμένο</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
-    <string name="cutout_progress_island_compact_summary">Size of the expanded mode</string>
-    <string name="cutout_progress_island_compact_title">Compact size</string>
-    <string name="cutout_progress_island_position_title">Θέση</string>
-    <string name="cutout_progress_island_opacity_title">Opacity</string>
+    <string name="cutout_progress_ring_color_title">Custom ring color</string>
+    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <!-- Expanded Mode (Dynamic Island) -->
+    <string name="cutout_progress_island_compact_title">Compact layout</string>
+    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout instead of dropping below it</string>
+    <string name="cutout_progress_island_position_title">Island alignment</string>
     <string name="cutout_island_pos_center">Center split</string>
     <string name="cutout_island_pos_left">Αριστερά</string>
     <string name="cutout_island_pos_right">Δεξιά</string>
-    <!-- Charging Ring -->
-    <string name="cutout_progress_cat_charging">Charging ring</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <string name="cutout_progress_charging_ring_summary">Display battery level as a symmetric ring around the cutout while charging</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
 </resources>
