@@ -798,22 +798,22 @@
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Dự đoán</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Nhanh và vượt quá</string>
     <!-- Screenshot shutter sound  -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
-    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp ảnh màn hình</string>
+    <string name="screenshot_shutter_sound_summary">Phát âm thanh khi chụp màn hình</string>
     <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">Tiles layout</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_size_title">Label text size</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_layout_columns_rows_title">Columns &amp; rows</string>
-    <string name="qs_layout_columns_rows_summary">Customize QS columns and rows</string>
-    <string name="qs_layout_columns_rows_footer_text">QS rows should be equal or greater than QQS rows. Use higher number of columns for circle / square (A11) QS tile style.</string>
-    <string name="qs_columns_portrait_title">Columns (portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
-    <string name="qs_rows_portrait_title">Rows (portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (landscape)</string>
-    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
-    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+    <string name="qs_layout_category_title">Bố cục các ô</string>
+    <string name="qs_tile_label_hide_title">Ẩn tiêu đề các ô</string>
+    <string name="qs_tile_label_size_title">Kích thước văn bản tiêu đề</string>
+    <string name="qs_tile_label_hide_summary">Chỉ hiển thị biểu tượng</string>
+    <string name="qs_layout_columns_rows_title">Cột &amp; hàng</string>
+    <string name="qs_layout_columns_rows_summary">Tùy chỉnh cột với hàng cài đặt nhanh</string>
+    <string name="qs_layout_columns_rows_footer_text">Hàng cài đặt nhanh phải bằng hoặc lớn hơn. Sử dụng số lượng cột cao hơn cho kiểu ô hình tròn/hình vuông (android 11).</string>
+    <string name="qs_columns_portrait_title">Cột (màn hình dọc)</string>
+    <string name="qs_columns_landscape_title">Cột (màn hình ngang)</string>
+    <string name="qs_rows_portrait_title">Hàng (màn hình dọc)</string>
+    <string name="qs_rows_landscape_title">Hàng (màn hình ngang)</string>
+    <string name="qqs_rows_portrait_title">Hàng cài đặt nhanh (dọc)</string>
+    <string name="qqs_rows_landscape_title">Hàng cài đặt nhanh (ngang)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Màu nền đồng hồ</string>
     <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
@@ -830,263 +830,265 @@
     <string name="solid_gradient_shape">Sharp gradient corner</string>
     <string name="solid_gradient_void_light">Gradient void light</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Weather settings</string>
-    <string name="weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_title">Weather update</string>
-    <string name="lockscreen_weather_summary">Display current weather update</string>
-    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
-    <string name="lockscreen_weather_location_title">Current location</string>
-    <string name="lockscreen_weather_location_summary">Display current weather location</string>
-    <string name="lockscreen_weather_text_title">Current condition</string>
-    <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
-    <string name="lockscreen_weather_wind_info_title">Wind info</string>
-    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
-    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
-    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
+    <string name="weather_settings_title">Cài đặt thời tiết</string>
+    <string name="weather_settings_summary">Thiết lập gói biểu tượng và dịch vụ thời tiết</string>
+    <string name="lockscreen_weather_category">Thời tiết</string>
+    <string name="lockscreen_weather_title">Cập nhật thời tiết</string>
+    <string name="lockscreen_weather_summary">Hiển thị cập nhật thời tiết hiện tại</string>
+    <string name="lockscreen_weather_enabled_info">Yêu cầu tùy chỉnh cấu hình dịch vụ thời tiết sẽ tắt không gian thông minh</string>
+    <string name="lockscreen_weather_location_title">Vị trí hiện tại</string>
+    <string name="lockscreen_weather_location_summary">Hiển thị thời tiết tại vị trí của bạn</string>
+    <string name="lockscreen_weather_text_title">Tình trạng hiện tại</string>
+    <string name="lockscreen_weather_text_summary">Hiển thị tóm tắt tình trạng thời tiết hiện tại</string>
+    <string name="lockscreen_weather_wind_info_title">Thông tin về gió</string>
+    <string name="lockscreen_weather_wind_info_summary">Hiển thị tốc độ cùng hướng gió hiện tại</string>
+    <string name="lockscreen_weather_humidity_info_title">Thông tin về độ ẩm</string>
+    <string name="lockscreen_weather_humidity_info_summary">Hiển thị độ ẩm hiện tại theo phần trăm</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_title">Adaptive playback</string>
-    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time</string>
-    <string name="adaptive_playback_timeout_title">Playback timeout</string>
+    <string name="adaptive_playback_title">Phát lại thích ứng</string>
+    <string name="adaptive_playback_summary">Tạm dừng phát khi âm lượng bị tắt và tiếp tục phát khi tăng âm lượng trong thời gian chờ</string>
+    <string name="adaptive_playback_intro_text">Tạm dừng phát khi âm lượng bị tắt và tự động tiếp tục phát khi âm lượng được khôi phục trong thời gian đã đặt</string>
+    <string name="adaptive_playback_timeout_title">Thời gian chờ phát lại</string>
     <!-- APK details on App info screen -->
-    <string name="app_info_install_time">Installed: %1$s</string>
-    <string name="app_info_update_time">Updated: %1$s</string>
+    <string name="app_info_install_time">Đã cài đặt: %1$s</string>
+    <string name="app_info_update_time">Đã cập nhật: %1$s</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
+    <string name="show_clipboard_overlay_summary">Hiển thị lớp phủ ở góc dưới cùng bên trái của màn hình khi nội dung nào đó được sao chép vào khay nhớ tạm</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="sensor_block_title">Tắt cảm biến</string>
+    <string name="sensor_block_summary">Chặn quyền truy cập vào một số cảm biến cho một số ứng dụng để tiết kiệm pin</string>
+    <string name="sensor_block_app_picker_title">Chặn cảm biến cho các ứng dụng</string>
+    <string name="add_sensor_block_package_title">Thêm ứng dụng cho Chặn cảm biến</string>
+    <string name="add_sensor_block_package_summary">Các loại cảm biến sẽ bị chặn cho các ứng dụng sau</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">Chuông và rung khi vẽ mẫu hình</string>
     <string name="pattern_custom">Tùy chỉnh</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="custom_vibration_pattern_title">Tuỳ chỉnh mẫu</string>
+    <string name="custom_vibration_pattern_summary">Đặt kiểu rung tùy chỉnh</string>
     <!-- Floating rotation button -->
-    <string name="floating_rotation_button_title">Floating rotate button</string>
-    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
+    <string name="floating_rotation_button_title">Nút xoay màn hình nổi</string>
+    <string name="floating_rotation_button_summary">Hiển thị nút xoay nổi khi xoay thiết bị</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+    <string name="netflix_spoof_title">Giả mạo Netflix</string>
+    <string name="netflix_spoof_summary">Giả mạo thiết bị của bạn thành kiểu máy khác cho Netflix</string>
     <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Google Play Integrity spoof</string>
-    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
+    <string name="pi_spoof_title">Giả mạo tính toàn vẹn google</string>
+    <string name="pi_spoof_summary">Giả mạo thiết bị sang kiểu máy khác để đảm bảo tính toàn vẹn</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Connectivity check</string>
-    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+    <string name="captive_portal_title">Kiểm tra kết nối</string>
+    <string name="captive_portal_summary">Xác định thiết bị có kết nối với mạng hay không bằng cách kết nối dịch vụ google.
+Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_reset">Đặt lại</string>
+    <string name="battery_stats_message">Dữ liệu mức sử dụng pin sẽ bị mất</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">WiFi standard</string>
-    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
+    <string name="wifi_standard_icon_title">Chuẩn mạng không dây</string>
+    <string name="wifi_standard_icon_summary">Hiển thị chuẩn wifi ngay cạnh biểu tượng wifi</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">Khóa ứng dụng</string>
     <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> ứng dụng được bảo vệ
+<xliff:g example="10" id="Number of applications">%1$d</xliff:g> ứng dụng được bảo vệ</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="app_lock_authentication_dialog_title">Mở khóa</string>
+    <string name="enable_debugging">Bật chế độ gỡ lỗi</string>
+    <string name="disable_debugging">Tắt chế độ gỡ lỗi</string>
+    <string name="app_lock_packages_title">Ứng dụng được bảo vệ</string>
+    <string name="app_lock_packages_summary">Chọn ứng dụng để bảo vệ bằng sinh trắc học hoặc thông tin đăng nhập thiết bị</string>
+    <string name="app_lock_timeout_title">Hẹn giờ tự động khóa</string>
+    <string name="app_lock_timeout_summary">Thời gian ứng dụng dưới nền tự động bị khoá</string>
+    <string name="app_lock_notifications_title">Thu gọn thông báo</string>
+    <string name="app_lock_notifications_summary">Nội dung thông báo của những ứng dụng được chọn sẽ bị ẩn và thu gọn lại khi chúng bị khoá. Thông báo nổi sẽ tự động tắt.</string>
+    <string name="app_lock_notifications_disabled_summary">Đầu tiên hãy khoá một ứng dụng</string>
+    <string name="app_lock_biometrics_allowed_title">Mở khoá bằng sinh trắc học</string>
+    <string name="app_lock_footer_text">Bong bóng nổi sẽ tự động biến mất sau khi hết thời gian chờ</string>
+    <string name="enable_protection">Bật bảo vệ</string>
+    <string name="hide_from_launcher_title">Ẩn khỏi trình khởi chạy</string>
+    <string name="hide_from_launcher_summary">Không cho ứng dụng này hiện trong bất kỳ trình khởi chạy nào. Yêu cầu khởi động lại trình khởi chạy để thay đổi có hiệu lực.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always show when charging</string>
-    <string name="doze_on_charge_summary">Display info when device is charging</string>
+    <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị thông tin khi thiết bị đang nạp pin</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Thông tin sóng điện thoại</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Header image</string>
-    <string name="qs_header_image_summary">Select QS background header image</string>
-    <string name="qs_header_daylight_pack_title">Header image collection</string>
-    <string name="qs_header_shadow_title">Header image shadow</string>
-    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
-    <string name="qs_header_static_provider_title">Static image</string>
-    <string name="qs_header_daylight_provider_title">Image collection</string>
+    <string name="qs_header_image_title">Hình ảnh tiêu đề</string>
+    <string name="qs_header_image_summary">Chọn hình ảnh tiêu đề nền cài đặt nhanh</string>
+    <string name="qs_header_daylight_pack_title">Bộ sưu tập có sẵn</string>
+    <string name="qs_header_shadow_title">Đổ bóng hình ảnh</string>
+    <string name="qs_header_shadow_summary">Cho khả năng nhìn thấy tốt hơn với các hình ảnh sáng</string>
+    <string name="qs_header_static_provider_title">Ảnh tĩnh</string>
+    <string name="qs_header_daylight_provider_title">Bộ sưu tập ảnh</string>
     <string name="qs_header_file_provider_title">Hình ảnh tùy chỉnh</string>
-    <string name="qs_header_provider_title">Header provider</string>
-    <string name="qs_header_browse_title">Browse installed headers</string>
-    <string name="qs_header_browse_summary">Browse all available header collections</string>
-    <string name="qs_header_pick_title">Select header image</string>
-    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
-    <string name="qs_header_file_select_title">Select image</string>
+    <string name="qs_header_provider_title">Nơi cung cấp</string>
+    <string name="qs_header_browse_title">Xem những gì có sẵn</string>
+    <string name="qs_header_browse_summary">Xem tất cả có sẵn trong bộ sưu tập</string>
+    <string name="qs_header_pick_title">Chọn ảnh</string>
+    <string name="qs_header_pick_summary">Chọn một hình ảnh để sử dụng cho chế độ tĩnh</string>
+    <string name="qs_header_file_select_title">Chọn hình ảnh</string>
     <string name="qs_header_file_select_summary">Chọn ảnh tùy chỉnh</string>
-    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
-    <string name="qs_header_offset_title">Header image offset</string>
-    <string name="qs_header_offset_summary">Adjust the image header size</string>
+    <string name="qs_header_needs_gallery">Hãy cài đặt một ứng dụng xem ảnh!</string>
+    <string name="qs_header_offset_title">Độ lệch hình ảnh</string>
+    <string name="qs_header_offset_summary">Điều chỉnh kích thước hình ảnh</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Display schedule</string>
-    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Hiển thị lịch trình</string>
+    <string name="always_on_display_schedule_summary">Đặt lịch cho màn hình luôn bật</string>
+    <string name="always_on_display_schedule_sunset">Hoàng hôn</string>
+    <string name="always_on_display_schedule_sunrise">Bình minh</string>
+    <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàng hôn đến một thời điểm</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bật cho đến lúc bình minh</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
-    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <string name="qs_bt_show_dialog_title">Hộp thoại bluetooth</string>
+    <string name="qs_bt_show_dialog_summary">Bật hộp thoại bluetooth sau khi ấn vào ô bluetooth</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Carrier name</string>
-    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
+    <string name="lockscreen_show_carrier_title">Tên nhà mạng</string>
+    <string name="lockscreen_show_carrier_summary">Hiển thị tên nhà mạng trên thanh trạng thái</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
-    <string name="statusbar_extra_padding_start_title">Start padding</string>
-    <string name="statusbar_extra_padding_top_title">Top padding</string>
-    <string name="statusbar_extra_padding_end_title">End padding</string>
+    <string name="statusbar_extra_padding_category">Phần đệm thêm</string>
+    <string name="statusbar_extra_padding_start_title">Phần đệm bắt đầu</string>
+    <string name="statusbar_extra_padding_top_title">Phần đệm trên cùng</string>
+    <string name="statusbar_extra_padding_end_title">Phần đệm cuối cùng</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
-    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
-    <string name="wifi_device_mac_addr">Use device MAC</string>
+    <string name="wifi_per_connection_random_mac_addr">Dùng địa chỉ ngẫu nhiên cho mỗi kết nối (mặc định)</string>
+    <string name="wifi_per_network_random_mac_addr">Dùng địa chỉ ngẫu nhiên theo từng mạng</string>
+    <string name="wifi_device_mac_addr">Sử dụng thiết bị MAC</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
+    <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức hoàn toàn màn hình</string>
+    <string name="gesture_wake_ambient">Hiển thị màn hình xem nhanh</string>
+    <string name="gesture_wake">Đánh thức hoàn toàn</string>
     <!-- Sidebar -->
-    <string name="sidebar_title">Sidebar</string>
-    <string name="sidebar_summary">Quickly open apps in a floating window</string>
+    <string name="sidebar_title">Thanh bên</string>
+    <string name="sidebar_summary">Mở nhanh ứng dụng trong cửa sổ nổi</string>
     <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Smartspace</string>
-    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
+    <string name="lockscreen_smartspace_title">Không gian thông minh</string>
+    <string name="lockscreen_smartspace_summary">Hiện không gian thông minh khi có sẵn</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
-    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
-    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
-    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
-    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
+    <string name="clipboard_auto_clear_timeout_title">Thời gian chờ tự động xóa bảng nhớ tạm</string>
+    <string name="clipboard_auto_clear_title">Tự động xóa bảng nhớ tạm</string>
+    <string name="clipboard_auto_clear_summary">Tự động xóa bảng nhớ tạm theo thời gian đã lên lịch</string>
+    <string name="clipboard_auto_clear_enabled_title">Sử dụng tự động xóa bảng nhớ tạm</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Tắt bảng nhớ tạm</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Âm lượng chuông tăng dần</string>
+    <string name="increasing_ring_min_volume_title">Âm lượng ban đầu</string>
+    <string name="increasing_ring_ramp_up_time_title">Thời gian âm lượng tăng dần</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Disable for VPN</string>
-    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
+    <string name="vpn_enforce_dns_title">Tắt cho mạng riêng ảo VPN</string>
+    <string name="vpn_enforce_dns_summary">Tắt DNS riêng tư khi kết nối với mạng riêng ảo sẽ khôi phục khi ngắt kết nối</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Chuyển đổi qua các chế độ</string>
+    <string name="prevent_ringing_option_cycle_summary">Bật (chuyển đổi qua các chế độ)</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Allow app downgrade</string>
-    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <string name="app_downgrade_title">Cho phép hạ cấp các ứng dụng</string>
+    <string name="app_downgrade_summary">Hạ cấp phiên bản các ứng dụng sẽ gây ra sự cố hoặc mất dữ liệu nên thận trọng.</string>
     <!-- Heads-up -->
-    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
-    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
+    <string name="compact_heads_up_notifications_enabled_title">Thông báo nổi nhỏ gọn</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Thông báo nổi sẽ hiển thị với kích thước nhỏ gọn</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
-    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
+    <string name="navigation_bar_enable_taskbar_title">Thanh tác vụ</string>
+    <string name="navigation_bar_enable_taskbar_summary">Hiện thanh tác vụ với chế độ điều hướng đã chọn</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Show IME button space</string>
-    <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
+    <string name="show_ime_space_title">Hiển thị nút bàn phím ảo</string>
+    <string name="show_ime_space_summary">Bật tính năng chuyển nhanh phương thức nhập để đổi bàn phím hoặc ẩn bàn phím ảo từ thanh chức năng dưới màn hình khi nhập liệu</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">SystemUI restart required</string>
-    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
+    <string name="systemui_restart_title">Yêu cầu khởi động lại giao diện hệ thống</string>
+    <string name="systemui_restart_message">Khởi động lại giao diện hệ thống để áp dụng các thay đổi?</string>
     <string name="systemui_restart_yes">Có</string>
-    <string name="systemui_restart_not_now">Not now</string>
-    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
+    <string name="systemui_restart_not_now">Không phải bây giờ</string>
+    <string name="systemui_restart_process">Đang mở lại giao diện hệ thống để áp dụng các thay đổi...</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Notification style</string>
-    <string name="powermenu_style_title">Power menu style</string>
-    <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Duoline</string>
-    <string name="custom_style_fluid">Fluid (Transparent)</string>
+    <string name="notification_style_title">Kiểu thông báo</string>
+    <string name="powermenu_style_title">Kiểu trình đơn nguồn</string>
+    <string name="custom_style_cyberpunk">Bối cảnh</string>
+    <string name="custom_style_duoline">Dòng đôi</string>
+    <string name="custom_style_fluid">Chất lỏng (trong suốt)</string>
     <string name="custom_style_ios">IOS</string>
-    <string name="custom_style_layers">Layers</string>
+    <string name="custom_style_layers">Lớp</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox attestation override</string>
-    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
-    <string name="keybox_delete_content_description">Clear keybox data</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <string name="keybox_data_title">Ghi đè xác thực hộp khóa</string>
+    <string name="keybox_data_summary">Tải tệp hộp khóa tùy chỉnh để ghi đè xác thực khóa thiết bị</string>
+    <string name="keybox_data_loaded_summary">Đã nạp tệp hộp khóa tùy chỉnh.</string>
+    <string name="keybox_delete_content_description">Xóa dữ liệu hộp khóa</string>
+    <string name="keybox_toast_invalid_file_selected">Tệp sai định dạng hãy chọn tệp xml hợp lệ.</string>
+    <string name="keybox_toast_missing_data">Hộp khóa không hợp lệ: thiếu trường bắt buộc</string>
+    <string name="keybox_toast_file_loaded">Đã nạp hộp khóa</string>
+    <string name="keybox_toast_file_cleared">Đã xóa bỏ hộp khóa</string>
     <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
-    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
+    <string name="pi_gmscertchain_title">Tắt bắt buộc tính toàn vẹn mạnh mẽ</string>
+    <string name="pi_gmscertchain_summary">Bật sẽ không áp dụng tính toàn vẹn mạnh từ hộp khóa tùy chỉnh hợp lệ nên phụ thuộc vào giả mạo tính toàn vẹn để sửa các ứng dụng thanh toán</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">Hình dạng ô cài đặt nhanh</string>
+    <string name="qs_tile_shape_dynamic">Năng động</string>
     <string name="qs_tile_shape_circle">Vòng tròn</string>
     <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square">Hình vuông bo tròn</string>
+    <string name="qs_tile_shape_square">Hình vuông</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">Chế độ tối cho ứng dụng bên thứ ba</string>
+    <string name="force_dark_summary">Áp dụng màu tối cho ứng dụng không hỗ trợ chế độ tối. Một số giao diện có thể hiển thị không đúng.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">Hình dạng thanh trượt độ sáng</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">tổng hợp sóng mang LTE</string>
     <string name="force_lte_ca_summary">Kết hợp các băng tần được hỗ trợ để tăng cường LTE</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
-    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
+    <string name="lockscreen_quick_settings_title">Cài đặt nhanh trên màn hình khóa</string>
+    <string name="lockscreen_quick_settings_summary">Cho phép vuốt xuống trên màn hình khóa để xem cài đặt nhanh</string>
     <!-- Lock screen media art -->
-    <string name="ls_media_art_title">Media cover art</string>
-    <string name="ls_media_art_summary">Display media cover art when available</string>
+    <string name="ls_media_art_title">Ảnh bìa đa phương tiện</string>
+    <string name="ls_media_art_summary">Hiển thị ảnh bìa đa phương tiện khi có sẵn</string>
     <!-- Lock screen media art on Ambient Display -->
     <string name="ambient_media_art_title">Ambient media cover art</string>
     <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
-    <string name="ls_media_art_filter_title">Media cover art filter</string>
-    <string name="ls_media_art_filter_none">None</string>
-    <string name="ls_media_art_filter_blur">Blur</string>
-    <string name="ls_media_art_filter_grayscale">Grayscale</string>
-    <string name="ls_media_art_filter_sepia">Sepia</string>
-    <string name="ls_media_art_filter_tint">Accent tinted</string>
-    <string name="ls_media_art_filter_invert">Invert</string>
-    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
+    <string name="ls_media_art_filter_title">Bộ lọc ảnh bìa đa phương tiện</string>
+    <string name="ls_media_art_filter_none">Không</string>
+    <string name="ls_media_art_filter_blur">Mờ</string>
+    <string name="ls_media_art_filter_grayscale">Trắng đen</string>
+    <string name="ls_media_art_filter_sepia">Nâu đỏ</string>
+    <string name="ls_media_art_filter_tint">Đồng bộ màu</string>
+    <string name="ls_media_art_filter_invert">Đảo ngược</string>
+    <string name="ls_media_art_filter_grayblur">Thang độ xám và làm mờ</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
-    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
+    <string name="ls_media_art_fade_level_title">Mức độ mờ của bìa đa phương tiện</string>
+    <string name="ls_media_art_fade_level_summary">Đặt mức độ mờ của ảnh bìa</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Media art blur level</string>
-    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
+    <string name="ls_media_art_blur_level_title">Độ mờ ảnh bìa đa phương tiện</string>
+    <string name="ls_media_art_blur_level_summary">Mức độ mờ khi áp dụng bộ lọc làm mờ</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Pulse Visualizer</string>
-    <string name="pulse_settings_summary">Show a bar visualizer on the lock screen while music is playing</string>
-    <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
+    <string name="pulse_settings_title">Trình trực quan hóa xung</string>
+    <string name="pulse_settings_summary">Bộ cân bằng đồ họa âm thanh cho thanh điều hướng và màn hình khoá</string>
+    <string name="ambient_pulse_enabled_title">Sáng nhạc màn hình chờ</string>
     <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
-    <string name="pulse_rounded_bars_title">Rounded bars</string>
-    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
-    <string name="pulse_color">Visualizer color</string>
-    <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Album art</string>
+    <string name="pulse_rounded_bars_title">Thanh tròn</string>
+    <string name="pulse_rounded_bars_summary">Hiển thị thanh trực quan với góc bo tròn</string>
+    <string name="pulse_color">Màu sắc của trình trực quan</string>
+    <string name="pulse_color_lavalamp">Đèn dung nham</string>
+    <string name="pulse_color_album">Bìa bộ sưu tập</string>
     <string name="pulse_color_accent">Màu nhấn</string>
-    <string name="pulse_bar_count_title">Number of bars</string>
-    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
-    <string name="pulse_bar_count_units">bars</string>
-    <string name="pulse_renderer">Visualizer style</string>
-    <string name="pulse_renderer_solid">Solid lines</string>
-    <string name="pulse_renderer_fading">Fading blocks</string>
+    <string name="pulse_bar_count_title">Số lượng thanh</string>
+    <string name="pulse_bar_count_summary">Thiết lập số lượng thanh được hiển thị trong trình trực quan hóa</string>
+    <string name="pulse_bar_count_units">thanh</string>
+    <string name="pulse_renderer">Kiểu trực quan hóa</string>
+    <string name="pulse_renderer_solid">Đường liền nét</string>
+    <string name="pulse_renderer_fading">Khối mờ dần</string>
     <string name="pulse_renderer_neon_glow">Neon glow</string>
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
     <string name="pulse_renderer_matrix">Ma trận</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
-    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
-    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+    <string name="notification_row_transparency_title">Thông báo trong suốt</string>
+    <string name="notification_row_transparency_summary">Đặt nền mờ cho thông báo trong cài đặt nhanh</string>
+    <string name="notification_row_transparency_lockscreen_title">Thông báo trong suốt ở màn hình khóa</string>
+    <string name="notification_row_transparency_lockscreen_summary">Đặt nền mờ cho thông báo màn hình khoá</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
-    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
+    <string name="doze_always_on_wallpaper_title">Hình nền xung quanh</string>
+    <string name="doze_always_on_wallpaper_summary">Hiển thị hình nền màn hình khóa trên màn hình xung quanh</string>
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Squiggle animation</string>
     <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
@@ -1151,102 +1153,102 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ongoing_chip_color_mode_album_art">Album art color</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
-    <string name="alpha_settings_summary">There will be goodies!</string>
-    <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
+    <string name="alpha_settings_title">Cài đặt Alpha</string>
+    <string name="alpha_settings_summary">Tùy biến chuyên sâu!</string>
+    <string name="reset_settings_title">Đặt lại cài đặt</string>
+    <string name="reset_settings_message">Tiếp tục đặt lại toàn bộ các thiết lập về giá trị mặc định cho người dùng hiện tại không?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
-    <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
+    <string name="top_level_connectivity_category_title">Kết nối</string>
+    <string name="top_level_system_info_category_title">Hệ thống</string>
+    <string name="top_level_personalize_category_title">Cá nhân hóa</string>
+    <string name="top_level_security_privacy_category_title">Bảo mật</string>
+    <string name="top_level_account_category_title">Tài khoản</string>
+    <string name="top_level_support_category_title">Hỗ trợ</string>
     <string name="lockscreen_clock_category">Đồng hồ</string>
     <!-- Misc categories -->
     <string name="misc_spoofing_category">Spoofing</string>
-    <string name="misc_system_category">System</string>
+    <string name="misc_system_category">Hệ thống</string>
     <string name="misc_animations_category">Animations</string>
     <string name="misc_gestures_category">Cử chỉ</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Thay đổi hiện tại</string>
+    <string name="changelog_summary">Xem những thay đổi của bản ROM được cài đặt</string>
+    <string name="changelog_error">Không thể tải nhật ký thay đổi</string>
     <!-- About AlphaDroid -->
     <string name="about_alpha">About Alpha</string>
     <string name="about_alpha_dual_line">About\nAlphaDroid</string>
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Thiết bị</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Share AlphaDroid</string>
-    <string name="share_summary">Let others know about AlphaDroid</string>
-    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
-    <string name="share_chooser_title">Share AlphaDroid</string>
+    <string name="share_title">Chia sẻ AlphaDroid</string>
+    <string name="share_summary">Cho những người khác biết về AlphaDroid</string>
+    <string name="share_message">Kiểm tra nếu #AlphaDroid khả dụng cho thiết bị của bạn @ https://alpha.net/</string>
+    <string name="share_chooser_title">Chia sẻ AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">We love open source, check us out</string>
-    <string name="telegram_title">AlphaDroid community</string>
-    <string name="telegram_summary">We are on telegram. Join us!</string>
-    <string name="telegram_channel_title">Updates channel</string>
-    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
-    <string name="website_title">Official website</string>
-    <string name="website_summary">Visit our official website</string>
-    <string name="translate_title">Translations</string>
-    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+    <string name="source_summary">Chúng tôi yêu nguồn mở, kiểm tra với chúng tôi</string>
+    <string name="telegram_title">Cộng đồng AlphaDroid</string>
+    <string name="telegram_summary">Hãy tham gia kênh telegram của chúng tôi!</string>
+    <string name="telegram_channel_title">Kênh cập nhật</string>
+    <string name="telegram_channel_summary">Nhận thông báo về các bản dựng mới trên Telegram</string>
+    <string name="website_title">Website chính thức</string>
+    <string name="website_summary">Truy cập vào trang web chính thức</string>
+    <string name="translate_title">Các bản dịch</string>
+    <string name="translate_summary">Giúp bản ROM phù hợp với ngôn ngữ của bạn!</string>
     <!-- Donate AlphaDroid -->
-    <string name="donate_title">Support us</string>
-    <string name="donate_summary">Donate to support further development</string>
-    <string name="donate_team_title">AlphaDroid team</string>
-    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
+    <string name="donate_title">Hỗ trợ chúng tôi</string>
+    <string name="donate_summary">Đóng góp để hỗ trợ phát triển hơn nữa</string>
+    <string name="donate_team_title">Đội ngũ AlphaDroid</string>
+    <string name="donate_team_summary">Đóng góp để hỗ trợ lưu trữ máy chủ thời gian hoạt động của trang mạng và quản lý tổng thể</string>
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
-    <string name="alpha_update_title">Updates</string>
-    <string name="alpha_update_summary">Check and download latest update</string>
+    <string name="alpha_update_title">Cập nhật</string>
+    <string name="alpha_update_summary">Kiểm tra cập nhật</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Đã tắt</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Device</string>
+    <string name="category_device_info">Thiết bị</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_title">Trạng thái bản dựng</string>
+    <string name="build_status_summary">Không chính thức</string>
     <string name="build_status_official">Official</string>
-    <string name="build_status_unofficial">Unofficial</string>
-    <string name="alpha_build_version">AlphaDroid version</string>
-    <string name="alpha_build_date">Build date</string>
+    <string name="build_status_unofficial">Không chính thức</string>
+    <string name="alpha_build_version">Phiên bản AlphaDroid</string>
+    <string name="alpha_build_date">Ngày dựng</string>
     <!-- Maintainer -->
-    <string name="maintainer_title">Maintainer</string>
-    <string name="maintainer_summary">Searching for maintainer...</string>
+    <string name="maintainer_title">Người bảo trì</string>
+    <string name="maintainer_summary">Đang tìm kiếm người bảo trì...</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_title">Bộ nhớ</string>
     <string name="storage_card_info">Used/total</string>
-    <string name="about_device_name_title">Device</string>
+    <string name="about_device_name_title">Thiết bị</string>
     <string name="about_device_rom_title">Android %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <string name="about_device_nearby">Tên thiết bị có thể và sẽ được nhìn thấy bởi các thiết bị gần đó.</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Nền tảng</string>
+    <string name="total_ram">Bộ nhớ truy cập</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
-    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher_summary">Thay đổi AlphaDroid launcher có sẵn</string>
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
-    <string name="search_bar_text">search</string>
+    <string name="search_bar_text">tìm kiếm</string>
     <!-- Reality Display Engine -->
-    <string name="display_engine_category">Display Engine</string>
-    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="display_engine_category">Công cụ hiển thị</string>
+    <string name="display_engine_mode_title">Công cụ hiển thị thực tế</string>
     <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
-    <string name="display_engine_mode_xreality">X-Reality Engine</string>
-    <string name="display_engine_mode_vivid">Vivid Display</string>
+    <string name="display_engine_mode_xreality">Công cụ X-Reality</string>
+    <string name="display_engine_mode_vivid">Hiển thị sống động</string>
     <string name="display_engine_mode_triluminous">Triluminous Display</string>
-    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    <string name="display_engine_mode_footer_text">Lấy cảm hứng từ công cụ Bravia/X-Reality của Sony, Display Engine có chế độ Sống động để tăng cường độ sáng và độ bão hòa màu cũng như chế độ X-Reality để cải thiện chi tiết và độ chính xác của màu.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
@@ -1256,10 +1258,10 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search_apps">Tìm kiếm ứng dụng</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Notification icons</string>
-    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
+    <string name="max_visible_notification_icons_title">Biểu tượng thông báo</string>
+    <string name="max_visible_notification_icons_summary">Số biểu tượng thông báo hiển thị trên thanh trạng thái</string>
     <!-- UI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
