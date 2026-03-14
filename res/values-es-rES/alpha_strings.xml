@@ -720,103 +720,103 @@ Mantén presionado para establecer</string>
     <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
     <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
     <string name="wifi_hotspot_block_client_dialog_text">Esta acción desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" de este dispositivo y lo añadirá a la lista de bloqueados</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz y 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz y 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="other">Pueden conectarse hasta <xliff:g id="device_num">%1$d</xliff:g> dispositivos a este punto de acceso</item>
+        <item quantity="one">Pueden conectarse hasta <xliff:g id="device_num">%1$d</xliff:g> dispositivos a este punto de acceso</item>
     </plurals>
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Menú de apagado</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_summary">Permitir acceder al menú de encendido desde la pantalla de bloqueo</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="gesture_navbar_length_title">Longitud de la barra de navegación</string>
     <string name="short_label">Corto</string>
     <string name="long_label">Largo</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Grosor de la barra de navegación</string>
+    <string name="thin_label">Delgada</string>
+    <string name="thick_label">Grosor</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
+    <string name="back_height_low_label">Completo</string>
     <string name="back_height_high_label">Abajo</string>
-    <string name="back_height_title">Back gesture height</string>
-    <string name="back_height_summary">Screen height valid for back gesture</string>
+    <string name="back_height_title">Altura para el gesto de retroceder</string>
+    <string name="back_height_summary">Altura de la pantalla válida para el gesto de retroceder</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">Force stop button</string>
-    <string name="notification_guts_kill_app_button_summary">Show force stop button in the notification\'s longpress menu</string>
+    <string name="notification_guts_kill_app_button_title">Botón de forzar cierre</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar botón de forzar cierre de la aplicación en el menú de notificaciones al mantenerla presionada</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift_title">Burn-in protection</string>
-    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <string name="smart_pixels_warning_text">Los píxeles inteligentes son una opción de ahorro de batería para pantallas AMOLED. Dependiendo de cuantos pixeles apagues, tal vez veas mejoras en la duración de la batería. Ten en cuenta que en algunos casos puede no detectar bien los toques en la pantalla</string>
+    <string name="smart_pixels_title">Píxeles inteligentes</string>
+    <string name="smart_pixels_summary">Ahorrar batería apagando píxeles adicionales</string>
+    <string name="smart_pixels_enable_title">Activar píxeles inteligentes</string>
+    <string name="smart_pixels_enable_summary">Apagar píxeles para reducir el consumo de energía</string>
+    <string name="smart_pixels_on_power_save_title">Activar automáticamente con el ahorro de batería</string>
+    <string name="smart_pixels_on_power_save_summary">Activar píxeles inteligentes cuando el ahorro de batería esté activado</string>
+    <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
+    <string name="smart_pixels_shift_title">Protección antiquemado</string>
+    <string name="smart_pixels_shift_summary">Previene el quemado en pantallas OLED alternando píxeles</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Usar tema oscuro</string>
+    <string name="system_black_theme_summary">Forzar colores de fondo oscuros</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Clear all notification button</string>
-    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
+    <string name="notification_material_dismiss_title">Botón de borrar todo</string>
+    <string name="notification_material_dismiss_summary">Reemplazar el botón con el texto de borrar notificaciones con un botón flotante</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_title">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <string name="back_gesture_arrow_title">Animación del gesto atrás</string>
+    <string name="back_gesture_arrow_summary">Mostrar una flecha animada para el gesto de atrás</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Back gesture haptic</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+    <string name="back_gesture_haptic_title">Respuesta háptica para retroceder</string>
+    <string name="back_gesture_haptic_summary">Vibrar al realizar el gesto de retroceder</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Capacidad actual de la batería</string>
+    <string name="designed_battery_capacity">Capacidad original de la batería</string>
+    <string name="battery_charge_cycles">Ciclos de carga completados</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Battery temperature</string>
+    <string name="battery_temperature">Temperatura de la batería</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Background opacity</string>
-    <string name="qs_opacity_summary">Set opacity level for QS background</string>
+    <string name="qs_opacity_title">Opacidad del fondo</string>
+    <string name="qs_opacity_summary">Establecer el nivel de opacidad para el fondo de los ajustes rápidos</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <string name="qs_footer_datausage_title">Consumo de datos</string>
+    <string name="qs_footer_datausage_summary">Resumen de uso de datos al pie del panel de los ajustes rápidos</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Tiles animation</string>
-    <string name="qs_tile_animation_style_title">Animation style</string>
-    <string name="qs_tile_animation_duration_title">Animation duration</string>
-    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
-    <string name="qs_tile_animation_style_off">No animation</string>
-    <string name="qs_tile_animation_style_rotate">Rotate</string>
-    <string name="qs_tile_animation_style_flipx">Flip X</string>
-    <string name="qs_tile_animation_style_flipy">Flip Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_title">Animación de los ajustes rápidos</string>
+    <string name="qs_tile_animation_style_title">Estilo de la animación</string>
+    <string name="qs_tile_animation_duration_title">Duración de la animación</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de la animación</string>
+    <string name="qs_tile_animation_style_off">Sin animación</string>
+    <string name="qs_tile_animation_style_rotate">Girar</string>
+    <string name="qs_tile_animation_style_flipx">Voltear X</string>
+    <string name="qs_tile_animation_style_flipy">Voltear Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineal</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar y desacelerar</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebotar</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Excederse</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipar y excederse</string>
     <!-- Screenshot shutter sound  -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
-    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
+    <string name="screenshot_shutter_sound_summary">Reproducir un sonido cuando se haga una captura</string>
     <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">Tiles layout</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_size_title">Label text size</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_layout_columns_rows_title">Columns &amp; rows</string>
-    <string name="qs_layout_columns_rows_summary">Customize QS columns and rows</string>
-    <string name="qs_layout_columns_rows_footer_text">QS rows should be equal or greater than QQS rows. Use higher number of columns for circle / square (A11) QS tile style.</string>
-    <string name="qs_columns_portrait_title">Columns (portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
-    <string name="qs_rows_portrait_title">Rows (portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (landscape)</string>
-    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
-    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+    <string name="qs_layout_category_title">Disposición de baldosas</string>
+    <string name="qs_tile_label_hide_title">Ocultar etiquetas</string>
+    <string name="qs_tile_label_size_title">Tamaño de la fuente de los títulos</string>
+    <string name="qs_tile_label_hide_summary">Mostrar solo el icono en la baldosa</string>
+    <string name="qs_layout_columns_rows_title">Columnas &amp; filas</string>
+    <string name="qs_layout_columns_rows_summary">Personaliza las filas y columnas</string>
+    <string name="qs_layout_columns_rows_footer_text">Las filas QS deben ser iguales o mayores que las filas QQS. Utilice un mayor número de columnas para el estilo de mosaico QS circular / cuadrado (A11).</string>
+    <string name="qs_columns_portrait_title">Columnas (vertical)</string>
+    <string name="qs_columns_landscape_title">Columnas (horizontal)</string>
+    <string name="qs_rows_portrait_title">Filas (Vertical)</string>
+    <string name="qs_rows_landscape_title">Filas (Horizontal)</string>
+    <string name="qqs_rows_portrait_title">Filas de ajustes rápidos (vertical)</string>
+    <string name="qqs_rows_landscape_title">Filas de ajustes rápidos (horizontal)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Fondo del reloj</string>
     <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
@@ -833,270 +833,270 @@ Mantén presionado para establecer</string>
     <string name="solid_gradient_shape">Sharp gradient corner</string>
     <string name="solid_gradient_void_light">Gradient void light</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Weather settings</string>
-    <string name="weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_title">Weather update</string>
-    <string name="lockscreen_weather_summary">Display current weather update</string>
-    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
-    <string name="lockscreen_weather_location_title">Current location</string>
-    <string name="lockscreen_weather_location_summary">Display current weather location</string>
-    <string name="lockscreen_weather_text_title">Current condition</string>
-    <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
-    <string name="lockscreen_weather_wind_info_title">Wind info</string>
-    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
-    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
-    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
+    <string name="weather_settings_title">Ajustes del tiempo</string>
+    <string name="weather_settings_summary">Configurar paquete de iconos y servicio meteorológico</string>
+    <string name="lockscreen_weather_category">Información meteorológica</string>
+    <string name="lockscreen_weather_title">Actualización del clima</string>
+    <string name="lockscreen_weather_summary">Mostrar actualización del tiempo actual</string>
+    <string name="lockscreen_weather_enabled_info">Requiere un servicio meteorológico personalizado configurado y Smartspace deshabilitado</string>
+    <string name="lockscreen_weather_location_title">Ubicación actual</string>
+    <string name="lockscreen_weather_location_summary">Mostrar la localización del tiempo meteorológico</string>
+    <string name="lockscreen_weather_text_title">Condición actual</string>
+    <string name="lockscreen_weather_text_summary">Mostrar resumen de la condición meteorológica actual</string>
+    <string name="lockscreen_weather_wind_info_title">Información del viento</string>
+    <string name="lockscreen_weather_wind_info_summary">Muestra la dirección y velocidad actual del viento</string>
+    <string name="lockscreen_weather_humidity_info_title">Información de la humedad</string>
+    <string name="lockscreen_weather_humidity_info_summary">Muestra el porcentaje de humedad actual</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_title">Adaptive playback</string>
-    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time</string>
-    <string name="adaptive_playback_timeout_title">Playback timeout</string>
+    <string name="adaptive_playback_title">Reproducción adaptativa</string>
+    <string name="adaptive_playback_summary">Pausar multimedia cuando el volumen se mutea, y reanudar cuando se vuelva a subir el volumen dentro del tiempo de espera</string>
+    <string name="adaptive_playback_intro_text">Pausa la multimedia automáticamente cuando el volumen se mutea, y se reaunda cuando subes el volumen dentro del tiempo de espera</string>
+    <string name="adaptive_playback_timeout_title">Tiempo de espera de la reproducción adaptativa</string>
     <!-- APK details on App info screen -->
-    <string name="app_info_install_time">Installed: %1$s</string>
-    <string name="app_info_update_time">Updated: %1$s</string>
+    <string name="app_info_install_time">Instalado: %1$s</string>
+    <string name="app_info_update_time">Actualizado: %1$s</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Mostrar icono del portapapeles</string>
+    <string name="show_clipboard_overlay_summary">Mostrar un icono en la esquina inferior izquierda de la pantalla cuando se copie algo al portapapeles</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="sensor_block_title">Bloqueo de sensor</string>
+    <string name="sensor_block_summary">Bloquear acceso a los sensores de movimientos significantes para las aplicaciones con uso intensivo de batería</string>
+    <string name="sensor_block_app_picker_title">Bloquear sensores para estas aplicaciones</string>
+    <string name="add_sensor_block_package_title">Añadir aplicaciones para el bloqueo de sensores</string>
+    <string name="add_sensor_block_package_summary">Movimiento significativo, acelerómetro, sensores de aceleración lineal serán bloqueados para estas aplicaciones</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">Patrón de vibración de tono de llamada</string>
     <string name="pattern_custom">Personalizado</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="custom_vibration_pattern_title">Patrón personalizado</string>
+    <string name="custom_vibration_pattern_summary">Establecer un patrón de vibración personalizado</string>
     <!-- Floating rotation button -->
-    <string name="floating_rotation_button_title">Floating rotate button</string>
-    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
+    <string name="floating_rotation_button_title">Botón flotante de rotación</string>
+    <string name="floating_rotation_button_summary">Mostrar un botón flotante para girar el dispositivo cuando esté rotado</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
-    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+    <string name="netflix_spoof_title">Burlar Netflix</string>
+    <string name="netflix_spoof_summary">Falsifica tu dispositivo como un modelo diferente para Netflix</string>
     <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Google Play Integrity spoof</string>
-    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
+    <string name="pi_spoof_title">Integridad de Google Play simulada</string>
+    <string name="pi_spoof_summary">Simule el dispositivo como un modelo diferente para la integridad de Google Play</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Connectivity check</string>
-    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
+    <string name="captive_portal_title">Comprobación de conectividad</string>
+    <string name="captive_portal_summary">Comprueba si el dispositivo puede conectarse a Internet conectándose a Google. También se utiliza para detectar portales cautivos.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_reset">¿Quieres restablecer las estadísticas?</string>
+    <string name="battery_stats_message">Se perderán los datos de uso de la batería</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">WiFi standard</string>
-    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
+    <string name="wifi_standard_icon_title">Estándar WiFi</string>
+    <string name="wifi_standard_icon_summary">Mostrar el estándar WiFi junto a la señal WiFi</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">Bloqueo de aplicaciones</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicación está protegida</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicaciones están protegidas</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="app_lock_authentication_dialog_title">Desbloquear</string>
+    <string name="enable_debugging">Habilitar depuración</string>
+    <string name="disable_debugging">Deshabilitar depuración</string>
+    <string name="app_lock_packages_title">Aplicaciones protegidas</string>
+    <string name="app_lock_packages_summary">Seleccione las aplicaciones para proteger con biométricos o credenciales del dispositivo</string>
+    <string name="app_lock_timeout_title">Tiempo de espera de bloqueo automático</string>
+    <string name="app_lock_timeout_summary">Duración de tiempo después del cual una aplicación desbloqueada en segundo plano debe ser bloqueada</string>
+    <string name="app_lock_notifications_title">Redactar notificaciones</string>
+    <string name="app_lock_notifications_summary">El contenido de las notificaciones se ocultará y se reducirá para las aplicaciones seleccionadas cuando estén bloqueadas. Las notificaciones emergentes se desactivarán automáticamente.</string>
+    <string name="app_lock_notifications_disabled_summary">Proteger primero una aplicación</string>
+    <string name="app_lock_biometrics_allowed_title">Habilitar biométricos para desbloquear</string>
+    <string name="app_lock_footer_text">Las burbujas se cerrarán automáticamente después del tiempo de espera</string>
+    <string name="enable_protection">Habilitar protección</string>
+    <string name="hide_from_launcher_title">Ocultar del lanzador</string>
+    <string name="hide_from_launcher_summary">Prevenir que esta aplicación aparezca en cualquier lanzador. Se requiere reiniciar el lanzador para que los cambios surtan efecto.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always show when charging</string>
-    <string name="doze_on_charge_summary">Display info when device is charging</string>
+    <string name="doze_on_charge_title">Mostrar siempre durante la carga</string>
+    <string name="doze_on_charge_summary">Mostrar Información Cuando el Dispositivo Está Cargando</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Vincular volumen de tono &amp; volumen de notificaciones</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Información de radio</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Header image</string>
-    <string name="qs_header_image_summary">Select QS background header image</string>
-    <string name="qs_header_daylight_pack_title">Header image collection</string>
-    <string name="qs_header_shadow_title">Header image shadow</string>
-    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
-    <string name="qs_header_static_provider_title">Static image</string>
-    <string name="qs_header_daylight_provider_title">Image collection</string>
+    <string name="qs_header_image_title">Imagen de cabecera de ajustes rápidos</string>
+    <string name="qs_header_image_summary">Seleccionar imagen de fondo del encabezado de QS</string>
+    <string name="qs_header_daylight_pack_title">Colección de encabezados de imagen</string>
+    <string name="qs_header_shadow_title">Sombra del encabezado de imagen</string>
+    <string name="qs_header_shadow_summary">Para mejor visibilidad en imagenes brillantes</string>
+    <string name="qs_header_static_provider_title">Imagen estática</string>
+    <string name="qs_header_daylight_provider_title">Colección de imágenes</string>
     <string name="qs_header_file_provider_title">Imagen personalizada</string>
-    <string name="qs_header_provider_title">Header provider</string>
-    <string name="qs_header_browse_title">Browse installed headers</string>
-    <string name="qs_header_browse_summary">Browse all available header collections</string>
-    <string name="qs_header_pick_title">Select header image</string>
-    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
-    <string name="qs_header_file_select_title">Select image</string>
+    <string name="qs_header_provider_title">Proveedor de encabezados</string>
+    <string name="qs_header_browse_title">Buscar encabezados instalados</string>
+    <string name="qs_header_browse_summary">Buscar todas las colecciones de encabezados disponibles</string>
+    <string name="qs_header_pick_title">Elegir encabezado de imagen</string>
+    <string name="qs_header_pick_summary">Elegir imagen para usarla en el modo estático</string>
+    <string name="qs_header_file_select_title">Seleccionar imagen</string>
     <string name="qs_header_file_select_summary">Seleccionar imagen personalizada</string>
-    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
-    <string name="qs_header_offset_title">Header image offset</string>
-    <string name="qs_header_offset_summary">Adjust the image header size</string>
+    <string name="qs_header_needs_gallery">¡Debes instalar una aplicación de galería!</string>
+    <string name="qs_header_offset_title">Desplazamiento de la imagen de cabecera</string>
+    <string name="qs_header_offset_summary">Ajustar el tamaño de la cabecera de la imagen</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Display schedule</string>
-    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Mostrar programación</string>
+    <string name="always_on_display_schedule_summary">Establecer programación para AOD</string>
+    <string name="always_on_display_schedule_sunset">Anochecer</string>
+    <string name="always_on_display_schedule_sunrise">Amanecer</string>
+    <string name="always_on_display_schedule_mixed_sunset">Activar desde el anochecer hasta una hora concreta</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Activar desde una hora concreta hasta el amanecer</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
-    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+    <string name="qs_bt_show_dialog_title">Diálogo de acceso a Bluetooth</string>
+    <string name="qs_bt_show_dialog_summary">Mostrar opciones de Bluetooth o activar/desactivar Bluetooth al pulsar el acceso rápido de Bluetooth</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Carrier name</string>
-    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
+    <string name="lockscreen_show_carrier_title">Nombre de la operadora</string>
+    <string name="lockscreen_show_carrier_summary">Mostrar nombre de la operadora en la barra de estado</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
-    <string name="statusbar_extra_padding_start_title">Start padding</string>
-    <string name="statusbar_extra_padding_top_title">Top padding</string>
-    <string name="statusbar_extra_padding_end_title">End padding</string>
+    <string name="statusbar_extra_padding_category">Margen extra</string>
+    <string name="statusbar_extra_padding_start_title">Margen inicial</string>
+    <string name="statusbar_extra_padding_top_title">Margen superior</string>
+    <string name="statusbar_extra_padding_end_title">Margen final</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
-    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
-    <string name="wifi_device_mac_addr">Use device MAC</string>
+    <string name="wifi_per_connection_random_mac_addr">Usar MAC aleatorio por conexión (por defecto)</string>
+    <string name="wifi_per_network_random_mac_addr">Usar MAC aleatorio por red</string>
+    <string name="wifi_device_mac_addr">Usar MAC del dispositivo</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
+    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar pantalla ambiente en lugar de encender completamente la pantalla</string>
+    <string name="gesture_wake_ambient">Mostrar ambiente</string>
+    <string name="gesture_wake">Encender completamente</string>
     <!-- Sidebar -->
-    <string name="sidebar_title">Sidebar</string>
-    <string name="sidebar_summary">Quickly open apps in a floating window</string>
+    <string name="sidebar_title">Barra lateral</string>
+    <string name="sidebar_summary">Abrir aplicaciones rápidamente en una ventana flotante</string>
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Smartspace</string>
-    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
+    <string name="lockscreen_smartspace_summary">Mostrar Google Smartspace cuando esté disponible</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
-    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
-    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
-    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
-    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
+    <string name="clipboard_auto_clear_timeout_title">Tiempo de espera de borrado automático del portapapeles</string>
+    <string name="clipboard_auto_clear_title">Borrado automático del portapapeles</string>
+    <string name="clipboard_auto_clear_summary">Borrar automáticamente el portapapeles a la hora programada</string>
+    <string name="clipboard_auto_clear_enabled_title">Usar el borrado automático del portapapeles</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Desactivar el portapapeles</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Aumentar volumen de timbre</string>
+    <string name="increasing_ring_min_volume_title">Volumen inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Disable for VPN</string>
-    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
+    <string name="vpn_enforce_dns_title">Desactivar para VPN</string>
+    <string name="vpn_enforce_dns_summary">Desactivar el DNS privado cuando está conectado a una VPN y restaurarlo al desconectar</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Alternar entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Activado (alternar entre los modos)</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Allow app downgrade</string>
-    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <string name="app_downgrade_title">Permitir instalar versiones anteriores de la aplicación</string>
+    <string name="app_downgrade_summary">Esto permite instalar versiones anteriores de aplicaciones. Tenga en cuenta que esto podría producir bloqueos y corrupción de datos.</string>
     <!-- Heads-up -->
-    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
-    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
+    <string name="compact_heads_up_notifications_enabled_title">Notificaciones compactas</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Mostrar notificaciones en tamaño compacto</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
-    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
+    <string name="navigation_bar_enable_taskbar_title">Barra de tareas</string>
+    <string name="navigation_bar_enable_taskbar_summary">Mostrar la barra de tareas con el modo de navegación seleccionado</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Show IME button space</string>
-    <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
+    <string name="show_ime_space_title">Mostrar espacio de botón IME</string>
+    <string name="show_ime_space_summary">Activar la función de cambio rápido del método de entrada para cambiar los métodos de entrada u ocultar el teclado en pantalla de la barra de características en la parte inferior de la pantalla al teclear</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">SystemUI restart required</string>
-    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
+    <string name="systemui_restart_title">Se requiere el reinicio de la interfaz de usuario del sistema</string>
+    <string name="systemui_restart_message">Para que los cambios surtan efecto, se requiere el reinicio de la interfaz de usuario del sistema. ¿Reiniciar ahora?</string>
     <string name="systemui_restart_yes">Si</string>
-    <string name="systemui_restart_not_now">Not now</string>
-    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
+    <string name="systemui_restart_not_now">Ahora no</string>
+    <string name="systemui_restart_process">Reiniciando interfaz de usuario para aplicar los cambios...</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Notification style</string>
-    <string name="powermenu_style_title">Power menu style</string>
-    <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Duoline</string>
-    <string name="custom_style_fluid">Fluid (Transparent)</string>
+    <string name="notification_style_title">Estilo de notificación</string>
+    <string name="powermenu_style_title">Estilo del menú de apagado</string>
+    <string name="custom_style_cyberpunk">Ciberpunk</string>
+    <string name="custom_style_duoline">Duo Línea</string>
+    <string name="custom_style_fluid">Fluido (Transparente)</string>
     <string name="custom_style_ios">IOS</string>
-    <string name="custom_style_layers">Layers</string>
+    <string name="custom_style_layers">Capas</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox attestation override</string>
-    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
-    <string name="keybox_delete_content_description">Clear keybox data</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <string name="keybox_data_title">Anulación de la atestación de la caja de llaves</string>
+    <string name="keybox_data_summary">Cargue un XML de caja de claves personalizado para anular la atestación de clave del dispositivo</string>
+    <string name="keybox_data_loaded_summary">Se ha cargado el XML del keybox personalizado. Borrar para limpiar.</string>
+    <string name="keybox_delete_content_description">Borrar datos de la caja de llaves</string>
+    <string name="keybox_toast_invalid_file_selected">No es un archivo XML. Elige un XML de keybox válido.</string>
+    <string name="keybox_toast_missing_data">XML de caja de claves no válido: faltan campos obligatorios</string>
+    <string name="keybox_toast_file_loaded">Caja de llaves cargada</string>
+    <string name="keybox_toast_file_cleared">Porta llaves vacío</string>
     <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
-    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
+    <string name="pi_gmscertchain_title">Desactivar forzar Integridad estricta</string>
+    <string name="pi_gmscertchain_summary">Cuando está activado, no fuerza la integridad fuerte desde un gestor de claves personalizado válido y depende del falsificador de integridad de Google Play para arreglar aplicaciones como Google Pay</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">Forma de los ajustes rápidos</string>
+    <string name="qs_tile_shape_dynamic">Dinámico</string>
     <string name="qs_tile_shape_circle">Círculo</string>
-    <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square_smooth">Recuadrado Redondeado (suave)</string>
+    <string name="qs_tile_shape_rounded_square">Cuadrado redondeado</string>
+    <string name="qs_tile_shape_square">Cuadrado</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">Modo oscuro para aplicaciones de terceros</string>
+    <string name="force_dark_summary">Aplica colores más oscuros en las aplicaciones que carecen de modo oscuro. Algunas pantallas pueden aparecer apagadas.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">Estilo de la barra de brillo</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">Agregación de transportista LTE</string>
     <string name="force_lte_ca_summary">Mejora el ancho de banda LTE al agregar las bandas compatibles</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
-    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
+    <string name="lockscreen_quick_settings_title">Ajustes Rápidos en la Pantalla de Bloqueo</string>
+    <string name="lockscreen_quick_settings_summary">Permitir Deslizar Hacia Abajo en la Pantalla de Bloqueo Para Ver los Ajustes Rápidos</string>
     <!-- Lock screen media art -->
-    <string name="ls_media_art_title">Media cover art</string>
-    <string name="ls_media_art_summary">Display media cover art when available</string>
+    <string name="ls_media_art_title">Carátula multimedia</string>
+    <string name="ls_media_art_summary">Mostrar carátula multimedia si está disponible</string>
     <!-- Lock screen media art on Ambient Display -->
     <string name="ambient_media_art_title">Ambient media cover art</string>
     <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
-    <string name="ls_media_art_filter_title">Media cover art filter</string>
-    <string name="ls_media_art_filter_none">None</string>
-    <string name="ls_media_art_filter_blur">Blur</string>
-    <string name="ls_media_art_filter_grayscale">Grayscale</string>
+    <string name="ls_media_art_filter_title">Filtro de carátulas multimedia</string>
+    <string name="ls_media_art_filter_none">Ninguna</string>
+    <string name="ls_media_art_filter_blur">Difuminado</string>
+    <string name="ls_media_art_filter_grayscale">Escala de grises</string>
     <string name="ls_media_art_filter_sepia">Sepia</string>
-    <string name="ls_media_art_filter_tint">Accent tinted</string>
-    <string name="ls_media_art_filter_invert">Invert</string>
-    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
+    <string name="ls_media_art_filter_tint">Color de realce</string>
+    <string name="ls_media_art_filter_invert">Invertido</string>
+    <string name="ls_media_art_filter_grayblur">Escala de Grises y Difuminado</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
-    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
+    <string name="ls_media_art_fade_level_title">Nivel de Difuminado de la Portada</string>
+    <string name="ls_media_art_fade_level_summary">Establecer el Nivel de Difuminado de la Portada</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Media art blur level</string>
-    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
+    <string name="ls_media_art_blur_level_title">Nivel de Difuminado de Arte Multimedia</string>
+    <string name="ls_media_art_blur_level_summary">Intensidad de Difuminado Cuando se Aplica el Filtro de Desenfoque</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Pulse Visualizer</string>
-    <string name="pulse_settings_summary">Show a bar visualizer on the lock screen while music is playing</string>
-    <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
-    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
-    <string name="pulse_rounded_bars_title">Rounded bars</string>
-    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
-    <string name="pulse_color">Visualizer color</string>
-    <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Album art</string>
+    <string name="pulse_settings_title">Visualizador Musical</string>
+    <string name="pulse_settings_summary">Ecualizador gráfico de audio para la barra de navegación y pantalla de bloqueo</string>
+    <string name="ambient_pulse_enabled_title">Pulse en pantalla ambiente</string>
+    <string name="ambient_pulse_enabled_summary">Mostrar Visualizador en Pantalla Ambiente</string>
+    <string name="pulse_rounded_bars_title">Barras Redondeadas</string>
+    <string name="pulse_rounded_bars_summary">Barras de Visualización con Esquinas Redondeadas</string>
+    <string name="pulse_color">Color del Visualizador</string>
+    <string name="pulse_color_lavalamp">Lámpara de Lava</string>
+    <string name="pulse_color_album">Portada del Álbum</string>
     <string name="pulse_color_accent">Color de realce</string>
-    <string name="pulse_bar_count_title">Number of bars</string>
-    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
-    <string name="pulse_bar_count_units">bars</string>
-    <string name="pulse_renderer">Visualizer style</string>
-    <string name="pulse_renderer_solid">Solid lines</string>
-    <string name="pulse_renderer_fading">Fading blocks</string>
-    <string name="pulse_renderer_neon_glow">Neon glow</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
-    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
+    <string name="pulse_bar_count_title">Número de Barras</string>
+    <string name="pulse_bar_count_summary">Establecer Cuántas Barras se Muestran en el Visualizador</string>
+    <string name="pulse_bar_count_units">barras</string>
+    <string name="pulse_renderer">Estilo del Visualizador</string>
+    <string name="pulse_renderer_solid">Líneas sólidas</string>
+    <string name="pulse_renderer_fading">Bloques desvaneciéndose</string>
+    <string name="pulse_renderer_neon_glow">Brillo neón</string>
+    <string name="pulse_renderer_retro_vu_meter">Indicador Analógico</string>
+    <string name="pulse_renderer_minimal_wave">Onda Mínima</string>
     <string name="pulse_renderer_sparkle">Destellos</string>
     <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Translucent notifications</string>
-    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
-    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
-    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
+    <string name="notification_row_transparency_title">Notificaciones Translúcidas</string>
+    <string name="notification_row_transparency_summary">Establecer Fondo Traslúcido para las Notificaciones en Configuración Rápida</string>
+    <string name="notification_row_transparency_lockscreen_title">Notificaciones Translúcidas en Pantalla de Bloqueo</string>
+    <string name="notification_row_transparency_lockscreen_summary">Establecer Fondo Traslúcido para las Notificaciones en Pantalla de Bloqueo</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
-    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
+    <string name="doze_always_on_wallpaper_title">Fondo de Pantalla Ambiental</string>
+    <string name="doze_always_on_wallpaper_summary">Mostrar Fondo de Pantalla de Bloqueo en Pantalla Ambiente</string>
     <!-- Squiggle animation for media notification -->
-    <string name="media_squiggle_animation_title">Squiggle animation</string>
-    <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
+    <string name="media_squiggle_animation_title">Animación de los Medios</string>
+    <string name="media_squiggle_animation_summary">Mostrar la Animación de la Barra de Búsqueda en el Panel de Medios Cuando se Reproduce el Medio</string>
     <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
-    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <string name="vbmeta_attestation_title">Detección de autocorrección VBMeta</string>
+    <string name="vbmeta_attestation_summary">Realiza la certificación de clave para generar un hash de arranque verificado al iniciar. Requiere reiniciar el sistema.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">No validar</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -1155,115 +1155,115 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ongoing_chip_color_mode_album_art">Album art color</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha settings</string>
-    <string name="alpha_settings_summary">There will be goodies!</string>
-    <string name="reset_settings_title">Reset settings</string>
-    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
+    <string name="alpha_settings_title">Ajustes de Alpha</string>
+    <string name="alpha_settings_summary">¡Habrá mejoras!</string>
+    <string name="reset_settings_title">Restablecer ajustes</string>
+    <string name="reset_settings_message">Esto restablecerá la mayor parte de la configuración de AlphaDroid a sus valores predeterminados para el usuario actual. ¿Deseas continuar?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
-    <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
+    <string name="top_level_connectivity_category_title">Conectividad</string>
+    <string name="top_level_system_info_category_title">Sistema</string>
+    <string name="top_level_personalize_category_title">Personalización</string>
+    <string name="top_level_security_privacy_category_title">Seguridad</string>
+    <string name="top_level_account_category_title">Cuentas</string>
+    <string name="top_level_support_category_title">Soporte</string>
     <string name="lockscreen_clock_category">Reloj</string>
     <!-- Misc categories -->
     <string name="misc_spoofing_category">Spoofing</string>
-    <string name="misc_system_category">System</string>
-    <string name="misc_animations_category">Animations</string>
+    <string name="misc_system_category">Sistema</string>
+    <string name="misc_animations_category">Animaciones</string>
     <string name="misc_gestures_category">Gestos</string>
     <!-- Changelog -->
-    <string name="changelog_title">Current changelog</string>
-    <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Registro de cambios</string>
+    <string name="changelog_summary">Ver los cambios en la ROM instalada</string>
+    <string name="changelog_error">No se ha podido cargar el registro de cambios</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">About Alpha</string>
-    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
-    <string name="about_device_name">Device</string>
+    <string name="about_alpha">Acerca de Alpha</string>
+    <string name="about_alpha_dual_line">Acerca de \nAlphaDroid</string>
+    <string name="about_device_name">Dispositivo</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Share AlphaDroid</string>
-    <string name="share_summary">Let others know about AlphaDroid</string>
-    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
-    <string name="share_chooser_title">Share AlphaDroid</string>
+    <string name="share_title">Compartir AlphaDroid</string>
+    <string name="share_summary">Haz saber a los demás qué es AlphaDroid</string>
+    <string name="share_message">Echa un vistazo si #AlphaDroid está disponible para tu dispositivo @ https://alpha.net/</string>
+    <string name="share_chooser_title">Compartir AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">We love open source, check us out</string>
-    <string name="telegram_title">AlphaDroid community</string>
-    <string name="telegram_summary">We are on telegram. Join us!</string>
-    <string name="telegram_channel_title">Updates channel</string>
-    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
-    <string name="website_title">Official website</string>
-    <string name="website_summary">Visit our official website</string>
-    <string name="translate_title">Translations</string>
-    <string name="translate_summary">Help with localisation of ROM in your language!</string>
+    <string name="source_summary">Nos encanta el código abierto, échanos un vistazo</string>
+    <string name="telegram_title">Comunidad de AlphaDroid</string>
+    <string name="telegram_summary">Estamos en Telegram. ¡Únete!</string>
+    <string name="telegram_channel_title">Canal de actualización</string>
+    <string name="telegram_channel_summary">Recibe notificaciones de nuevas versiones en Telegram</string>
+    <string name="website_title">Página web oficial</string>
+    <string name="website_summary">Visita nuestra página web oficial</string>
+    <string name="translate_title">Traducciones</string>
+    <string name="translate_summary">¡Ayuda con la traducción de la ROM en tu idioma!</string>
     <!-- Donate AlphaDroid -->
-    <string name="donate_title">Support us</string>
-    <string name="donate_summary">Donate to support further development</string>
-    <string name="donate_team_title">AlphaDroid team</string>
-    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
+    <string name="donate_title">Apóyanos</string>
+    <string name="donate_summary">Donar para apoyar un mejor desarrollo</string>
+    <string name="donate_team_title">equipo AlphaDroid</string>
+    <string name="donate_team_summary">Haz una donación para apoyar el alojamiento del servidor, el tiempo de actividad del sitio y la administración general</string>
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
-    <string name="alpha_update_title">Updates</string>
-    <string name="alpha_update_summary">Check and download latest update</string>
+    <string name="alpha_update_title">Actualizaciones</string>
+    <string name="alpha_update_summary">Buscar y descargar la última actualización</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Deshabilitado</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Device</string>
+    <string name="category_device_info">Dispositivo</string>
     <!-- Build info -->
-    <string name="build_status_title">Build Status</string>
-    <string name="build_status_summary">Unofficial</string>
-    <string name="build_status_official">Official</string>
-    <string name="build_status_unofficial">Unofficial</string>
-    <string name="alpha_build_version">AlphaDroid version</string>
-    <string name="alpha_build_date">Build date</string>
+    <string name="build_status_title">Estado de la compilación</string>
+    <string name="build_status_summary">No-oficial</string>
+    <string name="build_status_official">Oficial</string>
+    <string name="build_status_unofficial">No-oficial</string>
+    <string name="alpha_build_version">Versión de AlphaDroid</string>
+    <string name="alpha_build_date">Fecha de compilación</string>
     <!-- Maintainer -->
-    <string name="maintainer_title">Maintainer</string>
-    <string name="maintainer_summary">Searching for maintainer...</string>
+    <string name="maintainer_title">Desarrollador</string>
+    <string name="maintainer_summary">Buscando encargado de mantenimiento...</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_title">Almacenamiento</string>
     <string name="storage_card_info">Used/total</string>
-    <string name="about_device_name_title">Device</string>
+    <string name="about_device_name_title">Dispositivo</string>
     <string name="about_device_rom_title">Android %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <string name="about_device_nearby">El nombre del dispositivo podrá ser visto por los dispositivos cercanos.</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM Total</string>
     <!-- QuickSwitch -->
-    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
-    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
+    <string name="quickswitch_launcher_title">Lanzador AlphaDroid</string>
+    <string name="quickswitch_launcher_summary">Cambiar el lanzador integrado de AlphaDroid</string>
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
-    <string name="search_bar_text">search</string>
+    <string name="search_bar_text">buscar</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
-    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="display_engine_mode_title">Motor Reality Display</string>
     <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
-    <string name="display_engine_mode_xreality">X-Reality Engine</string>
-    <string name="display_engine_mode_vivid">Vivid Display</string>
-    <string name="display_engine_mode_triluminous">Triluminous Display</string>
-    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
+    <string name="display_engine_mode_xreality">Motor X-Reality</string>
+    <string name="display_engine_mode_vivid">Pantalla vívida</string>
+    <string name="display_engine_mode_triluminous">Pantalla Triluminosa</string>
+    <string name="display_engine_mode_footer_text">Inspirado en el motor Bravia/X-Reality de Sony, el Display Engine incluye el modo Vivid para mejorar el brillo y la saturación del color, el modo triluminoso lleno de tonos y matices del mundo real, tonos de piel ultrarrealistas y detalles increíbles para que puedas apreciar la intensidad de la realidad, y el modo X-Reality para mejorar los detalles y la precisión del color.</string>
     <!-- Ignore window secure flag -->
-    <string name="ignore_window_secure_title">Ignore secure window flag</string>
-    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <string name="ignore_window_secure_title">Ignorar ventanas seguras</string>
+    <string name="ignore_window_secure_summary">Elimina el límite de capturas y grabaciones de pantalla para todas las aplicaciones. Esto puede ser conveniente en algunos casos, pero podría llevar a filtraciones de datos.</string>
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Hide screen capture status</string>
     <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
     <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Search apps</string>
+    <string name="hide_developer_status_title">Ocultar estado de desarrollador</string>
+    <string name="hide_developer_status_summary">Ocultar estado de desarrollador en apps</string>
+    <string name="search_apps">Buscar apps</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Notification icons</string>
-    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
+    <string name="max_visible_notification_icons_title">Íconos de notificaciones</string>
+    <string name="max_visible_notification_icons_summary">Íconos de notificación visibles en barra de estado</string>
     <!-- UI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
