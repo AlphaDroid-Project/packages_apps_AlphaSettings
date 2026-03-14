@@ -30,13 +30,13 @@
     <string name="display_title">Kijelző</string>
     <string name="ui_title">Felhasználói felület</string>
     <string name="ui_title_short">Kezelőfelület</string>
-    <string name="ui_summary">Monet, styles, icon packs</string>
-    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="ui_summary">Monet, styles</string>
+    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
     <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
     <string name="button_summary">Hardware buttons and power menu</string>
     <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
     <string name="notifications_summary">Alerts, heads up, lights</string>
-    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="sound_summary">Volume panel, vibration</string>
     <string name="misc_summary">Game Space, spoofing, misc.</string>
     <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
@@ -752,70 +752,70 @@
     <string name="smart_pixels_title">Intelligens pixelek</string>
     <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
     <string name="smart_pixels_enable_title">Az Intelligens pixelek engedélyezése</string>
-    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
-    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
-    <string name="smart_pixels_on_power_save_summary">Engedélyezze az Intelligens pixelek funkciót, ha az akkumulátorkímélő-üzemmód be van kapcsolva</string>
-    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
-    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
-    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED kijelzőkön, a képpontok gyakori áthelyezésével</string>
+    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift_title">Burn-in protection</string>
+    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Sötét téma használata</string>
-    <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Minden értesítés törlése gomb</string>
-    <string name="notification_material_dismiss_summary">Lecseréli az összes törlése értesítési szöveget egy új stílusú lebegő gombra</string>
+    <string name="notification_material_dismiss_title">Clear all notification button</string>
+    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_title">A Vissza gesztus animációja</string>
-    <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a \'Vissza\'-mozdulatvezérléshez</string>
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Rezgés \'Vissza\'-vezérléskor</string>
-    <string name="back_gesture_haptic_summary">Rezegni fog a készülék amikor a \'Vissza\'-vezérlőt használja</string>
+    <string name="back_gesture_haptic_title">Back gesture haptic</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Az akkumulátor jelenlegi kapacítása</string>
-    <string name="designed_battery_capacity">Az akkumulátor tervezett kapacítása</string>
-    <string name="battery_charge_cycles">A töltési ciklus befejeződött</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Akkuhőmérséklet</string>
+    <string name="battery_temperature">Battery temperature</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Háttérátlátszóság</string>
-    <string name="qs_opacity_summary">A Gyorsbeállítások-háttér átlátszóságának beállítása</string>
+    <string name="qs_opacity_title">Background opacity</string>
+    <string name="qs_opacity_summary">Set opacity level for QS background</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Adathasználat</string>
-    <string name="qs_footer_datausage_summary">Megjeleníti az Adathasználat összesítését a gyorsbeállítások láblécében</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Csempeanimáció</string>
-    <string name="qs_tile_animation_style_title">Animációstílus</string>
-    <string name="qs_tile_animation_duration_title">Animációhossz</string>
-    <string name="qs_tile_animation_interpolator_title">Animáció közbeiktató</string>
-    <string name="qs_tile_animation_style_off">Nincs animáció</string>
-    <string name="qs_tile_animation_style_rotate">Forgatás</string>
-    <string name="qs_tile_animation_style_flipx">X-fordulat</string>
-    <string name="qs_tile_animation_style_flipy">Y-fordulat</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineáris</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Gyorsuló</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Lassuló</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Gyorsuló/Lassuló</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Visszapattanó</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Túlzó</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Siettetett</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Siettetett-Túlzó</string>
+    <string name="qs_tile_animation_title">Tiles animation</string>
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_style_flipx">Flip X</string>
+    <string name="qs_tile_animation_style_flipy">Flip Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
     <!-- Screenshot shutter sound  -->
-    <string name="screenshot_shutter_sound_title">A képernyőmentés hangja</string>
-    <string name="screenshot_shutter_sound_summary">Így hang jelzi majd a képernyőmentést</string>
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
     <!-- QS tiles layout  -->
-    <string name="qs_layout_category_title">Csempe-elrendezés</string>
-    <string name="qs_tile_label_hide_title">Címkék elrejtése</string>
-    <string name="qs_tile_label_size_title">A Címke betűmérete</string>
-    <string name="qs_tile_label_hide_summary">Csak az ikonok jelenjenek meg</string>
-    <string name="qs_layout_columns_rows_title">Sorok és oszlopok</string>
-    <string name="qs_layout_columns_rows_summary">Csempesorok és oszlopok testreszabása</string>
-    <string name="qs_layout_columns_rows_footer_text">A QS sorainak többnek kell lennie mint a QQS sorainak. Használjon nagyobb számú oszlopot a kör/négyzet (A11) QS csempestílushoz.</string>
-    <string name="qs_columns_portrait_title">Oszlopok (álló)</string>
-    <string name="qs_columns_landscape_title">Oszlopok (fekvő)</string>
-    <string name="qs_rows_portrait_title">Sorok (álló)</string>
-    <string name="qs_rows_landscape_title">Sorok (fekvő)</string>
-    <string name="qqs_rows_portrait_title">A Gyorsbeállítások sorai (álló módban)</string>
-    <string name="qqs_rows_landscape_title">A Gyorsbeállítások sorai (fekvő módban)</string>
+    <string name="qs_layout_category_title">Tiles layout</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_layout_columns_rows_title">Columns &amp; rows</string>
+    <string name="qs_layout_columns_rows_summary">Customize QS columns and rows</string>
+    <string name="qs_layout_columns_rows_footer_text">QS rows should be equal or greater than QQS rows. Use higher number of columns for circle / square (A11) QS tile style.</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
+    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Kiemelt óralap</string>
     <string name="statusbar_clock_chip_summary">Válasszon egyedi hátteret az óra mögé</string>
@@ -832,272 +832,270 @@
     <string name="solid_gradient_shape">Éles sarkított átmenet</string>
     <string name="solid_gradient_void_light">A Void átmenet fénye</string>
     <!-- Weather -->
-    <string name="weather_settings_title">Időjárás-beállítások</string>
-    <string name="weather_settings_summary">Testre szabható ikoncsomag és időjárás-szolgáltatás</string>
-    <string name="lockscreen_weather_category">Időjárás</string>
-    <string name="lockscreen_weather_title">Az \'Időjárás\" frissítése</string>
-    <string name="lockscreen_weather_summary">A jelenlegi tartózkodási hely adatait frissíti</string>
-    <string name="lockscreen_weather_enabled_info">Kötelező egy egyéni időjárás-szolgáltatás konfigurálása és a Smartspace letiltása.</string>
-    <string name="lockscreen_weather_location_title">Jelenlegi tartózkodási hely</string>
-    <string name="lockscreen_weather_location_summary">A jelenlegi tartózkodási hely adatait jeleníti meg</string>
-    <string name="lockscreen_weather_text_title">Jelenlegi időjárás</string>
-    <string name="lockscreen_weather_text_summary">Megjeleníti az épp aktuális hőfokot és adatokat</string>
-    <string name="lockscreen_weather_wind_info_title">Szél-adatok</string>
-    <string name="lockscreen_weather_wind_info_summary">Megjeleníti az aktuális szélsebességet és szélirányt</string>
-    <string name="lockscreen_weather_humidity_info_title">Páratartalom-adatok</string>
-    <string name="lockscreen_weather_humidity_info_summary">Megjeleníti az aktuális páratartalom százalékos értékét</string>
+    <string name="weather_settings_title">Weather settings</string>
+    <string name="weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_title">Weather update</string>
+    <string name="lockscreen_weather_summary">Display current weather update</string>
+    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
+    <string name="lockscreen_weather_location_title">Current location</string>
+    <string name="lockscreen_weather_location_summary">Display current weather location</string>
+    <string name="lockscreen_weather_text_title">Current condition</string>
+    <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_title">Adaptív lejátszás</string>
-    <string name="adaptive_playback_summary">A hangerő elnémítása esetén szünetelteti a médiát, ám az időkorláton belül a hangerő fel gombra folytatja</string>
-    <string name="adaptive_playback_intro_text">A hangerő elnémítása esetén automatikusan szünetelteti a médiát, ám az időkorláton belül a hangerő visszaállitására automatikusan folytatja</string>
-    <string name="adaptive_playback_timeout_title">Lejátszási időkorlát</string>
+    <string name="adaptive_playback_title">Adaptive playback</string>
+    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time</string>
+    <string name="adaptive_playback_timeout_title">Playback timeout</string>
     <!-- APK details on App info screen -->
-    <string name="app_info_install_time">%1$s -kor telepítve</string>
-    <string name="app_info_update_time">%1$s -kor frissítve</string>
+    <string name="app_info_install_time">Installed: %1$s</string>
+    <string name="app_info_update_time">Updated: %1$s</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Vágólap-átfedés</string>
-    <string name="show_clipboard_overlay_summary">Átfedés megjelenítése a képernyő bal alsó sarkában, ha a vágólapra másolódott valami</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Érzékelőblokkolás csomagonként</string>
-    <string name="sensor_block_summary">Néhány alkalmazásnál blokkolja a hozzáférést bizonyos érzékelőkhöz az akkumulátorkímélés érdekében</string>
-    <string name="sensor_block_app_picker_title">Szenzortiltás az alábbi alkalmazásoknál</string>
-    <string name="add_sensor_block_package_title">Adjon hozzá alkalmazásokat</string>
-    <string name="add_sensor_block_package_summary">A mozgás, a gyorsulás és a lineáris gyorsulás-érzékelők blokkolva lesznek ezen alkalmazásoknak</string>
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Rezgő csengési minták</string>
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_custom">Egyéni</string>
-    <string name="custom_vibration_pattern_title">Egyéni mintázat</string>
-    <string name="custom_vibration_pattern_summary">Beállíthat egyéni vibrációs mintát is</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <!-- Floating rotation button -->
-    <string name="floating_rotation_button_title">Lebegő \'Elforgatás gomb\'</string>
-    <string name="floating_rotation_button_summary">Egy lebegő gombbal jelzi, ha a készüléket elforgatták</string>
+    <string name="floating_rotation_button_title">Floating rotate button</string>
+    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix svindli</string>
-    <string name="netflix_spoof_summary">A Netflixhez más készüléknek álcázza az Ön telefonját</string>
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Trükközés a Google Play Integrity-vel</string>
-    <string name="pi_spoof_summary">A Google Play sértettlenségének ellenőrzésekor más telefonnak álcázza az Ön készülékét</string>
+    <string name="pi_spoof_title">Google Play Integrity spoof</string>
+    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Kapcsolódási teszt</string>
-    <string name="captive_portal_summary">Internet-csatlakozási képesség behatárolása a Google-val való kapcsolódás alatt. Nyilvános, de rögzített portálok észlelésére is használható.</string>
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Statisztikatörlés?</string>
-    <string name="battery_stats_message">Az akkuhasználati adatok elvesznek</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">Wi-Fi-szabvány</string>
-    <string name="wifi_standard_icon_summary">A Wi-Fi-jel mellett a szabványt is megjeleníti</string>
+    <string name="wifi_standard_icon_title">WiFi standard</string>
+    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
     <!-- App lock -->
-    <string name="app_lock_title">Alkalmazás-zár</string>
+    <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> alkalmazás zárolt</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Feloldás</string>
-    <string name="enable_debugging">Hibakeresés engedélyezése</string>
-    <string name="disable_debugging">Hibakeresés letiltása</string>
-    <string name="app_lock_packages_title">Zárolt alkalmazások</string>
-    <string name="app_lock_packages_summary">Kijelölheti a biometrikus- vagy készülékhitelesítő-adatokkal védeni kívánt alkalmazásokat</string>
-    <string name="app_lock_timeout_title">Az automatikus lezárás időkorlátja</string>
-    <string name="app_lock_timeout_summary">Az az időtartam, amely után a feloldott alkalmazás a háttérben visszazár</string>
-    <string name="app_lock_notifications_title">Összezárt értesítések</string>
-    <string name="app_lock_notifications_summary">A kiválasztott zárolt alkalmazások értesítései elrejtődnek és összecsukódnak. A lebegő értesítések automatikusan letiltódnak.
-    </string>
-    <string name="app_lock_notifications_disabled_summary">Előbb állítson be legalább egy zárolt alkalmazást</string>
-    <string name="app_lock_biometrics_allowed_title">Biometria-bekapcsolás a feloldáshoz</string>
-    <string name="app_lock_footer_text">A buborékok az időhatár letelte után automatikusan eltűnnek</string>
-    <string name="enable_protection">Védelem-engedélyezés</string>
-    <string name="hide_from_launcher_title">Elrejtés a Launcherből</string>
-    <string name="hide_from_launcher_summary">Megakadályozza hogy egy alkalmazás látszódjon a launcheren. A funkcióhoz újra kell indítani a launchert.
-    </string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Állandóan látszódik töltés közben</string>
-    <string name="doze_on_charge_summary">Info-megjelenítés készüléktöltéskor</string>
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display info when device is charging</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Csengő és értesítési hangerők összekötése</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Rádióinformációk</string>
+    <string name="radio_info_title">Radio info</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Fejléc-kép</string>
-    <string name="qs_header_image_summary">QS-háttér fejléckép-választás</string>
-    <string name="qs_header_daylight_pack_title">Fejléckép gyűjtemények</string>
-    <string name="qs_header_shadow_title">Fejléckép-árnyék</string>
-    <string name="qs_header_shadow_summary">Jobb láthatóság érdekében a világos képek esetén</string>
-    <string name="qs_header_static_provider_title">Statikus kép</string>
-    <string name="qs_header_daylight_provider_title">Fejléckép gyűjtemény</string>
+    <string name="qs_header_image_title">Header image</string>
+    <string name="qs_header_image_summary">Select QS background header image</string>
+    <string name="qs_header_daylight_pack_title">Header image collection</string>
+    <string name="qs_header_shadow_title">Header image shadow</string>
+    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
+    <string name="qs_header_static_provider_title">Static image</string>
+    <string name="qs_header_daylight_provider_title">Image collection</string>
     <string name="qs_header_file_provider_title">Egyéni kép</string>
-    <string name="qs_header_provider_title">Fejléc-szolgáltató</string>
-    <string name="qs_header_browse_title">Tallózás a telepített fejlécek között</string>
-    <string name="qs_header_browse_summary">Böngészés az összes elérhető fejléckép gyűjteményben</string>
-    <string name="qs_header_pick_title">Fejléckép kiválasztása</string>
-    <string name="qs_header_pick_summary">Válasszon ki egy képet statikus módban való használathoz</string>
-    <string name="qs_header_file_select_title">Kép kiválasztása</string>
+    <string name="qs_header_provider_title">Header provider</string>
+    <string name="qs_header_browse_title">Browse installed headers</string>
+    <string name="qs_header_browse_summary">Browse all available header collections</string>
+    <string name="qs_header_pick_title">Select header image</string>
+    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
+    <string name="qs_header_file_select_title">Select image</string>
     <string name="qs_header_file_select_summary">Egyéni kép kiválasztása</string>
-    <string name="qs_header_needs_gallery">Telepítenie kéne egy Galéria-alkalmazást!</string>
-    <string name="qs_header_offset_title">Fejléckép-elhelyezés</string>
-    <string name="qs_header_offset_summary">Állítsa be a kép fejlécét</string>
+    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
+    <string name="qs_header_offset_title">Header image offset</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">AOD-ütemezés</string>
-    <string name="always_on_display_schedule_summary">Ütemezéseket állíthat be a \'Mindig bekapcsolvá-hoz</string>
-    <string name="always_on_display_schedule_sunset">Napnyugta</string>
-    <string name="always_on_display_schedule_sunrise">Napkelte</string>
-    <string name="always_on_display_schedule_mixed_sunset">Napnyugtától kapcsol be az előre megadott ideig</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Az előre megadott időtől Napkeltéig kapcsol be</string>
+    <string name="always_on_display_schedule_title">Display schedule</string>
+    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">A BT-csempe kijelzései</string>
-    <string name="qs_bt_show_dialog_summary">Ha megérinti a csempét, vagy a Bluetooth-párbeszédpanel vagy a Bluetooth-állapot jelenik meg</string>
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Szolgáltatónév</string>
-    <string name="lockscreen_show_carrier_summary">A Szolgáltató neve megjelenik az állapotsoron</string>
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra kitöltés</string>
-    <string name="statusbar_extra_padding_start_title">Kezdeti kitöltés</string>
-    <string name="statusbar_extra_padding_top_title">Legerősebb kitöltés</string>
-    <string name="statusbar_extra_padding_end_title">Végző kitöltés</string>
+    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_start_title">Start padding</string>
+    <string name="statusbar_extra_padding_top_title">Top padding</string>
+    <string name="statusbar_extra_padding_end_title">End padding</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Kapcsolatonként véletlenszerű MAC használata (alapértelmezett)</string>
-    <string name="wifi_per_network_random_mac_addr">Hálózatonként véletlenszerű MAC használata</string>
-    <string name="wifi_device_mac_addr">A készüléken található MAC használata</string>
+    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
+    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
+    <string name="wifi_device_mac_addr">Use device MAC</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Környezeti ébredés</string>
-    <string name="doze_gesture_ambient_summary">\'Környezeti kijelző\', a képernyő teljes ébresztése helyett</string>
-    <string name="gesture_wake_ambient">Környezeti ébredés</string>
-    <string name="gesture_wake">Teljes ébresztés</string>
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
     <!-- Sidebar -->
-    <string name="sidebar_title">Oldalsáv</string>
-    <string name="sidebar_summary">Gyorsal indíthat alkalmazásokat a felugró oldalsávból</string>
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
     <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Google Smartspace</string>
-    <string name="lockscreen_smartspace_summary">Ha elérhető, akkor megjeleníti</string>
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">A kiürítés időkorlátja</string>
-    <string name="clipboard_auto_clear_title">Automatikus vágólapkiürítés</string>
-    <string name="clipboard_auto_clear_summary">A vágólap automatikus ürítése egy előre ütemezett időpontban</string>
-    <string name="clipboard_auto_clear_enabled_title">Az \'Automatikus vágólapkiürítés\' használata</string>
-    <string name="clipboard_auto_clear_timeout_disable_clipboard">A Vágólap letiltása</string>
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
+    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
+    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
-    <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
-    <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Letiltás VPN használatkor</string>
-    <string name="vpn_enforce_dns_summary">Ha VPN-hez csatlakozik, kapcsolja ki a privát DNS-t, de állítsa helyre kapcsolatbontás után</string>
+    <string name="vpn_enforce_dns_title">Disable for VPN</string>
+    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
-    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Alkalmazás-downgrade engedélyezése</string>
-    <string name="app_downgrade_summary">Ez lehetővé teszi az alkalmazások korábbi verziójának a visszatelepítését. Vegye figyelembe, hogy ez összeomláshoz és adatsérüléshez vezethet.</string>
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
     <!-- Heads-up -->
-    <string name="compact_heads_up_notifications_enabled_title">Kompakt méretű felugrók</string>
-    <string name="compact_heads_up_notifications_enabled_summary">Az értesítések kompakt méretben jelennek meg</string>
+    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Tálca</string>
-    <string name="navigation_bar_enable_taskbar_summary">A kiválasztott navigációs módokkal jelenik meg a Tálca</string>
+    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
+    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Hely megjelenítése a billentyűzeten</string>
-    <string name="show_ime_space_summary">A beviteli mód gyorsváltási funkciójának kapcsolója a módok közötti váltáshoz, vagy a képernyő-billentyűzet gépelés közben való elrejtéséhez a képernyő alján található funkciósávról</string>
+    <string name="show_ime_space_title">Show IME button space</string>
+    <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">Rendszerfelület-újraindítás szükséges</string>
-    <string name="systemui_restart_message">A módosítások érvénybe léptetéséhez szükséges a rendszerfelület újraindítása. Újraindítja most?</string>
+    <string name="systemui_restart_title">SystemUI restart required</string>
+    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
     <string name="systemui_restart_yes">Igen</string>
-    <string name="systemui_restart_not_now">Most nem</string>
-    <string name="systemui_restart_process">Rendszerfelület-újraindítás a változások életbe léptetéséhez...</string>
+    <string name="systemui_restart_not_now">Not now</string>
+    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Az Értesítések stílusa</string>
-    <string name="powermenu_style_title">A kikapcsolási menü stílusa</string>
+    <string name="notification_style_title">Notification style</string>
+    <string name="powermenu_style_title">Power menu style</string>
     <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Kétvonalas</string>
-    <string name="custom_style_fluid">Folyékony (Átlátszó)</string>
-    <string name="custom_style_ios">iOS</string>
-    <string name="custom_style_layers">Réteges</string>
+    <string name="custom_style_duoline">Duoline</string>
+    <string name="custom_style_fluid">Fluid (Transparent)</string>
+    <string name="custom_style_ios">IOS</string>
+    <string name="custom_style_layers">Layers</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox-hitelesítés felülbírálása</string>
-    <string name="keybox_data_summary">Egyedi Keybox-XML betöltése az eszközkulcs-hitelesítés felülbírálásához</string>
-    <string name="keybox_data_loaded_summary">A saját Keybox-XML betöltve. Törölje a tisztításhoz.</string>
-    <string name="keybox_delete_content_description">Keybox adattisztítás</string>
-    <string name="keybox_toast_invalid_file_selected">Ez nem XML-fájl. Válasszon egy valódi Keybox-XML-t.</string>
-    <string name="keybox_toast_missing_data">Érvénytelen Keybox-XML: kötelező mezők hiányoznak</string>
-    <string name="keybox_toast_file_loaded">A Keybox betöltve</string>
-    <string name="keybox_toast_file_cleared">A Keybox tisztítva</string>
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
     <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Az erős integritás kényszerítés letiltása</string>
-    <string name="pi_gmscertchain_summary">Ha engedélyezve van, nem kényszerít erős integritást érvényes egyéni keybox-okból, és a Google Play integritáshamisítására támaszkodik az olyan alkalmazások javításához, mint a Google Pay</string>
+    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
+    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS csempe alakja</string>
-    <string name="qs_tile_shape_dynamic">Dinamikus</string>
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
     <string name="qs_tile_shape_circle">Kör</string>
-    <string name="qs_tile_shape_rounded_square_smooth">Kerekített négyzet (simított)</string>
-    <string name="qs_tile_shape_rounded_square">Lekerekített négyzet</string>
-    <string name="qs_tile_shape_square">Négyzet</string>
+    <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Sötét mód harmadik féltől származó alkalmazásokhoz</string>
-    <string name="force_dark_summary">Sötétebb színeket erőltet a sötét mód nélküli alkalmazásokban. Egyes képernyők sötétebbnek tűnhetnek.</string>
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Fényerő csúszka alakja</string>
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">LTE carrier aggregation</string>
     <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS a lezárt képernyőn</string>
-    <string name="lockscreen_quick_settings_summary">A gyors beállítások megtekintéséhez engedélyezze a lefelé húzást a lezárási képernyőn</string>
+    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
+    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
     <!-- Lock screen media art -->
-    <string name="ls_media_art_title">A média albumborítója</string>
-    <string name="ls_media_art_summary">Ha elérhető, jelenítse meg a zenei album borítóját</string>
+    <string name="ls_media_art_title">Media cover art</string>
+    <string name="ls_media_art_summary">Display media cover art when available</string>
     <!-- Lock screen media art on Ambient Display -->
     <string name="ambient_media_art_title">Ambient media cover art</string>
     <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
-    <string name="ls_media_art_filter_title">Médiaborító-szűrő</string>
-    <string name="ls_media_art_filter_none">Nincs</string>
-    <string name="ls_media_art_filter_blur">Homályosított</string>
-    <string name="ls_media_art_filter_grayscale">Szürkeárnyalatos</string>
-    <string name="ls_media_art_filter_sepia">Szépia</string>
-    <string name="ls_media_art_filter_tint">Kiemelőszínhez igazodó</string>
-    <string name="ls_media_art_filter_invert">Fordítás</string>
-    <string name="ls_media_art_filter_grayblur">Szürkeárnyalatos és elmosódott</string>
+    <string name="ls_media_art_filter_title">Media cover art filter</string>
+    <string name="ls_media_art_filter_none">None</string>
+    <string name="ls_media_art_filter_blur">Blur</string>
+    <string name="ls_media_art_filter_grayscale">Grayscale</string>
+    <string name="ls_media_art_filter_sepia">Sepia</string>
+    <string name="ls_media_art_filter_tint">Accent tinted</string>
+    <string name="ls_media_art_filter_invert">Invert</string>
+    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Médiaborító halványulási szintje</string>
-    <string name="ls_media_art_fade_level_summary">Médiaborító halványulásának szintjének beállítása</string>
+    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
+    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Médiaművészeti elmosódási szint</string>
-    <string name="ls_media_art_blur_level_summary">Az elmosás intenzitása az elmosás szűrő alkalmazásakor</string>
+    <string name="ls_media_art_blur_level_title">Media art blur level</string>
+    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Pulzáló vizualizálás</string>
-    <string name="pulse_settings_summary">Egy audiógrafikus hangszínszabályozó a navigációs sávhoz és a záróképernyőhöz</string>
-    <string name="ambient_pulse_enabled_title">Impulzus a környezeti kijelzőn</string>
-    <string name="ambient_pulse_enabled_summary">A \'Környezeti kijelző\' vizualizálása</string>
-    <string name="pulse_rounded_bars_title">Lekerekített rudak</string>
-    <string name="pulse_rounded_bars_summary">Lekerekített sarkú vizualizációs sávok megjelenítése</string>
-    <string name="pulse_color">Vizualizáció színe</string>
-    <string name="pulse_color_lavalamp">Láva lámpa</string>
-    <string name="pulse_color_album">Albumborító</string>
+    <string name="pulse_settings_title">Pulse Visualizer</string>
+    <string name="pulse_settings_summary">Show a bar visualizer on the lock screen while music is playing</string>
+    <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
+    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
+    <string name="pulse_rounded_bars_title">Rounded bars</string>
+    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
+    <string name="pulse_color">Visualizer color</string>
+    <string name="pulse_color_lavalamp">Lavalamp</string>
+    <string name="pulse_color_album">Album art</string>
     <string name="pulse_color_accent">Kiemelőszín</string>
-    <string name="pulse_bar_count_title">Sávok száma</string>
-    <string name="pulse_bar_count_summary">Állítsa be, hogy hány sáv jelenjen meg a vizualizációban</string>
-    <string name="pulse_bar_count_units">sáv</string>
-    <string name="pulse_renderer">Vizualizáció stílusa</string>
-    <string name="pulse_renderer_solid">Folytonos vonalak</string>
-    <string name="pulse_renderer_fading">Halványuló blokkok</string>
-    <string name="pulse_renderer_neon_glow">Neoncső</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro hangerőmérő</string>
-    <string name="pulse_renderer_minimal_wave">Egyszerű hullám</string>
+    <string name="pulse_bar_count_title">Number of bars</string>
+    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
+    <string name="pulse_bar_count_units">bars</string>
+    <string name="pulse_renderer">Visualizer style</string>
+    <string name="pulse_renderer_solid">Solid lines</string>
+    <string name="pulse_renderer_fading">Fading blocks</string>
+    <string name="pulse_renderer_neon_glow">Neon glow</string>
+    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
+    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Szikra</string>
     <string name="pulse_renderer_matrix">Mátrix</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Áttetsző értesítések</string>
-    <string name="notification_row_transparency_summary">Az értesítések áttetsző háttérének beállítása a gyorsbeállításokon</string>
-    <string name="notification_row_transparency_lockscreen_title">Az áttetsző háttér értesítései</string>
-    <string name="notification_row_transparency_lockscreen_summary">Az értesítések áttetsző háttérének beállítása a záróképernyőn</string>
+    <string name="notification_row_transparency_title">Translucent notifications</string>
+    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
+    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
+    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">Környezeti háttérkép</string>
-    <string name="doze_always_on_wallpaper_summary">Környezeti kijelzőn is a képernyőzár háttérképe jelenik meg</string>
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
     <!-- Squiggle animation for media notification -->
-    <string name="media_squiggle_animation_title">Újhullámos animáció</string>
-    <string name="media_squiggle_animation_summary">Média lejátszásakor a keresősáv hullámzó animációjának megjelenítése</string>
+    <string name="media_squiggle_animation_title">Squiggle animation</string>
+    <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
     <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">A VBMeta-észlelés automatikus javítása</string>
-    <string name="vbmeta_attestation_summary">Kulcshitelesítés végrehajtása ellenőrzött rendszerindítási hash létrehozásához rendszerindításkor. A rendszer újraindítását igényli.</string>
+    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
+    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Ne legyen érvényesítés</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -1156,86 +1154,86 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ongoing_chip_color_mode_album_art">Album art color</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
-    <string name="alpha_settings_title">Alpha beállítások</string>
-    <string name="alpha_settings_summary">Lesznek nyalánkságok!</string>
-    <string name="reset_settings_title">Beállítások visszaállítása</string>
-    <string name="reset_settings_message">Ez a legtöbb AlphaDroid-beállításértéket visszaállítja alapértelmezettre a jelenlegi felhasználónál. Szeretné folytatni?</string>
+    <string name="alpha_settings_title">Alpha settings</string>
+    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="reset_settings_title">Reset settings</string>
+    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Csatlakoztathatóság</string>
-    <string name="top_level_system_info_category_title">Rendszer</string>
-    <string name="top_level_personalize_category_title">Személyreszabás</string>
-    <string name="top_level_security_privacy_category_title">Biztonság</string>
-    <string name="top_level_account_category_title">Fiókok</string>
-    <string name="top_level_support_category_title">Támogatás</string>
+    <string name="top_level_connectivity_category_title">Connectivity</string>
+    <string name="top_level_system_info_category_title">System</string>
+    <string name="top_level_personalize_category_title">Personalization</string>
+    <string name="top_level_security_privacy_category_title">Security</string>
+    <string name="top_level_account_category_title">Accounts</string>
+    <string name="top_level_support_category_title">Support</string>
     <string name="lockscreen_clock_category">Óra</string>
     <!-- Misc categories -->
     <string name="misc_spoofing_category">Spoofing</string>
-    <string name="misc_system_category">Rendszer</string>
+    <string name="misc_system_category">System</string>
     <string name="misc_animations_category">Animations</string>
     <string name="misc_gestures_category">Gesztusok</string>
     <!-- Changelog -->
-    <string name="changelog_title">Jelenlegi változásnapló</string>
-    <string name="changelog_summary">A telepített ROM változásainak megtekintése</string>
-    <string name="changelog_error">Nem lehet betölteni a változásnaplót</string>
+    <string name="changelog_title">Current changelog</string>
+    <string name="changelog_summary">View changes in the ROM installed</string>
+    <string name="changelog_error">Unable to load changelog</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">Az Alpháról</string>
-    <string name="about_alpha_dual_line">Rólunk\nAlphaDroid</string>
-    <string name="about_device_name">Készülék</string>
+    <string name="about_alpha">About Alpha</string>
+    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
+    <string name="about_device_name">Device</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">Az AlphaDroid megosztása</string>
-    <string name="share_summary">Tudassa másokkal az AlphaDroidot</string>
-    <string name="share_message">Nézze meg, hogy a #AlphaDroid Android elkészült-e az Ön készülékéhez: @ https://alpha.net/</string>
-    <string name="share_chooser_title">Az AlphaDroid megosztása</string>
+    <string name="share_title">Share AlphaDroid</string>
+    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
+    <string name="share_chooser_title">Share AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">Imádjuk a nyílt forrásokat, nézz be hozzánk!</string>
-    <string name="telegram_title">AlphaDroid közösség</string>
-    <string name="telegram_summary">Telegrammon is vagyunk. Csatlakozz hozzánk!</string>
-    <string name="telegram_channel_title">Frissítési csatorna</string>
-    <string name="telegram_channel_summary">Kapjon értesítést az új fejlesztésekről a Telegramon</string>
-    <string name="website_title">Hivatalos weboldal</string>
-    <string name="website_summary">Látogasson el hivatalos weboldalunkra</string>
-    <string name="translate_title">Fordítások</string>
-    <string name="translate_summary">Segíts a ROM saját nyelvedre történő honosításában!</string>
+    <string name="source_summary">We love open source, check us out</string>
+    <string name="telegram_title">AlphaDroid community</string>
+    <string name="telegram_summary">We are on telegram. Join us!</string>
+    <string name="telegram_channel_title">Updates channel</string>
+    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
+    <string name="website_title">Official website</string>
+    <string name="website_summary">Visit our official website</string>
+    <string name="translate_title">Translations</string>
+    <string name="translate_summary">Help with localisation of ROM in your language!</string>
     <!-- Donate AlphaDroid -->
-    <string name="donate_title">Támogasson minket</string>
-    <string name="donate_summary">Adományozzon a további fejlesztések érdekében</string>
-    <string name="donate_team_title">A AlphaDroid csapata</string>
-    <string name="donate_team_summary">Adományozzon, hogy támogassa a szerverbérlést, a weboldal-fenntarást és menedzselést</string>
+    <string name="donate_title">Support us</string>
+    <string name="donate_summary">Donate to support further development</string>
+    <string name="donate_team_title">AlphaDroid team</string>
+    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
-    <string name="alpha_update_title">Frissítések</string>
-    <string name="alpha_update_summary">OTA frissítés ellenőrzése</string>
+    <string name="alpha_update_title">Updates</string>
+    <string name="alpha_update_summary">Check and download latest update</string>
     <!-- SELinux status -->
-    <string name="selinux_status">SELinux állapota</string>
+    <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Kikapcsolva</string>
-    <string name="selinux_status_permissive">Engedékeny</string>
-    <string name="selinux_status_enforcing">Kényszerített</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Készülék</string>
+    <string name="category_device_info">Device</string>
     <!-- Build info -->
-    <string name="build_status_title">Készítési állapot</string>
-    <string name="build_status_summary">Nem hivatalos</string>
-    <string name="build_status_official">Hivatalos</string>
-    <string name="build_status_unofficial">Nem hivatalos</string>
-    <string name="alpha_build_version">AlphaDroid verzió</string>
-    <string name="alpha_build_date">A kiadás dátuma</string>
+    <string name="build_status_title">Build Status</string>
+    <string name="build_status_summary">Unofficial</string>
+    <string name="build_status_official">Official</string>
+    <string name="build_status_unofficial">Unofficial</string>
+    <string name="alpha_build_version">AlphaDroid version</string>
+    <string name="alpha_build_date">Build date</string>
     <!-- Maintainer -->
-    <string name="maintainer_title">Karbantartó</string>
-    <string name="maintainer_summary">Karbantartót keresünk...</string>
+    <string name="maintainer_title">Maintainer</string>
+    <string name="maintainer_summary">Searching for maintainer...</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Tárhely</string>
+    <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Used/total</string>
-    <string name="about_device_name_title">Készülék</string>
+    <string name="about_device_name_title">Device</string>
     <string name="about_device_rom_title">Android %s</string>
-    <string name="about_device_nearby">Az eszköz neve a közeli eszközök számára észlelhető és látható is lesz.</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Hardver-felület</string>
-    <string name="total_ram">Az összes RAM</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
     <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
@@ -1261,10 +1259,10 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Appok keresése</string>
+    <string name="search_apps">Search apps</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Értesítés ikonok</string>
-    <string name="max_visible_notification_icons_summary">Max. látható értesítés ikon az állapotsávon</string>
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
     <!-- UI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
@@ -1273,81 +1271,32 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ui_style_reset_section">Reset to defaults</string>
     <string name="ui_style_reset_all">Reset all styles</string>
     <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
-    <!-- Cutout Progress -->
+    <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Cutout Progress Ring</string>
     <string name="cutout_progress_summary">Show progress ring around punch hole</string>
-    <string name="cutout_progress_enabled_title">Enable cutout progress ring</string>
-    <string name="cutout_progress_enabled_summary">Show a progress ring around the camera cutout during downloads</string>
+    <!-- Categories -->
+    <string name="cutout_progress_cat_features">Features</string>
     <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_behaviour">Behaviour</string>
-    <string name="cutout_progress_cat_bg_ring">Background ring</string>
-    <string name="cutout_progress_cat_finish">Finish animation</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
-    <string name="cutout_progress_cat_labels">Labels</string>
-    <string name="cutout_progress_cat_badge">Download count badge</string>
-    <string name="cutout_progress_ring_color_title">Ring custom color</string>
-    <string name="cutout_progress_error_color_title">Error color</string>
-    <string name="cutout_progress_finish_flash_color_title">Finish flash color</string>
-    <string name="cutout_progress_bg_ring_color_title">Background ring color</string>
-    <string name="cutout_progress_opacity_title">Ring opacity</string>
-    <string name="cutout_progress_stroke_width_title">Körvonal-szélesség</string>
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_clockwise_title">Clockwise direction</string>
-    <string name="cutout_progress_clockwise_summary">Fill the ring clockwise; disable for counter-clockwise</string>
-    <string name="cutout_progress_min_vis_title">Minimum display time</string>
-    <string name="cutout_progress_min_vis_summary">Keep ring visible for a minimum duration so brief downloads don\'t flash</string>
-    <string name="cutout_progress_min_vis_ms_title">Minimum duration</string>
-    <string name="cutout_progress_easing_title">Progress easing</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background ring</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
-    <string name="cutout_progress_bg_ring_opacity_title">Background ring opacity</string>
-    <string name="cutout_progress_finish_style_title">Finish animation style</string>
-    <string name="cutout_progress_finish_hold_title">Hold duration</string>
-    <string name="cutout_progress_finish_exit_title">Exit duration</string>
-    <string name="cutout_progress_finish_flash_title">Use flash color on finish</string>
-    <string name="cutout_progress_finish_flash_summary">Briefly flash the ring with the finish flash color when complete</string>
-    <string name="cutout_progress_pulse_title">Completion pulse</string>
-    <string name="cutout_progress_pulse_summary">Brief brightness pulse before the finish animation</string>
-    <string name="cutout_progress_path_mode_title">Capsule / pill mode</string>
-    <string name="cutout_progress_path_mode_summary">Use a pill-shaped path renderer (for elongated cutouts)</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
-    <string name="cutout_progress_percent_enabled_title">Show percentage</string>
-    <string name="cutout_progress_percent_enabled_summary">Display current download progress as a percentage label</string>
-    <string name="cutout_progress_percent_size_title">Percentage text size</string>
-    <string name="cutout_progress_percent_bold_title">Bold percentage</string>
-    <string name="cutout_progress_percent_position_title">Percentage position</string>
-    <string name="cutout_progress_filename_enabled_title">Show filename</string>
-    <string name="cutout_progress_filename_enabled_summary">Display the name of the file being downloaded</string>
-    <string name="cutout_progress_filename_size_title">Filename text size</string>
-    <string name="cutout_progress_filename_bold_title">Bold filename</string>
-    <string name="cutout_progress_filename_position_title">Filename position</string>
-    <string name="cutout_progress_filename_max_chars_title">Max filename length</string>
-    <string name="cutout_progress_filename_truncate_title">Filename truncation</string>
-    <string name="cutout_progress_badge_title">Show download count badge</string>
-    <string name="cutout_progress_badge_summary">Show a pill badge with the number of active downloads</string>
-    <string name="cutout_progress_badge_size_title">Badge text size</string>
-    <string name="cutout_progress_badge_offset_x_title">Badge horizontal offset</string>
-    <string name="cutout_progress_badge_offset_y_title">Badge vertical offset</string>
-    <string name="cutout_progress_ring_color_mode_title">Ring color</string>
-    <string name="cutout_progress_color_picker_title">Choose color</string>
+    <string name="cutout_progress_cat_island">Expanded mode</string>
+    <!-- Features -->
+    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
+    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <!-- Appearance -->
+    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
     <string name="cutout_progress_ring_color_mode_accent">Accent</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Szivárvány</string>
     <string name="cutout_progress_ring_color_mode_custom">Egyéni</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
-    <string name="cutout_progress_island_compact_summary">Size of the expanded mode</string>
-    <string name="cutout_progress_island_compact_title">Compact size</string>
-    <string name="cutout_progress_island_position_title">Pozíció</string>
-    <string name="cutout_progress_island_opacity_title">Opacity</string>
+    <string name="cutout_progress_ring_color_title">Custom ring color</string>
+    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <!-- Expanded Mode (Dynamic Island) -->
+    <string name="cutout_progress_island_compact_title">Compact layout</string>
+    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout instead of dropping below it</string>
+    <string name="cutout_progress_island_position_title">Island alignment</string>
     <string name="cutout_island_pos_center">Center split</string>
     <string name="cutout_island_pos_left">Bal</string>
     <string name="cutout_island_pos_right">Jobb</string>
-    <!-- Charging Ring -->
-    <string name="cutout_progress_cat_charging">Charging ring</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <string name="cutout_progress_charging_ring_summary">Display battery level as a symmetric ring around the cutout while charging</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
 </resources>
