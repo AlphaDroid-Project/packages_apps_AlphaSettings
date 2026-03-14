@@ -30,13 +30,13 @@
     <string name="display_title">Afișaj</string>
     <string name="ui_title">Interfață utilizator</string>
     <string name="ui_title_short">UI</string>
-    <string name="ui_summary">Monet, styles, icon packs</string>
-    <string name="statusbar_summary">Icons, clock, battery, netowrk traffic</string>
+    <string name="ui_summary">Monet, styles</string>
+    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
     <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
     <string name="button_summary">Hardware buttons and power menu</string>
     <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
     <string name="notifications_summary">Alerts, heads up, lights</string>
-    <string name="sound_summary">Volume steps, volume panel, vibration</string>
+    <string name="sound_summary">Volume panel, vibration</string>
     <string name="misc_summary">Game Space, spoofing, misc.</string>
     <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
@@ -837,262 +837,262 @@
     <string name="weather_settings_title">Setări vreme</string>
     <string name="weather_settings_summary">Configurarea pachetului de pictograme și a serviciului meteo</string>
     <string name="lockscreen_weather_category">Vremea</string>
-    <string name="lockscreen_weather_title">Actualizare meteo</string>
-    <string name="lockscreen_weather_summary">Afișează actualizarea meteo curentă</string>
-    <string name="lockscreen_weather_enabled_info">Necesită servicii meteo personalizate configurate și spațiu inteligent dezactivat</string>
-    <string name="lockscreen_weather_location_title">Locația curentă</string>
-    <string name="lockscreen_weather_location_summary">Afişare locaţie meteo curentă</string>
-    <string name="lockscreen_weather_text_title">Starea curentă</string>
-    <string name="lockscreen_weather_text_summary">Afişează rezumatul stării meteo curente</string>
-    <string name="lockscreen_weather_wind_info_title">Informații despre vânt</string>
-    <string name="lockscreen_weather_wind_info_summary">Afișează viteza și direcția vântului curent</string>
-    <string name="lockscreen_weather_humidity_info_title">Informații despre umiditate</string>
-    <string name="lockscreen_weather_humidity_info_summary">Afișează umiditatea curentă în procentaj</string>
+    <string name="lockscreen_weather_title">Weather update</string>
+    <string name="lockscreen_weather_summary">Display current weather update</string>
+    <string name="lockscreen_weather_enabled_info">Requires custom weather service configured and smartspace disabled</string>
+    <string name="lockscreen_weather_location_title">Current location</string>
+    <string name="lockscreen_weather_location_summary">Display current weather location</string>
+    <string name="lockscreen_weather_text_title">Current condition</string>
+    <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_summary">Display current wind speed and direction</string>
+    <string name="lockscreen_weather_humidity_info_title">Humidity info</string>
+    <string name="lockscreen_weather_humidity_info_summary">Display current humidity in percentage</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_title">Redare adaptivă</string>
-    <string name="adaptive_playback_summary">Întrerupeți media atunci când volumul este dezactivat și reluați-l prin creșterea volumului în termenul de expirare</string>
-    <string name="adaptive_playback_intro_text">Pauzează automat media atunci când volumul este dezactivat și se va relua automat atunci când volumul este restaurat în timpul setat</string>
-    <string name="adaptive_playback_timeout_title">Timp expirare redare</string>
+    <string name="adaptive_playback_title">Adaptive playback</string>
+    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time</string>
+    <string name="adaptive_playback_timeout_title">Playback timeout</string>
     <!-- APK details on App info screen -->
-    <string name="app_info_install_time">Instalat: %1$s</string>
-    <string name="app_info_update_time">Actualizat: %1$s</string>
+    <string name="app_info_install_time">Installed: %1$s</string>
+    <string name="app_info_update_time">Updated: %1$s</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Afișare suprapunere clipboard</string>
-    <string name="show_clipboard_overlay_summary">Arată o suprapunere în colțul din stânga jos al ecranului atunci când ceva este copiat în clipboard</string>
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Blocare senzori</string>
-    <string name="sensor_block_summary">Blocare acces insenzori miscare pentru cateva aplicatii intensive</string>
-    <string name="sensor_block_app_picker_title">Blochează senzorii pentru aceste aplicații</string>
-    <string name="add_sensor_block_package_title">Adăugați aplicații pentru blocare senzor</string>
-    <string name="add_sensor_block_package_summary">Mișcare semnificativă, accelerometru, senzori de accelerare liniară vor fi blocați pentru aceste aplicații</string>
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Model vibrație ton de sonerie</string>
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_custom">Personalizat</string>
-    <string name="custom_vibration_pattern_title">Model personalizat</string>
-    <string name="custom_vibration_pattern_summary">Setați un model personalizat de vibrații</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <!-- Floating rotation button -->
-    <string name="floating_rotation_button_title">Buton rotire plutitor</string>
-    <string name="floating_rotation_button_summary">Arată un buton de rotire plutitor când dispozitivul este rotit</string>
+    <string name="floating_rotation_button_title">Floating rotate button</string>
+    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Falsificare Netflix</string>
-    <string name="netflix_spoof_summary">Setarea dispozitivul ca model diferit pentru Netflix</string>
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
     <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Falsifică integritate Google Play</string>
-    <string name="pi_spoof_summary">Falsifică indentitatea telefonului cu un alt model pentru a putea trece de verificare integritate Google Play</string>
+    <string name="pi_spoof_title">Google Play Integrity spoof</string>
+    <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Verificare conectivitate</string>
-    <string name="captive_portal_summary">Stabiliți dacă dispozitivul se poate conecta la internet, contactând Google. De asemenea este folosit pentru a detecta portaluri captive.</string>
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Resetează statistici?</string>
-    <string name="battery_stats_message">Datele de utilizare a bateriei vor fi pierdute</string>
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">Standard WiFi</string>
-    <string name="wifi_standard_icon_summary">Afișează standardul WiFi lângă semnalul WiFi</string>
+    <string name="wifi_standard_icon_title">WiFi standard</string>
+    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
     <!-- App lock -->
-    <string name="app_lock_title">Blocare aplicații</string>
+    <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicația este protejată</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicațiile sunt protejate</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplicațiile sunt protejate</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Deblocheaza</string>
-    <string name="enable_debugging">Activare depanare</string>
-    <string name="disable_debugging">Dezactivare depanare</string>
-    <string name="app_lock_packages_title">Aplicații protejate</string>
-    <string name="app_lock_packages_summary">Selectează aplicațiile pentru a le proteja cu datele biometrice sau datele de autentificare ale dispozitivului</string>
-    <string name="app_lock_timeout_title">Timp de expirare pentru blocare automată</string>
-    <string name="app_lock_timeout_summary">Durata de timp după care o aplicație deblocată în fundal ar trebui să fie blocată</string>
-    <string name="app_lock_notifications_title">Notificări</string>
-    <string name="app_lock_notifications_summary">Conținutul notificărilor va fi ascuns și restrâns pentru aplicațiile selectate atunci când acestea sunt blocate. Notificările plutitoare vor fi dezactivate automat.</string>
-    <string name="app_lock_notifications_disabled_summary">Protejează mai întâi o aplicație</string>
-    <string name="app_lock_biometrics_allowed_title">Activează datele biometrice pentru deblocare</string>
-    <string name="app_lock_footer_text">Bulele vor fi eliminate automat după expirarea timpului</string>
-    <string name="enable_protection">Activare protecție</string>
-    <string name="hide_from_launcher_title">Ascunde din lansator</string>
-    <string name="hide_from_launcher_summary">Previne afișarea acestei aplicații în orice lansator. Necesită o repornire a lansatorului pentru ca modificările să aibă efect.</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Se afișează mereu la încărcare</string>
-    <string name="doze_on_charge_summary">Afișează informații când dispozitivul se încarcă</string>
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display info when device is charging</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Asociază volumele apelului &amp; notificării</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Informații radio</string>
+    <string name="radio_info_title">Radio info</string>
     <!-- QS Header -->
-    <string name="qs_header_image_title">Imagine antet</string>
-    <string name="qs_header_image_summary">Alege imaginea de fundal a setărilor rapide</string>
-    <string name="qs_header_daylight_pack_title">Colecţia de imagini antet</string>
-    <string name="qs_header_shadow_title">Umbră imagine antet</string>
-    <string name="qs_header_shadow_summary">Pentru o mai bună vizibilitate pe imagini luminoase</string>
-    <string name="qs_header_static_provider_title">Imagine statică</string>
-    <string name="qs_header_daylight_provider_title">Colecţia de imagini</string>
+    <string name="qs_header_image_title">Header image</string>
+    <string name="qs_header_image_summary">Select QS background header image</string>
+    <string name="qs_header_daylight_pack_title">Header image collection</string>
+    <string name="qs_header_shadow_title">Header image shadow</string>
+    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
+    <string name="qs_header_static_provider_title">Static image</string>
+    <string name="qs_header_daylight_provider_title">Image collection</string>
     <string name="qs_header_file_provider_title">Imagine particularizată</string>
-    <string name="qs_header_provider_title">Furnizor de antet</string>
-    <string name="qs_header_browse_title">Răsfoire anteturi instalate</string>
-    <string name="qs_header_browse_summary">Parcurge toate colectiile disponibile in antet</string>
-    <string name="qs_header_pick_title">Selectaţi imagine antet</string>
-    <string name="qs_header_pick_summary">Selectati o imagine pentru a utiliza in modul static</string>
-    <string name="qs_header_file_select_title">Selectează imagine</string>
+    <string name="qs_header_provider_title">Header provider</string>
+    <string name="qs_header_browse_title">Browse installed headers</string>
+    <string name="qs_header_browse_summary">Browse all available header collections</string>
+    <string name="qs_header_pick_title">Select header image</string>
+    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
+    <string name="qs_header_file_select_title">Select image</string>
     <string name="qs_header_file_select_summary">Selectaţi imagine particularizată</string>
-    <string name="qs_header_needs_gallery">Trebuie să instalați o aplicație galerie!</string>
-    <string name="qs_header_offset_title">Decalaj imagine antet</string>
-    <string name="qs_header_offset_summary">Reglaţi dimensiunea antetului imaginii</string>
+    <string name="qs_header_needs_gallery">You must install a gallery app!</string>
+    <string name="qs_header_offset_title">Header image offset</string>
+    <string name="qs_header_offset_summary">Adjust the image header size</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Afişare ecran</string>
-    <string name="always_on_display_schedule_summary">Setare program pentru afișare permanentă</string>
-    <string name="always_on_display_schedule_sunset">Apus</string>
-    <string name="always_on_display_schedule_sunrise">Rasarit</string>
-    <string name="always_on_display_schedule_mixed_sunset">Porneşte de la apus până la un timp</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Porneşte de la o perioadă până la răsărit</string>
+    <string name="always_on_display_schedule_title">Display schedule</string>
+    <string name="always_on_display_schedule_summary">Set schedule for always on display</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Dialogul dalei Bluetooth</string>
-    <string name="qs_bt_show_dialog_summary">Afișați caseta de dialog Bluetooth sau comutați Bluetooth la apăsarea dalei Bluetooth</string>
+    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
+    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
     <!-- Carrier name on lockscreen -->
-    <string name="lockscreen_show_carrier_title">Numele operatorului</string>
-    <string name="lockscreen_show_carrier_summary">Afișați numele operatorului în bara de stare</string>
+    <string name="lockscreen_show_carrier_title">Carrier name</string>
+    <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Umplutură extra</string>
-    <string name="statusbar_extra_padding_start_title">Start umplutură</string>
-    <string name="statusbar_extra_padding_top_title">Umplutură sus</string>
-    <string name="statusbar_extra_padding_end_title">Umplutură final</string>
+    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_start_title">Start padding</string>
+    <string name="statusbar_extra_padding_top_title">Top padding</string>
+    <string name="statusbar_extra_padding_end_title">End padding</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Folosește MAC randomizat pentru fiecare conexiune (implicit)</string>
-    <string name="wifi_per_network_random_mac_addr">Utilizare MAC randomizat pe rețea</string>
-    <string name="wifi_device_mac_addr">Utilizaţi MAC dispozitiv</string>
+    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
+    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
+    <string name="wifi_device_mac_addr">Use device MAC</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Afișare ecran ambiental</string>
-    <string name="doze_gesture_ambient_summary">Se afișează afișajul ambient în loc de trezirea completă a ecranului</string>
-    <string name="gesture_wake_ambient">Afișare ecran ambiental</string>
-    <string name="gesture_wake">Trezire completă</string>
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
     <!-- Sidebar -->
-    <string name="sidebar_title">Bară laterală</string>
-    <string name="sidebar_summary">Deschideți rapid aplicațiile într-o fereastră plutitoare</string>
+    <string name="sidebar_title">Sidebar</string>
+    <string name="sidebar_summary">Quickly open apps in a floating window</string>
     <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Spațiu inteligent</string>
-    <string name="lockscreen_smartspace_summary">Arată spațiu inteligent Google când este disponibil</string>
+    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Expirarea automată a Clipboard</string>
-    <string name="clipboard_auto_clear_title">Curățare automată Clipboard</string>
-    <string name="clipboard_auto_clear_summary">Șterge automat clipboard-ul la ora programată</string>
-    <string name="clipboard_auto_clear_enabled_title">Folosește ștergere automată clipboard</string>
-    <string name="clipboard_auto_clear_timeout_disable_clipboard">Dezactivează clipboard</string>
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
+    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
+    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Volum crescător</string>
-    <string name="increasing_ring_min_volume_title">Volum de început</string>
-    <string name="increasing_ring_ramp_up_time_title">Timp de creștere</string>
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Disable DNS for VPN -->
-    <string name="vpn_enforce_dns_title">Dezactivează pentru VPN</string>
-    <string name="vpn_enforce_dns_summary">Dezactivează DNS privat când este conectat la un VPN și restaurează la deconectare</string>
+    <string name="vpn_enforce_dns_title">Disable for VPN</string>
+    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Parcurgere între moduri</string>
-    <string name="prevent_ringing_option_cycle_summary">Pornit (ciclu între moduri)</string>
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Permiteți retrogradarea aplicației</string>
-    <string name="app_downgrade_summary">Acest lucru vă permite să retrogradați aplicațiile. Rețineți că acest lucru poate duce la erori și corupție a datelor.</string>
+    <string name="app_downgrade_title">Allow app downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
     <!-- Heads-up -->
-    <string name="compact_heads_up_notifications_enabled_title">Titluri compacte</string>
-    <string name="compact_heads_up_notifications_enabled_summary">Afişează notificările în dimensiune compact</string>
+    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
     <!-- Navigation bar taskbar -->
-    <string name="navigation_bar_enable_taskbar_title">Bară de activități</string>
-    <string name="navigation_bar_enable_taskbar_summary">Arată bara de activităti în modul de navigare selectat</string>
+    <string name="navigation_bar_enable_taskbar_title">Taskbar</string>
+    <string name="navigation_bar_enable_taskbar_summary">Show taskbar with selected navigation mode</string>
     <!-- IME button space -->
-    <string name="show_ime_space_title">Arată spațiul butoanelor IME</string>
-    <string name="show_ime_space_summary">Activați metoda de introducere a comutatorului rapid pentru a schimba metodele de introducere sau pentru a ascunde tastatura de pe ecran din bara de caracteristici din partea de jos a ecranului atunci când tastați</string>
+    <string name="show_ime_space_title">Show IME button space</string>
+    <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
     <!-- SystemUI restart dialog -->
-    <string name="systemui_restart_title">Este necesară repornirea interfeței sistemului</string>
-    <string name="systemui_restart_message">Pentru ca modificările să aibă efect, este necesară o repornire a interfeței sistemului. Reporniți interfața de sistem acum?</string>
+    <string name="systemui_restart_title">SystemUI restart required</string>
+    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
     <string name="systemui_restart_yes">Yes</string>
-    <string name="systemui_restart_not_now">Nu acum</string>
-    <string name="systemui_restart_process">Se repornește interfața sistem pentru a aplica modificările...</string>
+    <string name="systemui_restart_not_now">Not now</string>
+    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Stil notificări</string>
-    <string name="powermenu_style_title">Stil meniu pornire</string>
+    <string name="notification_style_title">Notification style</string>
+    <string name="powermenu_style_title">Power menu style</string>
     <string name="custom_style_cyberpunk">Cyberpunk</string>
     <string name="custom_style_duoline">Duoline</string>
-    <string name="custom_style_fluid">Lichid (transparent)</string>
+    <string name="custom_style_fluid">Fluid (Transparent)</string>
     <string name="custom_style_ios">IOS</string>
-    <string name="custom_style_layers">Straturi</string>
+    <string name="custom_style_layers">Layers</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Suprascriere atestare cu cheie proprie</string>
-    <string name="keybox_data_summary">Încarcă o cheie XML personalizată pentru a suprascrie atestarea dispozitivului</string>
-    <string name="keybox_data_loaded_summary">XML încărcat. Apasă pentru ștergere.</string>
-    <string name="keybox_delete_content_description">Ștergeți datele cheii</string>
-    <string name="keybox_toast_invalid_file_selected">Nu este un fișier XML. Alegeți un XML valid.</string>
-    <string name="keybox_toast_missing_data">Cheie XML: câmpurile obligatorii lipsesc</string>
-    <string name="keybox_toast_file_loaded">Cheie încărcată</string>
-    <string name="keybox_toast_file_cleared">Cheie ștearsă</string>
+    <string name="keybox_data_title">Keybox attestation override</string>
+    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
+    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
+    <string name="keybox_delete_content_description">Clear keybox data</string>
+    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
+    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
+    <string name="keybox_toast_file_loaded">Keybox loaded</string>
+    <string name="keybox_toast_file_cleared">Keybox cleared</string>
     <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Dezactivează forțarea integrității puternice</string>
-    <string name="pi_gmscertchain_summary">Când este activată, nu impune integritate puternică din o cheie validă și depinde de validare prin amprenta din build pentru Integritate Google Play pentru a repara aplicații precum Google Pay</string>
+    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
+    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">Forma dalelor QS</string>
-    <string name="qs_tile_shape_dynamic">Dinamic</string>
+    <string name="qs_tile_shape_title">QS tiles shape</string>
+    <string name="qs_tile_shape_dynamic">Dynamic</string>
     <string name="qs_tile_shape_circle">Cerc</string>
     <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
-    <string name="qs_tile_shape_rounded_square">Pătrat rotunjit</string>
-    <string name="qs_tile_shape_square">Patrat</string>
+    <string name="qs_tile_shape_rounded_square">Rounded square</string>
+    <string name="qs_tile_shape_square">Square</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Mod întunecat pentru aplicații terțe</string>
-    <string name="force_dark_summary">Forțează culori mai întunecate în aplicații lipsite de modul întunecat. Unele ecrane pot apărea oprite.</string>
+    <string name="force_dark_title">Dark mode for third-party apps</string>
+    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Forma glisorului luminozitate</string>
+    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">Agregarea transportatorului LTE</string>
     <string name="force_lte_ca_summary">Îmbunătățește lățimea de bandă LTE prin agregarea benzilor acceptate</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS pe ecranul de blocare</string>
-    <string name="lockscreen_quick_settings_summary">Permite glisarea în jos pe ecranul de blocare pentru a vizualiza Setările Rapide</string>
+    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
+    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
     <!-- Lock screen media art -->
-    <string name="ls_media_art_title">Copertă media</string>
-    <string name="ls_media_art_summary">Afişează coperta media atunci când este disponibiă</string>
+    <string name="ls_media_art_title">Media cover art</string>
+    <string name="ls_media_art_summary">Display media cover art when available</string>
     <!-- Lock screen media art on Ambient Display -->
     <string name="ambient_media_art_title">Ambient media cover art</string>
     <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
-    <string name="ls_media_art_filter_title">Filtru cover media</string>
-    <string name="ls_media_art_filter_none">Nici unul</string>
-    <string name="ls_media_art_filter_blur">Translucenta</string>
-    <string name="ls_media_art_filter_grayscale">Nuanțe de gri</string>
+    <string name="ls_media_art_filter_title">Media cover art filter</string>
+    <string name="ls_media_art_filter_none">None</string>
+    <string name="ls_media_art_filter_blur">Blur</string>
+    <string name="ls_media_art_filter_grayscale">Grayscale</string>
     <string name="ls_media_art_filter_sepia">Sepia</string>
-    <string name="ls_media_art_filter_tint">Accentuare fumurie</string>
-    <string name="ls_media_art_filter_invert">Inversare</string>
-    <string name="ls_media_art_filter_grayblur">Scară gri și ceață</string>
+    <string name="ls_media_art_filter_tint">Accent tinted</string>
+    <string name="ls_media_art_filter_invert">Invert</string>
+    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Nuvel descompunere pentru coperta media</string>
-    <string name="ls_media_art_fade_level_summary">Setați nivelul de estompare a copertei media</string>
+    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
+    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Nivelul de estompare a coperților media</string>
-    <string name="ls_media_art_blur_level_summary">Intensitate estompare atunci când se aplică filtru de estompare</string>
+    <string name="ls_media_art_blur_level_title">Media art blur level</string>
+    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Vizualizator Pulse</string>
-    <string name="pulse_settings_summary">Egalizator grafic audio pentru bara de navigare şi ecranul de blocare</string>
-    <string name="ambient_pulse_enabled_title">Pulse pe ecran ambiental</string>
-    <string name="ambient_pulse_enabled_summary">Arată vizualizatorul pe ecranul ambiental</string>
-    <string name="pulse_rounded_bars_title">Bare rotunjite</string>
-    <string name="pulse_rounded_bars_summary">Afișează barele de vizualizare cu colțuri rotunjite</string>
-    <string name="pulse_color">Culoare vizualizare</string>
+    <string name="pulse_settings_title">Pulse Visualizer</string>
+    <string name="pulse_settings_summary">Show a bar visualizer on the lock screen while music is playing</string>
+    <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
+    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
+    <string name="pulse_rounded_bars_title">Rounded bars</string>
+    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
+    <string name="pulse_color">Visualizer color</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Copertă album</string>
+    <string name="pulse_color_album">Album art</string>
     <string name="pulse_color_accent">Nuanță culoare</string>
-    <string name="pulse_bar_count_title">Număr de bare</string>
-    <string name="pulse_bar_count_summary">Setează câte bare sunt afișate în vizualizator</string>
-    <string name="pulse_bar_count_units">bare</string>
-    <string name="pulse_renderer">Stil vizualizare</string>
-    <string name="pulse_renderer_solid">Linii solide</string>
-    <string name="pulse_renderer_fading">Decolorare blocuri</string>
-    <string name="pulse_renderer_neon_glow">Strălucire de Neon</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro VU metru</string>
-    <string name="pulse_renderer_minimal_wave">Valuri minime</string>
+    <string name="pulse_bar_count_title">Number of bars</string>
+    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
+    <string name="pulse_bar_count_units">bars</string>
+    <string name="pulse_renderer">Visualizer style</string>
+    <string name="pulse_renderer_solid">Solid lines</string>
+    <string name="pulse_renderer_fading">Fading blocks</string>
+    <string name="pulse_renderer_neon_glow">Neon glow</string>
+    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
+    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
     <string name="pulse_renderer_sparkle">Sparkle</string>
     <string name="pulse_renderer_matrix">Matrice</string>
     <!-- Notification Row -->
-    <string name="notification_row_transparency_title">Notificări translucide</string>
-    <string name="notification_row_transparency_summary">Setează fundal translucid pentru notificări în QS</string>
-    <string name="notification_row_transparency_lockscreen_title">Notificări translucide pe ecranul de blocare</string>
-    <string name="notification_row_transparency_lockscreen_summary">Setează fundal translucid pentru notificări în ecranul de blocare</string>
+    <string name="notification_row_transparency_title">Translucent notifications</string>
+    <string name="notification_row_transparency_summary">Set translucent background for notifications in QS</string>
+    <string name="notification_row_transparency_lockscreen_title">Translucent lockscreen notifications</string>
+    <string name="notification_row_transparency_lockscreen_summary">Set translucent background for notifications in lockscreen</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">Fundal ambiental</string>
-    <string name="doze_always_on_wallpaper_summary">Arată imaginea de fundal a ecranului de blocare pe ecranul ambiental</string>
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Squiggle animation</string>
     <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
@@ -1158,9 +1158,9 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
-    <string name="alpha_settings_summary">Vor fi bunătăți!</string>
-    <string name="reset_settings_title">Resetare setări</string>
-    <string name="reset_settings_message">Aceasta va reseta cele mai multe setări alpha la valorile lor implicite pentru utilizatorul curent. Doriți să continuați?</string>
+    <string name="alpha_settings_summary">There will be goodies!</string>
+    <string name="reset_settings_title">Reset settings</string>
+    <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
     <!-- Top level categories -->
     <string name="top_level_alpha_category_title">AlphaDroid</string>
     <string name="top_level_connectivity_category_title">Connectivity</string>
@@ -1182,11 +1182,11 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- About AlphaDroid -->
     <string name="about_alpha">About Alpha</string>
     <string name="about_alpha_dual_line">About\nAlphaDroid</string>
-    <string name="about_device_name">Dispozitiv</string>
+    <string name="about_device_name">Device</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Share AlphaDroid</string>
     <string name="share_summary">Let others know about AlphaDroid</string>
-    <string name="share_message">Verifică dacă #AlphaDroid este disponibil pentru dispozitivul tău @ https://alpha.net/</string>
+    <string name="share_message">Check out if #AlphaDroidAndroid is available for your device @ https://sourceforge.net/projects/alphadroid-project/files</string>
     <string name="share_chooser_title">Share AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1202,26 +1202,26 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
-    <string name="donate_team_title">Echipa AlphaDroid</string>
-    <string name="donate_team_summary">Donați pentru a sprijini serverul de găzduire, site-ul uptime și managementul general</string>
+    <string name="donate_team_title">AlphaDroid team</string>
+    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
-    <string name="alpha_update_title">Actualizări</string>
-    <string name="alpha_update_summary">Verifică și descarcă ultima actualizare</string>
+    <string name="alpha_update_title">Updates</string>
+    <string name="alpha_update_summary">Check and download latest update</string>
     <!-- SELinux status -->
-    <string name="selinux_status">Stare SELinux</string>
+    <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permisiv</string>
-    <string name="selinux_status_enforcing">Obligatoriu</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
-    <string name="category_device_info">Dispozitiv</string>
+    <string name="category_device_info">Device</string>
     <!-- Build info -->
     <string name="build_status_title">Build Status</string>
     <string name="build_status_summary">Unofficial</string>
-    <string name="build_status_official">Oficial</string>
+    <string name="build_status_official">Official</string>
     <string name="build_status_unofficial">Unofficial</string>
     <string name="alpha_build_version">AlphaDroid version</string>
     <string name="alpha_build_date">Build date</string>
@@ -1231,12 +1231,12 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- About phone cards -->
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Used/total</string>
-    <string name="about_device_name_title">Dispozitiv</string>
+    <string name="about_device_name_title">Device</string>
     <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platforma</string>
-    <string name="total_ram">RAM total</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
     <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
@@ -1262,10 +1262,10 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
-    <string name="search_apps">Căutare aplicații</string>
+    <string name="search_apps">Search apps</string>
     <!-- Max visible notification icons -->
-    <string name="max_visible_notification_icons_title">Pictograme notificare</string>
-    <string name="max_visible_notification_icons_summary">Nr. maxim de pictograme de notificare vizibile pe bara de stare</string>
+    <string name="max_visible_notification_icons_title">Notification icons</string>
+    <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
     <!-- UI styles -->
     <string name="ui_style_title">UI Style</string>
     <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
@@ -1274,81 +1274,32 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ui_style_reset_section">Reset to defaults</string>
     <string name="ui_style_reset_all">Reset all styles</string>
     <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
-    <!-- Cutout Progress -->
+    <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Cutout Progress Ring</string>
     <string name="cutout_progress_summary">Show progress ring around punch hole</string>
-    <string name="cutout_progress_enabled_title">Enable cutout progress ring</string>
-    <string name="cutout_progress_enabled_summary">Show a progress ring around the camera cutout during downloads</string>
+    <!-- Categories -->
+    <string name="cutout_progress_cat_features">Features</string>
     <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_behaviour">Behaviour</string>
-    <string name="cutout_progress_cat_bg_ring">Background ring</string>
-    <string name="cutout_progress_cat_finish">Finish animation</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
-    <string name="cutout_progress_cat_labels">Labels</string>
-    <string name="cutout_progress_cat_badge">Download count badge</string>
-    <string name="cutout_progress_ring_color_title">Ring custom color</string>
-    <string name="cutout_progress_error_color_title">Error color</string>
-    <string name="cutout_progress_finish_flash_color_title">Finish flash color</string>
-    <string name="cutout_progress_bg_ring_color_title">Background ring color</string>
-    <string name="cutout_progress_opacity_title">Ring opacity</string>
-    <string name="cutout_progress_stroke_width_title">Lățimea conturului</string>
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_clockwise_title">Clockwise direction</string>
-    <string name="cutout_progress_clockwise_summary">Fill the ring clockwise; disable for counter-clockwise</string>
-    <string name="cutout_progress_min_vis_title">Minimum display time</string>
-    <string name="cutout_progress_min_vis_summary">Keep ring visible for a minimum duration so brief downloads don\'t flash</string>
-    <string name="cutout_progress_min_vis_ms_title">Minimum duration</string>
-    <string name="cutout_progress_easing_title">Progress easing</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background ring</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
-    <string name="cutout_progress_bg_ring_opacity_title">Background ring opacity</string>
-    <string name="cutout_progress_finish_style_title">Finish animation style</string>
-    <string name="cutout_progress_finish_hold_title">Hold duration</string>
-    <string name="cutout_progress_finish_exit_title">Exit duration</string>
-    <string name="cutout_progress_finish_flash_title">Use flash color on finish</string>
-    <string name="cutout_progress_finish_flash_summary">Briefly flash the ring with the finish flash color when complete</string>
-    <string name="cutout_progress_pulse_title">Completion pulse</string>
-    <string name="cutout_progress_pulse_summary">Brief brightness pulse before the finish animation</string>
-    <string name="cutout_progress_path_mode_title">Capsule / pill mode</string>
-    <string name="cutout_progress_path_mode_summary">Use a pill-shaped path renderer (for elongated cutouts)</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
-    <string name="cutout_progress_percent_enabled_title">Show percentage</string>
-    <string name="cutout_progress_percent_enabled_summary">Display current download progress as a percentage label</string>
-    <string name="cutout_progress_percent_size_title">Percentage text size</string>
-    <string name="cutout_progress_percent_bold_title">Bold percentage</string>
-    <string name="cutout_progress_percent_position_title">Percentage position</string>
-    <string name="cutout_progress_filename_enabled_title">Show filename</string>
-    <string name="cutout_progress_filename_enabled_summary">Display the name of the file being downloaded</string>
-    <string name="cutout_progress_filename_size_title">Filename text size</string>
-    <string name="cutout_progress_filename_bold_title">Bold filename</string>
-    <string name="cutout_progress_filename_position_title">Filename position</string>
-    <string name="cutout_progress_filename_max_chars_title">Max filename length</string>
-    <string name="cutout_progress_filename_truncate_title">Filename truncation</string>
-    <string name="cutout_progress_badge_title">Show download count badge</string>
-    <string name="cutout_progress_badge_summary">Show a pill badge with the number of active downloads</string>
-    <string name="cutout_progress_badge_size_title">Badge text size</string>
-    <string name="cutout_progress_badge_offset_x_title">Badge horizontal offset</string>
-    <string name="cutout_progress_badge_offset_y_title">Badge vertical offset</string>
-    <string name="cutout_progress_ring_color_mode_title">Ring color</string>
-    <string name="cutout_progress_color_picker_title">Choose color</string>
+    <string name="cutout_progress_cat_island">Expanded mode</string>
+    <!-- Features -->
+    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
+    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <!-- Appearance -->
+    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
     <string name="cutout_progress_ring_color_mode_accent">Accent</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Curcubeu</string>
     <string name="cutout_progress_ring_color_mode_custom">Personalizat</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
-    <string name="cutout_progress_island_compact_summary">Size of the expanded mode</string>
-    <string name="cutout_progress_island_compact_title">Compact size</string>
-    <string name="cutout_progress_island_position_title">Poziție</string>
-    <string name="cutout_progress_island_opacity_title">Opacity</string>
+    <string name="cutout_progress_ring_color_title">Custom ring color</string>
+    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <!-- Expanded Mode (Dynamic Island) -->
+    <string name="cutout_progress_island_compact_title">Compact layout</string>
+    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout instead of dropping below it</string>
+    <string name="cutout_progress_island_position_title">Island alignment</string>
     <string name="cutout_island_pos_center">Center split</string>
     <string name="cutout_island_pos_left">Stânga</string>
     <string name="cutout_island_pos_right">Drepta</string>
-    <!-- Charging Ring -->
-    <string name="cutout_progress_cat_charging">Charging ring</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <string name="cutout_progress_charging_ring_summary">Display battery level as a symmetric ring around the cutout while charging</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
 </resources>
