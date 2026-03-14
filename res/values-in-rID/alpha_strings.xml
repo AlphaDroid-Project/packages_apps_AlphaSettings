@@ -30,13 +30,13 @@
     <string name="display_title">Tampilan</string>
     <string name="ui_title">Antarmuka Pengguna</string>
     <string name="ui_title_short">Antarmuka</string>
-    <string name="ui_summary">Monet, styles</string>
-    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
+    <string name="ui_summary">Monet, gaya</string>
+    <string name="statusbar_summary">Ikon, jam, baterai, lalu lintas jaringan</string>
     <string name="quicksettings_summary">Ubin, tata letak, penggeser kecerahan</string>
     <string name="button_summary">Tombol perangkat keras dan menu daya</string>
     <string name="lockscreen_summary">Visualisasi, info cuaca, gaya jam</string>
     <string name="notifications_summary">Peringatan, pemberitahuan, lampu notifikasi</string>
-    <string name="sound_summary">Volume panel, vibration</string>
+    <string name="sound_summary">Panel volume, getaran</string>
     <string name="misc_summary">Ruang Game, pemalsuan, lain-lain.</string>
     <string name="about_summary">Tentang AlphaDroid</string>
     <!-- Color Picker -->
@@ -816,19 +816,19 @@
     <string name="qqs_rows_landscape_title">Baris Setelan Cepat (lanskap)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Latar belakang keping</string>
-    <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
-    <string name="solid_accent">Solid color accent</string>
+    <string name="statusbar_clock_chip_summary">Pilih chip latar belakang kustom di belakang jam</string>
+    <string name="solid_accent">Aksen warna padat</string>
     <string name="outline">Garis besar</string>
-    <string name="solid_accent_gradient">Solid color accent gradient</string>
-    <string name="solid_gradient">Solid gradient side</string>
-    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
-    <string name="solid_gradient_void">Gradient void</string>
-    <string name="solid_gradient_neumorph">Neumorph gradient</string>
-    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
-    <string name="solid_accent_transperent">Accent transperent</string>
-    <string name="solid_gradient_light">Gradient light</string>
-    <string name="solid_gradient_shape">Sharp gradient corner</string>
-    <string name="solid_gradient_void_light">Gradient void light</string>
+    <string name="solid_accent_gradient">Aksen warna padat bergradasi</string>
+    <string name="solid_gradient">Gradien samping padat</string>
+    <string name="solid_gradient_corner">Gradien warna aksen padat dan tajam</string>
+    <string name="solid_gradient_void">Gradien ruang kosong</string>
+    <string name="solid_gradient_neumorph">Gradien neumorph</string>
+    <string name="solid_gradient_stroke">Gradien garis tajam</string>
+    <string name="solid_accent_transperent">Aksen transparan</string>
+    <string name="solid_gradient_light">Gradien terang</string>
+    <string name="solid_gradient_shape">Gradien pojok tajam</string>
+    <string name="solid_gradient_void_light">Gradien ruang kosong terang</string>
     <!-- Weather -->
     <string name="weather_settings_title">Pengaturan cuaca</string>
     <string name="weather_settings_summary">Atur paket ikon dan servis cuaca</string>
@@ -1079,7 +1079,7 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Gelombang minimal</string>
     <string name="pulse_renderer_sparkle">Kelap-kelip</string>
-    <string name="pulse_renderer_matrix">Matrix</string>
+    <string name="pulse_renderer_matrix">Matriks</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Pemberitahuan transparan</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
@@ -1099,34 +1099,34 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
     <!-- Multi Audio Focus -->
-    <string name="multi_audio_focus_title">Multi audio focus</string>
-    <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
+    <string name="multi_audio_focus_title">Fokus audio multi</string>
+    <string name="multi_audio_focus_summary">Izinkan beberapa aplikasi memutar audio secara bersamaan</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">Clear query</string>
-    <string name="language_picker_page">Language picker page</string>
-    <string name="search_region">Search regions</string>
-    <string name="search_region_page">Search region page</string>
+    <string name="clear_search_query_description">Bersihkan kueri</string>
+    <string name="language_picker_page">Halaman pemilihan bahasa</string>
+    <string name="search_region">Telusuri wilayah</string>
+    <string name="search_region_page">Halaman pencarian wilayah</string>
     <!-- Data Usage Cycle -->
-    <string name="billing_cycle_type_title">Mobile data usage cycle type</string>
-    <string name="billing_cycle_type_monthly">Monthly</string>
-    <string name="billing_cycle_type_weekly">Weekly</string>
-    <string name="billing_cycle_type_daily">Daily</string>
-    <string name="billing_cycle_less_than_one_hour_left">Less than 1 hour left</string>
+    <string name="billing_cycle_type_title">Jenis siklus penggunaan data seluler</string>
+    <string name="billing_cycle_type_monthly">Bulanan</string>
+    <string name="billing_cycle_type_weekly">Mingguan</string>
+    <string name="billing_cycle_type_daily">Harian</string>
+    <string name="billing_cycle_less_than_one_hour_left">Kurang dari 1 jam lagi</string>
     <string name="billing_cycle_hours_left">{count, plural,
-        =1      {# hour left}
-        other   {# hours left}
+        =1      {# satu jam tersisa}
+        other   {# beberapa jam lagi}
         }</string>
-    <string name="cycle_type_weekly_title">Usage cycle reset day</string>
-    <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
-    <string name="cycle_type_daily_title">Usage cycle reset hour</string>
-    <string name="cycle_type_daily_sub">Hour of each day:</string>
+    <string name="cycle_type_weekly_title">Reset ulang hari siklus penggunaan</string>
+    <string name="cycle_type_weekly_sub">Hari dalam seminggu:\n1 = Senin</string>
+    <string name="cycle_type_daily_title">Reset ulang jam siklus penggunaan</string>
+    <string name="cycle_type_daily_sub">Jam setiap hari:</string>
     <!-- Ongoing action chip -->
-    <string name="ongoing_progress_settings_title">Status bar action chip</string>
-    <string name="ongoing_progress_settings_summary">Customize action chip to show progress indicator</string>
-    <string name="ongoing_action_chip_title">Ongoing action chip</string>
-    <string name="ongoing_action_chip_summary">Display progress indicator for ongoing actions like downloads</string>
-    <string name="ongoing_media_progress_title">Media progress</string>
-    <string name="ongoing_media_progress_summary">Display media playback progress</string>
+    <string name="ongoing_progress_settings_title">Chip aksi bilah status</string>
+    <string name="ongoing_progress_settings_summary">Sesuaikan chip aksi untuk menampilkan indikator kemajuan</string>
+    <string name="ongoing_action_chip_title">Chip aksi berkelanjutan</string>
+    <string name="ongoing_action_chip_summary">Tampilkan indikator kemajuan untuk tindakan yang sedang berlangsung seperti pengunduhan</string>
+    <string name="ongoing_media_progress_title">Kemajuan media</string>
+    <string name="ongoing_media_progress_summary">Menampilkan kemajuan pemutaran media</string>
     <string name="ongoing_progress_footer_text">\"The status bar action chip provides real-time updates for both media playback and active downloads/uploads.
 
 Media Progress:
@@ -1144,12 +1144,12 @@ Download/Upload Progress:
 
 The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance.\"
     </string>
-    <string name="ongoing_compact_mode_title">Compact progress indicator</string>
-    <string name="ongoing_compact_mode_summary">Use a compact circular indicator for ongoing actions</string>
-    <string name="ongoing_chip_color_mode_title">Media chip background color</string>
-    <string name="ongoing_chip_color_mode_accent">System accent color</string>
-    <string name="ongoing_chip_color_mode_icon">App icon color</string>
-    <string name="ongoing_chip_color_mode_album_art">Album art color</string>
+    <string name="ongoing_compact_mode_title">Indikator kemajuan ringkas</string>
+    <string name="ongoing_compact_mode_summary">Gunakan indikator melingkar yang ringkas untuk tindakan yang sedang berlangsung</string>
+    <string name="ongoing_chip_color_mode_title">Warna latar belakang chip media</string>
+    <string name="ongoing_chip_color_mode_accent">Warna aksen sistem</string>
+    <string name="ongoing_chip_color_mode_icon">Warna ikon aplikasi</string>
+    <string name="ongoing_chip_color_mode_album_art">Warna sampul album</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
@@ -1200,7 +1200,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="donate_team_title">Tim AlphaDroid</string>
     <string name="donate_team_summary">Donasi untuk mendukung server hosting, keaktifan situs serta pemanajemenan secara keseluruhan</string>
     <!-- AlphaDroid build server sponsor -->
-    <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
+    <string name="buildserversponsor_summary">AlphaDroid adalah penyedia server build. Ketuk untuk mengunjungi saluran mereka.</string>
     <!-- OTA -->
     <string name="alpha_update_title">Pembaruan</string>
     <string name="alpha_update_summary">Periksa dan unduh pembaruan terbaru</string>
@@ -1243,7 +1243,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Mesin tampilan</string>
     <string name="display_engine_mode_title">Mesin Tampilan Realitas</string>
-    <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
+    <string name="display_engine_mode_summary">Tingkatkan mode warna Android standar dengan peningkatan tampilan khusus</string>
     <string name="display_engine_mode_xreality">Mesin X-Realita</string>
     <string name="display_engine_mode_vivid">Tampilan Jelas</string>
     <string name="display_engine_mode_triluminous">Tampilan Triluminous</string>
@@ -1252,8 +1252,8 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ignore_window_secure_title">Abaikan tanda jendela aman</string>
     <string name="ignore_window_secure_summary">Hapus batasan keamanan tangkapan layar dan rekaman layar. Hal ini mungkin praktis dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi.</string>
     <!-- Hide screen capture status -->
-    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
-    <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
+    <string name="hide_screen_capture_status_title">Sembunyikan status tangkapan layar</string>
+    <string name="hide_screen_capture_status_summary">Sembunyikan status tangkapan layar dari aplikasi</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Sembunyikan status developer</string>
     <string name="hide_developer_status_summary">Sembunyikan status developer dari aplikasi</string>
@@ -1262,39 +1262,39 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="max_visible_notification_icons_title">Ikon notifikasi</string>
     <string name="max_visible_notification_icons_summary">Maksimal ikon notifikasi terlihat di bilah status</string>
     <!-- UI styles -->
-    <string name="ui_style_title">UI Style</string>
-    <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
-    <string name="ui_style_light_theme">Light theme</string>
-    <string name="ui_style_dark_theme">Dark theme</string>
-    <string name="ui_style_reset_section">Reset to defaults</string>
-    <string name="ui_style_reset_all">Reset all styles</string>
-    <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
+    <string name="ui_style_title">Gaya Antarmuka Pengguna</string>
+    <string name="ui_style_summary">Sesuaikan tampilan ubin Setelan Cepat dan penggeser kecerahan</string>
+    <string name="ui_style_light_theme">Tema terang</string>
+    <string name="ui_style_dark_theme">Tema gelap</string>
+    <string name="ui_style_reset_section">Setel ulang ke bawaan</string>
+    <string name="ui_style_reset_all">Atur ulang semua gaya</string>
+    <string name="ui_style_reset_all_summary">Atur ulang semua parameter gaya ke nilai default</string>
     <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Cutout Progress Ring</string>
-    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
+    <string name="cutout_progress_title">Cincin Kemajuan</string>
+    <string name="cutout_progress_summary">Tunjukkan lingkaran kemajuan di sekitar lubang punch</string>
     <!-- Categories -->
-    <string name="cutout_progress_cat_features">Features</string>
-    <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
+    <string name="cutout_progress_cat_features">Fitur</string>
+    <string name="cutout_progress_cat_appearance">Penampilan</string>
+    <string name="cutout_progress_cat_island">Mode diperluas</string>
     <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <string name="cutout_progress_download_enabled_title">Aktifkan cincin kemajuan unduhan</string>
+    <string name="cutout_progress_charging_ring_title">Tampilkan cincin pengisian daya</string>
+    <string name="cutout_progress_charging_pulse_title">Animasi denyut pengisian</string>
+    <string name="cutout_progress_charging_pulse_summary">Animasikan denyut berulang dari tengah ke luar saat mengisi daya</string>
     <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
-    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
+    <string name="cutout_progress_ring_color_mode_title">Mode warna cincin</string>
+    <string name="cutout_progress_ring_color_mode_accent">Aksen</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Pelangi</string>
     <string name="cutout_progress_ring_color_mode_custom">Kustom</string>
-    <string name="cutout_progress_ring_color_title">Custom ring color</string>
-    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <string name="cutout_progress_ring_color_title">Warna cincin kustom</string>
+    <string name="cutout_progress_stroke_width_title">Ketebalan cincin</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Tampilkan trek latar belakang</string>
     <!-- Expanded Mode (Dynamic Island) -->
-    <string name="cutout_progress_island_compact_title">Compact layout</string>
-    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout instead of dropping below it</string>
-    <string name="cutout_progress_island_position_title">Island alignment</string>
-    <string name="cutout_island_pos_center">Center split</string>
+    <string name="cutout_progress_island_compact_title">Tata letak ringkas</string>
+    <string name="cutout_progress_island_compact_summary">Lilitkan di sekeliling lubang kamera, jangan sampai jatuh di bawahnya</string>
+    <string name="cutout_progress_island_position_title">Penataan Island</string>
+    <string name="cutout_island_pos_center">Belahan tengah</string>
     <string name="cutout_island_pos_left">Kiri</string>
     <string name="cutout_island_pos_right">Kanan</string>
-    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
+    <string name="cutout_island_timeout_title">Batas waktu penutupan otomatis</string>
 </resources>
