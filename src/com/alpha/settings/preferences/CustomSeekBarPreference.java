@@ -169,13 +169,13 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
 
         if (mResetImageView != null) {
             mResetImageView.setOnClickListener(view ->
+                setValue(mDefaultValue, true)
+            );
+            mResetImageView.setOnLongClickListener(view -> {
                 Toast.makeText(getContext(),
                     getContext().getString(R.string.custom_seekbar_default_value_to_set,
                         getTextValue(mDefaultValue)),
-                    Toast.LENGTH_LONG).show()
-            );
-            mResetImageView.setOnLongClickListener(view -> {
-                setValue(mDefaultValue, true);
+                    Toast.LENGTH_LONG).show();
                 return true;
             });
         }
@@ -339,17 +339,23 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     }
 
     public void setValue(int newValue) {
-        mValue = getLimitedValue(newValue);
-        if (mSeekBar != null)
-            mSeekBar.setProgress(getSeekValue(mValue));
+        setValue(newValue, true);
     }
 
     public void setValue(int newValue, boolean update) {
         newValue = getLimitedValue(newValue);
         if (mValue != newValue) {
-            mValue = newValue;
-            if (update && mSeekBar != null)
-                mSeekBar.setProgress(getSeekValue(mValue));
+            if (update && mSeekBar != null) {
+                // By just setting progress, onProgressChanged handles persistence
+                mSeekBar.setProgress(getSeekValue(newValue));
+            } else {
+                if (callChangeListener(newValue)) {
+                    changeValue(newValue);
+                    persistInt(newValue);
+                    mValue = newValue;
+                    updateValueViews();
+                }
+            }
         }
     }
 
