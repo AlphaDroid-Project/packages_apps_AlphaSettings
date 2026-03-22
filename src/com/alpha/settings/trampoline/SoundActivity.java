@@ -25,7 +25,7 @@ import com.alpha.settings.fragments.Sound;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.core.SubSettingLauncher;
 
-/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+/** Trampoline activity for launching the {@link Sound} fragment. */
 public class SoundActivity extends AppCompatActivity {
 
     private static final String TAG = "SoundActivity";

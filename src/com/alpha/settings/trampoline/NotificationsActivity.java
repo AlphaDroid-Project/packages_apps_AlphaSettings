@@ -25,7 +25,7 @@ import com.alpha.settings.fragments.Notifications;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.core.SubSettingLauncher;
 
-/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+/** Trampoline activity for launching the {@link Notifications} fragment. */
 public class NotificationsActivity extends AppCompatActivity {
 
     private static final String TAG = "NotificationsActivity";

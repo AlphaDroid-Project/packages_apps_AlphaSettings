@@ -25,7 +25,7 @@ import com.alpha.settings.fragments.Miscellaneous;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.core.SubSettingLauncher;
 
-/** Trampoline activity for launching the {@link FirmwareVersionSettings} fragment. */
+/** Trampoline activity for launching the {@link Miscellaneous} fragment. */
 public class MiscellaneousActivity extends AppCompatActivity {
 
     private static final String TAG = "MiscellaneousActivity";
