@@ -19,6 +19,7 @@ package com.alpha.settings.fragments.statusbar
 
 import android.os.Bundle
 import android.provider.Settings
+import android.view.WindowManager
 import androidx.compose.ui.graphics.Color
 import androidx.preference.ListPreference
 import androidx.preference.Preference
@@ -36,16 +37,22 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
 
         private const val KEY_RING_COLOR = "cutout_progress_ring_color"
         private const val DEFAULT_RING_COLOR = 0xFF2196F3.toInt()
+
+        private const val KEY_ISLAND_POSITION = "cutout_progress_island_position"
     }
 
     private lateinit var ringColorModePref: ListPreference
     private lateinit var ringColorPref: Preference
+    private lateinit var islandPosPref: ListPreference
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         addPreferencesFromResource(R.xml.cutout_progress_settings)
 
         ringColorModePref = findPreference(KEY_RING_COLOR_MODE)!!
         ringColorPref = findPreference(KEY_RING_COLOR)!!
+        islandPosPref = findPreference(KEY_ISLAND_POSITION)!!
+
+        setupIslandPositionPreference()
 
         val storedMode = readSystemInt(KEY_RING_COLOR_MODE, 0)
         ringColorModePref.value = storedMode.toString()
@@ -66,6 +73,48 @@ class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
             dialog.show(parentFragmentManager, CutoutProgressColorPickerDialogFragment.TAG)
             true
         }
+    }
+
+    private fun setupIslandPositionPreference() {
+        val windowManager = requireContext().getSystemService(WindowManager::class.java)
+        val windowMetrics = windowManager.currentWindowMetrics
+        val displayWidth = windowMetrics.bounds.width()
+        val cutout = windowMetrics.windowInsets.displayCutout
+
+        var isLeftCutout = false
+        var isRightCutout = false
+
+        cutout?.boundingRects?.forEach { rect ->
+            if (rect.centerX() < displayWidth / 3) isLeftCutout = true
+            else if (rect.centerX() > displayWidth * 2 / 3) isRightCutout = true
+        }
+
+        val entries = mutableListOf<CharSequence>()
+        val values = mutableListOf<CharSequence>()
+
+        entries.add(getString(R.string.cutout_island_pos_center))
+        values.add("0")
+
+        if (!isLeftCutout) {
+            entries.add(getString(R.string.cutout_island_pos_left))
+            values.add("1")
+        }
+        if (!isRightCutout) {
+            entries.add(getString(R.string.cutout_island_pos_right))
+            values.add("2")
+        }
+
+        islandPosPref.entries = entries.toTypedArray()
+        islandPosPref.entryValues = values.toTypedArray()
+
+        var currentPos = readSystemInt(KEY_ISLAND_POSITION, 0)
+        if ((currentPos == 1 && isLeftCutout) || (currentPos == 2 && isRightCutout)) {
+            currentPos = 0
+            writeSystemInt(KEY_ISLAND_POSITION, currentPos)
+        }
+
+        islandPosPref.value = currentPos.toString()
+        islandPosPref.onPreferenceChangeListener = this
     }
 
     override fun onPreferenceChange(preference: Preference, newValue: Any): Boolean {
