@@ -30,13 +30,13 @@
     <string name="display_title">Экран</string>
     <string name="ui_title">Пользовательский интерфейс</string>
     <string name="ui_title_short">UI</string>
-    <string name="ui_summary">Monet, styles</string>
-    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
+    <string name="ui_summary">Моне, стили</string>
+    <string name="statusbar_summary">Значки, часы, батарея, сетевой трафик</string>
     <string name="quicksettings_summary">Плитки, расположение элементов, ползунок яркости</string>
     <string name="button_summary">Аппаратные кнопки и меню питания</string>
     <string name="lockscreen_summary">Режим сна, импульсный режим, UDFPS, погода</string>
     <string name="notifications_summary">Предупреждения, всплывающие уведомления, световые сигналы</string>
-    <string name="sound_summary">Volume panel, vibration</string>
+    <string name="sound_summary">Панель громкости, вибрация</string>
     <string name="misc_summary">Игровое пространство, подмена, прочее.</string>
     <string name="about_summary">О AlphaDroid</string>
     <!-- Color Picker -->
@@ -78,7 +78,7 @@
     <string name="settings">Настройки</string>
     <string name="wallpaper_color">Цвет обоев</string>
     <string name="yes">Да</string>
-    <string name="apply">Apply</string>
+    <string name="apply">Применить</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -1130,45 +1130,44 @@
     <string name="cycle_type_daily_title">Час начала периода</string>
     <string name="cycle_type_daily_sub">Час дня:</string>
     <!-- Ongoing action chip -->
-    <string name="ongoing_progress_settings_title">Status bar action chip</string>
-    <string name="ongoing_progress_settings_summary">Customize action chip to show progress indicator</string>
-    <string name="ongoing_action_chip_title">Ongoing action chip</string>
-    <string name="ongoing_action_chip_summary">Display progress indicator for ongoing actions like downloads</string>
-    <string name="ongoing_media_progress_title">Media progress</string>
-    <string name="ongoing_media_progress_summary">Display media playback progress</string>
-    <string name="ongoing_progress_footer_text">\"The status bar action chip provides real-time updates for both media playback and active downloads/uploads.
+    <string name="ongoing_progress_settings_title">Индикатор действия строки состояния</string>
+    <string name="ongoing_progress_settings_summary">Настройка области для отображения индикатора прогресса</string>
+    <string name="ongoing_action_chip_title">Индикатор выполняемого действия</string>
+    <string name="ongoing_action_chip_summary">Показывать индикатор прогресса в строке состояния для текущих действий, таких как загрузка</string>
+    <string name="ongoing_media_progress_title">Прогресс медиа</string>
+    <string name="ongoing_media_progress_summary">Показать прогресс воспроизведения медиа</string>
+    <string name="ongoing_progress_footer_text">«Индикатор состояния в строке состояния обеспечивает обновление информации в реальном времени как для воспроизведения мультимедиа, так и для активных загрузок/выгрузок.
 
-Media Progress:
-• Displays playback progress for music and video when media is playing.
-• Single tap opens playback controls.
-• Double tap toggles play/pause.
-• Swipe left skips to the previous track.
-• Swipe right skips to the next track.
-• Long press opens the media app.
+Прогресс воспроизведения мультимедиа:
+• Отображает прогресс воспроизведения музыки и видео во время воспроизведения мультимедиа.
+• Однократное касание открывает элементы управления воспроизведением.
+• Двойное касание переключает воспроизведение/паузу.
+• Свайп влево переключает на предыдущий трек.
+• Свайп вправо переключает на следующий трек.
+• Длительное нажатие открывает приложение для работы с мультимедиа.
 
-Download/Upload Progress:
-• Shows progress for ongoing downloads and uploads.
-• Automatically hides when no active transfers are detected.
-• Single tap opens the app responsible for the download.
+Прогресс загрузки/выгрузки:
+• Отображает прогресс текущих загрузок и выгрузок.
+• Автоматически скрывается, когда не обнаружено активных передач.
+• Однократное касание открывает приложение, отвечающее за загрузку.
 
-The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance.\"
-    </string>
-    <string name="ongoing_compact_mode_title">Compact progress indicator</string>
-    <string name="ongoing_compact_mode_summary">Use a compact circular indicator for ongoing actions</string>
-    <string name="ongoing_chip_color_mode_title">Media chip background color</string>
-    <string name="ongoing_chip_color_mode_accent">System accent color</string>
-    <string name="ongoing_chip_color_mode_icon">App icon color</string>
-    <string name="ongoing_chip_color_mode_album_art">Album art color</string>
+Индикатор прогресса динамически переключается между состояниями воспроизведения мультимедиа и загрузки, обеспечивая вам всегда самую актуальную информацию с первого взгляда».</string>
+    <string name="ongoing_compact_mode_title">Компактный индикатор прогресса</string>
+    <string name="ongoing_compact_mode_summary">Использовать компактный круглый индикатор для текущих действий</string>
+    <string name="ongoing_chip_color_mode_title">Цвет фона медиа индикатора</string>
+    <string name="ongoing_chip_color_mode_accent">Системный цвет акцента</string>
+    <string name="ongoing_chip_color_mode_icon">Цвет значка приложения</string>
+    <string name="ongoing_chip_color_mode_album_art">Цвет обложки альбома</string>
     <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Custom clock style</string>
-    <string name="lockscreen_custom_clock_style_summary">Configure lock screen clock styles</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Swipe left or right to preview clock styles</string>
-    <string name="lockscreen_custom_clock_style_info">Custom clock style replaces AOSP clock styles with custom clocks. Smartspace will be disabled. You can enable and use custom weather instead.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Custom clock opacity</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Adjust the transparency of custom clock style</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Custom clock height</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Adjust the height of custom clock style</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Custom clock color mode</string>
+    <string name="lockscreen_custom_clock_style_title">Свой стиль часов</string>
+    <string name="lockscreen_custom_clock_style_summary">Настроить стиль часов на экране блокировки</string>
+    <string name="lockscreen_custom_clock_style_highlight_text">Смахните влево или вправо для просмотра стиля часов</string>
+    <string name="lockscreen_custom_clock_style_info">Выбранный стиль часов заменит стиль часов AOSP. «Умное пространство» будет отключено. Вы можете включить и использовать службу погоды.</string>
+    <string name="lockscreen_custom_clock_opacity_title">Прозрачность часов</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Настройка прозрачности выбранного стиля часов</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Высота часов</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Регулировка высоты выбранного стиля часов</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Цветовой режим часов</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Настройки Alpha</string>
@@ -1219,7 +1218,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="donate_team_title">Команда AlphaDroid</string>
     <string name="donate_team_summary">Пожертвовать на поддержку хостинга, сайта и общие задачи</string>
     <!-- AlphaDroid build server sponsor -->
-    <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
+    <string name="buildserversponsor_summary">Сервер сборки AlphaDroid. Нажмите, чтобы посетить канал.</string>
     <!-- OTA -->
     <string name="alpha_update_title">Обновления</string>
     <string name="alpha_update_summary">Проверка и загрузка последних обновлений</string>
@@ -1262,7 +1261,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Дисплейный движок</string>
     <string name="display_engine_mode_title">Движок отображения реальности</string>
-    <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
+    <string name="display_engine_mode_summary">Улучшить стандартные цветовые режимы Android с улучшениями дисплея</string>
     <string name="display_engine_mode_xreality">X-Reality Engine</string>
     <string name="display_engine_mode_vivid">Яркий дисплей</string>
     <string name="display_engine_mode_triluminous">Трехцветный дисплей</string>
@@ -1271,8 +1270,8 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ignore_window_secure_title">Игнорировать флаг защищенного окна</string>
     <string name="ignore_window_secure_summary">Снимите ограничения безопасности на скриншоты и записи экрана. В некоторых случаях это может быть удобно, но может привести к утечкам конфиденциальной информации.</string>
     <!-- Hide screen capture status -->
-    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
-    <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
+    <string name="hide_screen_capture_status_title">Скрыть захват экрана</string>
+    <string name="hide_screen_capture_status_summary">Скрыть состояние захвата экрана приложениями</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Скрыть статус разработчика</string>
     <string name="hide_developer_status_summary">Скрыть статус разработчика из приложений</string>
@@ -1281,46 +1280,46 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="max_visible_notification_icons_title">Значки уведомлений</string>
     <string name="max_visible_notification_icons_summary">Максимальное количество значков в строке состояния</string>
     <!-- UI styles -->
-    <string name="ui_style_title">UI Style</string>
-    <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
-    <string name="ui_style_light_theme">Light theme</string>
-    <string name="ui_style_dark_theme">Dark theme</string>
-    <string name="ui_style_reset_section">Reset to defaults</string>
-    <string name="ui_style_reset_all">Reset all styles</string>
-    <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
+    <string name="ui_style_title">Стиль интерфейса</string>
+    <string name="ui_style_summary">Настроить плитки и слайдер яркости</string>
+    <string name="ui_style_light_theme">Светлая тема</string>
+    <string name="ui_style_dark_theme">Тёмная тема</string>
+    <string name="ui_style_reset_section">Восстановить значения по умолчанию</string>
+    <string name="ui_style_reset_all">Сбросить все стили</string>
+    <string name="ui_style_reset_all_summary">Сбросить все параметры стиля к значениям по умолчанию</string>
     <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Cutout Progress Ring</string>
-    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
+    <string name="cutout_progress_title">Кольцо прогресса выреза</string>
+    <string name="cutout_progress_summary">Показать прогресс кольца вокруг отверстия</string>
     <!-- Categories -->
-    <string name="cutout_progress_cat_features">Features</string>
-    <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
+    <string name="cutout_progress_cat_features">Особенности</string>
+    <string name="cutout_progress_cat_appearance">Внешний вид</string>
+    <string name="cutout_progress_cat_island">Расширенный режим</string>
     <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
+    <string name="cutout_progress_download_enabled_title">Включить кольцо прогресса загрузки</string>
     <string name="cutout_progress_charging_ring_title">Show charging ring</string>
     <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
-    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
+    <string name="cutout_progress_ring_color_mode_title">Режим цвета кольца</string>
+    <string name="cutout_progress_ring_color_mode_accent">Акцент</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Радуга</string>
     <string name="cutout_progress_ring_color_mode_custom">Свой</string>
-    <string name="cutout_progress_ring_color_title">Custom ring color</string>
-    <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
-    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <string name="cutout_progress_ring_color_title">Индивидуальный цвет кольца</string>
+    <string name="cutout_progress_ring_opacity_title">Прозрачность кольца</string>
+    <string name="cutout_progress_stroke_width_title">Толщина кольца</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Показывать фоновый трек</string>
+    <string name="cutout_progress_charging_pulse_title">Анимация импульса зарядки</string>
+    <string name="cutout_progress_charging_pulse_summary">Анимация повторяющегося импульса из центра во время зарядки</string>
     <!-- Expanded Mode (Dynamic Island) -->
-    <string name="cutout_progress_island_compact_title">Compact layout</string>
-    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
-    <string name="cutout_progress_island_position_title">Compact layout alignment</string>
-    <string name="cutout_island_pos_center">Center split</string>
+    <string name="cutout_progress_island_compact_title">Компактное размещение</string>
+    <string name="cutout_progress_island_compact_summary">Оберните вокруг вырезания камеры</string>
+    <string name="cutout_progress_island_position_title">Выравнивание компактного макета</string>
+    <string name="cutout_island_pos_center">Разделение по центру</string>
     <string name="cutout_island_pos_left">слева</string>
     <string name="cutout_island_pos_right">справа</string>
     <string name="cutout_island_bg_opacity_title">Прозрачность фона</string>
-    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
+    <string name="cutout_island_timeout_title">Таймаут свертывания</string>
     <!-- Hide applist -->
-    <string name="hide_applist_title">Hide applist</string>
-    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
-    <string name="menu_show_overlay">Show overlay</string>
-    <string name="menu_hide_overlay">Hide overlay</string>
+    <string name="hide_applist_title">Скрыть список приложений</string>
+    <string name="hide_applist_summary">Запретить приложениям проверять выбранные приложения из списка приложений</string>
+    <string name="menu_show_overlay">Показать оверлей</string>
+    <string name="menu_hide_overlay">Скрыть оверлей</string>
 </resources>
