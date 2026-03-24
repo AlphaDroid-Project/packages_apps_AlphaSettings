@@ -45,7 +45,7 @@
     <string name="set">设置</string>
     <string name="color_default">默认</string>
     <!-- General strings -->
-    <string name="accent_color">首选颜色 (默认)</string>
+    <string name="accent_color">配色方案</string>
     <string name="add">添加</string>
     <string name="advanced">高级选项</string>
     <string name="always">始终</string>
@@ -78,6 +78,7 @@
     <string name="settings">设置</string>
     <string name="wallpaper_color">壁纸颜色</string>
     <string name="yes">是</string>
+    <string name="apply">Apply</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play 商店</string>
     <!-- Custom seekbar -->
@@ -1136,7 +1137,7 @@ Media Progress:
 • Double tap toggles play/pause.
 • Swipe left skips to the previous track.
 • Swipe right skips to the next track.
-• Long press opens the media app. 
+• Long press opens the media app.
 
 Download/Upload Progress:
 • Shows progress for ongoing downloads and uploads.
@@ -1151,6 +1152,16 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ongoing_chip_color_mode_accent">System accent color</string>
     <string name="ongoing_chip_color_mode_icon">App icon color</string>
     <string name="ongoing_chip_color_mode_album_art">Album art color</string>
+    <!-- Custom clock style -->
+    <string name="lockscreen_custom_clock_style_title">Custom clock style</string>
+    <string name="lockscreen_custom_clock_style_summary">Configure lock screen clock styles</string>
+    <string name="lockscreen_custom_clock_style_highlight_text">Swipe left or right to preview clock styles</string>
+    <string name="lockscreen_custom_clock_style_info">Custom clock style replaces AOSP clock styles with custom clocks. Smartspace will be disabled. You can enable and use custom weather instead.</string>
+    <string name="lockscreen_custom_clock_opacity_title">Custom clock opacity</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Adjust the transparency of custom clock style</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Custom clock height</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Adjust the height of custom clock style</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Custom clock color mode</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 设置</string>
@@ -1280,22 +1291,29 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Features -->
     <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
     <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
     <!-- Appearance -->
     <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
     <string name="cutout_progress_ring_color_mode_accent">Accent</string>
     <string name="cutout_progress_ring_color_mode_rainbow">彩虹</string>
     <string name="cutout_progress_ring_color_mode_custom">自定义</string>
     <string name="cutout_progress_ring_color_title">Custom ring color</string>
+    <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
     <string name="cutout_progress_stroke_width_title">Ring thickness</string>
     <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
     <!-- Expanded Mode (Dynamic Island) -->
     <string name="cutout_progress_island_compact_title">Compact layout</string>
-    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout instead of dropping below it</string>
-    <string name="cutout_progress_island_position_title">Island alignment</string>
+    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
+    <string name="cutout_progress_island_position_title">Compact layout alignment</string>
     <string name="cutout_island_pos_center">Center split</string>
     <string name="cutout_island_pos_left">左侧</string>
     <string name="cutout_island_pos_right">右侧</string>
+    <string name="cutout_island_bg_opacity_title">背景不透明度</string>
     <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
 </resources>

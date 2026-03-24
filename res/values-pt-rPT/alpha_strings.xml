@@ -30,13 +30,13 @@
     <string name="display_title">Ecrã</string>
     <string name="ui_title">Interface de utilizador</string>
     <string name="ui_title_short">Interface do utilizador</string>
-    <string name="ui_summary">Monet, styles</string>
-    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
+    <string name="ui_summary">Monet, estilos</string>
+    <string name="statusbar_summary">Ícones, relógio, bateria, trafego de rede</string>
     <string name="quicksettings_summary">Painéis, esquema, controle deslizante de brilho</string>
     <string name="button_summary">Botões físicos e menu de energia</string>
     <string name="lockscreen_summary">Modo suspensão, pulsação, UDFPS, tempo</string>
     <string name="notifications_summary">Alertas, notificações heads-up, luzes</string>
-    <string name="sound_summary">Volume panel, vibration</string>
+    <string name="sound_summary">Painel de volume, vibração</string>
     <string name="misc_summary">Espaço de Jogos, máscara de integridade, vários.</string>
     <string name="about_summary">Acerca de AlphaDroid</string>
     <!-- Color Picker -->
@@ -45,7 +45,7 @@
     <string name="set">Definir</string>
     <string name="color_default">Predefinido</string>
     <!-- General strings -->
-    <string name="accent_color">Cor de destaque (Padrão)</string>
+    <string name="accent_color">Cor do acento</string>
     <string name="add">Adicionar</string>
     <string name="advanced">Avançado</string>
     <string name="always">Sempre</string>
@@ -78,6 +78,7 @@
     <string name="settings">Configurações</string>
     <string name="wallpaper_color">Cor do papel de parede</string>
     <string name="yes">Sim</string>
+    <string name="apply">Aplicar</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play Store</string>
     <!-- Custom seekbar -->
@@ -498,7 +499,7 @@
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">Vibração</string>
     <string name="qs_brightness_slider_haptic_summary">Vibrar ao alterar o brilho através do controle deslizante</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on tapping QS tiles</string>
+    <string name="qs_tile_haptic_summary">Fornecer feedback tátil no toque das configurações rápidas</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Botão de brilho automático</string>
     <string name="qs_show_auto_brightness_summary">Mostrar interruptor de brilho automático junto à barra de controlo de brilho</string>
@@ -818,19 +819,19 @@
     <string name="qqs_rows_landscape_title">Linhas (paisagem)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Fundo do relógio</string>
-    <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
-    <string name="solid_accent">Solid color accent</string>
+    <string name="statusbar_clock_chip_summary">Selecionar chip de fundo personalizado para trás do relógio</string>
+    <string name="solid_accent">Cor de destaque sólida</string>
     <string name="outline">Contornado</string>
-    <string name="solid_accent_gradient">Solid color accent gradient</string>
-    <string name="solid_gradient">Solid gradient side</string>
-    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
-    <string name="solid_gradient_void">Gradient void</string>
-    <string name="solid_gradient_neumorph">Neumorph gradient</string>
-    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
-    <string name="solid_accent_transperent">Accent transperent</string>
-    <string name="solid_gradient_light">Gradient light</string>
-    <string name="solid_gradient_shape">Sharp gradient corner</string>
-    <string name="solid_gradient_void_light">Gradient void light</string>
+    <string name="solid_accent_gradient">Gradiente de cor sólida</string>
+    <string name="solid_gradient">Gradiente lateral</string>
+    <string name="solid_gradient_corner">Gradiente de acento sólido acentuado</string>
+    <string name="solid_gradient_void">Vazio gradiente</string>
+    <string name="solid_gradient_neumorph">Gradiente Neumorph</string>
+    <string name="solid_gradient_stroke">Traço gradiente acentuado</string>
+    <string name="solid_accent_transperent">Realce transparente</string>
+    <string name="solid_gradient_light">Luz gradiente</string>
+    <string name="solid_gradient_shape">Canto gradiente acentuado</string>
+    <string name="solid_gradient_void_light">Luz de gradiente vazio</string>
     <!-- Weather -->
     <string name="weather_settings_title">Definições da meteorologia</string>
     <string name="weather_settings_summary">Configurar pacote de ícones e serviço meteorológico</string>
@@ -1034,8 +1035,8 @@
     <!-- Brightness Slider Style -->
     <string name="qs_brightness_slider_shape_title">Forma do controle deslizante de brilho</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca_title">LTE carrier aggregation</string>
-    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
+    <string name="force_lte_ca_title">Agregação LTE</string>
+    <string name="force_lte_ca_summary">Melhorar largura de banda LTE agregando bandas suportadas</string>
     <!-- QS on lockscreen -->
     <string name="lockscreen_quick_settings_title">Configurações rápidas no ecrã de bloqueio</string>
     <string name="lockscreen_quick_settings_summary">Permite deslizar para baixo no ecrã de bloqueio para ver as configurações rápidas</string>
@@ -1081,7 +1082,7 @@
     <string name="pulse_renderer_retro_vu_meter">Medidor retro VU</string>
     <string name="pulse_renderer_minimal_wave">Ondulação mínima</string>
     <string name="pulse_renderer_sparkle">Brilhante</string>
-    <string name="pulse_renderer_matrix">Matrix</string>
+    <string name="pulse_renderer_matrix">Matriz</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notificações translúcidas</string>
     <string name="notification_row_transparency_summary">Notificações com fundo transparente</string>
@@ -1097,61 +1098,70 @@
     <string name="vbmeta_attestation_title">Corrigir automaticamente a deteção vbmeta</string>
     <string name="vbmeta_attestation_summary">Construir um certificado de chave de máscara para gerar um hash verificado na inicialização. Requer reinicialização do sistema.</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">Não validar</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. A sua ligação não será privada.</string>
     <!-- Multi Audio Focus -->
-    <string name="multi_audio_focus_title">Multi audio focus</string>
-    <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
+    <string name="multi_audio_focus_title">Foco múltiplo de áudio</string>
+    <string name="multi_audio_focus_summary">Permitir que várias aplicações reproduzam áudio simultaneamente</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">Clear query</string>
-    <string name="language_picker_page">Language picker page</string>
-    <string name="search_region">Search regions</string>
-    <string name="search_region_page">Search region page</string>
+    <string name="clear_search_query_description">Limpar pesquisa</string>
+    <string name="language_picker_page">Página do seletor de idioma</string>
+    <string name="search_region">Pesquisar regiões</string>
+    <string name="search_region_page">Página de pesquisa de região</string>
     <!-- Data Usage Cycle -->
-    <string name="billing_cycle_type_title">Mobile data usage cycle type</string>
-    <string name="billing_cycle_type_monthly">Monthly</string>
-    <string name="billing_cycle_type_weekly">Weekly</string>
-    <string name="billing_cycle_type_daily">Daily</string>
-    <string name="billing_cycle_less_than_one_hour_left">Less than 1 hour left</string>
+    <string name="billing_cycle_type_title">Tipo de ciclo de uso de dados móveis</string>
+    <string name="billing_cycle_type_monthly">Mensal</string>
+    <string name="billing_cycle_type_weekly">Semanal</string>
+    <string name="billing_cycle_type_daily">Diário</string>
+    <string name="billing_cycle_less_than_one_hour_left">Menos de 1 hora restante</string>
     <string name="billing_cycle_hours_left">{count, plural,
-        =1      {# hour left}
-        other   {# hours left}
+        =1      {# hora restante}
+        other   {# horas restantes}
         }</string>
-    <string name="cycle_type_weekly_title">Usage cycle reset day</string>
-    <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
-    <string name="cycle_type_daily_title">Usage cycle reset hour</string>
-    <string name="cycle_type_daily_sub">Hour of each day:</string>
+    <string name="cycle_type_weekly_title">Escolha o dia de início do ciclo</string>
+    <string name="cycle_type_weekly_sub">Dia de cada semana:\n1 = segunda-feira</string>
+    <string name="cycle_type_daily_title">Ciclo de uso - repor horas</string>
+    <string name="cycle_type_daily_sub">Hora de cada dia:</string>
     <!-- Ongoing action chip -->
-    <string name="ongoing_progress_settings_title">Status bar action chip</string>
-    <string name="ongoing_progress_settings_summary">Customize action chip to show progress indicator</string>
-    <string name="ongoing_action_chip_title">Ongoing action chip</string>
-    <string name="ongoing_action_chip_summary">Display progress indicator for ongoing actions like downloads</string>
-    <string name="ongoing_media_progress_title">Media progress</string>
-    <string name="ongoing_media_progress_summary">Display media playback progress</string>
-    <string name="ongoing_progress_footer_text">\"The status bar action chip provides real-time updates for both media playback and active downloads/uploads.
+    <string name="ongoing_progress_settings_title">Chip de ação da barra de estado</string>
+    <string name="ongoing_progress_settings_summary">Personalizar chip de ação para mostrar o indicador de progresso</string>
+    <string name="ongoing_action_chip_title">Barra de progresso de atividade</string>
+    <string name="ongoing_action_chip_summary">Mostrar indicador de progresso na barra de estado para atividades como transferências de ficheiros.</string>
+    <string name="ongoing_media_progress_title">Progresso de multimedia</string>
+    <string name="ongoing_media_progress_summary">Exibir progresso de reprodução de multimedia</string>
+    <string name="ongoing_progress_footer_text">\"O chip da barra de estado fornece atualizações em tempo real para reprodução multimedia e transferências ativas
 
-Media Progress:
-• Displays playback progress for music and video when media is playing.
-• Single tap opens playback controls.
-• Double tap toggles play/pause.
-• Swipe left skips to the previous track.
-• Swipe right skips to the next track.
-• Long press opens the media app. 
+Progresso de reprodução multimedia:
+• Apresenta o progresso de reprodução multimedia.
+• Tocar uma vez para abrir os controlos de reprodução.
+• Toque duplo alterna entre reproduzir/pausa.
+• Deslizar para a esquerda reproduz a música anterior.
+• Deslizar para a direita reproduz a música seguinte.
+• Toque longo abre a aplicaçáo multimedia.
 
-Download/Upload Progress:
-• Shows progress for ongoing downloads and uploads.
-• Automatically hides when no active transfers are detected.
-• Single tap opens the app responsible for the download.
+Progresso das transferências:
+• Apresenta o progresso das transferências.
+• Esconde automaticamente a visualizaçáo quando não há transferências ativas.
+• Toque único abre a aplicação responsável pela transferência.
 
-The progress bar dynamically switches between media and download states, ensuring you always have the most relevant information at a glance.\"
-    </string>
-    <string name="ongoing_compact_mode_title">Compact progress indicator</string>
-    <string name="ongoing_compact_mode_summary">Use a compact circular indicator for ongoing actions</string>
-    <string name="ongoing_chip_color_mode_title">Media chip background color</string>
-    <string name="ongoing_chip_color_mode_accent">System accent color</string>
-    <string name="ongoing_chip_color_mode_icon">App icon color</string>
-    <string name="ongoing_chip_color_mode_album_art">Album art color</string>
+A barra de progresso alterna dinamicamente entre os estados multimedia e transferência, garantindo que visualizas sempre a informação mais relevante.\"</string>
+    <string name="ongoing_compact_mode_title">Indicador de progresso compacto</string>
+    <string name="ongoing_compact_mode_summary">Usar um indicador circular compacto para ações em curso</string>
+    <string name="ongoing_chip_color_mode_title">Cor de fundo do chip multimedia</string>
+    <string name="ongoing_chip_color_mode_accent">Cor de destaque do sistema</string>
+    <string name="ongoing_chip_color_mode_icon">Cor do ícone da aplicação</string>
+    <string name="ongoing_chip_color_mode_album_art">Cor da arte do álbum</string>
+    <!-- Custom clock style -->
+    <string name="lockscreen_custom_clock_style_title">Estilo personalizado do relógio</string>
+    <string name="lockscreen_custom_clock_style_summary">Configurar estilos do relógio do ecrã de bloqueio</string>
+    <string name="lockscreen_custom_clock_style_highlight_text">Deslizar para a esquerda ou direita para visualizar os estilos de relógio</string>
+    <string name="lockscreen_custom_clock_style_info">O estilo de relógio personalizado substitui os estilos do relógio AOSP com relógios personalizados. O Espaço Inteligente será desativado. Podes ativar e usar clima personalizado em vez disso.</string>
+    <string name="lockscreen_custom_clock_opacity_title">Opacidade do relógio personalizado</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Ajustar a transparência do estilo de relógio personalizado</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Altura do relógio personalizado</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Ajustar a altura do estilo de relógio personalizado</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Modo de cor de relógio personalizado</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Configurações AlphaDroid</string>
@@ -1202,7 +1212,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="donate_team_title">equipa AlphaDroid</string>
     <string name="donate_team_summary">Doar para manter o servidor de hospedagem, uptime e gerenciamento geral do site</string>
     <!-- AlphaDroid build server sponsor -->
-    <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
+    <string name="buildserversponsor_summary">Fornecedor de servidor para construir AlphaDroid. Toca para visitares o canal.</string>
     <!-- OTA -->
     <string name="alpha_update_title">Atualizações</string>
     <string name="alpha_update_summary">Verifique as atualizações e os links para o seu dispositivo</string>
@@ -1245,7 +1255,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Motor de visualização</string>
     <string name="display_engine_mode_title">Motor de exibição realístico</string>
-    <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
+    <string name="display_engine_mode_summary">Otimize os modos de cor padrão do Android com aprimoramentos de exibição personalizada</string>
     <string name="display_engine_mode_xreality">Motor Realidade-X</string>
     <string name="display_engine_mode_vivid">Cores vívidas</string>
     <string name="display_engine_mode_triluminous">Modo extra-luminoso</string>
@@ -1254,8 +1264,8 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="ignore_window_secure_title">Ignorar restrição de janela segura</string>
     <string name="ignore_window_secure_summary">Remover limites de gravação e captura de ecrã para todas as aplicações. Isso pode ser conveniente em alguns casos, mas pode levar a problemas de privacidade.</string>
     <!-- Hide screen capture status -->
-    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
-    <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
+    <string name="hide_screen_capture_status_title">Ocultar estado de captura do ecrã</string>
+    <string name="hide_screen_capture_status_summary">Ocultar estado de captura do ecrã das aplicações</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Ocultar estado do Modo Programador</string>
     <string name="hide_developer_status_summary">Não permitir que as aplicações consultem o estado do Modo Programador</string>
@@ -1264,39 +1274,46 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="max_visible_notification_icons_title">Ícones de Notificação</string>
     <string name="max_visible_notification_icons_summary">Máximo de ícones de notificação visíveis na barra de estado</string>
     <!-- UI styles -->
-    <string name="ui_style_title">UI Style</string>
-    <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
-    <string name="ui_style_light_theme">Light theme</string>
-    <string name="ui_style_dark_theme">Dark theme</string>
-    <string name="ui_style_reset_section">Reset to defaults</string>
-    <string name="ui_style_reset_all">Reset all styles</string>
-    <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
+    <string name="ui_style_title">Estilo UI</string>
+    <string name="ui_style_summary">Personalizar a aparência das configurações rápidas e da barra de controlo do brilho</string>
+    <string name="ui_style_light_theme">Tema Claro</string>
+    <string name="ui_style_dark_theme">Tema escuro</string>
+    <string name="ui_style_reset_section">Repor predefinições</string>
+    <string name="ui_style_reset_all">Restaurar todos os estilos</string>
+    <string name="ui_style_reset_all_summary">Restaurar todos os parâmetros de estilo para os valores iniciais</string>
     <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Cutout Progress Ring</string>
-    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
+    <string name="cutout_progress_title">Anel de Progresso do corte do ecrã</string>
+    <string name="cutout_progress_summary">Mostrar toque de progresso em torno de corte do ecrá</string>
     <!-- Categories -->
-    <string name="cutout_progress_cat_features">Features</string>
-    <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
+    <string name="cutout_progress_cat_features">Funcionalidades</string>
+    <string name="cutout_progress_cat_appearance">Aparência</string>
+    <string name="cutout_progress_cat_island">Modo expandido</string>
     <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
+    <string name="cutout_progress_download_enabled_title">Ativar o anel de progresso de transferências</string>
+    <string name="cutout_progress_charging_ring_title">Ativar o anel de progresso do carregamento</string>
     <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
-    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
+    <string name="cutout_progress_ring_color_mode_title">Modo de cor do anel</string>
+    <string name="cutout_progress_ring_color_mode_accent">Cor de destaque</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Arco-íris</string>
     <string name="cutout_progress_ring_color_mode_custom">Personalizada</string>
-    <string name="cutout_progress_ring_color_title">Custom ring color</string>
-    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <string name="cutout_progress_ring_color_title">Cor personalizada</string>
+    <string name="cutout_progress_ring_opacity_title">Opacidade do anel</string>
+    <string name="cutout_progress_stroke_width_title">Espessura do anel</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Mostrar pista de fundo</string>
+    <string name="cutout_progress_charging_pulse_title">Animação ao carregar</string>
+    <string name="cutout_progress_charging_pulse_summary">Animar um pulso recorrente do centro durante o carregamento</string>
     <!-- Expanded Mode (Dynamic Island) -->
-    <string name="cutout_progress_island_compact_title">Compact layout</string>
-    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout instead of dropping below it</string>
-    <string name="cutout_progress_island_position_title">Island alignment</string>
-    <string name="cutout_island_pos_center">Center split</string>
+    <string name="cutout_progress_island_compact_title">Layout compacto</string>
+    <string name="cutout_progress_island_compact_summary">Envolver o corte da câmera</string>
+    <string name="cutout_progress_island_position_title">Alinhamento de layout compacto</string>
+    <string name="cutout_island_pos_center">Centrado e dividido</string>
     <string name="cutout_island_pos_left">Esquerda</string>
     <string name="cutout_island_pos_right">Direita</string>
-    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
+    <string name="cutout_island_bg_opacity_title">Opacidade do fundo</string>
+    <string name="cutout_island_timeout_title">Tempo limite do auto-colapso</string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Lista de aplicações ocultadas</string>
+    <string name="hide_applist_summary">Impedir que aplicações externas vejam a aplicação</string>
+    <string name="menu_show_overlay">Mostrar sobreposição</string>
+    <string name="menu_hide_overlay">Esconder sobreposição</string>
 </resources>
