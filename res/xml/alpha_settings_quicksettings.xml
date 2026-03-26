@@ -137,6 +137,14 @@
         android:title="@string/qs_layout_category_title">
 
         <com.alpha.settings.preferences.SystemSettingListPreference
+            android:key="qs_panel_style"
+            android:icon="@drawable/ic_tile_medium"
+            android:title="@string/qs_panel_style_title"
+            android:entries="@array/qs_panel_style_entries"
+            android:entryValues="@array/qs_panel_style_values"
+            android:defaultValue="0" />
+
+        <com.alpha.settings.preferences.SystemSettingListPreference
             android:key="qs_tile_shape"
             android:icon="@drawable/ic_shapes"
             android:title="@string/qs_tile_shape_title"
@@ -144,14 +152,19 @@
             android:entryValues="@array/qs_tile_shape_values"
             android:defaultValue="0" />
 
-        <!--<com.alpha.settings.preferences.SystemSettingSwitchPreference
+        <com.alpha.settings.preferences.QSTileIconShapePreference
+            android:key="qs_tile_icon_shape"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/qs_tile_shape_title" />
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:icon="@drawable/ic_text"
             android:title="@string/qs_tile_label_hide_title"
             android:summary="@string/qs_tile_label_hide_summary"
             android:defaultValue="false" />
 
-        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        <!--<com.alpha.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_tile_label_size"
             android:icon="@drawable/ic_text"
             android:title="@string/qs_tile_label_size_title"
