@@ -84,6 +84,61 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory android:title="@string/cutout_progress_cat_geometry">
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="cutout_progress_ring_gap_x1000"
+            android:title="@string/cutout_progress_ring_gap_title"
+            android:max="2000"
+            settings:min="900"
+            settings:interval="5"
+            settings:units=" (×0.001)"
+            android:defaultValue="1155" />
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="cutout_progress_path_mode"
+            android:title="@string/cutout_progress_path_mode_title"
+            android:summary="@string/cutout_progress_path_mode_summary"
+            android:defaultValue="false" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="cutout_progress_ring_scale_x_x1000"
+            android:title="@string/cutout_progress_scale_x_title"
+            android:max="2000"
+            settings:min="500"
+            settings:interval="5"
+            settings:units=" (×0.001)"
+            android:defaultValue="1000" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="cutout_progress_ring_scale_y_x1000"
+            android:title="@string/cutout_progress_scale_y_title"
+            android:max="2000"
+            settings:min="500"
+            settings:interval="5"
+            settings:units=" (×0.001)"
+            android:defaultValue="1000" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="cutout_progress_ring_offset_x_dp10"
+            android:title="@string/cutout_progress_offset_x_title"
+            android:max="300"
+            settings:min="-300"
+            settings:interval="1"
+            settings:units=" (×0.1 dp)"
+            android:defaultValue="0" />
+
+        <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+            android:key="cutout_progress_ring_offset_y_dp10"
+            android:title="@string/cutout_progress_offset_y_title"
+            android:max="300"
+            settings:min="-300"
+            settings:interval="1"
+            settings:units=" (×0.1 dp)"
+            android:defaultValue="0" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory android:title="@string/cutout_progress_cat_island">
 
         <com.alpha.settings.preferences.SystemSettingSwitchPreference

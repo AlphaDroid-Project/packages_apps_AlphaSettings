@@ -23,9 +23,9 @@ import android.view.WindowManager
 import androidx.compose.ui.graphics.Color
 import androidx.preference.ListPreference
 import androidx.preference.Preference
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent
 import com.android.settings.R
 import com.android.settings.SettingsPreferenceFragment
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent
 import com.alpha.settings.utils.toArgb
 
 class CutoutProgressSettingsFragment : SettingsPreferenceFragment(),
