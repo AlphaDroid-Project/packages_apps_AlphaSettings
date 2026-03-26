@@ -1288,6 +1288,7 @@ The progress bar dynamically switches between media and download states, ensurin
     <!-- Categories -->
     <string name="cutout_progress_cat_features">Features</string>
     <string name="cutout_progress_cat_appearance">Appearance</string>
+    <string name="cutout_progress_cat_geometry">Ring geometry</string>
     <string name="cutout_progress_cat_island">Expanded mode</string>
     <!-- Features -->
     <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
@@ -1301,9 +1302,18 @@ The progress bar dynamically switches between media and download states, ensurin
     <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
     <string name="cutout_progress_stroke_width_title">Ring thickness</string>
     <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
     <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
     <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
-    <!-- Expanded Mode (Dynamic Island) -->
+    <!-- Ring Geometry -->
+    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
+    <string name="cutout_progress_path_mode_title">Capsule / pill mode</string>
+    <string name="cutout_progress_path_mode_summary">Use a pill-shaped path renderer (for elongated cutouts)</string>
+    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
+    <string name="cutout_progress_scale_y_title">Vertical scale</string>
+    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
+    <string name="cutout_progress_offset_y_title">Vertical offset</string>
+    <!-- Expanded Mode -->
     <string name="cutout_progress_island_compact_title">Compact layout</string>
     <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
     <string name="cutout_progress_island_position_title">Compact layout alignment</string>
