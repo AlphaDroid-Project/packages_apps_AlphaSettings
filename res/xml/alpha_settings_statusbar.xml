@@ -34,6 +34,13 @@
         </Preference>
 
         <Preference
+            android:key="dynamic_bar"
+            android:icon="@drawable/ic_dynamic_feed"
+            android:title="@string/dynamic_bar"
+            android:summary="@string/dynamic_bar_enable_summary"
+            android:fragment="com.alpha.settings.fragments.statusbar.DynamicBar" />
+
+        <Preference
             android:key="cutout_progress"
             android:icon="@drawable/ic_cutout_ring"
             android:title="@string/cutout_progress_title"
