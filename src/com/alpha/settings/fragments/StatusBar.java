@@ -41,6 +41,7 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.statusbar.BatteryBar;
 import com.alpha.settings.fragments.statusbar.Clock;
+import com.alpha.settings.fragments.statusbar.DynamicBar;
 import com.alpha.settings.fragments.statusbar.NetworkTrafficSettings;
 import com.alpha.settings.preferences.SystemSettingListPreference;
 import com.alpha.settings.preferences.SystemSettingSeekBarPreference;
@@ -153,6 +154,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
         BatteryBar.reset(mContext);
         Clock.reset(mContext);
+        DynamicBar.Companion.reset(mContext);
         NetworkTrafficSettings.reset(mContext);
     }
 
