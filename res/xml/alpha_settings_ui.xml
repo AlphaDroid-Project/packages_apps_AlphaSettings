@@ -51,6 +51,18 @@
         android:title="@string/theme_customization_font_title"
         android:summary="@string/theme_customization_font_summary" />
 
+    <!-- Ax ThemeStore -->
+    <Preference
+        android:key="custom_system_theme"
+        android:icon="@drawable/ic_asterisk"
+        android:title="@string/custom_system_theme_title"
+        android:summary="@string/custom_system_theme_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.axion.axthemestore"
+            android:targetClass="com.android.axion.axthemestore.MainActivity" />
+    </Preference>
+
     <!-- Icon pack
     <Preference
         android:key="android.theme.customization.icon_pack"
