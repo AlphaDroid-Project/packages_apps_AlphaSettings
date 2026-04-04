@@ -206,10 +206,16 @@
     <string name="advanced_reboot_summary">Feloldott kijelzőnél a Recovery és a Bootloader újraindítási mód is jelenjen meg a kikapcsoló-menüben</string>
     <string name="advanced_reboot_secured_title">Biztonságos záróképernyő</string>
     <string name="advanced_reboot_secured_summary">A biztonságos záróképernyőn is megjelennek a speciális újraindítási lehetőségek</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Monet-beállítások</string>
     <string name="monet_summary">A Monet-témamotor testreszabása</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Körvonalas</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Kiemelőszín</string>
     <string name="monet_engine_custom_color_summary">Válassza ki a kiemelés egyéni színét</string>
     <string name="monet_engine_custom_bgcolor_title">Háttérszín</string>
@@ -219,10 +225,12 @@
     <string name="monet_engine_luminance_factor_summary">A magasabb értékek élénkebb színeket eredményeznek</string>
     <string name="monet_engine_chroma_factor_title">Chorma-faktor</string>
     <string name="monet_engine_chroma_factor_summary">A magasabb értékek erősebb színeket eredményeznek</string>
-    <string name="monet_engine_whole_palette_title">Az egész paletta</string>
-    <string name="monet_engine_whole_palette_summary">A \'Fényerősség\' és a \'Színesség\' kiválasztása a másodlagos színeket is befolyásolja</string>
     <string name="monet_engine_tint_background_title">Háttérkitöltés</string>
     <string name="monet_engine_tint_background_summary">A \'Fényerősség\' és a \'Színesség\' kiválasztása a háttérszíneket is befolyásolja</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Témastílus</string>
     <string name="monet_engine_style_tonal_spot">Tónusfolt (alapértelmezett)</string>
     <string name="monet_engine_style_vibrant">Vibráló</string>
@@ -236,6 +244,8 @@
     <string name="monet_engine_color_source_home">Kezdőképernyő háttérképe</string>
     <string name="monet_engine_color_source_lock">Záróképernyő háttérképe</string>
     <string name="monet_engine_color_source_preset">Előre beállított</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Helyes PIN beírásakor automatikusan feloldódik. Ez kevésbé biztonságos, mint az Enter megérintése a megerősítéshez.</string>
     <!-- Doze settings -->
