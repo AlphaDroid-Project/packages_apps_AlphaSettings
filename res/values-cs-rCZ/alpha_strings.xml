@@ -208,10 +208,16 @@
     <string name="advanced_reboot_summary">Pokud je povolen, v\u00a0Menu napájení jsou také zahrnuty možnosti restartovat zařízení do recovery nebo bootloaderu</string>
     <string name="advanced_reboot_secured_title">Zabezpečená obrazovka uzamčení</string>
     <string name="advanced_reboot_secured_summary">Zobrazit rozšířené možnosti restartu na zabezpečené obrazovce uzamčení</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Nastavení Monetu</string>
     <string name="monet_summary">Přizpůsobit theme engine Monetu</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Ohraničení</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Doplňková barva</string>
     <string name="monet_engine_custom_color_summary">Zvolte si vlastní doplňkovou barvu</string>
     <string name="monet_engine_custom_bgcolor_title">Barva pozadí</string>
@@ -221,10 +227,12 @@
     <string name="monet_engine_luminance_factor_summary">Vyšší hodnoty vytvářejí jasnější barvy</string>
     <string name="monet_engine_chroma_factor_title">Faktor chromu</string>
     <string name="monet_engine_chroma_factor_summary">Vyšší hodnoty vytvářejí výraznější barvy</string>
-    <string name="monet_engine_whole_palette_title">Celá paleta</string>
-    <string name="monet_engine_whole_palette_summary">Výběr svítivosti a\u00a0chromatičnosti bude ovlivňovat také sekundární barvy</string>
     <string name="monet_engine_tint_background_title">Zvýraznit pozadí</string>
     <string name="monet_engine_tint_background_summary">Výběr svítivosti a\u00a0chromatičnosti bude ovlivňovat také barvy pozadí</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Styl motivu</string>
     <string name="monet_engine_style_tonal_spot">Tonal Spot (výchozí)</string>
     <string name="monet_engine_style_vibrant">Živý</string>
@@ -238,6 +246,8 @@
     <string name="monet_engine_color_source_home">Tapeta plochy</string>
     <string name="monet_engine_color_source_lock">Tapeta obrazovky uzamčení</string>
     <string name="monet_engine_color_source_preset">Předvolba</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Odemknout automaticky po zadání správného PINu. Toto je o trochu méně bezpečné než klepnutí na tlačítko Enter pro potvrzení PINu.</string>
     <!-- Doze settings -->
