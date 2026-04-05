@@ -20,6 +20,7 @@ package com.alpha.settings.fragments.ui;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.os.Handler;
@@ -273,11 +274,32 @@ public class MonetSettings extends DashboardFragment implements OnPreferenceChan
         return STYLE_MONOCHROMATIC.equals(mThemeStyle.getValue());
     }
 
+    private boolean isBerryBlackNightActive() {
+        final Context ctx = getContext();
+        if (ctx == null) {
+            return false;
+        }
+        if (Settings.Secure.getInt(ctx.getContentResolver(), Settings.Secure.BERRY_BLACK_THEME, 0)
+                != 1) {
+            return false;
+        }
+        final int nightMask = ctx.getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK;
+        return nightMask == Configuration.UI_MODE_NIGHT_YES;
+    }
+
     private void applyBackgroundTintPolicy(String style) {
-        final boolean disallow = isBackgroundTintDisallowed(style);
+        final boolean disallowStyle = isBackgroundTintDisallowed(style);
+        final boolean disallowBerry = isBerryBlackNightActive();
+        final boolean disallow = disallowStyle || disallowBerry;
+
         mTintBackground.setEnabled(!disallow);
         mBgColor.setEnabled(!disallow && mTintBackground.isChecked());
-        if (disallow) {
+
+        if (disallowBerry) {
+            mTintBackground.setSummary(getString(R.string.monet_engine_tint_disabled_berry_black));
+            mBgColor.setSummary(getString(R.string.monet_engine_bg_color_disabled_berry_black));
+        } else if (disallowStyle) {
             mTintBackground.setChecked(false);
             mTintBackground.setSummary(STYLE_MONOCHROMATIC.equals(style)
                     ? getString(R.string.monet_engine_tint_disabled_monochrome)
