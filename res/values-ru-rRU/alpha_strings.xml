@@ -208,10 +208,16 @@
     <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны дополнительные варианты перезагрузки</string>
     <string name="advanced_reboot_secured_title">Защищённый экран блокировки</string>
     <string name="advanced_reboot_secured_summary">Показывать дополнительные параметры перезагрузки на экране блокировки</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Настройки Monet</string>
     <string name="monet_summary">Настройки движка тем - Monet</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Контур</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Цветовой акцент</string>
     <string name="monet_engine_custom_color_summary">Выберите свой цвет акцента</string>
     <string name="monet_engine_custom_bgcolor_title">Цвет фона</string>
@@ -221,10 +227,14 @@
     <string name="monet_engine_luminance_factor_summary">Чем больше значение, тем ярче цвета</string>
     <string name="monet_engine_chroma_factor_title">Коэффициент цветности</string>
     <string name="monet_engine_chroma_factor_summary">Более высокие значения дают более яркие цвета</string>
-    <string name="monet_engine_whole_palette_title">Вся палитра</string>
-    <string name="monet_engine_whole_palette_summary">Выбор яркости и насыщенности также влияет на второстепенные цвета</string>
     <string name="monet_engine_tint_background_title">Оттенок фона</string>
     <string name="monet_engine_tint_background_summary">Выбор яркости и цветности, позволяет также влиять на цвета фона</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
+    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Тема оформления</string>
     <string name="monet_engine_style_tonal_spot">Тональное пятно (По умолчанию)</string>
     <string name="monet_engine_style_vibrant">Живая</string>
@@ -238,6 +248,8 @@
     <string name="monet_engine_color_source_home">Обои рабочего стола</string>
     <string name="monet_engine_color_source_lock">Обои экрана блокировки</string>
     <string name="monet_engine_color_source_preset">Шаблон</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если введён правильный PIN-код. Это менее безопасно, чем нажатие кнопки подтверждения.</string>
     <!-- Doze settings -->
@@ -782,8 +794,12 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Температура аккумулятора</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Прозрачность фона</string>
-    <string name="qs_opacity_summary">Уровень прозрачности панели быстрых настроек</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <!-- QS Blur intensity -->
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Трафик приложений</string>
     <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
