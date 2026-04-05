@@ -21,6 +21,7 @@
     android:title="@string/quicksettings_title">
 
     <PreferenceCategory
+         android:key="qs_misc_category"
          android:title="@string/qs_misc_category">
 
         <!-- QS Header -->
@@ -63,8 +64,8 @@
             android:summary="@string/lockscreen_quick_settings_summary"
             android:defaultValue="true" />
 
-        <!--<com.alpha.settings.preferences.SystemSettingSeekBarPreference
-            android:key="qs_transparency"
+        <com.alpha.settings.preferences.SecureSettingSeekBarPreference
+            android:key="qs_panel_scrim_alpha"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/qs_opacity_title"
             android:summary="@string/qs_opacity_summary"
@@ -72,7 +73,7 @@
             settings:interval="1"
             settings:units="%"
             android:max="100"
-            android:min="1" /> -->
+            settings:min="0" />
 
     </PreferenceCategory>
 
