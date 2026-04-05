@@ -206,10 +206,16 @@
     <string name="advanced_reboot_summary">Lorsque l\'appareil est déverrouillé, inclure les options de redémarrage avancé dans le menu Marche/Arrêt</string>
     <string name="advanced_reboot_secured_title">Redémarrage avancé sur l\'écran de verrouillage</string>
     <string name="advanced_reboot_secured_summary">Afficher les options de redémarrage avancé sur l\'écran de verrouillage</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Paramètres de Monet</string>
     <string name="monet_summary">Personnaliser le thème Monet</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Contour</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Couleur d\'accentuation</string>
     <string name="monet_engine_custom_color_summary">Choisir une couleur personnalisée pour l\'accentuation</string>
     <string name="monet_engine_custom_bgcolor_title">Couleur d\'arrière-plan</string>
@@ -219,10 +225,12 @@
     <string name="monet_engine_luminance_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
     <string name="monet_engine_chroma_factor_title">Facteur Chroma</string>
     <string name="monet_engine_chroma_factor_summary">Des valeurs plus élevées produisent des couleurs plus fortes</string>
-    <string name="monet_engine_whole_palette_title">Palette entière</string>
-    <string name="monet_engine_whole_palette_summary">La Luminance et la sélection Chroma affectent aussi les couleurs secondaires</string>
     <string name="monet_engine_tint_background_title">Teinte de l\'arrière-plan</string>
     <string name="monet_engine_tint_background_summary">Faire en sorte que la Luminance et la sélection Chroma affectent aussi les couleurs d\'arrière-plan</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Style du thème</string>
     <string name="monet_engine_style_tonal_spot">Tonal Spot (défaut)</string>
     <string name="monet_engine_style_vibrant">Éclatant</string>
@@ -236,6 +244,8 @@
     <string name="monet_engine_color_source_home">Fond d\'écran d\'accueil</string>
     <string name="monet_engine_color_source_lock">Fond d\'écran de verrouillage</string>
     <string name="monet_engine_color_source_preset">Préréglage</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Déverrouiller automatiquement si vous saisissez un code PIN correct. Ceci est légèrement moins sécurisé que d\'appuyer sur Entrée pour confirmer.</string>
     <!-- Doze settings -->
