@@ -206,10 +206,16 @@
     <string name="advanced_reboot_summary">Όταν είναι η συσκευή ξεκλείδωμενη, περιλαμβάνονται στο μενού ισχύος οι επιλογές επανεκκίνησης σε λειτουργία recovery ή bootloader</string>
     <string name="advanced_reboot_secured_title">Ασφαλής οθόνη κλειδώματος</string>
     <string name="advanced_reboot_secured_summary">Εμφάνιση προηγμένων επιλογών επανεκκίνησης στην ασφαλή οθόνη κλειδώματος</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Ρυθμίσεις Monet</string>
     <string name="monet_summary">Προσαρμογή μηχανής θέματος Monet</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Περίγραμμα</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Χρώμα έμφασης</string>
     <string name="monet_engine_custom_color_summary">Επιλέξτε προσαρμοσμένο χρώμα για έμφαση</string>
     <string name="monet_engine_custom_bgcolor_title">Χρώμα φόντου</string>
@@ -219,10 +225,14 @@
     <string name="monet_engine_luminance_factor_summary">Υψηλότερες τιμές παράγουν φωτεινότερα χρώματα</string>
     <string name="monet_engine_chroma_factor_title">Συντελεστής χρωματισμού</string>
     <string name="monet_engine_chroma_factor_summary">Υψηλότερες τιμές παράγουν ισχυρότερα χρώματα</string>
-    <string name="monet_engine_whole_palette_title">Ολόκληρη παλέτα</string>
-    <string name="monet_engine_whole_palette_summary">Κάντε τη φωτεινότητα και την επιλογή χρώματος να επηρεάσουν επίσης τα δευτερεύοντα χρώματα</string>
     <string name="monet_engine_tint_background_title">Απόχρωση φόντου</string>
     <string name="monet_engine_tint_background_summary">Κάντε τη φωτεινότητα και την επιλογή χρώματος να επηρεάσουν επίσης τα χρώματα του φόντου</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
+    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Στυλ θέματος</string>
     <string name="monet_engine_style_tonal_spot">Tonal Spot (Προεπιλογή)</string>
     <string name="monet_engine_style_vibrant">Έντονο</string>
@@ -236,6 +246,8 @@
     <string name="monet_engine_color_source_home">Ταπετσαρία Αρχικής οθόνης</string>
     <string name="monet_engine_color_source_lock">Ταπετσαρία κλειδώματος</string>
     <string name="monet_engine_color_source_preset">Προκαθορισμένο</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Ξεκλειδώστε αυτόματα εάν εισαγάγετε ένα σωστό PIN. Αυτό είναι ελαφρώς λιγότερο ασφαλές από το να πατήσετε Enter για επιβεβαίωση.</string>
     <!-- Doze settings -->
@@ -778,8 +790,12 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Θερμοκρασία μπαταρίας</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Αδιαφάνεια φόντου</string>
-    <string name="qs_opacity_summary">Ορισμός επιπέδου αδιαφάνειας για φόντο γρήγορων ρυθμίσεων</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <!-- QS Blur intensity -->
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Χρήση δεδομένων</string>
     <string name="qs_footer_datausage_summary">Εμφάνιση σύνοψης χρήσης δεδομένων στο υποσέλιδο γρήγορων ρυθμίσεων</string>
