@@ -206,10 +206,16 @@
     <string name="advanced_reboot_summary">Bei entsperrtem Bildschirm im Neustartmenü Recovery- und Bootloader-Optionen anzeigen</string>
     <string name="advanced_reboot_secured_title">Bei nicht entsperrtem Gerät</string>
     <string name="advanced_reboot_secured_summary">Erweitertes Neustartmenü auch anzeigen, wenn das Gerät nicht entsperrt wurde</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Monet-Einstellungen</string>
     <string name="monet_summary">Anpassen der „Material You“-Theme-Engine</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Umrandet</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Akzentfarbe</string>
     <string name="monet_engine_custom_color_summary">Benutzerdefinierte Akzentfarbe auswählen</string>
     <string name="monet_engine_custom_bgcolor_title">Hintergrundfarbe</string>
@@ -219,10 +225,12 @@
     <string name="monet_engine_luminance_factor_summary">Höhere Werte erzeugen hellere Farben</string>
     <string name="monet_engine_chroma_factor_title">Sättigungsfaktor</string>
     <string name="monet_engine_chroma_factor_summary">Höhere Werte erzeugen kräftigere Farben</string>
-    <string name="monet_engine_whole_palette_title">Gesamte Palette</string>
-    <string name="monet_engine_whole_palette_summary">Leuchtkraft- und Sättigungseinstellung Einfluss auf die Sekundärfarben nehmen lassen</string>
     <string name="monet_engine_tint_background_title">Hintergrund einfärben</string>
     <string name="monet_engine_tint_background_summary">Leuchtkraft- und Sättigungseinstellung Einfluss auf die Farben des Hintergrundbilds nehmen lassen</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Designstil</string>
     <string name="monet_engine_style_tonal_spot">Tonal Spot (Standard)</string>
     <string name="monet_engine_style_vibrant">Lebhaft</string>
@@ -236,6 +244,8 @@
     <string name="monet_engine_color_source_home">Hintergrundbild des Startbildschirms</string>
     <string name="monet_engine_color_source_lock">Hintergrundbild des Sperrbildschirms</string>
     <string name="monet_engine_color_source_preset">Voreinstellung</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Automatisch entsperren bei korrekter PIN-Eingabe. Diese Option ist etwas unsicherer, als zum Bestätigen auf „Eingabe“ tippen zu müssen.</string>
     <!-- Doze settings -->
