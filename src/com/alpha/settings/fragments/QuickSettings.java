@@ -19,8 +19,10 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.view.CrossWindowBlurListeners;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -56,6 +58,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_BRIGHTNESS_SLIDER_HAPTIC = "qs_brightness_slider_haptic";
     private static final String KEY_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
     private static final String KEY_QS_TILE_HAPTIC = "qs_tile_haptic";
+    private static final String KEY_QS_BLUR_INTENSITY = "qs_panel_blur_intensity";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
@@ -103,6 +106,62 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else {
             brightnessCategory.removePreference(mShowAutoBrightness);
         }
+
+        updateQsBlurPreferenceState(context);
+    }
+
+    /**
+     * Device/build can render window blur ({@code ro.surface_flinger.supports_background_blur},
+     * {@link CrossWindowBlurListeners#CROSS_WINDOW_BLUR_SUPPORTED}). If false, the blur intensity
+     * row is not shown (same as “removed”).
+     */
+    static boolean isQsBlurSupported(Context context) {
+        if (!CrossWindowBlurListeners.CROSS_WINDOW_BLUR_SUPPORTED) {
+            return false;
+        }
+        return SystemProperties.getInt("ro.surface_flinger.supports_background_blur", 0) == 1;
+    }
+
+    /**
+     * Window blurs are allowed ({@link Settings.Global#DISABLE_WINDOW_BLURS} == 0). Only relevant when
+     * {@link #isQsBlurSupported} is true; when supported but this is false, the preference stays
+     * visible and is disabled.
+     */
+    private static boolean isWindowBlurEnabled(Context context) {
+        return Settings.Global.getInt(
+                context.getContentResolver(), Settings.Global.DISABLE_WINDOW_BLURS, 0) == 0;
+    }
+
+    private void updateQsBlurPreferenceState(Context context) {
+        Preference blurPref = findPreference(KEY_QS_BLUR_INTENSITY);
+        if (blurPref == null) {
+            return;
+        }
+
+        if (!isQsBlurSupported(context)) {
+            blurPref.setVisible(false);
+            return;
+        }
+
+        blurPref.setVisible(true);
+
+        if (!isWindowBlurEnabled(context)) {
+            blurPref.setEnabled(false);
+            blurPref.setSummary(context.getString(R.string.qs_blur_intensity_summary) + " "
+                    + context.getString(R.string.qs_blur_disabled_in_settings));
+        } else {
+            blurPref.setEnabled(true);
+            blurPref.setSummary(context.getString(R.string.qs_blur_intensity_summary));
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        final Context context = getContext();
+        if (context != null) {
+            updateQsBlurPreferenceState(context);
+        }
     }
 
     @Override
@@ -127,6 +186,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.ENABLE_LOCKSCREEN_QUICK_SETTINGS, 1, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.QS_PANEL_SCRIM_ALPHA, 100, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.QS_PANEL_BLUR_INTENSITY, 100, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_BRIGHTNESS_SLIDER_HAPTIC, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -179,6 +240,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                     if (!hapticAvailable) {
                         keys.add(KEY_BRIGHTNESS_SLIDER_HAPTIC);
                         keys.add(KEY_QS_TILE_HAPTIC);
+                    }
+
+                    if (!isQsBlurSupported(context)) {
+                        keys.add(KEY_QS_BLUR_INTENSITY);
                     }
 
                     return keys;
