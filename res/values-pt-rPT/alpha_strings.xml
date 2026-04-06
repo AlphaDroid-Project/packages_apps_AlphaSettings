@@ -206,23 +206,33 @@
     <string name="advanced_reboot_summary">Quando desbloqueado, incluir opções no menu de energia para reiniciar em modo de recuperação ou bootloader</string>
     <string name="advanced_reboot_secured_title">Ecrã de bloqueio seguro</string>
     <string name="advanced_reboot_secured_summary">Mostrar opções avançadas de reinicialização no ecrã de bloqueio seguro</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Configurações Monet</string>
     <string name="monet_summary">Personalizar o motor de temas Monet</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primária</string>
+    <string name="monet_engine_preview_swatch_secondary">Secundária</string>
+    <string name="monet_engine_preview_swatch_tertiary">Terciária</string>
+    <string name="monet_engine_preview_swatch_surface">Superfície</string>
+    <string name="monet_engine_preview_swatch_error">Erro</string>
+    <string name="monet_engine_preview_swatch_outline">Contornado</string>
+    <string name="monet_engine_preview_swatch_inverse">Superfície invertida</string>
     <string name="monet_engine_custom_color_title">Cor do acento</string>
     <string name="monet_engine_custom_color_summary">Personalizar a cor de destaque</string>
     <string name="monet_engine_custom_bgcolor_title">Cor de fundo</string>
     <string name="monet_engine_custom_bgcolor_summary">Personalizar a cor de fundo</string>
     <string name="monet_engine_color_override_title">Cor personalizada</string>
     <string name="monet_engine_luminance_factor_title">Luminosidade</string>
-    <string name="monet_engine_luminance_factor_summary">Valores maiores produzem cores mais brilhantes</string>
+    <string name="monet_engine_luminance_factor_summary">Desloca o brilho da paleta geral mantendo as superfícies legíveis</string>
     <string name="monet_engine_chroma_factor_title">Fator cromático</string>
-    <string name="monet_engine_chroma_factor_summary">Valores maiores produzem cores mais garridas</string>
-    <string name="monet_engine_whole_palette_title">Paleta inteira</string>
-    <string name="monet_engine_whole_palette_summary">Usar as definições de cor e de luminosidade na aplicação da cor de fundo</string>
-    <string name="monet_engine_tint_background_title">Colorir superfície de fundo</string>
-    <string name="monet_engine_tint_background_summary">Usar as definições de cor e de luminosidade na aplicação da cor de fundo</string>
+    <string name="monet_engine_chroma_factor_summary">Ajusta a intensidade do realce; valores negativos reduzem a uma intensidade de cor agressiva</string>
+    <string name="monet_engine_tint_background_title">Tonalidade de fundo personalizada</string>
+    <string name="monet_engine_tint_background_summary">Use matiz personalizado para superfícies neutras com intensidade de cor baixa e controlada</string>
+    <string name="monet_engine_tint_disabled_monochrome">Não disponível para Monocromo — superfícies permanecem cinza neutro</string>
+    <string name="monet_engine_tint_disabled_rainbow">Não disponível para o estilo Arco-íris — este estilo define o seu próprio matiz</string>
+    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
+    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
+    <string name="monet_engine_bg_color_disabled_style">Não disponível para este estilo</string>
+    <string name="monet_engine_controls_disabled_monochrome">Não disponível para monocromático — ajustar a luminosidade apenas para brilho</string>
     <string name="monet_engine_style_title">Estilo do tema</string>
     <string name="monet_engine_style_tonal_spot">Ponto Tonal (predefinido)</string>
     <string name="monet_engine_style_vibrant">Vibrante</string>
@@ -236,6 +246,8 @@
     <string name="monet_engine_color_source_home">Fundo da página inicial</string>
     <string name="monet_engine_color_source_lock">Imagem de fundo do ecrã de bloqueio</string>
     <string name="monet_engine_color_source_preset">Predefinido</string>
+    <string name="monet_engine_fidelity_title">Fidelidade de cor</string>
+    <string name="monet_engine_fidelity_summary">Use a tonalidade exata da cor da semente na paleta primária em vez do ajuste padrão. Produz mais cores vivas e fieis. Apenas afeta a paleta primária.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquear automaticamente se inserir um PIN correto. Isto é um pouco menos seguro do que confirmar manualmente.</string>
     <!-- Doze settings -->
@@ -778,8 +790,12 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura da bateria</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Opacidade do fundo</string>
-    <string name="qs_opacity_summary">Definir o nível de opacidade do fundo do painel de definições rápidas</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <!-- QS Blur intensity -->
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilização de dados</string>
     <string name="qs_footer_datausage_summary">Mostrar resumo da utilização de dados no rodapé das definições rápidas</string>
@@ -1287,7 +1303,7 @@ A barra de progresso alterna dinamicamente entre os estados multimedia e transfe
     <!-- Categories -->
     <string name="cutout_progress_cat_features">Funcionalidades</string>
     <string name="cutout_progress_cat_appearance">Aparência</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
+    <string name="cutout_progress_cat_geometry">Geometria de anel</string>
     <string name="cutout_progress_cat_island">Modo expandido</string>
     <!-- Features -->
     <string name="cutout_progress_download_enabled_title">Ativar o anel de progresso de transferências</string>
@@ -1301,17 +1317,17 @@ A barra de progresso alterna dinamicamente entre os estados multimedia e transfe
     <string name="cutout_progress_ring_opacity_title">Opacidade do anel</string>
     <string name="cutout_progress_stroke_width_title">Espessura do anel</string>
     <string name="cutout_progress_bg_ring_enabled_title">Mostrar pista de fundo</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
+    <string name="cutout_progress_bg_ring_enabled_summary">Desenhar um anel sombreado atrás do arco de progresso</string>
     <string name="cutout_progress_charging_pulse_title">Animação ao carregar</string>
     <string name="cutout_progress_charging_pulse_summary">Animar um pulso recorrente do centro durante o carregamento</string>
     <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_path_mode_title">Follow cutout shape</string>
-    <string name="cutout_progress_path_mode_summary">Use the cutout’s native aspect ratio instead of normalizing the ring to a circle</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
+    <string name="cutout_progress_ring_gap_title">Intervalo entre o anel e o recorte do ecrã</string>
+    <string name="cutout_progress_path_mode_title">Seguir forma do recorte do ecrã</string>
+    <string name="cutout_progress_path_mode_summary">Use a relação de aspeto nativo do recorte em vez de normalizar o anel para um círculo</string>
+    <string name="cutout_progress_scale_x_title">Escala horizontal</string>
+    <string name="cutout_progress_scale_y_title">Escala vertical</string>
+    <string name="cutout_progress_offset_x_title">Deslocamento horizontal</string>
+    <string name="cutout_progress_offset_y_title">Deslocamento vertical</string>
     <!-- Expanded Mode -->
     <string name="cutout_progress_island_compact_title">Layout compacto</string>
     <string name="cutout_progress_island_compact_summary">Envolver o corte da câmera</string>

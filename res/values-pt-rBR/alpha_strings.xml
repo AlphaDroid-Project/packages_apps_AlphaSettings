@@ -206,10 +206,16 @@
     <string name="advanced_reboot_summary">Incluir opções de reinicio avançado ao menu de energia quando o aparelho estiver desbloqueado</string>
     <string name="advanced_reboot_secured_title">Reinício avançando na tela de bloqueio</string>
     <string name="advanced_reboot_secured_summary">Mostrar opções de reinício avançado na tela de bloqueio</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Ajustes no tema Monet</string>
     <string name="monet_summary">Personalize o motor de temas Monet</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Contornado</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Cor de destaque</string>
     <string name="monet_engine_custom_color_summary">Escolher cor de destaque personalizada</string>
     <string name="monet_engine_custom_bgcolor_title">Cor de fundo</string>
@@ -219,10 +225,14 @@
     <string name="monet_engine_luminance_factor_summary">Valores maiores produzem cores mais brilhantes</string>
     <string name="monet_engine_chroma_factor_title">Coloração</string>
     <string name="monet_engine_chroma_factor_summary">Valores maiores produzem cores mais fortes</string>
-    <string name="monet_engine_whole_palette_title">Paleta inteira</string>
-    <string name="monet_engine_whole_palette_summary">Faça com que a seleção de luminância e coloração também se aplique as cores secundárias</string>
     <string name="monet_engine_tint_background_title">Tonalidade de fundo</string>
     <string name="monet_engine_tint_background_summary">Faça com que a seleção de luminância e coloração também afete as cores de fundo</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
+    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Estilo do tema</string>
     <string name="monet_engine_style_tonal_spot">Ponto Tonal (Padrão)</string>
     <string name="monet_engine_style_vibrant">Vibrante</string>
@@ -236,6 +246,8 @@
     <string name="monet_engine_color_source_home">Papel de parede</string>
     <string name="monet_engine_color_source_lock">Papel de parede</string>
     <string name="monet_engine_color_source_preset">Predefinição</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquear automaticamente se você inserir o PIN correto. Isso é um pouco menos seguro do que tocar em Enter para confirmar.</string>
     <!-- Doze settings -->
@@ -778,8 +790,12 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura da bateria</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Opacidade de fundo</string>
-    <string name="qs_opacity_summary">Definir o nível de opacidade para o plano de fundo das configurações rápidas</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <!-- QS Blur intensity -->
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Uso de dados</string>
     <string name="qs_footer_datausage_summary">Mostrar resumo de uso de dados no rodapé das configurações rápidas</string>

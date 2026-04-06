@@ -207,10 +207,16 @@
     <string name="advanced_reboot_summary">La deblocare, se includ opțiuni în meniul de pornire pentru repornirea în recuperare sau bootloader</string>
     <string name="advanced_reboot_secured_title">Ecran de blocare securizat</string>
     <string name="advanced_reboot_secured_summary">Afișează opțiuni avansate de repornire pe ecranul de blocare securizat</string>
-    <!-- UI settings -->
+    <!-- Monet settings -->
     <string name="monet_title">Setări Monet</string>
     <string name="monet_summary">Personalizează motorul de temă Monet</string>
-    <!-- Monet Engine -->
+    <string name="monet_engine_preview_swatch_primary">Primary</string>
+    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
+    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
+    <string name="monet_engine_preview_swatch_surface">Surface</string>
+    <string name="monet_engine_preview_swatch_error">Error</string>
+    <string name="monet_engine_preview_swatch_outline">Contur</string>
+    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
     <string name="monet_engine_custom_color_title">Nuanță culoare</string>
     <string name="monet_engine_custom_color_summary">Alege culoarea personalizată pentru accent</string>
     <string name="monet_engine_custom_bgcolor_title">Culoare de fundal</string>
@@ -220,10 +226,14 @@
     <string name="monet_engine_luminance_factor_summary">Valorile mai mari produc culori mai bune</string>
     <string name="monet_engine_chroma_factor_title">Factor de cromă</string>
     <string name="monet_engine_chroma_factor_summary">Valorile mai mari produc culori mai puternice</string>
-    <string name="monet_engine_whole_palette_title">Întreaga paletă</string>
-    <string name="monet_engine_whole_palette_summary">Faceți selecțiile de luminanță și chroma să afecteze și culorile secundare</string>
     <string name="monet_engine_tint_background_title">Nuanță de fundal</string>
     <string name="monet_engine_tint_background_summary">Face ca Luminanța și Chroma să afecteze și culorile de fundal</string>
+    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
+    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
+    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
+    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
+    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
+    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
     <string name="monet_engine_style_title">Stil temă</string>
     <string name="monet_engine_style_tonal_spot">Punct de tonaj (implicit)</string>
     <string name="monet_engine_style_vibrant">Vibrant</string>
@@ -237,6 +247,8 @@
     <string name="monet_engine_color_source_home">Fundal principal</string>
     <string name="monet_engine_color_source_lock">Fundal ecran blocare</string>
     <string name="monet_engine_color_source_preset">Presetat</string>
+    <string name="monet_engine_fidelity_title">Color fidelity</string>
+    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Deblocați automat dacă introduceți un cod PIN corect. Acest lucru este puțin mai sigur decât apăsarea Enter pentru confirmare.</string>
     <!-- Doze settings -->
@@ -780,8 +792,12 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatură baterie</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">Opacitate fundal</string>
-    <string name="qs_opacity_summary">Setează nivelul de opacitate pentru fundalul setărilor rapide</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <!-- QS Blur intensity -->
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Utilizare date</string>
     <string name="qs_footer_datausage_summary">Afișează sumarul utilizării datelor în subsolul setărilor rapide</string>
