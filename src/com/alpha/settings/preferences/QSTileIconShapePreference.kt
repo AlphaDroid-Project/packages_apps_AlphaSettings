@@ -184,7 +184,7 @@ class QSTileIconShapePreference @JvmOverloads constructor(
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShapeViewHolder {
             val v = LayoutInflater.from(parent.context)
-                .inflate(R.layout.logo_option, parent, false)
+                .inflate(R.layout.icon_option_small, parent, false)
             return ShapeViewHolder(v)
         }
 
