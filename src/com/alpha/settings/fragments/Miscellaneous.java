@@ -25,27 +25,22 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.View;
 
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.alpha.KeyProviderManager;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.misc.SensorBlock;
-import com.alpha.settings.preferences.KeyboxDataPreference;
 import com.alpha.settings.fragments.misc.SmartPixels;
 
 import java.util.List;
@@ -61,12 +56,8 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     private static final String POCKET_JUDGE = "pocket_judge";
     private static final String KEY_GMS_CERT_SPOOF = "pi_gms_cert_chain";
     private static final String KEY_THREE_FINGERS_SWIPE = "three_fingers_swipe";
-    private static final String KEYBOX_DATA_KEY = "keybox_data_setting";
     private static final String SMART_PIXELS = "smart_pixels";
 
-    private ActivityResultLauncher<Intent> mKeyboxFilePickerLauncher;
-    private KeyboxDataPreference mKeyboxDataPreference;
-    private SwitchPreferenceCompat mDisableForceIntegrity;
     private Preference mPocketJudge;
     private ListPreference mThreeFingersSwipeAction;
     private Preference mSmartPixels;
@@ -98,27 +89,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 Settings.System.KEY_THREE_FINGERS_SWIPE_ACTION,
                 Action.NOTHING);
         mThreeFingersSwipeAction = initList(KEY_THREE_FINGERS_SWIPE, threeFingersSwipeAction);
-
-        mDisableForceIntegrity = (SwitchPreferenceCompat) findPreference(KEY_GMS_CERT_SPOOF);
-        if (mDisableForceIntegrity != null) {
-            mDisableForceIntegrity.setEnabled(KeyProviderManager.isKeyboxAvailable());
-        }
-
-        mKeyboxFilePickerLauncher = registerForActivityResult(
-            new ActivityResultContracts.StartActivityForResult(),
-            result -> {
-                if (result.getResultCode() == Activity.RESULT_OK && result.getData() != null) {
-                    Uri uri = result.getData().getData();
-                    Preference pref = findPreference(KEYBOX_DATA_KEY);
-                    if (pref instanceof KeyboxDataPreference) {
-                        ((KeyboxDataPreference) pref).handleFileSelected(uri);
-                    }
-                    if (mDisableForceIntegrity != null) {
-                        mDisableForceIntegrity.setEnabled(KeyProviderManager.isKeyboxAvailable());
-                    }
-                }
-            }
-        );
     }
 
     private ListPreference initList(String key, Action value) {
@@ -151,15 +121,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         return false;
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        mKeyboxDataPreference = findPreference(KEYBOX_DATA_KEY);
-        if (mKeyboxDataPreference != null) {
-            mKeyboxDataPreference.setFilePickerLauncher(mKeyboxFilePickerLauncher);
-        }
-    }
-
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
@@ -168,16 +129,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 Settings.System.POCKET_JUDGE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.PI_ENABLE_SPOOF, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.PI_GMS_CERT_CHAIN, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.PI_GAMES_SPOOF, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.PI_PHOTOS_SPOOF, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.PI_NETFLIX_SPOOF, 0, UserHandle.USER_CURRENT);
         SensorBlock.reset(mContext);
         SystemProperties.set("persist.sys.vbmeta.update", "true");
         SmartPixels.reset(mContext);
