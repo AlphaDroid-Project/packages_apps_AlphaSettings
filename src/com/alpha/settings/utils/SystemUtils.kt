@@ -22,7 +22,7 @@ import android.widget.Toast
 
 import androidx.appcompat.app.AlertDialog
 
-import com.android.settings.R
+import com.android.internal.R as FrameworkR
 import com.android.internal.util.alpha.Utils
 
 object SystemUtils {
@@ -30,12 +30,12 @@ object SystemUtils {
     @JvmStatic
     fun showSystemUiRestartDialog(context: Context) {
         AlertDialog.Builder(context)
-            .setTitle(R.string.systemui_restart_title)
-            .setMessage(R.string.systemui_restart_message)
-            .setPositiveButton(R.string.systemui_restart_yes) { _, _ ->
+            .setTitle(FrameworkR.string.systemui_restart_title)
+            .setMessage(FrameworkR.string.systemui_restart_message)
+            .setPositiveButton(FrameworkR.string.systemui_restart_yes) { _, _ ->
                 restartSystemUI(context)
             }
-            .setNegativeButton(R.string.systemui_restart_not_now, null)
+            .setNegativeButton(FrameworkR.string.systemui_restart_not_now, null)
             .show()
     }
 
@@ -43,7 +43,7 @@ object SystemUtils {
     fun restartSystemUI(context: Context) {
         Toast.makeText(
             context,
-            R.string.systemui_restart_process,
+            FrameworkR.string.systemui_restart_process,
             Toast.LENGTH_LONG
         ).show()
 

@@ -28,62 +28,15 @@
         android:summary="@string/monet_summary"
         android:fragment="com.alpha.settings.fragments.ui.MonetSettings" />
 
-    <!-- UI Style -->
+    <!-- AlphaVisuals (overlay manager) -->
     <Preference
-        android:key="ui_style_settings"
-        android:icon="@*android:drawable/ic_ui_style"
-        android:title="@string/ui_style_title"
-        android:summary="@string/ui_style_summary"
-        android:fragment="com.alpha.settings.fragments.ui.UiStyleSettings" />
-
-    <!-- Navbar Style -->
-    <Preference
-        android:key="android.theme.customization.navbar"
-        android:icon="@drawable/ic_navbar"
-        android:title="@string/theme_customization_navbar_title"
-        android:summary="@string/theme_customization_navbar_summary"
-        android:fragment="com.alpha.settings.fragments.ui.NavbarStyles"/> -->
-
-    <!-- Font style -->
-    <com.alpha.settings.preferences.FontsPickerPreference
-        android:key="android.theme.customization.fonts"
-        android:icon="@drawable/ic_font"
-        android:title="@string/theme_customization_font_title"
-        android:summary="@string/theme_customization_font_summary" />
-
-    <!-- Ax ThemeStore -->
-    <Preference
-        android:key="custom_system_theme"
-        android:icon="@drawable/ic_asterisk"
-        android:title="@string/custom_system_theme_title"
-        android:summary="@string/custom_system_theme_summary">
+        android:key="alpha_visuals_test_link"
+        android:icon="@drawable/ic_themes"
+        android:title="@string/alpha_visuals_test_title"
+        android:summary="@string/alpha_visuals_test_summary">
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetPackage="com.android.axion.axthemestore"
-            android:targetClass="com.android.axion.axthemestore.MainActivity" />
+            android:targetPackage="com.alpha.settings.ui"
+            android:targetClass="com.alpha.settings.ui.MainActivity" />
     </Preference>
-
-    <!-- Icon pack
-    <Preference
-        android:key="android.theme.customization.icon_pack"
-        android:icon="@drawable/ic_drawing"
-        android:title="@string/theme_customization_icon_pack_title"
-        android:summary="@string/theme_customization_icon_pack_summary"
-        android:fragment="com.alpha.settings.fragments.ui.StatusbarIcons"/> -->
-
-    <!-- Signal icon style
-    <Preference
-        android:key="android.theme.customization.signal_icon"
-        android:icon="@drawable/ic_signal"
-        android:title="@string/theme_customization_signal_icon_title"
-        android:summary="@string/theme_customization_signal_icon_summary"
-        android:fragment="com.alpha.settings.fragments.ui.SignalIcons"/> -->
-
-    <!-- Wifi icon style
-    <Preference
-        android:key="android.theme.customization.wifi_icon"
-        android:icon="@drawable/ic_wifi"
-        android:title="@string/theme_customization_wifi_icon_title"
-        android:summary="@string/theme_customization_wifi_icon_summary"
-        android:fragment="com.alpha.settings.fragments.ui.WifiIcons"/> -->
 </PreferenceScreen>
