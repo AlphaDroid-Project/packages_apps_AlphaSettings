@@ -20,14 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ui_title">
 
-    <!-- Monet Theme Engine -->
-    <Preference
-        android:key="monet_engine"
-        android:icon="@drawable/ic_themes"
-        android:title="@string/monet_title"
-        android:summary="@string/monet_summary"
-        android:fragment="com.alpha.settings.fragments.ui.MonetSettings" />
-
     <!-- AlphaVisuals (overlay manager) -->
     <Preference
         android:key="alpha_visuals_test_link"

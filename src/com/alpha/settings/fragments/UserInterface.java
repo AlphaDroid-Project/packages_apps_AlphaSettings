@@ -27,8 +27,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.ui.MonetSettings;
-
 @SearchIndexable
 public class UserInterface extends SettingsPreferenceFragment {
 
@@ -41,7 +39,6 @@ public class UserInterface extends SettingsPreferenceFragment {
     }
 
     public static void reset(Context mContext) {
-        MonetSettings.reset(mContext);
     }
 
     @Override
