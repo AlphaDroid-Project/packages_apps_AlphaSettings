@@ -16,27 +16,26 @@
 
 package com.alpha.settings.trampoline;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.alpha.settings.fragments.UserInterface;
-
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.core.SubSettingLauncher;
-
-/** Trampoline activity for launching the {@link UserInterface} fragment. */
+/**
+ * Trampoline activity that launches AlphaVisuals ({@code com.alpha.settings.ui.MainActivity})
+ * from the Alpha Settings entry previously wired to UI preferences.
+ */
 public class UserInterfaceActivity extends AppCompatActivity {
 
-    private static final String TAG = "UserInterfaceActivity";
+    private static final String ALPHA_VISUALS_PACKAGE = "com.alpha.settings.ui";
+    private static final String ALPHA_VISUALS_MAIN = "com.alpha.settings.ui.MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        new SubSettingLauncher(this)
-                .setDestination(UserInterface.class.getName())
-                .setSourceMetricsCategory(MetricsEvent.ALPHA)
-                .launch();
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.setClassName(ALPHA_VISUALS_PACKAGE, ALPHA_VISUALS_MAIN);
+        startActivity(intent);
         finish();
     }
 }
