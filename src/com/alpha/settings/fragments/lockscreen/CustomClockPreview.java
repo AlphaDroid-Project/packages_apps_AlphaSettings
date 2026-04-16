@@ -71,7 +71,6 @@ public class CustomClockPreview extends SettingsPreferenceFragment {
             R.layout.keyguard_clock_moto, // 6
             R.layout.keyguard_clock_stylish, // 7
             R.layout.keyguard_clock_stylish2, //8
-            R.layout.keyguard_clock_stylish3, // 9
             R.layout.keyguard_clock_stylish4, // 10
             R.layout.keyguard_clock_stylish5, // 11
             R.layout.keyguard_clock_stylish6, // 12
@@ -186,7 +185,6 @@ public class CustomClockPreview extends SettingsPreferenceFragment {
             "Moto Clock",
             "Stylish Clock",
             "Stylish Clock 2",
-            "Stylish Clock 3",
             "Stylish Clock 4",
             "Stylish Clock 5",
             "Stylish Clock 6",
