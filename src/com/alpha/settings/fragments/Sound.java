@@ -107,6 +107,8 @@ public class Sound extends SettingsPreferenceFragment {
                 Settings.System.VIBRATE_ON_DISCONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.VOLUME_SLIDER_SHAPE, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
