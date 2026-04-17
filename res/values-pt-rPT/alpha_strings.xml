@@ -28,8 +28,10 @@
     <string name="sound_title">Som</string>
     <string name="statusbar_title">Barra de estado</string>
     <string name="display_title">Ecrã</string>
-    <string name="ui_title">Alpha Visuals</string>
+    <string name="ui_title">Interface de utilizador</string>
     <string name="ui_summary">Temas, estilos, animações</string>
+    <string name="alpha_visuals_test_title">AlphaVisuals</string>
+    <string name="alpha_visuals_test_summary">Fonts, icons, styles, animations</string>
     <string name="statusbar_summary">Ícones, relógio, bateria, trafego de rede</string>
     <string name="quicksettings_summary">Painéis, esquema, controle deslizante de brilho</string>
     <string name="button_summary">Botões físicos e menu de energia</string>
@@ -205,48 +207,6 @@
     <string name="advanced_reboot_summary">Quando desbloqueado, incluir opções no menu de energia para reiniciar em modo de recuperação ou bootloader</string>
     <string name="advanced_reboot_secured_title">Ecrã de bloqueio seguro</string>
     <string name="advanced_reboot_secured_summary">Mostrar opções avançadas de reinicialização no ecrã de bloqueio seguro</string>
-    <!-- Monet settings -->
-    <string name="monet_title">Configurações Monet</string>
-    <string name="monet_summary">Personalizar o motor de temas Monet</string>
-    <string name="monet_engine_preview_swatch_primary">Primária</string>
-    <string name="monet_engine_preview_swatch_secondary">Secundária</string>
-    <string name="monet_engine_preview_swatch_tertiary">Terciária</string>
-    <string name="monet_engine_preview_swatch_surface">Superfície</string>
-    <string name="monet_engine_preview_swatch_error">Erro</string>
-    <string name="monet_engine_preview_swatch_outline">Contornado</string>
-    <string name="monet_engine_preview_swatch_inverse">Superfície invertida</string>
-    <string name="monet_engine_custom_color_title">Cor do acento</string>
-    <string name="monet_engine_custom_color_summary">Personalizar a cor de destaque</string>
-    <string name="monet_engine_custom_bgcolor_title">Cor de fundo</string>
-    <string name="monet_engine_custom_bgcolor_summary">Personalizar a cor de fundo</string>
-    <string name="monet_engine_color_override_title">Cor personalizada</string>
-    <string name="monet_engine_luminance_factor_title">Luminosidade</string>
-    <string name="monet_engine_luminance_factor_summary">Desloca o brilho da paleta geral mantendo as superfícies legíveis</string>
-    <string name="monet_engine_chroma_factor_title">Fator cromático</string>
-    <string name="monet_engine_chroma_factor_summary">Ajusta a intensidade do realce; valores negativos reduzem a uma intensidade de cor agressiva</string>
-    <string name="monet_engine_tint_background_title">Tonalidade de fundo personalizada</string>
-    <string name="monet_engine_tint_background_summary">Use matiz personalizado para superfícies neutras com intensidade de cor baixa e controlada</string>
-    <string name="monet_engine_tint_disabled_monochrome">Não disponível para Monocromo — superfícies permanecem cinza neutro</string>
-    <string name="monet_engine_tint_disabled_rainbow">Não disponível para o estilo Arco-íris — este estilo define o seu próprio matiz</string>
-    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
-    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
-    <string name="monet_engine_bg_color_disabled_style">Não disponível para este estilo</string>
-    <string name="monet_engine_controls_disabled_monochrome">Não disponível para monocromático — ajustar a luminosidade apenas para brilho</string>
-    <string name="monet_engine_style_title">Estilo do tema</string>
-    <string name="monet_engine_style_tonal_spot">Ponto Tonal (predefinido)</string>
-    <string name="monet_engine_style_vibrant">Vibrante</string>
-    <string name="monet_engine_style_expressive">Expressivo</string>
-    <string name="monet_engine_style_spritz">Neutro</string>
-    <string name="monet_engine_style_rainbow">Arco-íris</string>
-    <string name="monet_engine_style_fruit_salad">Salada de Frutas</string>
-    <string name="monet_engine_style_monochromatic">Monocromático</string>
-    <string name="monet_engine_color_source_title">Origem do estilo de cor</string>
-    <string name="monet_engine_color_source_both">Ambos (predefinido)</string>
-    <string name="monet_engine_color_source_home">Fundo da página inicial</string>
-    <string name="monet_engine_color_source_lock">Imagem de fundo do ecrã de bloqueio</string>
-    <string name="monet_engine_color_source_preset">Predefinido</string>
-    <string name="monet_engine_fidelity_title">Fidelidade de cor</string>
-    <string name="monet_engine_fidelity_summary">Use a tonalidade exata da cor da semente na paleta primária em vez do ajuste padrão. Produz mais cores vivas e fieis. Apenas afeta a paleta primária.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquear automaticamente se inserir um PIN correto. Isto é um pouco menos seguro do que confirmar manualmente.</string>
     <!-- Doze settings -->
@@ -322,6 +282,7 @@
     <string name="lockscreen_doubletap_sleep_title">Tocar para suspender</string>
     <string name="lockscreen_doubletap_sleep_summary">Toque duplo no ecrã de bloqueio para suspender o dispositivo</string>
     <!-- Theme overlay (e.g. AlphaVisuals) -->
+    <string name="theme_overlay_default_package_label">Predefinido</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title_custom">Taxa de atualização padrão</string>
     <string name="peak_refresh_rate_title_custom">Taxa de atualização máxima</string>
@@ -1116,35 +1077,6 @@
     <string name="cycle_type_weekly_sub">Dia de cada semana:\n1 = segunda-feira</string>
     <string name="cycle_type_daily_title">Ciclo de uso - repor horas</string>
     <string name="cycle_type_daily_sub">Hora de cada dia:</string>
-    <!-- Ongoing action chip -->
-    <string name="ongoing_progress_settings_title">Chip de ação da barra de estado</string>
-    <string name="ongoing_progress_settings_summary">Personalizar chip de ação para mostrar o indicador de progresso</string>
-    <string name="ongoing_action_chip_title">Barra de progresso de atividade</string>
-    <string name="ongoing_action_chip_summary">Mostrar indicador de progresso na barra de estado para atividades como transferências de ficheiros.</string>
-    <string name="ongoing_media_progress_title">Progresso de multimedia</string>
-    <string name="ongoing_media_progress_summary">Exibir progresso de reprodução de multimedia</string>
-    <string name="ongoing_progress_footer_text">\"O chip da barra de estado fornece atualizações em tempo real para reprodução multimedia e transferências ativas
-
-Progresso de reprodução multimedia:
-• Apresenta o progresso de reprodução multimedia.
-• Tocar uma vez para abrir os controlos de reprodução.
-• Toque duplo alterna entre reproduzir/pausa.
-• Deslizar para a esquerda reproduz a música anterior.
-• Deslizar para a direita reproduz a música seguinte.
-• Toque longo abre a aplicaçáo multimedia.
-
-Progresso das transferências:
-• Apresenta o progresso das transferências.
-• Esconde automaticamente a visualizaçáo quando não há transferências ativas.
-• Toque único abre a aplicação responsável pela transferência.
-
-A barra de progresso alterna dinamicamente entre os estados multimedia e transferência, garantindo que visualizas sempre a informação mais relevante.\"</string>
-    <string name="ongoing_compact_mode_title">Indicador de progresso compacto</string>
-    <string name="ongoing_compact_mode_summary">Usar um indicador circular compacto para ações em curso</string>
-    <string name="ongoing_chip_color_mode_title">Cor de fundo do chip multimedia</string>
-    <string name="ongoing_chip_color_mode_accent">Cor de destaque do sistema</string>
-    <string name="ongoing_chip_color_mode_icon">Cor do ícone da aplicação</string>
-    <string name="ongoing_chip_color_mode_album_art">Cor da arte do álbum</string>
     <!-- Custom clock style -->
     <string name="lockscreen_custom_clock_style_title">Estilo personalizado do relógio</string>
     <string name="lockscreen_custom_clock_style_summary">Configurar estilos do relógio do ecrã de bloqueio</string>
@@ -1155,6 +1087,94 @@ A barra de progresso alterna dinamicamente entre os estados multimedia e transfe
     <string name="lockscreen_custom_clock_frame_margin_top_title">Altura do relógio personalizado</string>
     <string name="lockscreen_custom_clock_frame_margin_top_summary">Ajustar a altura do estilo de relógio personalizado</string>
     <string name="lockscreen_custom_clock_color_mode_title">Modo de cor de relógio personalizado</string>
+    <!-- QS Panel style -->
+    <string name="qs_panel_style_title">QS Panel style</string>
+    <string name="qs_panel_style_card">Card style</string>
+    <string name="qs_panel_style_classic">Classic style</string>
+    <string name="shape_circle">Círculo</string>
+    <string name="shape_square">Quadrado</string>
+    <string name="shape_arch">Arch</string>
+    <string name="shape_ios_rounded_square">iOS rounded shape</string>
+    <string name="shape_hexagon">Hexagon</string>
+    <string name="shape_pebble">Pebble</string>
+    <string name="shape_rice_balls">Rice balls</string>
+    <string name="shape_rounded_rect">Rounded rectangle</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_tapered_rect">Tapered rect</string>
+    <string name="shape_teardrop">Teardrop</string>
+    <string name="shape_rounded_hexagon">Rounded hexagon</string>
+    <!-- Dynamic Bar -->
+    <string name="dynamic_bar">Dynamic Bar</string>
+    <string name="dynamic_bar_summary">Smart status bar chip for active events like recording, media, timers, and more</string>
+    <string name="dynamic_bar_enable">Enable Dynamic Bar</string>
+    <string name="dynamic_bar_enable_summary">Show a dynamic chip on the status bar for live events</string>
+    <string name="dynamic_bar_keyguard_enable">Dynamic bar on lock screen</string>
+    <string name="dynamic_bar_keyguard_enable_summary">Replace keyguard indication with dynamic bar chip on the lock screen with controls and quick actions</string>
+    <string name="dynamic_bar_keyguard_battery_chip">Battery info on lock screen</string>
+    <string name="dynamic_bar_keyguard_battery_chip_disabled">Nunca mostrar</string>
+    <string name="dynamic_bar_keyguard_battery_chip_charging">Only when charging</string>
+    <string name="dynamic_bar_keyguard_battery_chip_always">Always show</string>
+    <string name="dynamic_bar_keyguard_compact_chip">Compact lock screen chip</string>
+    <string name="dynamic_bar_keyguard_compact_chip_summary">Always use the compact chip style on the lockscreen. When disabled, compact mode is used only when space is limited.</string>
+    <string name="dynamic_bar_events">Events</string>
+    <string name="dynamic_bar_event_recording">Screen recording</string>
+    <string name="dynamic_bar_event_recording_summary">Active screen recording indicator</string>
+    <string name="dynamic_bar_event_privacy">Privacy indicators</string>
+    <string name="dynamic_bar_event_privacy_summary">Camera and microphone access alerts</string>
+    <string name="dynamic_bar_event_audio_recording">Audio recording</string>
+    <string name="dynamic_bar_event_audio_recording_summary">Voice recorder and audio capture</string>
+    <string name="dynamic_bar_event_media">Media playback</string>
+    <string name="dynamic_bar_event_media_summary">Now playing music and audio controls</string>
+    <string name="dynamic_bar_event_notification">Notificações</string>
+    <string name="dynamic_bar_event_notification_summary">Incoming notification alerts</string>
+    <string name="dynamic_bar_compact_notifications">Compact notifications</string>
+    <string name="dynamic_bar_compact_notifications_summary">Show notifications as a small chip first, tap to expand</string>
+    <string name="dynamic_bar_event_timer">Timer</string>
+    <string name="dynamic_bar_event_timer_summary">Countdown timer from clock app</string>
+    <string name="dynamic_bar_event_stopwatch">Stopwatch</string>
+    <string name="dynamic_bar_event_stopwatch_summary">Running stopwatch from clock app</string>
+    <string name="dynamic_bar_event_alarm">Alarm</string>
+    <string name="dynamic_bar_event_alarm_summary">Ringing and upcoming alarms</string>
+    <string name="dynamic_bar_event_charging">Charging started</string>
+    <string name="dynamic_bar_event_charging_summary">Battery level when plugged in</string>
+    <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
+    <string name="dynamic_bar_event_bluetooth_summary">Device connection status</string>
+    <string name="dynamic_bar_event_hotspot">Hotspot</string>
+    <string name="dynamic_bar_event_hotspot_summary">Mobile hotspot active indicator</string>
+    <string name="dynamic_bar_event_ringer">Ringer Mode</string>
+    <string name="dynamic_bar_event_ringer_summary">Silent, vibrate, and ring mode changes</string>
+    <string name="dynamic_bar_event_vpn">VPN</string>
+    <string name="dynamic_bar_event_vpn_summary">Active VPN connection indicator</string>
+    <string name="dynamic_bar_event_clipboard">Clipboard</string>
+    <string name="dynamic_bar_event_clipboard_summary">Copied text and image preview</string>
+    <string name="dynamic_bar_event_torch">Lanterna</string>
+    <string name="dynamic_bar_event_torch_summary">Flashlight toggle and brightness</string>
+    <string name="dynamic_bar_event_casting">Casting</string>
+    <string name="dynamic_bar_event_casting_summary">Screen cast and media cast status</string>
+    <string name="dynamic_bar_event_ongoing">Ongoing activities</string>
+    <string name="dynamic_bar_event_ongoing_summary">Navigation, deliveries, and other live activities</string>
+    <string name="dynamic_bar_event_sports">Sports</string>
+    <string name="dynamic_bar_event_sports_summary">Live scores and game updates</string>
+    <string name="dynamic_bar_event_app_switch">Recent app switch</string>
+    <string name="dynamic_bar_event_app_switch_summary">Show chip when switching between recent apps</string>
+    <string name="dynamic_bar_event_biometric">Biometric unlock</string>
+    <string name="dynamic_bar_event_biometric_summary">Show chip on fingerprint or face unlock</string>
+    <string name="dynamic_bar_guide_title">How to use Dynamic Bar</string>
+    <string name="dynamic_bar_guide_chip">Events appear in the status bar showing active events like recording, media playback, and timers</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip to cycle through them</string>
+    <string name="dynamic_bar_guide_expand">Tap a chip to expand it into a detailed card with controls and additional information</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe the expanded card away to dismiss it. The event continues in the background</string>
+    <string name="dynamic_bar_guide_keyguard">Dynamic bar chip also appears at the bottom of the lock screen with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_chip_title">Chip appearance</string>
+    <string name="dynamic_bar_guide_swipe_title">Swipe between chips</string>
+    <string name="dynamic_bar_guide_expand_title">Tap to expand</string>
+    <string name="dynamic_bar_guide_dismiss_title">Swipe to dismiss</string>
+    <string name="dynamic_bar_guide_keyguard_title">Lock screen chip</string>
+    <string name="dynamic_bar_footer_title">About Dynamic Bar</string>
+    <string name="dynamic_bar_footer_body">Dynamic Bar transforms your status bar into an interactive hub. Status chips appear and animate based on system events, giving you at-a-glance information without interrupting your workflow.\n\nEach event type has its own accent color and expanded card with quick actions.</string>
+    <!-- Ax ThemeStore -->
+    <string name="custom_system_theme_title">Themes</string>
+    <string name="custom_system_theme_summary">Customize system appearance with themes and icon packs</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Configurações AlphaDroid</string>
@@ -1319,4 +1339,6 @@ A barra de progresso alterna dinamicamente entre os estados multimedia e transfe
     <string name="hide_applist_summary">Impedir que aplicações externas vejam a aplicação</string>
     <string name="menu_show_overlay">Mostrar sobreposição</string>
     <string name="menu_hide_overlay">Esconder sobreposição</string>
+    <!-- Volume slider shapes -->
+    <string name="volume_slider_shape_title">Volume slider shape</string>
 </resources>

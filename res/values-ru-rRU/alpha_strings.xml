@@ -28,8 +28,10 @@
     <string name="sound_title">Звук</string>
     <string name="statusbar_title">Строка состояния</string>
     <string name="display_title">Экран</string>
-    <string name="ui_title">Alpha Visuals</string>
+    <string name="ui_title">Пользовательский интерфейс</string>
     <string name="ui_summary">Темы, стили, анимации</string>
+    <string name="alpha_visuals_test_title">Визуальные эффекты Альфа</string>
+    <string name="alpha_visuals_test_summary">Шрифты, иконки, стили, анимации</string>
     <string name="statusbar_summary">Значки, часы, батарея, сетевой трафик</string>
     <string name="quicksettings_summary">Плитки, расположение элементов, ползунок яркости</string>
     <string name="button_summary">Аппаратные кнопки и меню питания</string>
@@ -207,48 +209,6 @@
     <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны дополнительные варианты перезагрузки</string>
     <string name="advanced_reboot_secured_title">Защищённый экран блокировки</string>
     <string name="advanced_reboot_secured_summary">Показывать дополнительные параметры перезагрузки на экране блокировки</string>
-    <!-- Monet settings -->
-    <string name="monet_title">Настройки Monet</string>
-    <string name="monet_summary">Настройки движка тем - Monet</string>
-    <string name="monet_engine_preview_swatch_primary">Primary</string>
-    <string name="monet_engine_preview_swatch_secondary">Secondary</string>
-    <string name="monet_engine_preview_swatch_tertiary">Tertiary</string>
-    <string name="monet_engine_preview_swatch_surface">Surface</string>
-    <string name="monet_engine_preview_swatch_error">Error</string>
-    <string name="monet_engine_preview_swatch_outline">Контур</string>
-    <string name="monet_engine_preview_swatch_inverse">Inverse surface</string>
-    <string name="monet_engine_custom_color_title">Цветовой акцент</string>
-    <string name="monet_engine_custom_color_summary">Выберите свой цвет акцента</string>
-    <string name="monet_engine_custom_bgcolor_title">Цвет фона</string>
-    <string name="monet_engine_custom_bgcolor_summary">Выберите свой цвет фона</string>
-    <string name="monet_engine_color_override_title">Свой цвет</string>
-    <string name="monet_engine_luminance_factor_title">Яркость</string>
-    <string name="monet_engine_luminance_factor_summary">Чем больше значение, тем ярче цвета</string>
-    <string name="monet_engine_chroma_factor_title">Коэффициент цветности</string>
-    <string name="monet_engine_chroma_factor_summary">Более высокие значения дают более яркие цвета</string>
-    <string name="monet_engine_tint_background_title">Оттенок фона</string>
-    <string name="monet_engine_tint_background_summary">Выбор яркости и цветности, позволяет также влиять на цвета фона</string>
-    <string name="monet_engine_tint_disabled_monochrome">Not available for Monochrome — surfaces stay neutral gray</string>
-    <string name="monet_engine_tint_disabled_rainbow">Not available for Rainbow — this style sets its own multi-hue balance</string>
-    <string name="monet_engine_tint_disabled_berry_black">Not available with Black theme — neutral tint overlays are disabled</string>
-    <string name="monet_engine_bg_color_disabled_berry_black">Not available with Black theme</string>
-    <string name="monet_engine_bg_color_disabled_style">Not available for this theme style</string>
-    <string name="monet_engine_controls_disabled_monochrome">Not available for Monochromatic — adjust luminance for brightness only</string>
-    <string name="monet_engine_style_title">Тема оформления</string>
-    <string name="monet_engine_style_tonal_spot">Тональное пятно (По умолчанию)</string>
-    <string name="monet_engine_style_vibrant">Живая</string>
-    <string name="monet_engine_style_expressive">Выразительная</string>
-    <string name="monet_engine_style_spritz">Брызги</string>
-    <string name="monet_engine_style_rainbow">Радуга</string>
-    <string name="monet_engine_style_fruit_salad">Фруктовый салат</string>
-    <string name="monet_engine_style_monochromatic">Монохромная</string>
-    <string name="monet_engine_color_source_title">Источник цвета</string>
-    <string name="monet_engine_color_source_both">Оба (по умолчанию)</string>
-    <string name="monet_engine_color_source_home">Обои рабочего стола</string>
-    <string name="monet_engine_color_source_lock">Обои экрана блокировки</string>
-    <string name="monet_engine_color_source_preset">Шаблон</string>
-    <string name="monet_engine_fidelity_title">Color fidelity</string>
-    <string name="monet_engine_fidelity_summary">Use the seed color\'s exact chroma on the primary palette instead of the scheme\'s default chroma adjustment. Produces more vivid, true-to-source colors. Only affects the primary palette.</string>
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Разблокировать автоматически, если введён правильный PIN-код. Это менее безопасно, чем нажатие кнопки подтверждения.</string>
     <!-- Doze settings -->
@@ -324,6 +284,7 @@
     <string name="lockscreen_doubletap_sleep_title">Двойное касание для сна</string>
     <string name="lockscreen_doubletap_sleep_summary">Двойное касание заблокированного экрана переведёт устройство в спящий режим</string>
     <!-- Theme overlay (e.g. AlphaVisuals) -->
+    <string name="theme_overlay_default_package_label">По умолчанию</string>
     <!-- Refresh rate -->
     <string name="default_refresh_rate_title_custom">Частота обновления по умолчанию</string>
     <string name="peak_refresh_rate_title_custom">Максимальная частота обновления</string>
@@ -777,12 +738,12 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Температура аккумулятора</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">QS background opacity</string>
-    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <string name="qs_opacity_title">Прозрачность фона QS</string>
+    <string name="qs_opacity_summary">Прозрачность подложки за плитками быстрых настроек(0% - полностью прозрачно)</string>
     <!-- QS Blur intensity -->
-    <string name="qs_blur_intensity_title">QS background blur</string>
-    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
-    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
+    <string name="qs_blur_intensity_title">Размытие фона QS</string>
+    <string name="qs_blur_intensity_summary">Интенсивность размытия за панелью быстрых настроек</string>
+    <string name="qs_blur_disabled_in_settings">(включите размытие окон в настройках дисплея)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Трафик приложений</string>
     <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
@@ -1122,35 +1083,6 @@
     <string name="cycle_type_weekly_sub">День недели:\n1 = Понедельник</string>
     <string name="cycle_type_daily_title">Час начала периода</string>
     <string name="cycle_type_daily_sub">Час дня:</string>
-    <!-- Ongoing action chip -->
-    <string name="ongoing_progress_settings_title">Индикатор действия строки состояния</string>
-    <string name="ongoing_progress_settings_summary">Настройка области для отображения индикатора прогресса</string>
-    <string name="ongoing_action_chip_title">Индикатор выполняемого действия</string>
-    <string name="ongoing_action_chip_summary">Показывать индикатор прогресса в строке состояния для текущих действий, таких как загрузка</string>
-    <string name="ongoing_media_progress_title">Прогресс медиа</string>
-    <string name="ongoing_media_progress_summary">Показать прогресс воспроизведения медиа</string>
-    <string name="ongoing_progress_footer_text">«Индикатор состояния в строке состояния обеспечивает обновление информации в реальном времени как для воспроизведения мультимедиа, так и для активных загрузок/выгрузок.
-
-Прогресс воспроизведения мультимедиа:
-• Отображает прогресс воспроизведения музыки и видео во время воспроизведения мультимедиа.
-• Однократное касание открывает элементы управления воспроизведением.
-• Двойное касание переключает воспроизведение/паузу.
-• Свайп влево переключает на предыдущий трек.
-• Свайп вправо переключает на следующий трек.
-• Длительное нажатие открывает приложение для работы с мультимедиа.
-
-Прогресс загрузки/выгрузки:
-• Отображает прогресс текущих загрузок и выгрузок.
-• Автоматически скрывается, когда не обнаружено активных передач.
-• Однократное касание открывает приложение, отвечающее за загрузку.
-
-Индикатор прогресса динамически переключается между состояниями воспроизведения мультимедиа и загрузки, обеспечивая вам всегда самую актуальную информацию с первого взгляда».</string>
-    <string name="ongoing_compact_mode_title">Компактный индикатор прогресса</string>
-    <string name="ongoing_compact_mode_summary">Использовать компактный круглый индикатор для текущих действий</string>
-    <string name="ongoing_chip_color_mode_title">Цвет фона медиа индикатора</string>
-    <string name="ongoing_chip_color_mode_accent">Системный цвет акцента</string>
-    <string name="ongoing_chip_color_mode_icon">Цвет значка приложения</string>
-    <string name="ongoing_chip_color_mode_album_art">Цвет обложки альбома</string>
     <!-- Custom clock style -->
     <string name="lockscreen_custom_clock_style_title">Свой стиль часов</string>
     <string name="lockscreen_custom_clock_style_summary">Настроить стиль часов на экране блокировки</string>
@@ -1161,6 +1093,94 @@
     <string name="lockscreen_custom_clock_frame_margin_top_title">Высота часов</string>
     <string name="lockscreen_custom_clock_frame_margin_top_summary">Регулировка высоты выбранного стиля часов</string>
     <string name="lockscreen_custom_clock_color_mode_title">Цветовой режим часов</string>
+    <!-- QS Panel style -->
+    <string name="qs_panel_style_title">Стиль панели QS</string>
+    <string name="qs_panel_style_card">Панель \"Карточка\"</string>
+    <string name="qs_panel_style_classic">Классический стиль</string>
+    <string name="shape_circle">Круг</string>
+    <string name="shape_square">Квадрат</string>
+    <string name="shape_arch">Арка</string>
+    <string name="shape_ios_rounded_square">Скруглённый квадрат как в iOS</string>
+    <string name="shape_hexagon">Шестиугольник</string>
+    <string name="shape_pebble">Галька</string>
+    <string name="shape_rice_balls">Шарики риса</string>
+    <string name="shape_rounded_rect">Скруглённый прямоугольник</string>
+    <string name="shape_squircle">Скруглённый квадрат</string>
+    <string name="shape_tapered_rect">Прямоугольник с сужением</string>
+    <string name="shape_teardrop">Капля</string>
+    <string name="shape_rounded_hexagon">Скруглённый шестиугольник</string>
+    <!-- Dynamic Bar -->
+    <string name="dynamic_bar">Динамическая панель</string>
+    <string name="dynamic_bar_summary">Умный чип в строке состояния для активных событий &lt;запись, медиа, таймеры и другое&gt;</string>
+    <string name="dynamic_bar_enable">Включить динамическую панель</string>
+    <string name="dynamic_bar_enable_summary">Показывать динамический чип в строке состояния для текущих событий</string>
+    <string name="dynamic_bar_keyguard_enable">Динамическая панель на экране блокировки</string>
+    <string name="dynamic_bar_keyguard_enable_summary">Заменить индикацию на экране блокировки чипом динамической панели с элементами управления и быстрыми действиями</string>
+    <string name="dynamic_bar_keyguard_battery_chip">Информация о батарее на экране блокировки</string>
+    <string name="dynamic_bar_keyguard_battery_chip_disabled">Не показывать</string>
+    <string name="dynamic_bar_keyguard_battery_chip_charging">Только при зарядке</string>
+    <string name="dynamic_bar_keyguard_battery_chip_always">Показывать всегда</string>
+    <string name="dynamic_bar_keyguard_compact_chip">Компактный чип на экране блокировки</string>
+    <string name="dynamic_bar_keyguard_compact_chip_summary">Всегда использовать компактный стиль чипа на экране блокировки. Если отключено, компактный режим используется только при нехватке места.</string>
+    <string name="dynamic_bar_events">События</string>
+    <string name="dynamic_bar_event_recording">Запись экрана</string>
+    <string name="dynamic_bar_event_recording_summary">Индикатор активной записи экрана</string>
+    <string name="dynamic_bar_event_privacy">Индикаторы конфиденциальности</string>
+    <string name="dynamic_bar_event_privacy_summary">Оповещения о доступе к камере и микрофону</string>
+    <string name="dynamic_bar_event_audio_recording">Запись звука</string>
+    <string name="dynamic_bar_event_audio_recording_summary">Диктофон и захват аудио</string>
+    <string name="dynamic_bar_event_media">Воспроизведение медиа</string>
+    <string name="dynamic_bar_event_media_summary">Управление текущей музыкой и аудио</string>
+    <string name="dynamic_bar_event_notification">Уведомления</string>
+    <string name="dynamic_bar_event_notification_summary">Оповещения о входящих уведомлениях</string>
+    <string name="dynamic_bar_compact_notifications">Компактные уведомления</string>
+    <string name="dynamic_bar_compact_notifications_summary">Сначала показывать уведомления как маленький чип, нажмите для раскрытия</string>
+    <string name="dynamic_bar_event_timer">Таймер</string>
+    <string name="dynamic_bar_event_timer_summary">Таймер обратного отсчёта из приложения «Часы»</string>
+    <string name="dynamic_bar_event_stopwatch">Секундомер</string>
+    <string name="dynamic_bar_event_stopwatch_summary">Запущенный секундомер из приложения «Часы»</string>
+    <string name="dynamic_bar_event_alarm">Будильник</string>
+    <string name="dynamic_bar_event_alarm_summary">Звонящие и предстоящие будильники</string>
+    <string name="dynamic_bar_event_charging">Начало зарядки</string>
+    <string name="dynamic_bar_event_charging_summary">Уровень заряда при подключении питания</string>
+    <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
+    <string name="dynamic_bar_event_bluetooth_summary">Статус подключения устройств</string>
+    <string name="dynamic_bar_event_hotspot">Точка доступа</string>
+    <string name="dynamic_bar_event_hotspot_summary">Индикатор активной мобильной точки доступа</string>
+    <string name="dynamic_bar_event_ringer">Режим звонка</string>
+    <string name="dynamic_bar_event_ringer_summary">Переключение беззвучного, вибрационного и звукового режимов</string>
+    <string name="dynamic_bar_event_vpn">ВПН</string>
+    <string name="dynamic_bar_event_vpn_summary">Индикатор активного ВПН подключения</string>
+    <string name="dynamic_bar_event_clipboard">Буфер обмена</string>
+    <string name="dynamic_bar_event_clipboard_summary">Динамический предпросмотр текста и изображений</string>
+    <string name="dynamic_bar_event_torch">Фонарик</string>
+    <string name="dynamic_bar_event_torch_summary">Включение фонарика и регулировка яркости</string>
+    <string name="dynamic_bar_event_casting">Трансляция</string>
+    <string name="dynamic_bar_event_casting_summary">Статус трансляции экрана и медиа</string>
+    <string name="dynamic_bar_event_ongoing">Текущие действия</string>
+    <string name="dynamic_bar_event_ongoing_summary">Навигация, доставка и другие живые активности</string>
+    <string name="dynamic_bar_event_sports">Спорт</string>
+    <string name="dynamic_bar_event_sports_summary">Live-счет и обновления игр</string>
+    <string name="dynamic_bar_event_app_switch">Переключение между недавними приложениями</string>
+    <string name="dynamic_bar_event_app_switch_summary">Показывать чип при переключении между недавними приложениями</string>
+    <string name="dynamic_bar_event_biometric">Биометрическая разблокировка</string>
+    <string name="dynamic_bar_event_biometric_summary">Показывать чип при разблокировке по отпечатку пальца или лицу</string>
+    <string name="dynamic_bar_guide_title">Как использовать динамическую панель</string>
+    <string name="dynamic_bar_guide_chip">События появляются в строке состояния, показывая активные процессы: запись, воспроизведение медиа, таймеры</string>
+    <string name="dynamic_bar_guide_swipe">Когда активно несколько событий — проведите по чипу влево или вправо, чтобы переключаться между ними</string>
+    <string name="dynamic_bar_guide_expand">Нажмите на чип, чтобы развернуть его в подробную карточку с управлением и доп. информацией</string>
+    <string name="dynamic_bar_guide_dismiss">Смахните развернутую карточку, чтобы скрыть её. Событие продолжится в фоне</string>
+    <string name="dynamic_bar_guide_keyguard">Чип динамической панели также появляется в нижней части экрана блокировки с элементами управления воспроизведением и быстрыми действиями</string>
+    <string name="dynamic_bar_guide_chip_title">Внешний вид чипа</string>
+    <string name="dynamic_bar_guide_swipe_title">Перелистывание между чипами</string>
+    <string name="dynamic_bar_guide_expand_title">Нажмите, чтобы развернуть</string>
+    <string name="dynamic_bar_guide_dismiss_title">Смахните, чтобы скрыть</string>
+    <string name="dynamic_bar_guide_keyguard_title">Чип на экране блокировки</string>
+    <string name="dynamic_bar_footer_title">О динамической панели</string>
+    <string name="dynamic_bar_footer_body">Динамическая панель превращает вашу строку состояния в интерактивный центр. Чипы статуса появляются и анимируются в зависимости от системных событий, предоставляя информацию с первого взгляда, не отвлекая от работы.\n\n Каждый тип события имеет свой акцентный цвет и развёрнутую карточку с быстрыми действиями.</string>
+    <!-- Ax ThemeStore -->
+    <string name="custom_system_theme_title">Темы</string>
+    <string name="custom_system_theme_summary">Настройка внешнего вида системы с помощью тем и наборов иконок</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Настройки Alpha</string>
@@ -1286,7 +1306,7 @@
     <!-- Categories -->
     <string name="cutout_progress_cat_features">Особенности</string>
     <string name="cutout_progress_cat_appearance">Внешний вид</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
+    <string name="cutout_progress_cat_geometry">Геометрия выреза</string>
     <string name="cutout_progress_cat_island">Расширенный режим</string>
     <!-- Features -->
     <string name="cutout_progress_download_enabled_title">Включить кольцо прогресса загрузки</string>
@@ -1300,17 +1320,17 @@
     <string name="cutout_progress_ring_opacity_title">Прозрачность кольца</string>
     <string name="cutout_progress_stroke_width_title">Толщина кольца</string>
     <string name="cutout_progress_bg_ring_enabled_title">Показывать фоновый трек</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
+    <string name="cutout_progress_bg_ring_enabled_summary">Рисовать слабое полное кольцо за дугой прогресса</string>
     <string name="cutout_progress_charging_pulse_title">Анимация импульса зарядки</string>
     <string name="cutout_progress_charging_pulse_summary">Анимация повторяющегося импульса из центра во время зарядки</string>
     <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_path_mode_title">Follow cutout shape</string>
-    <string name="cutout_progress_path_mode_summary">Use the cutout’s native aspect ratio instead of normalizing the ring to a circle</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
+    <string name="cutout_progress_ring_gap_title">Зазор кольца (отступ от выреза)</string>
+    <string name="cutout_progress_path_mode_title">Следовать форме выреза</string>
+    <string name="cutout_progress_path_mode_summary">Настройка внешнего вида системы с помощью тем и наборов иконок</string>
+    <string name="cutout_progress_scale_x_title">Горизонтальный масштаб</string>
+    <string name="cutout_progress_scale_y_title">Вертикальный масштаб</string>
+    <string name="cutout_progress_offset_x_title">Горизонтальное смещение</string>
+    <string name="cutout_progress_offset_y_title">Вертикальное смещение</string>
     <!-- Expanded Mode -->
     <string name="cutout_progress_island_compact_title">Компактное размещение</string>
     <string name="cutout_progress_island_compact_summary">Оберните вокруг вырезания камеры</string>
@@ -1325,4 +1345,6 @@
     <string name="hide_applist_summary">Запретить приложениям проверять выбранные приложения из списка приложений</string>
     <string name="menu_show_overlay">Показать оверлей</string>
     <string name="menu_hide_overlay">Скрыть оверлей</string>
+    <!-- Volume slider shapes -->
+    <string name="volume_slider_shape_title">Форма ползунка громкости</string>
 </resources>
