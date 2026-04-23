@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Háttérkép-szín</string>
     <string name="yes">Igen</string>
     <string name="apply">Alkalmazni</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value"><xliff:g id="v">%s</xliff:g> értékű</string>
     <string name="custom_seekbar_default_value">alapértelmezés szerint</string>
-
     <string name="custom_seekbar_default_value_to_set">Alapértelmezetten <xliff:g id="v">%s</xliff:g> értékű\nÉrintse meg a beállításhoz</string>
-
     <string name="custom_seekbar_default_value_is_set">Az alapértelmezett érték beállítva</string>
     <!-- Units -->
     <string name="unit_seconds">másodperc</string>
     <string name="unit_milliseconds">ezredmásodperc</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Vágólapra másolva</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Kevesebb, mint egy perc</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -264,8 +260,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Dupla érintésre alvómód</string>
     <string name="lockscreen_doubletap_sleep_summary">Zárképernyő dupla érintésére a készülék alvó módba kerül</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Óra és dátum</string>
     <string name="status_bar_clock_summary">Az \'Óra és dátum\' testreszabása</string>
@@ -334,8 +328,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Egyebek</string>
     <string name="qs_footer_category">Lábléc</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Kövesse az állapotsor stílusát</string>
     <!-- Battery estimate -->
@@ -361,7 +353,6 @@
     <string name="network_traffic_units_bytes">Bájt / másodperc (B/s)</string>
     <string name="network_traffic_hidearrow">Nyilak elrejtése</string>
     <string name="network_traffic_hidearrow_summary">Elrejti a forgalmat jelző nyilakat</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Navigációs sáv</string>
     <string name="navbar_visibility_summary">A navigációs sáv megjelenítése a képernyő alján</string>
@@ -563,9 +554,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Figyelmeztető csúszka értesítései</string>
+    <string name="alert_slider_notifications_summary">Értesítés megjelenítése a figyelmeztető csúszka pozíciójának megváltoztatásakor</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Korlátlan fénykép-tárhely</string>
     <string name="use_photos_spoof_summary">Eszközinformáció-hamisitás hogy a Google Fényképek Pixel XL készüléknek lássa és így korlátlan tárhelyhez juthasson</string>
@@ -664,15 +655,12 @@
     <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
     <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
     <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED kijelzőkön, a képpontok gyakori áthelyezésével</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">A Vissza gesztus animációja</string>
     <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a \'Vissza\'-mozdulatvezérléshez</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Rezgés \'Vissza\'-vezérléskor</string>
     <string name="back_gesture_haptic_summary">Rezegni fog a készülék amikor a \'Vissza\'-vezérlőt használja</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Akkuhőmérséklet</string>
     <!-- QS Transparency -->
@@ -780,8 +768,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Trükközés a Google Play Integrity-vel</string>
     <string name="pi_spoof_summary">A Google Play sértettlenségének ellenőrzésekor más telefonnak álcázza az Ön készülékét</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi-Fi-szabvány</string>
     <string name="wifi_standard_icon_summary">A Wi-Fi-jel mellett a szabványt is megjeleníti</string>
@@ -810,7 +796,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Állandóan látszódik töltés közben</string>
     <string name="doze_on_charge_summary">Info-megjelenítés készüléktöltéskor</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Rádióinformációk</string>
     <!-- QS Header -->
@@ -840,7 +825,6 @@
     <string name="always_on_display_schedule_sunrise">Napkelte</string>
     <string name="always_on_display_schedule_mixed_sunset">Napnyugtától kapcsol be az előre megadott ideig</string>
     <string name="always_on_display_schedule_mixed_sunrise">Az előre megadott időtől Napkeltéig kapcsol be</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Szolgáltatónév</string>
     <string name="lockscreen_show_carrier_summary">A Szolgáltató neve megjelenik az állapotsoron</string>
@@ -853,7 +837,6 @@
     <string name="wifi_per_connection_random_mac_addr">Kapcsolatonként véletlenszerű MAC használata (alapértelmezett)</string>
     <string name="wifi_per_network_random_mac_addr">Hálózatonként véletlenszerű MAC használata</string>
     <string name="wifi_device_mac_addr">A készüléken található MAC használata</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Oldalsáv</string>
     <string name="sidebar_summary">Gyorsal indíthat alkalmazásokat a felugró oldalsávból</string>
@@ -869,7 +852,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Letiltás VPN használatkor</string>
     <string name="vpn_enforce_dns_summary">Ha VPN-hez csatlakozik, kapcsolja ki a privát DNS-t, de állítsa helyre kapcsolatbontás után</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Alkalmazás-downgrade engedélyezése</string>
     <string name="app_downgrade_summary">Ez lehetővé teszi az alkalmazások korábbi verziójának a visszatelepítését. Vegye figyelembe, hogy ez összeomláshoz és adatsérüléshez vezethet.</string>
@@ -1094,8 +1076,7 @@
     <string name="dynamic_bar_guide_keyguard_title">Zár képernyő chip</string>
     <string name="dynamic_bar_footer_title">A Dynamic Bar-ról</string>
     <string name="dynamic_bar_footer_body">A Dynamic Bar interaktív központtá alakítja az állapotsort. Az állapotchipek a rendszeresemények alapján jelennek meg és animálódnak, így egy pillantással információt nyújtanak a munkafolyamat megszakítása nélkül.\\n\\nMinden eseménytípusnak saját kiemelő színe és kibővített kártyája van gyors műveletekkel.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha beállítások</string>
     <string name="alpha_settings_summary">Lesznek nyalánkságok!</string>
@@ -1116,7 +1097,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Az AlphaDroid megosztása</string>
     <string name="share_summary">Tudassa másokkal az AlphaDroidot</string>
-    <string name="share_message">Nézze meg, hogy a #AlphaDroid elérhető-e az Ön készülékére: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Nézze meg, hogy a #AlphaDroid Android elkészült-e az Ön készülékéhez: @ https://alpha.net/</string>
     <string name="share_chooser_title">Az AlphaDroid megosztása</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1169,7 +1150,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1190,7 +1170,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Értesítés ikonok</string>
     <string name="max_visible_notification_icons_summary">Max. látható értesítés ikon az állapotsávon</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Kivágott folyamatgyűrű</string>
     <string name="cutout_progress_summary">Mutasd az előrehaladási gyűrűt a lyukasztás körül</string>
@@ -1237,88 +1216,4 @@
     <string name="menu_hide_overlay">Fedvény elrejtése</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Hangerő csúszka alakja</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Figyelmeztető csúszka értesítései</string>
-
-    <string name="alert_slider_notifications_summary">Értesítés megjelenítése a figyelmeztető csúszka pozíciójának megváltoztatásakor</string>
-
 </resources>
