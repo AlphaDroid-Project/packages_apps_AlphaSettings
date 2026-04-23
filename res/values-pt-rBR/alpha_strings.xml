@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Cor do papel de parede</string>
     <string name="yes">Sim</string>
     <string name="apply">Aplicar</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">por padrão</string>
-
     <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nToque longo para definir</string>
-
     <string name="custom_seekbar_default_value_is_set">Valor padrão não definido</string>
     <!-- Units -->
     <string name="unit_seconds">segundos</string>
     <string name="unit_milliseconds">milissegundos</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -264,8 +260,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Toque para dormir</string>
     <string name="lockscreen_doubletap_sleep_summary">Toque duas vezes na tela de bloqueio para desligar a tela</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Relógio e data</string>
     <string name="status_bar_clock_summary">Personalize o relógio e a data</string>
@@ -334,8 +328,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Diversos</string>
     <string name="qs_footer_category">Rodapé</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Seguir o estilo da barra de status</string>
     <!-- Battery estimate -->
@@ -361,7 +353,6 @@
     <string name="network_traffic_units_bytes">Bytes por segundo (B/s)</string>
     <string name="network_traffic_hidearrow">Ocultar setas</string>
     <string name="network_traffic_hidearrow_summary">Esconder as setas dos indicadores de tráfego</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Barra de navegação</string>
     <string name="navbar_visibility_summary">Mostrar a barra de navegação na parte inferior da tela</string>
@@ -563,9 +554,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Notificações do alert slider</string>
+    <string name="alert_slider_notifications_summary">Exibir notificação ao alterar a posição do alert slider</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Armazenamento de fotos ilimitado</string>
     <string name="use_photos_spoof_summary">Mascarar seu dispositivo como Pixel XL para ter acesso ilimitado ao armazenamento de backup no Google Fotos</string>
@@ -664,15 +655,12 @@
     <string name="smart_pixels_percent">Porcentagem de pixels a desativar</string>
     <string name="smart_pixels_shift_title">Proteção contra Burn-in</string>
     <string name="smart_pixels_shift_summary">Previne contra o efeito Burn-in em dispositivos com tela OLED</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animação no gesto de voltar</string>
     <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Vibrar no gesto de voltar</string>
     <string name="back_gesture_haptic_summary">O dispositivo vai vibrar quando o gesto de voltar for detectado</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura da bateria</string>
     <!-- QS Transparency -->
@@ -780,8 +768,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Mascarar Integridade da Google Play</string>
     <string name="pi_spoof_summary">Mascare seu dispositivo como um modelo diferente para a Integridade da Google Play</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Frequência da rede Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Mostrar frequência da rede conectada no ícone de Wi-Fi</string>
@@ -808,7 +794,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Sempre mostrar durante o carregamento</string>
     <string name="doze_on_charge_summary">Permanece ativo durante o período de carga</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Informações de rede</string>
     <!-- QS Header -->
@@ -838,7 +823,6 @@
     <string name="always_on_display_schedule_sunrise">Nascer do sol</string>
     <string name="always_on_display_schedule_mixed_sunset">Ligar do pôr do sol até um tempo específico</string>
     <string name="always_on_display_schedule_mixed_sunrise">Ligar de um tempo específico até o amanhecer</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Nome da operadora</string>
     <string name="lockscreen_show_carrier_summary">Exibir nome da operadora na barra de status</string>
@@ -851,7 +835,6 @@
     <string name="wifi_per_connection_random_mac_addr">Usar MAC aleatório (padrão)</string>
     <string name="wifi_per_network_random_mac_addr">Usar MAC fornecido pela rede</string>
     <string name="wifi_device_mac_addr">Usar MAC do dispositivo</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Barra lateral</string>
     <string name="sidebar_summary">Abrir aplicativos rapidamente em uma janela flutuante</string>
@@ -867,7 +850,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Desativar para VPN</string>
     <string name="vpn_enforce_dns_summary">Desabilite o DNS privado quando conectado a uma VPN e restaure ao desconectar</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Permitir downgrade de aplicativo</string>
     <string name="app_downgrade_summary">Isso permite que você faça downgrade de aplicativos. Observe que isso pode levar a travamentos e corrupção de dados.</string>
@@ -991,7 +973,10 @@
     <string name="billing_cycle_type_weekly">Semanalmente</string>
     <string name="billing_cycle_type_daily">Diário</string>
     <string name="billing_cycle_less_than_one_hour_left">Falta menos de 1 hora</string>
-    <string name="billing_cycle_hours_left">{contar, plural,\n        =1 {# hora restante}\n        outras {# horas restantes}\n        }</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
     <string name="cycle_type_weekly_title">Dia de redefinição do ciclo de uso</string>
     <string name="cycle_type_weekly_sub">Dia de cada semana:\\n1 = segunda-feira</string>
     <string name="cycle_type_daily_title">Hora de redefinição do ciclo de uso</string>
@@ -1089,8 +1074,7 @@
     <string name="dynamic_bar_guide_keyguard_title">Chip de tela de bloqueio</string>
     <string name="dynamic_bar_footer_title">Sobre a Barra Dinâmica</string>
     <string name="dynamic_bar_footer_body">A barra dinâmica transforma a barra de status em um centro de informações interativo. Os chips de status aparecem e se animam conforme os eventos do sistema, para você ver o essencial rapidamente sem interromper o fluxo de trabalho.\\n\\nCada tipo de evento tem sua cor de destaque e um cartão expandido com ações rápidas.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Configurações Alpha</string>
     <string name="alpha_settings_summary">Haverá coisas boas!</string>
@@ -1111,7 +1095,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Compartilhar o AlphaDroid</string>
     <string name="share_summary">Deixe os outros saberem sobre o AlphaDroid</string>
-    <string name="share_message">Verifique se #AlphaDroid está disponível para o seu dispositivo: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Verifique se #AlphaDroid está disponível para o seu dispositivo @ https://alpha.net/</string>
     <string name="share_chooser_title">Compartilhar o AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1164,7 +1148,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Launcher Nexus</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Motor de Exibição</string>
     <string name="display_engine_mode_title">Motor de Exibição Reality</string>
@@ -1185,7 +1168,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ícones da notificação</string>
     <string name="max_visible_notification_icons_summary">Máximo de ícones de notificação visíveis na barra de status</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Anel de progresso recortado</string>
     <string name="cutout_progress_summary">Mostrar anel de progresso ao redor do furo</string>
@@ -1232,88 +1214,4 @@
     <string name="menu_hide_overlay">Ocultar sobreposição</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Forma do controle deslizante de volume</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Notificações do alert slider</string>
-
-    <string name="alert_slider_notifications_summary">Exibir notificação ao alterar a posição do alert slider</string>
-
 </resources>
