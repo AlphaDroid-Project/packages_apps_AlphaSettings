@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Barva tapety</string>
     <string name="yes">Ano</string>
     <string name="apply">Použít</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Hodnota: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">výchozí hodnota</string>
-
-    <string name="custom_seekbar_default_value_to_set">Výchozí hodnota: <xliff:g id="v">%s</xliff:g>\nDlouze klepněte na šipku pro její nastavení</string>
-
-    <string name="custom_seekbar_default_value_is_set">Výchozí hodnota je nastavena</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <!-- Units -->
     <string name="unit_seconds">s</string>
     <string name="unit_milliseconds">ms</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Zkopírováno do schránky</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Méně než 1 minuta</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -266,8 +262,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Uspat dvojím poklepáním</string>
     <string name="lockscreen_doubletap_sleep_summary">Dvojí poklepání na obrazovku uzamčení uvede zařízení do režimu spánku</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Hodiny a\u00a0datum</string>
     <string name="status_bar_clock_summary">Přizpůsobit hodiny a\u00a0datum</string>
@@ -336,8 +330,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Různé</string>
     <string name="qs_footer_category">Zápatí</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Použít styl stavového řádku</string>
     <!-- Battery estimate -->
@@ -363,7 +355,6 @@
     <string name="network_traffic_units_bytes">Bajty za sekundu (B/s)</string>
     <string name="network_traffic_hidearrow">Skrýt šipky</string>
     <string name="network_traffic_hidearrow_summary">Skrýt šipky indikující datový provoz</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Navigační panel</string>
     <string name="navbar_visibility_summary">Zobrazit navigační panel v dolní části obrazovky</string>
@@ -565,9 +556,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Oznámení posuvníku upozornění</string>
+    <string name="alert_slider_notifications_summary">Zobrazit oznámení při změně pozice posuvníku upozornění</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Neomezené úložiště fotografií</string>
     <string name="use_photos_spoof_summary">Spouštět vaše zařízení jako Pixel XL pro aplikaci Google Fotky pouze k poskytnutí neomezeného úložiště pro zálohu</string>
@@ -668,15 +659,12 @@
     <string name="smart_pixels_percent">Procenta pixelů k\u00a0vypnutí</string>
     <string name="smart_pixels_shift_title">Ochrana před vypálením obrazovky</string>
     <string name="smart_pixels_shift_summary">Zabraňuje vypalování displeje na zařízeních s\u00a0OLED displejem častým přepínáním pixelů</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animace gesta „Zpět“</string>
     <string name="back_gesture_arrow_summary">Zobrazit animovanou šipku gesta „Zpět“</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Hmatová odezva gesta „Zpět“</string>
     <string name="back_gesture_haptic_summary">Zavibrovat při provádění gesta „Zpět“</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Teplota baterie</string>
     <!-- QS Transparency -->
@@ -784,8 +772,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Napodobení integrity Obchodu Google Play</string>
     <string name="pi_spoof_summary">Napodobit vaše zařízení, aby se pro integritu Obchodu Google Play chovalo jako jiný model</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi‑Fi standard</string>
     <string name="wifi_standard_icon_summary">Zobrazit vedle Wi‑Fi signálu Wi‑Fi standard</string>
@@ -814,7 +800,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Vždy zobrazovat při nabíjení</string>
     <string name="doze_on_charge_summary">Zobrazit informace při nabíjení zařízení</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Informace o modemu</string>
     <!-- QS Header -->
@@ -844,7 +829,6 @@
     <string name="always_on_display_schedule_sunrise">Východ slunce</string>
     <string name="always_on_display_schedule_mixed_sunset">Zapne se od západu slunce do daného času</string>
     <string name="always_on_display_schedule_mixed_sunrise">Zapne se od nastaveného času do východu slunce</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Název operátora</string>
     <string name="lockscreen_show_carrier_summary">Zobrazit na stavovém řádku název operátora</string>
@@ -857,7 +841,6 @@
     <string name="wifi_per_connection_random_mac_addr">Použít pro jednotlivá připojení náhodnou MAC (výchozí)</string>
     <string name="wifi_per_network_random_mac_addr">Použít pro jednotlivé sítě náhodnou MAC</string>
     <string name="wifi_device_mac_addr">Použít MAC zařízení</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Postranní panel</string>
     <string name="sidebar_summary">Rychle otevřete aplikace z plovoucího okna</string>
@@ -873,7 +856,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Zakázat pro VPN</string>
     <string name="vpn_enforce_dns_summary">Zakázat soukromou DNS při připojení k VPN a obnovit při odpojení</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Umožnit downgrade aplikací</string>
     <string name="app_downgrade_summary">Toto nastavení vám umožní downgradovat aplikace. Mějte však na paměti, že to může vést k pádům a poškození dat.</string>
@@ -1100,13 +1082,12 @@
     <string name="dynamic_bar_guide_keyguard_title">Čip zamykací obrazovky</string>
     <string name="dynamic_bar_footer_title">O Dynamic Bar</string>
     <string name="dynamic_bar_footer_body">Dynamický panel přemění váš stavový řádek na interaktivní centrum. Stavové čipy se zobrazují a animují na základě systémových událostí a poskytují vám rychlé informace, aniž byste přerušili váš pracovní postup.\\n\\nKaždý typ události má svou vlastní barvu zvýraznění a rozbalenou kartu s rychlými akcemi.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Nastavení alfa</string>
     <string name="alpha_settings_summary">Budou dobroty!</string>
     <string name="reset_settings_title">Obnovit nastavení</string>
-    <string name="reset_settings_message">Tímto obnovíte většinu nastavení Alpha pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
+    <string name="reset_settings_message">Tímto obnovíte většinu nastavení crDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">Hodiny</string>
     <!-- Misc categories -->
@@ -1122,7 +1103,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Sdílejte AlphaDroid</string>
     <string name="share_summary">Dejte o AlphaDroid vědět ostatním</string>
-    <string name="share_message">Podívejte se, jestli je #AlphaDroid dostupný pro vaše zařízení: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Podívejte se, jestli je k dispozici #crDroidAndroid pro vaše zařízení @ https://crdroid.net/</string>
     <string name="share_chooser_title">Sdílejte AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1175,7 +1156,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1196,7 +1176,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ikony oznámení</string>
     <string name="max_visible_notification_icons_summary">Max. ikony oznámení viditelné na stavovém řádku</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Výřez Progress Ring</string>
     <string name="cutout_progress_summary">Ukažte postupový kroužek kolem děrné díry</string>
@@ -1243,88 +1222,4 @@
     <string name="menu_hide_overlay">Skrýt překryvnou vrstvu</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Tvar posuvníku hlasitosti</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Oznámení posuvníku upozornění</string>
-
-    <string name="alert_slider_notifications_summary">Zobrazit oznámení při změně pozice posuvníku upozornění</string>
-
 </resources>
