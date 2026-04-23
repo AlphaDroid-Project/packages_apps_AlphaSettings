@@ -19,32 +19,27 @@
     <string name="alpha_settings_title">הגדרות AlphaDroid</string>
     <string name="alpha_settings_summary">לפתוח את הטוב</string>
     <string name="reset_settings_title">איפוס הגדרות</string>
-    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות AlphaDroid לערכי ברירת המחדל, להמשיך?</string>
+    <string name="reset_settings_message">פעולה זו תאפס את רוב הגדרות Alpha לערכי ברירת המחדל עבור המשתמש הנוכחי. להמשיך?</string>
     <!-- Personalization Categories -->
     <string name="button_title">מקשים</string>
     <string name="lockscreen_title">מסך נעילה</string>
     <string name="misc_title">שונות</string>
-    <string name="navigation_title">סרגל ניווט</string>
     <string name="notifications_title">התראות</string>
     <string name="quicksettings_title">הגדרות וילון התראות</string>
     <string name="sound_title">צלילים</string>
     <string name="statusbar_title">שורת המצב</string>
     <string name="display_title">תצוגה</string>
-    <string name="ui_title">Alpha Visuals</string>
+    <string name="ui_title">ממשק משתמש</string>
     <string name="ui_summary">ערכות נושא, סגנונות, אנימציות</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">בוחר הצבעים</string>
     <string name="press_color_to_apply">לחיצה על צבע לבחירה</string>
     <string name="set">הגדר</string>
-    <string name="color_default">ברירת מחדל</string>
     <!-- General strings -->
     <string name="ok">אישור</string>
     <string name="reset">איפוס</string>
     <string name="cancel">ביטול</string>
     <string name="save">שמירה</string>
-    <string name="discard_changes">בטל שינויים</string>
     <string name="never">לעולם לא</string>
-    <string name="always">תמיד</string>
     <string name="caution">זהירות</string>
     <string name="delete">מחק</string>
     <string name="delete_message">להסיר את הפריט הנבחר?</string>
@@ -54,21 +49,19 @@
     <string name="accent_color">צבע ההדגשה (ברירת המחדל)</string>
     <string name="notification_color">צבע ההתראה</string>
     <string name="wallpaper_color">שימוש בצבעי הטפט</string>
-    <string name="rainbow_color">Rainbow color</string>
+    <string name="rainbow_color">צבע הקשת</string>
     <string name="custom_color">צבע מותאם אישית</string>
-    <string name="restart_systemui">יש להפעיל מחדש את ממשק המערכת להחלת השינוי!</string>
     <string name="default_value">ברירת מחדל</string>
     <!-- Changelog -->
     <string name="changelog_alpha_title">יומן השינויים הנוכחי</string>
     <string name="changelog_alpha_summary">ראה שינויים ברום שהותקן</string>
     <string name="changelog_alpha_error">טעינת יומן השינויים נכשלה</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">אודות AlphaDroid</string>
     <string name="about_device_name">מכשיר</string>
     <!-- Share AlphaDroid -->
     <string name="share_alpha_title">שתף AlphaDroid</string>
     <string name="share_alpha_summary">עזור לאנשים אחרים לדעת אודות AlphaDroid</string>
-    <string name="share_message">בדוק האם AlphaDroidAndroid# זמין למכשיר שלך https://crdroid.net/</string>
+    <string name="share_message">בדוק אם #AlphaDroid זמין למכשיר שלך: https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">שתף AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">GitHub</string>
@@ -107,12 +100,10 @@
     <string name="unit_milliseconds">מילי־שניות</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">הועתק ללוח</string>
-    <string name="longpress_to_clipboard">לחיצה ארוכה להעתקה</string>
     <!-- Hardware info -->
     <string name="platform_revision">פלטפורמה</string>
     <string name="total_ram">סך הכל זיכרון RAM</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">הצג יומן של היסטוריית ההתראות</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">פחות מדקה 1</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -210,16 +201,12 @@
     <string name="power_menu_actions_title">פעולות</string>
     <string name="power_menu_screenshot_title">צילום מסך</string>
     <string name="power_menu_screenshot_summary">לחיצה ארוכה לצילום מסך חלקי</string>
-    <string name="power_menu_onthego_title">מצב On-The-Go</string>
     <string name="power_menu_advanced_title">תפריט אתחול מתקדם</string>
     <string name="power_menu_airplane_title">מצב טיסה</string>
     <string name="power_menu_torch_title">פנס</string>
-    <string name="power_menu_settings_title">הגדרות</string>
     <string name="power_menu_lockdown_title">נעילה</string>
     <string name="power_menu_lockdown_unavailable">הנעילה מושבתת מכיוון שנעילת המסך אינה מאובטחת</string>
-    <string name="power_menu_soundpanel_title">לוח עוצמת השמע</string>
     <string name="power_menu_users_title">משתמשים</string>
-    <string name="power_menu_logout_title">התנתק/י</string>
     <string name="power_menu_emergency_title">חירום</string>
     <string name="power_menu_devicecontrols_title">פקדי המכשיר</string>
     <!-- Advanced restart options -->
@@ -281,21 +268,21 @@
     <!-- Edge light -->
     <string name="edge_light_title">שוליים זוהרים</string>
     <string name="edge_light_summary">הארת שולי המסך הצדדיים בפעימת התראה</string>
-    <string name="edge_light_color_mode_title">Color mode</string>
-    <string name="edge_light_pulse_count_title">Pulse count</string>
-    <string name="edge_light_pulse_count_summary">Number of pulses for edge light</string>
-    <string name="edge_light_stroke_width_title">Stroke width</string>
-    <string name="edge_light_stroke_width_summary">Set thickness for edge light bars</string>
-    <string name="edge_light_style_title">Render style</string>
-    <string name="edge_light_style_default">Default (left/right)</string>
-    <string name="edge_light_style_frame">Frame (all sides)</string>
-    <string name="edge_light_animation_effect_title">Animation effect</string>
-    <string name="edge_light_animation_effect_none">Standard</string>
-    <string name="edge_light_animation_effect_breathing">Breathing</string>
-    <string name="edge_light_animation_effect_wave">Wave</string>
-    <string name="edge_light_animation_effect_sparkle">Sparkle</string>
-    <string name="edge_light_animation_effect_chase">Chase</string>
-    <string name="edge_light_animation_effect_comet">Comet</string>
+    <string name="edge_light_color_mode_title">מצב צבע</string>
+    <string name="edge_light_pulse_count_title">ספירת דופק</string>
+    <string name="edge_light_pulse_count_summary">מספר פולסים לאור קצה</string>
+    <string name="edge_light_stroke_width_title">רוחב שבץ</string>
+    <string name="edge_light_stroke_width_summary">הגדר עובי עבור פסי אור קצה</string>
+    <string name="edge_light_style_title">סגנון עיבוד</string>
+    <string name="edge_light_style_default">ברירת מחדל (שמאל/ימין)</string>
+    <string name="edge_light_style_frame">מסגרת (כל הצדדים)</string>
+    <string name="edge_light_animation_effect_title">אפקט אנימציה</string>
+    <string name="edge_light_animation_effect_none">תֶקֶן</string>
+    <string name="edge_light_animation_effect_breathing">נְשִׁימָה</string>
+    <string name="edge_light_animation_effect_wave">גַל</string>
+    <string name="edge_light_animation_effect_sparkle">נִצנוּץ</string>
+    <string name="edge_light_animation_effect_chase">מִרדָף</string>
+    <string name="edge_light_animation_effect_comet">שָׁבִיט</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">מצב נגן מוזיקה</string>
     <string name="pulse_on_new_tracks_summary">הצג מידע על המוזיקה הנשמעת בתצוגת הסביבה בעת העברת רצועת שמע</string>
@@ -322,8 +309,6 @@
     <string name="status_bar_quick_qs_pulldown_always">תמיד תראה נתונים מהירים ממשיכה למטה של שורת המצב</string>
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">משיכה למטה חכמה</string>
-    <string name="smart_pulldown_summary">פתח הגדרות מהירות כאשר קיימות %1$s הודעות</string>
-    <string name="smart_pulldown_none_summary">פתח את ההגדרות המהירות כאשר לא קיימות התראות</string>
     <string name="smart_pulldown_off">כיבוי</string>
     <string name="smart_pulldown_none">אין התראות</string>
     <string name="smart_pulldown_dismissable">אין הודעות ניתנות להסרה</string>
@@ -333,9 +318,6 @@
     <string name="lockscreen_doubletap_sleep_summary">לחץ פעמיים בכל מקום על מסך נעילה לכיבוי מסך</string>
     <!-- Theme overlay (e.g. AlphaVisuals) -->
     <!-- Refresh rate -->
-    <string name="default_refresh_rate_title_custom">קצב רענון ברירת מחדל</string>
-    <string name="peak_refresh_rate_title_custom">קצב רענון מקסימלי</string>
-    <string name="low_power_refresh_rate_title_custom">קצב ריענון כאשר הסוללה חלשה</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">שעה ותאריך</string>
     <string name="status_bar_clock_summary">התאם אישית את הגדרות השעון והתאריך</string>
@@ -380,9 +362,7 @@
     <string name="status_bar_battery_percent_title">אחוז סוללה</string>
     <string name="status_bar_battery_percent_hidden">מוסתר</string>
     <string name="status_bar_battery_percent_text_inside">בתוך הסמל</string>
-    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
-    <string name="status_bar_battery_percent_text_next_right">ליד הסמל (מימין)</string>
-    <string name="status_bar_battery_percent_text_next_left">ליד הסמל (משמאל)</string>
+    <string name="status_bar_battery_percent_text_next">ליד הסמל</string>
     <string name="status_bar_battery_text_charging_title">אחוז הסוללה כאשר מטעינים</string>
     <string name="status_bar_battery_text_charging_summary">תמיד הצג אחוז סוללה כאשר מטעינים</string>
     <!-- Status bar - Battery Bar -->
@@ -407,11 +387,7 @@
     <string name="qs_misc_category">שונות</string>
     <string name="qs_footer_category">כותרת תחתונה</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">שעון</string>
-    <string name="qs_clock_summary">הצג שעון בכותרת שורת המצב</string>
     <!-- QS date -->
-    <string name="qs_date_title">תאריך</string>
-    <string name="qs_date_summary">הצג תאריך בכותרת שורת המצב</string>
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">השתמש בסגנון שורת המצב</string>
     <!-- Battery estimate -->
@@ -420,7 +396,6 @@
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">ניטור תעבורת רשת</string>
     <string name="network_traffic_settings_summary">הצג והתאם אישית מצב שימוש בנתונים הנוכחי</string>
-    <string name="network_traffic_location_title">מיקום</string>
     <string name="network_traffic_location_disable">מושבת</string>
     <string name="network_traffic_location_statusbar">שורת המצב</string>
     <string name="network_traffic_location_quick_statusbar">שורת מצב מהירה</string>
@@ -435,22 +410,14 @@
     <string name="network_traffic_refresh_interval_summary">משך זמן שאחריו נמדדת מחדש מהירות</string>
     <string name="network_traffic_units_title">יחידות מידה לתעבורה</string>
     <string name="network_traffic_units_bits">ביט לשנייה (b/s)</string>
-    <string name="network_traffic_units_kilobits">קילוביט לשנייה (kb/s)</string>
-    <string name="network_traffic_units_megabits">מגהביט לשנייה (Mb/s)</string>
     <string name="network_traffic_units_bytes">בייט לשנייה (B/s)</string>
-    <string name="network_traffic_units_kilobytes">קילובייט לשנייה (kB/s)</string>
-    <string name="network_traffic_units_megabytes">מגה בייט לשנייה (MB/s)</string>
     <string name="network_traffic_hidearrow">הסתר חצים</string>
     <string name="network_traffic_hidearrow_summary">אל תציג את חיצי מחווני תעבורת רשת</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">התראות כותרת תחתונה</string>
-    <string name="qs_footer_warnings_summary">הצג התראה בתחתית מסך ההגדרות המהירות כאשר הרשת מנוטרת או נעשה שימוש ב־VPN</string>
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">סרגל ניווט</string>
     <string name="navbar_visibility_summary">הצג סרגל ניווט בתחתית המסך</string>
     <string name="navbar_layout_category_title">פריסה</string>
-    <string name="navbar_arrow_keys_title">הצג את מקשי החצים בזמן ההקלדה</string>
-    <string name="navbar_arrow_keys_summary">הצג מקשי ימין ושמאל בעת הכתיבה. במקום מחליף המקלדות.</string>
     <string name="navbar_layout_title">פריסה</string>
     <string name="navbar_layout_normal">רגיל</string>
     <string name="navbar_layout_compact">ממוקד</string>
@@ -499,14 +466,13 @@
     <string name="qs_show_brightness_slider_never">אל תציג אף פעם</string>
     <string name="qs_show_brightness_slider_expanded">הצג כאשר מורחב</string>
     <string name="qs_show_brightness_slider_always">הצג תמיד</string>
-    <string name="qs_show_brightness_slider_not_expanded">הצג כאשר לא מורחב</string>
     <string name="qs_brightness_slider_position_title">מיקום</string>
     <string name="qs_brightness_slider_position_top">למעלה</string>
     <string name="qs_brightness_slider_position_bottom">תחתית</string>
     <!-- Brightness slider / QS tile haptic feedback -->
     <string name="qs_brightness_slider_haptic_title">משוב רטט</string>
     <string name="qs_brightness_slider_haptic_summary">חיווי תחושתי ברטט לשינוי הבהירות בסרגל</string>
-    <string name="qs_tile_haptic_summary">Provide haptic feedback on tapping QS tiles</string>
+    <string name="qs_tile_haptic_summary">ספק משוב הפטי על הקשה על אריחי QS</string>
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">סמל בהירות אוטומטית</string>
     <string name="qs_show_auto_brightness_summary">הראה כפתור להפעלת בהירות אוטומטית ליד המחוון</string>
@@ -566,9 +532,7 @@
     <string name="notification_light_missed_call_title">שיחה שלא נענתה</string>
     <string name="notification_light_voicemail_title">דואר קולי</string>
     <string name="notification_light_screen_on">נורית התראה כשהמסך דולק</string>
-    <string name="notification_light_zen_mode">הפעל נורית התראה במצב \"נא לא להפריע\"</string>
     <string name="notification_light_automagic">בחר צבעים אוטומטית</string>
-    <string name="notification_light_automagic_summary">בוחר צבעים אוטומטית</string>
     <string name="notification_light_override">החל בכל האפליקציות (בכפייה)</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">הגדרות נורית ההתראה</string>
@@ -659,9 +623,6 @@
     <string name="alert_slider_notifications_title">הודעות בסרגל ההתראות</string>
     <string name="alert_slider_notifications_summary">הצגת התראה בעת שינוי מיקום סרגל ההתראות</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">יישומיי מסך מלא</string>
-    <string name="display_cutout_force_fullscreen_summary">אילוץ יישומים להתעלם מאזור המגרעת</string>
-    <string name="display_cutout_force_fullscreen_no_apps">אין יישומים</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">אחסון תמונות בלתי מוגבל</string>
     <string name="use_photos_spoof_summary">התחזות המכשיר כ-Pixel XL ליישום Google Photos בלבד על מנת לאפשר אחסון בלתי מוגבל לגיבוי</string>
@@ -674,18 +635,11 @@
     <string name="volume_panel_on_left_title">הצג את חלונית עוצמת הקול בצד שמאל של המסך</string>
     <string name="volume_dialog_haptic_feedback_title">רטט לוח עוצמת השמע</string>
     <!-- UDFPS settings -->
-    <string name="udfps_settings_title">התאמת סורק טביעת-אצבע שמתחת למסך</string>
-    <string name="udfps_settings_summary">התאמת סורק טביעת-אצבע שמתחת למסך</string>
     <string name="udfps_icon_picker_title">בחירת סמל סורק טביעת-אצבע שמתחת למסך</string>
     <string name="udfps_icon_picker_summary">בחירת סמליל טביעת האצבע המועדף עליך</string>
     <string name="udfps_recog_animation_effect_title">הנפשה מותאמת סורק טביעת-אצבע שמתחת למסך</string>
     <string name="udfps_recog_animation_effect_summary">בחירת אפקט הנפשה</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">מחיקת סריקת הפנים הקיימת ויצירת סריקה חדשה</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">סריקה מחדש של פנים</string>
-    <string name="face_redo_confirm_btn">ביצוע מחדש</string>
-    <string name="face_redo_warning_msg">האם ברצונך למחוק את סריקת הפנים הקיימת וליצור אחת חדשה?</string>
-    <string name="face_unlock_method_title">התרת ביטול נעילה בעזרת פנים במסך הנעילה</string>
     <string name="face_unlock_method_default">כאשר המסך פועל</string>
     <string name="face_unlock_method_swipe">בעת החלקה על מסך הנעילה</string>
     <!-- Wifi/Bluetooth auto timeout -->
@@ -733,8 +687,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">ביטול חסימת המכשיר</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">המכשיר \"<xliff:g id="device_name">%1$s</xliff:g>\" יוכל להתחבר לנקודת גלישה זו</string>
     <string name="wifi_hotspot_client_manager_footer_text">אין כעת מכשירים מחוברים. מכשירים מחוברים וחסומים יפורטו כאן כשיהיו זמינים.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">לכל היותר <xliff:g id="device_num">%1$d</xliff:g> מכשירים יוכלו להתחבר לנתב האלחוטי הנייד</item>
         <item quantity="one">לכל היותר מכשיר <xliff:g id="device_num">%1$d</xliff:g> יכול להתחבר לנתב האלחוטי הנייד</item>
@@ -772,11 +724,7 @@
     <string name="smart_pixels_shift_title">הגנה מצריבות מסך</string>
     <string name="smart_pixels_shift_summary">מניעת צריבות מסך במסכי OLED ע\"י הזזת פיקסלים תכופה</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">שימוש בערכת נושא שחורה</string>
-    <string name="system_black_theme_summary">כפיית צבעי רקע שחורים</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">כפתור ניקוי כל ההתראות</string>
-    <string name="notification_material_dismiss_summary">החלפת מלל ניקוי כל ההתראות בכפתור צף בסגנון עיצוב material </string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">הנפשת מחוות חזרה</string>
     <string name="back_gesture_arrow_summary">הצגת חץ מונפש למחוות חזרה</string>
@@ -784,9 +732,6 @@
     <string name="back_gesture_haptic_title">חיווי מגע למחוות חזרה</string>
     <string name="back_gesture_haptic_summary">רטט כאשר מבוצעת מחוות חזרה</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">קיבולת הסוללה הנוכחית</string>
-    <string name="designed_battery_capacity">קיבולת הסוללה המתוכננת</string>
-    <string name="battery_charge_cycles">מחזורי הטענה הושלמו</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">טמפרטורת הסוללה</string>
     <!-- QS Transparency -->
@@ -831,19 +776,19 @@
     <string name="qqs_rows_landscape_title">שורות אריחי הגדרות מהירות (אופקי/נוף)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">רקע מיקום השעון</string>
-    <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
-    <string name="solid_accent">Solid color accent</string>
+    <string name="statusbar_clock_chip_summary">בחר שבב רקע מותאם אישית מאחורי השעון</string>
+    <string name="solid_accent">מבטא צבע אחיד</string>
     <string name="outline">קו מתאר</string>
-    <string name="solid_accent_gradient">Solid color accent gradient</string>
-    <string name="solid_gradient">Solid gradient side</string>
-    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
-    <string name="solid_gradient_void">Gradient void</string>
-    <string name="solid_gradient_neumorph">Neumorph gradient</string>
-    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
-    <string name="solid_accent_transperent">Accent transperent</string>
-    <string name="solid_gradient_light">Gradient light</string>
-    <string name="solid_gradient_shape">Sharp gradient corner</string>
-    <string name="solid_gradient_void_light">Gradient void light</string>
+    <string name="solid_accent_gradient">שיפוע הדגשה בצבע אחיד</string>
+    <string name="solid_gradient">צד שיפוע מוצק</string>
+    <string name="solid_gradient_corner">שיפוע מבטא מוצק חד</string>
+    <string name="solid_gradient_void">ריק שיפוע</string>
+    <string name="solid_gradient_neumorph">שיפוע נוימורפי</string>
+    <string name="solid_gradient_stroke">מהלך שיפוע חד</string>
+    <string name="solid_accent_transperent">מבטא שקוף</string>
+    <string name="solid_gradient_light">אור שיפוע</string>
+    <string name="solid_gradient_shape">פינת שיפוע חדה</string>
+    <string name="solid_gradient_void_light">אור ריק שיפוע</string>
     <!-- Weather -->
     <string name="weather_settings_title">הגדרות מזג האוויר</string>
     <string name="weather_settings_summary">הגדרת ערכת הסמלים ושירות מזג האוויר</string>
@@ -929,11 +874,7 @@
     <string name="pi_spoof_title">עקיפת תיקנות של חנות הגוגל פליי</string>
     <string name="pi_spoof_summary">הצגת המכשיר שלך כמכשיר מדגם שונה בשביל בדיקת המכשיר לעקיפת חסימה של גוגל פליי</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">בדיקת קישוריות</string>
-    <string name="captive_portal_summary">אבחנה אם המכשיר יכול להתחבר לאינטרנט, ע\"י יצירת קשר עם Google. משמש גם לאיתור פורטלים ש\"נחטפו\".</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">האם לבצע איפוס של הנתונים הסטטיסטיים?</string>
-    <string name="battery_stats_message">נתוני השימוש בסוללה יאבדו</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">תקן WiFi</string>
     <string name="wifi_standard_icon_summary">הצגת תקן WiFi ליד אות ה-WiFi</string>
@@ -954,7 +895,6 @@
     <string name="app_lock_timeout_summary">משך הזמן שלאחריו יישום מוגן שהופעל יינעל בשנית</string>
     <string name="app_lock_notifications_title">עריכת התראות</string>
     <string name="app_lock_notifications_summary">תוכן ההתראות יהיה מוסתר ופרוס ליישומים נבחרים כאשר יינעלו. התראות קופצות יימנעו אוטומטית.</string>
-    <string name="app_lock_notifications_disabled_summary">תחילה יש להגן על יישום</string>
     <string name="app_lock_biometrics_allowed_title">לאפשר שימוש בזיהוי ביומטרי לפתיחת הנעילה</string>
     <string name="app_lock_footer_text">בועות יבוטלו אוטומטית לאחר פרק זמן</string>
     <string name="enable_protection">לאפשר הגנה</string>
@@ -962,9 +902,8 @@
     <string name="hide_from_launcher_summary">מניעת הצגת יישום זה בכל משגר יישומים (לאונצ\'ר). למימוש ההגדרה יש להפעיל מחדש את משגר היישומים (לאונצ\'ר).</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">מוצג תמיד בזמן טעינה</string>
-    <string name="doze_on_charge_summary">Display info when device is charging</string>
+    <string name="doze_on_charge_summary">הצגת מידע כאשר המכשיר בטעינה</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">קישור עוצמות הקול של הצלצול &amp; וההתראות</string>
     <!-- Radio Info -->
     <string name="radio_info_title">מידע הרדיו</string>
     <!-- QS Header -->
@@ -995,8 +934,6 @@
     <string name="always_on_display_schedule_mixed_sunset">הפעלת התצוגה הקבועה מהשקיעה ועד שעה</string>
     <string name="always_on_display_schedule_mixed_sunrise">הפעלת התצוגה הקבועה משעה ועד הזריחה</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">דו-שיח אריח ההגדרות המהירות Bluetooth</string>
-    <string name="qs_bt_show_dialog_summary">הצגת דו-שיח של Bluetooth או שינוי מצב ההפעלה בלחיצה על האריח</string>
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">שם ספק השירות</string>
     <string name="lockscreen_show_carrier_summary">הצגת שם ספק השירות בשורת המצב</string>
@@ -1010,10 +947,6 @@
     <string name="wifi_per_network_random_mac_addr">שימוש בכתובת MAC אקראית בכל רשת</string>
     <string name="wifi_device_mac_addr">שימוש בכתובת MAC של המכשיר</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">בהירות תצוגה עמומה</string>
-    <string name="doze_gesture_ambient_summary">הצגת תצוגת מסך עמומה במקום הדלקה מלאה של המסך</string>
-    <string name="gesture_wake_ambient">בהירות תצוגה עמומה</string>
-    <string name="gesture_wake">הדלקה מלאה</string>
     <!-- Sidebar -->
     <string name="sidebar_title">סרגל צד</string>
     <string name="sidebar_summary">הפעלה מהירה של יישומים בחלון צף</string>
@@ -1021,10 +954,6 @@
     <string name="lockscreen_smartspace_title">מרחב חכם (Smartspace)</string>
     <string name="lockscreen_smartspace_summary">הצגת Google Smartspace כאשר זמין</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">הזמן הקצוב לניקוי אוטומטי של הלוח</string>
-    <string name="clipboard_auto_clear_title">ניקוי אוטומטי של הלוח</string>
-    <string name="clipboard_auto_clear_summary">ניקוי אוטומטי של הלוח בהתאם לזמן הקצוב</string>
-    <string name="clipboard_auto_clear_enabled_title">ביצוע ניקוי אוטומטי של הלוח</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">השבתת הלוח</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">עוצמת צלצול מתגברת</string>
@@ -1034,8 +963,6 @@
     <string name="vpn_enforce_dns_title">השבתה עבור VPN</string>
     <string name="vpn_enforce_dns_summary">השבתת ה-VPN הפרטי כאשר מחוברים ל-VPN והפעלתו מחדש בעת הניתוק</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">מעבר מחזורי בין המצבים</string>
-    <string name="prevent_ringing_option_cycle_summary">מופעל (מעבר מחזורי בין המצבים)</string>
     <!-- Application downgrade -->
     <string name="app_downgrade_title">התרת שנמוך יישומים</string>
     <string name="app_downgrade_summary">הרשאה המאפשרת התקנת גירסאות ישנות של יישומים. לתשומת ליבך, הדבר עלול להוביל לקריסות ולשיבוש מידע.</string>
@@ -1049,49 +976,47 @@
     <string name="show_ime_space_title">הצגת מקום לפקד IME</string>
     <string name="show_ime_space_summary">הפעלת האפשרות לשינוי מהיר של שיטת הקלט או הסתרת לוח המקשים מסרגל היכולות שבתחתית המסך בעת הקלדה</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">סגנון ההתראות</string>
-    <string name="powermenu_style_title">סגנון תפריט ההפעלה</string>
     <string name="custom_style_cyberpunk">סייבר פאנק</string>
     <string name="custom_style_duoline">שורה כפולה</string>
-    <string name="custom_style_fluid">Fluid (Transparent)</string>
+    <string name="custom_style_fluid">נוזל (שקוף)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">שכבות</string>
     <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox attestation override</string>
-    <string name="keybox_data_summary">Load a custom keybox XML to override device key attestation</string>
-    <string name="keybox_data_loaded_summary">Custom keybox XML loaded. Delete to clear.</string>
-    <string name="keybox_delete_content_description">Clear keybox data</string>
-    <string name="keybox_toast_invalid_file_selected">Not an XML file. Choose a valid keybox XML.</string>
-    <string name="keybox_toast_missing_data">Invalid keybox XML: required fields missing</string>
-    <string name="keybox_toast_file_loaded">Keybox loaded</string>
-    <string name="keybox_toast_file_cleared">Keybox cleared</string>
+    <string name="keybox_data_title">עקיפה של אישור תיבת מפתחות</string>
+    <string name="keybox_data_summary">טען XML של תיבת מפתחות מותאמת אישית כדי לעקוף את אישור מפתח המכשיר</string>
+    <string name="keybox_data_loaded_summary">נטען XML של תיבת מקשים מותאמת אישית. מחק כדי למחוק.</string>
+    <string name="keybox_delete_content_description">נקה נתוני תיבת מקשים</string>
+    <string name="keybox_toast_invalid_file_selected">לא קובץ XML. בחר XML חוקי של תיבת מפתחות.</string>
+    <string name="keybox_toast_missing_data">XML לא חוקי של תיבת מפתחות: שדות חובה חסרים</string>
+    <string name="keybox_toast_file_loaded">תיבת המפתחות נטענה</string>
+    <string name="keybox_toast_file_cleared">תיבת המקשים נוקתה</string>
     <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
-    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
+    <string name="pi_gmscertchain_title">השבת כפוי שלמות חזקה</string>
+    <string name="pi_gmscertchain_summary">כאשר מופעל, אל תאכוף שלמות חזקה מתיבת מקשים מותאמת אישית חוקית ותסתמך על זיוף Google Play Integrity כדי לתקן אפליקציות כמו Google Pay</string>
     <!-- QS Tiles Style -->
-    <string name="qs_tile_shape_title">QS tiles shape</string>
-    <string name="qs_tile_shape_dynamic">Dynamic</string>
+    <string name="qs_tile_shape_title">צורת אריחי QS</string>
+    <string name="qs_tile_shape_dynamic">דִינָמִי</string>
     <string name="qs_tile_shape_circle">מעגל</string>
-    <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
-    <string name="qs_tile_shape_rounded_square">Rounded square</string>
-    <string name="qs_tile_shape_square">Square</string>
+    <string name="qs_tile_shape_rounded_square_smooth">ריבוע מעוגל (חלק)</string>
+    <string name="qs_tile_shape_rounded_square">ריבוע מעוגל</string>
+    <string name="qs_tile_shape_square">מְרוּבָּע</string>
     <!-- Force dark mode -->
-    <string name="force_dark_title">Dark mode for third-party apps</string>
-    <string name="force_dark_summary">Forces darker colors in apps lacking dark mode. Some screens may appear off.</string>
+    <string name="force_dark_title">מצב כהה עבור אפליקציות צד שלישי</string>
+    <string name="force_dark_summary">מאלץ צבעים כהים יותר באפליקציות חסרות מצב כהה. חלק מהמסכים עשויים להופיע כבויים.</string>
     <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Brightness slider shape</string>
+    <string name="qs_brightness_slider_shape_title">צורת מחוון בהירות</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca_title">LTE carrier aggregation</string>
-    <string name="force_lte_ca_summary">Enhances LTE bandwidth by aggregating supported bands</string>
+    <string name="force_lte_ca_title">צבירה של ספקי LTE</string>
+    <string name="force_lte_ca_summary">משפר את רוחב הפס של LTE על ידי צבירת פסים נתמכים</string>
     <!-- QS on lockscreen -->
-    <string name="lockscreen_quick_settings_title">QS on lock screen</string>
-    <string name="lockscreen_quick_settings_summary">Allow swipe down on lock screen to view Quick Settings</string>
+    <string name="lockscreen_quick_settings_title">QS על מסך נעילה</string>
+    <string name="lockscreen_quick_settings_summary">אפשר החלק מטה במסך הנעילה כדי להציג את ההגדרות המהירות</string>
     <!-- Lock screen media art -->
     <string name="ls_media_art_title">תמונת עטיפת שיר</string>
     <string name="ls_media_art_summary">הצג תמונת מעטפת השיר כאשר אפשר</string>
     <!-- Lock screen media art on Ambient Display -->
-    <string name="ambient_media_art_title">Ambient media cover art</string>
-    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
+    <string name="ambient_media_art_title">אמנות כיסוי של תקשורת אווירה</string>
+    <string name="ambient_media_art_summary">הצג אמנות עטיפת מדיה בתצוגת Ambient כאשר זמין</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">מסנן תמונת מעטפת השיר</string>
     <string name="ls_media_art_filter_none">כלום</string>
@@ -1099,35 +1024,35 @@
     <string name="ls_media_art_filter_grayscale">גווני אפור</string>
     <string name="ls_media_art_filter_sepia">Sepia</string>
     <string name="ls_media_art_filter_tint">צבע מודגש</string>
-    <string name="ls_media_art_filter_invert">Invert</string>
-    <string name="ls_media_art_filter_grayblur">Grayscale and blur</string>
+    <string name="ls_media_art_filter_invert">לַהֲפוֹך</string>
+    <string name="ls_media_art_filter_grayblur">גווני אפור וטשטוש</string>
     <!-- Lock screen media art fade level -->
-    <string name="ls_media_art_fade_level_title">Media cover art fade level</string>
-    <string name="ls_media_art_fade_level_summary">Set media cover art fade level</string>
+    <string name="ls_media_art_fade_level_title">רמת אמנות כיסוי המדיה דהייה</string>
+    <string name="ls_media_art_fade_level_summary">הגדר את רמת הדהייה של אמנות כיסוי המדיה</string>
     <!-- Lock screen media art blur level -->
-    <string name="ls_media_art_blur_level_title">Media art blur level</string>
-    <string name="ls_media_art_blur_level_summary">Blur intensity when blur filter is applied</string>
+    <string name="ls_media_art_blur_level_title">רמת טשטוש של אמנות מדיה</string>
+    <string name="ls_media_art_blur_level_summary">עוצמת הטשטוש כאשר מסנן טשטוש מוחל</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_settings_title">Pulse Visualizer</string>
     <string name="pulse_settings_summary">אקולייזר אודיו גרפי לסרגל ניווט ומסך הנעילה</string>
     <string name="ambient_pulse_enabled_title">פעימה סביבתית</string>
-    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
-    <string name="pulse_rounded_bars_title">Rounded bars</string>
-    <string name="pulse_rounded_bars_summary">Display visualizer bars with rounded corners</string>
-    <string name="pulse_color">Visualizer color</string>
+    <string name="ambient_pulse_enabled_summary">הצג מכשיר חזותי בתצוגה הסביבה</string>
+    <string name="pulse_rounded_bars_title">מוטות מעוגלים</string>
+    <string name="pulse_rounded_bars_summary">הצג פסי חזותיים עם פינות מעוגלות</string>
+    <string name="pulse_color">צבע חזותי</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Album art</string>
+    <string name="pulse_color_album">אמנות אלבום</string>
     <string name="pulse_color_accent">ערכת צבע</string>
-    <string name="pulse_bar_count_title">Number of bars</string>
-    <string name="pulse_bar_count_summary">Set how many bars are shown in the visualizer</string>
-    <string name="pulse_bar_count_units">bars</string>
-    <string name="pulse_renderer">Visualizer style</string>
+    <string name="pulse_bar_count_title">מספר ברים</string>
+    <string name="pulse_bar_count_summary">הגדר כמה פסים יוצגו במכשיר החזותי</string>
+    <string name="pulse_bar_count_units">סורגים</string>
+    <string name="pulse_renderer">סגנון Visualizer</string>
     <string name="pulse_renderer_solid">קווים מלאים</string>
     <string name="pulse_renderer_fading">דהייה של אריחים</string>
-    <string name="pulse_renderer_neon_glow">Neon glow</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
-    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
-    <string name="pulse_renderer_sparkle">Sparkle</string>
+    <string name="pulse_renderer_neon_glow">זוהר ניאון</string>
+    <string name="pulse_renderer_retro_vu_meter">מד VU רטרו</string>
+    <string name="pulse_renderer_minimal_wave">גל מינימלי</string>
+    <string name="pulse_renderer_sparkle">נִצנוּץ</string>
     <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">התראות שקופות</string>
@@ -1135,38 +1060,552 @@
     <string name="notification_row_transparency_lockscreen_title">רקע שקוף להתראות במסך הנעילה</string>
     <string name="notification_row_transparency_lockscreen_summary">קביעת רקע שקוף להתראות במסך הנעילה</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
-    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
+    <string name="doze_always_on_wallpaper_title">טפט אווירה</string>
+    <string name="doze_always_on_wallpaper_summary">הצג טפט של מסך נעילה ב-Ambient Display</string>
     <!-- Squiggle animation for media notification -->
-    <string name="media_squiggle_animation_title">Squiggle animation</string>
-    <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
+    <string name="media_squiggle_animation_title">אנימציית צמרמורת</string>
+    <string name="media_squiggle_animation_summary">הצג הנפשה של סרגל החיפוש בלוח המדיה בעת הפעלת מדיה</string>
     <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
-    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
+    <string name="vbmeta_attestation_title">זיהוי אוטומטי של VBMeta</string>
+    <string name="vbmeta_attestation_summary">בצע אישור מפתח כדי ליצור Hash אתחול מאומת בעת האתחול. דורש הפעלה מחדש של המערכת.</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">אל תאמת</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">לא צוין תעודה. החיבור שלך לא יהיה פרטי.</string>
     <!-- Multi Audio Focus -->
-    <string name="multi_audio_focus_title">Multi audio focus</string>
-    <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
+    <string name="multi_audio_focus_title">מיקוד שמע רב</string>
+    <string name="multi_audio_focus_summary">אפשר לאפליקציות מרובות לנגן אודיו בו זמנית</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">Clear query</string>
-    <string name="language_picker_page">Language picker page</string>
-    <string name="search_region">Search regions</string>
-    <string name="search_region_page">Search region page</string>
+    <string name="clear_search_query_description">נקה שאילתה</string>
+    <string name="language_picker_page">דף בוחר שפה</string>
+    <string name="search_region">חפש אזורים</string>
+    <string name="search_region_page">דף אזור חיפוש</string>
     <!-- Data Usage Cycle -->
-    <string name="billing_cycle_type_title">Mobile data usage cycle type</string>
-    <string name="billing_cycle_type_monthly">Monthly</string>
-    <string name="billing_cycle_type_weekly">Weekly</string>
-    <string name="billing_cycle_type_daily">Daily</string>
-    <string name="billing_cycle_less_than_one_hour_left">Less than 1 hour left</string>
-    <string name="billing_cycle_hours_left">{count, plural,
-        =1      {# hour left}
-        other   {# hours left}
-        }</string>
-    <string name="cycle_type_weekly_title">Usage cycle reset day</string>
-    <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
-    <string name="cycle_type_daily_title">Usage cycle reset hour</string>
-    <string name="cycle_type_daily_sub">Hour of each day:</string>
+    <string name="billing_cycle_type_title">סוג מחזור השימוש בנתונים ניידים</string>
+    <string name="billing_cycle_type_monthly">יַרחוֹן</string>
+    <string name="billing_cycle_type_weekly">שְׁבוּעִי</string>
+    <string name="billing_cycle_type_daily">יוֹמִי</string>
+    <string name="billing_cycle_less_than_one_hour_left">נותרה פחות משעה</string>
+    <string name="billing_cycle_hours_left">{ספירה, רבים,\n        =1 {# שעה נותרה}\n        נותרו עוד {# שעות}\n        }</string>
+    <string name="cycle_type_weekly_title">יום איפוס מחזור השימוש</string>
+    <string name="cycle_type_weekly_sub">יום בכל שבוע:\\n1 = יום שני</string>
+    <string name="cycle_type_daily_title">שעת איפוס מחזור השימוש</string>
+    <string name="cycle_type_daily_sub">שעה בכל יום:</string>
+
+    <string name="arrow_right" translatable="false">→</string>
+
+    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+
+    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
+
+    <string name="channel_light_settings_id" translatable="false">light_settings</string>
+
+    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
+
+    <string name="dlg_ok" translatable="false">@android:string/ok</string>
+
+    <string name="hex" translatable="false">Hex:</string>
+
+    <string name="hex_hint" translatable="false">#ff000000</string>
+
+    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
+
+    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+
+    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
+
+    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
+
+    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
+
+    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
+
+    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
+
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+
+    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
+
+    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
+
+    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
+
+    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
+
+    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
+
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
+
+    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
+
+    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
+
+    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
+
+    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
+
+    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
+
+    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
+
+    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+    <string name="unit_hz" translatable="false">hz</string>
+
+    <string name="unit_pixels" translatable="false">dp</string>
+    <!-- Synced from values (shared batch: missing in many locales) -->
+
+    <string name="about_title">אוֹדוֹת</string>
+
+    <string name="statusbar_summary">אייקונים, שעון, סוללה, תעבורת רשת</string>
+
+    <string name="quicksettings_summary">אריחים, פריסה, מחוון בהירות</string>
+
+    <string name="button_summary">כפתורי חומרה ותפריט הפעלה</string>
+
+    <string name="lockscreen_summary">נמנם, דופק, UDFPS, מזג אוויר</string>
+
+    <string name="notifications_summary">התראות, ראש למעלה, אורות</string>
+
+    <string name="sound_summary">פאנל ווליום, רטט</string>
+
+    <string name="misc_summary">מרחב משחק, זיוף, שונות</string>
+
+    <string name="about_summary">על AlphaDroid</string>
+
+    <string name="add">לְהוֹסִיף</string>
+
+    <string name="advanced">מִתקַדֵם</string>
+
+    <string name="back">בְּחֲזָרָה</string>
+
+    <string name="disabled">נָכֶה</string>
+
+    <string name="enabled">מופעל</string>
+
+    <string name="finish">סִיוּם</string>
+
+    <string name="loading">טוען\\u2026</string>
+
+    <string name="name">שֵׁם</string>
+
+    <string name="next">הַבָּא</string>
+
+    <string name="no">לֹא</string>
+
+    <string name="off">כבוי</string>
+
+    <string name="on">עַל</string>
+
+    <string name="search">לְחַפֵּשׂ</string>
+
+    <string name="settings">הגדרות</string>
+
+    <string name="yes">כֵּן</string>
+
+    <string name="apply">לִפְנוֹת</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="custom_seekbar_value">ערך: %s</string>
+
+    <string name="custom_seekbar_default_value">כברירת מחדל</string>
+
+    <string name="qs_blur_intensity_title">טשטוש רקע QS</string>
+
+    <string name="qs_blur_intensity_summary">עוצמת טשטוש מאחורי חלונית ההגדרות המהירות</string>
+
+    <string name="qs_blur_disabled_in_settings">(אפשר טשטוש חלון בהגדרות תצוגה)</string>
+
+    <string name="lockscreen_custom_clock_style_title">סגנון שעון מותאם אישית</string>
+
+    <string name="lockscreen_custom_clock_style_summary">הגדר סגנונות שעון מסך נעילה</string>
+
+    <string name="lockscreen_custom_clock_style_highlight_text">החלק שמאלה או ימינה לתצוגה מקדימה של סגנונות שעון</string>
+
+    <string name="lockscreen_custom_clock_style_info">סגנון שעון מותאם אישית מחליף סגנונות שעון AOSP בשעונים מותאמים אישית. Smartspace יושבת. אתה יכול להפעיל ולהשתמש במזג אוויר מותאם אישית במקום זאת.</string>
+
+    <string name="lockscreen_custom_clock_opacity_title">אטימות שעון מותאמת אישית</string>
+
+    <string name="lockscreen_custom_clock_opacity_summary">התאם את השקיפות של סגנון שעון מותאם אישית</string>
+
+    <string name="lockscreen_custom_clock_frame_margin_top_title">גובה שעון מותאם אישית</string>
+
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">התאם את גובה סגנון השעון המותאם אישית</string>
+
+    <string name="lockscreen_custom_clock_color_mode_title">מצב צבע שעון מותאם אישית</string>
+
+    <string name="qs_panel_style_title">סגנון פאנל QS</string>
+
+    <string name="qs_panel_style_card">סגנון כרטיס</string>
+
+    <string name="qs_panel_style_classic">סגנון קלאסי</string>
+
+    <string name="shape_circle">מַעְגָל</string>
+
+    <string name="shape_square">מְרוּבָּע</string>
+
+    <string name="shape_arch">קֶשֶׁת</string>
+
+    <string name="shape_ios_rounded_square">צורה מעוגלת של iOS</string>
+
+    <string name="shape_hexagon">מְשׁוּשֶׁה</string>
+
+    <string name="shape_pebble">צַדֶפֶת</string>
+
+    <string name="shape_rice_balls">כדורי אורז</string>
+
+    <string name="shape_rounded_rect">מלבן מעוגל</string>
+
+    <string name="shape_squircle">סקווירקל</string>
+
+    <string name="shape_tapered_rect">מלבן מתחדד</string>
+
+    <string name="shape_teardrop">דִמעָה</string>
+
+    <string name="shape_rounded_hexagon">משושה מעוגל</string>
+
+    <string name="dynamic_bar">בר דינמי</string>
+
+    <string name="dynamic_bar_summary">שבב שורת מצב חכם לאירועים פעילים כמו הקלטה, מדיה, טיימרים ועוד</string>
+
+    <string name="dynamic_bar_enable">אפשר סרגל דינמי</string>
+
+    <string name="dynamic_bar_enable_summary">הצג שבב דינמי בשורת המצב עבור אירועים חיים</string>
+
+    <string name="dynamic_bar_keyguard_enable">פס דינמי במסך הנעילה</string>
+
+    <string name="dynamic_bar_keyguard_enable_summary">החלף את חיווי מגן המקשים בשבב בר דינמי במסך הנעילה עם פקדים ופעולות מהירות</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip">מידע על הסוללה במסך הנעילה</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip_disabled">לעולם אל תראה</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip_charging">רק בעת טעינה</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip_always">תמיד להראות</string>
+
+    <string name="dynamic_bar_events">אירועים</string>
+
+    <string name="dynamic_bar_event_recording">הקלטת מסך</string>
+
+    <string name="dynamic_bar_event_recording_summary">מחוון הקלטת מסך פעיל</string>
+
+    <string name="dynamic_bar_event_privacy">מדדי פרטיות</string>
+
+    <string name="dynamic_bar_event_privacy_summary">התראות גישה למצלמה ולמיקרופון</string>
+
+    <string name="dynamic_bar_event_audio_recording">הקלטת אודיו</string>
+
+    <string name="dynamic_bar_event_audio_recording_summary">מקליט קול ולכידת אודיו</string>
+
+    <string name="dynamic_bar_event_media">השמעת מדיה</string>
+
+    <string name="dynamic_bar_event_media_summary">כעת מנגן בקרות מוזיקה ושמע</string>
+
+    <string name="dynamic_bar_event_notification">התראות</string>
+
+    <string name="dynamic_bar_event_notification_summary">התראות נכנסות</string>
+
+    <string name="dynamic_bar_compact_notifications">הודעות קומפקטיות</string>
+
+    <string name="dynamic_bar_compact_notifications_summary">תחילה הצג הודעות כשבב קטן, הקש כדי להרחיב</string>
+
+    <string name="dynamic_bar_event_timer">שָׁעוֹן עֶצֶר</string>
+
+    <string name="dynamic_bar_event_timer_summary">טיימר ספירה לאחור מאפליקציית השעון</string>
+
+    <string name="dynamic_bar_event_stopwatch">סטוֹפֶּר</string>
+
+    <string name="dynamic_bar_event_stopwatch_summary">הפעלת שעון עצר מאפליקציית השעון</string>
+
+    <string name="dynamic_bar_event_alarm">אַזעָקָה</string>
+
+    <string name="dynamic_bar_event_alarm_summary">צלצול ואזעקות קרובות</string>
+
+    <string name="dynamic_bar_event_charging">הטעינה החלה</string>
+
+    <string name="dynamic_bar_event_charging_summary">רמת הסוללה כשהיא מחוברת לחשמל</string>
+
+    <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
+
+    <string name="dynamic_bar_event_bluetooth_summary">מצב חיבור המכשיר</string>
+
+    <string name="dynamic_bar_event_hotspot">נקודת גישה</string>
+
+    <string name="dynamic_bar_event_hotspot_summary">מחוון פעיל של נקודה חמה ניידת</string>
+
+    <string name="dynamic_bar_event_ringer">מצב צלצול</string>
+
+    <string name="dynamic_bar_event_ringer_summary">שינויים במצב שקט, רטט וצלצול</string>
+
+    <string name="dynamic_bar_event_vpn">VPN</string>
+
+    <string name="dynamic_bar_event_vpn_summary">מחוון חיבור VPN פעיל</string>
+
+    <string name="dynamic_bar_event_clipboard">לוח כתיבה</string>
+
+    <string name="dynamic_bar_event_clipboard_summary">תצוגה מקדימה של טקסט ותמונה מועתקים</string>
+
+    <string name="dynamic_bar_event_torch">פָּנַס כִּיס</string>
+
+    <string name="dynamic_bar_event_torch_summary">החלפת פנס ובהירות</string>
+
+    <string name="dynamic_bar_event_casting">שידור</string>
+
+    <string name="dynamic_bar_event_casting_summary">סטטוס שחקנים במסך ומדיה</string>
+
+    <string name="dynamic_bar_event_ongoing">פעילות שוטפת</string>
+
+    <string name="dynamic_bar_event_ongoing_summary">ניווט, משלוחים ופעילויות חיות אחרות</string>
+
+    <string name="dynamic_bar_event_sports">ספורט</string>
+
+    <string name="dynamic_bar_event_sports_summary">תוצאות חיות ועדכוני משחקים</string>
+
+    <string name="dynamic_bar_event_app_switch">החלפת אפליקציה אחרונה</string>
+
+    <string name="dynamic_bar_event_app_switch_summary">הצג שבב בעת מעבר בין אפליקציות אחרונות</string>
+
+    <string name="dynamic_bar_event_biometric">פתיחה ביומטרית</string>
+
+    <string name="dynamic_bar_event_biometric_summary">הצג שבב על טביעת אצבע או ביטול נעילת פנים</string>
+
+    <string name="dynamic_bar_guide_title">כיצד להשתמש בסרגל דינמי</string>
+
+    <string name="dynamic_bar_guide_chip">אירועים מופיעים בשורת המצב המציגים אירועים פעילים כמו הקלטה, הפעלת מדיה וטיימרים</string>
+
+    <string name="dynamic_bar_guide_swipe">כאשר מספר אירועים פעילים, החלק שמאלה או ימינה על השבב כדי לעבור ביניהם</string>
+
+    <string name="dynamic_bar_guide_expand">הקש על שבב כדי להרחיב אותו לכרטיס מפורט עם פקדים ומידע נוסף</string>
+
+    <string name="dynamic_bar_guide_dismiss">החלק את הכרטיס המורחב כדי לסגור אותו. האירוע ממשיך ברקע</string>
+
+    <string name="dynamic_bar_guide_keyguard">שבב סרגל דינמי מופיע גם בתחתית מסך הנעילה עם בקרות השמעה ופעולות מהירות</string>
+
+    <string name="dynamic_bar_guide_chip_title">מראה שבב</string>
+
+    <string name="dynamic_bar_guide_swipe_title">החלק בין הצ׳יפים</string>
+
+    <string name="dynamic_bar_guide_expand_title">הקש כדי להרחיב</string>
+
+    <string name="dynamic_bar_guide_dismiss_title">החלק כדי לסגור</string>
+
+    <string name="dynamic_bar_guide_keyguard_title">שבב מסך נעילה</string>
+
+    <string name="dynamic_bar_footer_title">על דינמי בר</string>
+
+    <string name="dynamic_bar_footer_body">סרגל דינמי הופך את שורת המצב שלך למרכז אינטראקטיבי. שבבי סטטוס מופיעים ומונפשים על סמך אירועי מערכת, ומספקים לך מידע במבט חטוף מבלי להפריע לזרימת העבודה שלך.\\n\\nלכל סוג אירוע יש צבע מבטא משלו וכרטיס מורחב עם פעולות מהירות.</string>
+
+    <string name="lockscreen_clock_category">שָׁעוֹן</string>
+
+    <string name="misc_spoofing_category">זיוף</string>
+
+    <string name="misc_system_category">מַעֲרֶכֶת</string>
+
+    <string name="misc_animations_category">אנימציות</string>
+
+    <string name="misc_gestures_category">מחוות</string>
+
+    <string name="changelog_title">יומן שינויים נוכחי</string>
+
+    <string name="changelog_summary">הצג שינויים ב-ROM המותקן</string>
+
+    <string name="share_title">שתף את AlphaDroid</string>
+
+    <string name="share_summary">תן לאחרים לדעת על AlphaDroid</string>
+
+    <string name="source_title">GitHub</string>
+
+    <string name="source_summary">אנחנו אוהבים קוד פתוח, בדוק אותנו</string>
+
+    <string name="telegram_title">קהילת AlphaDroid</string>
+
+    <string name="telegram_summary">אנחנו בטלגרם. הצטרפו אלינו!</string>
+
+    <string name="telegram_channel_title">ערוץ עדכונים</string>
+
+    <string name="telegram_channel_summary">קבל הודעה על פריטים חדשים בטלגרם</string>
+
+    <string name="website_title">אתר רשמי</string>
+
+    <string name="website_summary">בקר באתר הרשמי שלנו</string>
+
+    <string name="translate_title">תרגומים</string>
+
+    <string name="translate_summary">עזרה עם לוקליזציה של ROM בשפה שלך!</string>
+
+    <string name="donate_title">תמכו בנו</string>
+
+    <string name="donate_summary">תרומה כדי לתמוך בפיתוח נוסף</string>
+
+    <string name="buildserversponsor_summary">ספק שרת לבנות AlphaDroid. הקש כדי לבקר בערוץ שלהם.</string>
+
+    <string name="alpha_update_title">עדכונים</string>
+
+    <string name="alpha_update_summary">בדוק והורד את העדכון האחרון</string>
+
+    <string name="selinux_status">סטטוס SELinux</string>
+
+    <string name="selinux_status_disabled">נָכֶה</string>
+
+    <string name="selinux_status_permissive">מַתִיר</string>
+
+    <string name="selinux_status_enforcing">אכיפה</string>
+
+    <string name="category_android_info">Android</string>
+
+    <string name="category_alpha_info">AlphaDroid</string>
+
+    <string name="category_device_info">הֶתקֵן</string>
+
+    <string name="build_status_title">סטטוס בנייה</string>
+
+    <string name="build_status_summary">בִּלתִי רִשׁמִי</string>
+
+    <string name="build_status_official">רִשְׁמִי</string>
+
+    <string name="build_status_unofficial">בִּלתִי רִשׁמִי</string>
+
+    <string name="alpha_build_version">גרסת AlphaDroid</string>
+
+    <string name="alpha_build_date">תאריך בנייה</string>
+
+    <string name="maintainer_title">משמר</string>
+
+    <string name="maintainer_summary">מחפש מתחזק...</string>
+
+    <string name="storage_card_title">אִחסוּן</string>
+
+    <string name="storage_card_info">משומש/סך הכל</string>
+
+    <string name="about_device_name_title">הֶתקֵן</string>
+
+    <string name="about_device_nearby">שם המכשיר יכול וייראה על ידי המכשירים הסמוכים.</string>
+
+    <string name="quickswitch_launcher_title">משגר AlphaDroid</string>
+
+    <string name="quickswitch_launcher3">Launcher3</string>
+
+    <string name="quickswitch_nexuslauncher">משגר Nexus</string>
+
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+
+    <string name="display_engine_category">מנוע תצוגה</string>
+
+    <string name="display_engine_mode_title">מנוע תצוגה של מציאות</string>
+
+    <string name="display_engine_mode_xreality">מנוע X-ריאליטי</string>
+
+    <string name="display_engine_mode_vivid">תצוגה חיה</string>
+
+    <string name="display_engine_mode_triluminous">תצוגה משולשת</string>
+
+    <string name="display_engine_mode_footer_text">בהשראת מנוע ה-Bravia/X-Reality של סוני, מנוע התצוגה כולל מצב Vivid לשיפור בהירות ורווית צבע, ומצב X-Reality לשיפור הפרטים ודיוק הצבעים.</string>
+
+    <string name="ignore_window_secure_title">התעלם מדגל חלון מאובטח</string>
+
+    <string name="ignore_window_secure_summary">הסר את הגבלות האבטחה של צילום מסך והקלטת מסך. זה יכול להיות נוח במקרים מסוימים אך עלול להוביל לדליפות פרטיות.</string>
+
+    <string name="hide_screen_capture_status_title">הסתר מצב לכידת מסך</string>
+
+    <string name="hide_screen_capture_status_summary">הסתר סטטוס צילום מסך מאפליקציות</string>
+
+    <string name="hide_developer_status_title">הסתר סטטוס מפתח</string>
+
+    <string name="hide_developer_status_summary">הסתר סטטוס מפתח מאפליקציות</string>
+
+    <string name="search_apps">חיפוש אפליקציות</string>
+
+    <string name="max_visible_notification_icons_title">סמלי התראה</string>
+
+    <string name="max_visible_notification_icons_summary">מקסימום סמלי הודעות גלויים בשורת המצב</string>
+
+    <string name="cutout_progress_title">טבעת התקדמות מגזרת</string>
+
+    <string name="cutout_progress_summary">הצג טבעת התקדמות סביב חור האגרוף</string>
+
+    <string name="cutout_progress_cat_features">תכונות</string>
+
+    <string name="cutout_progress_cat_appearance">הוֹפָעָה</string>
+
+    <string name="cutout_progress_cat_geometry">גיאומטריית הטבעת</string>
+
+    <string name="cutout_progress_cat_island">מצב מורחב</string>
+
+    <string name="cutout_progress_download_enabled_title">אפשר טבעת התקדמות הורדה</string>
+
+    <string name="cutout_progress_charging_ring_title">אפשר טבעת התקדמות הטעינה</string>
+
+    <string name="cutout_progress_ring_color_mode_title">מצב צבע טבעת</string>
+
+    <string name="cutout_progress_ring_color_mode_accent">מִבטָא</string>
+
+    <string name="cutout_progress_ring_color_mode_rainbow">קֶשֶׁת</string>
+
+    <string name="cutout_progress_ring_color_mode_custom">מִנְהָג</string>
+
+    <string name="cutout_progress_ring_color_title">צבע טבעת מותאם אישית</string>
+
+    <string name="cutout_progress_ring_opacity_title">אטימות הטבעת</string>
+
+    <string name="cutout_progress_stroke_width_title">עובי הטבעת</string>
+
+    <string name="cutout_progress_bg_ring_enabled_title">הצג רצועת רקע</string>
+
+    <string name="cutout_progress_charging_pulse_title">אנימציית דופק טעינה</string>
+
+    <string name="cutout_progress_charging_pulse_summary">הנפשת דופק חוזר מהמרכז החוצה בזמן הטעינה</string>
+
+    <string name="cutout_progress_ring_gap_title">מרווח טבעת (מרווח חיתוך)</string>
+
+    <string name="cutout_progress_path_mode_title">עקוב אחר צורת הגזרה</string>
+
+    <string name="cutout_progress_path_mode_summary">השתמש ביחס הגובה-רוחב המקורי של הגזרה במקום לנרמל את הטבעת למעגל</string>
+
+    <string name="cutout_progress_scale_x_title">קנה מידה אופקי</string>
+
+    <string name="cutout_progress_scale_y_title">קנה מידה אנכי</string>
+
+    <string name="cutout_progress_offset_x_title">היסט אופקי</string>
+
+    <string name="cutout_progress_offset_y_title">היסט אנכי</string>
+
+    <string name="cutout_progress_island_compact_title">פריסה קומפקטית</string>
+
+    <string name="cutout_progress_island_compact_summary">עטפו את גזרת המצלמה</string>
+
+    <string name="cutout_progress_island_position_title">יישור פריסה קומפקטי</string>
+
+    <string name="cutout_island_pos_center">פיצול מרכז</string>
+
+    <string name="cutout_island_pos_left">שְׁמֹאל</string>
+
+    <string name="cutout_island_pos_right">יָמִינָה</string>
+
+    <string name="cutout_island_bg_opacity_title">אטימות רקע</string>
+
+    <string name="cutout_island_timeout_title">פסק זמן לכיווץ אוטומטי</string>
+
+    <string name="hide_applist_title">הסתר רשימת אפליקציות</string>
+
+    <string name="hide_applist_summary">מנע מאפליקציות לבדוק את האפליקציות שנבחרו מרשימת האפליקציות</string>
+
+    <string name="menu_show_overlay">הצג שכבת-על</string>
+
+    <string name="menu_hide_overlay">הסתר שכבת-על</string>
+
+    <string name="volume_slider_shape_title">צורת מחוון נפח</string>
 </resources>
