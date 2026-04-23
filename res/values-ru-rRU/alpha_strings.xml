@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Цвет обоев</string>
     <string name="yes">Да</string>
     <string name="apply">Применить</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">по умолчанию</string>
-
-    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nУдерживайте для установки</string>
-
-    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <!-- Units -->
     <string name="unit_seconds">сек.</string>
     <string name="unit_milliseconds">мс.</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Скопировано в буфер</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Менее 1 минуты</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -266,8 +262,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Двойное касание для сна</string>
     <string name="lockscreen_doubletap_sleep_summary">Двойное касание заблокированного экрана переведёт устройство в спящий режим</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Часы и дата</string>
     <string name="status_bar_clock_summary">Настройки часов и даты</string>
@@ -336,8 +330,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Прочее</string>
     <string name="qs_footer_category">Нижний колонтитул</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Как в строке состояния</string>
     <!-- Battery estimate -->
@@ -363,7 +355,6 @@
     <string name="network_traffic_units_bytes">Байт в секунду (Б/с)</string>
     <string name="network_traffic_hidearrow">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки сетевой активности</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Панель навигации</string>
     <string name="navbar_visibility_summary">Показывать панель навигации в нижней части экрана</string>
@@ -565,9 +556,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Уведомления бокового переключателя</string>
+    <string name="alert_slider_notifications_summary">Показывать уведомление при изменении положения переключателя</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Безлимитный «Google Фото»</string>
     <string name="use_photos_spoof_summary">Маскировка устройства под Pixel XL для «Google Фото», чтобы предоставить неограниченное хранилище для резервного копирования фотографий</string>
@@ -668,15 +659,12 @@
     <string name="smart_pixels_percent">Процент отключаемых пикселей</string>
     <string name="smart_pixels_shift_title">Защита от выгорания</string>
     <string name="smart_pixels_shift_summary">Предотвращение выгорания OLED экранов путём смещения пикселей с некоторой частотой</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Анимация жеста «Назад»</string>
     <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста «Назад»</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Вибрация жеста «Назад»</string>
     <string name="back_gesture_haptic_summary">Вибрация при выполнении жеста «Назад»</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Температура аккумулятора</string>
     <!-- QS Transparency -->
@@ -784,8 +772,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Подмена для Google Play Integrity</string>
     <string name="pi_spoof_summary">Подмена модели устройства для Google Play Integrity</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Стандарт Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Стандарт WiFi на значке сигнала WiFi</string>
@@ -814,7 +800,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Всегда включен при зарядке</string>
     <string name="doze_on_charge_summary">Показывать информацию при зарядке устройства</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Информация о сети</string>
     <!-- QS Header -->
@@ -844,7 +829,6 @@
     <string name="always_on_display_schedule_sunrise">Рассвет</string>
     <string name="always_on_display_schedule_mixed_sunset">Включается с заходом солнца до определённого времени</string>
     <string name="always_on_display_schedule_mixed_sunrise">Включается от заданного времени до восхода солнца</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Название оператора</string>
     <string name="lockscreen_show_carrier_summary">Показывать название оператора в строке состояния</string>
@@ -857,7 +841,6 @@
     <string name="wifi_per_connection_random_mac_addr">Случайный MAC для каждого подключения (По умолчанию)</string>
     <string name="wifi_per_network_random_mac_addr">Случайный MAC для каждой сети</string>
     <string name="wifi_device_mac_addr">MAC-адрес устройства</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Боковая панель</string>
     <string name="sidebar_summary">Быстрое открытие приложений в плавающем окне</string>
@@ -873,7 +856,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Отключить для VPN</string>
     <string name="vpn_enforce_dns_summary">Отключать частный DNS при подключении к VPN и восстанавливать после отключения VPN</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Понижение версии приложения</string>
     <string name="app_downgrade_summary">Это позволяет понижать версии приложений. Обратите внимание, что это может привести к сбоям и повреждению данных.</string>
@@ -1098,8 +1080,7 @@
     <string name="dynamic_bar_guide_keyguard_title">Чип на экране блокировки</string>
     <string name="dynamic_bar_footer_title">О динамической панели</string>
     <string name="dynamic_bar_footer_body">Динамическая панель превращает строку состояния в интерактивный центр уведомлений. Чипы статуса появляются и анимируются в ответ на системные события, чтобы вы могли быстро увидеть важное, не отвлекаясь от задач.\\n\\nУ каждого типа событий свой акцентный цвет и развёрнутая карточка с быстрыми действиями.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Настройки Alpha</string>
     <string name="alpha_settings_summary">Там будут вкусняшки!</string>
@@ -1120,7 +1101,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Поделиться AlphaDroid</string>
     <string name="share_summary">Расскажите другим о AlphaDroid</string>
-    <string name="share_message">Проверьте, доступен ли #AlphaDroid для вашего устройства: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Узнайте, доступен ли #AlphaDroid для Вашего устройства на @ https://alpha.net/</string>
     <string name="share_chooser_title">Поделиться AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1171,13 +1152,12 @@
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">Лаунчер AlphaDroid</string>
     <string name="quickswitch_launcher3">Лаунчер3</string>
-    <string name="quickswitch_nexuslauncher">Нексус Лаунчер</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Дисплейный движок</string>
     <string name="display_engine_mode_title">Движок отображения реальности</string>
-    <string name="display_engine_mode_xreality">Двигатель X-Reality</string>
+    <string name="display_engine_mode_xreality">X-Reality Engine</string>
     <string name="display_engine_mode_vivid">Яркий дисплей</string>
     <string name="display_engine_mode_triluminous">Трехцветный дисплей</string>
     <string name="display_engine_mode_footer_text">Display Engine, созданный на основе процессора Sony Bravia/X-Reality, оснащен режимом Vivid для повышения яркости и насыщенности цветов, а также режимом X-Reality для улучшения детализации и точности цветопередачи.</string>
@@ -1194,7 +1174,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Значки уведомлений</string>
     <string name="max_visible_notification_icons_summary">Максимальное количество значков в строке состояния</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Кольцо прогресса выреза</string>
     <string name="cutout_progress_summary">Показать прогресс кольца вокруг отверстия</string>
@@ -1241,88 +1220,4 @@
     <string name="menu_hide_overlay">Скрыть оверлей</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Форма ползунка громкости</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Уведомления бокового переключателя</string>
-
-    <string name="alert_slider_notifications_summary">Показывать уведомление при изменении положения переключателя</string>
-
 </resources>
