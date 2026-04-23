@@ -21,18 +21,13 @@
     <string name="button_title">Buttons</string>
     <string name="lockscreen_title">Lockscreen</string>
     <string name="misc_title">Miscellaneous</string>
-    <string name="misc_title_short">Misc</string>
-    <string name="navigation_title">Navigation</string>
     <string name="notifications_title">Notifications</string>
     <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_title_short">QS</string>
     <string name="sound_title">Sound</string>
     <string name="statusbar_title">Statusbar</string>
     <string name="display_title">Display</string>
     <string name="ui_title">Alpha Visuals</string>
     <string name="ui_summary">Themes, styles, animations</string>
-    <string name="alpha_visuals_test_title">AlphaVisuals</string>
-    <string name="alpha_visuals_test_summary">Fonts, icons, styles, animations</string>
     <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
     <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
     <string name="button_summary">Hardware buttons and power menu</string>
@@ -43,20 +38,16 @@
     <string name="about_summary">About AlphaDroid</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right" translatable="false">→</string>
-    <string name="arrow_down" translatable="false">↓</string>
     <string name="hex" translatable="false">Hex:</string>
     <string name="hex_hint" translatable="false">#ff000000</string>
     <string name="set">Set</string>
-    <string name="color_default">Default</string>
 
     <!-- General strings -->
     <string name="accent_color">Accent color</string>
     <string name="add">Add</string>
     <string name="advanced">Advanced</string>
-    <string name="always">Always</string>
     <string name="back">Back</string>
     <string name="cancel" translatable="false">@android:string/cancel</string>
     <string name="caution">Caution</string>
@@ -67,7 +58,6 @@
     <string name="delete_message">Remove selected item?</string>
     <string name="disable">Disable</string>
     <string name="disabled">Disabled</string>
-    <string name="discard_changes">Discard changes</string>
     <string name="dlg_ok" translatable="false">@android:string/ok</string>
     <string name="enable">Enable</string>
     <string name="enabled">Enabled</string>
@@ -83,16 +73,12 @@
     <string name="ok" translatable="false">@android:string/ok</string>
     <string name="on">On</string>
     <string name="reset">Reset</string>
-    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
     <string name="save">Save</string>
     <string name="search">Search</string>
     <string name="settings">Settings</string>
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="yes">Yes</string>
     <string name="apply">Apply</string>
-
-    <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
 
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
@@ -108,10 +94,6 @@
 
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
-
-    <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
 
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 Minute</string>
@@ -216,16 +198,12 @@
     <string name="power_menu_actions_title">Actions</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_onthego_title">On-The-Go mode</string>
     <string name="power_menu_advanced_title">Advanced reboot options</string>
     <string name="power_menu_airplane_title">Airplane</string>
     <string name="power_menu_torch_title">Flashlight</string>
-    <string name="power_menu_settings_title">Settings</string>
     <string name="power_menu_lockdown_title">Lockdown</string>
     <string name="power_menu_lockdown_unavailable">Lockdown is disabled as keyguard isn\'t secure</string>
-    <string name="power_menu_soundpanel_title">Sound panel</string>
     <string name="power_menu_users_title">Users</string>
-    <string name="power_menu_logout_title">Logout</string>
     <string name="power_menu_emergency_title">Emergency</string>
     <string name="power_menu_devicecontrols_title">Device controls</string>
 
@@ -309,8 +287,6 @@
 
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
     <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_none">no notifications</string>
     <string name="smart_pulldown_dismissable">no dismissible</string>
@@ -319,14 +295,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Tap to sleep</string>
     <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string>
-
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <string name="theme_overlay_default_package_label">Default</string>
-
-    <!-- Refresh rate -->
-    <string name="default_refresh_rate_title_custom">Default refresh rate</string>
-    <string name="peak_refresh_rate_title_custom">Peak refresh rate</string>
-    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Clock &amp; date</string>
@@ -374,8 +342,6 @@
     <string name="status_bar_battery_percent_hidden">Hidden</string>
     <string name="status_bar_battery_percent_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percent_text_next">Next to the icon</string>
-    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string>
-    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
@@ -402,14 +368,6 @@
     <string name="qs_misc_category">Miscellaneous</string>
     <string name="qs_footer_category">Footer</string>
 
-    <!-- QS clock -->
-    <string name="qs_clock_title">Clock</string>
-    <string name="qs_clock_summary">Display clock in quick status bar header</string>
-
-    <!-- QS date -->
-    <string name="qs_date_title">Date</string>
-    <string name="qs_date_summary">Display date in quick status bar header</string>
-
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
 
@@ -420,7 +378,6 @@
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Network traffic monitor</string>
     <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
-    <string name="network_traffic_location_title">Location</string>
     <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">Statusbar</string>
     <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
@@ -430,31 +387,20 @@
     <string name="network_traffic_mode_all">Upload and download</string>
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
-    <string name="network_traffic_autohide_kilobits" translatable="false">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
     <string name="network_traffic_units_title">Traffic measurement units</string>
     <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
     <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
-
-    <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Footer alerts</string>
-    <string name="qs_footer_warnings_summary">Display an alert at bottom of QS panel when network is monitored by external apps or VPN</string>
 
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Navigation bar</string>
     <string name="navbar_visibility_summary">Display navigation bar at bottom of screen</string>
     <string name="navbar_layout_category_title">Layout</string>
-    <string name="navbar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navbar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
     <string name="navbar_layout_title">Layout</string>
     <string name="navbar_layout_normal">Normal</string>
     <string name="navbar_layout_compact">Compact</string>
@@ -509,7 +455,6 @@
     <string name="qs_show_brightness_slider_never">Never show</string>
     <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
     <string name="qs_show_brightness_slider_always">Show always</string>
-    <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
     <string name="qs_brightness_slider_position_title">Position</string>
     <string name="qs_brightness_slider_position_top">Top</string>
     <string name="qs_brightness_slider_position_bottom">Bottom</string>
@@ -591,9 +536,7 @@
     <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
     <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
     <string name="notification_light_screen_on">Lights with screen on</string>
-    <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
     <string name="notification_light_automagic">Choose colors automatically</string>
-    <string name="notification_light_automagic_summary">Choosing colors automatically</string>
     <string name="notification_light_override">Override all apps</string>
 
     <!-- Lights settings, LED notification -->
@@ -725,20 +668,9 @@
     <!-- Quad9 Unsecured ECS DNS hostname -->
     <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
 
-    <!-- Comss DNS Option -->
-    <string name="private_dns_mode_comss" translatable="false">Comss DNS</string>
-
-    <!-- Comss DNS hostname -->
-    <string name="private_dns_hostname_comss" translatable="false">dns.comss.one</string>
-
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Alert slider notifications</string>
     <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
-
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="display_cutout_force_fullscreen_no_apps">No apps</string>
 
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Unlimited Photos storage</string>
@@ -755,19 +687,12 @@
     <string name="volume_dialog_haptic_feedback_title">Volume panel haptics</string>
 
     <!-- UDFPS settings -->
-    <string name="udfps_settings_title">UDFPS customization</string>
-    <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
     <string name="udfps_icon_picker_title">UDFPS icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
     <string name="udfps_recog_animation_effect_title">UDFPS custom animation</string>
     <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
 
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
@@ -819,9 +744,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
-    <string name="wifi_band_60ghz" translatable="false">60 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
         <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
@@ -863,14 +785,6 @@
     <string name="smart_pixels_shift_title">Burn-in protection</string>
     <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
 
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
-
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Clear all notification button</string>
-    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
-
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
@@ -878,11 +792,6 @@
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Back gesture haptic</string>
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
-
-    <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
 
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
@@ -1013,15 +922,6 @@
     <string name="pi_spoof_title">Google Play Integrity spoof</string>
     <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
 
-    <!-- Captive portal -->
-    <string name="captive_portal_title">Connectivity check</string>
-    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
-
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
-
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi standard</string>
     <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
@@ -1041,7 +941,6 @@
     <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
     <string name="app_lock_notifications_title">Redact notifications</string>
     <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <string name="enable_protection">Enable protection</string>
@@ -1051,9 +950,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always show when charging</string>
     <string name="doze_on_charge_summary">Display info when device is charging</string>
-
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
@@ -1089,10 +985,6 @@
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
 
-    <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
-    <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
-
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Carrier name</string>
     <string name="lockscreen_show_carrier_summary">Display carrier name in the status bar</string>
@@ -1108,12 +1000,6 @@
     <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
     <string name="wifi_device_mac_addr">Use device MAC</string>
 
-    <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <string name="gesture_wake_ambient">Show Ambient</string>
-    <string name="gesture_wake">Fully wake</string>
-
     <!-- Sidebar -->
     <string name="sidebar_title">Sidebar</string>
     <string name="sidebar_summary">Quickly open apps in a floating window</string>
@@ -1123,10 +1009,6 @@
     <string name="lockscreen_smartspace_summary">Show Google Smartspace when available</string>
 
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear timeout</string>
-    <string name="clipboard_auto_clear_title">Clipboard auto clear</string>
-    <string name="clipboard_auto_clear_summary">Automatically clear clipboard at the scheduled time</string>
-    <string name="clipboard_auto_clear_enabled_title">Use clipboard auto clear</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Disable clipboard</string>
 
     <!-- Increasing ring tone volume -->
@@ -1137,10 +1019,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Disable for VPN</string>
     <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
-
-    <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
 
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Allow app downgrade</string>
@@ -1158,8 +1036,6 @@
     <string name="show_ime_space_title">Show IME button space</string>
     <string name="show_ime_space_summary">Enable the input method quick switch feature to switch input methods or hide the on-screen keyboard from the feature bar at the bottom of the screen when typing</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Notification style</string>
-    <string name="powermenu_style_title">Power menu style</string>
     <string name="custom_style_cyberpunk">Cyberpunk</string>
     <string name="custom_style_duoline">Duoline</string>
     <string name="custom_style_fluid">Fluid (Transparent)</string>
@@ -1339,8 +1215,6 @@
     <string name="dynamic_bar_keyguard_battery_chip_disabled">Never show</string>
     <string name="dynamic_bar_keyguard_battery_chip_charging">Only when charging</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Always show</string>
-    <string name="dynamic_bar_keyguard_compact_chip">Compact lock screen chip</string>
-    <string name="dynamic_bar_keyguard_compact_chip_summary">Always use the compact chip style on the lockscreen. When disabled, compact mode is used only when space is limited.</string>
     <string name="dynamic_bar_events">Events</string>
     <string name="dynamic_bar_event_recording">Screen recording</string>
     <string name="dynamic_bar_event_recording_summary">Active screen recording indicator</string>
@@ -1398,11 +1272,8 @@
     <string name="dynamic_bar_footer_title">About Dynamic Bar</string>
     <string name="dynamic_bar_footer_body">Dynamic Bar transforms your status bar into an interactive hub. Status chips appear and animate based on system events, giving you at-a-glance information without interrupting your workflow.\n\nEach event type has its own accent color and expanded card with quick actions.</string>
 
-    <!-- Ax ThemeStore -->
-    <string name="custom_system_theme_title">Themes</string>
-    <string name="custom_system_theme_summary">Customize system appearance with themes and icon packs</string>
 
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
 
      <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha settings</string>
@@ -1411,13 +1282,6 @@
     <string name="reset_settings_message">This will reset most alpha settings to their default values for the current user. Would you like to continue?</string>
 
     <!-- Top level categories -->
-    <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Connectivity</string>
-    <string name="top_level_system_info_category_title">System</string>
-    <string name="top_level_personalize_category_title">Personalization</string>
-    <string name="top_level_security_privacy_category_title">Security</string>
-    <string name="top_level_account_category_title">Accounts</string>
-    <string name="top_level_support_category_title">Support</string>
 
     <string name="lockscreen_clock_category">Clock</string>
 
@@ -1430,11 +1294,8 @@
     <!-- Changelog -->
     <string name="changelog_title">Current changelog</string>
     <string name="changelog_summary">View changes in the ROM installed</string>
-    <string name="changelog_error">Unable to load changelog</string>
 
     <!-- About AlphaDroid -->
-    <string name="about_alpha">About Alpha</string>
-    <string name="about_alpha_dual_line">About\nAlphaDroid</string>
     <string name="about_device_name">Device</string>
 
     <!-- Share AlphaDroid -->
@@ -1458,8 +1319,6 @@
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Support us</string>
     <string name="donate_summary">Donate to support further development</string>
-    <string name="donate_team_title">AlphaDroid team</string>
-    <string name="donate_team_summary">Donate to support server hosting, site uptime and overall management</string>
 
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
@@ -1496,7 +1355,6 @@
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Used/total</string>
     <string name="about_device_name_title">Device</string>
-    <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
 
     <!-- Hardware info -->
@@ -1505,18 +1363,13 @@
 
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
-    <string name="quickswitch_launcher_summary">Change AlphaDroid built-in launcher</string>
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
 
-    <!-- Search bar -->
-    <string name="search_bar_text">search</string>
-
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
-    <string name="display_engine_mode_summary">Boost standard Android color modes with custom display enhancements</string>
     <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
     <string name="display_engine_mode_xreality">X-Reality Engine</string>
     <string name="display_engine_mode_vivid">Vivid Display</string>
@@ -1540,16 +1393,6 @@
     <string name="max_visible_notification_icons_title">Notification icons</string>
     <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
 
-    <!-- UI styles -->
-    <string name="ui_style_title">UI Style</string>
-    <string name="ui_style_summary">Customize QS tiles and brightness slider appearance</string>
-    <string name="ui_style_light_theme">Light theme</string>
-    <string name="ui_style_dark_theme">Dark theme</string>
-    <string name="ui_style_default" translatable="false">@string/default_value</string>
-    <string name="ui_style_reset_section">Reset to defaults</string>
-    <string name="ui_style_reset_all">Reset all styles</string>
-    <string name="ui_style_reset_all_summary">Reset all style parameters to defaults</string>
-
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Cutout Progress Ring</string>
     <string name="cutout_progress_summary">Show progress ring around punch hole</string>
@@ -1570,7 +1413,6 @@
     <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
     <string name="cutout_progress_stroke_width_title">Ring thickness</string>
     <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
     <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
     <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
     <!-- Ring Geometry -->
