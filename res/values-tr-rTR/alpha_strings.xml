@@ -27,12 +27,12 @@
     <string name="display_title">Ekran</string>
     <string name="ui_title">Arayüz</string>
     <string name="ui_summary">Temalar, stiller, animasyonlar</string>
-    <string name="statusbar_summary">Simgeler, saat, pil, ağ trafiği</string>
+    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
     <string name="quicksettings_summary">Kutucuklar, düzen, parlaklık kaydırıcısı</string>
     <string name="button_summary">Donanım düğmeleri ve güç menüsü</string>
     <string name="lockscreen_summary">Doze, pulse, UDFPS, hava durumu</string>
     <string name="notifications_summary">Uyarılar, ön uyarı, ışıklar</string>
-    <string name="sound_summary">Ses paneli, titreşim</string>
+    <string name="sound_summary">Volume panel, vibration</string>
     <string name="misc_summary">Oyun alanı, sahtekarlık, çeşitli konular.</string>
     <string name="about_summary">AlphaDroid Hakkında</string>
     <!-- Color Picker -->
@@ -69,8 +69,7 @@
     <string name="settings">Ayarlar</string>
     <string name="wallpaper_color">Duvar kağıdı rengi</string>
     <string name="yes">Evet</string>
-    <string name="apply">Uygula</string>
-    <!-- App details: open play store link if app is user installed -->
+    <string name="apply">Apply</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Varsayılan</string>
@@ -79,7 +78,6 @@
     <string name="unit_milliseconds">milisaniye</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Panoya kopyalandı</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -260,8 +258,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Çift dokunuşla uyutma</string>
     <string name="lockscreen_doubletap_sleep_summary">Cihazı uyutmak için kilit ekranının boş bir alanına iki kez dokunun</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Saat ve tarih</string>
     <string name="status_bar_clock_summary">Saati ve tarihi özelleştirin</string>
@@ -330,8 +326,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Çeşitli</string>
     <string name="qs_footer_category">Alt bilgi</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Durum çubuğu stilini takip et</string>
     <!-- Battery estimate -->
@@ -357,7 +351,6 @@
     <string name="network_traffic_units_bytes">Saniye başına bayt (B/s)</string>
     <string name="network_traffic_hidearrow">Okları gizle</string>
     <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Gezinme çubuğu</string>
     <string name="navbar_visibility_summary">Ekranın alt kısmında gezinme çubuğunu görüntüle</string>
@@ -559,9 +552,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Alert slider notifications</string>
+    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Sınırsız fotoğraf depolama</string>
     <string name="use_photos_spoof_summary">Yalnızca yedekleme için sınırsız depolama sağlamak amacıyla cihazınızı Google Fotoğraflar uygulaması için Pixel XL olarak taklit edin</string>
@@ -660,24 +653,21 @@
     <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
     <string name="smart_pixels_shift_title">Yanma koruması</string>
     <string name="smart_pixels_shift_summary">OLED cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Geri hareketi titreşimi</string>
     <string name="back_gesture_haptic_summary">Geri hareketi gerçekleştirirken titret</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Pil sıcaklığı</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">QS arka plan opaklığı</string>
-    <string name="qs_opacity_summary">Döşemelerin arkasındaki Hızlı Ayarlar ince dokusunun opaklığı (0%% tamamen şeffaftır)</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
     <!-- QS Blur intensity -->
-    <string name="qs_blur_intensity_title">QS arka plan bulanıklığı</string>
-    <string name="qs_blur_intensity_summary">Hızlı Ayarlar panelinin arkasındaki bulanıklık yoğunluğu</string>
-    <string name="qs_blur_disabled_in_settings">(Ekran ayarlarında Pencere bulanıklığını etkinleştirin)</string>
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Veri kullanımı</string>
     <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
@@ -722,7 +712,7 @@
     <string name="outline">Anahat</string>
     <string name="solid_accent_gradient">Düz renk geçişi vurgusu</string>
     <string name="solid_gradient">Düz geçiş tarafı</string>
-    <string name="solid_gradient_corner">Sağlam vurgulu gradyan keskin</string>
+    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
     <string name="solid_gradient_void">Gradyan boşluğu</string>
     <string name="solid_gradient_neumorph">Nömorf gradyanı</string>
     <string name="solid_gradient_stroke">Keskin gradyan konturu</string>
@@ -776,8 +766,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play Integrity aldatma</string>
     <string name="pi_spoof_summary">Cihazınızı Google Play Integrity\'de farklı bir modelmiş gibi gösterin</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi standardı</string>
     <string name="wifi_standard_icon_summary">WiFi sinyalinin yanında WiFi standardını göster</string>
@@ -804,7 +792,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman göster</string>
     <string name="doze_on_charge_summary">Cihaz şarj olurken bilgi göster</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Radyo bilgisi</string>
     <!-- QS Header -->
@@ -834,7 +821,6 @@
     <string name="always_on_display_schedule_sunrise">Gün doğumu</string>
     <string name="always_on_display_schedule_mixed_sunset">Gün doğumuyla etkinleşir</string>
     <string name="always_on_display_schedule_mixed_sunrise">Gün batımına kadar etkinleşir</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Operatör adı</string>
     <string name="lockscreen_show_carrier_summary">Durum çubuğunda operatör adını göster</string>
@@ -847,12 +833,11 @@
     <string name="wifi_per_connection_random_mac_addr">Her bağlantı için rastgele MAC kullan (varsayılan)</string>
     <string name="wifi_per_network_random_mac_addr">Her ağ için rastgele MAC kullan</string>
     <string name="wifi_device_mac_addr">Cihazın MAC\'ını kullan</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Kenar Çubuğu</string>
     <string name="sidebar_summary">Uygulamaları hızlı biçimde yüzen pencerede açın</string>
     <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Akıllı alan</string>
+    <string name="lockscreen_smartspace_title">Smartspace</string>
     <string name="lockscreen_smartspace_summary">Uygun olduğunda Google Smartspace gösterilsin</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Panoyu devre dışı bırak</string>
@@ -863,7 +848,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">VPN için devre dışı bırak</string>
     <string name="vpn_enforce_dns_summary">VPN\'e bağlıyken özel DNS\'yi devre dışı bırak ve bağlantı kesilince etkinleştir</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Uygulama sürümünü düşürmeye izin ver</string>
     <string name="app_downgrade_summary">Uygulamaların eski sürümüne geri dönmenize imkân verir. Veri kaybına ve çökmelere neden olabilir.</string>
@@ -996,105 +980,104 @@
     <string name="cycle_type_daily_title">Kullanım döngüsü sıfırlama saati</string>
     <string name="cycle_type_daily_sub">Her gün şu saatte:</string>
     <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Özel saat stili</string>
-    <string name="lockscreen_custom_clock_style_summary">Kilit ekranı saat stillerini yapılandırma</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Saat stillerini önizlemek için sola veya sağa kaydırın</string>
-    <string name="lockscreen_custom_clock_style_info">Özel saat stili, AOSP saat stillerini özel saatlerle değiştirir. Smartspace devre dışı bırakılacak. Bunun yerine özel hava durumunu etkinleştirebilir ve kullanabilirsiniz.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Özel saat opaklığı</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Özel saat stilinin şeffaflığını ayarlayın</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Özel saat yüksekliği</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Özel saat stilinin yüksekliğini ayarlayın</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Özel saat renk modu</string>
+    <string name="lockscreen_custom_clock_style_title">Custom clock style</string>
+    <string name="lockscreen_custom_clock_style_summary">Configure lock screen clock styles</string>
+    <string name="lockscreen_custom_clock_style_highlight_text">Swipe left or right to preview clock styles</string>
+    <string name="lockscreen_custom_clock_style_info">Custom clock style replaces AOSP clock styles with custom clocks. Smartspace will be disabled. You can enable and use custom weather instead.</string>
+    <string name="lockscreen_custom_clock_opacity_title">Custom clock opacity</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Adjust the transparency of custom clock style</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Custom clock height</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Adjust the height of custom clock style</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Custom clock color mode</string>
     <!-- QS Panel style -->
-    <string name="qs_panel_style_title">QS Panel stili</string>
-    <string name="qs_panel_style_card">Kart stili</string>
-    <string name="qs_panel_style_classic">Klasik tarz</string>
+    <string name="qs_panel_style_title">QS Panel style</string>
+    <string name="qs_panel_style_card">Card style</string>
+    <string name="qs_panel_style_classic">Classic style</string>
     <string name="shape_circle">Daire</string>
     <string name="shape_square">Kare</string>
-    <string name="shape_arch">Kemer</string>
-    <string name="shape_ios_rounded_square">iOS yuvarlak şekil</string>
-    <string name="shape_hexagon">Altıgen</string>
-    <string name="shape_pebble">Çakıl taşı</string>
-    <string name="shape_rice_balls">Pirinç topları</string>
-    <string name="shape_rounded_rect">Yuvarlatılmış dikdörtgen</string>
+    <string name="shape_arch">Arch</string>
+    <string name="shape_ios_rounded_square">iOS rounded shape</string>
+    <string name="shape_hexagon">Hexagon</string>
+    <string name="shape_pebble">Pebble</string>
+    <string name="shape_rice_balls">Rice balls</string>
+    <string name="shape_rounded_rect">Rounded rectangle</string>
     <string name="shape_squircle">Squircle</string>
-    <string name="shape_tapered_rect">Konik dikdörtgen</string>
-    <string name="shape_teardrop">Gözyaşı</string>
-    <string name="shape_rounded_hexagon">Yuvarlak altıgen</string>
+    <string name="shape_tapered_rect">Tapered rect</string>
+    <string name="shape_teardrop">Teardrop</string>
+    <string name="shape_rounded_hexagon">Rounded hexagon</string>
     <!-- Dynamic Bar -->
-    <string name="dynamic_bar">Dinamik Çubuk</string>
-    <string name="dynamic_bar_summary">Kayıt, medya, zamanlayıcılar ve daha fazlası gibi aktif etkinlikler için akıllı durum çubuğu çipi</string>
-    <string name="dynamic_bar_enable">Dinamik Çubuğu Etkinleştir</string>
-    <string name="dynamic_bar_enable_summary">Canlı etkinlikler için durum çubuğunda dinamik bir çip göster</string>
-    <string name="dynamic_bar_keyguard_enable">Kilit ekranında dinamik çubuk</string>
-    <string name="dynamic_bar_keyguard_enable_summary">Kilit ekranı göstergesini, kontroller ve hızlı işlemler içeren dinamik çubuk çipi ile değiştirir</string>
-    <string name="dynamic_bar_keyguard_battery_chip">Kilit ekranında pil bilgisi</string>
+    <string name="dynamic_bar">Dynamic Bar</string>
+    <string name="dynamic_bar_summary">Smart status bar chip for active events like recording, media, timers, and more</string>
+    <string name="dynamic_bar_enable">Enable Dynamic Bar</string>
+    <string name="dynamic_bar_enable_summary">Show a dynamic chip on the status bar for live events</string>
+    <string name="dynamic_bar_keyguard_enable">Dynamic bar on lock screen</string>
+    <string name="dynamic_bar_keyguard_enable_summary">Replace keyguard indication with dynamic bar chip on the lock screen with controls and quick actions</string>
+    <string name="dynamic_bar_keyguard_battery_chip">Battery info on lock screen</string>
     <string name="dynamic_bar_keyguard_battery_chip_disabled">Asla gösterme</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">Yalnızca şarj olurken</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">Her zaman göster</string>
-    <string name="dynamic_bar_events">Olaylar</string>
-    <string name="dynamic_bar_event_recording">Ekran kaydı</string>
-    <string name="dynamic_bar_event_recording_summary">Aktif ekran kayıt göstergesi</string>
-    <string name="dynamic_bar_event_privacy">Gizlilik göstergeleri</string>
-    <string name="dynamic_bar_event_privacy_summary">Kamera ve mikrofon erişim uyarıları</string>
-    <string name="dynamic_bar_event_audio_recording">Ses kaydı</string>
-    <string name="dynamic_bar_event_audio_recording_summary">Ses kaydedici ve ses yakalama</string>
-    <string name="dynamic_bar_event_media">Medya oynatma</string>
-    <string name="dynamic_bar_event_media_summary">Çalan müzik ve ses denetimleri</string>
+    <string name="dynamic_bar_keyguard_battery_chip_charging">Only when charging</string>
+    <string name="dynamic_bar_keyguard_battery_chip_always">Always show</string>
+    <string name="dynamic_bar_events">Events</string>
+    <string name="dynamic_bar_event_recording">Screen recording</string>
+    <string name="dynamic_bar_event_recording_summary">Active screen recording indicator</string>
+    <string name="dynamic_bar_event_privacy">Privacy indicators</string>
+    <string name="dynamic_bar_event_privacy_summary">Camera and microphone access alerts</string>
+    <string name="dynamic_bar_event_audio_recording">Audio recording</string>
+    <string name="dynamic_bar_event_audio_recording_summary">Voice recorder and audio capture</string>
+    <string name="dynamic_bar_event_media">Media playback</string>
+    <string name="dynamic_bar_event_media_summary">Now playing music and audio controls</string>
     <string name="dynamic_bar_event_notification">Bildirimler</string>
-    <string name="dynamic_bar_event_notification_summary">Gelen bildirim uyarıları</string>
-    <string name="dynamic_bar_compact_notifications">Kompakt bildirimler</string>
-    <string name="dynamic_bar_compact_notifications_summary">Bildirimleri önce küçük bir çip olarak gösterin, genişletmek için dokunun</string>
-    <string name="dynamic_bar_event_timer">Zamanlayıcı</string>
-    <string name="dynamic_bar_event_timer_summary">Saat uygulamasından geri sayım sayacı</string>
-    <string name="dynamic_bar_event_stopwatch">Kronometre</string>
-    <string name="dynamic_bar_event_stopwatch_summary">Kronometreyi saat uygulamasından çalıştırma</string>
+    <string name="dynamic_bar_event_notification_summary">Incoming notification alerts</string>
+    <string name="dynamic_bar_compact_notifications">Compact notifications</string>
+    <string name="dynamic_bar_compact_notifications_summary">Show notifications as a small chip first, tap to expand</string>
+    <string name="dynamic_bar_event_timer">Timer</string>
+    <string name="dynamic_bar_event_timer_summary">Countdown timer from clock app</string>
+    <string name="dynamic_bar_event_stopwatch">Stopwatch</string>
+    <string name="dynamic_bar_event_stopwatch_summary">Running stopwatch from clock app</string>
     <string name="dynamic_bar_event_alarm">Alarm</string>
-    <string name="dynamic_bar_event_alarm_summary">Çalan ve yaklaşan alarmlar</string>
-    <string name="dynamic_bar_event_charging">Şarj işlemi başladı</string>
-    <string name="dynamic_bar_event_charging_summary">Takılıyken pil seviyesi</string>
+    <string name="dynamic_bar_event_alarm_summary">Ringing and upcoming alarms</string>
+    <string name="dynamic_bar_event_charging">Charging started</string>
+    <string name="dynamic_bar_event_charging_summary">Battery level when plugged in</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
-    <string name="dynamic_bar_event_bluetooth_summary">Cihaz bağlantı durumu</string>
+    <string name="dynamic_bar_event_bluetooth_summary">Device connection status</string>
     <string name="dynamic_bar_event_hotspot">Hotspot</string>
-    <string name="dynamic_bar_event_hotspot_summary">Mobil erişim noktası etkin göstergesi</string>
-    <string name="dynamic_bar_event_ringer">Zil Modu</string>
-    <string name="dynamic_bar_event_ringer_summary">Sessiz, titreşim ve zil modu değişiklikleri</string>
+    <string name="dynamic_bar_event_hotspot_summary">Mobile hotspot active indicator</string>
+    <string name="dynamic_bar_event_ringer">Ringer Mode</string>
+    <string name="dynamic_bar_event_ringer_summary">Silent, vibrate, and ring mode changes</string>
     <string name="dynamic_bar_event_vpn">VPN</string>
-    <string name="dynamic_bar_event_vpn_summary">Aktif VPN bağlantısı göstergesi</string>
-    <string name="dynamic_bar_event_clipboard">Pano</string>
-    <string name="dynamic_bar_event_clipboard_summary">Kopyalanan metin ve resim önizlemesi</string>
+    <string name="dynamic_bar_event_vpn_summary">Active VPN connection indicator</string>
+    <string name="dynamic_bar_event_clipboard">Clipboard</string>
+    <string name="dynamic_bar_event_clipboard_summary">Copied text and image preview</string>
     <string name="dynamic_bar_event_torch">El feneri</string>
-    <string name="dynamic_bar_event_torch_summary">El feneri geçişi ve parlaklık</string>
-    <string name="dynamic_bar_event_casting">Yansıtma</string>
-    <string name="dynamic_bar_event_casting_summary">Ekran yayını ve medya yayını durumu</string>
-    <string name="dynamic_bar_event_ongoing">Devam eden aktiviteler</string>
-    <string name="dynamic_bar_event_ongoing_summary">Navigasyon, teslimatlar ve diğer canlı aktiviteler</string>
-    <string name="dynamic_bar_event_sports">Spor</string>
-    <string name="dynamic_bar_event_sports_summary">Canlı skorlar ve oyun güncellemeleri</string>
-    <string name="dynamic_bar_event_app_switch">Son uygulama geçişi</string>
-    <string name="dynamic_bar_event_app_switch_summary">Son uygulamalar arasında geçiş yaparken çipi göster</string>
-    <string name="dynamic_bar_event_biometric">Biyometrik kilit açma</string>
-    <string name="dynamic_bar_event_biometric_summary">Parmak izinde veya yüz tanıma kilidinde çipi göster</string>
-    <string name="dynamic_bar_guide_title">Dinamik Çubuk nasıl kullanılır?</string>
-    <string name="dynamic_bar_guide_chip">Olaylar durum çubuğunda kayıt, medya oynatma ve zamanlayıcılar gibi aktif olayları gösteren görünür</string>
-    <string name="dynamic_bar_guide_swipe">Birden fazla etkinlik etkin olduğunda, bunlar arasında geçiş yapmak için çip üzerinde sola veya sağa kaydırın</string>
-    <string name="dynamic_bar_guide_expand">Kontroller ve ek bilgiler içeren ayrıntılı bir karta genişletmek için bir çipe dokunun</string>
-    <string name="dynamic_bar_guide_dismiss">Genişletilmiş kartı kapatmak için kaydırarak uzaklaştırın. Etkinlik arka planda devam ediyor</string>
-    <string name="dynamic_bar_guide_keyguard">Oynatma kontrolleri ve hızlı eylemlerle birlikte kilit ekranının altında dinamik çubuk çipi de görünür</string>
-    <string name="dynamic_bar_guide_chip_title">Çip görünümü</string>
-    <string name="dynamic_bar_guide_swipe_title">Çipler arasında hızlıca kaydırın</string>
-    <string name="dynamic_bar_guide_expand_title">Genişletmek için dokunun</string>
-    <string name="dynamic_bar_guide_dismiss_title">Kapatmak için kaydırın</string>
-    <string name="dynamic_bar_guide_keyguard_title">Kilit ekranı çipi</string>
-    <string name="dynamic_bar_footer_title">Dinamik Çubuk Hakkında</string>
-    <string name="dynamic_bar_footer_body">Dinamik Çubuk, durum çubuğunuzu etkileşimli bir bilgi merkezine dönüştürür. Durum çipleri sistem olaylarına göre belirir ve hareket eder; böylece iş akışınızı bölmeden önemli bilgileri hızlıca görürsünüz.\\n\\nHer etkinlik türünün kendi vurgu rengi ve hızlı işlemler içeren genişletilebilir bir kartı vardır.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <string name="dynamic_bar_event_torch_summary">Flashlight toggle and brightness</string>
+    <string name="dynamic_bar_event_casting">Casting</string>
+    <string name="dynamic_bar_event_casting_summary">Screen cast and media cast status</string>
+    <string name="dynamic_bar_event_ongoing">Ongoing activities</string>
+    <string name="dynamic_bar_event_ongoing_summary">Navigation, deliveries, and other live activities</string>
+    <string name="dynamic_bar_event_sports">Sports</string>
+    <string name="dynamic_bar_event_sports_summary">Live scores and game updates</string>
+    <string name="dynamic_bar_event_app_switch">Recent app switch</string>
+    <string name="dynamic_bar_event_app_switch_summary">Show chip when switching between recent apps</string>
+    <string name="dynamic_bar_event_biometric">Biometric unlock</string>
+    <string name="dynamic_bar_event_biometric_summary">Show chip on fingerprint or face unlock</string>
+    <string name="dynamic_bar_guide_title">How to use Dynamic Bar</string>
+    <string name="dynamic_bar_guide_chip">Events appear in the status bar showing active events like recording, media playback, and timers</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip to cycle through them</string>
+    <string name="dynamic_bar_guide_expand">Tap a chip to expand it into a detailed card with controls and additional information</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe the expanded card away to dismiss it. The event continues in the background</string>
+    <string name="dynamic_bar_guide_keyguard">Dynamic bar chip also appears at the bottom of the lock screen with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_chip_title">Chip appearance</string>
+    <string name="dynamic_bar_guide_swipe_title">Swipe between chips</string>
+    <string name="dynamic_bar_guide_expand_title">Tap to expand</string>
+    <string name="dynamic_bar_guide_dismiss_title">Swipe to dismiss</string>
+    <string name="dynamic_bar_guide_keyguard_title">Lock screen chip</string>
+    <string name="dynamic_bar_footer_title">About Dynamic Bar</string>
+    <string name="dynamic_bar_footer_body">Dynamic Bar transforms your status bar into an interactive hub. Status chips appear and animate based on system events, giving you at-a-glance information without interrupting your workflow.\n\nEach event type has its own accent color and expanded card with quick actions.</string>
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha ayarları</string>
     <string name="alpha_settings_summary">Süprizler olacak!</string>
     <string name="reset_settings_title">Ayarları sıfırla</string>
-    <string name="reset_settings_message">Bu, mevcut kullanıcı için çoğu Alpha ayarını varsayılan değerlerine sıfırlar. Devam etmek istiyor musunuz?</string>
+    <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu alpha ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">Saat</string>
     <!-- Misc categories -->
@@ -1110,7 +1093,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">AlphaDroid\'i paylaş</string>
     <string name="share_summary">Başkalarına AlphaDroid hakkında bilgi verin</string>
-    <string name="share_message">#AlphaDroid'in cihazınız için mevcut olup olmadığını kontrol edin: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Cihazınız için #AlphaDroid\'in mevcut olup olmadığını kontrol edin @ https://alpha.net/</string>
     <string name="share_chooser_title">AlphaDroid\'i paylaş</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1127,15 +1110,15 @@
     <string name="donate_title">Bizi destekle</string>
     <string name="donate_summary">Daha fazla gelişmeyi desteklemek için bağış yapın</string>
     <!-- AlphaDroid build server sponsor -->
-    <string name="buildserversponsor_summary">AlphaDroid derleme sunucusu sağlayıcısı. Kanallarını ziyaret etmek için dokunun.</string>
+    <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
     <string name="alpha_update_title">Güncellemeler</string>
     <string name="alpha_update_summary">En son güncellemeyi kontrol edin ve indirin</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux durumu</string>
     <string name="selinux_status_disabled">Devre dışı</string>
-    <string name="selinux_status_permissive">Müsamahakar</string>
-    <string name="selinux_status_enforcing">Uygulama</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
     <string name="category_android_info">Android</string>
     <string name="category_alpha_info">AlphaDroid</string>
@@ -1156,27 +1139,26 @@
     <string name="about_device_name_title">Cihaz</string>
     <string name="about_device_nearby">Cihaz adı yakındaki cihazlar tarafından görülebilir ve görülecektir.</string>
     <!-- Hardware info -->
-    <string name="platform_revision">platformu</string>
+    <string name="platform_revision">Platform</string>
     <string name="total_ram">Toplam RAM</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">AlphaDroid başlatıcı</string>
     <string name="quickswitch_launcher3">Launcher3</string>
-    <string name="quickswitch_nexuslauncher">Nexus Başlatıcı</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Görüntü Ünitesi</string>
-    <string name="display_engine_mode_title">Gerçeklik Görüntüleme Motoru</string>
-    <string name="display_engine_mode_xreality">X-Reality Motoru</string>
-    <string name="display_engine_mode_vivid">Canlı Ekran</string>
-    <string name="display_engine_mode_triluminous">Üçlü Ekran</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="display_engine_mode_xreality">X-Reality Engine</string>
+    <string name="display_engine_mode_vivid">Vivid Display</string>
+    <string name="display_engine_mode_triluminous">Triluminous Display</string>
     <string name="display_engine_mode_footer_text">Sony\'nin Bravia/X-Reality motorundan ilham alan Display Engine, gelişmiş parlaklık ve renk doygunluğu için Canlı modu ve gelişmiş ayrıntı ve renk doğruluğu için X-Reality modunu içeriyor.</string>
     <!-- Ignore window secure flag -->
     <string name="ignore_window_secure_title">Güvenli pencere işaretini yoksay</string>
     <string name="ignore_window_secure_summary">Tüm uygulamalar için ekran görüntüsü ve ekran kaydı sınırlarını kaldırın. Bu bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir.</string>
     <!-- Hide screen capture status -->
-    <string name="hide_screen_capture_status_title">Ekran yakalama durumunu gizle</string>
-    <string name="hide_screen_capture_status_summary">Ekran yakalama durumunu uygulamalardan gizle</string>
+    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
+    <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
     <string name="hide_developer_status_summary">Geliştirici durumunu uygulamalardan gizle</string>
@@ -1184,135 +1166,50 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Bildirim simgeleri</string>
     <string name="max_visible_notification_icons_summary">Durum çubuğunda görünen maksimum bildirim simgesi</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Kesme İlerleme Halkası</string>
-    <string name="cutout_progress_summary">Delgi deliğinin etrafındaki ilerleme halkasını göster</string>
+    <string name="cutout_progress_title">Cutout Progress Ring</string>
+    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
     <!-- Categories -->
-    <string name="cutout_progress_cat_features">Özellikler</string>
-    <string name="cutout_progress_cat_appearance">Dış görünüş</string>
-    <string name="cutout_progress_cat_geometry">Halka geometrisi</string>
-    <string name="cutout_progress_cat_island">Genişletilmiş mod</string>
+    <string name="cutout_progress_cat_features">Features</string>
+    <string name="cutout_progress_cat_appearance">Appearance</string>
+    <string name="cutout_progress_cat_geometry">Ring geometry</string>
+    <string name="cutout_progress_cat_island">Expanded mode</string>
     <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">İndirme ilerleme durumu halkasını etkinleştir</string>
+    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
     <string name="cutout_progress_charging_ring_title">Show charging ring</string>
     <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Zil rengi modu</string>
-    <string name="cutout_progress_ring_color_mode_accent">Aksan</string>
+    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
+    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Gökkuşağı</string>
     <string name="cutout_progress_ring_color_mode_custom">Özel</string>
-    <string name="cutout_progress_ring_color_title">Özel halka rengi</string>
-    <string name="cutout_progress_ring_opacity_title">Halka opaklığı</string>
-    <string name="cutout_progress_stroke_width_title">Halka kalınlığı</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Arka plan parçasını göster</string>
-    <string name="cutout_progress_charging_pulse_title">Şarj nabız animasyonu</string>
-    <string name="cutout_progress_charging_pulse_summary">Şarj sırasında merkezden dışarıya doğru yinelenen bir darbe canlandırın</string>
+    <string name="cutout_progress_ring_color_title">Custom ring color</string>
+    <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
     <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Halka boşluğu (kesme açıklığı)</string>
-    <string name="cutout_progress_path_mode_title">Kesme şeklini takip edin</string>
-    <string name="cutout_progress_path_mode_summary">Halkayı bir daireye normalleştirmek yerine kesmenin doğal en boy oranını kullanın</string>
-    <string name="cutout_progress_scale_x_title">Yatay ölçek</string>
-    <string name="cutout_progress_scale_y_title">Dikey ölçek</string>
-    <string name="cutout_progress_offset_x_title">Yatay ofset</string>
-    <string name="cutout_progress_offset_y_title">Dikey ofset</string>
+    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
+    <string name="cutout_progress_path_mode_title">Follow cutout shape</string>
+    <string name="cutout_progress_path_mode_summary">Use the cutout’s native aspect ratio instead of normalizing the ring to a circle</string>
+    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
+    <string name="cutout_progress_scale_y_title">Vertical scale</string>
+    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
+    <string name="cutout_progress_offset_y_title">Vertical offset</string>
     <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Kompakt düzen</string>
-    <string name="cutout_progress_island_compact_summary">Kamera kesiminin etrafını sarın</string>
-    <string name="cutout_progress_island_position_title">Kompakt düzen hizalaması</string>
-    <string name="cutout_island_pos_center">Merkezi bölünmüş</string>
+    <string name="cutout_progress_island_compact_title">Compact layout</string>
+    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
+    <string name="cutout_progress_island_position_title">Compact layout alignment</string>
+    <string name="cutout_island_pos_center">Center split</string>
     <string name="cutout_island_pos_left">Sol</string>
     <string name="cutout_island_pos_right">Sağ</string>
     <string name="cutout_island_bg_opacity_title">Arka plan şeffaflığı</string>
-    <string name="cutout_island_timeout_title">Otomatik daraltma zaman aşımı</string>
+    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
     <!-- Hide applist -->
-    <string name="hide_applist_title">Başvuru listesini gizle</string>
-    <string name="hide_applist_summary">Uygulamaların, uygulama listesinden seçilen uygulamaları kontrol etmesini engelle</string>
-    <string name="menu_show_overlay">Yer paylaşımını göster</string>
-    <string name="menu_hide_overlay">Kaplamayı gizle</string>
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
     <!-- Volume slider shapes -->
-    <string name="volume_slider_shape_title">Ses düzeyi kaydırıcı şekli</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Uyarı kaydırıcısı bildirimleri</string>
-
-    <string name="alert_slider_notifications_summary">Uyarı kaydırıcısı konumu değiştirildiğinde bildirim göster</string>
-
+    <string name="volume_slider_shape_title">Volume slider shape</string>
 </resources>
