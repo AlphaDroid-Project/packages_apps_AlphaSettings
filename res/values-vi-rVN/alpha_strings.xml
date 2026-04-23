@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Màu hình nền</string>
     <string name="yes">Có</string>
     <string name="apply">Áp dụng</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">mặc định</string>
-
-    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
-
-    <string name="custom_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <!-- Units -->
     <string name="unit_seconds">giây</string>
     <string name="unit_milliseconds">tích tắc</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Đã sao chép vào bảng tạm</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Ít hơn 1 phút</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -263,8 +259,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Chạm để tắt màn hình</string>
     <string name="lockscreen_doubletap_sleep_summary">Chạm hai lần trên màn hình khóa để tắt màn hình</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Đồng hồ &amp; ngày</string>
     <string name="status_bar_clock_summary">Tùy chỉnh đồng hồ &amp; ngày</string>
@@ -333,8 +327,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Các tùy chọn khác</string>
     <string name="qs_footer_category">Phần đáy</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Theo kiểu thanh trạng thái</string>
     <!-- Battery estimate -->
@@ -360,7 +352,6 @@
     <string name="network_traffic_units_bytes">Byte trên giây (B/s)</string>
     <string name="network_traffic_hidearrow">Ẩn mũi tên</string>
     <string name="network_traffic_hidearrow_summary">Ẩn biểu tượng mũi tên chỉ lưu lượng mạng</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Thanh điều hướng</string>
     <string name="navbar_visibility_summary">Hiển thị thanh điều hướng ở dưới cùng màn hình</string>
@@ -562,9 +553,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Thông báo thanh trượt cảnh báo</string>
+    <string name="alert_slider_notifications_summary">Hiển thị thông báo khi thay đổi vị trí thanh trượt cảnh báo</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Lưu trữ hình ảnh không giới hạn</string>
     <string name="use_photos_spoof_summary">Giả mạo thiết bị của bạn dưới dạng Pixel XL chỉ dành cho ứng dụng Google Photos để cung cấp bộ nhớ không giới hạn để sao lưu</string>
@@ -662,15 +653,12 @@
     <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
     <string name="smart_pixels_shift_title">Bảo vệ khỏi lỗi bóng mờ</string>
     <string name="smart_pixels_shift_summary">Tránh lỗi bóng mờ trên màn OLED bằng cách di chuyển các pixel thường xuyên</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Hiệu ứng cử chỉ quay lại</string>
     <string name="back_gesture_arrow_summary">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Rung khi có cử chỉ quay lại</string>
     <string name="back_gesture_haptic_summary">Rung khi thực hiện động tác quay lại</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Nhiệt độ pin</string>
     <!-- QS Transparency -->
@@ -778,10 +766,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Giả mạo tính toàn vẹn google</string>
     <string name="pi_spoof_summary">Giả mạo thiết bị sang kiểu máy khác để đảm bảo tính toàn vẹn</string>
-    <!-- Captive portal -->
-    <string name="captive_portal_summary">Xác định thiết bị có kết nối với mạng hay không bằng cách kết nối dịch vụ google.
-Dùng để phát hiện các cổng kết nối cố định.</string>
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Chuẩn mạng không dây</string>
     <string name="wifi_standard_icon_summary">Hiển thị chuẩn wifi ngay cạnh biểu tượng wifi</string>
@@ -808,7 +792,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
     <string name="doze_on_charge_summary">Hiển thị thông tin khi thiết bị đang nạp pin</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Thông tin sóng điện thoại</string>
     <!-- QS Header -->
@@ -838,7 +821,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="always_on_display_schedule_sunrise">Bình minh</string>
     <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàng hôn đến một thời điểm</string>
     <string name="always_on_display_schedule_mixed_sunrise">Bật cho đến lúc bình minh</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Tên nhà mạng</string>
     <string name="lockscreen_show_carrier_summary">Hiển thị tên nhà mạng trên thanh trạng thái</string>
@@ -851,7 +833,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="wifi_per_connection_random_mac_addr">Dùng địa chỉ ngẫu nhiên cho mỗi kết nối (mặc định)</string>
     <string name="wifi_per_network_random_mac_addr">Dùng địa chỉ ngẫu nhiên theo từng mạng</string>
     <string name="wifi_device_mac_addr">Sử dụng thiết bị MAC</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Thanh bên</string>
     <string name="sidebar_summary">Mở nhanh ứng dụng trong cửa sổ nổi</string>
@@ -867,7 +848,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Tắt cho mạng riêng ảo VPN</string>
     <string name="vpn_enforce_dns_summary">Tắt DNS riêng tư khi kết nối với mạng riêng ảo sẽ khôi phục khi ngắt kết nối</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Cho phép hạ cấp các ứng dụng</string>
     <string name="app_downgrade_summary">Hạ cấp phiên bản các ứng dụng sẽ gây ra sự cố hoặc mất dữ liệu nên thận trọng.</string>
@@ -991,7 +971,10 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="billing_cycle_type_weekly">hàng tuần</string>
     <string name="billing_cycle_type_daily">Hằng ngày</string>
     <string name="billing_cycle_less_than_one_hour_left">Còn chưa đầy 1 tiếng nữa</string>
-    <string name="billing_cycle_hours_left">{đếm, số nhiều,\n        =1 {Còn # giờ}\n        {# giờ còn lại}\n        }</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
     <string name="cycle_type_weekly_title">Ngày thiết lập lại chu kỳ sử dụng</string>
     <string name="cycle_type_weekly_sub">Ngày mỗi tuần:\\n1 = Thứ Hai</string>
     <string name="cycle_type_daily_title">Giờ đặt lại chu kỳ sử dụng</string>
@@ -1089,8 +1072,7 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="dynamic_bar_guide_keyguard_title">Chip màn hình khóa</string>
     <string name="dynamic_bar_footer_title">Giới thiệu về thanh động</string>
     <string name="dynamic_bar_footer_body">Thanh động biến thanh trạng thái thành trung tâm thông tin tương tác. Các chip trạng thái xuất hiện và chuyển động theo sự kiện hệ thống, giúp bạn nắm nhanh thông tin quan trọng mà không làm gián đoạn công việc.\\n\\nMỗi loại sự kiện có màu nhấn riêng và thẻ mở rộng chứa các thao tác nhanh.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Cài đặt Alpha</string>
     <string name="alpha_settings_summary">Tùy biến chuyên sâu!</string>
@@ -1111,7 +1093,7 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Chia sẻ AlphaDroid</string>
     <string name="share_summary">Cho những người khác biết về AlphaDroid</string>
-    <string name="share_message">Kiểm tra xem #AlphaDroid có sẵn cho thiết bị của bạn không: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Kiểm tra nếu #AlphaDroid khả dụng cho thiết bị của bạn @ https://alpha.net/</string>
     <string name="share_chooser_title">Chia sẻ AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1164,7 +1146,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Trình khởi chạy Nexus</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Công cụ hiển thị</string>
     <string name="display_engine_mode_title">Công cụ hiển thị thực tế</string>
@@ -1185,7 +1166,6 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Biểu tượng thông báo</string>
     <string name="max_visible_notification_icons_summary">Số biểu tượng thông báo hiển thị trên thanh trạng thái</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Vòng tiến trình cắt bỏ</string>
     <string name="cutout_progress_summary">Hiển thị vòng tiến trình xung quanh lỗ đục lỗ</string>
@@ -1232,88 +1212,4 @@ Dùng để phát hiện các cổng kết nối cố định.</string>
     <string name="menu_hide_overlay">Ẩn lớp phủ</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Hình dạng thanh trượt âm lượng</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Thông báo thanh trượt cảnh báo</string>
-
-    <string name="alert_slider_notifications_summary">Hiển thị thông báo khi thay đổi vị trí thanh trượt cảnh báo</string>
-
 </resources>
