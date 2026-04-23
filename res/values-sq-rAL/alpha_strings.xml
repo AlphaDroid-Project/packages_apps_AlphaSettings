@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Ngjyra e letër-muri</string>
     <string name="yes">po</string>
     <string name="apply">Aplikoni</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Vlera: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">sipas parazgjedhjes</string>
-
     <string name="custom_seekbar_default_value_to_set">Vlera e parazgjedhur: <xliff:g id="v">%s</xliff:g>\nShtyp gjatë për ta vendosur</string>
-
     <string name="custom_seekbar_default_value_is_set">Vlera e parazgjedhur është vendosur</string>
     <!-- Units -->
     <string name="unit_seconds">sekonda</string>
     <string name="unit_milliseconds">milisekonda</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Kopjuar në kujtesën e fragmenteve</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Më pak se 1 Minut</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -264,8 +260,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Trokit për të fjetur</string>
     <string name="lockscreen_doubletap_sleep_summary">Trokit dy herë në ekranin e kyçjes për ta vënë pajisjen në gjumë</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Ora &amp; data</string>
     <string name="status_bar_clock_summary">Personalizo orën &amp; datën</string>
@@ -334,8 +328,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Të ndryshme</string>
     <string name="qs_footer_category">Fundi i faqes</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Ndiqni stilin e shiritit të statusit</string>
     <!-- Battery estimate -->
@@ -361,7 +353,6 @@
     <string name="network_traffic_units_bytes">Bajt për sekondë (B/s)</string>
     <string name="network_traffic_hidearrow">Fshih shigjetat</string>
     <string name="network_traffic_hidearrow_summary">Fshihni shigjetat e treguesit të trafikut të rrjetit</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Shiriti i navigimit</string>
     <string name="navbar_visibility_summary">Shfaq shiritin e navigimit në fund të ekranit</string>
@@ -463,7 +454,7 @@
     <string name="battery_light_list_title">Ngjyrat</string>
     <string name="battery_light_low_color_title">Bateria e ulët</string>
     <string name="battery_light_medium_color_title">Ngarkimi</string>
-    <string name="battery_light_full_color_title">Gati e ngarkuar (>90%)</string>
+    <string name="battery_light_full_color_title">Gati e ngarkuar (&gt;90%)</string>
     <string name="battery_light_really_full_color_title">I ngarkuar plotësisht (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Drita e njoftimit</string>
@@ -483,7 +474,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Cilësimet e dritës</string>
     <string name="led_notification_text">Drita LED e aktivizuar nga cilësimet</string>
-    <string name="notification_light_add_apps_empty_summary">Për të shtuar kontrollin për aplikacion, aktivizoni \\\'%1$s\\\' dhe shtypni \\\'Shto\\\'</string>
+    <string name="notification_light_add_apps_empty_summary">Për të shtuar kontrollin për aplikacion, aktivizoni \\'%1$s\\' dhe shtypni \\'Shto\\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Kokat lart</string>
     <string name="notification_heads_up_summary">Lejo njoftimet pop-up</string>
@@ -563,9 +554,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Njoftimet e rrëshqitësit të alarmit</string>
+    <string name="alert_slider_notifications_summary">Shfaq një njoftim kur ndryshon pozicionin e rrëshqitësit të alarmit</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Ruajtje e pakufizuar e fotografive</string>
     <string name="use_photos_spoof_summary">Mashtroni pajisjen tuaj vetëm si aplikacioni Pixel XL për Google Photos për të ofruar hapësirë ​​ruajtëse të pakufizuar për kopje rezervë</string>
@@ -626,9 +617,9 @@
     <string name="wifi_hotspot_blocked_clients_list_title">Pajisjet e bllokuara</string>
     <string name="wifi_hotspot_connected_clients_list_title">Pajisjet e lidhura</string>
     <string name="wifi_hotspot_block_client_dialog_title">Blloko pajisjen</string>
-    <string name="wifi_hotspot_block_client_dialog_text">Ky veprim do të shkëputë \\\"<xliff:g id="device_name">%1$s</xliff:g>\\\" nga kjo pajisje dhe do ta shtojë atë në listën e bllokimit</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ky veprim do të shkëputë \\"<xliff:g id="device_name">%1$s</xliff:g>\\" nga kjo pajisje dhe do ta shtojë atë në listën e bllokimit</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Zhblloko pajisjen</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">Pajisja \\\"<xliff:g id="device_name">%1$s</xliff:g>\\\" do të mund të lidhet me këtë pikë kontakti</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Pajisja \\"<xliff:g id="device_name">%1$s</xliff:g>\\" do të mund të lidhet me këtë pikë kontakti</string>
     <string name="wifi_hotspot_client_manager_footer_text">Aktualisht nuk ka klientë të disponueshëm. Pajisjet e lidhura dhe të bllokuara do të renditen këtu kur të jenë të disponueshme.</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
@@ -664,15 +655,12 @@
     <string name="smart_pixels_percent">Përqindja e pikselave për t\'u çaktivizuar</string>
     <string name="smart_pixels_shift_title">Mbrojtje nga djegia</string>
     <string name="smart_pixels_shift_summary">Parandalon djegien në pajisjet OLED duke zhvendosur pikselët herë pas here</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animacion me gjeste prapa</string>
     <string name="back_gesture_arrow_summary">Trego një shigjetë të animuar për gjestin prapa</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Haptik i gjestit prapa</string>
     <string name="back_gesture_haptic_summary">Dridhuni kur kryeni një gjest me shpinë</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura e baterisë</string>
     <!-- QS Transparency -->
@@ -780,8 +768,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Mashtrim i integritetit të Google Play</string>
     <string name="pi_spoof_summary">Mashtroni pajisjen tuaj si model të ndryshëm për Integritetin e Google Play</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standardi WiFi</string>
     <string name="wifi_standard_icon_summary">Shfaq standardin WiFi pranë sinjalit WiFi</string>
@@ -808,7 +794,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Trego gjithmonë kur ngarkohet</string>
     <string name="doze_on_charge_summary">Display device is charging</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Informacioni i radios</string>
     <!-- QS Header -->
@@ -838,7 +823,6 @@
     <string name="always_on_display_schedule_sunrise">Lindja e diellit</string>
     <string name="always_on_display_schedule_mixed_sunset">Ndizet nga perëndimi i diellit deri në një moment</string>
     <string name="always_on_display_schedule_mixed_sunrise">Ndizet nga një kohë deri në lindjen e diellit</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Emri i operatorit</string>
     <string name="lockscreen_show_carrier_summary">Shfaqni emrin e operatorit në shiritin e statusit</string>
@@ -851,7 +835,6 @@
     <string name="wifi_per_connection_random_mac_addr">Përdor MAC të rastësishëm për çdo lidhje (parazgjedhja)</string>
     <string name="wifi_per_network_random_mac_addr">Përdorni MAC të rastësishme për rrjet</string>
     <string name="wifi_device_mac_addr">Përdorni pajisjen MAC</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Shiriti anësor</string>
     <string name="sidebar_summary">Hapni shpejt aplikacionet në një dritare lundruese</string>
@@ -867,7 +850,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Çaktivizo për VPN</string>
     <string name="vpn_enforce_dns_summary">Çaktivizoni DNS-në private kur lidheni me një VPN dhe rivendoseni pas shkëputjes</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Lejo uljen e aplikacionit</string>
     <string name="app_downgrade_summary">Kjo ju lejon të zvogëloni aplikacionet. Vini re se kjo mund të çojë në përplasje dhe korrupsion të të dhënave.</string>
@@ -991,7 +973,10 @@
     <string name="billing_cycle_type_weekly">Javore</string>
     <string name="billing_cycle_type_daily">Ditore</string>
     <string name="billing_cycle_less_than_one_hour_left">Ka mbetur më pak se 1 orë</string>
-    <string name="billing_cycle_hours_left">{count, plural,\n        =1 {# orë e mbetur}\n        other {# orë të mbetura}\n        }</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
     <string name="cycle_type_weekly_title">Dita e rivendosjes së ciklit të përdorimit</string>
     <string name="cycle_type_weekly_sub">Dita e çdo jave:\\n1 = e hënë</string>
     <string name="cycle_type_daily_title">Ora e rivendosjes së ciklit të përdorimit</string>
@@ -1089,8 +1074,7 @@
     <string name="dynamic_bar_guide_keyguard_title">Çipi i kyçjes së ekranit</string>
     <string name="dynamic_bar_footer_title">Rreth Dynamic Bar</string>
     <string name="dynamic_bar_footer_body">Shiriti Dinamik e transformon shiritin tuaj të statusit në një qendër interaktive. Çipat e statusit shfaqen dhe animohen në bazë të ngjarjeve të sistemit, duke ju dhënë informacione me një shikim pa ndërprerë rrjedhën tuaj të punës.\\n\\nÇdo lloj ngjarje ka ngjyrën e vet të theksit dhe kartën e zgjeruar me veprime të shpejta.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Cilësimet alfa</string>
     <string name="alpha_settings_summary">Do të ketë të mira!</string>
@@ -1164,7 +1148,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nisësi Nexus</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Motori i ekranit</string>
     <string name="display_engine_mode_title">Motori i shfaqjes së realitetit</string>
@@ -1185,7 +1168,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ikonat e njoftimeve</string>
     <string name="max_visible_notification_icons_summary">Maks. ikonat e njoftimeve të dukshme në shiritin e statusit</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Unaza e Përparimit të Prerë</string>
     <string name="cutout_progress_summary">Trego unazën e përparimit rreth vrimës së shpimit</string>
@@ -1232,88 +1214,4 @@
     <string name="menu_hide_overlay">Fshih mbivendosjen</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Forma e rrëshqitësit të volumit</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Njoftimet e rrëshqitësit të alarmit</string>
-
-    <string name="alert_slider_notifications_summary">Shfaq një njoftim kur ndryshon pozicionin e rrëshqitësit të alarmit</string>
-
 </resources>
