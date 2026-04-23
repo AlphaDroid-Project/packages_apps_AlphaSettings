@@ -70,20 +70,16 @@
     <string name="wallpaper_color">壁纸颜色</string>
     <string name="yes">да</string>
     <string name="apply">Кандидатствайте</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Стойност: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">по подразбиране</string>
-
     <string name="custom_seekbar_default_value_to_set">Стойност по подразбиране: <xliff:g id="v">%s</xliff:g>\nПродължително натискане за задаване</string>
-
     <string name="custom_seekbar_default_value_is_set">Стойността по подразбиране е зададена</string>
     <!-- Units -->
     <string name="unit_seconds">секунди</string>
     <string name="unit_milliseconds">милисекунди</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">已复制到剪贴板</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">По малко от 1 минута</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -264,8 +260,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Натиснете, за заспиване</string>
     <string name="lockscreen_doubletap_sleep_summary">Докоснете два пъти където и да е на заключения екран, за да заспи устройството</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Часовник и дата</string>
     <string name="status_bar_clock_summary">Персонализирайте часовник и дата</string>
@@ -334,8 +328,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Разни</string>
     <string name="qs_footer_category">Долна част</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Следвайте стила на навигационната лента</string>
     <!-- Battery estimate -->
@@ -361,7 +353,6 @@
     <string name="network_traffic_units_bytes">Байта в секунда (Б/с)</string>
     <string name="network_traffic_hidearrow">Скрийте стрелките</string>
     <string name="network_traffic_hidearrow_summary">Скриване на стрелките на индикатора за мрежовия трафик</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Навигационна лента</string>
     <string name="navbar_visibility_summary">Показване на лентата за навигация в долната част на екрана</string>
@@ -563,9 +554,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Известия за предупредителния плъзгач</string>
+    <string name="alert_slider_notifications_summary">Показване на известие при промяна на позицията на предупредителния плъзгач</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Неограничено съхранение на снимки</string>
     <string name="use_photos_spoof_summary">Престори устройството си като Pixel XL за приложението Google Снимки само за да предостави неограничен обем за архивиране</string>
@@ -664,15 +655,12 @@
     <string name="smart_pixels_percent">Проценти на пикселите за изключване</string>
     <string name="smart_pixels_shift_title">Защита от изгаряне</string>
     <string name="smart_pixels_shift_summary">Предотвратява изгарянето на OLED устройства чрез изместване на пикселите от време на време</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Анимация с жестове за връщане назад</string>
     <string name="back_gesture_arrow_summary">Покажи анимирана стрелка за обратно</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Хаптичен жест за гръб</string>
     <string name="back_gesture_haptic_summary">Вибрирай при извършване обръщане на устройството</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Температура на батерията</string>
     <!-- QS Transparency -->
@@ -780,8 +768,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Фалшифициране на Google Play Integrity</string>
     <string name="pi_spoof_summary">Фалшифициране на модела на устройството за Google Play Integrity</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi技术标准</string>
     <string name="wifi_standard_icon_summary">在WiFi信号旁显示WiFi的技术标准</string>
@@ -808,7 +794,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Винаги покажи при зареждане</string>
     <string name="doze_on_charge_summary">Показване при зареждане</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Информация за радио</string>
     <!-- QS Header -->
@@ -838,7 +823,6 @@
     <string name="always_on_display_schedule_sunrise">Изгрев</string>
     <string name="always_on_display_schedule_mixed_sunset">Включва се от залез слънце до известно време</string>
     <string name="always_on_display_schedule_mixed_sunrise">Включва се от час до изгрев слънце</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Име на превозвача</string>
     <string name="lockscreen_show_carrier_summary">Показване на името на оператора в лентата на състоянието</string>
@@ -851,7 +835,6 @@
     <string name="wifi_per_connection_random_mac_addr">Използване на рандомизиран MAC за всяка връзка (по подразбиране)</string>
     <string name="wifi_per_network_random_mac_addr">Използвайте рандомизиран MAC за всяка мрежа</string>
     <string name="wifi_device_mac_addr">Използвайте MAC устройство</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Странична лента</string>
     <string name="sidebar_summary">Бързо отваряне на приложения в плаващ прозорец</string>
@@ -867,7 +850,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Деактивиране за VPN</string>
     <string name="vpn_enforce_dns_summary">Деактивирайте частния DNS, когато сте свързани с VPN, и го възстановете при прекъсване на връзката</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Разрешаване на понижаване на приложението</string>
     <string name="app_downgrade_summary">Това ви позволява да понижавате приложенията. Имайте предвид, че това може да доведе до сривове и повреда на данните.</string>
@@ -961,7 +943,7 @@
     <string name="pulse_renderer_matrix">Matrix</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Полупрозрачни известия</string>
-    <string name="notification_row_transparency_summary">Задайте полупрозрачен фон за известията</string>
+    <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
     <string name="notification_row_transparency_lockscreen_title">Полупрозрачни известия на заключен екран</string>
     <string name="notification_row_transparency_lockscreen_summary">Задайте полупрозрачен фон за известия на заключен екран</string>
     <!-- Ambient Wallpaper -->
@@ -991,7 +973,10 @@
     <string name="billing_cycle_type_weekly">Ежеседмично</string>
     <string name="billing_cycle_type_daily">Ежедневно</string>
     <string name="billing_cycle_less_than_one_hour_left">Остава по-малко от 1 час</string>
-    <string name="billing_cycle_hours_left">{брой, множествено число,\n        =1 {остава # час}\n        други {# оставащи часа}\n        }</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
     <string name="cycle_type_weekly_title">Ден за нулиране на цикъла на използване</string>
     <string name="cycle_type_weekly_sub">Ден от всяка седмица:\\n1 = понеделник</string>
     <string name="cycle_type_daily_title">Час за нулиране на цикъла на използване</string>
@@ -1089,13 +1074,12 @@
     <string name="dynamic_bar_guide_keyguard_title">Чип за заключен екран</string>
     <string name="dynamic_bar_footer_title">Относно динамичната лента</string>
     <string name="dynamic_bar_footer_body">Dynamic Bar трансформира вашата лента на състоянието в интерактивен център. Чиповете за състояние се появяват и анимират въз основа на системни събития, като ви дават информация с един поглед, без да прекъсвате работния си процес.\\n\\nВсеки тип събитие има свой собствен цвят на акцента и разширена карта с бързи действия.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Алфа настройки</string>
     <string name="alpha_settings_summary">Ще има лакомства!</string>
     <string name="reset_settings_title">Нулирай настройките</string>
-    <string name="reset_settings_message">Това ще нулира повечето настройки на Alpha до стойностите по подразбиране за текущия потребител. Искате ли да продължите?</string>
+    <string name="reset_settings_message">Това ще нулира повечето crdroid настройки до техните стойности по подразбиране за текущия потребител. Искате ли да продължите?</string>
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">Часовник</string>
     <!-- Misc categories -->
@@ -1111,7 +1095,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Споделете AlphaDroid</string>
     <string name="share_summary">Уведомете другите за AlphaDroid</string>
-    <string name="share_message">Вижте дали #AlphaDroid е наличен за вашето устройство: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Вижте дали #crDroidAndroid е достъпен за вашето устройство @ https://crdroid.net/</string>
     <string name="share_chooser_title">Споделете AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1164,7 +1148,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Display Engine</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1185,7 +1168,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Икони за известяване</string>
     <string name="max_visible_notification_icons_summary">Макс. икони за известяване, видими в лентата на състоянието</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Изрязан пръстен за напредък</string>
     <string name="cutout_progress_summary">Показване на пръстена за напредъка около дупката</string>
@@ -1232,88 +1214,4 @@
     <string name="menu_hide_overlay">Скриване на наслагването</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Форма на плъзгача за обем</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Известия за предупредителния плъзгач</string>
-
-    <string name="alert_slider_notifications_summary">Показване на известие при промяна на позицията на предупредителния плъзгач</string>
-
 </resources>

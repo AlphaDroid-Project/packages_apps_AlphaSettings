@@ -18,12 +18,12 @@
     <!-- Personalization Categories -->
     <string name="about_title">के बारे में</string>
     <string name="button_title">बटन</string>
-    <string name="lockscreen_title">लॉक स्क्रीन</string>
+    <string name="lockscreen_title">Lock Screen</string>
     <string name="misc_title">मिश्रित</string>
     <string name="notifications_title">सूचनाएं</string>
     <string name="quicksettings_title">त्वरित सेटिंग</string>
     <string name="sound_title">आवाज़</string>
-    <string name="statusbar_title">स्टेटस बार</string>
+    <string name="statusbar_title">Status Bar</string>
     <string name="display_title">प्रदर्शन</string>
     <string name="ui_title">अल्फ़ा विज़ुअल्स</string>
     <string name="ui_summary">थीम, स्टाइल और एनीमेशन</string>
@@ -39,7 +39,7 @@
     <string name="press_color_to_apply">लागू करने के लिए नीचे का रंग चुनें</string>
     <string name="set">सेट करें</string>
     <!-- General strings -->
-    <string name="accent_color">एक्सेंट रंग</string>
+    <string name="accent_color">Use custom color</string>
     <string name="add">जोड़ना</string>
     <string name="advanced">विकसित</string>
     <string name="back">पीछे</string>
@@ -70,20 +70,16 @@
     <string name="wallpaper_color">वॉलपेपर का रंग</string>
     <string name="yes">हाँ</string>
     <string name="apply">लागू करें</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">मान: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">डिफ़ॉल्ट रूप से</string>
-
     <string name="custom_seekbar_default_value_to_set">डिफ़ॉल्ट मान: <xliff:g id="v">%s</xliff:g>\nसेट करने के लिए देर तक दबाएं</string>
-
     <string name="custom_seekbar_default_value_is_set">डिफ़ॉल्ट मान सेट है</string>
     <!-- Units -->
     <string name="unit_seconds">सेकंड</string>
     <string name="unit_milliseconds">मिलीसेकंड</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 मिनट से भी कम</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -182,7 +178,7 @@
     <string name="power_menu_advanced_title">उन्नत रीबूट विकल्प</string>
     <string name="power_menu_airplane_title">हवाई जहाज</string>
     <string name="power_menu_torch_title">टॉर्च</string>
-    <string name="power_menu_lockdown_title">लॉकडाउन</string>
+    <string name="power_menu_lockdown_title">Lock down</string>
     <string name="power_menu_lockdown_unavailable">लॉक स्क्रीन सुरक्षित नहीं होने के कारण लॉकडाउन अक्षम है</string>
     <string name="power_menu_users_title">उपयोगकर्ताओं</string>
     <string name="power_menu_emergency_title">आपातकाल</string>
@@ -264,8 +260,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">सोने के लिए टैप करें</string>
     <string name="lockscreen_doubletap_sleep_summary">डिवाइस को स्लीप मोड में रखने के लिए लॉक स्क्रीन पर डबल-टैप करें</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">घड़ी &amp; तारीख</string>
     <string name="status_bar_clock_summary">घड़ी &amp; तारीख अनुकूलित करें</string>
@@ -275,8 +269,8 @@
     <string name="status_bar_clock_position_right">दाएँ</string>
     <string name="status_bar_clock_position_left">बाएं</string>
     <string name="status_bar_clock_position_center">केंद्र</string>
-    <string name="status_bar_clock_auto_hide_title">स्वतः छिपाएँ</string>
-    <string name="status_bar_clock_auto_hide_summary">लॉन्चर दिखने पर घड़ी छिपाएँ</string>
+    <string name="status_bar_clock_auto_hide_title">Auto-hide</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide and display clock for regular interval to save statusbar space</string>
     <string name="status_bar_am_pm_title">AM/PM शैली</string>
     <string name="status_bar_am_pm_info">24 घंटे की घड़ी सक्षम है</string>
     <string name="status_bar_am_pm_normal">सामान्य</string>
@@ -334,8 +328,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">मिश्रित</string>
     <string name="qs_footer_category">फ़ुटर</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">स्टेटस बार शैली का पालन करें</string>
     <!-- Battery estimate -->
@@ -345,13 +337,13 @@
     <string name="network_traffic_settings_title">नेटवर्क ट्रैफ़िक मॉनिटर</string>
     <string name="network_traffic_settings_summary">वर्तमान नेटवर्क ट्रैफ़िक स्तरों को प्रदर्शित और अनुकूलित करें</string>
     <string name="network_traffic_location_disable">अक्षम</string>
-    <string name="network_traffic_location_statusbar">स्टेटस बार</string>
+    <string name="network_traffic_location_statusbar">Status Bar</string>
     <string name="network_traffic_location_quick_statusbar">त्वरित स्टेटसबार</string>
     <string name="network_traffic_mode_title">प्रदर्शन मोड</string>
     <string name="network_traffic_mode_up">केवल अपलोड करें</string>
     <string name="network_traffic_mode_down">केवल डाउनलोड करें</string>
     <string name="network_traffic_mode_all">अपलोड करें और डाउनलोड करें</string>
-    <string name="network_traffic_autohide">स्वतः छिपाएँ</string>
+    <string name="network_traffic_autohide">Auto-hide</string>
     <string name="network_traffic_autohide_summary">निष्क्रिय होने पर ट्रैफ़िक मॉनिटर छिपाएँ</string>
     <string name="network_traffic_autohide_threshold">निष्क्रियता सीमा</string>
     <string name="network_traffic_refresh_interval_title">ताजा अंतराल</string>
@@ -361,7 +353,6 @@
     <string name="network_traffic_units_bytes">प्रति सेकंड बाइट्स (बी/एस)</string>
     <string name="network_traffic_hidearrow">तीर छिपाएँ</string>
     <string name="network_traffic_hidearrow_summary">नेटवर्क ट्रैफ़िक संकेतक तीर छिपाएँ</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">नेविगेशन पट्टी</string>
     <string name="navbar_visibility_summary">स्क्रीन के नीचे नेविगेशन बार प्रदर्शित करें</string>
@@ -408,7 +399,7 @@
     <string name="qs_footer_settings_icon_title">सेटिंग्स शॉर्टकट</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">चमक स्लाइडर</string>
-    <string name="qs_show_brightness_slider_title">कब दिखाएँ</string>
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
     <string name="qs_show_brightness_slider_never">कभी मत दिखाओ</string>
     <string name="qs_show_brightness_slider_expanded">विस्तारित होने पर दिखाएँ</string>
     <string name="qs_show_brightness_slider_always">हमेशा दिखाओ</string>
@@ -463,7 +454,7 @@
     <string name="battery_light_list_title">रंग</string>
     <string name="battery_light_low_color_title">बैटरी कम</string>
     <string name="battery_light_medium_color_title">चार्ज</string>
-    <string name="battery_light_full_color_title">लगभग चार्ज (>90%)</string>
+    <string name="battery_light_full_color_title">लगभग चार्ज (&gt;90%)</string>
     <string name="battery_light_really_full_color_title">पूरी तरह चार्ज (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">अधिसूचना का प्रकाश</string>
@@ -483,7 +474,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">प्रकाश सेटिंग्स</string>
     <string name="led_notification_text">सेटिंग्स द्वारा एलईडी लाइट सक्षम</string>
-    <string name="notification_light_add_apps_empty_summary">प्रति ऐप नियंत्रण जोड़ने के लिए, \\\'%1$s\\\' सक्रिय करें और \\\'जोड़ें\\\' दबाएँ</string>
+    <string name="notification_light_add_apps_empty_summary">प्रति ऐप नियंत्रण जोड़ने के लिए, \'%1$s\' सक्रिय करें और \'जोड़ें\' दबाएँ</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">सचेत</string>
     <string name="notification_heads_up_summary">पॉप अप नोटिफिकेशन की अनुमति दें</string>
@@ -563,9 +554,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">अलर्ट स्लाइडर सूचनाएँ</string>
+    <string name="alert_slider_notifications_summary">अलर्ट स्लाइडर की स्थिति बदलने पर सूचना दिखाएँ</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">असीमित फ़ोटो भंडारण</string>
     <string name="use_photos_spoof_summary">बैकअप के लिए असीमित स्टोरेज प्रदान करने के लिए अपने डिवाइस को Google फ़ोटो ऐप के लिए Pixel XL के रूप में स्पूफ करें</string>
@@ -626,9 +617,9 @@
     <string name="wifi_hotspot_blocked_clients_list_title">अवरुद्ध उपकरण</string>
     <string name="wifi_hotspot_connected_clients_list_title">जुड़ी हुई डिवाइसेज</string>
     <string name="wifi_hotspot_block_client_dialog_title">डिवाइस को ब्लॉक करें</string>
-    <string name="wifi_hotspot_block_client_dialog_text">यह क्रिया इस डिवाइस से \\\"<xliff:g id="device_name">%1$s</xliff:g>\\\" को डिस्कनेक्ट कर देगी और इसे ब्लॉकलिस्ट में जोड़ देगी</string>
+    <string name="wifi_hotspot_block_client_dialog_text">यह क्रिया इस डिवाइस से \\"<xliff:g id="device_name">%1$s</xliff:g>\\" को डिस्कनेक्ट कर देगी और इसे ब्लॉकलिस्ट में जोड़ देगी</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">डिवाइस को अनब्लॉक करें</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">डिवाइस \\\"<xliff:g id="device_name">%1$s</xliff:g>\\\" इस हॉटस्पॉट से कनेक्ट हो सकेगा</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">डिवाइस \\"<xliff:g id="device_name">%1$s</xliff:g>\\" इस हॉटस्पॉट से कनेक्ट हो सकेगा</string>
     <string name="wifi_hotspot_client_manager_footer_text">फिलहाल कोई ग्राहक उपलब्ध नहीं है. उपलब्ध होने पर कनेक्टेड और अवरुद्ध डिवाइस यहां सूचीबद्ध किए जाएंगे।</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">इस हॉटस्पॉट से अधिकतम <xliff:g id="device_num">%1$d</xliff:g> डिवाइस कनेक्ट हो सकते हैं</item>
@@ -664,15 +655,12 @@
     <string name="smart_pixels_percent">अक्षम करने के लिए पिक्सेल का प्रतिशत</string>
     <string name="smart_pixels_shift_title">जलने से सुरक्षा</string>
     <string name="smart_pixels_shift_summary">पिक्सेल को समय-समय पर स्थानांतरित करके OLED डिवाइसों पर बर्न-इन को रोकता है</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">बैक जेस्चर एनीमेशन</string>
     <string name="back_gesture_arrow_summary">पीछे के इशारे के लिए एक एनिमेटेड तीर दिखाएँ</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">पीछे का इशारा हैप्टिक</string>
     <string name="back_gesture_haptic_summary">पीछे का इशारा करते समय कंपन करें</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">बैटरी का तापमान</string>
     <!-- QS Transparency -->
@@ -780,8 +768,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">गूगल प्ले इंटीग्रिटी स्पूफ</string>
     <string name="pi_spoof_summary">Google Play वफ़ादारी के लिए अपने डिवाइस को भिन्न मॉडल के रूप में स्पूफ़ करें</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">वाईफाई मानक</string>
     <string name="wifi_standard_icon_summary">वाईफाई सिग्नल के बगल में वाईफाई मानक प्रदर्शित करें</string>
@@ -808,7 +794,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">चार्ज करते समय हमेशा दिखाएं</string>
     <string name="doze_on_charge_summary">डिवाइस चार्ज होने पर जानकारी दिखाएँ</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">रेडियो जानकारी</string>
     <!-- QS Header -->
@@ -838,7 +823,6 @@
     <string name="always_on_display_schedule_sunrise">सूर्योदय</string>
     <string name="always_on_display_schedule_mixed_sunset">सूर्यास्त से एक समय तक चालू रहता है</string>
     <string name="always_on_display_schedule_mixed_sunrise">एक समय से सूर्योदय तक चालू रहता है</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">वाहक का नाम</string>
     <string name="lockscreen_show_carrier_summary">स्टेटस बार में वाहक का नाम प्रदर्शित करें</string>
@@ -851,7 +835,6 @@
     <string name="wifi_per_connection_random_mac_addr">प्रति-कनेक्शन यादृच्छिक MAC का उपयोग करें (डिफ़ॉल्ट)</string>
     <string name="wifi_per_network_random_mac_addr">प्रति-नेटवर्क यादृच्छिक मैक का उपयोग करें</string>
     <string name="wifi_device_mac_addr">डिवाइस मैक का प्रयोग करें</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">साइड बार</string>
     <string name="sidebar_summary">फ्लोटिंग विंडो में ऐप्स को तुरंत खोलें</string>
@@ -867,7 +850,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">वीपीएन के लिए अक्षम करें</string>
     <string name="vpn_enforce_dns_summary">वीपीएन से कनेक्ट होने पर निजी डीएनएस को अक्षम करें और डिस्कनेक्ट होने पर पुनर्स्थापित करें</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">ऐप डाउनग्रेड की अनुमति दें</string>
     <string name="app_downgrade_summary">यह आपको एप्लिकेशन को डाउनग्रेड करने की अनुमति देता है। ध्यान दें कि इससे क्रैश और डेटा भ्रष्टाचार हो सकता है।</string>
@@ -947,7 +929,7 @@
     <string name="pulse_color">विज़ुअलाइज़र रंग</string>
     <string name="pulse_color_lavalamp">लवलैम्प</string>
     <string name="pulse_color_album">एल्बम कला</string>
-    <string name="pulse_color_accent">एक्सेंट रंग</string>
+    <string name="pulse_color_accent">Use custom color</string>
     <string name="pulse_bar_count_title">बारों की संख्या</string>
     <string name="pulse_bar_count_summary">सेट करें कि विज़ुअलाइज़र में कितने बार दिखाए गए हैं</string>
     <string name="pulse_bar_count_units">बार</string>
@@ -1014,7 +996,7 @@
     <string name="qs_panel_style_card">कार्ड शैली</string>
     <string name="qs_panel_style_classic">शास्त्रीय शैली</string>
     <string name="shape_circle">घेरा</string>
-    <string name="shape_square">चौकोर</string>
+    <string name="shape_square">वर्ग</string>
     <string name="shape_arch">मेहराब</string>
     <string name="shape_ios_rounded_square">iOS गोल आकार</string>
     <string name="shape_hexagon">षट्भुज</string>
@@ -1092,13 +1074,12 @@
     <string name="dynamic_bar_guide_keyguard_title">लॉक स्क्रीन चिप</string>
     <string name="dynamic_bar_footer_title">डायनामिक बार के बारे में</string>
     <string name="dynamic_bar_footer_body">डायनामिक बार आपकी स्टेटस बार को इंटरैक्टिव सूचना केंद्र में बदल देता है। सिस्टम इवेंट के आधार पर स्टेटस चिप दिखती और एनिमेट होती है, ताकि आपका काम बिना रुके ज़रूरी जानकारी तुरंत मिल जाए।\n\nप्रत्येक इवेंट प्रकार का अपना एक्सेंट रंग और त्वरित क्रियाओं वाला विस्तारित कार्ड होता है।</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">अल्फ़ा सेटिंग्स</string>
     <string name="alpha_settings_summary">अच्छाइयाँ होंगी!</string>
     <string name="reset_settings_title">सेटिंग्स रीसेट करें</string>
-    <string name="reset_settings_message">इससे वर्तमान उपयोगकर्ता के लिए अधिकांश Alpha सेटिंग्स डिफ़ॉल्ट पर रीसेट हो जाएँगी। क्या आप जारी रखना चाहते हैं?</string>
+    <string name="reset_settings_message">This will reset most Alpha settings to their default values for the current user. Would you like to continue?</string>
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">घड़ी</string>
     <!-- Misc categories -->
@@ -1114,7 +1095,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">अल्फ़ाड्रॉइड साझा करें</string>
     <string name="share_summary">दूसरों को AlphaDroid के बारे में बताएं</string>
-    <string name="share_message">देखें कि क्या #AlphaDroid आपके डिवाइस के लिए उपलब्ध है: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Check out if #AlphaDroid is available for your device @ https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">अल्फ़ाड्रॉइड साझा करें</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1167,7 +1148,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">नेक्सस लॉन्चर</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">प्रदर्शन इंजन</string>
     <string name="display_engine_mode_title">रियलिटी डिस्प्ले इंजन</string>
@@ -1188,7 +1168,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">सूचना प्रतीक</string>
     <string name="max_visible_notification_icons_summary">स्तिथिपट्टी पर अधि. दृश्यमान सूचना प्रतीक</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">कटआउट प्रगति रिंग</string>
     <string name="cutout_progress_summary">पंच होल के चारों ओर प्रगति रिंग दिखाएं</string>
@@ -1225,7 +1204,7 @@
     <string name="cutout_progress_island_position_title">कॉम्पैक्ट लेआउट संरेखण</string>
     <string name="cutout_island_pos_center">केंद्र विभाजन</string>
     <string name="cutout_island_pos_left">बाएं</string>
-    <string name="cutout_island_pos_right">सही</string>
+    <string name="cutout_island_pos_right">दाएँ</string>
     <string name="cutout_island_bg_opacity_title">पृष्ठभूमि अस्पष्टता</string>
     <string name="cutout_island_timeout_title">स्वतः-संक्षिप्त समयबाह्य</string>
     <!-- Hide applist -->
@@ -1235,88 +1214,4 @@
     <string name="menu_hide_overlay">आवरण छुपाएं</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">वॉल्यूम स्लाइडर आकार</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">अलर्ट स्लाइडर सूचनाएँ</string>
-
-    <string name="alert_slider_notifications_summary">अलर्ट स्लाइडर की स्थिति बदलने पर सूचना दिखाएँ</string>
-
 </resources>

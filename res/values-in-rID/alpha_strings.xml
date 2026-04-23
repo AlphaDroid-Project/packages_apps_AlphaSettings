@@ -70,20 +70,16 @@
     <string name="wallpaper_color">Warna wallpaper</string>
     <string name="yes">Ya</string>
     <string name="apply">Terapkan</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">secara default</string>
-
     <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk menerapkan</string>
-
     <string name="custom_seekbar_default_value_is_set">Nilai bawaan telah diterapkan</string>
     <!-- Units -->
     <string name="unit_seconds">detik</string>
     <string name="unit_milliseconds">milidetik</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Disalin ke papan klip</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -263,8 +259,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Ketuk untuk tidur</string>
     <string name="lockscreen_doubletap_sleep_summary">Ketuk dua kali pada layar kunci untuk membuat perangkat tertidur</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Jam &amp; tanggal</string>
     <string name="status_bar_clock_summary">Kustomisasi jam &amp; tanggal</string>
@@ -333,8 +327,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Lain-lain</string>
     <string name="qs_footer_category">Kaki halaman</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Ikuti gaya bilah status</string>
     <!-- Battery estimate -->
@@ -360,7 +352,6 @@
     <string name="network_traffic_units_bytes">Byte per detik (B/d)</string>
     <string name="network_traffic_hidearrow">Sembunyikan panah</string>
     <string name="network_traffic_hidearrow_summary">Sembunyikan tanda panah indikator lalu lintas jaringan</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Bilah navigasi</string>
     <string name="navbar_visibility_summary">Tampilkan bilah navigasi di bagian bawah layar</string>
@@ -562,9 +553,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Notifikasi slider peringatan</string>
+    <string name="alert_slider_notifications_summary">Menampilkan notifikasi saat mengubah posisi slider peringatan</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
     <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
@@ -662,15 +653,12 @@
     <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
     <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
     <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animasi gestur kembali</string>
     <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Umpan balik haptik</string>
     <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada gestur kembali</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Suhu baterai</string>
     <!-- QS Transparency -->
@@ -778,8 +766,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Palsukan Integritas Google Play</string>
     <string name="pi_spoof_summary">Memalsukan perangkat Anda sebagai model yang berbeda untuk Google Play Integrity</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standar WiFi</string>
     <string name="wifi_standard_icon_summary">Tampilkan standar WiFi di sebelah sinyal WiFi</string>
@@ -805,7 +791,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Selalu tampilkan saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan perangkat sedang mengisi daya</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Info radio</string>
     <!-- QS Header -->
@@ -835,7 +820,6 @@
     <string name="always_on_display_schedule_sunrise">Matahari terbit</string>
     <string name="always_on_display_schedule_mixed_sunset">Menyala dari matahari terbenam hingga suatu waktu</string>
     <string name="always_on_display_schedule_mixed_sunrise">Menyala dari suatu waktu hingga waktu matahari terbit</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Nama operator</string>
     <string name="lockscreen_show_carrier_summary">Menampilkan nama operator di bilah status</string>
@@ -848,7 +832,6 @@
     <string name="wifi_per_connection_random_mac_addr">Gunakan MAC acak per koneksi (default)</string>
     <string name="wifi_per_network_random_mac_addr">Gunakan MAC acak per jaringan</string>
     <string name="wifi_device_mac_addr">Gunakan MAC perangkat</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Bilah sisi</string>
     <string name="sidebar_summary">Buka aplikasi dengan cepat di jendela mengambang</string>
@@ -864,7 +847,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Nonaktifkan untuk VPN</string>
     <string name="vpn_enforce_dns_summary">Nonaktifkan DNS pribadi saat tersambung ke VPN dan pulihkan saat sambungan terputus</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Izinkan downgrade aplikasi</string>
     <string name="app_downgrade_summary">Ini memungkinkan untuk melakukan downgrade aplikasi. Perhatikan bahwa hal ini dapat menyebabkan crash dan data corrupt.</string>
@@ -879,7 +861,7 @@
     <string name="show_ime_space_summary">Aktifkan fitur peralihan cepat metode input untuk mengganti metode input atau sembunyikan keyboard di layar dari bilah fitur di bagian bawah layar saat mengetik</string>
     <!-- Notification / Power Menu Styles -->
     <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Duolin</string>
+    <string name="custom_style_duoline">Duoline</string>
     <string name="custom_style_fluid">Fluid (Transparan)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Lapisan</string>
@@ -953,7 +935,7 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="pulse_renderer_solid">Garis padat</string>
     <string name="pulse_renderer_fading">Blok memudar</string>
     <string name="pulse_renderer_neon_glow">Cahaya neon</string>
-    <string name="pulse_renderer_retro_vu_meter">Meteran VU Retro</string>
+    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
     <string name="pulse_renderer_minimal_wave">Gelombang minimal</string>
     <string name="pulse_renderer_sparkle">Kelap-kelip</string>
     <string name="pulse_renderer_matrix">Matriks</string>
@@ -1090,13 +1072,12 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="dynamic_bar_guide_keyguard_title">Chip layar kunci</string>
     <string name="dynamic_bar_footer_title">Tentang Bilah Dinamis</string>
     <string name="dynamic_bar_footer_body">Bilah dinamis mengubah bilah status menjadi pusat informasi interaktif. Chip status muncul dan beranimasi mengikuti peristiwa sistem, sehingga Anda bisa melihat ringkasan penting tanpa mengganggu alur kerja.\\n\\nSetiap jenis peristiwa punya warna aksen sendiri dan kartu yang dapat diperluas berisi tindakan cepat.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
     <string name="alpha_settings_summary">Akan banyak kejutan!</string>
     <string name="reset_settings_title">Setel ulang pengaturan</string>
-    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan Alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
+    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">Jam</string>
     <!-- Misc categories -->
@@ -1112,7 +1093,7 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Bagikan AlphaDroid</string>
     <string name="share_summary">Beritahu orang lain tentang AlphaDroid</string>
-    <string name="share_message">Periksa apakah #AlphaDroid tersedia untuk perangkat Anda: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Periksa apakah #AlphaDroid tersedia untuk perangkat Anda @ https://alpha.net/</string>
     <string name="share_chooser_title">Bagikan AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1136,8 +1117,8 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- SELinux status -->
     <string name="selinux_status">Status SElinux</string>
     <string name="selinux_status_disabled">Dinonaktifkan</string>
-    <string name="selinux_status_permissive">Permisif</string>
-    <string name="selinux_status_enforcing">Menegakkan</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Firmware info -->
     <string name="category_android_info">Lawnchair</string>
     <string name="category_alpha_info">AlphaDroid</string>
@@ -1163,9 +1144,8 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">Launcher AlphaDroid</string>
     <string name="quickswitch_launcher3">Launcher3</string>
-    <string name="quickswitch_nexuslauncher">Peluncur Nexus</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Mesin tampilan</string>
     <string name="display_engine_mode_title">Mesin Tampilan Realitas</string>
@@ -1186,7 +1166,6 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ikon notifikasi</string>
     <string name="max_visible_notification_icons_summary">Maksimal ikon notifikasi terlihat di bilah status</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Cincin Kemajuan</string>
     <string name="cutout_progress_summary">Tunjukkan lingkaran kemajuan di sekitar lubang punch</string>
@@ -1233,88 +1212,4 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="menu_hide_overlay">Sembunyikan hamparan</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Bentuk penggeser volume</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Notifikasi slider peringatan</string>
-
-    <string name="alert_slider_notifications_summary">Menampilkan notifikasi saat mengubah posisi slider peringatan</string>
-
 </resources>
