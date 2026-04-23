@@ -20,18 +20,13 @@
     <string name="button_title">Tombol</string>
     <string name="lockscreen_title">Layar Kunci</string>
     <string name="misc_title">Lain-lain</string>
-    <string name="misc_title_short">Lainnya</string>
-    <string name="navigation_title">Navigasi</string>
     <string name="notifications_title">Notifikasi</string>
     <string name="quicksettings_title">Setelan Cepat</string>
-    <string name="quicksettings_title_short">Setelan Cepat</string>
     <string name="sound_title">Suara</string>
     <string name="statusbar_title">Bilah Status</string>
     <string name="display_title">Tampilan</string>
     <string name="ui_title">Antarmuka Pengguna</string>
     <string name="ui_summary">Tema, gaya, animasi</string>
-    <string name="alpha_visuals_test_title">AlphaVisuals</string>
-    <string name="alpha_visuals_test_summary">Fonts, icons, styles, animations</string>
     <string name="statusbar_summary">Ikon, jam, baterai, lalu lintas jaringan</string>
     <string name="quicksettings_summary">Ubin, tata letak, penggeser kecerahan</string>
     <string name="button_summary">Tombol perangkat keras dan menu daya</string>
@@ -41,15 +36,12 @@
     <string name="misc_summary">Ruang Game, pemalsuan, lain-lain.</string>
     <string name="about_summary">Tentang AlphaDroid</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Pilihan Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
     <string name="set">Atur</string>
-    <string name="color_default">Bawaan</string>
     <!-- General strings -->
     <string name="accent_color">Warna aksen</string>
     <string name="add">Tambahkan</string>
     <string name="advanced">Lanjutan</string>
-    <string name="always">Selalu</string>
     <string name="back">Kembali</string>
     <string name="caution">Peringatan</string>
     <string name="choose_app">Pilih aplikasi</string>
@@ -59,7 +51,6 @@
     <string name="delete_message">Hapus item yang dipilih?</string>
     <string name="disable">Nonaktifkan</string>
     <string name="disabled">Dinonaktifkan</string>
-    <string name="discard_changes">Batalkan perubahan</string>
     <string name="enable">Aktifkan</string>
     <string name="enabled">Diaktifkan</string>
     <string name="finish">Selesai</string>
@@ -73,7 +64,6 @@
     <string name="off">Nonaktif</string>
     <string name="on">Aktif</string>
     <string name="reset">Setel ulang</string>
-    <string name="restart_systemui">Mulai ulang SystemUI agar perubahan diterapkan!</string>
     <string name="save">Simpan</string>
     <string name="search">Pencarian</string>
     <string name="settings">Setelan</string>
@@ -81,20 +71,19 @@
     <string name="yes">Ya</string>
     <string name="apply">Terapkan</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google play</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">secara default</string>
+
     <string name="custom_seekbar_default_value_to_set">Nilai bawaan: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk menerapkan</string>
+
     <string name="custom_seekbar_default_value_is_set">Nilai bawaan telah diterapkan</string>
     <!-- Units -->
     <string name="unit_seconds">detik</string>
     <string name="unit_milliseconds">milidetik</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Disalin ke papan klip</string>
-    <string name="longpress_to_clipboard">Tekan lama untuk menyalin</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Tampilkan log riwayat notifikasi</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -189,16 +178,12 @@
     <string name="power_menu_actions_title">Tindakan</string>
     <string name="power_menu_screenshot_title">Tangkapan layar</string>
     <string name="power_menu_screenshot_summary">Tekan lama untuk menangkap layar sebagian</string>
-    <string name="power_menu_onthego_title">Mode On-The-Go</string>
     <string name="power_menu_advanced_title">Opsi mulai ulang lanjutan</string>
     <string name="power_menu_airplane_title">Mode pesawat</string>
     <string name="power_menu_torch_title">Senter</string>
-    <string name="power_menu_settings_title">Setelan</string>
     <string name="power_menu_lockdown_title">Mengunci</string>
     <string name="power_menu_lockdown_unavailable">Penguncian dinonaktifkan karena pengaman tombol tidak aman</string>
-    <string name="power_menu_soundpanel_title">Panel suara</string>
     <string name="power_menu_users_title">Pengguna</string>
-    <string name="power_menu_logout_title">Keluar</string>
     <string name="power_menu_emergency_title">Darurat</string>
     <string name="power_menu_devicecontrols_title">Kontrol Perangkat</string>
     <!-- Advanced restart options -->
@@ -271,8 +256,6 @@
     <string name="status_bar_quick_qs_pulldown_always">Selalu tampilkan setelan cepat pada menurunkan bilah status</string>
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">Menurunkan pintar</string>
-    <string name="smart_pulldown_summary">Buka setelan cepat ketika ada %1$s notifikasi</string>
-    <string name="smart_pulldown_none_summary">Buka setelan cepat ketika tidak ada notifikasi</string>
     <string name="smart_pulldown_off">Nonaktif</string>
     <string name="smart_pulldown_none">tidak ada pemberitahuan</string>
     <string name="smart_pulldown_dismissable">tidak dapat diberhentikan</string>
@@ -281,11 +264,7 @@
     <string name="lockscreen_doubletap_sleep_title">Ketuk untuk tidur</string>
     <string name="lockscreen_doubletap_sleep_summary">Ketuk dua kali pada layar kunci untuk membuat perangkat tertidur</string>
     <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <string name="theme_overlay_default_package_label">Bawaan</string>
     <!-- Refresh rate -->
-    <string name="default_refresh_rate_title_custom">Kecepatan refresh default</string>
-    <string name="peak_refresh_rate_title_custom">Kecepatan refresh maksimum</string>
-    <string name="low_power_refresh_rate_title_custom">Tingkat kecepatan refresh daya rendah</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Jam &amp; tanggal</string>
     <string name="status_bar_clock_summary">Kustomisasi jam &amp; tanggal</string>
@@ -331,8 +310,6 @@
     <string name="status_bar_battery_percent_hidden">Tersembunyi</string>
     <string name="status_bar_battery_percent_text_inside">Di dalam ikon</string>
     <string name="status_bar_battery_percent_text_next">Di samping ikon</string>
-    <string name="status_bar_battery_percent_text_next_right">Di sebelah ikon (kanan)</string>
-    <string name="status_bar_battery_percent_text_next_left">Di sebelah ikon (kiri)</string>
     <string name="status_bar_battery_text_charging_title">Persentase baterai saat pengisian</string>
     <string name="status_bar_battery_text_charging_summary">Selalu tampilkan persentase baterai saat mengisi daya</string>
     <!-- Status bar - Battery Bar -->
@@ -357,11 +334,7 @@
     <string name="qs_misc_category">Lain-lain</string>
     <string name="qs_footer_category">Kaki halaman</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">Jam</string>
-    <string name="qs_clock_summary">Tampilkan jam pada bagian atas bilah status cepat</string>
     <!-- QS date -->
-    <string name="qs_date_title">Tanggal</string>
-    <string name="qs_date_summary">Tampilkan tanggal pada bagian atas bilah status cepat</string>
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Ikuti gaya bilah status</string>
     <!-- Battery estimate -->
@@ -370,7 +343,6 @@
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Monitor lalu lintas jaringan</string>
     <string name="network_traffic_settings_summary">Tampilan dan kustomisasi tingkatan arus lalu lintas jaringan</string>
-    <string name="network_traffic_location_title">Lokasi</string>
     <string name="network_traffic_location_disable">Dinonaktifkan</string>
     <string name="network_traffic_location_statusbar">Bilah Status</string>
     <string name="network_traffic_location_quick_statusbar">Bilah Status Cepat</string>
@@ -385,22 +357,14 @@
     <string name="network_traffic_refresh_interval_summary">Durasi setelah kecepatan dihitung ulang</string>
     <string name="network_traffic_units_title">Unit pengukuran lalu lintas</string>
     <string name="network_traffic_units_bits">Bit per detik (b/d)</string>
-    <string name="network_traffic_units_kilobits">Kilobit per detik (kb/d)</string>
-    <string name="network_traffic_units_megabits">Megabit per detik (Mb/d)</string>
     <string name="network_traffic_units_bytes">Byte per detik (B/d)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte per detik (kB/d)</string>
-    <string name="network_traffic_units_megabytes">Megabyte per detik (MB/d)</string>
     <string name="network_traffic_hidearrow">Sembunyikan panah</string>
     <string name="network_traffic_hidearrow_summary">Sembunyikan tanda panah indikator lalu lintas jaringan</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Peringatan footer</string>
-    <string name="qs_footer_warnings_summary">Tampilkan peringatan di bagian bawah panel QS saat jaringan dipantau oleh aplikasi eksternal atau VPN</string>
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Bilah navigasi</string>
     <string name="navbar_visibility_summary">Tampilkan bilah navigasi di bagian bawah layar</string>
     <string name="navbar_layout_category_title">Tata letak</string>
-    <string name="navbar_arrow_keys_title">Tampilkan tombol panah saat mengetik</string>
-    <string name="navbar_arrow_keys_summary">Tampilkan tombol kursor kiri dan kanan saat mengetik. Menggantikan pengubah IME.</string>
     <string name="navbar_layout_title">Tata letak</string>
     <string name="navbar_layout_normal">Normal</string>
     <string name="navbar_layout_compact">Ringkas</string>
@@ -447,7 +411,6 @@
     <string name="qs_show_brightness_slider_never">Jangan tampilkan</string>
     <string name="qs_show_brightness_slider_expanded">Tampilkan ketika diperluas</string>
     <string name="qs_show_brightness_slider_always">Tampilkan selalu</string>
-    <string name="qs_show_brightness_slider_not_expanded">Tampilkan ketika tidak diperluas</string>
     <string name="qs_brightness_slider_position_title">Posisi</string>
     <string name="qs_brightness_slider_position_top">Atas</string>
     <string name="qs_brightness_slider_position_bottom">Bawah</string>
@@ -514,9 +477,7 @@
     <string name="notification_light_missed_call_title">Panggilan tak terjawab</string>
     <string name="notification_light_voicemail_title">Pesan suara</string>
     <string name="notification_light_screen_on">Lampu dengan layar menyala</string>
-    <string name="notification_light_zen_mode">Lampu di Mode Jangan Ganggu</string>
     <string name="notification_light_automagic">Pilih warna otomatis</string>
-    <string name="notification_light_automagic_summary">Memilih warna secara otomatis</string>
     <string name="notification_light_override">Ganti semua aplikasi</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Pengaturan cahaya</string>
@@ -604,9 +565,6 @@
     <!-- Comss DNS Option -->
     <!-- Comss DNS hostname -->
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
-    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
-    <string name="display_cutout_force_fullscreen_no_apps">Tidak ada aplikasi</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
     <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
@@ -619,18 +577,11 @@
     <string name="volume_panel_on_left_title">Panel volume di kiri</string>
     <string name="volume_dialog_haptic_feedback_title">Sentuhan panel volume</string>
     <!-- UDFPS settings -->
-    <string name="udfps_settings_title">Kustomisasi Sidik Jari Dalam Layar</string>
-    <string name="udfps_settings_summary">Sesuaikan pemindai sidik jari di dalam layar</string>
     <string name="udfps_icon_picker_title">Pilihan ikon Sidik Jari Dalam Layar</string>
     <string name="udfps_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
     <string name="udfps_recog_animation_effect_title">Kustomisasi animasi Sidik Jari Dalam Layar</string>
     <string name="udfps_recog_animation_effect_summary">Pilih efek animasi</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
-    <string name="face_redo_confirm_btn">Ulangi</string>
-    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
-    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
     <!-- Wifi/Bluetooth auto timeout -->
@@ -678,8 +629,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Hingga <xliff:g id="device_num">%1$d</xliff:g> perangkat dapat terhubung ke hotspot ini</item>
     </plurals>
@@ -714,11 +663,7 @@
     <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
     <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Gunakan tema gelap</string>
-    <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Tombol hapus semua notifikasi</string>
-    <string name="notification_material_dismiss_summary">Ganti teks hapus semua notifikasi dengan tombol mengambang gaya material</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animasi gestur kembali</string>
     <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
@@ -726,18 +671,15 @@
     <string name="back_gesture_haptic_title">Umpan balik haptik</string>
     <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada gestur kembali</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
-    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
-    <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Suhu baterai</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">QS background opacity</string>
-    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
+    <string name="qs_opacity_title">Opasitas latar belakang QS</string>
+    <string name="qs_opacity_summary">Opasitas scrim Pengaturan Cepat di belakang ubin (0%% sepenuhnya transparan)</string>
     <!-- QS Blur intensity -->
-    <string name="qs_blur_intensity_title">QS background blur</string>
-    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
-    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
+    <string name="qs_blur_intensity_title">Latar belakang QS kabur</string>
+    <string name="qs_blur_intensity_summary">Intensitas blur di balik panel Pengaturan Cepat</string>
+    <string name="qs_blur_disabled_in_settings">(aktifkan Window blur di pengaturan Tampilan)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">Penggunaan data</string>
     <string name="qs_footer_datausage_summary">Tampilkan ringkasan penggunaan data di footer setelan cepat</string>
@@ -837,11 +779,7 @@
     <string name="pi_spoof_title">Palsukan Integritas Google Play</string>
     <string name="pi_spoof_summary">Memalsukan perangkat Anda sebagai model yang berbeda untuk Google Play Integrity</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Pemeriksaan konektivitas</string>
-    <string name="captive_portal_summary">Tentukan apakah perangkat dapat terhubung ke internet, dengan menghubungi Google. Juga digunakan untuk mendeteksi captive portal.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Setel ulang statistik?</string>
-    <string name="battery_stats_message">Statistik riwayat baterai akan disetel ulang</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standar WiFi</string>
     <string name="wifi_standard_icon_summary">Tampilkan standar WiFi di sebelah sinyal WiFi</string>
@@ -859,7 +797,6 @@
     <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi yang tidak terkunci di latar belakang harus dikunci</string>
     <string name="app_lock_notifications_title">Nonaktifkan notifikasi</string>
     <string name="app_lock_notifications_summary">Konten notifikasi akan disembunyikan dan diciutkan untuk aplikasi yang dipilih saat dikunci. Notifikasi mengambang akan dinonaktifkan secara otomatis.</string>
-    <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
     <string name="app_lock_biometrics_allowed_title">Aktifkan biometrik untuk membuka kunci</string>
     <string name="app_lock_footer_text">Gelembung akan ditutup secara otomatis setelah waktu habis</string>
     <string name="enable_protection">Aktifkan perlindungan</string>
@@ -869,7 +806,6 @@
     <string name="doze_on_charge_title">Selalu tampilkan saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan perangkat sedang mengisi daya</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Info radio</string>
     <!-- QS Header -->
@@ -900,8 +836,6 @@
     <string name="always_on_display_schedule_mixed_sunset">Menyala dari matahari terbenam hingga suatu waktu</string>
     <string name="always_on_display_schedule_mixed_sunrise">Menyala dari suatu waktu hingga waktu matahari terbit</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Dialog ubin bluetooth</string>
-    <string name="qs_bt_show_dialog_summary">Tampilkan dialog bluetooth atau alihkan status bluetooth saat mengetuk ubin bluetooth</string>
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Nama operator</string>
     <string name="lockscreen_show_carrier_summary">Menampilkan nama operator di bilah status</string>
@@ -915,10 +849,6 @@
     <string name="wifi_per_network_random_mac_addr">Gunakan MAC acak per jaringan</string>
     <string name="wifi_device_mac_addr">Gunakan MAC perangkat</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
-    <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambient tanpa sepenuhnya membangunkan layar</string>
-    <string name="gesture_wake_ambient">Tampilkan Ambien</string>
-    <string name="gesture_wake">Bangun sepenuhnya</string>
     <!-- Sidebar -->
     <string name="sidebar_title">Bilah sisi</string>
     <string name="sidebar_summary">Buka aplikasi dengan cepat di jendela mengambang</string>
@@ -926,10 +856,6 @@
     <string name="lockscreen_smartspace_title">Ruang pintar</string>
     <string name="lockscreen_smartspace_summary">Tampilkan Ruang pintar Google saat tersedia</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Batas waktu penghapusan otomatis papan klip</string>
-    <string name="clipboard_auto_clear_title">Hapus otomatis papan klip</string>
-    <string name="clipboard_auto_clear_summary">Hapus papan klip secara otomatis pada waktu yang dijadwalkan</string>
-    <string name="clipboard_auto_clear_enabled_title">Gunakan pembersihan otomatis papan klip</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Nonaktifkan papan klip</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
@@ -939,8 +865,6 @@
     <string name="vpn_enforce_dns_title">Nonaktifkan untuk VPN</string>
     <string name="vpn_enforce_dns_summary">Nonaktifkan DNS pribadi saat tersambung ke VPN dan pulihkan saat sambungan terputus</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Beralih melalui mode</string>
-    <string name="prevent_ringing_option_cycle_summary">Aktif (beralih melalui mode)</string>
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Izinkan downgrade aplikasi</string>
     <string name="app_downgrade_summary">Ini memungkinkan untuk melakukan downgrade aplikasi. Perhatikan bahwa hal ini dapat menyebabkan crash dan data corrupt.</string>
@@ -954,10 +878,8 @@
     <string name="show_ime_space_title">Tampilkan ruang tombol IME</string>
     <string name="show_ime_space_summary">Aktifkan fitur peralihan cepat metode input untuk mengganti metode input atau sembunyikan keyboard di layar dari bilah fitur di bagian bawah layar saat mengetik</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Gaya notifikasi</string>
-    <string name="powermenu_style_title">Gaya menu daya</string>
     <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Duoline</string>
+    <string name="custom_style_duoline">Duolin</string>
     <string name="custom_style_fluid">Fluid (Transparan)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Lapisan</string>
@@ -1031,7 +953,7 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="pulse_renderer_solid">Garis padat</string>
     <string name="pulse_renderer_fading">Blok memudar</string>
     <string name="pulse_renderer_neon_glow">Cahaya neon</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
+    <string name="pulse_renderer_retro_vu_meter">Meteran VU Retro</string>
     <string name="pulse_renderer_minimal_wave">Gelombang minimal</string>
     <string name="pulse_renderer_sparkle">Kelap-kelip</string>
     <string name="pulse_renderer_matrix">Matriks</string>
@@ -1076,117 +998,106 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="cycle_type_daily_title">Reset ulang jam siklus penggunaan</string>
     <string name="cycle_type_daily_sub">Jam setiap hari:</string>
     <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Custom clock style</string>
-    <string name="lockscreen_custom_clock_style_summary">Configure lock screen clock styles</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Swipe left or right to preview clock styles</string>
-    <string name="lockscreen_custom_clock_style_info">Custom clock style replaces AOSP clock styles with custom clocks. Smartspace will be disabled. You can enable and use custom weather instead.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Custom clock opacity</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Adjust the transparency of custom clock style</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Custom clock height</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Adjust the height of custom clock style</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Custom clock color mode</string>
+    <string name="lockscreen_custom_clock_style_title">Gaya jam khusus</string>
+    <string name="lockscreen_custom_clock_style_summary">Konfigurasikan gaya jam layar kunci</string>
+    <string name="lockscreen_custom_clock_style_highlight_text">Gesek ke kiri atau kanan untuk melihat pratinjau gaya jam</string>
+    <string name="lockscreen_custom_clock_style_info">Gaya jam khusus menggantikan gaya jam AOSP dengan jam khusus. Smartspace akan dinonaktifkan. Anda dapat mengaktifkan dan menggunakan cuaca khusus.</string>
+    <string name="lockscreen_custom_clock_opacity_title">Opasitas jam khusus</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Sesuaikan transparansi gaya jam khusus</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Ketinggian jam khusus</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Sesuaikan ketinggian gaya jam khusus</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Mode warna jam khusus</string>
     <!-- QS Panel style -->
-    <string name="qs_panel_style_title">QS Panel style</string>
-    <string name="qs_panel_style_card">Card style</string>
-    <string name="qs_panel_style_classic">Classic style</string>
+    <string name="qs_panel_style_title">Gaya Panel QS</string>
+    <string name="qs_panel_style_card">Gaya kartu</string>
+    <string name="qs_panel_style_classic">Gaya klasik</string>
     <string name="shape_circle">Lingkaran</string>
     <string name="shape_square">Persegi</string>
-    <string name="shape_arch">Arch</string>
-    <string name="shape_ios_rounded_square">iOS rounded shape</string>
-    <string name="shape_hexagon">Hexagon</string>
-    <string name="shape_pebble">Pebble</string>
-    <string name="shape_rice_balls">Rice balls</string>
-    <string name="shape_rounded_rect">Rounded rectangle</string>
+    <string name="shape_arch">Lengkungan</string>
+    <string name="shape_ios_rounded_square">Bentuk iOS bulat</string>
+    <string name="shape_hexagon">Segi enam</string>
+    <string name="shape_pebble">Kerikil</string>
+    <string name="shape_rice_balls">Bola nasi</string>
+    <string name="shape_rounded_rect">Persegi panjang bulat</string>
     <string name="shape_squircle">Squircle</string>
-    <string name="shape_tapered_rect">Tapered rect</string>
-    <string name="shape_teardrop">Teardrop</string>
-    <string name="shape_rounded_hexagon">Rounded hexagon</string>
+    <string name="shape_tapered_rect">Rek meruncing</string>
+    <string name="shape_teardrop">Titik air mata</string>
+    <string name="shape_rounded_hexagon">Segi enam bulat</string>
     <!-- Dynamic Bar -->
-    <string name="dynamic_bar">Dynamic Bar</string>
-    <string name="dynamic_bar_summary">Smart status bar chip for active events like recording, media, timers, and more</string>
-    <string name="dynamic_bar_enable">Enable Dynamic Bar</string>
-    <string name="dynamic_bar_enable_summary">Show a dynamic chip on the status bar for live events</string>
-    <string name="dynamic_bar_keyguard_enable">Dynamic bar on lock screen</string>
-    <string name="dynamic_bar_keyguard_enable_summary">Replace keyguard indication with dynamic bar chip on the lock screen with controls and quick actions</string>
-    <string name="dynamic_bar_keyguard_battery_chip">Battery info on lock screen</string>
+    <string name="dynamic_bar">Bilah Dinamis</string>
+    <string name="dynamic_bar_summary">Chip bilah status cerdas untuk acara aktif seperti perekaman, media, pengatur waktu, dan lainnya</string>
+    <string name="dynamic_bar_enable">Aktifkan Bilah Dinamis</string>
+    <string name="dynamic_bar_enable_summary">Tampilkan chip dinamis pada bilah status untuk siaran langsung</string>
+    <string name="dynamic_bar_keyguard_enable">Bilah dinamis di layar kunci</string>
+    <string name="dynamic_bar_keyguard_enable_summary">Mengganti indikator di layar kunci dengan chip bilah dinamis beserta kontrol dan tindakan cepat</string>
+    <string name="dynamic_bar_keyguard_battery_chip">Info baterai di layar kunci</string>
     <string name="dynamic_bar_keyguard_battery_chip_disabled">Jangan tampilkan</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">Only when charging</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">Always show</string>
-    <string name="dynamic_bar_keyguard_compact_chip">Compact lock screen chip</string>
-    <string name="dynamic_bar_keyguard_compact_chip_summary">Always use the compact chip style on the lockscreen. When disabled, compact mode is used only when space is limited.</string>
-    <string name="dynamic_bar_events">Events</string>
-    <string name="dynamic_bar_event_recording">Screen recording</string>
-    <string name="dynamic_bar_event_recording_summary">Active screen recording indicator</string>
-    <string name="dynamic_bar_event_privacy">Privacy indicators</string>
-    <string name="dynamic_bar_event_privacy_summary">Camera and microphone access alerts</string>
-    <string name="dynamic_bar_event_audio_recording">Audio recording</string>
-    <string name="dynamic_bar_event_audio_recording_summary">Voice recorder and audio capture</string>
-    <string name="dynamic_bar_event_media">Media playback</string>
-    <string name="dynamic_bar_event_media_summary">Now playing music and audio controls</string>
+    <string name="dynamic_bar_keyguard_battery_chip_charging">Hanya saat mengisi daya</string>
+    <string name="dynamic_bar_keyguard_battery_chip_always">Selalu tunjukkan</string>
+    <string name="dynamic_bar_events">Acara</string>
+    <string name="dynamic_bar_event_recording">Rekaman layar</string>
+    <string name="dynamic_bar_event_recording_summary">Indikator perekaman layar aktif</string>
+    <string name="dynamic_bar_event_privacy">Indikator privasi</string>
+    <string name="dynamic_bar_event_privacy_summary">Peringatan akses kamera dan mikrofon</string>
+    <string name="dynamic_bar_event_audio_recording">Rekaman audio</string>
+    <string name="dynamic_bar_event_audio_recording_summary">Perekam suara dan pengambilan audio</string>
+    <string name="dynamic_bar_event_media">Pemutaran media</string>
+    <string name="dynamic_bar_event_media_summary">Sekarang memutar musik dan kontrol audio</string>
     <string name="dynamic_bar_event_notification">Notifikasi</string>
-    <string name="dynamic_bar_event_notification_summary">Incoming notification alerts</string>
-    <string name="dynamic_bar_compact_notifications">Compact notifications</string>
-    <string name="dynamic_bar_compact_notifications_summary">Show notifications as a small chip first, tap to expand</string>
-    <string name="dynamic_bar_event_timer">Timer</string>
-    <string name="dynamic_bar_event_timer_summary">Countdown timer from clock app</string>
+    <string name="dynamic_bar_event_notification_summary">Peringatan notifikasi masuk</string>
+    <string name="dynamic_bar_compact_notifications">Notifikasi ringkas</string>
+    <string name="dynamic_bar_compact_notifications_summary">Tampilkan notifikasi sebagai chip kecil terlebih dahulu, ketuk untuk memperluas</string>
+    <string name="dynamic_bar_event_timer">Pengatur waktu</string>
+    <string name="dynamic_bar_event_timer_summary">Penghitung waktu mundur dari aplikasi jam</string>
     <string name="dynamic_bar_event_stopwatch">Stopwatch</string>
-    <string name="dynamic_bar_event_stopwatch_summary">Running stopwatch from clock app</string>
+    <string name="dynamic_bar_event_stopwatch_summary">Menjalankan stopwatch dari aplikasi jam</string>
     <string name="dynamic_bar_event_alarm">Alarm</string>
-    <string name="dynamic_bar_event_alarm_summary">Ringing and upcoming alarms</string>
-    <string name="dynamic_bar_event_charging">Charging started</string>
-    <string name="dynamic_bar_event_charging_summary">Battery level when plugged in</string>
+    <string name="dynamic_bar_event_alarm_summary">Dering dan alarm yang akan datang</string>
+    <string name="dynamic_bar_event_charging">Pengisian daya dimulai</string>
+    <string name="dynamic_bar_event_charging_summary">Level baterai saat dicolokkan</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
-    <string name="dynamic_bar_event_bluetooth_summary">Device connection status</string>
+    <string name="dynamic_bar_event_bluetooth_summary">Status koneksi perangkat</string>
     <string name="dynamic_bar_event_hotspot">Hotspot</string>
-    <string name="dynamic_bar_event_hotspot_summary">Mobile hotspot active indicator</string>
-    <string name="dynamic_bar_event_ringer">Ringer Mode</string>
-    <string name="dynamic_bar_event_ringer_summary">Silent, vibrate, and ring mode changes</string>
+    <string name="dynamic_bar_event_hotspot_summary">Indikator aktif hotspot seluler</string>
+    <string name="dynamic_bar_event_ringer">Modus Dering</string>
+    <string name="dynamic_bar_event_ringer_summary">Perubahan mode senyap, getar, dan dering</string>
     <string name="dynamic_bar_event_vpn">VPN</string>
-    <string name="dynamic_bar_event_vpn_summary">Active VPN connection indicator</string>
-    <string name="dynamic_bar_event_clipboard">Clipboard</string>
-    <string name="dynamic_bar_event_clipboard_summary">Copied text and image preview</string>
+    <string name="dynamic_bar_event_vpn_summary">Indikator koneksi VPN aktif</string>
+    <string name="dynamic_bar_event_clipboard">Papan klip</string>
+    <string name="dynamic_bar_event_clipboard_summary">Pratinjau teks dan gambar yang disalin</string>
     <string name="dynamic_bar_event_torch">Senter</string>
-    <string name="dynamic_bar_event_torch_summary">Flashlight toggle and brightness</string>
-    <string name="dynamic_bar_event_casting">Casting</string>
-    <string name="dynamic_bar_event_casting_summary">Screen cast and media cast status</string>
-    <string name="dynamic_bar_event_ongoing">Ongoing activities</string>
-    <string name="dynamic_bar_event_ongoing_summary">Navigation, deliveries, and other live activities</string>
-    <string name="dynamic_bar_event_sports">Sports</string>
-    <string name="dynamic_bar_event_sports_summary">Live scores and game updates</string>
-    <string name="dynamic_bar_event_app_switch">Recent app switch</string>
-    <string name="dynamic_bar_event_app_switch_summary">Show chip when switching between recent apps</string>
-    <string name="dynamic_bar_event_biometric">Biometric unlock</string>
-    <string name="dynamic_bar_event_biometric_summary">Show chip on fingerprint or face unlock</string>
-    <string name="dynamic_bar_guide_title">How to use Dynamic Bar</string>
-    <string name="dynamic_bar_guide_chip">Events appear in the status bar showing active events like recording, media playback, and timers</string>
-    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip to cycle through them</string>
-    <string name="dynamic_bar_guide_expand">Tap a chip to expand it into a detailed card with controls and additional information</string>
-    <string name="dynamic_bar_guide_dismiss">Swipe the expanded card away to dismiss it. The event continues in the background</string>
-    <string name="dynamic_bar_guide_keyguard">Dynamic bar chip also appears at the bottom of the lock screen with playback controls and quick actions</string>
-    <string name="dynamic_bar_guide_chip_title">Chip appearance</string>
-    <string name="dynamic_bar_guide_swipe_title">Swipe between chips</string>
-    <string name="dynamic_bar_guide_expand_title">Tap to expand</string>
-    <string name="dynamic_bar_guide_dismiss_title">Swipe to dismiss</string>
-    <string name="dynamic_bar_guide_keyguard_title">Lock screen chip</string>
-    <string name="dynamic_bar_footer_title">About Dynamic Bar</string>
-    <string name="dynamic_bar_footer_body">Dynamic Bar transforms your status bar into an interactive hub. Status chips appear and animate based on system events, giving you at-a-glance information without interrupting your workflow.\n\nEach event type has its own accent color and expanded card with quick actions.</string>
+    <string name="dynamic_bar_event_torch_summary">Pengalih dan kecerahan senter</string>
+    <string name="dynamic_bar_event_casting">Proyeksi</string>
+    <string name="dynamic_bar_event_casting_summary">Status proyeksi layar dan media</string>
+    <string name="dynamic_bar_event_ongoing">Kegiatan yang sedang berlangsung</string>
+    <string name="dynamic_bar_event_ongoing_summary">Navigasi, pengiriman, dan aktivitas langsung lainnya</string>
+    <string name="dynamic_bar_event_sports">Olahraga</string>
+    <string name="dynamic_bar_event_sports_summary">Skor langsung dan pembaruan permainan</string>
+    <string name="dynamic_bar_event_app_switch">Peralihan aplikasi terkini</string>
+    <string name="dynamic_bar_event_app_switch_summary">Tampilkan chip saat beralih di antara aplikasi terbaru</string>
+    <string name="dynamic_bar_event_biometric">Buka kunci biometrik</string>
+    <string name="dynamic_bar_event_biometric_summary">Tampilkan chip saat membuka kunci dengan sidik jari atau wajah</string>
+    <string name="dynamic_bar_guide_title">Cara menggunakan Bilah Dinamis</string>
+    <string name="dynamic_bar_guide_chip">Acara muncul di bilah status yang menampilkan acara aktif seperti perekaman, pemutaran media, dan pengatur waktu</string>
+    <string name="dynamic_bar_guide_swipe">Saat beberapa peristiwa aktif, geser ke kiri atau kanan pada chip untuk menelusurinya</string>
+    <string name="dynamic_bar_guide_expand">Ketuk sebuah chip untuk mengembangkannya menjadi kartu terperinci dengan kontrol dan informasi tambahan</string>
+    <string name="dynamic_bar_guide_dismiss">Gesek kartu yang diperluas untuk menutupnya. Acara berlanjut di latar belakang</string>
+    <string name="dynamic_bar_guide_keyguard">Chip bilah dinamis juga muncul di bagian bawah layar kunci dengan kontrol pemutaran dan tindakan cepat</string>
+    <string name="dynamic_bar_guide_chip_title">Penampilan chip</string>
+    <string name="dynamic_bar_guide_swipe_title">Gesek di antara chip</string>
+    <string name="dynamic_bar_guide_expand_title">Ketuk untuk memperluas</string>
+    <string name="dynamic_bar_guide_dismiss_title">Gesek untuk menutup</string>
+    <string name="dynamic_bar_guide_keyguard_title">Chip layar kunci</string>
+    <string name="dynamic_bar_footer_title">Tentang Bilah Dinamis</string>
+    <string name="dynamic_bar_footer_body">Bilah dinamis mengubah bilah status menjadi pusat informasi interaktif. Chip status muncul dan beranimasi mengikuti peristiwa sistem, sehingga Anda bisa melihat ringkasan penting tanpa mengganggu alur kerja.\\n\\nSetiap jenis peristiwa punya warna aksen sendiri dan kartu yang dapat diperluas berisi tindakan cepat.</string>
     <!-- Ax ThemeStore -->
-    <string name="custom_system_theme_title">Themes</string>
-    <string name="custom_system_theme_summary">Customize system appearance with themes and icon packs</string>
     <!-- ALPHA -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
     <string name="alpha_settings_summary">Akan banyak kejutan!</string>
     <string name="reset_settings_title">Setel ulang pengaturan</string>
-    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
+    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan Alpha ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
     <!-- Top level categories -->
-    <string name="top_level_alpha_category_title">AlphaDroid</string>
-    <string name="top_level_connectivity_category_title">Konektivitas</string>
-    <string name="top_level_system_info_category_title">Sistem</string>
-    <string name="top_level_personalize_category_title">Personalisasi</string>
-    <string name="top_level_security_privacy_category_title">Keamanan</string>
-    <string name="top_level_account_category_title">Akun</string>
-    <string name="top_level_support_category_title">Dukungan</string>
     <string name="lockscreen_clock_category">Jam</string>
     <!-- Misc categories -->
     <string name="misc_spoofing_category">Memalsukan</string>
@@ -1196,15 +1107,12 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Changelog -->
     <string name="changelog_title">Perubahan saat ini</string>
     <string name="changelog_summary">Lihat perubahan pada ROM ini</string>
-    <string name="changelog_error">Gagal memuat daftar perubahan</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">Tentang AlphaDroid</string>
-    <string name="about_alpha_dual_line">Tentang\nAlphaDroid</string>
     <string name="about_device_name">Perangkat</string>
     <!-- Share AlphaDroid -->
     <string name="share_title">Bagikan AlphaDroid</string>
     <string name="share_summary">Beritahu orang lain tentang AlphaDroid</string>
-    <string name="share_message">Periksa apakah #AlphaDroid tersedia untuk perangkat Anda @ https://alpha.net/</string>
+    <string name="share_message">Periksa apakah #AlphaDroid tersedia untuk perangkat Anda: https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">Bagikan AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1220,8 +1128,6 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Donate AlphaDroid -->
     <string name="donate_title">Dukung Kami</string>
     <string name="donate_summary">Ayo donasi untuk mendukung kami</string>
-    <string name="donate_team_title">Tim AlphaDroid</string>
-    <string name="donate_team_summary">Donasi untuk mendukung server hosting, keaktifan situs serta pemanajemenan secara keseluruhan</string>
     <!-- AlphaDroid build server sponsor -->
     <string name="buildserversponsor_summary">AlphaDroid adalah penyedia server build. Ketuk untuk mengunjungi saluran mereka.</string>
     <!-- OTA -->
@@ -1230,8 +1136,8 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- SELinux status -->
     <string name="selinux_status">Status SElinux</string>
     <string name="selinux_status_disabled">Dinonaktifkan</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Permisif</string>
+    <string name="selinux_status_enforcing">Menegakkan</string>
     <!-- Firmware info -->
     <string name="category_android_info">Lawnchair</string>
     <string name="category_alpha_info">AlphaDroid</string>
@@ -1250,23 +1156,19 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="storage_card_title">Ruang penyimpanan</string>
     <string name="storage_card_info">Digunakan/total</string>
     <string name="about_device_name_title">Perangkat</string>
-    <string name="about_device_rom_title">Android %s</string>
     <string name="about_device_nearby">Nama perangkat akan bisa terlihat oleh perangkat di sekitar.</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total Memori</string>
     <!-- QuickSwitch -->
     <string name="quickswitch_launcher_title">Launcher AlphaDroid</string>
-    <string name="quickswitch_launcher_summary">Ubah peluncur bawaan AlphaDroid</string>
     <string name="quickswitch_launcher3">Launcher3</string>
-    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
+    <string name="quickswitch_nexuslauncher">Peluncur Nexus</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
     <!-- Search bar -->
-    <string name="search_bar_text">Cari</string>
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Mesin tampilan</string>
     <string name="display_engine_mode_title">Mesin Tampilan Realitas</string>
-    <string name="display_engine_mode_summary">Tingkatkan mode warna Android standar dengan peningkatan tampilan khusus</string>
     <string name="display_engine_mode_xreality">Mesin X-Realita</string>
     <string name="display_engine_mode_vivid">Tampilan Jelas</string>
     <string name="display_engine_mode_triluminous">Tampilan Triluminous</string>
@@ -1285,20 +1187,13 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="max_visible_notification_icons_title">Ikon notifikasi</string>
     <string name="max_visible_notification_icons_summary">Maksimal ikon notifikasi terlihat di bilah status</string>
     <!-- UI styles -->
-    <string name="ui_style_title">Gaya Antarmuka Pengguna</string>
-    <string name="ui_style_summary">Sesuaikan tampilan ubin Setelan Cepat dan penggeser kecerahan</string>
-    <string name="ui_style_light_theme">Tema terang</string>
-    <string name="ui_style_dark_theme">Tema gelap</string>
-    <string name="ui_style_reset_section">Setel ulang ke bawaan</string>
-    <string name="ui_style_reset_all">Atur ulang semua gaya</string>
-    <string name="ui_style_reset_all_summary">Atur ulang semua parameter gaya ke nilai default</string>
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Cincin Kemajuan</string>
     <string name="cutout_progress_summary">Tunjukkan lingkaran kemajuan di sekitar lubang punch</string>
     <!-- Categories -->
     <string name="cutout_progress_cat_features">Fitur</string>
     <string name="cutout_progress_cat_appearance">Penampilan</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
+    <string name="cutout_progress_cat_geometry">Geometri cincin</string>
     <string name="cutout_progress_cat_island">Mode diperluas</string>
     <!-- Features -->
     <string name="cutout_progress_download_enabled_title">Aktifkan cincin kemajuan unduhan</string>
@@ -1309,34 +1204,117 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="cutout_progress_ring_color_mode_rainbow">Pelangi</string>
     <string name="cutout_progress_ring_color_mode_custom">Kustom</string>
     <string name="cutout_progress_ring_color_title">Warna cincin kustom</string>
-    <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_progress_ring_opacity_title">Opasitas cincin</string>
     <string name="cutout_progress_stroke_width_title">Ketebalan cincin</string>
     <string name="cutout_progress_bg_ring_enabled_title">Tampilkan trek latar belakang</string>
-    <string name="cutout_progress_bg_ring_enabled_summary">Draw a faint full ring behind the progress arc</string>
     <string name="cutout_progress_charging_pulse_title">Animasi denyut pengisian</string>
     <string name="cutout_progress_charging_pulse_summary">Animasikan denyut berulang dari tengah ke luar saat mengisi daya</string>
     <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_path_mode_title">Follow cutout shape</string>
-    <string name="cutout_progress_path_mode_summary">Use the cutout’s native aspect ratio instead of normalizing the ring to a circle</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
+    <string name="cutout_progress_ring_gap_title">Celah cincin (celah potongan)</string>
+    <string name="cutout_progress_path_mode_title">Ikuti bentuk potongan</string>
+    <string name="cutout_progress_path_mode_summary">Gunakan rasio aspek asli potongan tersebut alih-alih menormalkan cincin menjadi lingkaran</string>
+    <string name="cutout_progress_scale_x_title">Skala horisontal</string>
+    <string name="cutout_progress_scale_y_title">Skala vertikal</string>
+    <string name="cutout_progress_offset_x_title">Pergeseran horisontal</string>
+    <string name="cutout_progress_offset_y_title">Pergeseran vertikal</string>
     <!-- Expanded Mode -->
     <string name="cutout_progress_island_compact_title">Tata letak ringkas</string>
-    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
-    <string name="cutout_progress_island_position_title">Compact layout alignment</string>
+    <string name="cutout_progress_island_compact_summary">Bungkus di sekitar potongan kamera</string>
+    <string name="cutout_progress_island_position_title">Penyelarasan tata letak yang ringkas</string>
     <string name="cutout_island_pos_center">Belahan tengah</string>
     <string name="cutout_island_pos_left">Kiri</string>
     <string name="cutout_island_pos_right">Kanan</string>
     <string name="cutout_island_bg_opacity_title">Transparansi Latar Belakang</string>
     <string name="cutout_island_timeout_title">Batas waktu penutupan otomatis</string>
     <!-- Hide applist -->
-    <string name="hide_applist_title">Hide applist</string>
-    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
-    <string name="menu_show_overlay">Show overlay</string>
-    <string name="menu_hide_overlay">Hide overlay</string>
+    <string name="hide_applist_title">Sembunyikan daftar aplikasi</string>
+    <string name="hide_applist_summary">Cegah aplikasi memeriksa aplikasi yang dipilih dari daftar aplikasi</string>
+    <string name="menu_show_overlay">Tampilkan hamparan</string>
+    <string name="menu_hide_overlay">Sembunyikan hamparan</string>
     <!-- Volume slider shapes -->
-    <string name="volume_slider_shape_title">Volume slider shape</string>
+    <string name="volume_slider_shape_title">Bentuk penggeser volume</string>
+
+    <string name="arrow_right" translatable="false">→</string>
+
+    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+
+    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
+
+    <string name="channel_light_settings_id" translatable="false">light_settings</string>
+
+    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
+
+    <string name="dlg_ok" translatable="false">@android:string/ok</string>
+
+    <string name="hex" translatable="false">Hex:</string>
+
+    <string name="hex_hint" translatable="false">#ff000000</string>
+
+    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
+
+    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+
+    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
+
+    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
+
+    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
+
+    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
+
+    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
+
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+
+    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
+
+    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
+
+    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
+
+    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
+
+    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
+
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
+
+    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
+
+    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
+
+    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
+
+    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
+
+    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
+
+    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
+
+    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+    <string name="unit_hz" translatable="false">hz</string>
+
+    <string name="unit_pixels" translatable="false">dp</string>
+    <string name="cancel" translatable="false">@android:string/cancel</string>
+
+    <string name="ok" translatable="false">@android:string/ok</string>
+
+    <string name="alert_slider_notifications_title">Notifikasi slider peringatan</string>
+
+    <string name="alert_slider_notifications_summary">Menampilkan notifikasi saat mengubah posisi slider peringatan</string>
+
 </resources>

@@ -19,32 +19,27 @@
     <string name="alpha_settings_title">AlphaDroid Instellingen</string>
     <string name="alpha_settings_summary">Goodies</string>
     <string name="reset_settings_title">Instellingen resetten</string>
-    <string name="reset_settings_message">Dit zal de meeste crdroid instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
+    <string name="reset_settings_message">Dit zal de meeste Alpha-instellingen terugzetten naar de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Knoppen</string>
     <string name="lockscreen_title">Schermvergrendeling</string>
     <string name="misc_title">Overige</string>
-    <string name="navigation_title">Navigatie</string>
     <string name="notifications_title">Meldingen</string>
     <string name="quicksettings_title">Snelle Instellingen</string>
     <string name="sound_title">Geluid</string>
     <string name="statusbar_title">Statusbalk</string>
     <string name="display_title">Weergave</string>
-    <string name="ui_title">Alpha Visuals</string>
+    <string name="ui_title">Alpha-beelden</string>
     <string name="ui_summary">Thema\'s, stijlen, animaties</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Kleurkiezer</string>
     <string name="press_color_to_apply">Druk op kleur hieronder om toe te passen</string>
     <string name="set">Instellen</string>
-    <string name="color_default">Standaard</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Herstel</string>
     <string name="cancel">Annuleren</string>
     <string name="save">Opslaan</string>
-    <string name="discard_changes">Wijzigingen niet opslaan</string>
     <string name="never">Nooit</string>
-    <string name="always">Altijd</string>
     <string name="caution">Let op</string>
     <string name="delete">Verwijderen</string>
     <string name="delete_message">Verwijder geselecteerde item?</string>
@@ -56,19 +51,17 @@
     <string name="wallpaper_color">Achtergrond kleur</string>
     <string name="rainbow_color">Regenboog kleur</string>
     <string name="custom_color">Aangepaste kleur</string>
-    <string name="restart_systemui">Herstart SystemUI om veranderingen van kracht te laten worden!</string>
     <string name="default_value">Standaard</string>
     <!-- Changelog -->
     <string name="changelog_alpha_title">Huidige veranderingen</string>
     <string name="changelog_alpha_summary">Bekijk wijzigingen in de geïnstalleerde rom</string>
     <string name="changelog_alpha_error">Kan changelog niet laden</string>
     <!-- About AlphaDroid -->
-    <string name="about_alpha">Over AlphaDroid</string>
     <string name="about_device_name">Apparaat</string>
     <!-- Share AlphaDroid -->
     <string name="share_alpha_title">Deel AlphaDroid</string>
     <string name="share_alpha_summary">Laat anderen weten over AlphaDroid</string>
-    <string name="share_message">Kijk eens of #AlphaDroidAndroid beschikbaar is voor uw apparaat @ https://crdroid.net/</string>
+    <string name="share_message">Kijk of #AlphaDroid beschikbaar is voor uw apparaat: https://t.me/alphadroid_releases/</string>
     <string name="share_chooser_title">Deel AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="crdroid_source_title">Github</string>
@@ -107,12 +100,10 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="unit_milliseconds">milliseconden</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Naar klembord gekopieerd</string>
-    <string name="longpress_to_clipboard">Lang ingedrukt houden om te kopiëren</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Totale RAM</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Toon meldingsgeschiedenis</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Minder dan 1 minuut</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -208,16 +199,12 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="power_menu_actions_title">Acties</string>
     <string name="power_menu_screenshot_title">Schermafbeelding</string>
     <string name="power_menu_screenshot_summary">Lang indrukken voor gedeeltelijke schermafbeelding</string>
-    <string name="power_menu_onthego_title">On-The-Go modus</string>
     <string name="power_menu_advanced_title">Geavanceerde herstart menu</string>
     <string name="power_menu_airplane_title">Vliegtuigmodus</string>
     <string name="power_menu_torch_title">Zaklamp</string>
-    <string name="power_menu_settings_title">Instellingen</string>
     <string name="power_menu_lockdown_title">Vergrendeling</string>
     <string name="power_menu_lockdown_unavailable">Vergrendeling is uitgeschakeld omdat keyguard niet veilig is</string>
-    <string name="power_menu_soundpanel_title">Geluidspaneel</string>
     <string name="power_menu_users_title">Gebruikers</string>
-    <string name="power_menu_logout_title">Afmelden</string>
     <string name="power_menu_emergency_title">Noodgeval</string>
     <string name="power_menu_devicecontrols_title">Apparaatbediening</string>
     <!-- Advanced restart options -->
@@ -320,8 +307,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="status_bar_quick_qs_pulldown_always">Altijd snelle instellingen tonen bij omlaag trekken van statusbalk</string>
     <!-- Status bar - Smart pulldown-->
     <string name="smart_pulldown_title">Slim omlaagtrekken</string>
-    <string name="smart_pulldown_summary">Open snelle instellingen wanneer er %1$s meldingen zijn</string>
-    <string name="smart_pulldown_none_summary">Open snelle instellingen wanneer er geen meldingen zijn</string>
     <string name="smart_pulldown_off">Uit</string>
     <string name="smart_pulldown_none">geen meldingen</string>
     <string name="smart_pulldown_dismissable">geen wisbare</string>
@@ -331,9 +316,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="lockscreen_doubletap_sleep_summary">Dubbelklik op het vergrendelscherm om het apparaat in slaapstand te zetten</string>
     <!-- Theme overlay (e.g. AlphaVisuals) -->
     <!-- Refresh rate -->
-    <string name="default_refresh_rate_title_custom">Standaard vernieuwingsfrequentie</string>
-    <string name="peak_refresh_rate_title_custom">Piek vernieuwingsfrequentie</string>
-    <string name="low_power_refresh_rate_title_custom">Lage stroom verversingssnelheid</string>
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Klok &amp; datum</string>
     <string name="status_bar_clock_summary">Klok &amp; datum aanpassen</string>
@@ -379,8 +361,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="status_bar_battery_percent_hidden">Verborgen</string>
     <string name="status_bar_battery_percent_text_inside">In het pictogram</string>
     <string name="status_bar_battery_percent_text_next">Naast het pictogram</string>
-    <string name="status_bar_battery_percent_text_next_right">Naast het pictogram (rechts)</string>
-    <string name="status_bar_battery_percent_text_next_left">Naast het pictogram (links)</string>
     <string name="status_bar_battery_text_charging_title">Accupercentage tijdens opladen</string>
     <string name="status_bar_battery_text_charging_summary">Altijd accu percentage weergeven bij opladen</string>
     <!-- Status bar - Battery Bar -->
@@ -405,11 +385,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="qs_misc_category">Overige</string>
     <string name="qs_footer_category">Voettekst</string>
     <!-- QS clock -->
-    <string name="qs_clock_title">Klok</string>
-    <string name="qs_clock_summary">Klok in snelle instellingen laten zien</string>
     <!-- QS date -->
-    <string name="qs_date_title">Datum</string>
-    <string name="qs_date_summary">Datum in snelle instellingen laten zien</string>
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Volg statusbalk stijl</string>
     <!-- Battery estimate -->
@@ -418,7 +394,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Netwerkverkeer monitor</string>
     <string name="network_traffic_settings_summary">Huidige netwerkverkeer weergeven en aanpassen</string>
-    <string name="network_traffic_location_title">Locatie</string>
     <string name="network_traffic_location_disable">Uitgeschakeld</string>
     <string name="network_traffic_location_statusbar">Statusbalk</string>
     <string name="network_traffic_location_quick_statusbar">Snelle statusbalk</string>
@@ -433,22 +408,14 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="network_traffic_refresh_interval_summary">Interval waarna de snelheid opnieuw wordt gemeten</string>
     <string name="network_traffic_units_title">Netwerkverkeer eenheden</string>
     <string name="network_traffic_units_bits">Bits per seconde (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per seconde (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per seconde (Mb/s)</string>
     <string name="network_traffic_units_bytes">Bytes per seconde (B/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobytes per seconde (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabytes per seconde (MB/s)</string>
     <string name="network_traffic_hidearrow">Verberg pijlen</string>
     <string name="network_traffic_hidearrow_summary">Verberg de netwerk verkeer indicatie pijlen</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Voettekst waarschuwingen</string>
-    <string name="qs_footer_warnings_summary">Toon een waarschuwing onder aan het QS paneel wanneer je netwerk wordt gemonitord door externe apps of VPN</string>
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Navigatiebalk</string>
     <string name="navbar_visibility_summary">Navigatiebalk onderaan scherm weergeven</string>
     <string name="navbar_layout_category_title">Opmaak</string>
-    <string name="navbar_arrow_keys_title">Toon pijltjes toetsen tijdens het typen</string>
-    <string name="navbar_arrow_keys_summary">Links en rechts knoppen weergegeven terwijl u typt. Verbergt de IME wisselaar.</string>
     <string name="navbar_layout_title">Opmaak</string>
     <string name="navbar_layout_normal">Normaal</string>
     <string name="navbar_layout_compact">Compact</string>
@@ -497,7 +464,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="qs_show_brightness_slider_never">Nooit weergeven</string>
     <string name="qs_show_brightness_slider_expanded">Toon wanneer uitgebreid</string>
     <string name="qs_show_brightness_slider_always">Altijd tonen</string>
-    <string name="qs_show_brightness_slider_not_expanded">Toon wanneer niet uitgebreid</string>
     <string name="qs_brightness_slider_position_title">Positie</string>
     <string name="qs_brightness_slider_position_top">Bovenaan</string>
     <string name="qs_brightness_slider_position_bottom">Onderaan</string>
@@ -564,9 +530,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="notification_light_missed_call_title">Gemiste oproep</string>
     <string name="notification_light_voicemail_title">Voicemail</string>
     <string name="notification_light_screen_on">Licht op met scherm aan</string>
-    <string name="notification_light_zen_mode">Licht op in niet storen modus</string>
     <string name="notification_light_automagic">Kleuren automatisch kiezen</string>
-    <string name="notification_light_automagic_summary">Kleuren worden automatisch gekozen</string>
     <string name="notification_light_override">Alle apps negeren</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Licht instellingen</string>
@@ -630,7 +594,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="auto_brightness_one_shot_title">Eén opname automatische helderheid</string>
     <string name="auto_brightness_one_shot_summary">Helderheid aanpassing zal alleen plaatsvinden op het moment dat het scherm is ingeschakeld</string>
     <!-- Per-app volume -->
-    <string name="app_volume">App volume</string>
+    <string name="app_volume">App-volume</string>
     <string name="app_volume_title">Volume per app beheer</string>
     <string name="app_volume_summary">Volumeknop per app in volumevenster weergeven</string>
     <!-- Cloudflare Block Malware DNS Option -->
@@ -657,9 +621,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="alert_slider_notifications_title">Alert slider meldingen</string>
     <string name="alert_slider_notifications_summary">Melding weergeven bij wijzigen van alert slider positie</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Volledige scherm apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Dwing apps om notch ruimte te negeren</string>
-    <string name="display_cutout_force_fullscreen_no_apps">Geen apps</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Onbeperkte opslag foto\'s</string>
     <string name="use_photos_spoof_summary">Je apparaat spoofen als Pixel XL voor Google Photos app enkel voor onbeperkte opslag voor back-up</string>
@@ -672,18 +633,11 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="volume_panel_on_left_title">Volume paneel links</string>
     <string name="volume_dialog_haptic_feedback_title">Volumepaneel haptiek</string>
     <!-- UDFPS settings -->
-    <string name="udfps_settings_title">UDFPS aanpassing</string>
-    <string name="udfps_settings_summary">Vingerafdrukscanner aanpassen</string>
     <string name="udfps_icon_picker_title">UDFPS pictogram kiezer</string>
     <string name="udfps_icon_picker_summary">Kies je favoriete vingerafdruk pictogram</string>
     <string name="udfps_recog_animation_effect_title">UDFPS aangepaste animatie</string>
     <string name="udfps_recog_animation_effect_summary">Kies animatie effect</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Verwijder de bestaande gezichtsscan en maak een nieuwe scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Gezicht opnieuw scannen</string>
-    <string name="face_redo_confirm_btn">Opnieuw</string>
-    <string name="face_redo_warning_msg">Wil je de bestaande gezichtsscan verwijderen en een nieuwe maken?</string>
-    <string name="face_unlock_method_title">Gezichtsherkenning toestaan op vergrendelscherm</string>
     <string name="face_unlock_method_default">Wanneer het scherm is ingeschakeld</string>
     <string name="face_unlock_method_swipe">Bij vegen over het vergrendelscherm</string>
     <!-- Wifi/Bluetooth auto timeout -->
@@ -731,8 +685,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="wifi_hotspot_unblock_client_dialog_title">Apparaat deblokkeren</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Het apparaat \"<xliff:g id="device_name">%1$s</xliff:g>\" zal kunnen verbinden met deze hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Er zijn momenteel geen clients beschikbaar. Verbonden en geblokkeerde apparaten zullen hier worden weergegeven wanneer beschikbaar.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Er kunnen maximaal <xliff:g id="device_num">%1$d</xliff:g> apparaten verbonden zijn met deze hotspot</item>
         <item quantity="one">Er kan maximaal <xliff:g id="device_num">%1$d</xliff:g> apparaat verbonden zijn met deze hotspot</item>
@@ -768,11 +720,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="smart_pixels_shift_title">Inbrand-bescherming</string>
     <string name="smart_pixels_shift_summary">Voorkomt inbranden op OLED schermen door regelmatig pixels te verschuiven</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Gebruik zwart thema</string>
-    <string name="system_black_theme_summary">Zwarte achtergrondkleuren forceren</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Alles wissen notificatie knop</string>
-    <string name="notification_material_dismiss_summary">Vervang alles-wissen notificatietekst door zwevende materiaalstijl knop</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Terug-gebaar animatie</string>
     <string name="back_gesture_arrow_summary">Toon een geanimeerde pijl voor terug-gebaar</string>
@@ -780,9 +728,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="back_gesture_haptic_title">Terug-gebaar haptic</string>
     <string name="back_gesture_haptic_summary">Trillen bij het uitvoeren van een terug-gebaar</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Huidige batterijcapaciteit</string>
-    <string name="designed_battery_capacity">Ontworpen batterijcapaciteit</string>
-    <string name="battery_charge_cycles">Oplaadcycli voltooid</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Batterijtemperatuur</string>
     <!-- QS Transparency -->
@@ -851,7 +796,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="lockscreen_weather_location_summary">Toon huidige weerlocatie</string>
     <string name="lockscreen_weather_text_title">Huidige omstandigheden</string>
     <string name="lockscreen_weather_text_summary">Overzicht huidige weersomstandigheden weergeven</string>
-    <string name="lockscreen_weather_wind_info_title">Wind info</string>
+    <string name="lockscreen_weather_wind_info_title">Windinformatie</string>
     <string name="lockscreen_weather_wind_info_summary">Huidige windsnelheid en windrichting weergeven</string>
     <string name="lockscreen_weather_humidity_info_title">Info over luchtvochtigheid</string>
     <string name="lockscreen_weather_humidity_info_summary">Huidige luchtvochtigheid weergeven in percentage</string>
@@ -919,17 +864,13 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="floating_rotation_button_title">Zwevende rotatie knop</string>
     <string name="floating_rotation_button_summary">Toon een zwevende rotatie knop wanneer het apparaat wordt gedraaid</string>
     <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_title">Netflix-spoof</string>
     <string name="netflix_spoof_summary">Je apparaat spoofen als ander model voor Netflix</string>
     <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Google Play Integrity spoof</string>
+    <string name="pi_spoof_title">Google Play-integriteitspoof</string>
     <string name="pi_spoof_summary">Je apparaat spoofen als een ander model voor Google Play Integrity</string>
     <!-- Captive portal -->
-    <string name="captive_portal_title">Verbindingscontrole</string>
-    <string name="captive_portal_summary">Bepaal of het apparaat verbinding kan maken met het internet door contact op te nemen met Google. Ook gebruikt om captive portalen te detecteren.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Statistieken resetten?</string>
-    <string name="battery_stats_message">Batterijgegevens zullen verloren gaan</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi standaard</string>
     <string name="wifi_standard_icon_summary">Wifi-standaard naast WiFi-signaal weergeven</string>
@@ -948,7 +889,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="app_lock_timeout_summary">Tijdsduur waarna een ontgrendelde app op de achtergrond moet worden vergrendeld</string>
     <string name="app_lock_notifications_title">Meldingen wissen</string>
     <string name="app_lock_notifications_summary">Notificatie inhoud wordt verborgen en inklapt voor geselecteerde apps wanneer ze worden vergrendeld. Heads up meldingen worden automatisch uitgeschakeld.</string>
-    <string name="app_lock_notifications_disabled_summary">Bescherm eerst een applicatie</string>
     <string name="app_lock_biometrics_allowed_title">Biometrie inschakelen voor ontgrendelen</string>
     <string name="app_lock_footer_text">Bubbels worden automatisch afgewezen na time-out</string>
     <string name="enable_protection">Beveiliging inschakelen</string>
@@ -958,7 +898,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="doze_on_charge_title">Altijd laten zien bij opladen</string>
     <string name="doze_on_charge_summary">Info weergeven bij opladen van apparaat</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Koppel beltoon &amp; meldingsvolumes</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio informatie</string>
     <!-- QS Header -->
@@ -989,36 +928,26 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="always_on_display_schedule_mixed_sunset">Schakelt in vanaf zonsondergang tot een tijd</string>
     <string name="always_on_display_schedule_mixed_sunrise">Schakelt in vanaf een tijd tot zonsopgang</string>
     <!-- QS Bluetooth Dialog -->
-    <string name="qs_bt_show_dialog_title">Bluetooth tegel dialoog</string>
-    <string name="qs_bt_show_dialog_summary">Bluetooth dialoogvenster weergeven of bluetooth status in-/uitschakelen bij het aanraken van bluetooth tegel</string>
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Operator naam</string>
     <string name="lockscreen_show_carrier_summary">Operator naam in de statusbalk weergeven</string>
     <!-- Statusbar Padding -->
-    <string name="statusbar_extra_padding_category">Extra padding</string>
+    <string name="statusbar_extra_padding_category">Extra vulling</string>
     <string name="statusbar_extra_padding_start_title">Opvulling starten</string>
-    <string name="statusbar_extra_padding_top_title">Top padding</string>
+    <string name="statusbar_extra_padding_top_title">Bovenste vulling</string>
     <string name="statusbar_extra_padding_end_title">Einde padding</string>
     <!-- Wi-Fi MAC address randomization -->
     <string name="wifi_per_connection_random_mac_addr">Gebruik per-connectie willekeurige MAC (standaard)</string>
     <string name="wifi_per_network_random_mac_addr">Gebruik per-netwerk willekeurige MAC</string>
     <string name="wifi_device_mac_addr">Gebruik apparaat MAC</string>
     <!-- Ambient wake -->
-    <string name="doze_gesture_ambient_title">Toon Ambient</string>
-    <string name="doze_gesture_ambient_summary">Ambient Display weergeven in plaats van het scherm volledig aan te zetten</string>
-    <string name="gesture_wake_ambient">Toon Ambient</string>
-    <string name="gesture_wake">Volledig ontwaken</string>
     <!-- Sidebar -->
     <string name="sidebar_title">Zijbalk</string>
     <string name="sidebar_summary">Open snel apps in een zwevend venster</string>
     <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Smartspace</string>
+    <string name="lockscreen_smartspace_title">Slimme ruimte</string>
     <string name="lockscreen_smartspace_summary">Google Smartspace weergeven indien beschikbaar</string>
     <!-- Clipboard auto clear -->
-    <string name="clipboard_auto_clear_timeout_title">Klembord automatisch verwijderen time-out</string>
-    <string name="clipboard_auto_clear_title">Klembord automatisch wissen</string>
-    <string name="clipboard_auto_clear_summary">Automatisch het klembord op de geplande tijd wissen</string>
-    <string name="clipboard_auto_clear_enabled_title">Automatisch wissen van klembord gebruiken</string>
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Klembord uitschakelen</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Toenemend beltoon volume</string>
@@ -1028,8 +957,6 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="vpn_enforce_dns_title">Schakel uit voor VPN</string>
     <string name="vpn_enforce_dns_summary">Schakel de private DNS uit wanneer je verbonden bent met een VPN en herstel wanneer je de verbinding verbreekt</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Door modi gaan</string>
-    <string name="prevent_ringing_option_cycle_summary">Aan (door modi gaan)</string>
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Toestaan app te downgraden</string>
     <string name="app_downgrade_summary">Dit stelt je in staat om applicaties te downgraden. Dit kan leiden tot crashes en data corruptie.</string>
@@ -1043,10 +970,8 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="show_ime_space_title">Toon IME knop ruimte</string>
     <string name="show_ime_space_summary">Schakel de snel overschakelen invoermethode in om invoermethoden te switchen of bij het typen het on-screen toetsenbord van de functiebalk onderaan het scherm te verbergen</string>
     <!-- Notification / Power Menu Styles -->
-    <string name="notification_style_title">Meldingen stijl</string>
-    <string name="powermenu_style_title">Power menu stijl</string>
     <string name="custom_style_cyberpunk">Cyberpunk</string>
-    <string name="custom_style_duoline">Duoline</string>
+    <string name="custom_style_duoline">Duolijn</string>
     <string name="custom_style_fluid">Vloeistof (transparant)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Lagen</string>
@@ -1084,7 +1009,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="ls_media_art_title">Media albumhoes</string>
     <string name="ls_media_art_summary">Weergeven media hoezen indien beschikbaar</string>
     <!-- Lock screen media art on Ambient Display -->
-    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_title">Ambient media-omslagkunst</string>
     <string name="ambient_media_art_summary">Toon media cover art op Ambient display indien beschikbaar</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">Kaft-afbeeldingenfilter</string>
@@ -1102,15 +1027,15 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="ls_media_art_blur_level_title">Media art vervaging niveau</string>
     <string name="ls_media_art_blur_level_summary">Intensiteit vervagen wanneer vervaging filter wordt toegepast</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_settings_title">Pulse Visualizer</string>
+    <string name="pulse_settings_title">Puls-visualisatie</string>
     <string name="pulse_settings_summary">Audio grafische equalizer voor navigatiebalk en vergrendelscherm</string>
-    <string name="ambient_pulse_enabled_title">Ambient Pulse</string>
+    <string name="ambient_pulse_enabled_title">Omgevingspuls</string>
     <string name="ambient_pulse_enabled_summary">Toon visualizer op Ambient Display</string>
     <string name="pulse_rounded_bars_title">Afgeronde balken</string>
     <string name="pulse_rounded_bars_summary">Toon visualizer balken met afgeronde hoeken</string>
     <string name="pulse_color">Visualizer kleuren</string>
     <string name="pulse_color_lavalamp">Lavalamp</string>
-    <string name="pulse_color_album">Album art</string>
+    <string name="pulse_color_album">Albumhoezen</string>
     <string name="pulse_color_accent">Accent</string>
     <string name="pulse_bar_count_title">Aantal balken</string>
     <string name="pulse_bar_count_summary">Stel in hoeveel balken worden weergegeven in de visualizer</string>
@@ -1119,7 +1044,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="pulse_renderer_solid">Ononderbroken lijnen</string>
     <string name="pulse_renderer_fading">Vervagende blokken</string>
     <string name="pulse_renderer_neon_glow">Neon gloed</string>
-    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
+    <string name="pulse_renderer_retro_vu_meter">Retro VU-meter</string>
     <string name="pulse_renderer_minimal_wave">Minimale golf</string>
     <string name="pulse_renderer_sparkle">Fonkeling</string>
     <string name="pulse_renderer_matrix">Matrix</string>
@@ -1142,7 +1067,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Geen certificaat opgegeven. Je verbinding is niet privé.</string>
     <!-- Multi Audio Focus -->
-    <string name="multi_audio_focus_title">Multi audio focus</string>
+    <string name="multi_audio_focus_title">Multi-audiofocus</string>
     <string name="multi_audio_focus_summary">Sta meerdere apps toe om audio tegelijkertijd af te spelen</string>
     <!-- Locale Picker -->
     <string name="clear_search_query_description">Wachtrij wissen</string>
@@ -1163,4 +1088,524 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="cycle_type_weekly_sub">Dag van elke week:\n1 = maandag</string>
     <string name="cycle_type_daily_title">Uur gebruikscyclus reset</string>
     <string name="cycle_type_daily_sub">Uur van elke dag:</string>
+
+    <string name="arrow_right" translatable="false">→</string>
+
+    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+
+    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
+
+    <string name="channel_light_settings_id" translatable="false">light_settings</string>
+
+    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
+
+    <string name="dlg_ok" translatable="false">@android:string/ok</string>
+
+    <string name="hex" translatable="false">Hex:</string>
+
+    <string name="hex_hint" translatable="false">#ff000000</string>
+
+    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
+
+    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
+
+    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
+
+    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
+
+    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
+
+    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
+
+    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
+
+    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
+
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+
+    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
+
+    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
+
+    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
+
+    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
+
+    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
+
+    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
+
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
+
+    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
+
+    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
+
+    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
+
+    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
+
+    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
+
+    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
+
+    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+    <string name="unit_hz" translatable="false">hz</string>
+
+    <string name="unit_pixels" translatable="false">dp</string>
+    <!-- Synced from values (shared batch: missing in many locales) -->
+
+    <string name="about_title">Over</string>
+
+    <string name="statusbar_summary">Pictogrammen, klok, batterij, netwerkverkeer</string>
+
+    <string name="quicksettings_summary">Tegels, lay-out, schuifregelaar voor helderheid</string>
+
+    <string name="button_summary">Hardwareknoppen en aan/uit-menu</string>
+
+    <string name="lockscreen_summary">Dommelen, polsslag, UDFPS, weer</string>
+
+    <string name="notifications_summary">Waarschuwingen, waarschuwingen, lichten</string>
+
+    <string name="sound_summary">Volumepaneel, trillingen</string>
+
+    <string name="misc_summary">Game Space, spoofing, overige.</string>
+
+    <string name="about_summary">Over AlphaDroid</string>
+
+    <string name="add">Toevoegen</string>
+
+    <string name="advanced">Geavanceerd</string>
+
+    <string name="back">Rug</string>
+
+    <string name="disabled">Gehandicapt</string>
+
+    <string name="enabled">Ingeschakeld</string>
+
+    <string name="finish">Finish</string>
+
+    <string name="loading">Laden\\u2026</string>
+
+    <string name="name">Naam</string>
+
+    <string name="next">Volgende</string>
+
+    <string name="no">Nee</string>
+
+    <string name="off">Uit</string>
+
+    <string name="on">Op</string>
+
+    <string name="search">Zoekopdracht</string>
+
+    <string name="settings">Instellingen</string>
+
+    <string name="yes">Ja</string>
+
+    <string name="apply">Toepassen</string>
+
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="custom_seekbar_value">Waarde: %s</string>
+
+    <string name="custom_seekbar_default_value">standaard</string>
+    <string name="custom_seekbar_default_value_to_set">Standaardwaarde: %s
+Lang indrukken om in te stellen</string>
+    <string name="custom_seekbar_default_value_is_set">Standaardwaarde is ingesteld</string>
+
+    <string name="qs_blur_intensity_title">QS-achtergrondonscherpte</string>
+
+    <string name="qs_blur_intensity_summary">Vervagingsintensiteit achter het paneel Snelle instellingen</string>
+
+    <string name="qs_blur_disabled_in_settings">(schakel Venstervervaging in in Weergave-instellingen)</string>
+
+    <string name="lockscreen_custom_clock_style_title">Aangepaste klokstijl</string>
+
+    <string name="lockscreen_custom_clock_style_summary">Configureer de klokstijlen van het vergrendelscherm</string>
+
+    <string name="lockscreen_custom_clock_style_highlight_text">Veeg naar links of rechts om een ​​voorbeeld van de klokstijlen te bekijken</string>
+
+    <string name="lockscreen_custom_clock_style_info">Aangepaste klokstijl vervangt AOSP-klokstijlen door aangepaste klokken. Smartspace wordt uitgeschakeld. U kunt in plaats daarvan aangepast weer inschakelen en gebruiken.</string>
+
+    <string name="lockscreen_custom_clock_opacity_title">Aangepaste klokdekking</string>
+
+    <string name="lockscreen_custom_clock_opacity_summary">Pas de transparantie van de aangepaste klokstijl aan</string>
+
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Aangepaste klokhoogte</string>
+
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Pas de hoogte van de aangepaste klokstijl aan</string>
+
+    <string name="lockscreen_custom_clock_color_mode_title">Aangepaste klokkleurmodus</string>
+
+    <string name="qs_panel_style_title">QS Panel-stijl</string>
+
+    <string name="qs_panel_style_card">Kaartstijl</string>
+
+    <string name="qs_panel_style_classic">Klassieke stijl</string>
+
+    <string name="shape_circle">Cirkel</string>
+
+    <string name="shape_square">Vierkant</string>
+
+    <string name="shape_arch">Boog</string>
+
+    <string name="shape_ios_rounded_square">Ronde iOS-vorm</string>
+
+    <string name="shape_hexagon">Zeshoek</string>
+
+    <string name="shape_pebble">Kiezelsteen</string>
+
+    <string name="shape_rice_balls">Rijstballetjes</string>
+
+    <string name="shape_rounded_rect">Afgeronde rechthoek</string>
+
+    <string name="shape_squircle">Squircle</string>
+
+    <string name="shape_tapered_rect">Taps toelopende rechthoek</string>
+
+    <string name="shape_teardrop">Traan</string>
+
+    <string name="shape_rounded_hexagon">Afgeronde zeshoek</string>
+
+    <string name="dynamic_bar">Dynamische balk</string>
+
+    <string name="dynamic_bar_summary">Slimme statusbalkchip voor actieve gebeurtenissen zoals opnemen, media, timers en meer</string>
+
+    <string name="dynamic_bar_enable">Schakel dynamische balk in</string>
+
+    <string name="dynamic_bar_enable_summary">Toon een dynamische chip op de statusbalk voor live-evenementen</string>
+
+    <string name="dynamic_bar_keyguard_enable">Dynamische balk op vergrendelscherm</string>
+
+    <string name="dynamic_bar_keyguard_enable_summary">Vervangt de indicator op het vergrendelscherm door een chip van de dynamische balk, met bedieningselementen en snelle acties</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip">Batterij-informatie op vergrendelscherm</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip_disabled">Nooit laten zien</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip_charging">Alleen tijdens het opladen</string>
+
+    <string name="dynamic_bar_keyguard_battery_chip_always">Altijd laten zien</string>
+
+    <string name="dynamic_bar_events">Evenementen</string>
+
+    <string name="dynamic_bar_event_recording">Schermopname</string>
+
+    <string name="dynamic_bar_event_recording_summary">Actieve schermopname-indicator</string>
+
+    <string name="dynamic_bar_event_privacy">Privacy-indicatoren</string>
+
+    <string name="dynamic_bar_event_privacy_summary">Toegangswaarschuwingen voor camera en microfoon</string>
+
+    <string name="dynamic_bar_event_audio_recording">Audio-opname</string>
+
+    <string name="dynamic_bar_event_audio_recording_summary">Spraakrecorder en audio-opname</string>
+
+    <string name="dynamic_bar_event_media">Media afspelen</string>
+
+    <string name="dynamic_bar_event_media_summary">Speelt nu muziek en audiobediening af</string>
+
+    <string name="dynamic_bar_event_notification">Meldingen</string>
+
+    <string name="dynamic_bar_event_notification_summary">Inkomende meldingswaarschuwingen</string>
+
+    <string name="dynamic_bar_compact_notifications">Compacte meldingen</string>
+
+    <string name="dynamic_bar_compact_notifications_summary">Toon meldingen eerst als een kleine chip, tik om uit te vouwen</string>
+
+    <string name="dynamic_bar_event_timer">Timer</string>
+
+    <string name="dynamic_bar_event_timer_summary">Afteltimer van klok-app</string>
+
+    <string name="dynamic_bar_event_stopwatch">Stopwatch</string>
+
+    <string name="dynamic_bar_event_stopwatch_summary">Stopwatch uitvoeren vanuit de klok-app</string>
+
+    <string name="dynamic_bar_event_alarm">Alarm</string>
+
+    <string name="dynamic_bar_event_alarm_summary">Bellend en aankomend alarm</string>
+
+    <string name="dynamic_bar_event_charging">Het opladen is gestart</string>
+
+    <string name="dynamic_bar_event_charging_summary">Batterijniveau wanneer aangesloten</string>
+
+    <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
+
+    <string name="dynamic_bar_event_bluetooth_summary">Verbindingsstatus van apparaat</string>
+
+    <string name="dynamic_bar_event_hotspot">Hotspot</string>
+
+    <string name="dynamic_bar_event_hotspot_summary">Actieve indicator mobiele hotspot</string>
+
+    <string name="dynamic_bar_event_ringer">Belmodus</string>
+
+    <string name="dynamic_bar_event_ringer_summary">Wijzigingen in de stille, tril- en belmodus</string>
+
+    <string name="dynamic_bar_event_vpn">VPN</string>
+
+    <string name="dynamic_bar_event_vpn_summary">Actieve VPN-verbindingsindicator</string>
+
+    <string name="dynamic_bar_event_clipboard">Klembord</string>
+
+    <string name="dynamic_bar_event_clipboard_summary">Gekopieerde tekst en afbeeldingsvoorbeeld</string>
+
+    <string name="dynamic_bar_event_torch">Zaklamp</string>
+
+    <string name="dynamic_bar_event_torch_summary">Zaklamp schakelen en helderheid</string>
+
+    <string name="dynamic_bar_event_casting">Casten</string>
+
+    <string name="dynamic_bar_event_casting_summary">Schermcast- en mediacaststatus</string>
+
+    <string name="dynamic_bar_event_ongoing">Doorlopende activiteiten</string>
+
+    <string name="dynamic_bar_event_ongoing_summary">Navigatie, leveringen en andere live-activiteiten</string>
+
+    <string name="dynamic_bar_event_sports">Sport</string>
+
+    <string name="dynamic_bar_event_sports_summary">Live scores en spelupdates</string>
+
+    <string name="dynamic_bar_event_app_switch">Recente app-switch</string>
+
+    <string name="dynamic_bar_event_app_switch_summary">Toon chip bij het schakelen tussen recente apps</string>
+
+    <string name="dynamic_bar_event_biometric">Biometrische ontgrendeling</string>
+
+    <string name="dynamic_bar_event_biometric_summary">Toon chip bij vingerafdruk of gezichtsontgrendeling</string>
+
+    <string name="dynamic_bar_guide_title">Hoe dynamische balk te gebruiken</string>
+
+    <string name="dynamic_bar_guide_chip">Gebeurtenissen verschijnen in de statusbalk en tonen actieve gebeurtenissen zoals opnemen, afspelen van media en timers</string>
+
+    <string name="dynamic_bar_guide_swipe">Als er meerdere gebeurtenissen actief zijn, veegt u naar links of rechts op de chip om er doorheen te bladeren</string>
+
+    <string name="dynamic_bar_guide_expand">Tik op een chip om deze uit te breiden tot een gedetailleerde kaart met bedieningselementen en aanvullende informatie</string>
+
+    <string name="dynamic_bar_guide_dismiss">Veeg de uitgevouwen kaart weg om deze te sluiten. Het evenement gaat door op de achtergrond</string>
+
+    <string name="dynamic_bar_guide_keyguard">Dynamische staafchip verschijnt ook onderaan het vergrendelscherm met afspeelknoppen en snelle acties</string>
+
+    <string name="dynamic_bar_guide_chip_title">Chip uiterlijk</string>
+
+    <string name="dynamic_bar_guide_swipe_title">Veeg tussen chips</string>
+
+    <string name="dynamic_bar_guide_expand_title">Tik om uit te vouwen</string>
+
+    <string name="dynamic_bar_guide_dismiss_title">Veeg om te sluiten</string>
+
+    <string name="dynamic_bar_guide_keyguard_title">Vergrendelschermchip</string>
+
+    <string name="dynamic_bar_footer_title">Over dynamische balk</string>
+
+    <string name="dynamic_bar_footer_body">De dynamische balk maakt van uw statusbalk een interactief infocentrum. Statuschips verschijnen en bewegen mee met systeemgebeurtenissen, zodat u in één oogopslag ziet wat belangrijk is zonder uw workflow te onderbreken.\\n\\nElk type gebeurtenis heeft een eigen accentkleur en een uitklapbare kaart met snelle acties.</string>
+
+    <string name="lockscreen_clock_category">Klok</string>
+
+    <string name="misc_spoofing_category">Spoofing</string>
+
+    <string name="misc_system_category">Systeem</string>
+
+    <string name="misc_animations_category">Animaties</string>
+
+    <string name="misc_gestures_category">Gebaren</string>
+
+    <string name="changelog_title">Huidig ​​wijzigingslogboek</string>
+
+    <string name="changelog_summary">Bekijk wijzigingen in het geïnstalleerde ROM</string>
+
+    <string name="share_title">Deel AlphaDroid</string>
+
+    <string name="share_summary">Laat anderen weten over AlphaDroid</string>
+
+    <string name="source_title">GitHub</string>
+
+    <string name="source_summary">Wij houden van open source, kijk eens bij ons</string>
+
+    <string name="telegram_title">AlphaDroid-gemeenschap</string>
+
+    <string name="telegram_summary">We zijn op telegram. Sluit je bij ons aan!</string>
+
+    <string name="telegram_channel_title">Updatet kanaal</string>
+
+    <string name="telegram_channel_summary">Ontvang meldingen over nieuwe builds op Telegram</string>
+
+    <string name="website_title">Officiële website</string>
+
+    <string name="website_summary">Bezoek onze officiële website</string>
+
+    <string name="translate_title">Vertalingen</string>
+
+    <string name="translate_summary">Hulp bij lokalisatie van ROM in uw taal!</string>
+
+    <string name="donate_title">Steun ons</string>
+
+    <string name="donate_summary">Doneer om verdere ontwikkeling te ondersteunen</string>
+
+    <string name="buildserversponsor_summary">AlphaDroid bouwserverprovider. Tik om hun kanaal te bezoeken.</string>
+
+    <string name="alpha_update_title">Updates</string>
+
+    <string name="alpha_update_summary">Controleer en download de nieuwste update</string>
+
+    <string name="selinux_status">SELinux-status</string>
+
+    <string name="selinux_status_disabled">Gehandicapt</string>
+
+    <string name="selinux_status_permissive">Toegeeflijk</string>
+
+    <string name="selinux_status_enforcing">Handhaving</string>
+
+    <string name="category_android_info">Android</string>
+
+    <string name="category_alpha_info">AlphaDroid</string>
+
+    <string name="category_device_info">Apparaat</string>
+
+    <string name="build_status_title">Bouwstatus</string>
+
+    <string name="build_status_summary">Onofficieel</string>
+
+    <string name="build_status_official">Officieel</string>
+
+    <string name="build_status_unofficial">Onofficieel</string>
+
+    <string name="alpha_build_version">AlphaDroid-versie</string>
+
+    <string name="alpha_build_date">Datum van bouw</string>
+
+    <string name="maintainer_title">Onderhouder</string>
+
+    <string name="maintainer_summary">Onderhouder gezocht...</string>
+
+    <string name="storage_card_title">Opslag</string>
+
+    <string name="storage_card_info">Gebruikt/totaal</string>
+
+    <string name="about_device_name_title">Apparaat</string>
+
+    <string name="about_device_nearby">De apparaatnaam kan en zal worden gezien door de apparaten in de buurt.</string>
+
+    <string name="quickswitch_launcher_title">AlphaDroid-opstartprogramma</string>
+
+    <string name="quickswitch_launcher3">Launcher3</string>
+
+    <string name="quickswitch_nexuslauncher">Nexus-launcher</string>
+
+    <string name="quickswitch_lawnchair">Lawnchair</string>
+
+    <string name="display_engine_category">Weergave-engine</string>
+
+    <string name="display_engine_mode_title">Reality-weergave-engine</string>
+
+    <string name="display_engine_mode_xreality">X-Reality-engine</string>
+
+    <string name="display_engine_mode_vivid">Levendige weergave</string>
+
+    <string name="display_engine_mode_triluminous">Trilumineuze weergave</string>
+
+    <string name="display_engine_mode_footer_text">De Display Engine is geïnspireerd door de Bravia/X-Reality-engine van Sony en beschikt over de Vivid-modus voor verbeterde helderheid en kleurverzadiging, en de X-Reality-modus voor verbeterde details en kleurnauwkeurigheid.</string>
+
+    <string name="ignore_window_secure_title">Negeer de vlag voor beveiligd venster</string>
+
+    <string name="ignore_window_secure_summary">Verwijder de beveiligingsbeperkingen voor screenshot en schermopname. Dit kan in sommige gevallen handig zijn, maar kan leiden tot privacylekken.</string>
+
+    <string name="hide_screen_capture_status_title">Status van schermopname verbergen</string>
+
+    <string name="hide_screen_capture_status_summary">Verberg de schermopnamestatus voor apps</string>
+
+    <string name="hide_developer_status_title">Ontwikkelaarsstatus verbergen</string>
+
+    <string name="hide_developer_status_summary">Verberg de ontwikkelaarsstatus voor apps</string>
+
+    <string name="search_apps">Zoek apps</string>
+
+    <string name="max_visible_notification_icons_title">Meldingspictogrammen</string>
+
+    <string name="max_visible_notification_icons_summary">Max. meldingspictogrammen zichtbaar op de statusbalk</string>
+
+    <string name="cutout_progress_title">Knipsel voortgangsring</string>
+
+    <string name="cutout_progress_summary">Toon de voortgangsring rond het perforatiegat</string>
+
+    <string name="cutout_progress_cat_features">Functies</string>
+
+    <string name="cutout_progress_cat_appearance">Verschijning</string>
+
+    <string name="cutout_progress_cat_geometry">Ringgeometrie</string>
+
+    <string name="cutout_progress_cat_island">Uitgebreide modus</string>
+
+    <string name="cutout_progress_download_enabled_title">Schakel de downloadvoortgangsring in</string>
+
+    <string name="cutout_progress_charging_ring_title">Schakel de voortgangsring voor opladen in</string>
+
+    <string name="cutout_progress_ring_color_mode_title">Ringkleurmodus</string>
+
+    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
+
+    <string name="cutout_progress_ring_color_mode_rainbow">Regenboog</string>
+
+    <string name="cutout_progress_ring_color_mode_custom">Aangepast</string>
+
+    <string name="cutout_progress_ring_color_title">Aangepaste ringkleur</string>
+
+    <string name="cutout_progress_ring_opacity_title">Ringdekking</string>
+
+    <string name="cutout_progress_stroke_width_title">Ringdikte</string>
+
+    <string name="cutout_progress_bg_ring_enabled_title">Achtergrondtrack weergeven</string>
+
+    <string name="cutout_progress_charging_pulse_title">Animatie van oplaadpuls</string>
+
+    <string name="cutout_progress_charging_pulse_summary">Animeer een herhalende puls vanuit het midden naar buiten tijdens het opladen</string>
+
+    <string name="cutout_progress_ring_gap_title">Ringopening (uitsparing)</string>
+
+    <string name="cutout_progress_path_mode_title">Volg de vorm van de uitsparing</string>
+
+    <string name="cutout_progress_path_mode_summary">Gebruik de oorspronkelijke beeldverhouding van de uitsnede in plaats van de ring te normaliseren tot een cirkel</string>
+
+    <string name="cutout_progress_scale_x_title">Horizontale schaal</string>
+
+    <string name="cutout_progress_scale_y_title">Verticale schaal</string>
+
+    <string name="cutout_progress_offset_x_title">Horizontale offset</string>
+
+    <string name="cutout_progress_offset_y_title">Verticale offset</string>
+
+    <string name="cutout_progress_island_compact_title">Compacte indeling</string>
+
+    <string name="cutout_progress_island_compact_summary">Wikkel rond de camera-uitsparing</string>
+
+    <string name="cutout_progress_island_position_title">Compacte uitlijning van de lay-out</string>
+
+    <string name="cutout_island_pos_center">Midden split</string>
+
+    <string name="cutout_island_pos_left">Links</string>
+
+    <string name="cutout_island_pos_right">Rechts</string>
+
+    <string name="cutout_island_bg_opacity_title">Achtergronddekking</string>
+
+    <string name="cutout_island_timeout_title">Time-out voor automatisch samenvouwen</string>
+
+    <string name="hide_applist_title">Applicatielijst verbergen</string>
+
+    <string name="hide_applist_summary">Voorkom dat apps geselecteerde apps uit de appslijst controleren</string>
+
+    <string name="menu_show_overlay">Overlay weergeven</string>
+
+    <string name="menu_hide_overlay">Overlay verbergen</string>
+
+    <string name="volume_slider_shape_title">Vorm van volumeschuifregelaar</string>
 </resources>
