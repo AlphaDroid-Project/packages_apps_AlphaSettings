@@ -70,7 +70,6 @@
     <string name="wallpaper_color">Culoarea imaginii de fundal</string>
     <string name="yes">Da</string>
     <string name="apply">Aplicați</string>
-    <!-- App details: open play store link if app is user installed -->
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valoare: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">implicit</string>
@@ -79,7 +78,6 @@
     <string name="unit_milliseconds">milisecunde</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copiat în clipboard</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Mai puțin de 1 minut</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -261,8 +259,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">Dublu tap pentru sleep</string>
     <string name="lockscreen_doubletap_sleep_summary">Atingeți de două ori ecranul de blocare pentru a adormi dispozitivul</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">Ceas &amp; dată</string>
     <string name="status_bar_clock_summary">Personalizează ceasul &amp; data</string>
@@ -331,8 +327,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Diverse</string>
     <string name="qs_footer_category">Subsol</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Urmează stilul barei de stare</string>
     <!-- Battery estimate -->
@@ -358,7 +352,6 @@
     <string name="network_traffic_units_bytes">Octeţi pe secundă (B/s)</string>
     <string name="network_traffic_hidearrow">Ascunde săgeţile</string>
     <string name="network_traffic_hidearrow_summary">Ascunde săgeţile în indicatorul de trafic</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">Bară de navigare</string>
     <string name="navbar_visibility_summary">Afișează bara de navigare în partea de jos a ecranului</string>
@@ -560,9 +553,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Notificări pentru comutatorul de alertă</string>
+    <string name="alert_slider_notifications_summary">Afișează o notificare la schimbarea poziției comutatorului de alertă</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Stocare nelimitată de fotografii</string>
     <string name="use_photos_spoof_summary">Setare a dispozitivului ca Pixel XL pentru aplicația Google Photos doar pentru a oferi stocare nelimitată pentru backup</string>
@@ -662,15 +655,12 @@
     <string name="smart_pixels_percent">Procent de pixeli pentru dezactivare</string>
     <string name="smart_pixels_shift_title">Protecție burn-in ecran</string>
     <string name="smart_pixels_shift_summary">Împiedică deteriorarea pixelilor pe dispozitivele OLED prin deplasarea acestora la intervale frecvente</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animație gest înapoi</string>
     <string name="back_gesture_arrow_summary">Arată o săgeată animată pentru gestul înapoi</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Gest haptic înapoi</string>
     <string name="back_gesture_haptic_summary">Vibrează când efectuezi un gest înapoi</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatură baterie</string>
     <!-- QS Transparency -->
@@ -778,8 +768,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Falsifică integritate Google Play</string>
     <string name="pi_spoof_summary">Falsifică indentitatea telefonului cu un alt model pentru a putea trece de verificare integritate Google Play</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standard WiFi</string>
     <string name="wifi_standard_icon_summary">Afișează standardul WiFi lângă semnalul WiFi</string>
@@ -807,7 +795,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Se afișează mereu la încărcare</string>
     <string name="doze_on_charge_summary">Afișează informații când dispozitivul se încarcă</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">Informații radio</string>
     <!-- QS Header -->
@@ -837,7 +824,6 @@
     <string name="always_on_display_schedule_sunrise">Rasarit</string>
     <string name="always_on_display_schedule_mixed_sunset">Porneşte de la apus până la un timp</string>
     <string name="always_on_display_schedule_mixed_sunrise">Porneşte de la o perioadă până la răsărit</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">Numele operatorului</string>
     <string name="lockscreen_show_carrier_summary">Afișați numele operatorului în bara de stare</string>
@@ -850,7 +836,6 @@
     <string name="wifi_per_connection_random_mac_addr">Folosește MAC randomizat pentru fiecare conexiune (implicit)</string>
     <string name="wifi_per_network_random_mac_addr">Utilizare MAC randomizat pe rețea</string>
     <string name="wifi_device_mac_addr">Utilizaţi MAC dispozitiv</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">Bară laterală</string>
     <string name="sidebar_summary">Deschideți rapid aplicațiile într-o fereastră plutitoare</string>
@@ -866,7 +851,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">Dezactivează pentru VPN</string>
     <string name="vpn_enforce_dns_summary">Dezactivează DNS privat când este conectat la un VPN și restaurează la deconectare</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Permiteți retrogradarea aplicației</string>
     <string name="app_downgrade_summary">Acest lucru vă permite să retrogradați aplicațiile. Rețineți că acest lucru poate duce la erori și corupție a datelor.</string>
@@ -990,7 +974,10 @@
     <string name="billing_cycle_type_weekly">Săptămânal</string>
     <string name="billing_cycle_type_daily">Zilnic</string>
     <string name="billing_cycle_less_than_one_hour_left">Mai puțin de 1 oră rămasă</string>
-    <string name="billing_cycle_hours_left">{număr, plural,\n        =1 {# oră rămasă}\n        alte {# ore rămase}\n        }</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
     <string name="cycle_type_weekly_title">Ziua de resetare a ciclului de utilizare</string>
     <string name="cycle_type_weekly_sub">Ziua fiecărei săptămâni:\\n1 = luni</string>
     <string name="cycle_type_daily_title">Ora de resetare a ciclului de utilizare</string>
@@ -1088,13 +1075,12 @@
     <string name="dynamic_bar_guide_keyguard_title">Cip de blocare a ecranului</string>
     <string name="dynamic_bar_footer_title">Despre Dynamic Bar</string>
     <string name="dynamic_bar_footer_body">Dynamic Bar transformă bara de stare într-un hub interactiv. Cipurile de stare apar și se animă pe baza evenimentelor din sistem, oferindu-vă informații dintr-o privire fără a vă întrerupe fluxul de lucru.\\n\\nFiecare tip de eveniment are propria culoare de accent și card extins cu acțiuni rapide.</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Setări alfa</string>
     <string name="alpha_settings_summary">Vor fi bunătăți!</string>
     <string name="reset_settings_title">Resetare setări</string>
-    <string name="reset_settings_message">Aceasta va reseta majoritatea setărilor Alpha la valorile implicite pentru utilizatorul curent. Doriți să continuați?</string>
+    <string name="reset_settings_message">Aceasta va reseta cele mai multe setări alpha la valorile lor implicite pentru utilizatorul curent. Doriți să continuați?</string>
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">Ceas</string>
     <!-- Misc categories -->
@@ -1110,7 +1096,7 @@
     <!-- Share AlphaDroid -->
     <string name="share_title">Distribuie AlphaDroid</string>
     <string name="share_summary">Informați-i pe alții despre AlphaDroid</string>
-    <string name="share_message">Verifică dacă #AlphaDroid este disponibil pentru dispozitivul tău: https://t.me/alphadroid_releases/</string>
+    <string name="share_message">Verifică dacă #AlphaDroid este disponibil pentru dispozitivul tău @ https://alpha.net/</string>
     <string name="share_chooser_title">Distribuie AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
@@ -1163,7 +1149,6 @@
     <string name="quickswitch_launcher3">Launcher3</string>
     <string name="quickswitch_nexuslauncher">Lansatorul Nexus</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
     <string name="display_engine_category">Motor de afișare</string>
     <string name="display_engine_mode_title">Reality Display Engine</string>
@@ -1184,7 +1169,6 @@
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Pictograme notificare</string>
     <string name="max_visible_notification_icons_summary">Nr. maxim de pictograme de notificare vizibile pe bara de stare</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
     <string name="cutout_progress_title">Inel de progres decupat</string>
     <string name="cutout_progress_summary">Afișați inelul de progres în jurul gaurii de perforare</string>
@@ -1231,88 +1215,4 @@
     <string name="menu_hide_overlay">Ascunde suprapunerea</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Forma glisorului de volum</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">Notificări pentru comutatorul de alertă</string>
-
-    <string name="alert_slider_notifications_summary">Afișează o notificare la schimbarea poziției comutatorului de alertă</string>
-
 </resources>
