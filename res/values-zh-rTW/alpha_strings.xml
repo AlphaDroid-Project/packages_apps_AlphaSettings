@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Personalization Categories -->
-    <string name="about_title">關於</string>
+    <string name="about_title">About</string>
     <string name="button_title">按鍵</string>
     <string name="lockscreen_title">鎖定螢幕</string>
     <string name="misc_title">雜項</string>
@@ -27,22 +27,22 @@
     <string name="display_title">顯示</string>
     <string name="ui_title">介面</string>
     <string name="ui_summary">主題、樣式、動畫</string>
-    <string name="statusbar_summary">圖示、時鐘、電池、網路流量</string>
-    <string name="quicksettings_summary">磁磚、佈局、亮度滑塊</string>
-    <string name="button_summary">硬體按鈕和電源選單</string>
-    <string name="lockscreen_summary">瞌睡、脈搏、UDFPS、天氣</string>
-    <string name="notifications_summary">警報、抬頭、燈光</string>
-    <string name="sound_summary">音量面板、震動</string>
-    <string name="misc_summary">遊戲空間、欺騙、雜項。</string>
-    <string name="about_summary">關於阿爾法機器人</string>
+    <string name="statusbar_summary">Icons, clock, battery, network traffic</string>
+    <string name="quicksettings_summary">Tiles, layout, brightness slider</string>
+    <string name="button_summary">Hardware buttons and power menu</string>
+    <string name="lockscreen_summary">Doze, pulse, UDFPS, weather</string>
+    <string name="notifications_summary">Alerts, heads up, lights</string>
+    <string name="sound_summary">Volume panel, vibration</string>
+    <string name="misc_summary">Game Space, spoofing, misc.</string>
+    <string name="about_summary">About AlphaDroid</string>
     <!-- Color Picker -->
     <string name="press_color_to_apply">輕觸下方顏色以套用</string>
     <string name="set">設定</string>
     <!-- General strings -->
     <string name="accent_color">主題顏色</string>
-    <string name="add">添加</string>
+    <string name="add">Add</string>
     <string name="advanced">進階選項</string>
-    <string name="back">後退</string>
+    <string name="back">Back</string>
     <string name="caution">注意</string>
     <string name="choose_app">選擇應用程式</string>
     <string name="custom_color">自訂顏色</string>
@@ -50,17 +50,17 @@
     <string name="delete">刪除</string>
     <string name="delete_message">移除所選項目？</string>
     <string name="disable">停用</string>
-    <string name="disabled">殘障人士</string>
+    <string name="disabled">Disabled</string>
     <string name="enable">啟用</string>
-    <string name="enabled">啟用</string>
-    <string name="finish">結束</string>
-    <string name="loading">正在加載...</string>
-    <string name="name">姓名</string>
+    <string name="enabled">Enabled</string>
+    <string name="finish">Finish</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="name">Name</string>
     <string name="never">從不</string>
-    <string name="next">下一個</string>
-    <string name="no">不</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
     <string name="notification_color">通知指示燈顏色</string>
-    <string name="rainbow_color">彩虹色</string>
+    <string name="rainbow_color">Rainbow color</string>
     <string name="off">關閉</string>
     <string name="on">開啟</string>
     <string name="reset">重設</string>
@@ -68,9 +68,8 @@
     <string name="search">搜尋</string>
     <string name="settings">設定</string>
     <string name="wallpaper_color">桌布顏色</string>
-    <string name="yes">是的</string>
-    <string name="apply">申請</string>
-    <!-- App details: open play store link if app is user installed -->
+    <string name="yes">Yes</string>
+    <string name="apply">Apply</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">值：<xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">使用預設值</string>
@@ -79,7 +78,6 @@
     <string name="unit_milliseconds">毫秒</string>
     <!-- Clipboard -->
     <string name="copied_to_clipboard">已複製到剪貼簿</string>
-    <!-- Notification log -->
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">少於一分鐘</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -139,7 +137,7 @@
     <string name="volbtn_music_controls_title">播放控制</string>
     <string name="volbtn_music_controls_summary">螢幕關閉時，長按音量鍵切換曲目</string>
     <string name="volbtn_cursor_control_title">鍵盤游標控制</string>
-    <string name="volbtn_cursor_control_off">殘障人士</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">按音量上／下鍵來左／右移動游標</string>
     <string name="volbtn_cursor_control_on_reverse">按音量上／下鍵來右／左移動游標</string>
     <string name="power_end_call_title">結束通話</string>
@@ -162,9 +160,9 @@
     <string name="keyboard_backlight_seekbar_title">鍵盤亮度</string>
     <string name="backlight_timeout_title">背光逾時</string>
     <string name="backlight_timeout_unlimited">永不關閉</string>
-    <string name="backlight_summary_disabled">殘障人士</string>
+    <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">保持背光燈開啟 <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">啟用</string>
+    <string name="backlight_summary_enabled">Enabled</string>
     <plurals name="backlight_timeout_time">
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 秒</item>
     </plurals>
@@ -216,16 +214,16 @@
     <string name="edge_light_pulse_count_summary">燈條邊緣的脈衝數</string>
     <string name="edge_light_stroke_width_title">線條粗細</string>
     <string name="edge_light_stroke_width_summary">設定燈條邊緣的厚度</string>
-    <string name="edge_light_style_title">渲染風格</string>
-    <string name="edge_light_style_default">預設（左/右）</string>
-    <string name="edge_light_style_frame">框架（所有側面）</string>
-    <string name="edge_light_animation_effect_title">動畫效果</string>
-    <string name="edge_light_animation_effect_none">標準</string>
-    <string name="edge_light_animation_effect_breathing">呼吸</string>
-    <string name="edge_light_animation_effect_wave">海浪</string>
-    <string name="edge_light_animation_effect_sparkle">火花</string>
-    <string name="edge_light_animation_effect_chase">追趕</string>
-    <string name="edge_light_animation_effect_comet">彗星</string>
+    <string name="edge_light_style_title">Render style</string>
+    <string name="edge_light_style_default">Default (left/right)</string>
+    <string name="edge_light_style_frame">Frame (all sides)</string>
+    <string name="edge_light_animation_effect_title">Animation effect</string>
+    <string name="edge_light_animation_effect_none">Standard</string>
+    <string name="edge_light_animation_effect_breathing">Breathing</string>
+    <string name="edge_light_animation_effect_wave">Wave</string>
+    <string name="edge_light_animation_effect_sparkle">Sparkle</string>
+    <string name="edge_light_animation_effect_chase">Chase</string>
+    <string name="edge_light_animation_effect_comet">Comet</string>
     <!-- Ambient Ticker -->
     <string name="pulse_on_new_tracks_title">音樂提示訊息</string>
     <string name="pulse_on_new_tracks_summary">切換曲目時於微光螢幕上顯示訊息</string>
@@ -259,8 +257,6 @@
     <!-- Tap to sleep on status bar -->
     <string name="lockscreen_doubletap_sleep_title">雙擊關閉螢幕</string>
     <string name="lockscreen_doubletap_sleep_summary">在鎖定畫面空白處點擊兩下，使裝置進入休眠</string>
-    <!-- Theme overlay (e.g. AlphaVisuals) -->
-    <!-- Refresh rate -->
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_title">時鐘和日期</string>
     <string name="status_bar_clock_summary">自訂時鐘和日期</string>
@@ -329,8 +325,6 @@
     <!-- Quick setting categories -->
     <string name="qs_misc_category">雜項</string>
     <string name="qs_footer_category">頁腳</string>
-    <!-- QS clock -->
-    <!-- QS date -->
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">跟隨狀態列樣式</string>
     <!-- Battery estimate -->
@@ -339,7 +333,7 @@
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">網路流量指示器</string>
     <string name="network_traffic_settings_summary">顯示並自訂目前網路流量狀態</string>
-    <string name="network_traffic_location_disable">殘障人士</string>
+    <string name="network_traffic_location_disable">Disabled</string>
     <string name="network_traffic_location_statusbar">狀態列</string>
     <string name="network_traffic_location_quick_statusbar">快速狀態列</string>
     <string name="network_traffic_mode_title">顯示模式</string>
@@ -356,7 +350,6 @@
     <string name="network_traffic_units_bytes">每秒位元組 (B/s)</string>
     <string name="network_traffic_hidearrow">隱藏箭頭</string>
     <string name="network_traffic_hidearrow_summary">隱藏網路流量指示箭頭</string>
-    <!-- QS footer warnings -->
     <!-- Navigation Bar -->
     <string name="navbar_visibility_title">導航欄</string>
     <string name="navbar_visibility_summary">在螢幕底部顯示導航條</string>
@@ -506,7 +499,7 @@
     <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">來電時閃爍閃光燈</string>
-    <string name="flashlight_on_call_disabled">殘障人士</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">響鈴時</string>
     <string name="flashlight_on_call_no_ringer">靜音時</string>
     <string name="flashlight_on_call_silent">無響鈴或震動時</string>
@@ -558,9 +551,9 @@
     <!-- Quad9 ECS DNS hostname -->
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
-    <!-- Comss DNS Option -->
-    <!-- Comss DNS hostname -->
-    <!-- Notch: Full screen apps -->
+    <!-- Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Alert slider notifications</string>
+    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">無限相簿儲存空間</string>
     <string name="use_photos_spoof_summary">針對Google相簿將您的裝置偽裝成 Pixel XL 來取得無限相簿儲存空間</string>
@@ -658,24 +651,21 @@
     <string name="smart_pixels_percent">停用的像素百分比</string>
     <string name="smart_pixels_shift_title">螢幕烙印保護</string>
     <string name="smart_pixels_shift_summary">透過不時移動像素的位置來防止使用 OLED 螢幕的裝置產生烙印</string>
-    <!-- Black theme -->
-    <!-- Material dismiss all button for notifications -->
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">返回手勢動畫</string>
     <string name="back_gesture_arrow_summary">觸發返回手勢時顯示動畫</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">返回手勢震動</string>
     <string name="back_gesture_haptic_summary">觸發返回手勢時震動</string>
-    <!-- Battery health -->
     <!-- Battery temperature -->
     <string name="battery_temperature">電池溫度</string>
     <!-- QS Transparency -->
-    <string name="qs_opacity_title">QS 背景不透明度</string>
-    <string name="qs_opacity_summary">磁磚後面快速設定稀鬆布的不透明度（0%% 是完全透明）</string>
+    <string name="qs_opacity_title">QS background opacity</string>
+    <string name="qs_opacity_summary">Opacity of the Quick Settings scrim behind tiles (0%% is fully transparent)</string>
     <!-- QS Blur intensity -->
-    <string name="qs_blur_intensity_title">QS背景虛化</string>
-    <string name="qs_blur_intensity_summary">快速設定面板後面的模糊強度</string>
-    <string name="qs_blur_disabled_in_settings">（在顯示設定中啟用視窗模糊）</string>
+    <string name="qs_blur_intensity_title">QS background blur</string>
+    <string name="qs_blur_intensity_summary">Blur intensity behind the Quick Settings panel</string>
+    <string name="qs_blur_disabled_in_settings">(enable Window blur in Display settings)</string>
     <!-- Data usage info in QS footer -->
     <string name="qs_footer_datausage_title">數據用量</string>
     <string name="qs_footer_datausage_summary">在快速設定底部顯示數據用量</string>
@@ -715,19 +705,19 @@
     <string name="qqs_rows_landscape_title">快速快速設定行數 (橫向)</string>
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">時鐘背景</string>
-    <string name="statusbar_clock_chip_summary">選擇時脈後面的自訂背景晶片</string>
-    <string name="solid_accent">純色強調</string>
+    <string name="statusbar_clock_chip_summary">Select custom background chip behind clock</string>
+    <string name="solid_accent">Solid color accent</string>
     <string name="outline">邊框</string>
-    <string name="solid_accent_gradient">純色強調漸變</string>
-    <string name="solid_gradient">實色漸層邊</string>
-    <string name="solid_gradient_corner">純色漸層銳利</string>
-    <string name="solid_gradient_void">梯度空洞</string>
-    <string name="solid_gradient_neumorph">Neumorph 梯度</string>
-    <string name="solid_gradient_stroke">銳利的漸層描邊</string>
-    <string name="solid_accent_transperent">口音透明</string>
-    <string name="solid_gradient_light">漸層光</string>
-    <string name="solid_gradient_shape">尖銳的漸層角</string>
-    <string name="solid_gradient_void_light">漸變虛空光</string>
+    <string name="solid_accent_gradient">Solid color accent gradient</string>
+    <string name="solid_gradient">Solid gradient side</string>
+    <string name="solid_gradient_corner">Solid accent gradient sharp</string>
+    <string name="solid_gradient_void">Gradient void</string>
+    <string name="solid_gradient_neumorph">Neumorph gradient</string>
+    <string name="solid_gradient_stroke">Sharp gradient stroke</string>
+    <string name="solid_accent_transperent">Accent transperent</string>
+    <string name="solid_gradient_light">Gradient light</string>
+    <string name="solid_gradient_shape">Sharp gradient corner</string>
+    <string name="solid_gradient_void_light">Gradient void light</string>
     <!-- Weather -->
     <string name="weather_settings_title">天氣服務設定</string>
     <string name="weather_settings_summary">設定圖示包和天氣服務</string>
@@ -774,8 +764,6 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play Integrity 偽裝</string>
     <string name="pi_spoof_summary">針對 Google Play Integrity 將您的裝置偽裝成其他機型</string>
-    <!-- Captive portal -->
-    <!-- Battery stats reset -->
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi-Fi 標準</string>
     <string name="wifi_standard_icon_summary">在訊號圖示上顯示目前所使用的 Wi-Fi 標準</string>
@@ -801,7 +789,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充電時一律顯示</string>
     <string name="doze_on_charge_summary">充電時顯示訊息</string>
-    <!-- Volume link notification -->
     <!-- Radio Info -->
     <string name="radio_info_title">手機資訊</string>
     <!-- QS Header -->
@@ -831,7 +818,6 @@
     <string name="always_on_display_schedule_sunrise">日出</string>
     <string name="always_on_display_schedule_mixed_sunset">從日落開啟直到自訂時間</string>
     <string name="always_on_display_schedule_mixed_sunrise">從自訂時間開啟直至日出</string>
-    <!-- QS Bluetooth Dialog -->
     <!-- Carrier name on lockscreen -->
     <string name="lockscreen_show_carrier_title">電信商名稱</string>
     <string name="lockscreen_show_carrier_summary">在狀態列中顯示電信商名稱</string>
@@ -844,7 +830,6 @@
     <string name="wifi_per_connection_random_mac_addr">使用隨機 MAC (預設)</string>
     <string name="wifi_per_network_random_mac_addr">使用隨機 MAC</string>
     <string name="wifi_device_mac_addr">使用裝置 MAC</string>
-    <!-- Ambient wake -->
     <!-- Sidebar -->
     <string name="sidebar_title">側邊欄</string>
     <string name="sidebar_summary">在浮動側邊欄快速開啟應用程式</string>
@@ -860,7 +845,6 @@
     <!-- Disable DNS for VPN -->
     <string name="vpn_enforce_dns_title">在 VPN 連線時停用</string>
     <string name="vpn_enforce_dns_summary">當連接至 VPN 時，關閉私人 DNS 功能\n斷開 VPN 連線後，將自動恢復原先的 DNS 設定。</string>
-    <!-- Cycle through ringer modes gesture -->
     <!-- Application downgrade -->
     <string name="app_downgrade_title">允許應用程式降級</string>
     <string name="app_downgrade_summary">這項功能允許您將應用程式降級。請注意，此操作可能會導致應用程式崩潰或資料損毀。</string>
@@ -889,13 +873,13 @@
     <string name="keybox_toast_file_loaded">Keybox 已載入</string>
     <string name="keybox_toast_file_cleared">Keybox 已清除</string>
     <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">禁用強制強完整性</string>
-    <string name="pi_gmscertchain_summary">啟用後，不會透過有效的自訂密鑰箱強制執行強完整性，而是依賴 Google Play 完整性欺騙來修復 Google Pay 等應用程式</string>
+    <string name="pi_gmscertchain_title">Disable forcing strong integrity</string>
+    <string name="pi_gmscertchain_summary">When enabled, do not enforce strong integrity from valid custom keybox and depend on Google Play Integrity spoof to fix apps like Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">快速設定磁貼形狀</string>
     <string name="qs_tile_shape_dynamic">動態</string>
     <string name="qs_tile_shape_circle">圓形</string>
-    <string name="qs_tile_shape_rounded_square_smooth">圓角正方形（光滑）</string>
+    <string name="qs_tile_shape_rounded_square_smooth">Rounded square (smooth)</string>
     <string name="qs_tile_shape_rounded_square">圓角矩形</string>
     <string name="qs_tile_shape_square">矩形</string>
     <!-- Force dark mode -->
@@ -913,8 +897,8 @@
     <string name="ls_media_art_title">專輯封面</string>
     <string name="ls_media_art_summary">可用時顯示專輯封面</string>
     <!-- Lock screen media art on Ambient Display -->
-    <string name="ambient_media_art_title">環境媒體封面藝術</string>
-    <string name="ambient_media_art_summary">可用時在環境顯示器上顯示媒體封面藝術</string>
+    <string name="ambient_media_art_title">Ambient media cover art</string>
+    <string name="ambient_media_art_summary">Display media cover art on Ambient display when available</string>
     <!-- Lock screen album art filter -->
     <string name="ls_media_art_filter_title">媒體封面效果</string>
     <string name="ls_media_art_filter_none">無</string>
@@ -934,7 +918,7 @@
     <string name="pulse_settings_title">脈衝視覺化器</string>
     <string name="pulse_settings_summary">導覽列與鎖定畫面的音訊圖形等化器</string>
     <string name="ambient_pulse_enabled_title">環境氛圍</string>
-    <string name="ambient_pulse_enabled_summary">在環境顯示器上顯示視覺化工具</string>
+    <string name="ambient_pulse_enabled_summary">Show visualizer on Ambient Display</string>
     <string name="pulse_rounded_bars_title">圓角條形</string>
     <string name="pulse_rounded_bars_summary">顯示圓角的音效可視化條</string>
     <string name="pulse_color">可視化效果顏色</string>
@@ -947,10 +931,10 @@
     <string name="pulse_renderer">視覺化效果樣式</string>
     <string name="pulse_renderer_solid">實線</string>
     <string name="pulse_renderer_fading">漸層方塊</string>
-    <string name="pulse_renderer_neon_glow">霓虹燈發光</string>
-    <string name="pulse_renderer_retro_vu_meter">復古 VU 計</string>
-    <string name="pulse_renderer_minimal_wave">最小波</string>
-    <string name="pulse_renderer_sparkle">火花</string>
+    <string name="pulse_renderer_neon_glow">Neon glow</string>
+    <string name="pulse_renderer_retro_vu_meter">Retro VU meter</string>
+    <string name="pulse_renderer_minimal_wave">Minimal wave</string>
+    <string name="pulse_renderer_sparkle">Sparkle</string>
     <string name="pulse_renderer_matrix">矩陣</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">半透明通知</string>
@@ -958,132 +942,134 @@
     <string name="notification_row_transparency_lockscreen_title">半透明鎖定螢幕通知</string>
     <string name="notification_row_transparency_lockscreen_summary">在鎖定畫面中設定半透明通知背景</string>
     <!-- Ambient Wallpaper -->
-    <string name="doze_always_on_wallpaper_title">環境壁紙</string>
-    <string name="doze_always_on_wallpaper_summary">在環境顯示器上顯示鎖定螢幕壁紙</string>
+    <string name="doze_always_on_wallpaper_title">Ambient wallpaper</string>
+    <string name="doze_always_on_wallpaper_summary">Show lockscreen wallpaper on Ambient Display</string>
     <!-- Squiggle animation for media notification -->
-    <string name="media_squiggle_animation_title">曲線動畫</string>
-    <string name="media_squiggle_animation_summary">播放媒體時在媒體面板中顯示搜尋欄波形動畫</string>
+    <string name="media_squiggle_animation_title">Squiggle animation</string>
+    <string name="media_squiggle_animation_summary">Show seekbar squiggle animation in media panel when playing media</string>
     <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">自動修復 VBMeta 檢測</string>
-    <string name="vbmeta_attestation_summary">執行金鑰證明以在啟動時產生經過驗證的啟動雜湊值。需要重新啟動系統。</string>
+    <string name="vbmeta_attestation_title">Autofix VBMeta detection</string>
+    <string name="vbmeta_attestation_summary">Perform key attestation to generate verified boot hash on boot. Requires system restart.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">不進行驗證</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">您未指定任何憑證，因此無法為您設定私人連線。</string>
     <!-- Multi Audio Focus -->
-    <string name="multi_audio_focus_title">多音訊焦點</string>
-    <string name="multi_audio_focus_summary">允許多個應用程式同時播放音頻</string>
+    <string name="multi_audio_focus_title">Multi audio focus</string>
+    <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
     <!-- Locale Picker -->
-    <string name="clear_search_query_description">清除查詢</string>
-    <string name="language_picker_page">語言選擇器頁面</string>
-    <string name="search_region">搜尋地區</string>
-    <string name="search_region_page">搜尋區域頁面</string>
+    <string name="clear_search_query_description">Clear query</string>
+    <string name="language_picker_page">Language picker page</string>
+    <string name="search_region">Search regions</string>
+    <string name="search_region_page">Search region page</string>
     <!-- Data Usage Cycle -->
-    <string name="billing_cycle_type_title">行動數據使用周期類型</string>
-    <string name="billing_cycle_type_monthly">每月</string>
-    <string name="billing_cycle_type_weekly">每週</string>
-    <string name="billing_cycle_type_daily">日常的</string>
-    <string name="billing_cycle_less_than_one_hour_left">還剩不到1小時</string>
-    <string name="billing_cycle_hours_left">{計數，複數，\n        =1 {還剩#小時}\n        剩下 {# 小時}\n        }</string>
-    <string name="cycle_type_weekly_title">使用周期重置日</string>
-    <string name="cycle_type_weekly_sub">每週的某一天：\\n1 = 星期一</string>
-    <string name="cycle_type_daily_title">使用周期重置小時</string>
-    <string name="cycle_type_daily_sub">每天的時間：</string>
+    <string name="billing_cycle_type_title">Mobile data usage cycle type</string>
+    <string name="billing_cycle_type_monthly">Monthly</string>
+    <string name="billing_cycle_type_weekly">Weekly</string>
+    <string name="billing_cycle_type_daily">Daily</string>
+    <string name="billing_cycle_less_than_one_hour_left">Less than 1 hour left</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
+    <string name="cycle_type_weekly_title">Usage cycle reset day</string>
+    <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
+    <string name="cycle_type_daily_title">Usage cycle reset hour</string>
+    <string name="cycle_type_daily_sub">Hour of each day:</string>
     <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">客製化時鐘樣式</string>
-    <string name="lockscreen_custom_clock_style_summary">配置鎖定螢幕時鐘樣式</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">向左或向右滑動可預覽時鐘樣式</string>
-    <string name="lockscreen_custom_clock_style_info">自訂時鐘樣式將 AOSP 時鐘樣式替換為自訂時鐘。智慧空間將會停用。您可以啟用並使用自訂天氣。</string>
-    <string name="lockscreen_custom_clock_opacity_title">自訂時鐘不透明度</string>
-    <string name="lockscreen_custom_clock_opacity_summary">調整自訂時鐘樣式的透明度</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">自訂時鐘高度</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">調整自訂時鐘樣式的高度</string>
-    <string name="lockscreen_custom_clock_color_mode_title">自訂時鐘顏色模式</string>
+    <string name="lockscreen_custom_clock_style_title">Custom clock style</string>
+    <string name="lockscreen_custom_clock_style_summary">Configure lock screen clock styles</string>
+    <string name="lockscreen_custom_clock_style_highlight_text">Swipe left or right to preview clock styles</string>
+    <string name="lockscreen_custom_clock_style_info">Custom clock style replaces AOSP clock styles with custom clocks. Smartspace will be disabled. You can enable and use custom weather instead.</string>
+    <string name="lockscreen_custom_clock_opacity_title">Custom clock opacity</string>
+    <string name="lockscreen_custom_clock_opacity_summary">Adjust the transparency of custom clock style</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_title">Custom clock height</string>
+    <string name="lockscreen_custom_clock_frame_margin_top_summary">Adjust the height of custom clock style</string>
+    <string name="lockscreen_custom_clock_color_mode_title">Custom clock color mode</string>
     <!-- QS Panel style -->
-    <string name="qs_panel_style_title">QS面板樣式</string>
-    <string name="qs_panel_style_card">卡片樣式</string>
-    <string name="qs_panel_style_classic">經典風格</string>
+    <string name="qs_panel_style_title">QS Panel style</string>
+    <string name="qs_panel_style_card">Card style</string>
+    <string name="qs_panel_style_classic">Classic style</string>
     <string name="shape_circle">圓形</string>
     <string name="shape_square">矩形</string>
-    <string name="shape_arch">拱</string>
-    <string name="shape_ios_rounded_square">iOS 圓形</string>
-    <string name="shape_hexagon">六邊形</string>
-    <string name="shape_pebble">卵石</string>
-    <string name="shape_rice_balls">飯糰</string>
-    <string name="shape_rounded_rect">圓角矩形</string>
+    <string name="shape_arch">Arch</string>
+    <string name="shape_ios_rounded_square">iOS rounded shape</string>
+    <string name="shape_hexagon">Hexagon</string>
+    <string name="shape_pebble">Pebble</string>
+    <string name="shape_rice_balls">Rice balls</string>
+    <string name="shape_rounded_rect">Rounded rectangle</string>
     <string name="shape_squircle">Squircle</string>
-    <string name="shape_tapered_rect">錐形矩形</string>
-    <string name="shape_teardrop">淚珠</string>
-    <string name="shape_rounded_hexagon">圓角六邊形</string>
+    <string name="shape_tapered_rect">Tapered rect</string>
+    <string name="shape_teardrop">Teardrop</string>
+    <string name="shape_rounded_hexagon">Rounded hexagon</string>
     <!-- Dynamic Bar -->
-    <string name="dynamic_bar">動態欄</string>
-    <string name="dynamic_bar_summary">用於錄製、媒體、計時器等活動事件的智慧狀態列晶片</string>
-    <string name="dynamic_bar_enable">啟用動態欄</string>
-    <string name="dynamic_bar_enable_summary">在狀態列顯示即時活動用的動態晶片</string>
-    <string name="dynamic_bar_keyguard_enable">鎖定畫面動態欄</string>
-    <string name="dynamic_bar_keyguard_enable_summary">將鎖定畫面上的提示替換為動態欄晶片，並提供控制項與快速操作</string>
-    <string name="dynamic_bar_keyguard_battery_chip">鎖定螢幕上的電池訊息</string>
+    <string name="dynamic_bar">Dynamic Bar</string>
+    <string name="dynamic_bar_summary">Smart status bar chip for active events like recording, media, timers, and more</string>
+    <string name="dynamic_bar_enable">Enable Dynamic Bar</string>
+    <string name="dynamic_bar_enable_summary">Show a dynamic chip on the status bar for live events</string>
+    <string name="dynamic_bar_keyguard_enable">Dynamic bar on lock screen</string>
+    <string name="dynamic_bar_keyguard_enable_summary">Replace keyguard indication with dynamic bar chip on the lock screen with controls and quick actions</string>
+    <string name="dynamic_bar_keyguard_battery_chip">Battery info on lock screen</string>
     <string name="dynamic_bar_keyguard_battery_chip_disabled">永不顯示</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">僅在充電時</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">始終顯示</string>
-    <string name="dynamic_bar_events">活動</string>
-    <string name="dynamic_bar_event_recording">螢幕錄製</string>
-    <string name="dynamic_bar_event_recording_summary">活動螢幕錄製指示器</string>
-    <string name="dynamic_bar_event_privacy">隱私指標</string>
-    <string name="dynamic_bar_event_privacy_summary">攝影機和麥克風存取警報</string>
-    <string name="dynamic_bar_event_audio_recording">錄音</string>
-    <string name="dynamic_bar_event_audio_recording_summary">錄音機和音訊捕獲</string>
-    <string name="dynamic_bar_event_media">媒體播放</string>
-    <string name="dynamic_bar_event_media_summary">顯示正在播放的音樂與音訊控制項</string>
+    <string name="dynamic_bar_keyguard_battery_chip_charging">Only when charging</string>
+    <string name="dynamic_bar_keyguard_battery_chip_always">Always show</string>
+    <string name="dynamic_bar_events">Events</string>
+    <string name="dynamic_bar_event_recording">Screen recording</string>
+    <string name="dynamic_bar_event_recording_summary">Active screen recording indicator</string>
+    <string name="dynamic_bar_event_privacy">Privacy indicators</string>
+    <string name="dynamic_bar_event_privacy_summary">Camera and microphone access alerts</string>
+    <string name="dynamic_bar_event_audio_recording">Audio recording</string>
+    <string name="dynamic_bar_event_audio_recording_summary">Voice recorder and audio capture</string>
+    <string name="dynamic_bar_event_media">Media playback</string>
+    <string name="dynamic_bar_event_media_summary">Now playing music and audio controls</string>
     <string name="dynamic_bar_event_notification">通知</string>
-    <string name="dynamic_bar_event_notification_summary">傳入通知警報</string>
-    <string name="dynamic_bar_compact_notifications">緊湊的通知</string>
-    <string name="dynamic_bar_compact_notifications_summary">首先將通知顯示為小晶片，點擊即可展開</string>
-    <string name="dynamic_bar_event_timer">定時器</string>
-    <string name="dynamic_bar_event_timer_summary">時鐘應用程式的倒數計時器</string>
-    <string name="dynamic_bar_event_stopwatch">跑表</string>
-    <string name="dynamic_bar_event_stopwatch_summary">從時鐘應用程式運行秒錶</string>
-    <string name="dynamic_bar_event_alarm">警報</string>
-    <string name="dynamic_bar_event_alarm_summary">響鈴和即將到來的警報</string>
-    <string name="dynamic_bar_event_charging">充電開始</string>
-    <string name="dynamic_bar_event_charging_summary">插入時的電池電量</string>
+    <string name="dynamic_bar_event_notification_summary">Incoming notification alerts</string>
+    <string name="dynamic_bar_compact_notifications">Compact notifications</string>
+    <string name="dynamic_bar_compact_notifications_summary">Show notifications as a small chip first, tap to expand</string>
+    <string name="dynamic_bar_event_timer">Timer</string>
+    <string name="dynamic_bar_event_timer_summary">Countdown timer from clock app</string>
+    <string name="dynamic_bar_event_stopwatch">Stopwatch</string>
+    <string name="dynamic_bar_event_stopwatch_summary">Running stopwatch from clock app</string>
+    <string name="dynamic_bar_event_alarm">Alarm</string>
+    <string name="dynamic_bar_event_alarm_summary">Ringing and upcoming alarms</string>
+    <string name="dynamic_bar_event_charging">Charging started</string>
+    <string name="dynamic_bar_event_charging_summary">Battery level when plugged in</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
-    <string name="dynamic_bar_event_bluetooth_summary">裝置連線狀態</string>
+    <string name="dynamic_bar_event_bluetooth_summary">Device connection status</string>
     <string name="dynamic_bar_event_hotspot">Hotspot</string>
-    <string name="dynamic_bar_event_hotspot_summary">移動熱點活動指示器</string>
-    <string name="dynamic_bar_event_ringer">振鈴模式</string>
-    <string name="dynamic_bar_event_ringer_summary">靜音、震動和響鈴模式更改</string>
+    <string name="dynamic_bar_event_hotspot_summary">Mobile hotspot active indicator</string>
+    <string name="dynamic_bar_event_ringer">Ringer Mode</string>
+    <string name="dynamic_bar_event_ringer_summary">Silent, vibrate, and ring mode changes</string>
     <string name="dynamic_bar_event_vpn">VPN</string>
-    <string name="dynamic_bar_event_vpn_summary">活動 VPN 連線指示燈</string>
-    <string name="dynamic_bar_event_clipboard">剪貼簿</string>
-    <string name="dynamic_bar_event_clipboard_summary">複製的文字和圖像預覽</string>
+    <string name="dynamic_bar_event_vpn_summary">Active VPN connection indicator</string>
+    <string name="dynamic_bar_event_clipboard">Clipboard</string>
+    <string name="dynamic_bar_event_clipboard_summary">Copied text and image preview</string>
     <string name="dynamic_bar_event_torch">手電筒</string>
-    <string name="dynamic_bar_event_torch_summary">手電筒切換和亮度</string>
-    <string name="dynamic_bar_event_casting">投放</string>
-    <string name="dynamic_bar_event_casting_summary">螢幕投影與媒體投射狀態</string>
-    <string name="dynamic_bar_event_ongoing">正在進行的活動</string>
-    <string name="dynamic_bar_event_ongoing_summary">導航、送貨和其他現場活動</string>
-    <string name="dynamic_bar_event_sports">體育</string>
-    <string name="dynamic_bar_event_sports_summary">即時比分和比賽更新</string>
-    <string name="dynamic_bar_event_app_switch">最近的應用程式切換</string>
-    <string name="dynamic_bar_event_app_switch_summary">在最近的應用程式之間切換時顯示晶片</string>
-    <string name="dynamic_bar_event_biometric">生物辨識解鎖</string>
-    <string name="dynamic_bar_event_biometric_summary">在指紋或臉部解鎖上顯示晶片</string>
-    <string name="dynamic_bar_guide_title">如何使用動態欄</string>
-    <string name="dynamic_bar_guide_chip">事件出現在狀態列中，顯示錄製、媒體播放和計時器等活動事件</string>
-    <string name="dynamic_bar_guide_swipe">當多個事件處於活動狀態時，在晶片上向左或向右滑動即可循環瀏覽它們</string>
-    <string name="dynamic_bar_guide_expand">點擊晶片將其擴展為包含控制項和附加資訊的詳細卡片</string>
-    <string name="dynamic_bar_guide_dismiss">將展開的卡片滑開即可關閉。事件在後台繼續進行</string>
-    <string name="dynamic_bar_guide_keyguard">動態欄晶片也會出現在鎖定畫面底部，並提供播放控制項與快速操作</string>
-    <string name="dynamic_bar_guide_chip_title">晶片外觀</string>
-    <string name="dynamic_bar_guide_swipe_title">在晶片之間滑動</string>
-    <string name="dynamic_bar_guide_expand_title">點擊展開</string>
-    <string name="dynamic_bar_guide_dismiss_title">滑動即可關閉</string>
-    <string name="dynamic_bar_guide_keyguard_title">鎖定螢幕晶片</string>
-    <string name="dynamic_bar_footer_title">關於動態欄</string>
-    <string name="dynamic_bar_footer_body">動態欄會把狀態列變成可互動的資訊中心。狀態晶片會依系統事件出現並以動畫提示，讓你在不中斷工作流程的情況下快速掌握重點。\\n\\n每種事件類型都有各自的強調色，以及可展開的快速操作卡片。</string>
-    <!-- Ax ThemeStore -->
-    <!-- ALPHA -->
+    <string name="dynamic_bar_event_torch_summary">Flashlight toggle and brightness</string>
+    <string name="dynamic_bar_event_casting">Casting</string>
+    <string name="dynamic_bar_event_casting_summary">Screen cast and media cast status</string>
+    <string name="dynamic_bar_event_ongoing">Ongoing activities</string>
+    <string name="dynamic_bar_event_ongoing_summary">Navigation, deliveries, and other live activities</string>
+    <string name="dynamic_bar_event_sports">Sports</string>
+    <string name="dynamic_bar_event_sports_summary">Live scores and game updates</string>
+    <string name="dynamic_bar_event_app_switch">Recent app switch</string>
+    <string name="dynamic_bar_event_app_switch_summary">Show chip when switching between recent apps</string>
+    <string name="dynamic_bar_event_biometric">Biometric unlock</string>
+    <string name="dynamic_bar_event_biometric_summary">Show chip on fingerprint or face unlock</string>
+    <string name="dynamic_bar_guide_title">How to use Dynamic Bar</string>
+    <string name="dynamic_bar_guide_chip">Events appear in the status bar showing active events like recording, media playback, and timers</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip to cycle through them</string>
+    <string name="dynamic_bar_guide_expand">Tap a chip to expand it into a detailed card with controls and additional information</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe the expanded card away to dismiss it. The event continues in the background</string>
+    <string name="dynamic_bar_guide_keyguard">Dynamic bar chip also appears at the bottom of the lock screen with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_chip_title">Chip appearance</string>
+    <string name="dynamic_bar_guide_swipe_title">Swipe between chips</string>
+    <string name="dynamic_bar_guide_expand_title">Tap to expand</string>
+    <string name="dynamic_bar_guide_dismiss_title">Swipe to dismiss</string>
+    <string name="dynamic_bar_guide_keyguard_title">Lock screen chip</string>
+    <string name="dynamic_bar_footer_title">About Dynamic Bar</string>
+    <string name="dynamic_bar_footer_body">Dynamic Bar transforms your status bar into an interactive hub. Status chips appear and animate based on system events, giving you at-a-glance information without interrupting your workflow.\n\nEach event type has its own accent color and expanded card with quick actions.</string>
+    <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 設定</string>
     <string name="alpha_settings_summary">更多好用的功能!</string>
@@ -1092,42 +1078,42 @@
     <!-- Top level categories -->
     <string name="lockscreen_clock_category">時鐘</string>
     <!-- Misc categories -->
-    <string name="misc_spoofing_category">欺騙</string>
-    <string name="misc_system_category">系統</string>
-    <string name="misc_animations_category">動畫</string>
+    <string name="misc_spoofing_category">Spoofing</string>
+    <string name="misc_system_category">System</string>
+    <string name="misc_animations_category">Animations</string>
     <string name="misc_gestures_category">手勢</string>
     <!-- Changelog -->
-    <string name="changelog_title">目前變更日誌</string>
-    <string name="changelog_summary">查看已安裝ROM的變化</string>
+    <string name="changelog_title">Current changelog</string>
+    <string name="changelog_summary">View changes in the ROM installed</string>
     <!-- About AlphaDroid -->
     <string name="about_device_name">裝置</string>
     <!-- Share AlphaDroid -->
-    <string name="share_title">分享 AlphaDroid</string>
-    <string name="share_summary">讓其他人了解 AlphaDroid</string>
-    <string name="share_message">查看 #AlphaDroid 是否可用於您的裝置：https://t.me/alphadroid_releases/</string>
-    <string name="share_chooser_title">分享 AlphaDroid</string>
+    <string name="share_title">Share AlphaDroid</string>
+    <string name="share_summary">Let others know about AlphaDroid</string>
+    <string name="share_message">在 https://alpha.net/ 看看 #AlphaDroid Android</string>
+    <string name="share_chooser_title">Share AlphaDroid</string>
     <!-- Sites AlphaDroid -->
     <string name="source_title">GitHub</string>
-    <string name="source_summary">我們熱愛開源，請關注我們</string>
-    <string name="telegram_title">AlphaDroid 社​​區</string>
-    <string name="telegram_summary">我們在電報上。加入我們！</string>
-    <string name="telegram_channel_title">更新頻道</string>
-    <string name="telegram_channel_summary">在 Telegram 上取得新版本的通知</string>
-    <string name="website_title">官方網站</string>
-    <string name="website_summary">造訪我們的官方網站</string>
-    <string name="translate_title">翻譯</string>
-    <string name="translate_summary">幫助將 ROM 本地化為您的語言！</string>
+    <string name="source_summary">We love open source, check us out</string>
+    <string name="telegram_title">AlphaDroid community</string>
+    <string name="telegram_summary">We are on telegram. Join us!</string>
+    <string name="telegram_channel_title">Updates channel</string>
+    <string name="telegram_channel_summary">Get notified of new builds on Telegram</string>
+    <string name="website_title">Official website</string>
+    <string name="website_summary">Visit our official website</string>
+    <string name="translate_title">Translations</string>
+    <string name="translate_summary">Help with localisation of ROM in your language!</string>
     <!-- Donate AlphaDroid -->
-    <string name="donate_title">支持我們</string>
-    <string name="donate_summary">捐款支持進一步發展</string>
+    <string name="donate_title">Support us</string>
+    <string name="donate_summary">Donate to support further development</string>
     <!-- AlphaDroid build server sponsor -->
-    <string name="buildserversponsor_summary">AlphaDroid 建置伺服器供應商。點擊即可造訪他們的頻道。</string>
+    <string name="buildserversponsor_summary">AlphaDroid build server provider. Tap to visit their channel.</string>
     <!-- OTA -->
     <string name="alpha_update_title">更新</string>
     <string name="alpha_update_summary">檢查並下載最新的更新</string>
     <!-- SELinux status -->
     <string name="selinux_status">SELinux 狀態</string>
-    <string name="selinux_status_disabled">殘障人士</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">寬鬆</string>
     <string name="selinux_status_enforcing">強制</string>
     <!-- Firmware info -->
@@ -1139,174 +1125,88 @@
     <string name="build_status_summary">非官方</string>
     <string name="build_status_official">官方</string>
     <string name="build_status_unofficial">非官方</string>
-    <string name="alpha_build_version">AlphaDroid版本</string>
-    <string name="alpha_build_date">建造日期</string>
+    <string name="alpha_build_version">AlphaDroid version</string>
+    <string name="alpha_build_date">Build date</string>
     <!-- Maintainer -->
     <string name="maintainer_title">維護者</string>
     <string name="maintainer_summary">正在尋找維護者...</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">貯存</string>
-    <string name="storage_card_info">已用/總計</string>
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Used/total</string>
     <string name="about_device_name_title">裝置</string>
-    <string name="about_device_nearby">附近的設備可以並且將會看到該設備名稱。</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <!-- Hardware info -->
     <string name="platform_revision">平台</string>
     <string name="total_ram">總記憶體</string>
     <!-- QuickSwitch -->
-    <string name="quickswitch_launcher_title">AlphaDroid 啟動器</string>
+    <string name="quickswitch_launcher_title">AlphaDroid launcher</string>
     <string name="quickswitch_launcher3">Launcher3</string>
-    <string name="quickswitch_nexuslauncher">Nexus 啟動器</string>
+    <string name="quickswitch_nexuslauncher">Nexus Launcher</string>
     <string name="quickswitch_lawnchair">Lawnchair</string>
-    <!-- Search bar -->
     <!-- Reality Display Engine -->
-    <string name="display_engine_category">顯示引擎</string>
-    <string name="display_engine_mode_title">現實顯示引擎</string>
-    <string name="display_engine_mode_xreality">X-現實引擎</string>
-    <string name="display_engine_mode_vivid">生動的顯示</string>
-    <string name="display_engine_mode_triluminous">三發光顯示屏</string>
-    <string name="display_engine_mode_footer_text">受 Sony Bravia/X-Reality 引擎的啟發，顯示引擎具有可增強亮度和色彩飽和度的 Vivid 模式，以及可提高細節和色彩準確性的 X-Reality 模式。</string>
+    <string name="display_engine_category">Display Engine</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="display_engine_mode_xreality">X-Reality Engine</string>
+    <string name="display_engine_mode_vivid">Vivid Display</string>
+    <string name="display_engine_mode_triluminous">Triluminous Display</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, and X-Reality mode for improved detail and color accuracy.</string>
     <!-- Ignore window secure flag -->
-    <string name="ignore_window_secure_title">忽略安全視窗標誌</string>
-    <string name="ignore_window_secure_summary">刪除螢幕截圖和螢幕記錄安全限制。這在某些情況下可能很方便，但可能會導致隱私洩露。</string>
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord security restrictions. This can be convenient in some cases but may lead to privacy leaks.</string>
     <!-- Hide screen capture status -->
-    <string name="hide_screen_capture_status_title">隱藏螢幕捕獲狀態</string>
-    <string name="hide_screen_capture_status_summary">隱藏應用程式的螢幕擷取狀態</string>
+    <string name="hide_screen_capture_status_title">Hide screen capture status</string>
+    <string name="hide_screen_capture_status_summary">Hide screen capture status from apps</string>
     <!-- Hide developer status -->
-    <string name="hide_developer_status_title">隱藏開發者狀態</string>
-    <string name="hide_developer_status_summary">對應用程式隱藏開發者狀態</string>
-    <string name="search_apps">搜尋應用程式</string>
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search_apps">Search apps</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">通知圖示</string>
     <string name="max_visible_notification_icons_summary">狀態列上可見的最大通知圖標數</string>
-    <!-- UI styles -->
     <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">鏤空進度環</string>
-    <string name="cutout_progress_summary">在打孔周圍顯示進度環</string>
+    <string name="cutout_progress_title">Cutout Progress Ring</string>
+    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
     <!-- Categories -->
-    <string name="cutout_progress_cat_features">特徵</string>
-    <string name="cutout_progress_cat_appearance">外貌</string>
-    <string name="cutout_progress_cat_geometry">環幾何形狀</string>
-    <string name="cutout_progress_cat_island">擴展模式</string>
+    <string name="cutout_progress_cat_features">Features</string>
+    <string name="cutout_progress_cat_appearance">Appearance</string>
+    <string name="cutout_progress_cat_geometry">Ring geometry</string>
+    <string name="cutout_progress_cat_island">Expanded mode</string>
     <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">啟用下載進度環</string>
+    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
     <string name="cutout_progress_charging_ring_title">Show charging ring</string>
     <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">環色模式</string>
-    <string name="cutout_progress_ring_color_mode_accent">口音</string>
+    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
+    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
     <string name="cutout_progress_ring_color_mode_rainbow">彩虹</string>
     <string name="cutout_progress_ring_color_mode_custom">自訂</string>
-    <string name="cutout_progress_ring_color_title">訂製戒指顏色</string>
-    <string name="cutout_progress_ring_opacity_title">環不透明度</string>
-    <string name="cutout_progress_stroke_width_title">環厚</string>
-    <string name="cutout_progress_bg_ring_enabled_title">顯示背景軌道</string>
-    <string name="cutout_progress_charging_pulse_title">充電脈衝動畫</string>
-    <string name="cutout_progress_charging_pulse_summary">充電時以動畫方式從中心向外重複脈衝</string>
+    <string name="cutout_progress_ring_color_title">Custom ring color</string>
+    <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
+    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
+    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
+    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
     <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">環隙（切口間隙）</string>
-    <string name="cutout_progress_path_mode_title">遵循切口形狀</string>
-    <string name="cutout_progress_path_mode_summary">使用切口的原始長寬比，而不是將環標準化為圓形</string>
-    <string name="cutout_progress_scale_x_title">水平刻度</string>
-    <string name="cutout_progress_scale_y_title">垂直刻度</string>
-    <string name="cutout_progress_offset_x_title">水平偏移</string>
-    <string name="cutout_progress_offset_y_title">垂直偏移</string>
+    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
+    <string name="cutout_progress_path_mode_title">Follow cutout shape</string>
+    <string name="cutout_progress_path_mode_summary">Use the cutout’s native aspect ratio instead of normalizing the ring to a circle</string>
+    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
+    <string name="cutout_progress_scale_y_title">Vertical scale</string>
+    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
+    <string name="cutout_progress_offset_y_title">Vertical offset</string>
     <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">佈局緊湊</string>
-    <string name="cutout_progress_island_compact_summary">環繞相機切口</string>
-    <string name="cutout_progress_island_position_title">緊湊佈局對齊</string>
-    <string name="cutout_island_pos_center">中心分裂</string>
+    <string name="cutout_progress_island_compact_title">Compact layout</string>
+    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
+    <string name="cutout_progress_island_position_title">Compact layout alignment</string>
+    <string name="cutout_island_pos_center">Center split</string>
     <string name="cutout_island_pos_left">左側</string>
     <string name="cutout_island_pos_right">右側</string>
     <string name="cutout_island_bg_opacity_title">背景透明度</string>
-    <string name="cutout_island_timeout_title">自動折疊超時</string>
+    <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
     <!-- Hide applist -->
-    <string name="hide_applist_title">隱藏應用程式清單</string>
-    <string name="hide_applist_summary">阻止應用程式檢查應用程式清單中選定的應用程式</string>
-    <string name="menu_show_overlay">顯示疊加層</string>
-    <string name="menu_hide_overlay">隱藏疊加層</string>
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
     <!-- Volume slider shapes -->
-    <string name="volume_slider_shape_title">音量滑桿形狀</string>
-
-    <string name="arrow_right" translatable="false">→</string>
-
-    <string name="battery_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="battery_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="buildserversponsor_title" translatable="false">Powered by ServerHive</string>
-
-    <string name="channel_light_settings_id" translatable="false">light_settings</string>
-
-    <string name="display_engine_mode_default" translatable="false">@string/disabled</string>
-
-    <string name="dlg_ok" translatable="false">@android:string/ok</string>
-
-    <string name="hex" translatable="false">Hex:</string>
-
-    <string name="hex_hint" translatable="false">#ff000000</string>
-
-    <string name="network_traffic_autohide_kilobytes" translatable="false">KB/s</string>
-
-    <string name="notification_light_brightness_normal" translatable="false">@string/light_brightness_normal</string>
-
-    <string name="notification_light_brightness_zen" translatable="false">@string/light_brightness_zen</string>
-
-    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
-
-    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
-
-    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
-
-    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
-
-    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
-
-    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
-
-    <string name="private_dns_hostname_cleanbrowsing" translatable="false">security-filter-dns.cleanbrowsing.org</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware" translatable="false">security.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_cloudflare_block_malware_and_adult_content" translatable="false">family.cloudflare-dns.com</string>
-
-    <string name="private_dns_hostname_open_dns" translatable="false">dns.opendns.com</string>
-
-    <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_ecs" translatable="false">dns11.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured" translatable="false">dns10.quad9.net</string>
-
-    <string name="private_dns_hostname_quad9_unsecured_ecs" translatable="false">dns12.quad9.net</string>
-
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware" translatable="false">Cloudflare Block Malware DNS</string>
-
-    <string name="private_dns_mode_cloudflare_block_malware_and_adult_content" translatable="false">Cloudflare Block Malware and Adult Content DNS</string>
-
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
-    <string name="private_dns_mode_quad9_ecs" translatable="false">Quad9 with ECS DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured" translatable="false">Quad9 Unsecured DNS</string>
-
-    <string name="private_dns_mode_quad9_unsecured_ecs" translatable="false">Quad9 Unsecured with ECS DNS</string>
-
-    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-
-    <string name="unit_hz" translatable="false">hz</string>
-
-    <string name="unit_pixels" translatable="false">dp</string>
-    <string name="cancel" translatable="false">@android:string/cancel</string>
-
-    <string name="ok" translatable="false">@android:string/ok</string>
-
-    <string name="alert_slider_notifications_title">三段式開關通知</string>
-
-    <string name="alert_slider_notifications_summary">變更三段式開關位置時顯示通知</string>
-
+    <string name="volume_slider_shape_title">Volume slider shape</string>
 </resources>
