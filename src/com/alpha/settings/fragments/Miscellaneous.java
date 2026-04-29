@@ -41,7 +41,6 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.misc.SensorBlock;
-import com.alpha.settings.fragments.misc.SmartPixels;
 
 import java.util.List;
 
@@ -56,7 +55,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
     private static final String POCKET_JUDGE = "pocket_judge";
     private static final String KEY_GMS_CERT_SPOOF = "pi_gms_cert_chain";
     private static final String KEY_THREE_FINGERS_SWIPE = "three_fingers_swipe";
-    private static final String SMART_PIXELS = "smart_pixels";
 
     private Preference mPocketJudge;
     private ListPreference mThreeFingersSwipeAction;
@@ -76,13 +74,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                 com.android.internal.R.bool.config_pocketModeSupported);
         if (!mPocketJudgeSupported && mPocketJudge != null) {
             prefScreen.removePreference(mPocketJudge);
-        }
-
-        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
-        boolean mSmartPixelsSupported = getResources().getBoolean(
-                com.android.internal.R.bool.config_supportSmartPixels);
-        if (!mSmartPixelsSupported && mSmartPixels != null) {
-            prefScreen.removePreference(mSmartPixels);
         }
 
         Action threeFingersSwipeAction = Action.fromSettings(getContentResolver(),
@@ -154,12 +145,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
                             com.android.internal.R.bool.config_pocketModeSupported);
                     if (!mPocketJudgeSupported)
                         keys.add(POCKET_JUDGE);
-
-
-                    boolean mSmartPixelsSupported = context.getResources().getBoolean(
-                            com.android.internal.R.bool.config_supportSmartPixels);
-                    if (!mSmartPixelsSupported)
-                        keys.add(SMART_PIXELS);
 
                     return keys;
                 }
