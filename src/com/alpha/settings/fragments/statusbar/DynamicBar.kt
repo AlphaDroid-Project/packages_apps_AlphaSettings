@@ -174,6 +174,17 @@ class DynamicBar : SettingsPreferenceFragment() {
         private const val SETTINGS_KEY_COMPACT_NOTIFICATIONS = "ax_dynamic_bar_compact_notifications"
         private const val SETTINGS_KEY_BATTERY_CHIP_MODE = "ax_dynamic_bar_keyguard_battery_chip_mode"
 
+        // Cutout ring settings (Show on cutout)
+        private const val SETTINGS_KEY_CUTOUT_RING_ENABLED = "cutout_ring_enabled"
+        private const val SETTINGS_KEY_CUTOUT_COLLAPSE_TO_RING = "cutout_collapse_to_ring"
+        private const val SETTINGS_KEY_RING_GAP = "cutout_ring_gap_x1000"
+        private const val SETTINGS_KEY_RING_SCALE_X = "cutout_ring_scale_x_x1000"
+        private const val SETTINGS_KEY_RING_SCALE_Y = "cutout_ring_scale_y_x1000"
+        private const val SETTINGS_KEY_RING_OFFSET_X = "cutout_ring_offset_x_dp10"
+        private const val SETTINGS_KEY_RING_OFFSET_Y = "cutout_ring_offset_y_dp10"
+        private const val SETTINGS_KEY_RING_OPACITY = "cutout_ring_opacity"
+        private const val SETTINGS_KEY_RING_STROKE = "cutout_ring_stroke_dp10"
+
         @JvmStatic
         fun reset(context: Context) {
             val resolver = context.contentResolver
@@ -193,6 +204,23 @@ class DynamicBar : SettingsPreferenceFragment() {
                 resolver, SETTINGS_KEY_BATTERY_CHIP_MODE, 1,
                 UserHandle.USER_CURRENT
             )
+            // Reset cutout ring settings
+            Settings.System.putIntForUser(
+                resolver, SETTINGS_KEY_CUTOUT_RING_ENABLED, 0,
+                UserHandle.USER_CURRENT
+            )
+            Settings.System.putIntForUser(
+                resolver, SETTINGS_KEY_CUTOUT_COLLAPSE_TO_RING, 0,
+                UserHandle.USER_CURRENT
+            )
+            // Reset ring geometry
+            for (key in arrayOf(
+                SETTINGS_KEY_RING_GAP, SETTINGS_KEY_RING_SCALE_X, SETTINGS_KEY_RING_SCALE_Y,
+                SETTINGS_KEY_RING_OFFSET_X, SETTINGS_KEY_RING_OFFSET_Y, SETTINGS_KEY_RING_OPACITY,
+                SETTINGS_KEY_RING_STROKE,
+            )) {
+                Settings.System.putStringForUser(resolver, key, null, UserHandle.USER_CURRENT)
+            }
         }
     }
 }

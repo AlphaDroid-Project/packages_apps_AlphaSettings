@@ -198,6 +198,36 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="cutout_ring_category"
+        android:title="@string/cutout_ring_category_title"
+        android:dependency="ax_dynamic_bar_enabled">
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="cutout_ring_enabled"
+            android:title="@string/cutout_ring_enabled_title"
+            android:summary="@string/cutout_ring_enabled_summary"
+            android:icon="@drawable/ic_cutout_ring"
+            android:defaultValue="false" />
+
+        <com.alpha.settings.preferences.SystemSettingSwitchPreference
+            android:key="cutout_collapse_to_ring"
+            android:title="@string/cutout_collapse_to_ring_title"
+            android:summary="@string/cutout_collapse_to_ring_summary"
+            android:icon="@drawable/ic_cutout_ring"
+            android:defaultValue="false"
+            android:dependency="cutout_ring_enabled" />
+
+        <Preference
+            android:key="cutout_ring_settings"
+            android:title="@string/cutout_ring_settings_title"
+            android:summary="@string/cutout_ring_settings_summary"
+            android:icon="@drawable/ic_ring_settings"
+            android:dependency="cutout_collapse_to_ring"
+            android:fragment="com.alpha.settings.fragments.statusbar.CutoutRingSettingsFragment" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="dynamic_bar_guide_category">
 
         <Preference

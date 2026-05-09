@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 AlphaDroid
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/cutout_ring_settings_title">
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_gap_x1000"
+        android:title="@string/cutout_ring_gap_title"
+        android:summary="@string/cutout_ring_gap_summary"
+        android:defaultValue="1155"
+        settings:interval="5"
+        settings:min="800"
+        android:max="2000" />
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_scale_x_x1000"
+        android:title="@string/cutout_ring_scale_x_title"
+        android:defaultValue="1000"
+        settings:interval="10"
+        settings:min="500"
+        android:max="2000" />
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_scale_y_x1000"
+        android:title="@string/cutout_ring_scale_y_title"
+        android:defaultValue="1000"
+        settings:interval="10"
+        settings:min="500"
+        android:max="2000" />
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_offset_x_dp10"
+        android:title="@string/cutout_ring_offset_x_title"
+        android:defaultValue="0"
+        settings:interval="1"
+        settings:min="-100"
+        android:max="100" />
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_offset_y_dp10"
+        android:title="@string/cutout_ring_offset_y_title"
+        android:defaultValue="0"
+        settings:interval="1"
+        settings:min="-100"
+        android:max="100" />
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_opacity"
+        android:title="@string/cutout_ring_opacity_title"
+        android:defaultValue="90"
+        settings:interval="5"
+        settings:units="%"
+        settings:min="10"
+        android:max="100" />
+
+    <com.alpha.settings.preferences.SystemSettingSeekBarPreference
+        android:key="cutout_ring_stroke_dp10"
+        android:title="@string/cutout_ring_stroke_title"
+        android:summary="@string/cutout_ring_stroke_summary"
+        android:defaultValue="15"
+        settings:interval="5"
+        settings:min="5"
+        android:max="30" />
+
+</PreferenceScreen>

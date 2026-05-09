@@ -1208,7 +1208,7 @@
     <string name="dynamic_bar">Dynamic Bar</string>
     <string name="dynamic_bar_summary">Smart status bar chip for active events like recording, media, timers, and more</string>
     <string name="dynamic_bar_enable">Enable Dynamic Bar</string>
-    <string name="dynamic_bar_enable_summary">Show a dynamic chip on the status bar for live events</string>
+    <string name="dynamic_bar_enable_summary">Show a dynamic chip on the status bar or cutout area for live events</string>
     <string name="dynamic_bar_keyguard_enable">Dynamic bar on lock screen</string>
     <string name="dynamic_bar_keyguard_enable_summary">Replace keyguard indication with dynamic bar chip on the lock screen with controls and quick actions</string>
     <string name="dynamic_bar_keyguard_battery_chip">Battery info on lock screen</string>
@@ -1234,8 +1234,8 @@
     <string name="dynamic_bar_event_stopwatch_summary">Running stopwatch from clock app</string>
     <string name="dynamic_bar_event_alarm">Alarm</string>
     <string name="dynamic_bar_event_alarm_summary">Ringing and upcoming alarms</string>
-    <string name="dynamic_bar_event_charging">Charging started</string>
-    <string name="dynamic_bar_event_charging_summary">Battery level when plugged in</string>
+    <string name="dynamic_bar_event_charging">Battery charging status</string>
+    <string name="dynamic_bar_event_charging_summary">Show charging level and status when plugged in</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
     <string name="dynamic_bar_event_bluetooth_summary">Device connection status</string>
     <string name="dynamic_bar_event_hotspot">Hotspot</string>
@@ -1393,45 +1393,26 @@
     <string name="max_visible_notification_icons_title">Notification icons</string>
     <string name="max_visible_notification_icons_summary">Max. notification icons visible on statusbar</string>
 
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Cutout Progress Ring</string>
-    <string name="cutout_progress_summary">Show progress ring around punch hole</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Features</string>
-    <string name="cutout_progress_cat_appearance">Appearance</string>
-    <string name="cutout_progress_cat_geometry">Ring geometry</string>
-    <string name="cutout_progress_cat_island">Expanded mode</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Enable download progress ring</string>
-    <string name="cutout_progress_charging_ring_title">Enable charging progress ring</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Ring color mode</string>
-    <string name="cutout_progress_ring_color_mode_accent">Accent</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Rainbow</string>
-    <string name="cutout_progress_ring_color_mode_custom">Custom</string>
-    <string name="cutout_progress_ring_color_title">Custom ring color</string>
-    <string name="cutout_progress_ring_opacity_title">Ring opacity</string>
-    <string name="cutout_progress_stroke_width_title">Ring thickness</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Show background track</string>
-    <string name="cutout_progress_charging_pulse_title">Charging pulse animation</string>
-    <string name="cutout_progress_charging_pulse_summary">Animate a repeating pulse from center outward while charging</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Ring gap (cutout clearance)</string>
-    <string name="cutout_progress_path_mode_title">Follow cutout shape</string>
-    <string name="cutout_progress_path_mode_summary">Use the cutout’s native aspect ratio instead of normalizing the ring to a circle</string>
-    <string name="cutout_progress_scale_x_title">Horizontal scale</string>
-    <string name="cutout_progress_scale_y_title">Vertical scale</string>
-    <string name="cutout_progress_offset_x_title">Horizontal offset</string>
-    <string name="cutout_progress_offset_y_title">Vertical offset</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Compact layout</string>
-    <string name="cutout_progress_island_compact_summary">Wrap around the camera cutout</string>
-    <string name="cutout_progress_island_position_title">Compact layout alignment</string>
-    <string name="cutout_island_pos_center">Center split</string>
-    <string name="cutout_island_pos_left">Left</string>
-    <string name="cutout_island_pos_right">Right</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Background opacity</string>
     <string name="cutout_island_timeout_title">Auto-collapse timeout</string>
+
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
 
     <!-- Hide applist -->
     <string name="hide_applist_title">Hide applist</string>
