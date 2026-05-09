@@ -1067,19 +1067,6 @@
     <string name="dynamic_bar_event_app_switch_summary">Показывать чип при переключении между недавними приложениями</string>
     <string name="dynamic_bar_event_biometric">Биометрическая разблокировка</string>
     <string name="dynamic_bar_event_biometric_summary">Показывать чип при разблокировке по отпечатку пальца или лицу</string>
-    <string name="dynamic_bar_guide_title">Как использовать динамическую панель</string>
-    <string name="dynamic_bar_guide_chip">События появляются в строке состояния, показывая активные процессы: запись, воспроизведение медиа, таймеры</string>
-    <string name="dynamic_bar_guide_swipe">Когда активно несколько событий — проведите по чипу влево или вправо, чтобы переключаться между ними</string>
-    <string name="dynamic_bar_guide_expand">Нажмите на чип, чтобы развернуть его в подробную карточку с управлением и доп. информацией</string>
-    <string name="dynamic_bar_guide_dismiss">Смахните развернутую карточку, чтобы скрыть её. Событие продолжится в фоне</string>
-    <string name="dynamic_bar_guide_keyguard">Чип динамической панели также появляется в нижней части экрана блокировки с элементами управления воспроизведением и быстрыми действиями</string>
-    <string name="dynamic_bar_guide_chip_title">Внешний вид чипа</string>
-    <string name="dynamic_bar_guide_swipe_title">Перелистывание между чипами</string>
-    <string name="dynamic_bar_guide_expand_title">Нажмите, чтобы развернуть</string>
-    <string name="dynamic_bar_guide_dismiss_title">Смахните, чтобы скрыть</string>
-    <string name="dynamic_bar_guide_keyguard_title">Чип на экране блокировки</string>
-    <string name="dynamic_bar_footer_title">О динамической панели</string>
-    <string name="dynamic_bar_footer_body">Динамическая панель превращает строку состояния в интерактивный центр уведомлений. Чипы статуса появляются и анимируются в ответ на системные события, чтобы вы могли быстро увидеть важное, не отвлекаясь от задач.\\n\\nУ каждого типа событий свой акцентный цвет и развёрнутая карточка с быстрыми действиями.</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Настройки Alpha</string>
@@ -1220,4 +1207,19 @@
     <string name="menu_hide_overlay">Скрыть оверлей</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Форма ползунка громкости</string>
+
+    <string name="dynamic_bar_guide_chip">События отображаются в виде анимированного виджета в строке состояния. Если включено \"Показывать в вырезе\", виджет перемещается вокруг выреза фронтальной камеры.</string>
+    <string name="dynamic_bar_guide_swipe">Если активно несколько событий, смахните влево или вправо по виджету, чтобы переключаться между ними. Значок показывает общее количество событий. Смахивание работает даже при открытой расширенной карточке.</string>
+    <string name="dynamic_bar_guide_expand">Нажмите на виджет, чтобы открыть расширенную карточку текущего события с элементами управления и деталями. Если событий несколько, нажмите кнопку расширения под карточкой, чтобы увидеть их все.</string>
+    <string name="dynamic_bar_guide_dismiss">Смахните расширенную карточку влево или вправо, чтобы закрыть конкретное событие и удалить его из Dynamic Bar. Чтобы свернуть всю стопку обратно в строку состояния без закрытия событий, нажмите вне карточек или смахните вверх по фону.</string>
+    <string name="dynamic_bar_guide_keyguard">Виджет также появляется в нижней части экрана блокировки, заменяя стандартный текст индикации элементами управления воспроизведением и быстрыми действиями.</string>
+    <string name="dynamic_bar_guide_long_press">Удерживайте нажатие на виджете, чтобы перейти прямо к настройкам Dynamic Bar.</string>
+    <string name="dynamic_bar_guide_cutout">При включенном \"Показывать в вырезе\" виджет огибает вырез камеры. При бездействии правая сторона сворачивается. Включите \"Сворачивать в кольцо\", чтобы виджет сжимался в анимированное кольцо со специальными анимациями.</string>
+    <string name="dynamic_bar_guide_chip_title">Внешний вид</string>
+    <string name="dynamic_bar_guide_swipe_title">Переключение событий</string>
+    <string name="dynamic_bar_guide_expand_title">Нажмите для расширения</string>
+    <string name="dynamic_bar_guide_dismiss_title">Закрыть или свернуть</string>
+    <string name="dynamic_bar_guide_keyguard_title">На экране блокировки</string>
+    <string name="dynamic_bar_guide_long_press_title">Быстрый доступ к настройкам</string>
+    <string name="dynamic_bar_guide_cutout_title">Режим выреза</string>
 </resources>

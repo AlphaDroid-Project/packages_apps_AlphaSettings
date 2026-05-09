@@ -22,6 +22,8 @@ class DynamicBarGuide : SettingsPreferenceFragment() {
         GuideStep(R.string.dynamic_bar_guide_expand_title, R.string.dynamic_bar_guide_expand),
         GuideStep(R.string.dynamic_bar_guide_dismiss_title, R.string.dynamic_bar_guide_dismiss),
         GuideStep(R.string.dynamic_bar_guide_keyguard_title, R.string.dynamic_bar_guide_keyguard),
+        GuideStep(R.string.dynamic_bar_guide_long_press_title, R.string.dynamic_bar_guide_long_press),
+        GuideStep(R.string.dynamic_bar_guide_cutout_title, R.string.dynamic_bar_guide_cutout),
     )
 
     private val stepViewIds = intArrayOf(
@@ -30,6 +32,8 @@ class DynamicBarGuide : SettingsPreferenceFragment() {
         R.id.guide_step_3,
         R.id.guide_step_4,
         R.id.guide_step_5,
+        R.id.guide_step_6,
+        R.id.guide_step_7,
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

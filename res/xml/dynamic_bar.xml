@@ -238,15 +238,5 @@
             android:fragment="com.alpha.settings.fragments.statusbar.DynamicBarGuide" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="dynamic_bar_footer_category">
-
-        <Preference
-            android:key="dynamic_bar_footer"
-            android:title="@string/dynamic_bar_footer_title"
-            android:summary="@string/dynamic_bar_footer_body"
-            android:icon="@drawable/ic_info"
-            android:selectable="false" />
-    </PreferenceCategory>
 
 </PreferenceScreen>

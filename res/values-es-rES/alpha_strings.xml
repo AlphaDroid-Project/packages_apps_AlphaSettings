@@ -1062,19 +1062,6 @@ Mantén presionado para establecer</string>
     <string name="dynamic_bar_event_app_switch_summary">Mostrar chip al cambiar entre aplicaciones recientes</string>
     <string name="dynamic_bar_event_biometric">Desbloqueo biométrico</string>
     <string name="dynamic_bar_event_biometric_summary">Mostrar chip en huella digital o desbloqueo facial</string>
-    <string name="dynamic_bar_guide_title">Cómo utilizar la barra dinámica</string>
-    <string name="dynamic_bar_guide_chip">Los eventos aparecen en la barra de estado mostrando eventos activos como grabación, reproducción multimedia y temporizadores.</string>
-    <string name="dynamic_bar_guide_swipe">Cuando hay varios eventos activos, deslice el dedo hacia la izquierda o hacia la derecha en el chip para recorrerlos</string>
-    <string name="dynamic_bar_guide_expand">Toca un chip para expandirlo y convertirlo en una tarjeta detallada con controles e información adicional.</string>
-    <string name="dynamic_bar_guide_dismiss">Desliza la tarjeta expandida para descartarla. El evento continúa en segundo plano.</string>
-    <string name="dynamic_bar_guide_keyguard">El chip de barra dinámica también aparece en la parte inferior de la pantalla de bloqueo con controles de reproducción y acciones rápidas.</string>
-    <string name="dynamic_bar_guide_chip_title">Aspecto del chip</string>
-    <string name="dynamic_bar_guide_swipe_title">Deslizar entre fichas</string>
-    <string name="dynamic_bar_guide_expand_title">Toca para expandir</string>
-    <string name="dynamic_bar_guide_dismiss_title">Desliza para descartar</string>
-    <string name="dynamic_bar_guide_keyguard_title">Chip de pantalla de bloqueo</string>
-    <string name="dynamic_bar_footer_title">Acerca de la barra dinámica</string>
-    <string name="dynamic_bar_footer_body">La barra dinámica transforma la barra de estado en un centro interactivo. Los chips de estado aparecen y se animan según los eventos del sistema, para ver la información de un vistazo sin interrumpir el flujo de trabajo.\\n\\nCada tipo de evento tiene su propio color de acento y una tarjeta ampliada con acciones rápidas.</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Ajustes de Alpha</string>
@@ -1215,4 +1202,19 @@ Mantén presionado para establecer</string>
     <string name="menu_hide_overlay">Ocultar superposición</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Forma del control deslizante de volumen</string>
+
+    <string name="dynamic_bar_guide_chip">Los eventos aparecen como una píldora animada en la barra de estado. Cuando \"Mostrar en el recorte\" está activado, la píldora se mueve alrededor del recorte de la cámara frontal en su lugar.</string>
+    <string name="dynamic_bar_guide_swipe">Cuando hay varios eventos activos, desliza hacia la izquierda o derecha en la píldora para cambiar entre ellos. Un indicador muestra el recuento total de eventos. También puedes deslizar mientras la tarjeta expandida está abierta.</string>
+    <string name="dynamic_bar_guide_expand">Toca la píldora para abrir una tarjeta expandida del evento actual con controles y detalles. Si hay más eventos apilados, toca el botón de expandir debajo de la tarjeta para verlos todos.</string>
+    <string name="dynamic_bar_guide_dismiss">Desliza una tarjeta expandida a izquierda o derecha para descartar ese evento específico y eliminarlo de la Barra Dinámica. Para colapsar toda la pila hacia la barra de estado sin descartar eventos, toca fuera de las tarjetas o desliza hacia arriba en el fondo.</string>
+    <string name="dynamic_bar_guide_keyguard">La píldora también aparece en la parte inferior de la pantalla de bloqueo, reemplazando el texto de indicación estándar con controles de reproducción y acciones rápidas.</string>
+    <string name="dynamic_bar_guide_long_press">Mantén presionada la píldora para saltar directamente a estos ajustes de la Barra Dinámica.</string>
+    <string name="dynamic_bar_guide_cutout">Con \"Mostrar en el recorte\" activado, la píldora abraza el recorte de la cámara. Cuando está inactiva, el lado derecho se colapsa. Activa \"Colapsar a anillo\" para reducir la píldora a un anillo animado con animaciones específicas para cada evento.</string>
+    <string name="dynamic_bar_guide_chip_title">Apariencia de la píldora</string>
+    <string name="dynamic_bar_guide_swipe_title">Cambiar eventos</string>
+    <string name="dynamic_bar_guide_expand_title">Tocar para expandir</string>
+    <string name="dynamic_bar_guide_dismiss_title">Descartar o colapsar</string>
+    <string name="dynamic_bar_guide_keyguard_title">Pantalla de bloqueo</string>
+    <string name="dynamic_bar_guide_long_press_title">Acceso rápido a ajustes</string>
+    <string name="dynamic_bar_guide_cutout_title">Modo recorte</string>
 </resources>
