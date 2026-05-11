@@ -23,6 +23,30 @@
     <PreferenceCategory
          android:title="@string/misc_spoofing_category">
 
+        <!-- Play Integrity Fix -->
+        <Preference
+            android:key="play_integrity_fix"
+            android:icon="@drawable/ic_fingerprint"
+            android:title="@string/play_integrity_fix_title"
+            android:summary="@string/play_integrity_fix_summary"
+            android:fragment="com.alpha.settings.fragments.misc.PlayIntegrityFix" />
+
+        <!-- TrickyStore -->
+        <Preference
+            android:key="tricky_store"
+            android:icon="@drawable/ic_vpn_key"
+            android:title="@string/tricky_store_title"
+            android:summary="@string/tricky_store_summary"
+            android:fragment="com.alpha.settings.fragments.misc.TrickyStore" />
+
+        <!-- Game Spoofing -->
+        <Preference
+            android:key="game_spoofing"
+            android:icon="@drawable/ic_swap_horiz"
+            android:title="@string/game_spoofing_title"
+            android:summary="@string/game_spoofing_summary"
+            android:fragment="com.alpha.settings.fragments.misc.GameSpoofing" />
+
         <!-- Hide ADB and developer status -->
         <Preference
             android:key="hide_developer_status_settings"
