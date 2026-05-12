@@ -41,6 +41,9 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.alpha.settings.fragments.misc.SensorBlock;
+import com.alpha.settings.fragments.misc.SmartPixels;
+
+import android.os.SystemProperties;
 
 import java.util.List;
 
