@@ -43,8 +43,6 @@ import com.android.settingslib.search.SearchIndexable;
 import com.alpha.settings.fragments.misc.SensorBlock;
 import com.alpha.settings.fragments.misc.SmartPixels;
 
-import android.os.SystemProperties;
-
 import java.util.List;
 
 
@@ -124,7 +122,6 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
         SensorBlock.reset(mContext);
-        SystemProperties.set("persist.sys.vbmeta.update", "true");
         SmartPixels.reset(mContext);
     }
 
