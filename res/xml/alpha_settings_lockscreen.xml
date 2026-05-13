@@ -46,19 +46,6 @@
         android:defaultValue="@*android:bool/config_dozeSupportsAodWallpaper" />
 
     <PreferenceCategory
-        android:key="lockscreen_clock_category"
-        android:title="@string/lockscreen_clock_category">
-
-        <!-- Custom clock style -->
-        <Preference
-            android:key="lockscreen_custom_clock_style"
-            android:icon="@drawable/ic_font"
-            android:title="@string/lockscreen_custom_clock_style_title"
-            android:summary="@string/lockscreen_custom_clock_style_summary"
-            android:fragment="com.alpha.settings.fragments.lockscreen.CustomClockPreview" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="lockscreen_interface_category"
         android:title="@string/lockscreen_interface_category">
 
