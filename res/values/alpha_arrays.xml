@@ -921,19 +921,6 @@
         <item>sb_date_bg12</item>
     </string-array>
 
-    <!-- Custom clock style -->
-    <string-array name="lockscreen_custom_clock_color_mode_entries" translatable="false">
-        <item>@string/default_value</item>
-        <item>@string/accent_color</item>
-        <item>@string/custom_color</item>
-    </string-array>
-
-    <string-array name="lockscreen_custom_clock_color_mode_values" translatable="false">
-        <item>default</item>
-        <item>accent</item>
-        <item>custom</item>
-    </string-array>
-
     <!-- QS Panel style -->
     <string-array name="qs_panel_style_entries" translatable="false">
         <item>@string/qs_panel_style_card</item>
@@ -1046,6 +1033,32 @@
         <item>slash</item>
         <item>aerogel</item>
         <item>metallic</item>
+    </string-array>
+
+    <!-- Lockscreen smartspace source -->
+    <string-array name="lockscreen_smartspace_source_entries">
+        <item>@string/lockscreen_smartspace_source_axion</item>
+        <item>@string/lockscreen_smartspace_source_google</item>
+        <item>@string/lockscreen_smartspace_source_none</item>
+    </string-array>
+
+    <string-array name="lockscreen_smartspace_source_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Lockscreen weather source -->
+    <string-array name="lockscreen_weather_source_entries">
+        <item>@string/lockscreen_weather_source_disabled</item>
+        <item>@string/lockscreen_weather_source_omnijaws</item>
+        <item>@string/lockscreen_weather_source_google</item>
+    </string-array>
+
+    <string-array name="lockscreen_weather_source_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 
 </resources>

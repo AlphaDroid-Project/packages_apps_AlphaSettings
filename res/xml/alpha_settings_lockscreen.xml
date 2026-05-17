@@ -71,18 +71,30 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
-        <com.alpha.settings.preferences.SecureSettingSwitchPreference
-            android:key="lockscreen_smartspace_enabled"
-            android:icon="@drawable/ic_weather"
-            android:title="@string/lockscreen_smartspace_title"
-            android:summary="@string/lockscreen_smartspace_summary"
-            android:defaultValue="true" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="lockscreen_weather_category"
         android:title="@string/lockscreen_weather_category">
+
+        <Preference
+            android:key="quicklook_settings"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/quicklook_settings_title"
+            android:summary="@string/quicklook_settings_summary">
+            <intent
+                android:action="com.android.axion.quicklook.SETTINGS"
+                android:targetPackage="com.android.axion.quicklook" />
+        </Preference>
+
+        <com.alpha.settings.preferences.SecureSettingListPreference
+            android:key="quick_look_weather_provider"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/lockscreen_weather_source_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_weather_source_entries"
+            android:entryValues="@array/lockscreen_weather_source_values"
+            android:defaultValue="1" />
 
         <Preference
             android:icon="@drawable/ic_weather_settings"

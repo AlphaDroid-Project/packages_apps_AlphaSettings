@@ -24,7 +24,7 @@ import android.util.Log;
 public class DozeReceiver extends BroadcastReceiver {
 
     private static final boolean DEBUG = false;
-    private static final String TAG = "crDroidDoze";
+    private static final String TAG = "AlphaDoze";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
