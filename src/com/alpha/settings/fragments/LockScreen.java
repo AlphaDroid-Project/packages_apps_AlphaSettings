@@ -53,13 +53,6 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
     private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
-    private static final String KEY_WEATHER = "lockscreen_weather_enabled";
-    private static final String KEY_WEATHER_SOURCE = "quick_look_weather_provider";
-    private static final String KEY_WEATHER_SETTINGS = "weather_settings";
-    private static final String KEY_WEATHER_LOCATION = "lockscreen_weather_location";
-    private static final String KEY_WEATHER_TEXT = "lockscreen_weather_text";
-    private static final String KEY_WEATHER_WIND = "lockscreen_weather_wind_info";
-    private static final String KEY_WEATHER_HUMIDITY = "lockscreen_weather_humidity_info";
     private static final String KEY_UDFPS_ANIMATIONS = "udfps_recognizing_animation_preview";
     private static final String KEY_UDFPS_ICONS = "udfps_icon_picker";
 
@@ -71,9 +64,6 @@ public class LockScreen extends SettingsPreferenceFragment
     private Preference mUdfpsAnimations;
     private Preference mUdfpsIcons;
     private Preference mRippleEffect;
-
-    private com.alpha.settings.preferences.SecureSettingListPreference mWeatherSource;
-    private SwitchPreferenceCompat mWeather;
     private SwitchPreferenceCompat mFpSuccessVib;
     private SwitchPreferenceCompat mFpErrorVib;
 
@@ -118,26 +108,10 @@ public class LockScreen extends SettingsPreferenceFragment
             intCategory.removePreference(carrierName);
         }
 
-        mWeather = (SwitchPreferenceCompat) findPreference(KEY_WEATHER);
-        mWeather.setOnPreferenceChangeListener(this);
-
-        mWeatherSource = (com.alpha.settings.preferences.SecureSettingListPreference) findPreference(KEY_WEATHER_SOURCE);
-        mWeatherSource.setOnPreferenceChangeListener(this);
-
-        updateWeatherSettings();
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mWeather) {
-            mWeather.setChecked((Boolean) newValue);
-            return true;
-        } else if (preference == mWeatherSource) {
-            mWeatherSource.setValue((String) newValue);
-            updateWeatherSettings();
-            return true;
-        }
-
         return false;
     }
 
@@ -165,6 +139,18 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.LOCKSCREEN_WEATHER_WIND_INFO, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_WEATHER_HUMIDITY_INFO, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "quick_look_calendar", 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "quick_look_alarm", 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "quick_look_media", 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "quick_look_now_playing", 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "quick_look_google_smartspace", 1, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "quick_look_smartspacer", 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_SHOW_CARRIER, 1, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
@@ -181,37 +167,11 @@ public class LockScreen extends SettingsPreferenceFragment
         UdfpsIconPicker.Companion.reset(mContext);
     }
 
-    private void updateWeatherSettings() {
-        if (mWeatherSource == null) return;
 
-        // 0 = disabled, 1 = OmniJaws, 2 = Google
-        boolean isOmniJaws = mWeatherSource.getIntValue(1) == 1;
-
-        // OmniJaws settings link — only relevant when OmniJaws is the provider
-        Preference weatherSettings = findPreference("weather_settings");
-        if (weatherSettings != null) {
-            weatherSettings.setEnabled(isOmniJaws);
-        }
-
-        // The lockscreen_weather_enabled toggle and its dependents only apply to OmniJaws
-        // display options. When disabled or Google is selected, these prefs have no effect.
-        if (mWeather != null) {
-            mWeather.setEnabled(isOmniJaws);
-        }
-        Preference loc = findPreference(KEY_WEATHER_LOCATION);
-        if (loc != null) loc.setEnabled(isOmniJaws && mWeather != null && mWeather.isChecked());
-        Preference text = findPreference(KEY_WEATHER_TEXT);
-        if (text != null) text.setEnabled(isOmniJaws && mWeather != null && mWeather.isChecked());
-        Preference wind = findPreference(KEY_WEATHER_WIND);
-        if (wind != null) wind.setEnabled(isOmniJaws && mWeather != null && mWeather.isChecked());
-        Preference humidity = findPreference(KEY_WEATHER_HUMIDITY);
-        if (humidity != null) humidity.setEnabled(isOmniJaws && mWeather != null && mWeather.isChecked());
-    }
 
     @Override
     public void onResume() {
         super.onResume();
-        updateWeatherSettings();
     }
 
     @Override

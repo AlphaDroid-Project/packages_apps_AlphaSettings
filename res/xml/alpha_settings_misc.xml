@@ -121,6 +121,14 @@
             android:summary="@string/pocket_judge_summary"
             android:defaultValue="false" />
 
+        <!-- Weather Settings -->
+        <Preference
+            android:key="weather_settings_fragment"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/quicklook_weather_title"
+            android:summary="@string/quicklook_weather_summary"
+            android:fragment="com.alpha.settings.fragments.misc.WeatherSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

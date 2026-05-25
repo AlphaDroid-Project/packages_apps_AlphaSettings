@@ -73,75 +73,52 @@
 
     </PreferenceCategory>
 
+    <!-- QuickLook -->
     <PreferenceCategory
-        android:key="lockscreen_weather_category"
-        android:title="@string/lockscreen_weather_category">
+        android:key="quicklook_category"
+        android:title="@string/quicklook_category_title">
 
-        <Preference
-            android:key="quicklook_settings"
-            android:icon="@drawable/ic_weather"
-            android:title="@string/quicklook_settings_title"
-            android:summary="@string/quicklook_settings_summary">
-            <intent
-                android:action="com.android.axion.quicklook.SETTINGS"
-                android:targetPackage="com.android.axion.quicklook" />
-        </Preference>
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_look_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/quicklook_calendar_title"
+            android:summary="@string/quicklook_calendar_summary"
+            android:defaultValue="true" />
 
-        <com.alpha.settings.preferences.SecureSettingListPreference
-            android:key="quick_look_weather_provider"
-            android:icon="@drawable/ic_weather"
-            android:title="@string/lockscreen_weather_source_title"
-            android:summary="%s"
-            android:entries="@array/lockscreen_weather_source_entries"
-            android:entryValues="@array/lockscreen_weather_source_values"
-            android:defaultValue="1" />
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_look_alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="@string/quicklook_alarm_title"
+            android:summary="@string/quicklook_alarm_summary"
+            android:defaultValue="true" />
 
-        <Preference
-            android:icon="@drawable/ic_weather_settings"
-            android:title="@string/weather_settings_title"
-            android:summary="@string/weather_settings_summary">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="org.omnirom.omnijaws"
-                android:targetClass="org.omnirom.omnijaws.SettingsActivity" />
-        </Preference>
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_look_media"
+            android:icon="@drawable/ic_music_note"
+            android:title="@string/quicklook_media_title"
+            android:summary="@string/quicklook_media_summary"
+            android:defaultValue="true" />
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_weather_enabled"
-            android:icon="@drawable/ic_weather"
-            android:title="@string/lockscreen_weather_title"
-            android:summary="@string/lockscreen_weather_summary" />
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_look_now_playing"
+            android:icon="@drawable/ic_now_playing"
+            android:title="@string/quicklook_now_playing_title"
+            android:summary="@string/quicklook_now_playing_summary"
+            android:defaultValue="true" />
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_weather_location"
-            android:icon="@drawable/ic_map_marker"
-            android:title="@string/lockscreen_weather_location_title"
-            android:summary="@string/lockscreen_weather_location_summary"
-            android:dependency="lockscreen_weather_enabled" />
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_look_google_smartspace"
+            android:icon="@drawable/ic_google"
+            android:title="@string/quicklook_google_smartspace_title"
+            android:summary="@string/quicklook_google_smartspace_summary"
+            android:defaultValue="true" />
 
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_weather_text"
-            android:icon="@drawable/ic_weather_condition"
-            android:title="@string/lockscreen_weather_text_title"
-            android:summary="@string/lockscreen_weather_text_summary"
-            android:defaultValue="true"
-            android:dependency="lockscreen_weather_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_weather_wind_info"
-            android:icon="@drawable/ic_weather_windy"
-            android:title="@string/lockscreen_weather_wind_info_title"
-            android:summary="@string/lockscreen_weather_wind_info_summary"
-            android:defaultValue="false"
-            android:dependency="lockscreen_weather_enabled" />
-
-        <com.alpha.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_weather_humidity_info"
-            android:icon="@drawable/ic_water_percent"
-            android:title="@string/lockscreen_weather_humidity_info_title"
-            android:summary="@string/lockscreen_weather_humidity_info_summary"
-            android:defaultValue="false"
-            android:dependency="lockscreen_weather_enabled" />
+        <com.alpha.settings.preferences.SecureSettingSwitchPreference
+            android:key="quick_look_smartspacer"
+            android:icon="@drawable/ic_smartspacer"
+            android:title="@string/quicklook_smartspacer_title"
+            android:summary="@string/quicklook_smartspacer_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 
