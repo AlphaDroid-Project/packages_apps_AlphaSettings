@@ -559,12 +559,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Oznámení posuvníku upozornění</string>
     <string name="alert_slider_notifications_summary">Zobrazit oznámení při změně pozice posuvníku upozornění</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Neomezené úložiště fotografií</string>
-    <string name="use_photos_spoof_summary">Spouštět vaše zařízení jako Pixel XL pro aplikaci Google Fotky pouze k poskytnutí neomezeného úložiště pro zálohu</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Odemknout vyšší FPS ve hrách</string>
-    <string name="use_games_spoof_summary">Napodobí vaše zařízení jako jiný model pro konkrétní hry k\u00a0odemknutí vyšších FPS</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Panel hlasitosti</string>
     <string name="volume_dialog_timeout_title">Doba trvání zobrazení Panelu hlasitosti</string>
@@ -652,13 +646,7 @@
     <string name="smart_pixels_warning_text">Smart Pixels je funkce šetřící energii. V\u00a0závislosti na počtu pixelů, které se rozhodnete vypnout, můžete zaznamenat zlepšení výdrže baterie. Mějte na paměti, že v\u00a0některých případech může místy dojít ke ztrátě citlivosti dotykové obrazovky</string>
     <string name="smart_pixels_title">Chytré pixely</string>
     <string name="smart_pixels_summary">Zvyšte výdrž baterie vypnutím dalších pixelů</string>
-    <string name="smart_pixels_enable_title">Zapnout Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Chcete‑li snížit spotřebu energie, vypněte pixely</string>
-    <string name="smart_pixels_on_power_save_title">Automaticky zapnout při spořiči baterie</string>
-    <string name="smart_pixels_on_power_save_summary">Zapnout Smart Pixels při spuštění spořiče baterie</string>
     <string name="smart_pixels_percent">Procenta pixelů k\u00a0vypnutí</string>
-    <string name="smart_pixels_shift_title">Ochrana před vypálením obrazovky</string>
-    <string name="smart_pixels_shift_summary">Zabraňuje vypalování displeje na zařízeních s\u00a0OLED displejem častým přepínáním pixelů</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animace gesta „Zpět“</string>
     <string name="back_gesture_arrow_summary">Zobrazit animovanou šipku gesta „Zpět“</string>
@@ -678,22 +666,19 @@
     <string name="qs_footer_datausage_title">Využití dat</string>
     <string name="qs_footer_datausage_summary">Zobrazit přehled využití dat v\u00a0zápatí rychlého nastavení</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Animace dlaždic</string>
     <string name="qs_tile_animation_style_title">Styl animace</string>
-    <string name="qs_tile_animation_duration_title">Doba trvání animace</string>
-    <string name="qs_tile_animation_interpolator_title">Interpolátor animace</string>
-    <string name="qs_tile_animation_style_off">Žádná animace</string>
-    <string name="qs_tile_animation_style_rotate">Otočení</string>
-    <string name="qs_tile_animation_style_flipx">Překlopení X</string>
-    <string name="qs_tile_animation_style_flipy">Překlopení Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineární</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Zrychlení</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zpomalení</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Zrychlení a\u00a0Zpomalení</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Odskočení</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročení</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Předbíhání</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Předbíhání a\u00a0Překročení</string>
+    <string name="qs_tile_animation_style_bounce">Bounce</string>
+    <string name="qs_tile_animation_style_ripple">Ripple</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Shake</string>
+    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_spin">Spin</string>
+    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_tilt">Naklonění</string>
+    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_swing">Swing</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Zvuk snímku obrazovky</string>
     <string name="screenshot_shutter_sound_summary">Přehrát zvuk při pořízení snímku obrazovky</string>
@@ -729,10 +714,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Nastavení počasí</string>
     <string name="weather_settings_summary">Nastavení balíčků ikon a služby počasí</string>
-    <string name="lockscreen_weather_category">Počasí</string>
-    <string name="lockscreen_weather_title">Aktualizace počasí</string>
-    <string name="lockscreen_weather_summary">Zobrazit aktuální aktualizaci počasí</string>
-    <string name="lockscreen_weather_enabled_info">Vyžaduje mít nakonfigurovanou vlastní službu počasí a zakázaný smartspace</string>
+    <string name="quicklook_weather_title">Weather</string>
+    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
     <string name="lockscreen_weather_location_title">Aktuální poloha</string>
     <string name="lockscreen_weather_location_summary">Zobrazit aktuální polohu počasí</string>
     <string name="lockscreen_weather_text_title">Aktuální stav</string>
@@ -766,12 +749,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Plovoucí tlačítko otáčení</string>
     <string name="floating_rotation_button_summary">Zobrazit plovoucí tlačítko otáčení při otočení zařízení</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Spoof Netflix</string>
-    <string name="netflix_spoof_summary">Napodobte vaše zařízení, aby se tvářilo jako jiný model pro Netflix</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Napodobení integrity Obchodu Google Play</string>
-    <string name="pi_spoof_summary">Napodobit vaše zařízení, aby se pro integritu Obchodu Google Play chovalo jako jiný model</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi‑Fi standard</string>
     <string name="wifi_standard_icon_summary">Zobrazit vedle Wi‑Fi signálu Wi‑Fi standard</string>
@@ -847,6 +824,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Smartspace</string>
     <string name="lockscreen_smartspace_summary">Zobrazit Google Smartspace, pokud je k dispozici</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
+    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_disabled">Zakázáno</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Zakázat schránku</string>
     <!-- Increasing ring tone volume -->
@@ -874,18 +861,6 @@
     <string name="custom_style_fluid">Fluid (Průhledný)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Vrstvy</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Přepsání ověření Keyboxu</string>
-    <string name="keybox_data_summary">Načíst vlastní Keybox XML pro přepsání ověření klíčů zařízení</string>
-    <string name="keybox_data_loaded_summary">Vlastní Keybox XML načteno. Odstranit pro smazání.</string>
-    <string name="keybox_delete_content_description">Vymazat data Keyboxu</string>
-    <string name="keybox_toast_invalid_file_selected">Nejde o soubor XML. Vyber platný Keybox XML.</string>
-    <string name="keybox_toast_missing_data">Neplatný Keybox XML: chybí povinná pole</string>
-    <string name="keybox_toast_file_loaded">Keybox načten</string>
-    <string name="keybox_toast_file_cleared">Úložiště klíčů vymazáno</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Zakázat vynucení silné integrity</string>
-    <string name="pi_gmscertchain_summary">Je-li tato možnost povolena, nevynucovat silnou integritu z platné vlastní klávesnice a při opravě aplikací, jako je Google Pay, spoléhat na falšování integrity Google Play</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Tvar dlaždic QS</string>
     <string name="qs_tile_shape_dynamic">Dynamický</string>
@@ -930,6 +905,10 @@
     <string name="pulse_settings_summary">Audio grafický ekvalizér v\u00a0navigačním panelu a\u00a0na obrazovce uzamčení</string>
     <string name="ambient_pulse_enabled_title">Ambientní ekvalizér</string>
     <string name="ambient_pulse_enabled_summary">Zobrazit vizualizér na okolním displeji</string>
+    <string name="pulse_bass_haptics_title">Bass haptics</string>
+    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
+    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
+    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
     <string name="pulse_rounded_bars_title">Zaoblené tyče</string>
     <string name="pulse_rounded_bars_summary">Zobrazte pruhy vizualizéru se zaoblenými rohy</string>
     <string name="pulse_color">Barva vizualizéru</string>
@@ -947,6 +926,8 @@
     <string name="pulse_renderer_minimal_wave">Minimální vlna</string>
     <string name="pulse_renderer_sparkle">Jiskra</string>
     <string name="pulse_renderer_matrix">Matrix</string>
+    <string name="pulse_renderer_particle">Particle</string>
+    <string name="pulse_renderer_waveform">Waveform</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Průhledná upozornění</string>
     <string name="notification_row_transparency_summary">Nastavit v QS průsvitné pozadí oznámení</string>
@@ -958,9 +939,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Squiggle animace</string>
     <string name="media_squiggle_animation_summary">Při přehrávání médií zobrazit animaci klikytění vyhledávacího pruhu v panelu médií</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Automaticky opravit detekci VBMeta</string>
-    <string name="vbmeta_attestation_summary">Provést ověření klíče pro generování ověřeného boot hashe při spuštění. Vyžaduje restart systému.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Neověřovat</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -989,16 +967,6 @@
     <string name="cycle_type_weekly_sub">Den každého týdne:\n1 = pondělí</string>
     <string name="cycle_type_daily_title">Hodina obnovení cyklu využití</string>
     <string name="cycle_type_daily_sub">Hodina každého dne:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Vlastní styl hodin</string>
-    <string name="lockscreen_custom_clock_style_summary">Konfigurace stylů hodin zamykací obrazovky</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Přejetím doleva nebo doprava zobrazíte náhled stylů hodin</string>
-    <string name="lockscreen_custom_clock_style_info">Vlastní styl hodin nahrazuje styly hodin AOSP vlastními hodinami. Smartspace bude deaktivován. Místo toho můžete povolit a používat vlastní počasí.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Vlastní neprůhlednost hodin</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Upravte průhlednost vlastního stylu hodin</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Vlastní výška hodin</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Upravte výšku vlastního stylu hodin</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Vlastní barevný režim hodin</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">Styl panelu QS</string>
     <string name="qs_panel_style_card">Styl karty</string>
@@ -1027,12 +995,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Pouze při nabíjení</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Vždy ukázat</string>
     <string name="dynamic_bar_events">Události</string>
-    <string name="dynamic_bar_event_recording">Záznam obrazovky</string>
-    <string name="dynamic_bar_event_recording_summary">Indikátor nahrávání aktivní obrazovky</string>
-    <string name="dynamic_bar_event_privacy">Indikátory soukromí</string>
-    <string name="dynamic_bar_event_privacy_summary">Upozornění na přístup ke kameře a mikrofonu</string>
     <string name="dynamic_bar_event_audio_recording">Záznam zvuku</string>
     <string name="dynamic_bar_event_audio_recording_summary">Hlasový záznamník a nahrávání zvuku</string>
+    <string name="dynamic_bar_event_call">Ongoing call</string>
+    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
     <string name="dynamic_bar_event_media">Přehrávání médií</string>
     <string name="dynamic_bar_event_media_summary">Nyní se přehrává hudba a ovládání zvuku</string>
     <string name="dynamic_bar_event_notification">Oznámení</string>
@@ -1059,8 +1025,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Zkopírovaný náhled textu a obrázku</string>
     <string name="dynamic_bar_event_torch">Svítilna</string>
     <string name="dynamic_bar_event_torch_summary">Přepínání a jas svítilny</string>
-    <string name="dynamic_bar_event_casting">Odesílání</string>
-    <string name="dynamic_bar_event_casting_summary">Stav obsazení obrazovky a mediálního obsazení</string>
     <string name="dynamic_bar_event_ongoing">Probíhající aktivity</string>
     <string name="dynamic_bar_event_ongoing_summary">Navigace, dodávky a další živé aktivity</string>
     <string name="dynamic_bar_event_sports">Sportovní</string>
@@ -1070,18 +1034,111 @@
     <string name="dynamic_bar_event_biometric">Biometrické odemknutí</string>
     <string name="dynamic_bar_event_biometric_summary">Zobrazit čip na otisku prstu nebo odemknutí obličejem</string>
     <string name="dynamic_bar_guide_title">Jak používat Dynamic Bar</string>
-    <string name="dynamic_bar_guide_chip">Události se zobrazují ve stavovém řádku s aktivními událostmi, jako je nahrávání, přehrávání médií a časovače</string>
-    <string name="dynamic_bar_guide_swipe">Když je aktivních více událostí, přejeďte prstem doleva nebo doprava po čipu a procházejte je</string>
-    <string name="dynamic_bar_guide_expand">Klepnutím na čip jej rozbalíte na podrobnou kartu s ovládacími prvky a dalšími informacemi</string>
-    <string name="dynamic_bar_guide_dismiss">Chcete-li rozbalenou kartu zavřít, přejeďte ji pryč. Akce pokračuje na pozadí</string>
-    <string name="dynamic_bar_guide_keyguard">Čip dynamické lišty se také objeví ve spodní části zamykací obrazovky s ovládacími prvky přehrávání a rychlými akcemi</string>
+    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
+    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
+    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
+    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
     <string name="dynamic_bar_guide_chip_title">Vzhled čipu</string>
-    <string name="dynamic_bar_guide_swipe_title">Přecházejte mezi čipy</string>
+    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
     <string name="dynamic_bar_guide_expand_title">Klepnutím rozbalíte</string>
-    <string name="dynamic_bar_guide_dismiss_title">Přejetím zavřete</string>
+    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
     <string name="dynamic_bar_guide_keyguard_title">Čip zamykací obrazovky</string>
-    <string name="dynamic_bar_footer_title">O Dynamic Bar</string>
-    <string name="dynamic_bar_footer_body">Dynamický panel přemění váš stavový řádek na interaktivní centrum. Stavové čipy se zobrazují a animují na základě systémových událostí a poskytují vám rychlé informace, aniž byste přerušili váš pracovní postup.\\n\\nKaždý typ události má svou vlastní barvu zvýraznění a rozbalenou kartu s rychlými akcemi.</string>
+    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
+    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
+    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">Odstranit</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">Nastavení</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_delete">Odstranit</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_loading_apps">Loading apps\u2026</string>
+    <string name="ts_auto_select">Auto-select</string>
+    <string name="ts_save">Uložit</string>
+    <string name="ts_targets_saved">Target list saved</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_target_mode">Target mode</string>
+    <string name="ts_target_mode_auto">Auto</string>
+    <string name="ts_target_mode_leaf">Leaf hack</string>
+    <string name="ts_target_mode_cert">Certificate generation</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">Uložit</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Nastavení alfa</string>
@@ -1169,57 +1226,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Skrýt stav snímání obrazovky</string>
     <string name="hide_screen_capture_status_summary">Skrýt stav snímání obrazovky z aplikací</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Skrýt stav vývojáře</string>
-    <string name="hide_developer_status_summary">Skrýt stav vývojáře z aplikací</string>
-    <string name="search_apps">Hledat aplikace</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ikony oznámení</string>
     <string name="max_visible_notification_icons_summary">Max. ikony oznámení viditelné na stavovém řádku</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Výřez Progress Ring</string>
-    <string name="cutout_progress_summary">Ukažte postupový kroužek kolem děrné díry</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Vlastnosti</string>
-    <string name="cutout_progress_cat_appearance">Vzhled</string>
-    <string name="cutout_progress_cat_geometry">Geometrie prstenu</string>
-    <string name="cutout_progress_cat_island">Rozšířený režim</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Povolit vyzvánění průběhu stahování</string>
-    <string name="cutout_progress_charging_ring_title">Zobrazit kroužek nabíjení</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Režim barvy prstenu</string>
-    <string name="cutout_progress_ring_color_mode_accent">Přízvuk</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Duha</string>
-    <string name="cutout_progress_ring_color_mode_custom">Vlastní</string>
-    <string name="cutout_progress_ring_color_title">Vlastní barva prstenu</string>
-    <string name="cutout_progress_ring_opacity_title">Neprůhlednost prstenu</string>
-    <string name="cutout_progress_stroke_width_title">Tloušťka prstenu</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Zobrazit stopu na pozadí</string>
-    <string name="cutout_progress_charging_pulse_title">Animace pulzního nabíjení</string>
-    <string name="cutout_progress_charging_pulse_summary">Během nabíjení animujte opakující se puls ze středu ven</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Mezera mezi kroužky (vůle výřezu)</string>
-    <string name="cutout_progress_path_mode_title">Sledujte tvar výřezu</string>
-    <string name="cutout_progress_path_mode_summary">Místo normalizace prstence na kruh použijte nativní poměr stran výřezu</string>
-    <string name="cutout_progress_scale_x_title">Horizontální měřítko</string>
-    <string name="cutout_progress_scale_y_title">Vertikální měřítko</string>
-    <string name="cutout_progress_offset_x_title">Horizontální odsazení</string>
-    <string name="cutout_progress_offset_y_title">Vertikální posun</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Kompaktní uspořádání</string>
-    <string name="cutout_progress_island_compact_summary">Obtočte výřez pro fotoaparát</string>
-    <string name="cutout_progress_island_position_title">Kompaktní zarovnání rozložení</string>
-    <string name="cutout_island_pos_center">Středové rozdělení</string>
-    <string name="cutout_island_pos_left">levé</string>
-    <string name="cutout_island_pos_right">pravé</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Průhlednost pozadí</string>
     <string name="cutout_island_timeout_title">Časový limit automatického sbalení</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Skrýt seznam aplikací</string>
-    <string name="hide_applist_summary">Zabránit aplikacím v kontrole vybraných aplikací ze seznamu aplikací</string>
-    <string name="menu_show_overlay">Zobrazit překryvnou vrstvu</string>
-    <string name="menu_hide_overlay">Skrýt překryvnou vrstvu</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Tvar posuvníku hlasitosti</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>
