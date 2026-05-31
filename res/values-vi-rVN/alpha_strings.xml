@@ -556,12 +556,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Thông báo thanh trượt cảnh báo</string>
     <string name="alert_slider_notifications_summary">Hiển thị thông báo khi thay đổi vị trí thanh trượt cảnh báo</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Lưu trữ hình ảnh không giới hạn</string>
-    <string name="use_photos_spoof_summary">Giả mạo thiết bị của bạn dưới dạng Pixel XL chỉ dành cho ứng dụng Google Photos để cung cấp bộ nhớ không giới hạn để sao lưu</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Mở khóa FPS cao hơn trong trò chơi</string>
-    <string name="use_games_spoof_summary">Giả mạo thiết bị của bạn làm kiểu máy khác cho các trò chơi cụ thể để mở khóa FPS cao hơn</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Bảng điều chỉnh âm lượng</string>
     <string name="volume_dialog_timeout_title">Thời gian chờ hộp thoại âm lượng</string>
@@ -646,13 +640,7 @@
     <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào bao nhiêu điểm bạn quyết định tắt, bạn có thể thấy cải thiện thời gian sử dụng pin</string>
     <string name="smart_pixels_title">Điểm ảnh thông minh</string>
     <string name="smart_pixels_summary">Tiết kiệm pin bằng cách tắt các điểm ảnh phụ</string>
-    <string name="smart_pixels_enable_title">Bật Điểm ảnh thông minh</string>
-    <string name="smart_pixels_enable_summary">Tắt các điểm ảnh để giảm tiêu thụ pin</string>
-    <string name="smart_pixels_on_power_save_title">Tự động bật khi bật trình tiết kiệm pin</string>
-    <string name="smart_pixels_on_power_save_summary">Tự động bật Điểm ảnh thông minh khi trình tiết kiệm pin được bật</string>
     <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
-    <string name="smart_pixels_shift_title">Bảo vệ khỏi lỗi bóng mờ</string>
-    <string name="smart_pixels_shift_summary">Tránh lỗi bóng mờ trên màn OLED bằng cách di chuyển các pixel thường xuyên</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Hiệu ứng cử chỉ quay lại</string>
     <string name="back_gesture_arrow_summary">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
@@ -672,22 +660,19 @@
     <string name="qs_footer_datausage_title">Sử dụng dữ liệu</string>
     <string name="qs_footer_datausage_summary">Hiển thị tóm tắt sử dụng dữ liệu trong chân trang cài đặt nhanh</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Hiệu ứng ô cài đặt nhanh</string>
     <string name="qs_tile_animation_style_title">Kiểu hiệu ứng</string>
-    <string name="qs_tile_animation_duration_title">Thời gian hiệu ứng</string>
-    <string name="qs_tile_animation_interpolator_title">Hiệu ứng thu phóng ô</string>
-    <string name="qs_tile_animation_style_off">Không có hiệu ứng</string>
-    <string name="qs_tile_animation_style_rotate">Xoay</string>
-    <string name="qs_tile_animation_style_flipx">Lật X</string>
-    <string name="qs_tile_animation_style_flipy">Lật Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Đường thẳng</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Tăng tốc</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Giảm tốc</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Tăng rồi giảm</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Nảy lên</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Vượt qua</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Dự đoán</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Nhanh và vượt quá</string>
+    <string name="qs_tile_animation_style_bounce">Bounce</string>
+    <string name="qs_tile_animation_style_ripple">Ripple</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Shake</string>
+    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_spin">Spin</string>
+    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_tilt">Độ nghiêng</string>
+    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_swing">Swing</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Âm thanh chụp ảnh màn hình</string>
     <string name="screenshot_shutter_sound_summary">Phát âm thanh khi chụp màn hình</string>
@@ -723,10 +708,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Cài đặt thời tiết</string>
     <string name="weather_settings_summary">Thiết lập gói biểu tượng và dịch vụ thời tiết</string>
-    <string name="lockscreen_weather_category">Thời tiết</string>
-    <string name="lockscreen_weather_title">Cập nhật thời tiết</string>
-    <string name="lockscreen_weather_summary">Hiển thị cập nhật thời tiết hiện tại</string>
-    <string name="lockscreen_weather_enabled_info">Yêu cầu tùy chỉnh cấu hình dịch vụ thời tiết sẽ tắt không gian thông minh</string>
+    <string name="quicklook_weather_title">Weather</string>
+    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
     <string name="lockscreen_weather_location_title">Vị trí hiện tại</string>
     <string name="lockscreen_weather_location_summary">Hiển thị thời tiết tại vị trí của bạn</string>
     <string name="lockscreen_weather_text_title">Tình trạng hiện tại</string>
@@ -760,12 +743,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Nút xoay màn hình nổi</string>
     <string name="floating_rotation_button_summary">Hiển thị nút xoay nổi khi xoay thiết bị</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Giả mạo Netflix</string>
-    <string name="netflix_spoof_summary">Giả mạo thiết bị của bạn thành kiểu máy khác cho Netflix</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Giả mạo tính toàn vẹn google</string>
-    <string name="pi_spoof_summary">Giả mạo thiết bị sang kiểu máy khác để đảm bảo tính toàn vẹn</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Chuẩn mạng không dây</string>
     <string name="wifi_standard_icon_summary">Hiển thị chuẩn wifi ngay cạnh biểu tượng wifi</string>
@@ -839,6 +816,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Không gian thông minh</string>
     <string name="lockscreen_smartspace_summary">Hiện không gian thông minh khi có sẵn</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
+    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_disabled">Đã tắt</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Tắt bảng nhớ tạm</string>
     <!-- Increasing ring tone volume -->
@@ -866,18 +853,6 @@
     <string name="custom_style_fluid">Chất lỏng (trong suốt)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Lớp</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Ghi đè xác thực hộp khóa</string>
-    <string name="keybox_data_summary">Tải tệp hộp khóa tùy chỉnh để ghi đè xác thực khóa thiết bị</string>
-    <string name="keybox_data_loaded_summary">Đã nạp tệp hộp khóa tùy chỉnh.</string>
-    <string name="keybox_delete_content_description">Xóa dữ liệu hộp khóa</string>
-    <string name="keybox_toast_invalid_file_selected">Tệp sai định dạng hãy chọn tệp xml hợp lệ.</string>
-    <string name="keybox_toast_missing_data">Hộp khóa không hợp lệ: thiếu trường bắt buộc</string>
-    <string name="keybox_toast_file_loaded">Đã nạp hộp khóa</string>
-    <string name="keybox_toast_file_cleared">Đã xóa bỏ hộp khóa</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Tắt bắt buộc tính toàn vẹn mạnh mẽ</string>
-    <string name="pi_gmscertchain_summary">Bật sẽ không áp dụng tính toàn vẹn mạnh từ hộp khóa tùy chỉnh hợp lệ nên phụ thuộc vào giả mạo tính toàn vẹn để sửa các ứng dụng thanh toán</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Hình dạng ô cài đặt nhanh</string>
     <string name="qs_tile_shape_dynamic">Năng động</string>
@@ -922,6 +897,10 @@
     <string name="pulse_settings_summary">Bộ cân bằng đồ họa âm thanh cho thanh điều hướng và màn hình khoá</string>
     <string name="ambient_pulse_enabled_title">Sáng nhạc màn hình chờ</string>
     <string name="ambient_pulse_enabled_summary">Hiển thị trình hiển thị trên Màn hình xung quanh</string>
+    <string name="pulse_bass_haptics_title">Bass haptics</string>
+    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
+    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
+    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
     <string name="pulse_rounded_bars_title">Thanh tròn</string>
     <string name="pulse_rounded_bars_summary">Hiển thị thanh trực quan với góc bo tròn</string>
     <string name="pulse_color">Màu sắc của trình trực quan</string>
@@ -939,6 +918,8 @@
     <string name="pulse_renderer_minimal_wave">Sóng tối thiểu</string>
     <string name="pulse_renderer_sparkle">lấp lánh</string>
     <string name="pulse_renderer_matrix">Ma trận</string>
+    <string name="pulse_renderer_particle">Particle</string>
+    <string name="pulse_renderer_waveform">Waveform</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Thông báo trong suốt</string>
     <string name="notification_row_transparency_summary">Đặt nền mờ cho thông báo trong cài đặt nhanh</string>
@@ -950,9 +931,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Hoạt hình ngoằn ngoèo</string>
     <string name="media_squiggle_animation_summary">Hiển thị hoạt ảnh ngoằn ngoèo của thanh tìm kiếm trong bảng điều khiển phương tiện khi phát phương tiện</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Tự động sửa lỗi phát hiện VBMeta</string>
-    <string name="vbmeta_attestation_summary">Thực hiện chứng thực khóa để tạo hàm băm khởi động đã được xác minh khi khởi động. Yêu cầu khởi động lại hệ thống.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Không xác thực</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -979,16 +957,6 @@
     <string name="cycle_type_weekly_sub">Ngày mỗi tuần:\\n1 = Thứ Hai</string>
     <string name="cycle_type_daily_title">Giờ đặt lại chu kỳ sử dụng</string>
     <string name="cycle_type_daily_sub">Giờ mỗi ngày:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Tùy chọn kiểu đồng hồ</string>
-    <string name="lockscreen_custom_clock_style_summary">Định cấu hình kiểu đồng hồ màn hình khóa</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Vuốt sang trái hoặc phải để xem trước kiểu đồng hồ</string>
-    <string name="lockscreen_custom_clock_style_info">Kiểu đồng hồ tùy chỉnh thay thế kiểu đồng hồ AOSP bằng đồng hồ tùy chỉnh. Không gian thông minh sẽ bị vô hiệu hóa. Thay vào đó, bạn có thể kích hoạt và sử dụng thời tiết tùy chỉnh.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Độ mờ đồng hồ tùy chỉnh</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Điều chỉnh độ trong suốt của kiểu đồng hồ tùy chỉnh</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Chiều cao đồng hồ tùy chỉnh</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Điều chỉnh độ cao của kiểu đồng hồ tùy chỉnh</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Chế độ màu đồng hồ tùy chỉnh</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">Kiểu bảng điều khiển QS</string>
     <string name="qs_panel_style_card">Kiểu thẻ</string>
@@ -1017,12 +985,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Chỉ khi sạc</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Luôn hiển thị</string>
     <string name="dynamic_bar_events">Sự kiện</string>
-    <string name="dynamic_bar_event_recording">Ghi màn hình</string>
-    <string name="dynamic_bar_event_recording_summary">Chỉ báo ghi màn hình đang hoạt động</string>
-    <string name="dynamic_bar_event_privacy">Chỉ báo về quyền riêng tư</string>
-    <string name="dynamic_bar_event_privacy_summary">Cảnh báo truy cập máy ảnh và micrô</string>
     <string name="dynamic_bar_event_audio_recording">Ghi âm</string>
     <string name="dynamic_bar_event_audio_recording_summary">Máy ghi âm và ghi âm</string>
+    <string name="dynamic_bar_event_call">Ongoing call</string>
+    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
     <string name="dynamic_bar_event_media">Phát lại phương tiện</string>
     <string name="dynamic_bar_event_media_summary">Hiện đang phát nhạc và điều khiển âm thanh</string>
     <string name="dynamic_bar_event_notification">Thông báo</string>
@@ -1049,8 +1015,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Đã sao chép bản xem trước văn bản và hình ảnh</string>
     <string name="dynamic_bar_event_torch">Đèn pin</string>
     <string name="dynamic_bar_event_torch_summary">Chuyển đổi và độ sáng của đèn pin</string>
-    <string name="dynamic_bar_event_casting">Truyền phát</string>
-    <string name="dynamic_bar_event_casting_summary">Trạng thái truyền màn hình và truyền phương tiện</string>
     <string name="dynamic_bar_event_ongoing">Hoạt động đang diễn ra</string>
     <string name="dynamic_bar_event_ongoing_summary">Điều hướng, giao hàng và các hoạt động trực tiếp khác</string>
     <string name="dynamic_bar_event_sports">Thể thao</string>
@@ -1060,18 +1024,111 @@
     <string name="dynamic_bar_event_biometric">Mở khóa sinh trắc học</string>
     <string name="dynamic_bar_event_biometric_summary">Hiển thị chip khi mở khóa bằng vân tay hoặc khuôn mặt</string>
     <string name="dynamic_bar_guide_title">Cách sử dụng Thanh động</string>
-    <string name="dynamic_bar_guide_chip">Các sự kiện xuất hiện trên thanh trạng thái hiển thị các sự kiện đang hoạt động như ghi, phát lại phương tiện và bộ hẹn giờ</string>
-    <string name="dynamic_bar_guide_swipe">Khi nhiều sự kiện đang diễn ra, hãy vuốt sang trái hoặc phải trên chip để duyệt qua chúng</string>
-    <string name="dynamic_bar_guide_expand">Nhấn vào một khối để mở rộng khối đó thành một thẻ chi tiết với các điều khiển và thông tin bổ sung</string>
-    <string name="dynamic_bar_guide_dismiss">Vuốt thẻ mở rộng sang bên để loại bỏ thẻ đó. Sự kiện tiếp tục ở chế độ nền</string>
-    <string name="dynamic_bar_guide_keyguard">Chip thanh động cũng xuất hiện ở cuối màn hình khóa với các nút điều khiển phát lại và thao tác nhanh</string>
+    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
+    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
+    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
+    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
     <string name="dynamic_bar_guide_chip_title">Giao diện chip</string>
-    <string name="dynamic_bar_guide_swipe_title">Vuốt giữa các chip</string>
+    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
     <string name="dynamic_bar_guide_expand_title">Nhấn để mở rộng</string>
-    <string name="dynamic_bar_guide_dismiss_title">Vuốt để loại bỏ</string>
+    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
     <string name="dynamic_bar_guide_keyguard_title">Chip màn hình khóa</string>
-    <string name="dynamic_bar_footer_title">Giới thiệu về thanh động</string>
-    <string name="dynamic_bar_footer_body">Thanh động biến thanh trạng thái thành trung tâm thông tin tương tác. Các chip trạng thái xuất hiện và chuyển động theo sự kiện hệ thống, giúp bạn nắm nhanh thông tin quan trọng mà không làm gián đoạn công việc.\\n\\nMỗi loại sự kiện có màu nhấn riêng và thẻ mở rộng chứa các thao tác nhanh.</string>
+    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
+    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
+    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">Xóa</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">Cài đặt</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_delete">Xóa</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_loading_apps">Loading apps\u2026</string>
+    <string name="ts_auto_select">Auto-select</string>
+    <string name="ts_save">Lưu</string>
+    <string name="ts_targets_saved">Target list saved</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_target_mode">Target mode</string>
+    <string name="ts_target_mode_auto">Auto</string>
+    <string name="ts_target_mode_leaf">Leaf hack</string>
+    <string name="ts_target_mode_cert">Certificate generation</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">Lưu</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Cài đặt Alpha</string>
@@ -1159,57 +1216,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Ẩn trạng thái chụp màn hình</string>
     <string name="hide_screen_capture_status_summary">Ẩn trạng thái chụp màn hình khỏi ứng dụng</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Ẩn trạng thái nhà phát triển</string>
-    <string name="hide_developer_status_summary">Ẩn trạng thái nhà phát triển khỏi ứng dụng</string>
-    <string name="search_apps">Tìm kiếm ứng dụng</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Biểu tượng thông báo</string>
     <string name="max_visible_notification_icons_summary">Số biểu tượng thông báo hiển thị trên thanh trạng thái</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Vòng tiến trình cắt bỏ</string>
-    <string name="cutout_progress_summary">Hiển thị vòng tiến trình xung quanh lỗ đục lỗ</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Đặc trưng</string>
-    <string name="cutout_progress_cat_appearance">Vẻ bề ngoài</string>
-    <string name="cutout_progress_cat_geometry">Hình học vòng</string>
-    <string name="cutout_progress_cat_island">Chế độ mở rộng</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Bật vòng tiến trình tải xuống</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Chế độ màu chuông</string>
-    <string name="cutout_progress_ring_color_mode_accent">Giọng</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Cầu vồng</string>
-    <string name="cutout_progress_ring_color_mode_custom">Tùy chỉnh</string>
-    <string name="cutout_progress_ring_color_title">Màu nhẫn tùy chỉnh</string>
-    <string name="cutout_progress_ring_opacity_title">Độ mờ của vòng</string>
-    <string name="cutout_progress_stroke_width_title">Độ dày vòng</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Hiển thị bản nhạc nền</string>
-    <string name="cutout_progress_charging_pulse_title">Hoạt hình xung sạc</string>
-    <string name="cutout_progress_charging_pulse_summary">Tạo hiệu ứng xung lặp lại từ trung tâm ra ngoài trong khi sạc</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Khoảng cách vòng (khoảng trống cắt)</string>
-    <string name="cutout_progress_path_mode_title">Theo hình cắt</string>
-    <string name="cutout_progress_path_mode_summary">Sử dụng tỷ lệ khung hình gốc của phần bị cắt thay vì chuẩn hóa vòng thành hình tròn</string>
-    <string name="cutout_progress_scale_x_title">Tỷ lệ ngang</string>
-    <string name="cutout_progress_scale_y_title">Tỷ lệ dọc</string>
-    <string name="cutout_progress_offset_x_title">Độ lệch ngang</string>
-    <string name="cutout_progress_offset_y_title">Độ lệch dọc</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Bố cục nhỏ gọn</string>
-    <string name="cutout_progress_island_compact_summary">Quấn quanh phần cắt camera</string>
-    <string name="cutout_progress_island_position_title">Căn chỉnh bố cục nhỏ gọn</string>
-    <string name="cutout_island_pos_center">Tách trung tâm</string>
-    <string name="cutout_island_pos_left">Trái</string>
-    <string name="cutout_island_pos_right">Phải</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Độ mờ của nền</string>
     <string name="cutout_island_timeout_title">Hết thời gian chờ tự động thu gọn</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Ẩn danh sách ứng dụng</string>
-    <string name="hide_applist_summary">Ngăn ứng dụng kiểm tra các ứng dụng đã chọn từ danh sách ứng dụng</string>
-    <string name="menu_show_overlay">Hiển thị lớp phủ</string>
-    <string name="menu_hide_overlay">Ẩn lớp phủ</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Hình dạng thanh trượt âm lượng</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>
