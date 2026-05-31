@@ -557,12 +557,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Ειδοποιήσεις μοχλού ειδοποίησης</string>
     <string name="alert_slider_notifications_summary">Εμφάνιση ειδοποίησης κατά την αλλαγή θέσης του μοχλού ειδοποίησης</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Απεριόριστη αποθήκευση φωτογραφιών</string>
-    <string name="use_photos_spoof_summary">Δηλώστε τη συσκευή σας ως Pixel XL για Φωτογραφίες Google μόνο για να παρέχετε απεριόριστο χώρο αποθήκευσης για δημιουργία αντιγράφων ασφαλείας</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Ξεκλειδώστε υψηλότερα FPS σε παιχνίδια</string>
-    <string name="use_games_spoof_summary">Δηλώστε τη συσκευή ως διαφορετικό μοντέλο για συγκεκριμένα παιχνίδια, για υψηλότερα FPS</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Πίνακας έντασης ήχου</string>
     <string name="volume_dialog_timeout_title">Χρονικό όριο πίνακα έντασης</string>
@@ -648,13 +642,7 @@
     <string name="smart_pixels_warning_text">Τα έξυπνα πίξελ είναι μια δυνατότητα εξοικονόμησης ενέργειας. Ανάλογα με το πόσα πίξελ αποφασίζετε να απενεργοποιήσετε, θα μπορούσατε να δείτε βελτίωση στη διάρκεια ζωής της μπαταρίας. Σημειώστε ότι σε ορισμένες περιπτώσεις μπορεί να οδηγήσει σε περιοχές που δεν ανταποκρίνονται στην οθόνη αφής</string>
     <string name="smart_pixels_title">Έξυπνα Πίξελ</string>
     <string name="smart_pixels_summary">Εξοικονόμηση μπαταρίας απενεργοποιώντας τα έξτρα πίξελ</string>
-    <string name="smart_pixels_enable_title">Ενεργοποίηση Έξυπνων Πίξελ</string>
-    <string name="smart_pixels_enable_summary">Απενεργοποιήστε πίξελ για να μειώσετε την κατανάλωση ενέργειας</string>
-    <string name="smart_pixels_on_power_save_title">Αυτόματη ενεργοποίηση στην εξοικονόμηση μπαταρίας</string>
-    <string name="smart_pixels_on_power_save_summary">Ενεργοποίηση Έξυπνων Πίξελ όταν η εξοικονόμηση μπαταρίας είναι ενεργοποιημένη</string>
     <string name="smart_pixels_percent">Ποσοστό των πίξελ για απενεργοποίηση</string>
-    <string name="smart_pixels_shift_title">Προστασία από Burn-in</string>
-    <string name="smart_pixels_shift_summary">Αποτρέπει το burn-in σε συσκευές με OLED οθόνη μετακινώντας τα πίξελ συχνά</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Εφέ χειρονομίας πίσω</string>
     <string name="back_gesture_arrow_summary">Εμφάνιση ενός κινούμενου βέλους για χειρονομία πίσω</string>
@@ -674,22 +662,19 @@
     <string name="qs_footer_datausage_title">Χρήση δεδομένων</string>
     <string name="qs_footer_datausage_summary">Εμφάνιση σύνοψης χρήσης δεδομένων στο υποσέλιδο γρήγορων ρυθμίσεων</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Εφέ κίνησης πλακιδίων</string>
     <string name="qs_tile_animation_style_title">Στυλ εφέ</string>
-    <string name="qs_tile_animation_duration_title">Διάρκεια εφέ κίνησης</string>
-    <string name="qs_tile_animation_interpolator_title">Παρεμβολή εφέ κίνησης</string>
-    <string name="qs_tile_animation_style_off">Χωρίς εφέ</string>
-    <string name="qs_tile_animation_style_rotate">Περιστροφή</string>
-    <string name="qs_tile_animation_style_flipx">Αναποδογύρισμα X</string>
-    <string name="qs_tile_animation_style_flipy">Αναποδογύρισμα Υ</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Γραμμικό</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Επιτάχυνση</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Επιβράδυνση</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Επιτάχυνση και επιβράδυνση</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Αναπήδηση</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Υπέρβαση</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Ανυπομονησία</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Ανυπομονησία και υπέρβαση</string>
+    <string name="qs_tile_animation_style_bounce">Bounce</string>
+    <string name="qs_tile_animation_style_ripple">Ripple</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Shake</string>
+    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_spin">Spin</string>
+    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_tilt">Κλίση</string>
+    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_swing">Swing</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Ήχος στιγμιότυπου οθόνης</string>
     <string name="screenshot_shutter_sound_summary">Αναπαραγωγή ήχου όταν λαμβάνεται στιγμιότυπο οθόνης</string>
@@ -725,10 +710,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Ρυθμίσεις καιρού</string>
     <string name="weather_settings_summary">Ρύθμιση πακέτου εικονιδίων καιρού και υπηρεσίας</string>
-    <string name="lockscreen_weather_category">Καιρός</string>
-    <string name="lockscreen_weather_title">Ενημέρωση καιρού</string>
-    <string name="lockscreen_weather_summary">Εμφάνιση τρέχουσας ενημέρωσης καιρού</string>
-    <string name="lockscreen_weather_enabled_info">Απαιτεί διαμορφωμένη προσαρμοσμένη υπηρεσία καιρού και απενεργοποιημένο το smartspace</string>
+    <string name="quicklook_weather_title">Weather</string>
+    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
     <string name="lockscreen_weather_location_title">Τρέχουσα τοποθεσία</string>
     <string name="lockscreen_weather_location_summary">Εμφάνιση καιρού της τρέχουσας τοποθεσίας</string>
     <string name="lockscreen_weather_text_title">Τρέχουσα κατάσταση</string>
@@ -762,12 +745,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Αιωρούμενο κουμπί περιστροφής</string>
     <string name="floating_rotation_button_summary">Εμφάνιση ενός αιωρούμενου κουμπιού περιστροφής όταν η συσκευή περιστρέφεται</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Παραπλάνηση Netflix</string>
-    <string name="netflix_spoof_summary">Δηλώστε τη συσκευή σας ως διαφορετικό μοντέλο για το Netflix</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Παραπλάνηση Google Play Integrity</string>
-    <string name="pi_spoof_summary">Παραπλανήστε τη συσκευή σας ως διαφορετικό μοντέλο για το Google Play Integrity</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Συχνότητα WiFi</string>
     <string name="wifi_standard_icon_summary">Εμφάνιση συχνότητας WiFi δίπλα στο σήμα WiFi</string>
@@ -841,6 +818,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Smartspace</string>
     <string name="lockscreen_smartspace_summary">Εμφάνιση Google Smartspace όταν είναι διαθέσιμο</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
+    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_disabled">Ανάπηρος</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Απενεργοποίηση πρόχειρου</string>
     <!-- Increasing ring tone volume -->
@@ -868,18 +855,6 @@
     <string name="custom_style_fluid">Ρευστό (Διαφανές)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Επίπεδα</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Παράκαμψη βεβαίωσης keybox</string>
-    <string name="keybox_data_summary">Φορτώστε ένα προσαρμοσμένο keybox XML για να παρακάμψετε την πιστοποίηση κλειδιού συσκευής</string>
-    <string name="keybox_data_loaded_summary">Φορτώθηκε το προσαρμοσμένο keybox XML. Διαγραφή για εκκαθάριση.</string>
-    <string name="keybox_delete_content_description">Διαγραφή δεδομένων keybox</string>
-    <string name="keybox_toast_invalid_file_selected">Δεν είναι αρχείο XML. Επιλέξτε ένα έγκυρο keybox XML.</string>
-    <string name="keybox_toast_missing_data">Μη έγκυρο keybox XML: λείπουν υποχρεωτικά πεδία</string>
-    <string name="keybox_toast_file_loaded">Το keybox φορτώθηκε</string>
-    <string name="keybox_toast_file_cleared">Το keybox διαγράφηκε</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Απενεργοποίηση επιβολής ισχυρής ακεραιότητας</string>
-    <string name="pi_gmscertchain_summary">Όταν είναι ενεργοποιημένο, μην επιβάλλετε ισχυρή ακεραιότητα από έγκυρο προσαρμοσμένο πληκτρολόγιο και βασίζεστε στην πλαστή ακεραιότητα του Google Play για να διορθώσετε εφαρμογές όπως το Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">σχήμα πλακιδίων QS</string>
     <string name="qs_tile_shape_dynamic">Δυναμικός</string>
@@ -924,6 +899,10 @@
     <string name="pulse_settings_summary">Ισοσταθμιστής γραφικών ήχου για γραμμή πλοήγησης και οθόνη κλειδώματος</string>
     <string name="ambient_pulse_enabled_title">Παλμός Οθόνης Περιβάλλοντος</string>
     <string name="ambient_pulse_enabled_summary">Εμφάνιση οπτικοποιητή στην οθόνη περιβάλλοντος</string>
+    <string name="pulse_bass_haptics_title">Bass haptics</string>
+    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
+    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
+    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
     <string name="pulse_rounded_bars_title">Στρογγυλεμένες μπάρες</string>
     <string name="pulse_rounded_bars_summary">Εμφάνιση ράβδων οπτικοποίησης με στρογγυλεμένες γωνίες</string>
     <string name="pulse_color">Χρώμα οπτικοποίησης</string>
@@ -941,6 +920,8 @@
     <string name="pulse_renderer_minimal_wave">Ελάχιστο κύμα</string>
     <string name="pulse_renderer_sparkle">Λάμπω</string>
     <string name="pulse_renderer_matrix">Matrix</string>
+    <string name="pulse_renderer_particle">Particle</string>
+    <string name="pulse_renderer_waveform">Waveform</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Ημιδιαφανείς ειδοποιήσεις</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
@@ -952,9 +933,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Squiggle animation</string>
     <string name="media_squiggle_animation_summary">Εμφάνιση κινούμενων εικόνων squiggle της γραμμής αναζήτησης στον πίνακα πολυμέσων κατά την αναπαραγωγή πολυμέσων</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Αυτόματη επιδιόρθωση ανίχνευσης VBMeta</string>
-    <string name="vbmeta_attestation_summary">Εκτελέστε πιστοποίηση κλειδιού για να δημιουργήσετε επαληθευμένο κατακερματισμό εκκίνησης κατά την εκκίνηση. Απαιτεί επανεκκίνηση του συστήματος.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Να μην επικυρωθεί</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -981,16 +959,6 @@
     <string name="cycle_type_weekly_sub">Ημέρα κάθε εβδομάδας:\\n1 = Δευτέρα</string>
     <string name="cycle_type_daily_title">Ώρα επαναφοράς κύκλου χρήσης</string>
     <string name="cycle_type_daily_sub">Ώρα κάθε μέρας:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Προσαρμοσμένο στυλ ρολογιού</string>
-    <string name="lockscreen_custom_clock_style_summary">Διαμόρφωση στυλ ρολογιού οθόνης κλειδώματος</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Σύρετε προς τα αριστερά ή προς τα δεξιά για προεπισκόπηση των στυλ ρολογιού</string>
-    <string name="lockscreen_custom_clock_style_info">Το προσαρμοσμένο στυλ ρολογιού αντικαθιστά τα στυλ ρολογιού AOSP με προσαρμοσμένα ρολόγια. Το Smartspace θα απενεργοποιηθεί. Μπορείτε να ενεργοποιήσετε και να χρησιμοποιήσετε τον προσαρμοσμένο καιρό.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Προσαρμοσμένη αδιαφάνεια ρολογιού</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Προσαρμόστε τη διαφάνεια του προσαρμοσμένου στυλ ρολογιού</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Προσαρμοσμένο ύψος ρολογιού</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Προσαρμόστε το ύψος του προσαρμοσμένου στυλ ρολογιού</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Προσαρμοσμένη λειτουργία χρώματος ρολογιού</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">Στυλ πίνακα QS</string>
     <string name="qs_panel_style_card">Στυλ κάρτας</string>
@@ -1019,12 +987,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Μόνο κατά τη φόρτιση</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Να δείχνεις πάντα</string>
     <string name="dynamic_bar_events">Εκδηλώσεις</string>
-    <string name="dynamic_bar_event_recording">Εγγραφή οθόνης</string>
-    <string name="dynamic_bar_event_recording_summary">Ενεργή ένδειξη εγγραφής οθόνης</string>
-    <string name="dynamic_bar_event_privacy">Δείκτες απορρήτου</string>
-    <string name="dynamic_bar_event_privacy_summary">Ειδοποιήσεις πρόσβασης κάμερας και μικροφώνου</string>
     <string name="dynamic_bar_event_audio_recording">Ηχογράφηση</string>
     <string name="dynamic_bar_event_audio_recording_summary">Εγγραφή φωνής και λήψη ήχου</string>
+    <string name="dynamic_bar_event_call">Ongoing call</string>
+    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
     <string name="dynamic_bar_event_media">Αναπαραγωγή πολυμέσων</string>
     <string name="dynamic_bar_event_media_summary">Αναπαραγωγή μουσικής και χειριστήρια ήχου</string>
     <string name="dynamic_bar_event_notification">Ειδοποιήσεις</string>
@@ -1051,8 +1017,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Αντιγραμμένο κείμενο και προεπισκόπηση εικόνας</string>
     <string name="dynamic_bar_event_torch">Φακός</string>
     <string name="dynamic_bar_event_torch_summary">Εναλλαγή φακού και φωτεινότητα</string>
-    <string name="dynamic_bar_event_casting">Μετάδοση</string>
-    <string name="dynamic_bar_event_casting_summary">Κατάσταση μετάδοσης οθόνης και μετάδοσης μέσων</string>
     <string name="dynamic_bar_event_ongoing">Συνεχείς δραστηριότητες</string>
     <string name="dynamic_bar_event_ongoing_summary">Πλοήγηση, παραδόσεις και άλλες ζωντανές δραστηριότητες</string>
     <string name="dynamic_bar_event_sports">Αθλητισμός</string>
@@ -1062,18 +1026,111 @@
     <string name="dynamic_bar_event_biometric">Βιομετρικό ξεκλείδωμα</string>
     <string name="dynamic_bar_event_biometric_summary">Εμφάνιση τσιπ στο δακτυλικό αποτύπωμα ή το ξεκλείδωμα προσώπου</string>
     <string name="dynamic_bar_guide_title">Πώς να χρησιμοποιήσετε το Dynamic Bar</string>
-    <string name="dynamic_bar_guide_chip">Τα συμβάντα εμφανίζονται στη γραμμή κατάστασης που εμφανίζουν ενεργά συμβάντα όπως εγγραφή, αναπαραγωγή πολυμέσων και χρονόμετρα</string>
-    <string name="dynamic_bar_guide_swipe">Όταν πολλά συμβάντα είναι ενεργά, σύρετε προς τα αριστερά ή προς τα δεξιά στο τσιπ για να τα περιηγηθείτε</string>
-    <string name="dynamic_bar_guide_expand">Πατήστε ένα τσιπ για να το αναπτύξετε σε μια λεπτομερή κάρτα με στοιχεία ελέγχου και πρόσθετες πληροφορίες</string>
-    <string name="dynamic_bar_guide_dismiss">Σύρετε την αναπτυγμένη κάρτα μακριά για να την απορρίψετε. Η εκδήλωση συνεχίζεται στο παρασκήνιο</string>
-    <string name="dynamic_bar_guide_keyguard">Το τσιπ δυναμικής γραμμής εμφανίζεται επίσης στο κάτω μέρος της οθόνης κλειδώματος με χειριστήρια αναπαραγωγής και γρήγορες ενέργειες</string>
+    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
+    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
+    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
+    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
     <string name="dynamic_bar_guide_chip_title">Εμφάνιση τσιπ</string>
-    <string name="dynamic_bar_guide_swipe_title">Σύρετε μεταξύ τσιπ</string>
+    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
     <string name="dynamic_bar_guide_expand_title">Πατήστε για επέκταση</string>
-    <string name="dynamic_bar_guide_dismiss_title">Σύρετε για παράβλεψη</string>
+    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
     <string name="dynamic_bar_guide_keyguard_title">Τσιπ οθόνης κλειδώματος</string>
-    <string name="dynamic_bar_footer_title">Σχετικά με το Dynamic Bar</string>
-    <string name="dynamic_bar_footer_body">Η Dynamic Bar μετατρέπει τη γραμμή κατάστασής σας σε ένα διαδραστικό κέντρο. Τα τσιπ κατάστασης εμφανίζονται και κινούνται με βάση τα συμβάντα του συστήματος, δίνοντάς σας πληροφορίες με μια ματιά χωρίς να διακόπτεται η ροή εργασίας σας.\\n\\nΚάθε τύπος συμβάντος έχει το δικό του χρώμα έμφασης και διευρυμένη κάρτα με γρήγορες ενέργειες.</string>
+    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
+    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
+    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">Διαγραφή</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">Ρυθμίσεις</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_delete">Διαγραφή</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_loading_apps">Loading apps\u2026</string>
+    <string name="ts_auto_select">Auto-select</string>
+    <string name="ts_save">Αποθήκευση</string>
+    <string name="ts_targets_saved">Target list saved</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_target_mode">Target mode</string>
+    <string name="ts_target_mode_auto">Auto</string>
+    <string name="ts_target_mode_leaf">Leaf hack</string>
+    <string name="ts_target_mode_cert">Certificate generation</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">Αποθήκευση</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Ρυθμίσεις Alpha</string>
@@ -1161,57 +1218,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Απόκρυψη κατάστασης λήψης οθόνης</string>
     <string name="hide_screen_capture_status_summary">Απόκρυψη της κατάστασης λήψης οθόνης από τις εφαρμογές</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Απόκρυψη κατάστασης προγραμματιστή</string>
-    <string name="hide_developer_status_summary">Απόκρυψη κατάστασης προγραμματιστή από εφαρμογές</string>
-    <string name="search_apps">Αναζήτηση εφαρμογών</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Εικονίδια ειδοποιήσεων</string>
     <string name="max_visible_notification_icons_summary">Μέγ. ορατά εικονίδια ειδοποιήσεων στη γραμμή κατάστασης</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Δαχτυλίδι προόδου αποκοπής</string>
-    <string name="cutout_progress_summary">Εμφάνιση δακτυλίου προόδου γύρω από την τρύπα διάτρησης</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Χαρακτηριστικά</string>
-    <string name="cutout_progress_cat_appearance">Εμφάνιση</string>
-    <string name="cutout_progress_cat_geometry">Γεωμετρία δακτυλίου</string>
-    <string name="cutout_progress_cat_island">Εκτεταμένη λειτουργία</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Ενεργοποίηση κουδουνίσματος προόδου λήψης</string>
-    <string name="cutout_progress_charging_ring_title">Εμφάνιση δακτυλίου φόρτισης</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Λειτουργία χρώματος δακτυλίου</string>
-    <string name="cutout_progress_ring_color_mode_accent">Προφορά</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Ουράνιο τόξο</string>
-    <string name="cutout_progress_ring_color_mode_custom">Προσαρμοσμένο</string>
-    <string name="cutout_progress_ring_color_title">Προσαρμοσμένο χρώμα δαχτυλιδιού</string>
-    <string name="cutout_progress_ring_opacity_title">Αδιαφάνεια δακτυλίου</string>
-    <string name="cutout_progress_stroke_width_title">Πάχος δακτυλίου</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Εμφάνιση κομματιού φόντου</string>
-    <string name="cutout_progress_charging_pulse_title">Κινούμενα σχέδια παλμών φόρτισης</string>
-    <string name="cutout_progress_charging_pulse_summary">Ενεργοποιήστε έναν επαναλαμβανόμενο παλμό από το κέντρο προς τα έξω κατά τη φόρτιση</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Διάκενο δακτυλίου (διάκενο αποκοπής)</string>
-    <string name="cutout_progress_path_mode_title">Ακολουθήστε το σχήμα κοπής</string>
-    <string name="cutout_progress_path_mode_summary">Χρησιμοποιήστε την εγγενή αναλογία διαστάσεων της αποκοπής αντί να κανονικοποιήσετε τον δακτύλιο σε κύκλο</string>
-    <string name="cutout_progress_scale_x_title">Οριζόντια κλίμακα</string>
-    <string name="cutout_progress_scale_y_title">Κάθετη κλίμακα</string>
-    <string name="cutout_progress_offset_x_title">Οριζόντια μετατόπιση</string>
-    <string name="cutout_progress_offset_y_title">Κατακόρυφη μετατόπιση</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Συμπαγής διάταξη</string>
-    <string name="cutout_progress_island_compact_summary">Τυλίξτε γύρω από την εγκοπή της κάμερας</string>
-    <string name="cutout_progress_island_position_title">Συμπαγής ευθυγράμμιση διάταξης</string>
-    <string name="cutout_island_pos_center">Διάσπαση στο κέντρο</string>
-    <string name="cutout_island_pos_left">Αριστερά</string>
-    <string name="cutout_island_pos_right">Δεξιά</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Αδιαφάνεια φόντου</string>
     <string name="cutout_island_timeout_title">Χρονικό όριο αυτόματης σύμπτυξης</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Απόκρυψη λίστας εφαρμογών</string>
-    <string name="hide_applist_summary">Αποτρέψτε τις εφαρμογές από τον έλεγχο επιλεγμένων εφαρμογών από τη λίστα εφαρμογών</string>
-    <string name="menu_show_overlay">Εμφάνιση επικάλυψης</string>
-    <string name="menu_hide_overlay">Απόκρυψη επικάλυψης</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Σχήμα ρυθμιστικού όγκου</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>
