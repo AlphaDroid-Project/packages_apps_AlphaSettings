@@ -557,12 +557,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Figyelmeztető csúszka értesítései</string>
     <string name="alert_slider_notifications_summary">Értesítés megjelenítése a figyelmeztető csúszka pozíciójának megváltoztatásakor</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Korlátlan fénykép-tárhely</string>
-    <string name="use_photos_spoof_summary">Eszközinformáció-hamisitás hogy a Google Fényképek Pixel XL készüléknek lássa és így korlátlan tárhelyhez juthasson</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Magasabb FPS feloldása játékokhoz</string>
-    <string name="use_games_spoof_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Hangerőpanel</string>
     <string name="volume_dialog_timeout_title">Hangerőpanel-időkorlát</string>
@@ -648,13 +642,7 @@
     <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását.</string>
     <string name="smart_pixels_title">Intelligens pixelek</string>
     <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
-    <string name="smart_pixels_enable_title">Az Intelligens pixelek engedélyezése</string>
-    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
-    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
-    <string name="smart_pixels_on_power_save_summary">Engedélyezze az Intelligens pixelek funkciót, ha az akkumulátorkímélő-üzemmód be van kapcsolva</string>
     <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
-    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
-    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED kijelzőkön, a képpontok gyakori áthelyezésével</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">A Vissza gesztus animációja</string>
     <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a \'Vissza\'-mozdulatvezérléshez</string>
@@ -674,22 +662,19 @@
     <string name="qs_footer_datausage_title">Adathasználat</string>
     <string name="qs_footer_datausage_summary">Megjeleníti az Adathasználat összesítését a gyorsbeállítások láblécében</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Csempeanimáció</string>
     <string name="qs_tile_animation_style_title">Animációstílus</string>
-    <string name="qs_tile_animation_duration_title">Animációhossz</string>
-    <string name="qs_tile_animation_interpolator_title">Animáció közbeiktató</string>
-    <string name="qs_tile_animation_style_off">Nincs animáció</string>
-    <string name="qs_tile_animation_style_rotate">Forgatás</string>
-    <string name="qs_tile_animation_style_flipx">X-fordulat</string>
-    <string name="qs_tile_animation_style_flipy">Y-fordulat</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineáris</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Gyorsuló</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Lassuló</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Gyorsuló/Lassuló</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Visszapattanó</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Túlzó</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Siettetett</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Siettetett-Túlzó</string>
+    <string name="qs_tile_animation_style_bounce">Bounce</string>
+    <string name="qs_tile_animation_style_ripple">Ripple</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Shake</string>
+    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_spin">Spin</string>
+    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_tilt">Forgatás</string>
+    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_swing">Swing</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">A képernyőmentés hangja</string>
     <string name="screenshot_shutter_sound_summary">Így hang jelzi majd a képernyőmentést</string>
@@ -725,10 +710,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Időjárás-beállítások</string>
     <string name="weather_settings_summary">Testre szabható ikoncsomag és időjárás-szolgáltatás</string>
-    <string name="lockscreen_weather_category">Időjárás</string>
-    <string name="lockscreen_weather_title">Az \'Időjárás\" frissítése</string>
-    <string name="lockscreen_weather_summary">A jelenlegi tartózkodási hely adatait frissíti</string>
-    <string name="lockscreen_weather_enabled_info">Kötelező egy egyéni időjárás-szolgáltatás konfigurálása és a Smartspace letiltása.</string>
+    <string name="quicklook_weather_title">Weather</string>
+    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
     <string name="lockscreen_weather_location_title">Jelenlegi tartózkodási hely</string>
     <string name="lockscreen_weather_location_summary">A jelenlegi tartózkodási hely adatait jeleníti meg</string>
     <string name="lockscreen_weather_text_title">Jelenlegi időjárás</string>
@@ -762,12 +745,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Lebegő \'Elforgatás gomb\'</string>
     <string name="floating_rotation_button_summary">Egy lebegő gombbal jelzi, ha a készüléket elforgatták</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix svindli</string>
-    <string name="netflix_spoof_summary">A Netflixhez más készüléknek álcázza az Ön telefonját</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Trükközés a Google Play Integrity-vel</string>
-    <string name="pi_spoof_summary">A Google Play sértettlenségének ellenőrzésekor más telefonnak álcázza az Ön készülékét</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi-Fi-szabvány</string>
     <string name="wifi_standard_icon_summary">A Wi-Fi-jel mellett a szabványt is megjeleníti</string>
@@ -843,6 +820,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Google Smartspace</string>
     <string name="lockscreen_smartspace_summary">Ha elérhető, akkor megjeleníti</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
+    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_disabled">Kikapcsolva</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">A Vágólap letiltása</string>
     <!-- Increasing ring tone volume -->
@@ -870,18 +857,6 @@
     <string name="custom_style_fluid">Folyékony (Átlátszó)</string>
     <string name="custom_style_ios">iOS</string>
     <string name="custom_style_layers">Réteges</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox-hitelesítés felülbírálása</string>
-    <string name="keybox_data_summary">Egyedi Keybox-XML betöltése az eszközkulcs-hitelesítés felülbírálásához</string>
-    <string name="keybox_data_loaded_summary">A saját Keybox-XML betöltve. Törölje a tisztításhoz.</string>
-    <string name="keybox_delete_content_description">Keybox adattisztítás</string>
-    <string name="keybox_toast_invalid_file_selected">Ez nem XML-fájl. Válasszon egy valódi Keybox-XML-t.</string>
-    <string name="keybox_toast_missing_data">Érvénytelen Keybox-XML: kötelező mezők hiányoznak</string>
-    <string name="keybox_toast_file_loaded">A Keybox betöltve</string>
-    <string name="keybox_toast_file_cleared">A Keybox tisztítva</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Az erős integritás kényszerítés letiltása</string>
-    <string name="pi_gmscertchain_summary">Ha engedélyezve van, nem kényszerít erős integritást érvényes egyéni keybox-okból, és a Google Play integritáshamisítására támaszkodik az olyan alkalmazások javításához, mint a Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">QS csempe alakja</string>
     <string name="qs_tile_shape_dynamic">Dinamikus</string>
@@ -926,6 +901,10 @@
     <string name="pulse_settings_summary">Egy audiógrafikus hangszínszabályozó a navigációs sávhoz és a záróképernyőhöz</string>
     <string name="ambient_pulse_enabled_title">Impulzus a környezeti kijelzőn</string>
     <string name="ambient_pulse_enabled_summary">A \'Környezeti kijelző\' vizualizálása</string>
+    <string name="pulse_bass_haptics_title">Bass haptics</string>
+    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
+    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
+    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
     <string name="pulse_rounded_bars_title">Lekerekített rudak</string>
     <string name="pulse_rounded_bars_summary">Lekerekített sarkú vizualizációs sávok megjelenítése</string>
     <string name="pulse_color">Vizualizáció színe</string>
@@ -943,6 +922,8 @@
     <string name="pulse_renderer_minimal_wave">Egyszerű hullám</string>
     <string name="pulse_renderer_sparkle">Szikra</string>
     <string name="pulse_renderer_matrix">Mátrix</string>
+    <string name="pulse_renderer_particle">Particle</string>
+    <string name="pulse_renderer_waveform">Waveform</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Áttetsző értesítések</string>
     <string name="notification_row_transparency_summary">Az értesítések áttetsző háttérének beállítása a gyorsbeállításokon</string>
@@ -954,9 +935,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Újhullámos animáció</string>
     <string name="media_squiggle_animation_summary">Média lejátszásakor a keresősáv hullámzó animációjának megjelenítése</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">A VBMeta-észlelés automatikus javítása</string>
-    <string name="vbmeta_attestation_summary">Kulcshitelesítés végrehajtása ellenőrzött rendszerindítási hash létrehozásához rendszerindításkor. A rendszer újraindítását igényli.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Ne legyen érvényesítés</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -983,16 +961,6 @@
     <string name="cycle_type_weekly_sub">Minden héten: \n1 = Hétfő</string>
     <string name="cycle_type_daily_title">A ciklus visszaállításának órája</string>
     <string name="cycle_type_daily_sub">Minden napon:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Egyedi óra stílus</string>
-    <string name="lockscreen_custom_clock_style_summary">Konfigurálja a lezárási képernyő órastílusait</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Csúsztassa balra vagy jobbra az órastílusok előnézetének megtekintéséhez</string>
-    <string name="lockscreen_custom_clock_style_info">Az egyéni órastílus az AOSP órastílusokat egyéni órákra cseréli. A Smartspace le lesz tiltva. Ehelyett engedélyezheti és használhatja az egyéni időjárást.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Egyedi óra átlátszatlansága</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Állítsa be az egyéni órastílus átlátszóságát</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Egyedi óra magasság</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Állítsa be az egyéni órastílus magasságát</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Egyedi óraszín mód</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">QS Panel stílus</string>
     <string name="qs_panel_style_card">Kártya stílus</string>
@@ -1021,12 +989,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Csak töltéskor</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Mindig mutasd</string>
     <string name="dynamic_bar_events">Események</string>
-    <string name="dynamic_bar_event_recording">Képernyőfelvétel</string>
-    <string name="dynamic_bar_event_recording_summary">Aktív képernyőfelvétel jelző</string>
-    <string name="dynamic_bar_event_privacy">Adatvédelmi mutatók</string>
-    <string name="dynamic_bar_event_privacy_summary">Kamera és mikrofon hozzáférési figyelmeztetések</string>
     <string name="dynamic_bar_event_audio_recording">Hangfelvétel</string>
     <string name="dynamic_bar_event_audio_recording_summary">Hangrögzítő és hangrögzítés</string>
+    <string name="dynamic_bar_event_call">Ongoing call</string>
+    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
     <string name="dynamic_bar_event_media">Médialejátszás</string>
     <string name="dynamic_bar_event_media_summary">Most zenét és hangvezérlőket játszik le</string>
     <string name="dynamic_bar_event_notification">Értesítések</string>
@@ -1053,8 +1019,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Másolt szöveg és kép előnézet</string>
     <string name="dynamic_bar_event_torch">Zseblámpa (vaku)</string>
     <string name="dynamic_bar_event_torch_summary">Zseblámpa kapcsoló és fényerő</string>
-    <string name="dynamic_bar_event_casting">Tartalomküldés</string>
-    <string name="dynamic_bar_event_casting_summary">Képernyő- és médiaközvetítés állapota</string>
     <string name="dynamic_bar_event_ongoing">Folyamatos tevékenységek</string>
     <string name="dynamic_bar_event_ongoing_summary">Navigáció, kézbesítés és egyéb élő tevékenységek</string>
     <string name="dynamic_bar_event_sports">Sport</string>
@@ -1064,18 +1028,111 @@
     <string name="dynamic_bar_event_biometric">Biometrikus feloldás</string>
     <string name="dynamic_bar_event_biometric_summary">Chip megjelenítése ujjlenyomattal vagy arcalapú feloldással</string>
     <string name="dynamic_bar_guide_title">A Dynamic Bar használata</string>
-    <string name="dynamic_bar_guide_chip">Az események az állapotsorban jelennek meg, és az aktív eseményeket, például a felvételt, a médialejátszást és az időzítőket jelenítik meg</string>
-    <string name="dynamic_bar_guide_swipe">Ha több esemény is aktív, csúsztassa az ujját balra vagy jobbra a chipen, hogy végighaladjon rajtuk</string>
-    <string name="dynamic_bar_guide_expand">Koppintson egy chipre, hogy részletes kártyává bontsa ki vezérlőkkel és további információkkal</string>
-    <string name="dynamic_bar_guide_dismiss">Csúsztassa el a kibontott kártyát az elvetéséhez. Az esemény a háttérben folytatódik</string>
-    <string name="dynamic_bar_guide_keyguard">A dinamikus sáv chip a lezárási képernyő alján is megjelenik, lejátszásvezérlőkkel és gyors műveletekkel</string>
+    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
+    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
+    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
+    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
     <string name="dynamic_bar_guide_chip_title">Chip megjelenése</string>
-    <string name="dynamic_bar_guide_swipe_title">Csúsztasson a chipek között</string>
+    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
     <string name="dynamic_bar_guide_expand_title">Koppintson a kibontáshoz</string>
-    <string name="dynamic_bar_guide_dismiss_title">Csúsztassa az ujját az elvetéshez</string>
+    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
     <string name="dynamic_bar_guide_keyguard_title">Zár képernyő chip</string>
-    <string name="dynamic_bar_footer_title">A Dynamic Bar-ról</string>
-    <string name="dynamic_bar_footer_body">A Dynamic Bar interaktív központtá alakítja az állapotsort. Az állapotchipek a rendszeresemények alapján jelennek meg és animálódnak, így egy pillantással információt nyújtanak a munkafolyamat megszakítása nélkül.\\n\\nMinden eseménytípusnak saját kiemelő színe és kibővített kártyája van gyors műveletekkel.</string>
+    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
+    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
+    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">Törlés</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">Beállítások</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_delete">Törlés</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_loading_apps">Loading apps\u2026</string>
+    <string name="ts_auto_select">Auto-select</string>
+    <string name="ts_save">Mentés</string>
+    <string name="ts_targets_saved">Target list saved</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_target_mode">Target mode</string>
+    <string name="ts_target_mode_auto">Auto</string>
+    <string name="ts_target_mode_leaf">Leaf hack</string>
+    <string name="ts_target_mode_cert">Certificate generation</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">Mentés</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha beállítások</string>
@@ -1163,57 +1220,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Képernyőfelvétel állapotának elrejtése</string>
     <string name="hide_screen_capture_status_summary">Képernyőfelvétel állapotának elrejtése az alkalmazásokból</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Fejlesztői állapot elrejtése</string>
-    <string name="hide_developer_status_summary">Fejlesztői állapot elrejtése az alkalmazásokból</string>
-    <string name="search_apps">Appok keresése</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Értesítés ikonok</string>
     <string name="max_visible_notification_icons_summary">Max. látható értesítés ikon az állapotsávon</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Kivágott folyamatgyűrű</string>
-    <string name="cutout_progress_summary">Mutasd az előrehaladási gyűrűt a lyukasztás körül</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Jellemzők</string>
-    <string name="cutout_progress_cat_appearance">Megjelenés</string>
-    <string name="cutout_progress_cat_geometry">Gyűrű geometriája</string>
-    <string name="cutout_progress_cat_island">Kibővített mód</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Letöltési folyamatgyűrű engedélyezése</string>
-    <string name="cutout_progress_charging_ring_title">Töltési gyűrű megjelenítése</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Gyűrű szín mód</string>
-    <string name="cutout_progress_ring_color_mode_accent">Hangsúly</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Szivárvány</string>
-    <string name="cutout_progress_ring_color_mode_custom">Egyéni</string>
-    <string name="cutout_progress_ring_color_title">Egyedi gyűrű szín</string>
-    <string name="cutout_progress_ring_opacity_title">Gyűrű átlátszatlansága</string>
-    <string name="cutout_progress_stroke_width_title">A gyűrű vastagsága</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Háttérsáv megjelenítése</string>
-    <string name="cutout_progress_charging_pulse_title">Töltési impulzus animáció</string>
-    <string name="cutout_progress_charging_pulse_summary">Töltés közben animáljon ismétlődő impulzust a közepétől kifelé</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Gyűrűköz (kivágási hézag)</string>
-    <string name="cutout_progress_path_mode_title">Kövesse a kivágás alakját</string>
-    <string name="cutout_progress_path_mode_summary">Használja a kivágás natív képarányát ahelyett, hogy a gyűrűt körré normalizálná</string>
-    <string name="cutout_progress_scale_x_title">Vízszintes skála</string>
-    <string name="cutout_progress_scale_y_title">Függőleges skála</string>
-    <string name="cutout_progress_offset_x_title">Vízszintes eltolás</string>
-    <string name="cutout_progress_offset_y_title">Függőleges eltolás</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Kompakt elrendezés</string>
-    <string name="cutout_progress_island_compact_summary">Tekerje körbe a kamera kivágását</string>
-    <string name="cutout_progress_island_position_title">Kompakt elrendezés igazítása</string>
-    <string name="cutout_island_pos_center">Középre osztott</string>
-    <string name="cutout_island_pos_left">Bal</string>
-    <string name="cutout_island_pos_right">Jobb</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Háttérátlátszóság</string>
     <string name="cutout_island_timeout_title">Az automatikus összecsukás időtúllépése</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Alkalmazáslista elrejtése</string>
-    <string name="hide_applist_summary">Megakadályozza, hogy az alkalmazások ellenőrizzék a kiválasztott alkalmazásokat az alkalmazáslistából</string>
-    <string name="menu_show_overlay">Fedvény megjelenítése</string>
-    <string name="menu_hide_overlay">Fedvény elrejtése</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Hangerő csúszka alakja</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>
