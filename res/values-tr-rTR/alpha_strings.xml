@@ -663,18 +663,18 @@
     <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
     <!-- QS Tiles animation  -->
     <string name="qs_tile_animation_style_title">Animasyon stili</string>
-    <string name="qs_tile_animation_style_bounce">Bounce</string>
-    <string name="qs_tile_animation_style_ripple">Ripple</string>
-    <string name="qs_tile_animation_style_flip">Flip</string>
-    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_bounce">Sıçrat</string>
+    <string name="qs_tile_animation_style_ripple">Dalgalanma</string>
+    <string name="qs_tile_animation_style_flip">Çevir</string>
+    <string name="qs_tile_animation_style_fade">Soldur</string>
     <string name="qs_tile_animation_style_pulse">Pulse</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_wobble">Wobble</string>
-    <string name="qs_tile_animation_style_spin">Spin</string>
-    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_shake">Titret</string>
+    <string name="qs_tile_animation_style_wobble">Sallantı</string>
+    <string name="qs_tile_animation_style_spin">Döndür</string>
+    <string name="qs_tile_animation_style_squish">Ez</string>
     <string name="qs_tile_animation_style_tilt">Eğim</string>
-    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
-    <string name="qs_tile_animation_style_swing">Swing</string>
+    <string name="qs_tile_animation_style_heartbeat">Kalp atışı</string>
+    <string name="qs_tile_animation_style_swing">Sallanma</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <string name="screenshot_shutter_sound_summary">Ekran görüntüsü alınırken ses çıkar</string>
@@ -710,8 +710,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Hava durumu ayarları</string>
     <string name="weather_settings_summary">Simge paketini ve hava durumu servis sağlayıcısını ayarlayın</string>
-    <string name="quicklook_weather_title">Weather</string>
-    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
+    <string name="quicklook_weather_title">Hava durumu</string>
+    <string name="quicklook_weather_summary">Güncel hava durumu</string>
     <string name="lockscreen_weather_location_title">Mevcut konum</string>
     <string name="lockscreen_weather_location_summary">Mevcut hava durumu konumunu göster</string>
     <string name="lockscreen_weather_text_title">Geçerli durum</string>
@@ -819,12 +819,12 @@
     <string name="lockscreen_smartspace_title">Smartspace</string>
     <string name="lockscreen_smartspace_summary">Uygun olduğunda Google Smartspace gösterilsin</string>
     <!-- Lockscreen smartspace source -->
-    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
-    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
-    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
-    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <string name="lockscreen_smartspace_source_title">Smartspace kaynağı</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (saat içi)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC döngüsü)</string>
+    <string name="lockscreen_smartspace_source_none">Hiçbiri (hava durumu çipi kullan)</string>
     <!-- Lockscreen weather source -->
-    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_title">Hava durumu sağlayıcısı</string>
     <string name="lockscreen_weather_source_disabled">Devre dışı</string>
     <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
     <string name="lockscreen_weather_source_google">Google</string>
@@ -899,10 +899,10 @@
     <string name="pulse_settings_summary">Kilit ekranı ve gezinme çubuğunda ses görselleştirmesini gösterir</string>
     <string name="ambient_pulse_enabled_title">Ortam ekranında pulse</string>
     <string name="ambient_pulse_enabled_summary">Ambient Display\'de görselleştiriciyi göster</string>
-    <string name="pulse_bass_haptics_title">Bass haptics</string>
-    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
-    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
-    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
+    <string name="pulse_bass_haptics_title">Bas titreşimleri</string>
+    <string name="pulse_bass_haptics_none">Keskin bas patlamalarında hafif titreşim olmasın</string>
+    <string name="pulse_bass_haptics_running">Sadece pulse görünürken</string>
+    <string name="pulse_bass_haptics_always">Medya oynatıldığı her zaman</string>
     <string name="pulse_rounded_bars_title">Yuvarlak çubuklar</string>
     <string name="pulse_rounded_bars_summary">Köşeleri yuvarlatılmış görüntüleyici çubuklarını görüntüleyin</string>
     <string name="pulse_color">Görselleştirici rengi</string>
@@ -920,8 +920,8 @@
     <string name="pulse_renderer_minimal_wave">Minimal dalga</string>
     <string name="pulse_renderer_sparkle">Parıltı</string>
     <string name="pulse_renderer_matrix">Matris</string>
-    <string name="pulse_renderer_particle">Particle</string>
-    <string name="pulse_renderer_waveform">Waveform</string>
+    <string name="pulse_renderer_particle">Parçacık</string>
+    <string name="pulse_renderer_waveform">Dalga formu</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Yarı saydam bildirimler</string>
     <string name="notification_row_transparency_summary">Hızlı ayarlardaki bildirimler için yarı saydam arka plan ayarlayın</string>
@@ -971,7 +971,7 @@
     <string name="shape_pebble">Çakıl taşı</string>
     <string name="shape_rice_balls">Pirinç topları</string>
     <string name="shape_rounded_rect">Yuvarlatılmış dikdörtgen</string>
-    <string name="shape_squircle">Squircle</string>
+    <string name="shape_squircle">Köşeli kare</string>
     <string name="shape_tapered_rect">Konik dikdörtgen</string>
     <string name="shape_teardrop">Gözyaşı</string>
     <string name="shape_rounded_hexagon">Yuvarlak altıgen</string>
@@ -989,8 +989,8 @@
     <string name="dynamic_bar_events">Olaylar</string>
     <string name="dynamic_bar_event_audio_recording">Ses kaydı</string>
     <string name="dynamic_bar_event_audio_recording_summary">Ses kaydedici ve ses yakalama</string>
-    <string name="dynamic_bar_event_call">Ongoing call</string>
-    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
+    <string name="dynamic_bar_event_call">Devam eden çağrı</string>
+    <string name="dynamic_bar_event_call_summary">Gelen ve aktif çağrılar</string>
     <string name="dynamic_bar_event_media">Medya oynatma</string>
     <string name="dynamic_bar_event_media_summary">Çalan müzik ve ses denetimleri</string>
     <string name="dynamic_bar_event_notification">Bildirimler</string>
@@ -1007,7 +1007,7 @@
     <string name="dynamic_bar_event_charging_summary">Takılıyken pil seviyesi</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
     <string name="dynamic_bar_event_bluetooth_summary">Cihaz bağlantı durumu</string>
-    <string name="dynamic_bar_event_hotspot">Hotspot</string>
+    <string name="dynamic_bar_event_hotspot">Erişim noktası</string>
     <string name="dynamic_bar_event_hotspot_summary">Mobil erişim noktası etkin göstergesi</string>
     <string name="dynamic_bar_event_ringer">Zil Modu</string>
     <string name="dynamic_bar_event_ringer_summary">Sessiz, titreşim ve zil modu değişiklikleri</string>
@@ -1026,23 +1026,23 @@
     <string name="dynamic_bar_event_biometric">Biyometrik kilit açma</string>
     <string name="dynamic_bar_event_biometric_summary">Parmak izinde veya yüz tanıma kilidinde çipi göster</string>
     <string name="dynamic_bar_guide_title">Dinamik Çubuk nasıl kullanılır?</string>
-    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
-    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
-    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
-    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
-    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
-    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
-    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
+    <string name="dynamic_bar_guide_chip">Etkinlikler durum çubuğunda hareketli bir çip olarak görünür. \"Çentikte göster\" etkinleştirildiğinde, çip ön kamera çentiğinin etrafındaki hap şeklindeki alana taşınır</string>
+    <string name="dynamic_bar_guide_swipe">Birden fazla etkinlik aktif olduğunda, etkinlikler arasında geçiş yapmak için çip veya hap şeklindeki alan üzerinde sola veya sağa kaydırın. Bir rozet, toplam etkinlik sayısını gösterir. Kaydırma hareketi, genişletilmiş kart açıkken de çalışır</string>
+    <string name="dynamic_bar_guide_expand">Mevcut etkinlik için kontrolleri ve ayrıntıları içeren genişletilmiş bir kart açmak için çipe veya hap şeklindeki alana dokunun. Daha fazla etkinlik yığılmışsa, hepsini görmek için kartın altındaki genişletme düğmesine dokunun</string>
+    <string name="dynamic_bar_guide_dismiss">Belirli bir etkinliği reddetmek ve Dinamik Çubuk\'tan kaldırmak için genişletilmiş bir kartı sola veya sağa kaydırın. Etkinlikleri reddetmeden tüm yığını tekrar durum çubuğuna daraltmak için kartların dışına dokunun veya arka plan üzerinde yukarı kaydırın</string>
+    <string name="dynamic_bar_guide_keyguard">Çip ayrıca kilit ekranının alt kısmında görünüp standart bilgi metninin yerini alarak oynatma kontrolleri ve hızlı eylemler sunar</string>
+    <string name="dynamic_bar_guide_long_press">Dinamik Çubuk ayarlarına doğrudan gitmek için çipe veya hap şeklindeki alana uzun basın</string>
+    <string name="dynamic_bar_guide_cutout">\"Çentikte göster\" etkinleştirildiğinde, hap şeklindeki alan kamera çentiğini sarar. Boştayken sağ taraf daralır. Hapı, etkinliğe özel animasyonlara sahip hareketli bir halkaya dönüştürmek için \"Halkaya daralt\" özelliğini etkinleştirin</string>
     <string name="dynamic_bar_guide_chip_title">Çip görünümü</string>
-    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
+    <string name="dynamic_bar_guide_swipe_title">Etkinlikler arasında geçiş yap</string>
     <string name="dynamic_bar_guide_expand_title">Genişletmek için dokunun</string>
-    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
+    <string name="dynamic_bar_guide_dismiss_title">Reddet veya Daralt</string>
     <string name="dynamic_bar_guide_keyguard_title">Kilit ekranı çipi</string>
-    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
-    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <string name="dynamic_bar_guide_long_press_title">Hızlı ayarlara erişim</string>
+    <string name="dynamic_bar_guide_cutout_title">Çentik modu</string>
     <!-- Misc preference entries -->
-    <string name="play_integrity_fix_title">Play Integrity Fix</string>
-    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="play_integrity_fix_title">Play Integrity Düzeltmesi</string>
+    <string name="play_integrity_fix_summary">Temel integrity için PIF yapılandırmasını ve cihaz parmak izlerini yönet</string>
     <string name="tricky_store_title">TrickyStore</string>
     <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
     <string name="game_spoofing_title">Game spoofing</string>
