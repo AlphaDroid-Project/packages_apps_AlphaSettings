@@ -559,12 +559,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Уведомления бокового переключателя</string>
     <string name="alert_slider_notifications_summary">Показывать уведомление при изменении положения переключателя</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Безлимитный «Google Фото»</string>
-    <string name="use_photos_spoof_summary">Маскировка устройства под Pixel XL для «Google Фото», чтобы предоставить неограниченное хранилище для резервного копирования фотографий</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Высокий FPS в играх</string>
-    <string name="use_games_spoof_summary">Маскировка устройства под другую модель для определённых игр, чтобы разблокировать более высокий FPS</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Панель громкости</string>
     <string name="volume_dialog_timeout_title">Время отображения панели</string>
@@ -652,13 +646,7 @@
     <string name="smart_pixels_warning_text">«Умные пиксели» - средство экономии заряда. В зависимости от того, сколько пикселей вы захотите отключить, это может привести к значительному увеличению времени работы от батареи. Обратите внимание, что в некоторых случаях это может привести к невосприимчивости областей на экране</string>
     <string name="smart_pixels_title">«Умные пиксели»</string>
     <string name="smart_pixels_summary">Экономьте заряд батареи, отключая лишние точки экрана</string>
-    <string name="smart_pixels_enable_title">Включить «Умные пиксели»</string>
-    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения энергопотребления</string>
-    <string name="smart_pixels_on_power_save_title">Включать в режиме энергосбережения</string>
-    <string name="smart_pixels_on_power_save_summary">Включить «Умные пиксели», когда включен режим энергосбережения</string>
     <string name="smart_pixels_percent">Процент отключаемых пикселей</string>
-    <string name="smart_pixels_shift_title">Защита от выгорания</string>
-    <string name="smart_pixels_shift_summary">Предотвращение выгорания OLED экранов путём смещения пикселей с некоторой частотой</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Анимация жеста «Назад»</string>
     <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста «Назад»</string>
@@ -678,22 +666,19 @@
     <string name="qs_footer_datausage_title">Трафик приложений</string>
     <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Анимация плиток</string>
     <string name="qs_tile_animation_style_title">Стиль анимации</string>
-    <string name="qs_tile_animation_duration_title">Длительность</string>
-    <string name="qs_tile_animation_interpolator_title">Интерполятор анимации</string>
-    <string name="qs_tile_animation_style_off">Без анимации</string>
-    <string name="qs_tile_animation_style_rotate">Вращение</string>
-    <string name="qs_tile_animation_style_flipx">Листание по оси X</string>
-    <string name="qs_tile_animation_style_flipy">Листание по оси Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейный</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение и замедление</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Отскок</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Перекручивание</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Раскручивание</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Раскрутка и перекручивание</string>
+    <string name="qs_tile_animation_style_bounce">Bounce</string>
+    <string name="qs_tile_animation_style_ripple">Ripple</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Shake</string>
+    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_spin">Spin</string>
+    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_tilt">Наклон</string>
+    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_swing">Swing</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Звук снимка экрана</string>
     <string name="screenshot_shutter_sound_summary">Звук при создании снимка экрана</string>
@@ -729,10 +714,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Настройки погоды</string>
     <string name="weather_settings_summary">Настройка значков и службы погоды</string>
-    <string name="lockscreen_weather_category">Погода</string>
-    <string name="lockscreen_weather_title">Обновление погоды</string>
-    <string name="lockscreen_weather_summary">Показывать текущее обновление погоды</string>
-    <string name="lockscreen_weather_enabled_info">Требуется настроить свой сервис погоды и отключить умное пространство</string>
+    <string name="quicklook_weather_title">Weather</string>
+    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
     <string name="lockscreen_weather_location_title">Текущее местоположение</string>
     <string name="lockscreen_weather_location_summary">Показывать текущее местоположение</string>
     <string name="lockscreen_weather_text_title">Текущее состояние</string>
@@ -766,12 +749,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Плавающая кнопка поворота</string>
     <string name="floating_rotation_button_summary">Показывать плавающую кнопку поворота при вращении устройства</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Подмена устройства для Netflix</string>
-    <string name="netflix_spoof_summary">Подменять модель устройства для корректной работы Netflix</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Подмена для Google Play Integrity</string>
-    <string name="pi_spoof_summary">Подмена модели устройства для Google Play Integrity</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Стандарт Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Стандарт WiFi на значке сигнала WiFi</string>
@@ -847,6 +824,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Умное пространство</string>
     <string name="lockscreen_smartspace_summary">Показывать умное пространство Google, если доступно</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
+    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_disabled">Выключено</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Отключить буфер обмена</string>
     <!-- Increasing ring tone volume -->
@@ -874,18 +861,6 @@
     <string name="custom_style_fluid">Жидкость (прозрачная)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Слои</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Подмена ключей аттестации</string>
-    <string name="keybox_data_summary">Загрузить свой XML с ключами для замены ключей аттестации устройства</string>
-    <string name="keybox_data_loaded_summary">XML ключи загружены. Для очистки - удалите их.</string>
-    <string name="keybox_delete_content_description">Очистить данные ключей</string>
-    <string name="keybox_toast_invalid_file_selected">Это не XML файл. Выберите допустимый формат XML ключей.</string>
-    <string name="keybox_toast_missing_data">Некорректный XML файл с ключами: отсутствуют обязательные поля</string>
-    <string name="keybox_toast_file_loaded">Файл с ключами загружен</string>
-    <string name="keybox_toast_file_cleared">Ключи очищены</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Отключить принудительную аттестацию</string>
-    <string name="pi_gmscertchain_summary">Если включено - не применять строгую аттестацию из переопределённых ключей аттестации и полагаться на подмену Google Play для исправления приложений, таких как Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Форма плиток</string>
     <string name="qs_tile_shape_dynamic">Динамические</string>
@@ -930,6 +905,10 @@
     <string name="pulse_settings_summary">Графический аудио эквалайзер для панели навигации и экрана блокировки</string>
     <string name="ambient_pulse_enabled_title">На «Активном экране»</string>
     <string name="ambient_pulse_enabled_summary">Показать визуализацию на активном экране</string>
+    <string name="pulse_bass_haptics_title">Bass haptics</string>
+    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
+    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
+    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
     <string name="pulse_rounded_bars_title">Скруглённые полосы</string>
     <string name="pulse_rounded_bars_summary">Отображать полосы визуализации с закруглёнными углами</string>
     <string name="pulse_color">Цвет визуализации</string>
@@ -947,6 +926,8 @@
     <string name="pulse_renderer_minimal_wave">Небольшая волна</string>
     <string name="pulse_renderer_sparkle">Сияние</string>
     <string name="pulse_renderer_matrix">Матрица</string>
+    <string name="pulse_renderer_particle">Particle</string>
+    <string name="pulse_renderer_waveform">Waveform</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Прозрачные уведомления</string>
     <string name="notification_row_transparency_summary">Прозрачный фон уведомлений в быстрых настройках</string>
@@ -958,9 +939,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Волнистая анимация</string>
     <string name="media_squiggle_animation_summary">Показывать анимацию волнистой линией на панели мультимедиа при воспроизведении мультимедийных файлов</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Автоматическое обнаружение VBMeta</string>
-    <string name="vbmeta_attestation_summary">Выполните аттестацию ключа для генерации проверенного хэша при загрузке. Требуется перезапуск системы.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Не проверять</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -987,16 +965,6 @@
     <string name="cycle_type_weekly_sub">День недели:\n1 = Понедельник</string>
     <string name="cycle_type_daily_title">Час начала периода</string>
     <string name="cycle_type_daily_sub">Час дня:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Свой стиль часов</string>
-    <string name="lockscreen_custom_clock_style_summary">Настроить стиль часов на экране блокировки</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Смахните влево или вправо для просмотра стиля часов</string>
-    <string name="lockscreen_custom_clock_style_info">Выбранный стиль часов заменит стиль часов AOSP. «Умное пространство» будет отключено. Вы можете включить и использовать службу погоды.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Прозрачность часов</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Настройка прозрачности выбранного стиля часов</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Высота часов</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Регулировка высоты выбранного стиля часов</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Цветовой режим часов</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">Стиль панели QS</string>
     <string name="qs_panel_style_card">Панель \"Карточка\"</string>
@@ -1025,12 +993,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Только при зарядке</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Показывать всегда</string>
     <string name="dynamic_bar_events">События</string>
-    <string name="dynamic_bar_event_recording">Запись экрана</string>
-    <string name="dynamic_bar_event_recording_summary">Индикатор активной записи экрана</string>
-    <string name="dynamic_bar_event_privacy">Индикаторы конфиденциальности</string>
-    <string name="dynamic_bar_event_privacy_summary">Оповещения о доступе к камере и микрофону</string>
     <string name="dynamic_bar_event_audio_recording">Запись звука</string>
     <string name="dynamic_bar_event_audio_recording_summary">Диктофон и захват аудио</string>
+    <string name="dynamic_bar_event_call">Ongoing call</string>
+    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
     <string name="dynamic_bar_event_media">Воспроизведение медиа</string>
     <string name="dynamic_bar_event_media_summary">Управление текущей музыкой и аудио</string>
     <string name="dynamic_bar_event_notification">Уведомления</string>
@@ -1057,8 +1023,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Динамический предпросмотр текста и изображений</string>
     <string name="dynamic_bar_event_torch">Фонарик</string>
     <string name="dynamic_bar_event_torch_summary">Включение фонарика и регулировка яркости</string>
-    <string name="dynamic_bar_event_casting">Трансляция</string>
-    <string name="dynamic_bar_event_casting_summary">Статус трансляции экрана и медиа</string>
     <string name="dynamic_bar_event_ongoing">Текущие действия</string>
     <string name="dynamic_bar_event_ongoing_summary">Навигация, доставка и другие живые активности</string>
     <string name="dynamic_bar_event_sports">Спорт</string>
@@ -1067,6 +1031,112 @@
     <string name="dynamic_bar_event_app_switch_summary">Показывать чип при переключении между недавними приложениями</string>
     <string name="dynamic_bar_event_biometric">Биометрическая разблокировка</string>
     <string name="dynamic_bar_event_biometric_summary">Показывать чип при разблокировке по отпечатку пальца или лицу</string>
+    <string name="dynamic_bar_guide_title">Как использовать динамическую панель</string>
+    <string name="dynamic_bar_guide_chip">События отображаются в виде анимированного виджета в строке состояния. Если включено \"Показывать в вырезе\", виджет перемещается вокруг выреза фронтальной камеры.</string>
+    <string name="dynamic_bar_guide_swipe">Если активно несколько событий, смахните влево или вправо по виджету, чтобы переключаться между ними. Значок показывает общее количество событий. Смахивание работает даже при открытой расширенной карточке.</string>
+    <string name="dynamic_bar_guide_expand">Нажмите на виджет, чтобы открыть расширенную карточку текущего события с элементами управления и деталями. Если событий несколько, нажмите кнопку расширения под карточкой, чтобы увидеть их все.</string>
+    <string name="dynamic_bar_guide_dismiss">Смахните расширенную карточку влево или вправо, чтобы закрыть конкретное событие и удалить его из Dynamic Bar. Чтобы свернуть всю стопку обратно в строку состояния без закрытия событий, нажмите вне карточек или смахните вверх по фону.</string>
+    <string name="dynamic_bar_guide_keyguard">Виджет также появляется в нижней части экрана блокировки, заменяя стандартный текст индикации элементами управления воспроизведением и быстрыми действиями.</string>
+    <string name="dynamic_bar_guide_long_press">Удерживайте нажатие на виджете, чтобы перейти прямо к настройкам Dynamic Bar.</string>
+    <string name="dynamic_bar_guide_cutout">При включенном \"Показывать в вырезе\" виджет огибает вырез камеры. При бездействии правая сторона сворачивается. Включите \"Сворачивать в кольцо\", чтобы виджет сжимался в анимированное кольцо со специальными анимациями.</string>
+    <string name="dynamic_bar_guide_chip_title">Внешний вид чипа</string>
+    <string name="dynamic_bar_guide_swipe_title">Переключение событий</string>
+    <string name="dynamic_bar_guide_expand_title">Нажмите, чтобы развернуть</string>
+    <string name="dynamic_bar_guide_dismiss_title">Закрыть или свернуть</string>
+    <string name="dynamic_bar_guide_keyguard_title">Чип на экране блокировки</string>
+    <string name="dynamic_bar_guide_long_press_title">Быстрый доступ к настройкам</string>
+    <string name="dynamic_bar_guide_cutout_title">Режим выреза</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
+    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">Удалить</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">Настройки</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_delete">Удалить</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_loading_apps">Loading apps\u2026</string>
+    <string name="ts_auto_select">Auto-select</string>
+    <string name="ts_save">Сохранить</string>
+    <string name="ts_targets_saved">Target list saved</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_target_mode">Target mode</string>
+    <string name="ts_target_mode_auto">Auto</string>
+    <string name="ts_target_mode_leaf">Leaf hack</string>
+    <string name="ts_target_mode_cert">Certificate generation</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">Сохранить</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Настройки Alpha</string>
@@ -1154,72 +1224,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Скрыть захват экрана</string>
     <string name="hide_screen_capture_status_summary">Скрыть состояние захвата экрана приложениями</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Скрыть статус разработчика</string>
-    <string name="hide_developer_status_summary">Скрыть статус разработчика из приложений</string>
-    <string name="search_apps">Поиск приложений</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Значки уведомлений</string>
     <string name="max_visible_notification_icons_summary">Максимальное количество значков в строке состояния</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Кольцо прогресса выреза</string>
-    <string name="cutout_progress_summary">Показать прогресс кольца вокруг отверстия</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Особенности</string>
-    <string name="cutout_progress_cat_appearance">Внешний вид</string>
-    <string name="cutout_progress_cat_geometry">Геометрия выреза</string>
-    <string name="cutout_progress_cat_island">Расширенный режим</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Включить кольцо прогресса загрузки</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Режим цвета кольца</string>
-    <string name="cutout_progress_ring_color_mode_accent">Акцент</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Радуга</string>
-    <string name="cutout_progress_ring_color_mode_custom">Свой</string>
-    <string name="cutout_progress_ring_color_title">Индивидуальный цвет кольца</string>
-    <string name="cutout_progress_ring_opacity_title">Прозрачность кольца</string>
-    <string name="cutout_progress_stroke_width_title">Толщина кольца</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Показывать фоновый трек</string>
-    <string name="cutout_progress_charging_pulse_title">Анимация импульса зарядки</string>
-    <string name="cutout_progress_charging_pulse_summary">Анимация повторяющегося импульса из центра во время зарядки</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Зазор кольца (отступ от выреза)</string>
-    <string name="cutout_progress_path_mode_title">Следовать форме выреза</string>
-    <string name="cutout_progress_path_mode_summary">Настройка внешнего вида системы с помощью тем и наборов иконок</string>
-    <string name="cutout_progress_scale_x_title">Горизонтальный масштаб</string>
-    <string name="cutout_progress_scale_y_title">Вертикальный масштаб</string>
-    <string name="cutout_progress_offset_x_title">Горизонтальное смещение</string>
-    <string name="cutout_progress_offset_y_title">Вертикальное смещение</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Компактное размещение</string>
-    <string name="cutout_progress_island_compact_summary">Оберните вокруг вырезания камеры</string>
-    <string name="cutout_progress_island_position_title">Выравнивание компактного макета</string>
-    <string name="cutout_island_pos_center">Разделение по центру</string>
-    <string name="cutout_island_pos_left">слева</string>
-    <string name="cutout_island_pos_right">справа</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Прозрачность фона</string>
     <string name="cutout_island_timeout_title">Таймаут свертывания</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Скрыть список приложений</string>
-    <string name="hide_applist_summary">Запретить приложениям проверять выбранные приложения из списка приложений</string>
-    <string name="menu_show_overlay">Показать оверлей</string>
-    <string name="menu_hide_overlay">Скрыть оверлей</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Форма ползунка громкости</string>
-
-    <string name="dynamic_bar_guide_chip">События отображаются в виде анимированного виджета в строке состояния. Если включено \"Показывать в вырезе\", виджет перемещается вокруг выреза фронтальной камеры.</string>
-    <string name="dynamic_bar_guide_swipe">Если активно несколько событий, смахните влево или вправо по виджету, чтобы переключаться между ними. Значок показывает общее количество событий. Смахивание работает даже при открытой расширенной карточке.</string>
-    <string name="dynamic_bar_guide_expand">Нажмите на виджет, чтобы открыть расширенную карточку текущего события с элементами управления и деталями. Если событий несколько, нажмите кнопку расширения под карточкой, чтобы увидеть их все.</string>
-    <string name="dynamic_bar_guide_dismiss">Смахните расширенную карточку влево или вправо, чтобы закрыть конкретное событие и удалить его из Dynamic Bar. Чтобы свернуть всю стопку обратно в строку состояния без закрытия событий, нажмите вне карточек или смахните вверх по фону.</string>
-    <string name="dynamic_bar_guide_keyguard">Виджет также появляется в нижней части экрана блокировки, заменяя стандартный текст индикации элементами управления воспроизведением и быстрыми действиями.</string>
-    <string name="dynamic_bar_guide_long_press">Удерживайте нажатие на виджете, чтобы перейти прямо к настройкам Dynamic Bar.</string>
-    <string name="dynamic_bar_guide_cutout">При включенном \"Показывать в вырезе\" виджет огибает вырез камеры. При бездействии правая сторона сворачивается. Включите \"Сворачивать в кольцо\", чтобы виджет сжимался в анимированное кольцо со специальными анимациями.</string>
-    <string name="dynamic_bar_guide_chip_title">Внешний вид</string>
-    <string name="dynamic_bar_guide_swipe_title">Переключение событий</string>
-    <string name="dynamic_bar_guide_expand_title">Нажмите для расширения</string>
-    <string name="dynamic_bar_guide_dismiss_title">Закрыть или свернуть</string>
-    <string name="dynamic_bar_guide_keyguard_title">На экране блокировки</string>
-    <string name="dynamic_bar_guide_long_press_title">Быстрый доступ к настройкам</string>
-    <string name="dynamic_bar_guide_cutout_title">Режим выреза</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>
