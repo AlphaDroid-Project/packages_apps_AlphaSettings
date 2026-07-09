@@ -556,7 +556,7 @@
     <!-- Quad9 Unsecured ECS DNS hostname -->
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Notificações do seletor de alertas</string>
-    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
+    <string name="alert_slider_notifications_summary">Mostrar notificação ao alterar a posição do seletor de alertas</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Painel de volume</string>
     <string name="volume_dialog_timeout_title">Tempo limite do painel de volume</string>
@@ -668,12 +668,12 @@
     <string name="qs_tile_animation_style_flip">Inversão</string>
     <string name="qs_tile_animation_style_fade">Desvanecimento</string>
     <string name="qs_tile_animation_style_pulse">Pulsação</string>
-    <string name="qs_tile_animation_style_shake">Shake</string>
-    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_shake">Agitar</string>
+    <string name="qs_tile_animation_style_wobble">Oscilação</string>
     <string name="qs_tile_animation_style_spin">Rotação</string>
     <string name="qs_tile_animation_style_squish">Compressão</string>
     <string name="qs_tile_animation_style_tilt">Inclinação</string>
-    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_heartbeat">Batimento</string>
     <string name="qs_tile_animation_style_swing">Balanço</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Som de captura de ecrã</string>
@@ -710,8 +710,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Definições da meteorologia</string>
     <string name="weather_settings_summary">Configurar pacote de ícones e serviço meteorológico</string>
-    <string name="quicklook_weather_title">Weather</string>
-    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
+    <string name="quicklook_weather_title">Tempo</string>
+    <string name="quicklook_weather_summary">Condições meteorológicas atuais do OmniJaws</string>
     <string name="lockscreen_weather_location_title">Localização atual</string>
     <string name="lockscreen_weather_location_summary">Mostrar localização meteorológica atual</string>
     <string name="lockscreen_weather_text_title">Condições atuais</string>
@@ -819,12 +819,12 @@
     <string name="lockscreen_smartspace_title">Espaço inteligente</string>
     <string name="lockscreen_smartspace_summary">Mostrar o Espaço Inteligente Google quando disponível</string>
     <!-- Lockscreen smartspace source -->
-    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
-    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
-    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
-    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <string name="lockscreen_smartspace_source_title">Fonte do Espaço Inteligente</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (no relógio)</string>
+    <string name="lockscreen_smartspace_source_google">Google</string>
+    <string name="lockscreen_smartspace_source_none">Nenhum</string>
     <!-- Lockscreen weather source -->
-    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_title">Serviço de meteorologia</string>
     <string name="lockscreen_weather_source_disabled">Desativado</string>
     <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
     <string name="lockscreen_weather_source_google">Google</string>
@@ -899,10 +899,10 @@
     <string name="pulse_settings_summary">Equalizador gráfico de áudio para a barra de navegação e ecrã de bloqueio</string>
     <string name="ambient_pulse_enabled_title">Pulse ambiente</string>
     <string name="ambient_pulse_enabled_summary">Mostrar visualizador no ecrã ambiente</string>
-    <string name="pulse_bass_haptics_title">Bass haptics</string>
-    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
-    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
-    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
+    <string name="pulse_bass_haptics_title">Vibração de graves</string>
+    <string name="pulse_bass_haptics_none">Nenhuma vibração subtil em picos de graves</string>
+    <string name="pulse_bass_haptics_running">Apenas quando o modo Pulse está ativado</string>
+    <string name="pulse_bass_haptics_always">Quando a reprodução de media estiver ativa</string>
     <string name="pulse_rounded_bars_title">Barras arredondadas</string>
     <string name="pulse_rounded_bars_summary">Exibir barras do visualizador com cantos arredondados</string>
     <string name="pulse_color">Cor do visualizador</string>
@@ -920,8 +920,8 @@
     <string name="pulse_renderer_minimal_wave">Ondulação mínima</string>
     <string name="pulse_renderer_sparkle">Brilhante</string>
     <string name="pulse_renderer_matrix">Matriz</string>
-    <string name="pulse_renderer_particle">Particle</string>
-    <string name="pulse_renderer_waveform">Waveform</string>
+    <string name="pulse_renderer_particle">Partícula</string>
+    <string name="pulse_renderer_waveform">Ondulação</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notificações translúcidas</string>
     <string name="notification_row_transparency_summary">Notificações com fundo transparente</string>
@@ -971,7 +971,7 @@
     <string name="shape_pebble">Seixo</string>
     <string name="shape_rice_balls">Bolinhas de arroz</string>
     <string name="shape_rounded_rect">Retângulo arredondado</string>
-    <string name="shape_squircle">Squircle</string>
+    <string name="shape_squircle">Quadrado arredondado</string>
     <string name="shape_tapered_rect">Retângulo afunilado</string>
     <string name="shape_teardrop">Lágrima</string>
     <string name="shape_rounded_hexagon">Hexágono arredondado</string>
@@ -989,8 +989,8 @@
     <string name="dynamic_bar_events">Eventos</string>
     <string name="dynamic_bar_event_audio_recording">Gravação de áudio</string>
     <string name="dynamic_bar_event_audio_recording_summary">Gravador de voz e captura de áudio</string>
-    <string name="dynamic_bar_event_call">Ongoing call</string>
-    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
+    <string name="dynamic_bar_event_call">Chamada em curso</string>
+    <string name="dynamic_bar_event_call_summary">Chamadas recebidas e ativas</string>
     <string name="dynamic_bar_event_media">Reprodução de multimédia</string>
     <string name="dynamic_bar_event_media_summary">Música a tocar e controlos de áudio</string>
     <string name="dynamic_bar_event_notification">Notificações</string>
@@ -1007,7 +1007,7 @@
     <string name="dynamic_bar_event_charging_summary">Nível da bateria quando está ligado à corrente</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
     <string name="dynamic_bar_event_bluetooth_summary">Estado da ligação do dispositivo</string>
-    <string name="dynamic_bar_event_hotspot">Hotspot</string>
+    <string name="dynamic_bar_event_hotspot">Ponto de acesso</string>
     <string name="dynamic_bar_event_hotspot_summary">Indicador de hotspot móvel ativo</string>
     <string name="dynamic_bar_event_ringer">Modo de toque</string>
     <string name="dynamic_bar_event_ringer_summary">Alterações entre silêncio, vibração e toque</string>
@@ -1026,26 +1026,26 @@
     <string name="dynamic_bar_event_biometric">Desbloqueio biométrico</string>
     <string name="dynamic_bar_event_biometric_summary">Mostrar o chip ao desbloquear com impressão digital ou rosto</string>
     <string name="dynamic_bar_guide_title">Como utilizar a barra dinâmica</string>
-    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
-    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
-    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
-    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
-    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
-    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
-    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
+    <string name="dynamic_bar_guide_chip">Mostra os eventos no recorte da câmara frontal em vez da barra de estado.</string>
+    <string name="dynamic_bar_guide_swipe">Deslize no chip ou na cápsula para alternar entre eventos ativos; o indicador mostra o total, mesmo com o cartão expandido aberto.</string>
+    <string name="dynamic_bar_guide_expand">Toque no chip ou na cápsula para abrir um cartão expandido com os controlos e os detalhes do evento atual. Se existirem mais eventos empilhados, toque no botão de expandir abaixo do cartão para os ver todos.</string>
+    <string name="dynamic_bar_guide_dismiss">Deslize um cartão expandido para a esquerda ou para a direita para dispensar esse evento específico e removê-lo da Barra Dinâmica. Para recolher toda a pilha de volta à barra de estado sem dispensar eventos, toque fora dos cartões ou deslize para cima no fundo.</string>
+    <string name="dynamic_bar_guide_keyguard">O chip também aparece na parte inferior do ecrã de bloqueio, substituindo o texto de indicação padrão por controlos de reprodução e ações rápidas.</string>
+    <string name="dynamic_bar_guide_long_press">Toque longamente no chip ou na cápsula para aceder diretamente a estas definições da Barra Dinâmica.</string>
+    <string name="dynamic_bar_guide_cutout">Com \"Mostrar no recorte\" ativado, a cápsula ajusta-se ao recorte da câmara. Quando está inativa, o lado direito recolhe. Ative \"Recolher para anel\" para reduzir a cápsula a um anel animado com animações específicas para cada evento.</string>
     <string name="dynamic_bar_guide_chip_title">Aparência do chip</string>
-    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
+    <string name="dynamic_bar_guide_swipe_title">Alternar eventos</string>
     <string name="dynamic_bar_guide_expand_title">Toque para expandir</string>
-    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
+    <string name="dynamic_bar_guide_dismiss_title">Descartar ou Ocultar</string>
     <string name="dynamic_bar_guide_keyguard_title">Chip no ecrã de bloqueio</string>
-    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
-    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <string name="dynamic_bar_guide_long_press_title">Acesso às configurações rápidas</string>
+    <string name="dynamic_bar_guide_cutout_title">Modo de recorte</string>
     <!-- Misc preference entries -->
     <string name="play_integrity_fix_title">Play Integrity Fix</string>
-    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="play_integrity_fix_summary">Gerir configurações PIF e impressões digitais de dispositivo para integridade básica</string>
     <string name="tricky_store_title">TrickyStore</string>
-    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
-    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="tricky_store_summary">Gerir a keybox e as aplicações de destino para atestação de integridade forte</string>
+    <string name="game_spoofing_title">    Máscara para jogos</string>
     <string name="game_spoofing_summary">Spoof device properties for specific games</string>
     <!-- Play Integrity Fix -->
     <string name="pif_status">Status</string>
