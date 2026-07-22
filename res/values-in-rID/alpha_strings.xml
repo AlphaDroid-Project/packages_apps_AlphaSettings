@@ -556,12 +556,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Notifikasi slider peringatan</string>
     <string name="alert_slider_notifications_summary">Menampilkan notifikasi saat mengubah posisi slider peringatan</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
-    <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Buka kunci FPS yang lebih tinggi dalam game</string>
-    <string name="use_games_spoof_summary">Palsukan perangkat Anda sebagai model yang berbeda untuk game tertentu untuk membuka FPS yang lebih tinggi</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Panel volume</string>
     <string name="volume_dialog_timeout_title">Waktu habis panel volume</string>
@@ -646,13 +640,7 @@
     <string name="smart_pixels_warning_text">Piksel Cerdas adalah fitur penghemat daya. Bergantung pada berapa banyak piksel yang Anda putuskan untuk dimatikan, Anda dapat melihat peningkatan dalam masa pakai baterai. Perhatikan bahwa dalam beberapa kasus dapat mengakibatkan area yang tidak responsif pada layar sentuh</string>
     <string name="smart_pixels_title">Piksel Cerdas</string>
     <string name="smart_pixels_summary">Menghemat baterai dengan mematikan beberapa piksel</string>
-    <string name="smart_pixels_enable_title">Aktifkan Piksel Cerdas</string>
-    <string name="smart_pixels_enable_summary">Mematikan beberapa piksel untuk mengurangi konsumsi daya</string>
-    <string name="smart_pixels_on_power_save_title">Aktifkan otomatis pada penghemat baterai</string>
-    <string name="smart_pixels_on_power_save_summary">Aktifkan Piksel Cerdas saat penghemat baterai diaktifkan</string>
     <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
-    <string name="smart_pixels_shift_title">Perlindungan burn-in</string>
-    <string name="smart_pixels_shift_summary">Mencegah burn-in pada perangkat OLED dengan menggeser piksel sesering mungkin</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animasi gestur kembali</string>
     <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali</string>
@@ -672,22 +660,19 @@
     <string name="qs_footer_datausage_title">Penggunaan data</string>
     <string name="qs_footer_datausage_summary">Tampilkan ringkasan penggunaan data di footer setelan cepat</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Animasi ubin</string>
     <string name="qs_tile_animation_style_title">Gaya animasi</string>
-    <string name="qs_tile_animation_duration_title">Durasi animasi</string>
-    <string name="qs_tile_animation_interpolator_title">Interpolator animasi</string>
-    <string name="qs_tile_animation_style_off">Tidak ada animasi</string>
-    <string name="qs_tile_animation_style_rotate">Putar</string>
-    <string name="qs_tile_animation_style_flipx">Balik X</string>
-    <string name="qs_tile_animation_style_flipy">Balik Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Linier</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Mempercepat</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Memperlambat</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Mempercepat melambat</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Melambung</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Melampaui</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Mengantisipasi</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Mengantisipasi melampaui</string>
+    <string name="qs_tile_animation_style_bounce">Melambung</string>
+    <string name="qs_tile_animation_style_ripple">Riak</string>
+    <string name="qs_tile_animation_style_flip">Membalik</string>
+    <string name="qs_tile_animation_style_fade">Memudar</string>
+    <string name="qs_tile_animation_style_pulse">Denyut</string>
+    <string name="qs_tile_animation_style_shake">Goyang</string>
+    <string name="qs_tile_animation_style_wobble">Goyangan</string>
+    <string name="qs_tile_animation_style_spin">Putar</string>
+    <string name="qs_tile_animation_style_squish">Remas</string>
+    <string name="qs_tile_animation_style_tilt">Miring</string>
+    <string name="qs_tile_animation_style_heartbeat">Detak jantung</string>
+    <string name="qs_tile_animation_style_swing">Mengayun</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
     <string name="screenshot_shutter_sound_summary">Putar suara saat tangkapan layar diambil</string>
@@ -723,10 +708,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Pengaturan cuaca</string>
     <string name="weather_settings_summary">Atur paket ikon dan servis cuaca</string>
-    <string name="lockscreen_weather_category">Cuaca</string>
-    <string name="lockscreen_weather_title">Pembaruan info cuaca</string>
-    <string name="lockscreen_weather_summary">Tampilkan cuaca saat ini menurut lokasi</string>
-    <string name="lockscreen_weather_enabled_info">Memerlukan layanan cuaca khusus yang dikonfigurasi dan ruang pintar dinonaktifkan</string>
+    <string name="quicklook_weather_title">Cuaca</string>
+    <string name="quicklook_weather_summary">Kondisi cuaca terkini dari OmniJaws</string>
     <string name="lockscreen_weather_location_title">Lokasi saat ini</string>
     <string name="lockscreen_weather_location_summary">Tampilkan cuaca saat ini menurut lokasi</string>
     <string name="lockscreen_weather_text_title">Kondisi saat ini</string>
@@ -760,12 +743,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Tombol rotasi mengambang</string>
     <string name="floating_rotation_button_summary">Tampilkan tombol rotasi mengambang saat perangkat diputar</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Tipuan Netflix</string>
-    <string name="netflix_spoof_summary">Palsukan perangkat Anda sebagai model lain untuk Netflix</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Palsukan Integritas Google Play</string>
-    <string name="pi_spoof_summary">Memalsukan perangkat Anda sebagai model yang berbeda untuk Google Play Integrity</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Standar WiFi</string>
     <string name="wifi_standard_icon_summary">Tampilkan standar WiFi di sebelah sinyal WiFi</string>
@@ -838,6 +815,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Ruang pintar</string>
     <string name="lockscreen_smartspace_summary">Tampilkan Ruang pintar Google saat tersedia</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Sumber smartspace</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (di dalam jam)</string>
+    <string name="lockscreen_smartspace_source_google">Google (korsel BC)</string>
+    <string name="lockscreen_smartspace_source_none">Tidak ada (gunakan chip cuaca)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Penyedia cuaca</string>
+    <string name="lockscreen_weather_source_disabled">Dinonaktifkan</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Nonaktifkan papan klip</string>
     <!-- Increasing ring tone volume -->
@@ -865,18 +852,6 @@
     <string name="custom_style_fluid">Fluid (Transparan)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Lapisan</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Penggantian pengesahan keybox</string>
-    <string name="keybox_data_summary">Muat keybox XML khusus untuk mengganti pengesahan kunci perangkat</string>
-    <string name="keybox_data_loaded_summary">Kustom keybox sudah dimuat. Hapus untuk membersihkan</string>
-    <string name="keybox_delete_content_description">Bersihkan data keybox</string>
-    <string name="keybox_toast_invalid_file_selected">Bukan berkas XML. Pilih keybox valid XML</string>
-    <string name="keybox_toast_missing_data">Keybox XML tidak valid: bidang yang diperlukan tidak ada</string>
-    <string name="keybox_toast_file_loaded">Keybox dimuat</string>
-    <string name="keybox_toast_file_cleared">Keybox dibersihkan</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Nonaktifkan pemaksaan integritas yang kuat</string>
-    <string name="pi_gmscertchain_summary">Saat diaktifkan, jangan terapkan integritas kuat dari keybox kustom yang valid dan bergantung pada spoof Integritas Google Play untuk memperbaiki aplikasi seperti Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Bentuk ubin QS</string>
     <string name="qs_tile_shape_dynamic">Dinamis</string>
@@ -922,6 +897,10 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="pulse_settings_summary">Equalizer grafis audio untuk bilah navigasi dan layar kunci</string>
     <string name="ambient_pulse_enabled_title">Visual Audio Layar Ambien</string>
     <string name="ambient_pulse_enabled_summary">Tampilkan visualisasi di Tampilan Ambient</string>
+    <string name="pulse_bass_haptics_title">Haptik bass</string>
+    <string name="pulse_bass_haptics_none">Tidak ada getaran halus pada lonjakan bass yang tajam</string>
+    <string name="pulse_bass_haptics_running">Hanya saat denyut terlihat</string>
+    <string name="pulse_bass_haptics_always">Setiap kali pemutaran media aktif</string>
     <string name="pulse_rounded_bars_title">Batang dengan ujung bulat</string>
     <string name="pulse_rounded_bars_summary">Tampilkan visualisasi batang dengan ujung membulat</string>
     <string name="pulse_color">Warna visualisasi</string>
@@ -939,6 +918,8 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="pulse_renderer_minimal_wave">Gelombang minimal</string>
     <string name="pulse_renderer_sparkle">Kelap-kelip</string>
     <string name="pulse_renderer_matrix">Matriks</string>
+    <string name="pulse_renderer_particle">Partikel</string>
+    <string name="pulse_renderer_waveform">Gelombang</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Pemberitahuan transparan</string>
     <string name="notification_row_transparency_summary">Set translucent background for notifications</string>
@@ -950,9 +931,6 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Animasi coretan</string>
     <string name="media_squiggle_animation_summary">Tampilkan animasi coretan di panel media saat memutar media</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Perbaikan otomatis untuk pendeteksi VBMeta</string>
-    <string name="vbmeta_attestation_summary">Lakukan atestasi kunci untuk menghasilkan hash boot terverifikasi saat boot. Sistem perlu dimulai ulang.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Jangan validasi</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -979,16 +957,6 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="cycle_type_weekly_sub">Hari dalam seminggu:\n1 = Senin</string>
     <string name="cycle_type_daily_title">Reset ulang jam siklus penggunaan</string>
     <string name="cycle_type_daily_sub">Jam setiap hari:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Gaya jam khusus</string>
-    <string name="lockscreen_custom_clock_style_summary">Konfigurasikan gaya jam layar kunci</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Gesek ke kiri atau kanan untuk melihat pratinjau gaya jam</string>
-    <string name="lockscreen_custom_clock_style_info">Gaya jam khusus menggantikan gaya jam AOSP dengan jam khusus. Smartspace akan dinonaktifkan. Anda dapat mengaktifkan dan menggunakan cuaca khusus.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Opasitas jam khusus</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Sesuaikan transparansi gaya jam khusus</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Ketinggian jam khusus</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Sesuaikan ketinggian gaya jam khusus</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Mode warna jam khusus</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">Gaya Panel QS</string>
     <string name="qs_panel_style_card">Gaya kartu</string>
@@ -1001,7 +969,7 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="shape_pebble">Kerikil</string>
     <string name="shape_rice_balls">Bola nasi</string>
     <string name="shape_rounded_rect">Persegi panjang bulat</string>
-    <string name="shape_squircle">Squircle</string>
+    <string name="shape_squircle">Persegi membulat</string>
     <string name="shape_tapered_rect">Rek meruncing</string>
     <string name="shape_teardrop">Titik air mata</string>
     <string name="shape_rounded_hexagon">Segi enam bulat</string>
@@ -1017,12 +985,10 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="dynamic_bar_keyguard_battery_chip_charging">Hanya saat mengisi daya</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Selalu tunjukkan</string>
     <string name="dynamic_bar_events">Acara</string>
-    <string name="dynamic_bar_event_recording">Rekaman layar</string>
-    <string name="dynamic_bar_event_recording_summary">Indikator perekaman layar aktif</string>
-    <string name="dynamic_bar_event_privacy">Indikator privasi</string>
-    <string name="dynamic_bar_event_privacy_summary">Peringatan akses kamera dan mikrofon</string>
     <string name="dynamic_bar_event_audio_recording">Rekaman audio</string>
     <string name="dynamic_bar_event_audio_recording_summary">Perekam suara dan pengambilan audio</string>
+    <string name="dynamic_bar_event_call">Panggilan sedang berlangsung</string>
+    <string name="dynamic_bar_event_call_summary">Panggilan masuk dan aktif</string>
     <string name="dynamic_bar_event_media">Pemutaran media</string>
     <string name="dynamic_bar_event_media_summary">Sekarang memutar musik dan kontrol audio</string>
     <string name="dynamic_bar_event_notification">Notifikasi</string>
@@ -1049,8 +1015,6 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="dynamic_bar_event_clipboard_summary">Pratinjau teks dan gambar yang disalin</string>
     <string name="dynamic_bar_event_torch">Senter</string>
     <string name="dynamic_bar_event_torch_summary">Pengalih dan kecerahan senter</string>
-    <string name="dynamic_bar_event_casting">Proyeksi</string>
-    <string name="dynamic_bar_event_casting_summary">Status proyeksi layar dan media</string>
     <string name="dynamic_bar_event_ongoing">Kegiatan yang sedang berlangsung</string>
     <string name="dynamic_bar_event_ongoing_summary">Navigasi, pengiriman, dan aktivitas langsung lainnya</string>
     <string name="dynamic_bar_event_sports">Olahraga</string>
@@ -1059,6 +1023,112 @@ Beberapa layar mungkin tampak mati.</string>
     <string name="dynamic_bar_event_app_switch_summary">Tampilkan chip saat beralih di antara aplikasi terbaru</string>
     <string name="dynamic_bar_event_biometric">Buka kunci biometrik</string>
     <string name="dynamic_bar_event_biometric_summary">Tampilkan chip saat membuka kunci dengan sidik jari atau wajah</string>
+    <string name="dynamic_bar_guide_title">Cara menggunakan Bilah Dinamis</string>
+    <string name="dynamic_bar_guide_chip">Peristiwa akan muncul sebagai chip animasi di bilah status. Saat \"Tampilkan pada lubang kamera\" diaktifkan, chip akan bergerak ke bentuk pil di sekitar lubang kamera depan.</string>
+    <string name="dynamic_bar_guide_swipe">Saat beberapa acara aktif, geser ke kiri atau kanan pada chip atau pil untuk beralih di antara acara-acara tersebut. Sebuah lencana akan menunjukkan jumlah total acara. Penggeseran juga berfungsi saat kartu yang diperluas sedang terbuka.</string>
+    <string name="dynamic_bar_guide_expand">Ketuk chip atau pil untuk membuka kartu yang lebih lengkap untuk acara saat ini beserta kontrol dan detailnya. Jika ada lebih dari satu acara yang bertumpuk, ketuk tombol perluas di bawah kartu untuk melihat semuanya.</string>
+    <string name="dynamic_bar_guide_dismiss">Geser kartu yang diperluas ke kiri atau kanan untuk menutup acara tertentu dan menghapusnya dari Bilah Dinamis. Untuk menutup seluruh tumpukan kembali ke bilah status tanpa menutup acara, ketuk di luar kartu atau geser ke atas pada latar belakang.</string>
+    <string name="dynamic_bar_guide_keyguard">Chip tersebut juga muncul di bagian bawah layar kunci, menggantikan teks indikasi standar dengan kontrol pemutaran dan tindakan cepat.</string>
+    <string name="dynamic_bar_guide_long_press">Tekan lama chip atau pil untuk langsung menuju pengaturan Bilah Dinamis ini.</string>
+    <string name="dynamic_bar_guide_cutout">Dengan opsi \"Tampilkan pada potongan gambar\" diaktifkan, pil akan menempel pada potongan gambar kamera. Saat tidak aktif, sisi kanan akan menyusut. Aktifkan \"Ciutkan menjadi cincin\" untuk mengecilkan pil menjadi cincin animasi dengan animasi khusus untuk setiap peristiwa</string>
+    <string name="dynamic_bar_guide_chip_title">Penampilan chip</string>
+    <string name="dynamic_bar_guide_swipe_title">Siklus peristiwa</string>
+    <string name="dynamic_bar_guide_expand_title">Ketuk untuk memperluas</string>
+    <string name="dynamic_bar_guide_dismiss_title">Abaikan atau Runtuh</string>
+    <string name="dynamic_bar_guide_keyguard_title">Chip layar kunci</string>
+    <string name="dynamic_bar_guide_long_press_title">Akses setelan cepat</string>
+    <string name="dynamic_bar_guide_cutout_title">Mode potongan</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Perbaikan Integritas Play</string>
+    <string name="play_integrity_fix_summary">Kelola konfigurasi PIF dan sidik jari perangkat untuk integritas dasar</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Kelola keybox dan aplikasi target untuk pengesahan demi integritas yang kuat</string>
+    <string name="game_spoofing_title">Pemalsuan game</string>
+    <string name="game_spoofing_summary">Memalsukan properti perangkat untuk game tertentu</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Konfigurasi aktif</string>
+    <string name="pif_no_config">Tidak ada konfigurasi yang dimuat</string>
+    <string name="pif_config_loaded">Konfigurasi dimuat</string>
+    <string name="pif_fetch_pixel_beta">Ambil sidik jari Pixel Beta</string>
+    <string name="pif_fetch_pixel_beta_summary">Unduh sidik jari Pixel Beta terbaru dari Google</string>
+    <string name="pif_fetching">Mengambil data dari Google\u2026</string>
+    <string name="pif_fetched_model">Sidik jari diambil untuk %s</string>
+    <string name="pif_import_config">Impor konfigurasi</string>
+    <string name="pif_import_config_summary">Impor konfigurasi PIF dari sebuah file</string>
+    <string name="pif_imported_as">Diimpor sebagai %s</string>
+    <string name="pif_delete_config">Hapus konfigurasi aktif</string>
+    <string name="pif_delete_config_summary">Hapus file konfigurasi yang sedang aktif</string>
+    <string name="pif_delete_title">Hapus %s?</string>
+    <string name="pif_delete_message">File konfigurasi ini akan dihapus secara permanen.</string>
+    <string name="pif_delete">Hapus</string>
+    <string name="pif_deleted">Dihapus %s</string>
+    <string name="pif_settings">Setelan</string>
+    <string name="pif_spoof_photos">Pemalsuan Google Foto</string>
+    <string name="pif_spoof_photos_summary">Pencadangan kualitas asli tanpa batas</string>
+    <string name="pif_config_details">Detail konfigurasi</string>
+    <string name="pif_failed">Gagal: %s</string>
+    <string name="pif_select_device">Pilih perangkat</string>
+    <string name="pif_generating">Menghasilkan konfigurasi\u2026</string>
+    <string name="pif_footer_title">Lulus uji integritas dasar</string>
+    <string name="pif_footer_body">1. Ketuk \"Ambil sidik jari Pixel Beta\" dan pilih perangkat dari daftar yang tersedia.\n2. Jika tidak ada perangkat yang ditemukan, impor konfigurasi PIF yang berfungsi dari sumber tepercaya. File konfigurasi tidak disediakan; Anda harus mencarinya sendiri.\n3. Periksa kembali status Integritas Play Anda.\n\nSelalu hapus konfigurasi aktif sebelum memuat yang baru. Memuat konfigurasi PIF yang kedaluwarsa akan menyebabkan integritas yang kuat melalui TrickyStore gagal, bahkan dengan keybox yang valid.</string>
+    <string name="pif_select_channel">Pilih saluran</string>
+    <string name="pif_channel_latest_release">Rilis terbaru</string>
+    <string name="pif_channel_canary_release">Rilis canary</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Manajemen keybox</string>
+    <string name="ts_import_keybox">Impor keybox</string>
+    <string name="ts_no_keybox">Tidak ada keybox terpasang</string>
+    <string name="ts_keybox_installed">Keybox terpasang</string>
+    <string name="ts_keybox_imported">Keybox berhasil diimpor</string>
+    <string name="ts_delete_keybox">Hapus keybox</string>
+    <string name="ts_delete_keybox_summary">Hapus file keybox</string>
+    <string name="ts_delete_keybox_title">Hapus keybox?</string>
+    <string name="ts_delete_keybox_message">File keybox akan dihapus secara permanen.</string>
+    <string name="ts_delete">Hapus</string>
+    <string name="ts_keybox_deleted">Keybox dihapus</string>
+    <string name="ts_target_configuration">Konfigurasi target</string>
+    <string name="ts_manage_target_apps">Kelola aplikasi target</string>
+    <string name="ts_no_targets">Tidak ada aplikasi target yang dikonfigurasi</string>
+    <string name="ts_target_apps_count">%d aplikasi yang dikonfigurasi</string>
+    <string name="ts_import_target_list">Impor daftar target</string>
+    <string name="ts_import_target_list_summary">Impor target.txt dari sebuah file</string>
+    <string name="ts_target_list_imported">Daftar target diimpor</string>
+    <string name="ts_loading_apps">Memuat aplikasi\u2026</string>
+    <string name="ts_auto_select">Pilih otomatis</string>
+    <string name="ts_save">Simpan</string>
+    <string name="ts_targets_saved">Daftar target tersimpan</string>
+    <string name="ts_failed">Gagal: %s</string>
+    <string name="ts_target_mode">Mode target</string>
+    <string name="ts_target_mode_auto">Otomatis</string>
+    <string name="ts_target_mode_leaf">Peretasan leaf</string>
+    <string name="ts_target_mode_cert">Pembuatan sertifikat</string>
+    <string name="ts_footer_title">Meluluskan integritas yang kuat</string>
+    <string name="ts_footer_body">1. Dapatkan XML keybox yang valid dari sumber tepercaya. Keybox tidak disediakan; Anda harus mencarinya sendiri.\n2. Ketuk \"Impor keybox\" dan muat file tersebut.\n3. Buka \"Kelola aplikasi target\" dan pilih Google Play Services dan Google Play Store.\n4. Atur mode target ke \"Leaf\" jika perangkat Anda memiliki TEE yang berfungsi, jika tidak, biarkan sebagai Otomatis.\n5. Periksa kembali status Integritas Play Anda.\n\nSelalu hapus keybox yang ada sebelum mengimpor yang baru. Jika Google mencabut keybox, Google mungkin masih mengizinkan penerusan ke integritas perangkat meskipun integritas yang kuat akan gagal.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Aktifkan pemalsuan game</string>
+    <string name="gs_enable_summary">Memalsukan properti perangkat untuk game yang telah dikonfigurasi</string>
+    <string name="gs_add_app">Tambah game</string>
+    <string name="gs_add_app_summary">Pilih aplikasi dan profil perangkat yang ingin dipalsukan</string>
+    <string name="gs_reload">Muat ulang</string>
+    <string name="gs_reload_summary">Muat ulang konfigurasi dari disk</string>
+    <string name="gs_configured_apps">Game yang dikonfigurasi</string>
+    <string name="gs_no_apps">Tidak ada game yang dikonfigurasi</string>
+    <string name="gs_no_apps_summary">Ketuk \"Tambahkan game\" untuk memulai</string>
+    <string name="gs_select_app">Pilih aplikasi</string>
+    <string name="gs_select_profile">Pilih profil perangkat</string>
+    <string name="gs_edit_props">Ubah properti</string>
+    <string name="gs_change_profile">Ubah profil perangkat</string>
+    <string name="gs_remove">Hapus</string>
+    <string name="gs_remove_title">Hapus game?</string>
+    <string name="gs_remove_message">Hapus %s dari pemalsuan game?</string>
+    <string name="gs_edit_app">Ubah %s</string>
+    <string name="gs_key">Kunci</string>
+    <string name="gs_value">Nilai</string>
+    <string name="gs_save">Simpan</string>
+    <string name="gs_config_saved">Konfigurasi tersimpan</string>
+    <string name="gs_loading_apps">Memuat aplikasi\u2026</string>
+    <string name="gs_failed">Gagal: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Pengaturan Alpha</string>
@@ -1146,57 +1216,42 @@ Beberapa layar mungkin tampak mati.</string>
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Sembunyikan status tangkapan layar</string>
     <string name="hide_screen_capture_status_summary">Sembunyikan status tangkapan layar dari aplikasi</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Sembunyikan status developer</string>
-    <string name="hide_developer_status_summary">Sembunyikan status developer dari aplikasi</string>
-    <string name="search_apps">Cari aplikasi</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ikon notifikasi</string>
     <string name="max_visible_notification_icons_summary">Maksimal ikon notifikasi terlihat di bilah status</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Cincin Kemajuan</string>
-    <string name="cutout_progress_summary">Tunjukkan lingkaran kemajuan di sekitar lubang punch</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Fitur</string>
-    <string name="cutout_progress_cat_appearance">Penampilan</string>
-    <string name="cutout_progress_cat_geometry">Geometri cincin</string>
-    <string name="cutout_progress_cat_island">Mode diperluas</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Aktifkan cincin kemajuan unduhan</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Mode warna cincin</string>
-    <string name="cutout_progress_ring_color_mode_accent">Aksen</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Pelangi</string>
-    <string name="cutout_progress_ring_color_mode_custom">Kustom</string>
-    <string name="cutout_progress_ring_color_title">Warna cincin kustom</string>
-    <string name="cutout_progress_ring_opacity_title">Opasitas cincin</string>
-    <string name="cutout_progress_stroke_width_title">Ketebalan cincin</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Tampilkan trek latar belakang</string>
-    <string name="cutout_progress_charging_pulse_title">Animasi denyut pengisian</string>
-    <string name="cutout_progress_charging_pulse_summary">Animasikan denyut berulang dari tengah ke luar saat mengisi daya</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Celah cincin (celah potongan)</string>
-    <string name="cutout_progress_path_mode_title">Ikuti bentuk potongan</string>
-    <string name="cutout_progress_path_mode_summary">Gunakan rasio aspek asli potongan tersebut alih-alih menormalkan cincin menjadi lingkaran</string>
-    <string name="cutout_progress_scale_x_title">Skala horisontal</string>
-    <string name="cutout_progress_scale_y_title">Skala vertikal</string>
-    <string name="cutout_progress_offset_x_title">Pergeseran horisontal</string>
-    <string name="cutout_progress_offset_y_title">Pergeseran vertikal</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Tata letak ringkas</string>
-    <string name="cutout_progress_island_compact_summary">Bungkus di sekitar potongan kamera</string>
-    <string name="cutout_progress_island_position_title">Penyelarasan tata letak yang ringkas</string>
-    <string name="cutout_island_pos_center">Belahan tengah</string>
-    <string name="cutout_island_pos_left">Kiri</string>
-    <string name="cutout_island_pos_right">Kanan</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Transparansi Latar Belakang</string>
     <string name="cutout_island_timeout_title">Batas waktu penutupan otomatis</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Sembunyikan daftar aplikasi</string>
-    <string name="hide_applist_summary">Cegah aplikasi memeriksa aplikasi yang dipilih dari daftar aplikasi</string>
-    <string name="menu_show_overlay">Tampilkan hamparan</string>
-    <string name="menu_hide_overlay">Sembunyikan hamparan</string>
+    <string name="cutout_ring_category_title">Tampilan potongan</string>
+    <string name="cutout_ring_enabled_title">Tunjukkan pada potongan</string>
+    <string name="cutout_ring_enabled_summary">Pindahkan chip Bilah Dinamis ke posisi lubang kamera depan</string>
+    <string name="cutout_collapse_to_ring_title">Runtuh menjadi cincin</string>
+    <string name="cutout_collapse_to_ring_summary">Bentuk pil menjadi cincin animasi di sekitar bagian yang dipotong saat tidak digunakan</string>
+    <string name="cutout_ring_settings_title">Setelan cincin</string>
+    <string name="cutout_ring_settings_summary">Sesuaikan geometri dan opasitas cincin</string>
+    <string name="cutout_ring_gap_title">Celah cincin</string>
+    <string name="cutout_ring_gap_summary">Jarak antara potongan dan cincin</string>
+    <string name="cutout_ring_scale_x_title">Skala X</string>
+    <string name="cutout_ring_scale_y_title">Skala Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Opasitas cincin</string>
+    <string name="cutout_ring_stroke_title">Ketebalan goresan</string>
+    <string name="cutout_ring_stroke_summary">Lebar goresan cincin dalam dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Bentuk penggeser volume</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Kalender</string>
+    <string name="quicklook_calendar_summary">Acara kalender mendatang</string>
+    <string name="quicklook_alarm_title">Alarm berikutnya</string>
+    <string name="quicklook_alarm_summary">Waktu alarm terjadwal berikutnya</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Informasi media sedang diputar saat ini</string>
+    <string name="quicklook_now_playing_title">Sedang Diputar</string>
+    <string name="quicklook_now_playing_summary">Pengenalan musik latar dari Google</string>
+    <string name="quicklook_google_smartspace_title">Ruang pintar Google</string>
+    <string name="quicklook_google_smartspace_summary">Cuaca, pengatur waktu, olahraga, dan banyak lagi dari Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Target dari aplikasi Smartspacer</string>
 </resources>

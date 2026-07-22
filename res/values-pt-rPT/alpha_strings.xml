@@ -555,14 +555,8 @@
     <!-- Quad9 Unsecured ECS DNS Option -->
     <!-- Quad9 Unsecured ECS DNS hostname -->
     <!-- Alert Slider Notifications (OnePlus devices) -->
-    <string name="alert_slider_notifications_title">Alert slider notifications</string>
-    <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Armazenamento ilimitado de fotos</string>
-    <string name="use_photos_spoof_summary">Mascarar o seu dispositivo como Pixel XL para ter acesso a armazenamento ilimitado de backup no Google Fotos</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Desbloquear maior FPS em jogos</string>
-    <string name="use_games_spoof_summary">Mascarar o seu dispositivo como um modelo diferente para desbloquear mais FPS nos jogos</string>
+    <string name="alert_slider_notifications_title">Notificações do seletor de alertas</string>
+    <string name="alert_slider_notifications_summary">Mostrar notificação ao alterar a posição do seletor de alertas</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Painel de volume</string>
     <string name="volume_dialog_timeout_title">Tempo limite do painel de volume</string>
@@ -648,13 +642,7 @@
     <string name="smart_pixels_warning_text">Píxeis inteligentes são um recurso de economia de energia. Dependendo de quantos píxeis decidir desativar, poderá ver melhorias na duração da bateria. Note que em alguns casos isso pode resultar em áreas sem resposta ao toque no ecrã.</string>
     <string name="smart_pixels_title">Píxeis Inteligentes</string>
     <string name="smart_pixels_summary">Economizar bateria ao desligar alguns píxeis</string>
-    <string name="smart_pixels_enable_title">Ativar os Píxeis Inteligentes</string>
-    <string name="smart_pixels_enable_summary">Desligar alguns píxeis para reduzir o consumo de energia</string>
-    <string name="smart_pixels_on_power_save_title">Ativar automaticamente na economia de bateria</string>
-    <string name="smart_pixels_on_power_save_summary">Ativar os Píxeis Inteligentes quando a economia de bateria estiver ativa</string>
     <string name="smart_pixels_percent">Percentagem de píxeis a desativar</string>
-    <string name="smart_pixels_shift_title">Proteção contra burn-in</string>
-    <string name="smart_pixels_shift_summary">Previne o efeito burn-in em ecrãs OLED alternando píxeis ocasionalmente</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animação do gesto de voltar</string>
     <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
@@ -674,22 +662,19 @@
     <string name="qs_footer_datausage_title">Utilização de dados</string>
     <string name="qs_footer_datausage_summary">Mostrar resumo da utilização de dados no rodapé das definições rápidas</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Animação dos mosaicos</string>
     <string name="qs_tile_animation_style_title">Estilo da animação</string>
-    <string name="qs_tile_animation_duration_title">Duração da animação</string>
-    <string name="qs_tile_animation_interpolator_title">Interpolador da animação</string>
-    <string name="qs_tile_animation_style_off">Sem animação</string>
-    <string name="qs_tile_animation_style_rotate">Rodar</string>
-    <string name="qs_tile_animation_style_flipx">Inverter X</string>
-    <string name="qs_tile_animation_style_flipy">Inverter Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar/desacelerar</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Pular</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Adiantar</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Antecipar</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antecipar/adiantar</string>
+    <string name="qs_tile_animation_style_bounce">Ressalto</string>
+    <string name="qs_tile_animation_style_ripple">Ondulação</string>
+    <string name="qs_tile_animation_style_flip">Inversão</string>
+    <string name="qs_tile_animation_style_fade">Desvanecimento</string>
+    <string name="qs_tile_animation_style_pulse">Pulsação</string>
+    <string name="qs_tile_animation_style_shake">Agitar</string>
+    <string name="qs_tile_animation_style_wobble">Oscilação</string>
+    <string name="qs_tile_animation_style_spin">Rotação</string>
+    <string name="qs_tile_animation_style_squish">Compressão</string>
+    <string name="qs_tile_animation_style_tilt">Inclinação</string>
+    <string name="qs_tile_animation_style_heartbeat">Batimento</string>
+    <string name="qs_tile_animation_style_swing">Balanço</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Som de captura de ecrã</string>
     <string name="screenshot_shutter_sound_summary">Reproduzir um som ao fazer uma captura de ecrã</string>
@@ -725,10 +710,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Definições da meteorologia</string>
     <string name="weather_settings_summary">Configurar pacote de ícones e serviço meteorológico</string>
-    <string name="lockscreen_weather_category">Clima</string>
-    <string name="lockscreen_weather_title">Atualização meteorológica</string>
-    <string name="lockscreen_weather_summary">Mostrar o estado do tempo atual</string>
-    <string name="lockscreen_weather_enabled_info">Requer serviço de clima personalizado e espaço inteligente desativado</string>
+    <string name="quicklook_weather_title">Tempo</string>
+    <string name="quicklook_weather_summary">Condições meteorológicas atuais do OmniJaws</string>
     <string name="lockscreen_weather_location_title">Localização atual</string>
     <string name="lockscreen_weather_location_summary">Mostrar localização meteorológica atual</string>
     <string name="lockscreen_weather_text_title">Condições atuais</string>
@@ -762,12 +745,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Botão de rotação flutuante</string>
     <string name="floating_rotation_button_summary">Mostrar um botão de rotação flutuante quando o dispositivo for rodado</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Disfarce para Netflix</string>
-    <string name="netflix_spoof_summary">Disfarçar o seu dispositivo como um modelo diferente para a Netflix</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Máscara de Integridade do Google Play</string>
-    <string name="pi_spoof_summary">Disfarçar o seu dispositivo como um modelo diferente para a Netflix</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Padrão Wi-Fi</string>
     <string name="wifi_standard_icon_summary">Exibir padrão Wi-Fi ao lado do sinal Wi-Fi</string>
@@ -841,6 +818,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Espaço inteligente</string>
     <string name="lockscreen_smartspace_summary">Mostrar o Espaço Inteligente Google quando disponível</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Fonte do Espaço Inteligente</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (no relógio)</string>
+    <string name="lockscreen_smartspace_source_google">Google</string>
+    <string name="lockscreen_smartspace_source_none">Nenhum</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Serviço de meteorologia</string>
+    <string name="lockscreen_weather_source_disabled">Desativado</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Desativar a área de transferências</string>
     <!-- Increasing ring tone volume -->
@@ -868,18 +855,6 @@
     <string name="custom_style_fluid">Fluído (transparente)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Camadas</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Substituir o atestado da chave de máscara</string>
-    <string name="keybox_data_summary">Carregar uma chave de máscara XML personalizada para substituir o certificado de chave do dispositivo</string>
-    <string name="keybox_data_loaded_summary">Chave de máscara XML personalizada. Exclua para limpar.</string>
-    <string name="keybox_delete_content_description">Limpar dados da chave de máscara</string>
-    <string name="keybox_toast_invalid_file_selected">Não é um arquivo XML. Escolha um ficheiro XML válido para a chave de máscara.</string>
-    <string name="keybox_toast_missing_data">XML inválido: campos obrigatórios não preenchidos</string>
-    <string name="keybox_toast_file_loaded">Chave de máscra carregada</string>
-    <string name="keybox_toast_file_cleared">Chave de máscara limpa</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Desativar forçar a integridade</string>
-    <string name="pi_gmscertchain_summary">Quando ativado, não impõe a forte integridade a partir de uma chave personalizada válida e depende da máscara de Integridade do Google Play para corrigir aplicativos como o Google Pay</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Forma das configurações rápidas</string>
     <string name="qs_tile_shape_dynamic">Dinâmico</string>
@@ -924,6 +899,10 @@
     <string name="pulse_settings_summary">Equalizador gráfico de áudio para a barra de navegação e ecrã de bloqueio</string>
     <string name="ambient_pulse_enabled_title">Pulse ambiente</string>
     <string name="ambient_pulse_enabled_summary">Mostrar visualizador no ecrã ambiente</string>
+    <string name="pulse_bass_haptics_title">Vibração de graves</string>
+    <string name="pulse_bass_haptics_none">Nenhuma vibração subtil em picos de graves</string>
+    <string name="pulse_bass_haptics_running">Apenas quando o modo Pulse está ativado</string>
+    <string name="pulse_bass_haptics_always">Quando a reprodução de media estiver ativa</string>
     <string name="pulse_rounded_bars_title">Barras arredondadas</string>
     <string name="pulse_rounded_bars_summary">Exibir barras do visualizador com cantos arredondados</string>
     <string name="pulse_color">Cor do visualizador</string>
@@ -941,6 +920,8 @@
     <string name="pulse_renderer_minimal_wave">Ondulação mínima</string>
     <string name="pulse_renderer_sparkle">Brilhante</string>
     <string name="pulse_renderer_matrix">Matriz</string>
+    <string name="pulse_renderer_particle">Partícula</string>
+    <string name="pulse_renderer_waveform">Ondulação</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Notificações translúcidas</string>
     <string name="notification_row_transparency_summary">Notificações com fundo transparente</string>
@@ -952,9 +933,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Mostrar animação de linha ondulada</string>
     <string name="media_squiggle_animation_summary">Mostrar animação de linha ondulada na barra de pesquisa ao reproduzir média</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">Corrigir automaticamente a deteção vbmeta</string>
-    <string name="vbmeta_attestation_summary">Construir um certificado de chave de máscara para gerar um hash verificado na inicialização. Requer reinicialização do sistema.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Não validar</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -981,16 +959,6 @@
     <string name="cycle_type_weekly_sub">Dia de cada semana:\n1 = segunda-feira</string>
     <string name="cycle_type_daily_title">Ciclo de uso - repor horas</string>
     <string name="cycle_type_daily_sub">Hora de cada dia:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Estilo personalizado do relógio</string>
-    <string name="lockscreen_custom_clock_style_summary">Configurar estilos do relógio do ecrã de bloqueio</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Deslizar para a esquerda ou direita para visualizar os estilos de relógio</string>
-    <string name="lockscreen_custom_clock_style_info">O estilo de relógio personalizado substitui os estilos do relógio AOSP com relógios personalizados. O Espaço Inteligente será desativado. Podes ativar e usar clima personalizado em vez disso.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Opacidade do relógio personalizado</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Ajustar a transparência do estilo de relógio personalizado</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Altura do relógio personalizado</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Ajustar a altura do estilo de relógio personalizado</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Modo de cor de relógio personalizado</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">Estilo do painel das definições rápidas</string>
     <string name="qs_panel_style_card">Estilo em cartão</string>
@@ -1003,7 +971,7 @@
     <string name="shape_pebble">Seixo</string>
     <string name="shape_rice_balls">Bolinhas de arroz</string>
     <string name="shape_rounded_rect">Retângulo arredondado</string>
-    <string name="shape_squircle">Squircle</string>
+    <string name="shape_squircle">Quadrado arredondado</string>
     <string name="shape_tapered_rect">Retângulo afunilado</string>
     <string name="shape_teardrop">Lágrima</string>
     <string name="shape_rounded_hexagon">Hexágono arredondado</string>
@@ -1019,12 +987,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Apenas durante o carregamento</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Mostrar sempre</string>
     <string name="dynamic_bar_events">Eventos</string>
-    <string name="dynamic_bar_event_recording">Gravação de ecrã</string>
-    <string name="dynamic_bar_event_recording_summary">Indicador de gravação de ecrã ativa</string>
-    <string name="dynamic_bar_event_privacy">Indicadores de privacidade</string>
-    <string name="dynamic_bar_event_privacy_summary">Alertas de acesso à câmara e ao microfone</string>
     <string name="dynamic_bar_event_audio_recording">Gravação de áudio</string>
     <string name="dynamic_bar_event_audio_recording_summary">Gravador de voz e captura de áudio</string>
+    <string name="dynamic_bar_event_call">Chamada em curso</string>
+    <string name="dynamic_bar_event_call_summary">Chamadas recebidas e ativas</string>
     <string name="dynamic_bar_event_media">Reprodução de multimédia</string>
     <string name="dynamic_bar_event_media_summary">Música a tocar e controlos de áudio</string>
     <string name="dynamic_bar_event_notification">Notificações</string>
@@ -1041,7 +1007,7 @@
     <string name="dynamic_bar_event_charging_summary">Nível da bateria quando está ligado à corrente</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
     <string name="dynamic_bar_event_bluetooth_summary">Estado da ligação do dispositivo</string>
-    <string name="dynamic_bar_event_hotspot">Hotspot</string>
+    <string name="dynamic_bar_event_hotspot">Ponto de acesso</string>
     <string name="dynamic_bar_event_hotspot_summary">Indicador de hotspot móvel ativo</string>
     <string name="dynamic_bar_event_ringer">Modo de toque</string>
     <string name="dynamic_bar_event_ringer_summary">Alterações entre silêncio, vibração e toque</string>
@@ -1051,8 +1017,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Pré-visualização do texto e da imagem copiados</string>
     <string name="dynamic_bar_event_torch">Lanterna</string>
     <string name="dynamic_bar_event_torch_summary">Alternar a lanterna e o brilho</string>
-    <string name="dynamic_bar_event_casting">Transmissão</string>
-    <string name="dynamic_bar_event_casting_summary">Estado da transmissão de ecrã e de multimédia</string>
     <string name="dynamic_bar_event_ongoing">Atividades em curso</string>
     <string name="dynamic_bar_event_ongoing_summary">Navegação, entregas e outras atividades em tempo real</string>
     <string name="dynamic_bar_event_sports">Desporto</string>
@@ -1061,6 +1025,112 @@
     <string name="dynamic_bar_event_app_switch_summary">Mostrar o chip ao alternar entre apps recentes</string>
     <string name="dynamic_bar_event_biometric">Desbloqueio biométrico</string>
     <string name="dynamic_bar_event_biometric_summary">Mostrar o chip ao desbloquear com impressão digital ou rosto</string>
+    <string name="dynamic_bar_guide_title">Como utilizar a barra dinâmica</string>
+    <string name="dynamic_bar_guide_chip">Mostra os eventos no recorte da câmara frontal em vez da barra de estado.</string>
+    <string name="dynamic_bar_guide_swipe">Deslize no chip ou na cápsula para alternar entre eventos ativos; o indicador mostra o total, mesmo com o cartão expandido aberto.</string>
+    <string name="dynamic_bar_guide_expand">Toque no chip ou na cápsula para abrir um cartão expandido com os controlos e os detalhes do evento atual. Se existirem mais eventos empilhados, toque no botão de expandir abaixo do cartão para os ver todos.</string>
+    <string name="dynamic_bar_guide_dismiss">Deslize um cartão expandido para a esquerda ou para a direita para dispensar esse evento específico e removê-lo da Barra Dinâmica. Para recolher toda a pilha de volta à barra de estado sem dispensar eventos, toque fora dos cartões ou deslize para cima no fundo.</string>
+    <string name="dynamic_bar_guide_keyguard">O chip também aparece na parte inferior do ecrã de bloqueio, substituindo o texto de indicação padrão por controlos de reprodução e ações rápidas.</string>
+    <string name="dynamic_bar_guide_long_press">Toque longamente no chip ou na cápsula para aceder diretamente a estas definições da Barra Dinâmica.</string>
+    <string name="dynamic_bar_guide_cutout">Com \"Mostrar no recorte\" ativado, a cápsula ajusta-se ao recorte da câmara. Quando está inativa, o lado direito recolhe. Ative \"Recolher para anel\" para reduzir a cápsula a um anel animado com animações específicas para cada evento.</string>
+    <string name="dynamic_bar_guide_chip_title">Aparência do chip</string>
+    <string name="dynamic_bar_guide_swipe_title">Alternar eventos</string>
+    <string name="dynamic_bar_guide_expand_title">Toque para expandir</string>
+    <string name="dynamic_bar_guide_dismiss_title">Descartar ou Ocultar</string>
+    <string name="dynamic_bar_guide_keyguard_title">Chip no ecrã de bloqueio</string>
+    <string name="dynamic_bar_guide_long_press_title">Acesso às configurações rápidas</string>
+    <string name="dynamic_bar_guide_cutout_title">Modo de recorte</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Gerir configurações PIF e impressões digitais de dispositivo para integridade básica</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Gerir a keybox e as aplicações de destino para atestação de integridade forte</string>
+    <string name="game_spoofing_title">    Máscara para jogos</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">Apagar</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">Configurações</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_delete">Apagar</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_loading_apps">Loading apps\u2026</string>
+    <string name="ts_auto_select">Auto-select</string>
+    <string name="ts_save">Guardar</string>
+    <string name="ts_targets_saved">Target list saved</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_target_mode">Target mode</string>
+    <string name="ts_target_mode_auto">Auto</string>
+    <string name="ts_target_mode_leaf">Leaf hack</string>
+    <string name="ts_target_mode_cert">Certificate generation</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">Guardar</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Configurações AlphaDroid</string>
@@ -1148,57 +1218,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Ocultar estado de captura do ecrã</string>
     <string name="hide_screen_capture_status_summary">Ocultar estado de captura do ecrã das aplicações</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Ocultar estado do Modo Programador</string>
-    <string name="hide_developer_status_summary">Não permitir que as aplicações consultem o estado do Modo Programador</string>
-    <string name="search_apps">Pesquisar aplicações</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Ícones de Notificação</string>
     <string name="max_visible_notification_icons_summary">Máximo de ícones de notificação visíveis na barra de estado</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Anel de Progresso do corte do ecrã</string>
-    <string name="cutout_progress_summary">Mostrar toque de progresso em torno de corte do ecrá</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Funcionalidades</string>
-    <string name="cutout_progress_cat_appearance">Aparência</string>
-    <string name="cutout_progress_cat_geometry">Geometria de anel</string>
-    <string name="cutout_progress_cat_island">Modo expandido</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">Ativar o anel de progresso de transferências</string>
-    <string name="cutout_progress_charging_ring_title">Ativar o anel de progresso do carregamento</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Modo de cor do anel</string>
-    <string name="cutout_progress_ring_color_mode_accent">Cor de destaque</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Arco-íris</string>
-    <string name="cutout_progress_ring_color_mode_custom">Personalizada</string>
-    <string name="cutout_progress_ring_color_title">Cor personalizada</string>
-    <string name="cutout_progress_ring_opacity_title">Opacidade do anel</string>
-    <string name="cutout_progress_stroke_width_title">Espessura do anel</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Mostrar pista de fundo</string>
-    <string name="cutout_progress_charging_pulse_title">Animação ao carregar</string>
-    <string name="cutout_progress_charging_pulse_summary">Animar um pulso recorrente do centro durante o carregamento</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Intervalo entre o anel e o recorte do ecrã</string>
-    <string name="cutout_progress_path_mode_title">Seguir forma do recorte do ecrã</string>
-    <string name="cutout_progress_path_mode_summary">Use a relação de aspeto nativo do recorte em vez de normalizar o anel para um círculo</string>
-    <string name="cutout_progress_scale_x_title">Escala horizontal</string>
-    <string name="cutout_progress_scale_y_title">Escala vertical</string>
-    <string name="cutout_progress_offset_x_title">Deslocamento horizontal</string>
-    <string name="cutout_progress_offset_y_title">Deslocamento vertical</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Layout compacto</string>
-    <string name="cutout_progress_island_compact_summary">Envolver o corte da câmera</string>
-    <string name="cutout_progress_island_position_title">Alinhamento de layout compacto</string>
-    <string name="cutout_island_pos_center">Centrado e dividido</string>
-    <string name="cutout_island_pos_left">Esquerda</string>
-    <string name="cutout_island_pos_right">Direita</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Opacidade do fundo</string>
     <string name="cutout_island_timeout_title">Tempo limite do auto-colapso</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Lista de aplicações ocultadas</string>
-    <string name="hide_applist_summary">Impedir que aplicações externas vejam a aplicação</string>
-    <string name="menu_show_overlay">Mostrar sobreposição</string>
-    <string name="menu_hide_overlay">Esconder sobreposição</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Forma do controlo de volume</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>

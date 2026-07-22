@@ -557,12 +557,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Uyarı kaydırıcısı bildirimleri</string>
     <string name="alert_slider_notifications_summary">Uyarı kaydırıcısı konumu değiştirildiğinde bildirim göster</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Sınırsız fotoğraf depolama</string>
-    <string name="use_photos_spoof_summary">Yalnızca yedekleme için sınırsız depolama sağlamak amacıyla cihazınızı Google Fotoğraflar uygulaması için Pixel XL olarak taklit edin</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Oyunlarda daha yüksek FPS kilidini açın</string>
-    <string name="use_games_spoof_summary">Daha yüksek FPS kilidini açmak için belirli oyunlara cihazınızı farklı bir model olarak taklit edin</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">Ses paneli</string>
     <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
@@ -648,13 +642,7 @@
     <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe iyileşme görebilirsiniz. Bazı durumlarda ekranda tepkisiz alanlara sebep olabilir</string>
     <string name="smart_pixels_title">Akıllı pikseller</string>
     <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
-    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
-    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
-    <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
-    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikselleri etkinleştir</string>
     <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
-    <string name="smart_pixels_shift_title">Yanma koruması</string>
-    <string name="smart_pixels_shift_summary">OLED cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
@@ -674,22 +662,19 @@
     <string name="qs_footer_datausage_title">Veri kullanımı</string>
     <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">Kare animasyonu</string>
     <string name="qs_tile_animation_style_title">Animasyon stili</string>
-    <string name="qs_tile_animation_duration_title">Animasyon süresi</string>
-    <string name="qs_tile_animation_interpolator_title">Animasyon efekti</string>
-    <string name="qs_tile_animation_style_off">Animasyon yok</string>
-    <string name="qs_tile_animation_style_rotate">Döndür</string>
-    <string name="qs_tile_animation_style_flipx">Çevir X</string>
-    <string name="qs_tile_animation_style_flipy">Çevir Y</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Doğrusal</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Hızlandır</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Yavaşlat</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Hızlandır ve yavaşlat</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Sıçrat</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">İlerlet</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Beklet</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">İlerlet ve beklet</string>
+    <string name="qs_tile_animation_style_bounce">Sıçrat</string>
+    <string name="qs_tile_animation_style_ripple">Dalgalanma</string>
+    <string name="qs_tile_animation_style_flip">Çevir</string>
+    <string name="qs_tile_animation_style_fade">Soldur</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Titret</string>
+    <string name="qs_tile_animation_style_wobble">Sallantı</string>
+    <string name="qs_tile_animation_style_spin">Döndür</string>
+    <string name="qs_tile_animation_style_squish">Ez</string>
+    <string name="qs_tile_animation_style_tilt">Eğim</string>
+    <string name="qs_tile_animation_style_heartbeat">Kalp atışı</string>
+    <string name="qs_tile_animation_style_swing">Sallanma</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <string name="screenshot_shutter_sound_summary">Ekran görüntüsü alınırken ses çıkar</string>
@@ -725,10 +710,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">Hava durumu ayarları</string>
     <string name="weather_settings_summary">Simge paketini ve hava durumu servis sağlayıcısını ayarlayın</string>
-    <string name="lockscreen_weather_category">Hava durumu</string>
-    <string name="lockscreen_weather_title">Hava durumu güncellemeleri</string>
-    <string name="lockscreen_weather_summary">Geçerli hava durumu güncellemesini görüntüle</string>
-    <string name="lockscreen_weather_enabled_info">Bunun için özel bir hava durumu servisi ayarlanmalı ve Smartspace devre dışı olmalı</string>
+    <string name="quicklook_weather_title">Hava durumu</string>
+    <string name="quicklook_weather_summary">Güncel hava durumu</string>
     <string name="lockscreen_weather_location_title">Mevcut konum</string>
     <string name="lockscreen_weather_location_summary">Mevcut hava durumu konumunu göster</string>
     <string name="lockscreen_weather_text_title">Geçerli durum</string>
@@ -762,12 +745,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">Kayan döndürme tuşu</string>
     <string name="floating_rotation_button_summary">Cihaz döndürüldüğünde kayan bir döndürme tuşu göster</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix sahtekarlığı</string>
-    <string name="netflix_spoof_summary">Cihazınızı Netflix için farklı bir modelmiş gibi gösterin</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Google Play Integrity aldatma</string>
-    <string name="pi_spoof_summary">Cihazınızı Google Play Integrity\'de farklı bir modelmiş gibi gösterin</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">WiFi standardı</string>
     <string name="wifi_standard_icon_summary">WiFi sinyalinin yanında WiFi standardını göster</string>
@@ -841,6 +818,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">Smartspace</string>
     <string name="lockscreen_smartspace_summary">Uygun olduğunda Google Smartspace gösterilsin</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace kaynağı</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (saat içi)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC döngüsü)</string>
+    <string name="lockscreen_smartspace_source_none">Hiçbiri (hava durumu çipi kullan)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Hava durumu sağlayıcısı</string>
+    <string name="lockscreen_weather_source_disabled">Devre dışı</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">Panoyu devre dışı bırak</string>
     <!-- Increasing ring tone volume -->
@@ -868,18 +855,6 @@
     <string name="custom_style_fluid">Akışkan (Şeffaf)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">Katmanlar</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox onaylamayı geçersiz kıl</string>
-    <string name="keybox_data_summary">Cihazın keybox doğrulamasını geçersiz kılmak için özel bir keybox XML yükle</string>
-    <string name="keybox_data_loaded_summary">Özel keybox XML yüklendi. Temizlemek için silin.</string>
-    <string name="keybox_delete_content_description">Keybox verisini sil</string>
-    <string name="keybox_toast_invalid_file_selected">Bu bir XML dosyası değil. Geçerli bir keybox XML seç.</string>
-    <string name="keybox_toast_missing_data">Geçersiz keybox XML: gerekli alanlar eksik</string>
-    <string name="keybox_toast_file_loaded">Keybox yüklendi</string>
-    <string name="keybox_toast_file_cleared">Keybox temizlendi</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">Güçlü Bütünlüğü Zorlamayı Devre Dışı Bırak</string>
-    <string name="pi_gmscertchain_summary">Etkinleştirildiğinde, geçerli özel anahtar kutusundan güçlü bütünlüğü zorlamayın ve Google Pay gibi uygulamaları düzeltmek için Google Play Bütünlük Gizliliğine güvenin</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Hızlı ayarlar kareleri şekli</string>
     <string name="qs_tile_shape_dynamic">Dinamik</string>
@@ -924,6 +899,10 @@
     <string name="pulse_settings_summary">Kilit ekranı ve gezinme çubuğunda ses görselleştirmesini gösterir</string>
     <string name="ambient_pulse_enabled_title">Ortam ekranında pulse</string>
     <string name="ambient_pulse_enabled_summary">Ambient Display\'de görselleştiriciyi göster</string>
+    <string name="pulse_bass_haptics_title">Bas titreşimleri</string>
+    <string name="pulse_bass_haptics_none">Keskin bas patlamalarında hafif titreşim olmasın</string>
+    <string name="pulse_bass_haptics_running">Sadece pulse görünürken</string>
+    <string name="pulse_bass_haptics_always">Medya oynatıldığı her zaman</string>
     <string name="pulse_rounded_bars_title">Yuvarlak çubuklar</string>
     <string name="pulse_rounded_bars_summary">Köşeleri yuvarlatılmış görüntüleyici çubuklarını görüntüleyin</string>
     <string name="pulse_color">Görselleştirici rengi</string>
@@ -941,6 +920,8 @@
     <string name="pulse_renderer_minimal_wave">Minimal dalga</string>
     <string name="pulse_renderer_sparkle">Parıltı</string>
     <string name="pulse_renderer_matrix">Matris</string>
+    <string name="pulse_renderer_particle">Parçacık</string>
+    <string name="pulse_renderer_waveform">Dalga formu</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">Yarı saydam bildirimler</string>
     <string name="notification_row_transparency_summary">Hızlı ayarlardaki bildirimler için yarı saydam arka plan ayarlayın</string>
@@ -952,9 +933,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">Squiggle animasyonu</string>
     <string name="media_squiggle_animation_summary">Medya oynatılırken medya panelinde arama çubuğu dalgalı animasyonu göster</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">VBMeta tespitini otomatik düzelt</string>
-    <string name="vbmeta_attestation_summary">Önyükleme sırasında doğrulanmış önyükleme hash\'ı oluşturmak için anahtar doğrulama işlemi gerçekleştir. Sistemin yeniden başlatılması gerekir.</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Doğrulama</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -981,16 +959,6 @@
     <string name="cycle_type_weekly_sub">Haftanın günü:\n1 = Pazartesi</string>
     <string name="cycle_type_daily_title">Kullanım döngüsü sıfırlama saati</string>
     <string name="cycle_type_daily_sub">Her gün şu saatte:</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">Özel saat stili</string>
-    <string name="lockscreen_custom_clock_style_summary">Kilit ekranı saat stillerini yapılandırma</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">Saat stillerini önizlemek için sola veya sağa kaydırın</string>
-    <string name="lockscreen_custom_clock_style_info">Özel saat stili, AOSP saat stillerini özel saatlerle değiştirir. Smartspace devre dışı bırakılacak. Bunun yerine özel hava durumunu etkinleştirebilir ve kullanabilirsiniz.</string>
-    <string name="lockscreen_custom_clock_opacity_title">Özel saat opaklığı</string>
-    <string name="lockscreen_custom_clock_opacity_summary">Özel saat stilinin şeffaflığını ayarlayın</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">Özel saat yüksekliği</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">Özel saat stilinin yüksekliğini ayarlayın</string>
-    <string name="lockscreen_custom_clock_color_mode_title">Özel saat renk modu</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">QS Panel stili</string>
     <string name="qs_panel_style_card">Kart stili</string>
@@ -1003,7 +971,7 @@
     <string name="shape_pebble">Çakıl taşı</string>
     <string name="shape_rice_balls">Pirinç topları</string>
     <string name="shape_rounded_rect">Yuvarlatılmış dikdörtgen</string>
-    <string name="shape_squircle">Squircle</string>
+    <string name="shape_squircle">Köşeli kare</string>
     <string name="shape_tapered_rect">Konik dikdörtgen</string>
     <string name="shape_teardrop">Gözyaşı</string>
     <string name="shape_rounded_hexagon">Yuvarlak altıgen</string>
@@ -1019,12 +987,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">Yalnızca şarj olurken</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">Her zaman göster</string>
     <string name="dynamic_bar_events">Olaylar</string>
-    <string name="dynamic_bar_event_recording">Ekran kaydı</string>
-    <string name="dynamic_bar_event_recording_summary">Aktif ekran kayıt göstergesi</string>
-    <string name="dynamic_bar_event_privacy">Gizlilik göstergeleri</string>
-    <string name="dynamic_bar_event_privacy_summary">Kamera ve mikrofon erişim uyarıları</string>
     <string name="dynamic_bar_event_audio_recording">Ses kaydı</string>
     <string name="dynamic_bar_event_audio_recording_summary">Ses kaydedici ve ses yakalama</string>
+    <string name="dynamic_bar_event_call">Devam eden çağrı</string>
+    <string name="dynamic_bar_event_call_summary">Gelen ve aktif çağrılar</string>
     <string name="dynamic_bar_event_media">Medya oynatma</string>
     <string name="dynamic_bar_event_media_summary">Çalan müzik ve ses denetimleri</string>
     <string name="dynamic_bar_event_notification">Bildirimler</string>
@@ -1041,7 +1007,7 @@
     <string name="dynamic_bar_event_charging_summary">Takılıyken pil seviyesi</string>
     <string name="dynamic_bar_event_bluetooth">Bluetooth</string>
     <string name="dynamic_bar_event_bluetooth_summary">Cihaz bağlantı durumu</string>
-    <string name="dynamic_bar_event_hotspot">Hotspot</string>
+    <string name="dynamic_bar_event_hotspot">Erişim noktası</string>
     <string name="dynamic_bar_event_hotspot_summary">Mobil erişim noktası etkin göstergesi</string>
     <string name="dynamic_bar_event_ringer">Zil Modu</string>
     <string name="dynamic_bar_event_ringer_summary">Sessiz, titreşim ve zil modu değişiklikleri</string>
@@ -1051,8 +1017,6 @@
     <string name="dynamic_bar_event_clipboard_summary">Kopyalanan metin ve resim önizlemesi</string>
     <string name="dynamic_bar_event_torch">El feneri</string>
     <string name="dynamic_bar_event_torch_summary">El feneri geçişi ve parlaklık</string>
-    <string name="dynamic_bar_event_casting">Yansıtma</string>
-    <string name="dynamic_bar_event_casting_summary">Ekran yayını ve medya yayını durumu</string>
     <string name="dynamic_bar_event_ongoing">Devam eden aktiviteler</string>
     <string name="dynamic_bar_event_ongoing_summary">Navigasyon, teslimatlar ve diğer canlı aktiviteler</string>
     <string name="dynamic_bar_event_sports">Spor</string>
@@ -1061,6 +1025,112 @@
     <string name="dynamic_bar_event_app_switch_summary">Son uygulamalar arasında geçiş yaparken çipi göster</string>
     <string name="dynamic_bar_event_biometric">Biyometrik kilit açma</string>
     <string name="dynamic_bar_event_biometric_summary">Parmak izinde veya yüz tanıma kilidinde çipi göster</string>
+    <string name="dynamic_bar_guide_title">Dinamik Çubuk nasıl kullanılır?</string>
+    <string name="dynamic_bar_guide_chip">Etkinlikler durum çubuğunda hareketli bir çip olarak görünür. \"Çentikte göster\" etkinleştirildiğinde, çip ön kamera çentiğinin etrafındaki hap şeklindeki alana taşınır</string>
+    <string name="dynamic_bar_guide_swipe">Birden fazla etkinlik aktif olduğunda, etkinlikler arasında geçiş yapmak için çip veya hap şeklindeki alan üzerinde sola veya sağa kaydırın. Bir rozet, toplam etkinlik sayısını gösterir. Kaydırma hareketi, genişletilmiş kart açıkken de çalışır</string>
+    <string name="dynamic_bar_guide_expand">Mevcut etkinlik için kontrolleri ve ayrıntıları içeren genişletilmiş bir kart açmak için çipe veya hap şeklindeki alana dokunun. Daha fazla etkinlik yığılmışsa, hepsini görmek için kartın altındaki genişletme düğmesine dokunun</string>
+    <string name="dynamic_bar_guide_dismiss">Belirli bir etkinliği reddetmek ve Dinamik Çubuk\'tan kaldırmak için genişletilmiş bir kartı sola veya sağa kaydırın. Etkinlikleri reddetmeden tüm yığını tekrar durum çubuğuna daraltmak için kartların dışına dokunun veya arka plan üzerinde yukarı kaydırın</string>
+    <string name="dynamic_bar_guide_keyguard">Çip ayrıca kilit ekranının alt kısmında görünüp standart bilgi metninin yerini alarak oynatma kontrolleri ve hızlı eylemler sunar</string>
+    <string name="dynamic_bar_guide_long_press">Dinamik Çubuk ayarlarına doğrudan gitmek için çipe veya hap şeklindeki alana uzun basın</string>
+    <string name="dynamic_bar_guide_cutout">\"Çentikte göster\" etkinleştirildiğinde, hap şeklindeki alan kamera çentiğini sarar. Boştayken sağ taraf daralır. Hapı, etkinliğe özel animasyonlara sahip hareketli bir halkaya dönüştürmek için \"Halkaya daralt\" özelliğini etkinleştirin</string>
+    <string name="dynamic_bar_guide_chip_title">Çip görünümü</string>
+    <string name="dynamic_bar_guide_swipe_title">Etkinlikler arasında geçiş yap</string>
+    <string name="dynamic_bar_guide_expand_title">Genişletmek için dokunun</string>
+    <string name="dynamic_bar_guide_dismiss_title">Reddet veya Daralt</string>
+    <string name="dynamic_bar_guide_keyguard_title">Kilit ekranı çipi</string>
+    <string name="dynamic_bar_guide_long_press_title">Hızlı ayarlara erişim</string>
+    <string name="dynamic_bar_guide_cutout_title">Çentik modu</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Düzeltmesi</string>
+    <string name="play_integrity_fix_summary">Temel integrity için PIF yapılandırmasını ve cihaz parmak izlerini yönet</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Strong integrity için keybox\'ı ve hedef uygulamaları yönetin</string>
+    <string name="game_spoofing_title">Oyun taklidi</string>
+    <string name="game_spoofing_summary">Belirli oyunlar için cihaz özelliklerini taklit et</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Durum</string>
+    <string name="pif_active_config">Aktif yapılandırma</string>
+    <string name="pif_no_config">Yapılandırma yüklenmedi</string>
+    <string name="pif_config_loaded">Yapılandırma yüklendi</string>
+    <string name="pif_fetch_pixel_beta">Pixel Beta parmak izini getir</string>
+    <string name="pif_fetch_pixel_beta_summary">En güncel Pixel Beta parmak izini Google\'dan indir</string>
+    <string name="pif_fetching">Google\u2026\'dan parmak izi alınıyor</string>
+    <string name="pif_fetched_model">%s için parmak izi alındı</string>
+    <string name="pif_import_config">Yapılandırmayı içe aktar</string>
+    <string name="pif_import_config_summary">Bir dosyadan PIF yapılandırmasını içe aktar</string>
+    <string name="pif_imported_as">%s olarak içe aktarıldı</string>
+    <string name="pif_delete_config">Aktif yapılandırmayı sil</string>
+    <string name="pif_delete_config_summary">Aktif yapılandırma dosyasını kaldır</string>
+    <string name="pif_delete_title">%s silinsin mi?</string>
+    <string name="pif_delete_message">Bu yapılandırma dosyası kalıcı olarak silinecek.</string>
+    <string name="pif_delete">Sil</string>
+    <string name="pif_deleted">%s silindi</string>
+    <string name="pif_settings">Ayarlar</string>
+    <string name="pif_spoof_photos">Google Fotoğraflar sahteciliği</string>
+    <string name="pif_spoof_photos_summary">Sınırsız orijinal kalite yedekleme</string>
+    <string name="pif_config_details">Yapılandırma ayrıntıları</string>
+    <string name="pif_failed">%s başarısız oldu</string>
+    <string name="pif_select_device">Cihazı seç</string>
+    <string name="pif_generating">Yapılandırma oluşturuluyor\u2026</string>
+    <string name="pif_footer_title">Basic integrity geçiyor</string>
+    <string name="pif_footer_body">1. \"Pixel Beta Parmak izini getir\" seçeneğine dokunun ve var olan cihazlar listesinden bir cihaz seçin.\n2. Eğer hiçbir cihaz bulunamazsa, güvenilir bir kaynaktan çalışan bir PIF ayarını içeri aktarın. Ayar dosyaları sağlanmaz; bunu sizin bulmanız gerekir.\n3. Play Integrity durumunu tekrar kontrol edin. \n\nYeni bir ayar dosyasını yüklemeden önce her zaman aktif ayarı silin. Süresi dolmuş bir PIF dosyası yüklemek, keybox geçerli olsa bile TrickyStore ile sağlanan Strong Integrity\'nin başarısız olmasına neden olacaktır.</string>
+    <string name="pif_select_channel">Kanal seç</string>
+    <string name="pif_channel_latest_release">Son sürüm</string>
+    <string name="pif_channel_canary_release">Canary sürümü</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox yönetimi</string>
+    <string name="ts_import_keybox">Keybox yükle</string>
+    <string name="ts_no_keybox">Keybox yüklü değil</string>
+    <string name="ts_keybox_installed">Keybox yüklendi</string>
+    <string name="ts_keybox_imported">Keybox başarıyla içe aktarıldı</string>
+    <string name="ts_delete_keybox">Keybox\'ı sil</string>
+    <string name="ts_delete_keybox_summary">Keybox dosyasını sil</string>
+    <string name="ts_delete_keybox_title">Keybox\'ı sil?</string>
+    <string name="ts_delete_keybox_message">Keybox dosyası kalıcı olarak silinecek.</string>
+    <string name="ts_delete">Sil</string>
+    <string name="ts_keybox_deleted">Keybox silindi</string>
+    <string name="ts_target_configuration">Hedef yapılandırması</string>
+    <string name="ts_manage_target_apps">Hedef uygulamaları yönet</string>
+    <string name="ts_no_targets">Hiçbir hedef uygulama yapılandırılmadı</string>
+    <string name="ts_target_apps_count">%d uygulamalar yapılandırıldı</string>
+    <string name="ts_import_target_list">Hedef listesini içe aktar</string>
+    <string name="ts_import_target_list_summary">Bir dosyadan target.txt içe aktar</string>
+    <string name="ts_target_list_imported">Hedef listesi içe aktarıldı</string>
+    <string name="ts_loading_apps">Uygulamalar yükleniyor\u2026</string>
+    <string name="ts_auto_select">Otomatik seç</string>
+    <string name="ts_save">Kaydet</string>
+    <string name="ts_targets_saved">Hedef listesi kaydedildi</string>
+    <string name="ts_failed">%s başarısız oldu</string>
+    <string name="ts_target_mode">Hedef modu</string>
+    <string name="ts_target_mode_auto">Otomatik</string>
+    <string name="ts_target_mode_leaf">Leaf yaması</string>
+    <string name="ts_target_mode_cert">Sertifika oluşturma</string>
+    <string name="ts_footer_title">Strong integrity geçiyor</string>
+    <string name="ts_footer_body">1. Güvenilir bir kaynaktan geçerli bir keybox XML dosyası edinin. Keybox\'lar tarafımızca sağlanmaz; kendiniz bulmanız gerekir.\n2. \"Keybox\'ı içe aktar\" (Import keybox) seçeneğine dokunun ve dosyayı yükleyin.\n3. \"Hedef uygulamaları yönet\" (Manage target apps) kısmını açın ve Google Play Hizmetleri ile Google Play Store\'u seçin.\n4. Cihazınızda çalışan bir TEE (Güvenilir Yürütme Ortamı) varsa hedef modunu \"Leaf\" olarak ayarlayın, aksi takdirde \"Auto\" olarak bırakın.\n5. Play Integrity durumunuzu tekrar kontrol edin.\n\nYeni bir keybox içe aktarmadan önce mevcut olanı mutlaka silin. Google bir keybox\'ı devre dışı bırakırsa (revokes), \"strong integrity\" (güçlü bütünlük) başarısız olsa bile \"device integrity\" (cihaz bütünlüğü) geçişine izin vermeye devam edebilir.</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Oyun yanıltmayı etkinleştir</string>
+    <string name="gs_enable_summary">Yapılandırılmış oyunlar için cihaz özelliklerini yanılt</string>
+    <string name="gs_add_app">Oyun ekle</string>
+    <string name="gs_add_app_summary">Yanıltılacak uygulamayı ve cihaz profilini seçin</string>
+    <string name="gs_reload">Yeniden yükle</string>
+    <string name="gs_reload_summary">Yapılandırmayı diskten yeniden yükle</string>
+    <string name="gs_configured_apps">Yapılandırılmış oyunlar</string>
+    <string name="gs_no_apps">Yapılandırılmış oyun yok</string>
+    <string name="gs_no_apps_summary">Başlamak için \"Oyun ekle\"ye dokunun</string>
+    <string name="gs_select_app">Uygulama seç</string>
+    <string name="gs_select_profile">Cihaz profili seç</string>
+    <string name="gs_edit_props">Özellikleri düzenle</string>
+    <string name="gs_change_profile">Cihaz profilini değiştir</string>
+    <string name="gs_remove">Kaldır</string>
+    <string name="gs_remove_title">Oyun kaldırılsın mı?</string>
+    <string name="gs_remove_message">%s oyun yanıltmadan kaldırılsın mı?</string>
+    <string name="gs_edit_app">Düzenle %s</string>
+    <string name="gs_key">Anahtar</string>
+    <string name="gs_value">Değer</string>
+    <string name="gs_save">Kaydet</string>
+    <string name="gs_config_saved">Konfigürasyon kaydedildi</string>
+    <string name="gs_loading_apps">Uygulamalar yükleniyor\u2026</string>
+    <string name="gs_failed">%s başarısız oldu</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha ayarları</string>
@@ -1148,57 +1218,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">Ekran yakalama durumunu gizle</string>
     <string name="hide_screen_capture_status_summary">Ekran yakalama durumunu uygulamalardan gizle</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">Geliştirici durumunu gizle</string>
-    <string name="hide_developer_status_summary">Geliştirici durumunu uygulamalardan gizle</string>
-    <string name="search_apps">Uygulamalar ara</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">Bildirim simgeleri</string>
     <string name="max_visible_notification_icons_summary">Durum çubuğunda görünen maksimum bildirim simgesi</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">Kesme İlerleme Halkası</string>
-    <string name="cutout_progress_summary">Delgi deliğinin etrafındaki ilerleme halkasını göster</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">Özellikler</string>
-    <string name="cutout_progress_cat_appearance">Dış görünüş</string>
-    <string name="cutout_progress_cat_geometry">Halka geometrisi</string>
-    <string name="cutout_progress_cat_island">Genişletilmiş mod</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">İndirme ilerleme durumu halkasını etkinleştir</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">Zil rengi modu</string>
-    <string name="cutout_progress_ring_color_mode_accent">Aksan</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">Gökkuşağı</string>
-    <string name="cutout_progress_ring_color_mode_custom">Özel</string>
-    <string name="cutout_progress_ring_color_title">Özel halka rengi</string>
-    <string name="cutout_progress_ring_opacity_title">Halka opaklığı</string>
-    <string name="cutout_progress_stroke_width_title">Halka kalınlığı</string>
-    <string name="cutout_progress_bg_ring_enabled_title">Arka plan parçasını göster</string>
-    <string name="cutout_progress_charging_pulse_title">Şarj nabız animasyonu</string>
-    <string name="cutout_progress_charging_pulse_summary">Şarj sırasında merkezden dışarıya doğru yinelenen bir darbe canlandırın</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">Halka boşluğu (kesme açıklığı)</string>
-    <string name="cutout_progress_path_mode_title">Kesme şeklini takip edin</string>
-    <string name="cutout_progress_path_mode_summary">Halkayı bir daireye normalleştirmek yerine kesmenin doğal en boy oranını kullanın</string>
-    <string name="cutout_progress_scale_x_title">Yatay ölçek</string>
-    <string name="cutout_progress_scale_y_title">Dikey ölçek</string>
-    <string name="cutout_progress_offset_x_title">Yatay ofset</string>
-    <string name="cutout_progress_offset_y_title">Dikey ofset</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">Kompakt düzen</string>
-    <string name="cutout_progress_island_compact_summary">Kamera kesiminin etrafını sarın</string>
-    <string name="cutout_progress_island_position_title">Kompakt düzen hizalaması</string>
-    <string name="cutout_island_pos_center">Merkezi bölünmüş</string>
-    <string name="cutout_island_pos_left">Sol</string>
-    <string name="cutout_island_pos_right">Sağ</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">Arka plan şeffaflığı</string>
     <string name="cutout_island_timeout_title">Otomatik daraltma zaman aşımı</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">Başvuru listesini gizle</string>
-    <string name="hide_applist_summary">Uygulamaların, uygulama listesinden seçilen uygulamaları kontrol etmesini engelle</string>
-    <string name="menu_show_overlay">Yer paylaşımını göster</string>
-    <string name="menu_hide_overlay">Kaplamayı gizle</string>
+    <string name="cutout_ring_category_title">Çentik ekranı</string>
+    <string name="cutout_ring_enabled_title">Çentikte göster</string>
+    <string name="cutout_ring_enabled_summary">Dinamik Çubuk çipini ön kamera çentiği konumuna taşı</string>
+    <string name="cutout_collapse_to_ring_title">Halkaya daralt</string>
+    <string name="cutout_collapse_to_ring_summary">Boştayken, hap şeklindeki alanı çentiğin etrafında animasyonlu bir halkaya dönüştürerek daralt</string>
+    <string name="cutout_ring_settings_title">Halka ayarları</string>
+    <string name="cutout_ring_settings_summary">Halka geometrisini ve opaklığını ayarla</string>
+    <string name="cutout_ring_gap_title">Halka boşluğu</string>
+    <string name="cutout_ring_gap_summary">Çentik ve halka arasındaki mesafe</string>
+    <string name="cutout_ring_scale_x_title">X Ölçeği</string>
+    <string name="cutout_ring_scale_y_title">Y Ölçeği</string>
+    <string name="cutout_ring_offset_x_title">X Ofseti</string>
+    <string name="cutout_ring_offset_y_title">Y Ofseti</string>
+    <string name="cutout_ring_opacity_title">Halka opaklığı</string>
+    <string name="cutout_ring_stroke_title">Çizgi kalınlığı</string>
+    <string name="cutout_ring_stroke_summary">Halka çizgi kalınlığı (dp) (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">Ses düzeyi kaydırıcı şekli</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">Hızlı bakış</string>
+    <string name="quicklook_calendar_title">Takvim</string>
+    <string name="quicklook_calendar_summary">Yaklaşan takvim etkinlikleri</string>
+    <string name="quicklook_alarm_title">Sonraki alarm</string>
+    <string name="quicklook_alarm_summary">Sıradaki alarm zamanı</string>
+    <string name="quicklook_media_title">Medya</string>
+    <string name="quicklook_media_summary">Şu anda oynatılan medya bilgisi</string>
+    <string name="quicklook_now_playing_title">Şimdi oynatılıyor</string>
+    <string name="quicklook_now_playing_summary">Google ortam müziği tanıma</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Google\'dan hava durumu, zamanlayıcılar, spor sonuçları ve daha fazlası</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Smartspacer uygulamasından gelen hedefler</string>
 </resources>
