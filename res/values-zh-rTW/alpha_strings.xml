@@ -70,6 +70,12 @@
     <string name="wallpaper_color">桌布顏色</string>
     <string name="yes">是的</string>
     <string name="apply">申請</string>
+    <string name="show_system_apps">Show system apps</string>
+    <string name="hide_system_apps">Hide system apps</string>
+    <string name="search_apps">Search apps</string>
+    <string name="clear_search">Clear search</string>
+    <string name="auto_select">Auto-select</string>
+    <string name="system_badge">SYS</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">值：<xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">使用預設值</string>
@@ -556,12 +562,6 @@
     <!-- Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">三段式開關通知</string>
     <string name="alert_slider_notifications_summary">變更三段式開關位置時顯示通知</string>
-    <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">無限相簿儲存空間</string>
-    <string name="use_photos_spoof_summary">針對Google相簿將您的裝置偽裝成 Pixel XL 來取得無限相簿儲存空間</string>
-    <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">解鎖遊戲高更新率</string>
-    <string name="use_games_spoof_summary">針對部分特定的遊戲將您的裝置偽裝成其他機型來解鎖更高的更新率</string>
     <!-- Volume panel -->
     <string name="volume_panel_category">音量面板</string>
     <string name="volume_dialog_timeout_title">音量面板自動關閉時間</string>
@@ -646,13 +646,7 @@
     <string name="smart_pixels_warning_text">智慧像素能藉由減少顯示的像素數量來達到省電效果，但在某些情況下可能會使觸控靈敏度降低。</string>
     <string name="smart_pixels_title">智慧像素</string>
     <string name="smart_pixels_summary">透過停用多餘的像素來節省電池電量</string>
-    <string name="smart_pixels_enable_title">啟用智慧像素</string>
-    <string name="smart_pixels_enable_summary">停用像素以降低電量消耗</string>
-    <string name="smart_pixels_on_power_save_title">在省電模式下自動啟用</string>
-    <string name="smart_pixels_on_power_save_summary">啟用省電模式時也啟用智慧像素</string>
     <string name="smart_pixels_percent">停用的像素百分比</string>
-    <string name="smart_pixels_shift_title">螢幕烙印保護</string>
-    <string name="smart_pixels_shift_summary">透過不時移動像素的位置來防止使用 OLED 螢幕的裝置產生烙印</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">返回手勢動畫</string>
     <string name="back_gesture_arrow_summary">觸發返回手勢時顯示動畫</string>
@@ -672,22 +666,19 @@
     <string name="qs_footer_datausage_title">數據用量</string>
     <string name="qs_footer_datausage_summary">在快速設定底部顯示數據用量</string>
     <!-- QS Tiles animation  -->
-    <string name="qs_tile_animation_title">圖塊動畫</string>
     <string name="qs_tile_animation_style_title">動畫樣式</string>
-    <string name="qs_tile_animation_duration_title">動畫持續時間</string>
-    <string name="qs_tile_animation_interpolator_title">動畫插值</string>
-    <string name="qs_tile_animation_style_off">無動畫</string>
-    <string name="qs_tile_animation_style_rotate">旋轉</string>
-    <string name="qs_tile_animation_style_flipx">水平翻轉</string>
-    <string name="qs_tile_animation_style_flipy">垂直翻轉</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">線性</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">減速</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">先加速後減速</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">彈跳</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">過衝</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">預備</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">預備後過衝</string>
+    <string name="qs_tile_animation_style_bounce">Bounce</string>
+    <string name="qs_tile_animation_style_ripple">Ripple</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="qs_tile_animation_style_fade">Fade</string>
+    <string name="qs_tile_animation_style_pulse">Pulse</string>
+    <string name="qs_tile_animation_style_shake">Shake</string>
+    <string name="qs_tile_animation_style_wobble">Wobble</string>
+    <string name="qs_tile_animation_style_spin">Spin</string>
+    <string name="qs_tile_animation_style_squish">Squish</string>
+    <string name="qs_tile_animation_style_tilt">傾斜</string>
+    <string name="qs_tile_animation_style_heartbeat">Heartbeat</string>
+    <string name="qs_tile_animation_style_swing">Swing</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">螢幕截圖音效</string>
     <string name="screenshot_shutter_sound_summary">在拍攝螢幕截圖時播放音效</string>
@@ -723,10 +714,8 @@
     <!-- Weather -->
     <string name="weather_settings_title">天氣服務設定</string>
     <string name="weather_settings_summary">設定圖示包和天氣服務</string>
-    <string name="lockscreen_weather_category">天氣</string>
-    <string name="lockscreen_weather_title">更新天氣</string>
-    <string name="lockscreen_weather_summary">更新目前所在位置的天氣</string>
-    <string name="lockscreen_weather_enabled_info">需要設定天氣服務且停用智慧空間</string>
+    <string name="quicklook_weather_title">Weather</string>
+    <string name="quicklook_weather_summary">Current weather conditions from OmniJaws</string>
     <string name="lockscreen_weather_location_title">目前位置</string>
     <string name="lockscreen_weather_location_summary">顯示目前所在位置</string>
     <string name="lockscreen_weather_text_title">目前天氣</string>
@@ -760,12 +749,6 @@
     <!-- Floating rotation button -->
     <string name="floating_rotation_button_title">浮動螢幕旋轉按鈕</string>
     <string name="floating_rotation_button_summary">旋轉螢幕時顯示旋轉控制按鈕</string>
-    <!-- Netflix Spoof -->
-    <string name="netflix_spoof_title">Netflix 機型偽裝</string>
-    <string name="netflix_spoof_summary">針對 Netflix 將您的裝置偽裝成其他機型</string>
-    <!-- Google Play Integrity Spoof -->
-    <string name="pi_spoof_title">Google Play Integrity 偽裝</string>
-    <string name="pi_spoof_summary">針對 Google Play Integrity 將您的裝置偽裝成其他機型</string>
     <!-- WiFi Standard icon -->
     <string name="wifi_standard_icon_title">Wi-Fi 標準</string>
     <string name="wifi_standard_icon_summary">在訊號圖示上顯示目前所使用的 Wi-Fi 標準</string>
@@ -838,6 +821,16 @@
     <!-- Smartspace -->
     <string name="lockscreen_smartspace_title">智慧空間</string>
     <string name="lockscreen_smartspace_summary">當 Google 智慧空間可用時顯示</string>
+    <!-- Lockscreen smartspace source -->
+    <string name="lockscreen_smartspace_source_title">Smartspace source</string>
+    <string name="lockscreen_smartspace_source_axion">Axion (in-clock)</string>
+    <string name="lockscreen_smartspace_source_google">Google (BC carousel)</string>
+    <string name="lockscreen_smartspace_source_none">None (use weather chip)</string>
+    <!-- Lockscreen weather source -->
+    <string name="lockscreen_weather_source_title">Weather provider</string>
+    <string name="lockscreen_weather_source_disabled">殘障人士</string>
+    <string name="lockscreen_weather_source_omnijaws">OmniJaws</string>
+    <string name="lockscreen_weather_source_google">Google</string>
     <!-- Clipboard auto clear -->
     <string name="clipboard_auto_clear_timeout_disable_clipboard">停用剪貼簿</string>
     <!-- Increasing ring tone volume -->
@@ -865,18 +858,6 @@
     <string name="custom_style_fluid">流動 (透明)</string>
     <string name="custom_style_ios">IOS</string>
     <string name="custom_style_layers">層次</string>
-    <!-- Keybox Data -->
-    <string name="keybox_data_title">Keybox 認證覆寫</string>
-    <string name="keybox_data_summary">載入自訂的 keybox XML 以覆寫裝置金鑰認證</string>
-    <string name="keybox_data_loaded_summary">已載入自訂的 keybox XML。刪除以清除。</string>
-    <string name="keybox_delete_content_description">清除 keybox 資料</string>
-    <string name="keybox_toast_invalid_file_selected">不是有效的 XML 檔案。請選擇正確的 keybox XML。</string>
-    <string name="keybox_toast_missing_data">無效的 keybox XML：缺少必要欄位</string>
-    <string name="keybox_toast_file_loaded">Keybox 已載入</string>
-    <string name="keybox_toast_file_cleared">Keybox 已清除</string>
-    <!-- Block attestation even with Keybox Data -->
-    <string name="pi_gmscertchain_title">禁用強制強完整性</string>
-    <string name="pi_gmscertchain_summary">啟用後，不會透過有效的自訂密鑰箱強制執行強完整性，而是依賴 Google Play 完整性欺騙來修復 Google Pay 等應用程式</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">快速設定磁貼形狀</string>
     <string name="qs_tile_shape_dynamic">動態</string>
@@ -921,6 +902,10 @@
     <string name="pulse_settings_summary">導覽列與鎖定畫面的音訊圖形等化器</string>
     <string name="ambient_pulse_enabled_title">環境氛圍</string>
     <string name="ambient_pulse_enabled_summary">在環境顯示器上顯示視覺化工具</string>
+    <string name="pulse_bass_haptics_title">Bass haptics</string>
+    <string name="pulse_bass_haptics_none">No subtle vibration on sharp bass spikes</string>
+    <string name="pulse_bass_haptics_running">Only when pulse is showing</string>
+    <string name="pulse_bass_haptics_always">Whenever media playback is active</string>
     <string name="pulse_rounded_bars_title">圓角條形</string>
     <string name="pulse_rounded_bars_summary">顯示圓角的音效可視化條</string>
     <string name="pulse_color">可視化效果顏色</string>
@@ -938,6 +923,8 @@
     <string name="pulse_renderer_minimal_wave">最小波</string>
     <string name="pulse_renderer_sparkle">火花</string>
     <string name="pulse_renderer_matrix">矩陣</string>
+    <string name="pulse_renderer_particle">Particle</string>
+    <string name="pulse_renderer_waveform">Waveform</string>
     <!-- Notification Row -->
     <string name="notification_row_transparency_title">半透明通知</string>
     <string name="notification_row_transparency_summary">快速設定通知的半透明背景</string>
@@ -949,9 +936,6 @@
     <!-- Squiggle animation for media notification -->
     <string name="media_squiggle_animation_title">曲線動畫</string>
     <string name="media_squiggle_animation_summary">播放媒體時在媒體面板中顯示搜尋欄波形動畫</string>
-    <!-- Vbmeta hash attestation -->
-    <string name="vbmeta_attestation_title">自動修復 VBMeta 檢測</string>
-    <string name="vbmeta_attestation_summary">執行金鑰證明以在啟動時產生經過驗證的啟動雜湊值。需要重新啟動系統。</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">不進行驗證</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
@@ -978,16 +962,6 @@
     <string name="cycle_type_weekly_sub">每週的某一天：\\n1 = 星期一</string>
     <string name="cycle_type_daily_title">使用周期重置小時</string>
     <string name="cycle_type_daily_sub">每天的時間：</string>
-    <!-- Custom clock style -->
-    <string name="lockscreen_custom_clock_style_title">客製化時鐘樣式</string>
-    <string name="lockscreen_custom_clock_style_summary">配置鎖定螢幕時鐘樣式</string>
-    <string name="lockscreen_custom_clock_style_highlight_text">向左或向右滑動可預覽時鐘樣式</string>
-    <string name="lockscreen_custom_clock_style_info">自訂時鐘樣式將 AOSP 時鐘樣式替換為自訂時鐘。智慧空間將會停用。您可以啟用並使用自訂天氣。</string>
-    <string name="lockscreen_custom_clock_opacity_title">自訂時鐘不透明度</string>
-    <string name="lockscreen_custom_clock_opacity_summary">調整自訂時鐘樣式的透明度</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_title">自訂時鐘高度</string>
-    <string name="lockscreen_custom_clock_frame_margin_top_summary">調整自訂時鐘樣式的高度</string>
-    <string name="lockscreen_custom_clock_color_mode_title">自訂時鐘顏色模式</string>
     <!-- QS Panel style -->
     <string name="qs_panel_style_title">QS面板樣式</string>
     <string name="qs_panel_style_card">卡片樣式</string>
@@ -1016,12 +990,10 @@
     <string name="dynamic_bar_keyguard_battery_chip_charging">僅在充電時</string>
     <string name="dynamic_bar_keyguard_battery_chip_always">始終顯示</string>
     <string name="dynamic_bar_events">活動</string>
-    <string name="dynamic_bar_event_recording">螢幕錄製</string>
-    <string name="dynamic_bar_event_recording_summary">活動螢幕錄製指示器</string>
-    <string name="dynamic_bar_event_privacy">隱私指標</string>
-    <string name="dynamic_bar_event_privacy_summary">攝影機和麥克風存取警報</string>
     <string name="dynamic_bar_event_audio_recording">錄音</string>
     <string name="dynamic_bar_event_audio_recording_summary">錄音機和音訊捕獲</string>
+    <string name="dynamic_bar_event_call">Ongoing call</string>
+    <string name="dynamic_bar_event_call_summary">Incoming and active calls</string>
     <string name="dynamic_bar_event_media">媒體播放</string>
     <string name="dynamic_bar_event_media_summary">顯示正在播放的音樂與音訊控制項</string>
     <string name="dynamic_bar_event_notification">通知</string>
@@ -1048,8 +1020,6 @@
     <string name="dynamic_bar_event_clipboard_summary">複製的文字和圖像預覽</string>
     <string name="dynamic_bar_event_torch">手電筒</string>
     <string name="dynamic_bar_event_torch_summary">手電筒切換和亮度</string>
-    <string name="dynamic_bar_event_casting">投放</string>
-    <string name="dynamic_bar_event_casting_summary">螢幕投影與媒體投射狀態</string>
     <string name="dynamic_bar_event_ongoing">正在進行的活動</string>
     <string name="dynamic_bar_event_ongoing_summary">導航、送貨和其他現場活動</string>
     <string name="dynamic_bar_event_sports">體育</string>
@@ -1058,6 +1028,115 @@
     <string name="dynamic_bar_event_app_switch_summary">在最近的應用程式之間切換時顯示晶片</string>
     <string name="dynamic_bar_event_biometric">生物辨識解鎖</string>
     <string name="dynamic_bar_event_biometric_summary">在指紋或臉部解鎖上顯示晶片</string>
+    <string name="dynamic_bar_guide_title">如何使用動態欄</string>
+    <string name="dynamic_bar_guide_chip">Events appear as an animated chip in the status bar. When \"Show on cutout\" is enabled, the chip moves to a pill around the front camera cutout instead</string>
+    <string name="dynamic_bar_guide_swipe">When multiple events are active, swipe left or right on the chip or pill to cycle through them. A badge shows the total event count. Swiping also works while the expanded card is open</string>
+    <string name="dynamic_bar_guide_expand">Tap the chip or pill to open an expanded card for the current event with controls and details. If more events are stacked, tap the expand button below the card to see them all</string>
+    <string name="dynamic_bar_guide_dismiss">Swipe an expanded card left or right to dismiss that specific event and remove it from the Dynamic Bar. To collapse the entire stack back to the status bar without dismissing events, tap outside the cards or swipe up on the background</string>
+    <string name="dynamic_bar_guide_keyguard">The chip also appears at the bottom of the lock screen, replacing the standard indication text with playback controls and quick actions</string>
+    <string name="dynamic_bar_guide_long_press">Long press the chip or pill to jump straight to these Dynamic Bar settings</string>
+    <string name="dynamic_bar_guide_cutout">With \"Show on cutout\" enabled, the pill hugs the camera cutout. When idle the right side collapses. Enable \"Collapse to ring\" to shrink the pill into an animated ring with event-specific animations</string>
+    <string name="dynamic_bar_guide_chip_title">晶片外觀</string>
+    <string name="dynamic_bar_guide_swipe_title">Cycle events</string>
+    <string name="dynamic_bar_guide_expand_title">點擊展開</string>
+    <string name="dynamic_bar_guide_dismiss_title">Dismiss or Collapse</string>
+    <string name="dynamic_bar_guide_keyguard_title">鎖定螢幕晶片</string>
+    <string name="dynamic_bar_guide_long_press_title">Quick settings access</string>
+    <string name="dynamic_bar_guide_cutout_title">Cutout mode</string>
+    <!-- Misc preference entries -->
+    <string name="play_integrity_fix_title">Play Integrity Fix</string>
+    <string name="play_integrity_fix_summary">Manage PIF configuration and device fingerprints for basic integrity</string>
+    <string name="tricky_store_title">TrickyStore</string>
+    <string name="tricky_store_summary">Manage keybox and target apps for attestation for strong integrity</string>
+    <string name="game_spoofing_title">Game spoofing</string>
+    <string name="game_spoofing_summary">Spoof device properties for specific games</string>
+    <!-- Play Integrity Fix -->
+    <string name="pif_status">Status</string>
+    <string name="pif_active_config">Active configuration</string>
+    <string name="pif_no_config">No configuration loaded</string>
+    <string name="pif_config_loaded">Configuration loaded</string>
+    <string name="pif_fetch_pixel_beta">Fetch Pixel Beta fingerprint</string>
+    <string name="pif_fetch_pixel_beta_summary">Download latest Pixel Beta fingerprint from Google</string>
+    <string name="pif_fetching">Fetching from Google\u2026</string>
+    <string name="pif_fetched_model">Fetched fingerprint for %s</string>
+    <string name="pif_import_config">Import configuration</string>
+    <string name="pif_import_config_summary">Import PIF config from a file</string>
+    <string name="pif_imported_as">Imported as %s</string>
+    <string name="pif_delete_config">Delete active configuration</string>
+    <string name="pif_delete_config_summary">Remove the currently active config file</string>
+    <string name="pif_delete_title">Delete %s?</string>
+    <string name="pif_delete_message">This configuration file will be permanently removed.</string>
+    <string name="pif_delete">刪除</string>
+    <string name="pif_deleted">Deleted %s</string>
+    <string name="pif_settings">設定</string>
+    <string name="pif_spoof_photos">Spoof Google Photos</string>
+    <string name="pif_spoof_photos_summary">Unlimited original quality backup</string>
+    <string name="pif_config_details">Configuration details</string>
+    <string name="pif_failed">Failed: %s</string>
+    <string name="pif_select_device">Select device</string>
+    <string name="pif_generating">Generating configuration\u2026</string>
+    <string name="pif_footer_title">Passing basic integrity</string>
+    <string name="pif_footer_body">1. Tap \"Fetch Pixel Beta fingerprint\" and select a device from the available list.\n2. If no devices are found, import a working PIF config from a trusted source. Config files are not provided; you must find one yourself.\n3. Recheck your Play Integrity status.\n\nAlways delete the active configuration before loading a new one. Loading an expired PIF config will cause strong integrity via TrickyStore to fail, even with a valid keybox.</string>
+    <string name="pif_select_channel">Select channel</string>
+    <string name="pif_channel_latest_release">Latest release</string>
+    <string name="pif_channel_canary_release">Canary release</string>
+    <!-- TrickyStore -->
+    <string name="ts_keybox_management">Keybox management</string>
+    <string name="ts_import_keybox">Import keybox</string>
+    <string name="ts_no_keybox">No keybox installed</string>
+    <string name="ts_keybox_installed">Keybox installed</string>
+    <string name="ts_keybox_imported">Keybox imported successfully</string>
+    <string name="ts_delete_keybox">Delete keybox</string>
+    <string name="ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="ts_delete_keybox_title">Delete keybox?</string>
+    <string name="ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="ts_keybox_deleted">Keybox deleted</string>
+    <string name="ts_target_configuration">Target configuration</string>
+    <string name="ts_manage_target_apps">Manage target apps</string>
+    <string name="ts_no_targets">No target apps configured</string>
+    <string name="ts_target_apps_count">%d apps configured</string>
+    <string name="ts_import_target_list">Import target list</string>
+    <string name="ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="ts_target_list_imported">Target list imported</string>
+    <string name="ts_failed">Failed: %s</string>
+    <string name="ts_footer_title">Passing strong integrity</string>
+    <string name="ts_footer_body">1. Obtain a valid keybox XML from a trusted source. Keyboxes are not provided; you must find one yourself.\n2. Tap \"Import keybox\" and load the file.\n3. Open \"Manage target apps\" and select Google Play Services and Google Play Store.\n4. Set target mode to \"Leaf\" if your device has a working TEE, otherwise leave it as Auto.\n5. Recheck your Play Integrity status.\n\nAlways delete the existing keybox before importing a new one. If Google revokes a keybox, it may still allow passing up to device integrity even though strong integrity will fail.</string>
+    <string name="ts_verification_mode">Verification mode</string>
+    <string name="ts_verification_mode_auto">Auto</string>
+    <string name="ts_verification_auto_count">%1$d auto</string>
+    <string name="ts_verification_cert_count">%1$d cert</string>
+    <string name="ts_verification_leaf_count">%1$d leaf</string>
+    <string name="ts_invalid_patch_date">Invalid date format. Use YYYY-MM-DD</string>
+    <string name="ts_security_patch">Security patch date</string>
+    <string name="ts_no_patch">Not set (using device default)</string>
+    <string name="ts_selected_count">%d selected</string>
+    <string name="ts_mode_auto">Auto</string>
+    <string name="ts_mode_leaf">Leaf</string>
+    <string name="ts_mode_cert">Cert</string>
+    <!-- Game Spoofing -->
+    <string name="gs_enable">Enable game spoofing</string>
+    <string name="gs_enable_summary">Spoof device properties for configured games</string>
+    <string name="gs_add_app">Add game</string>
+    <string name="gs_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="gs_reload">Reload</string>
+    <string name="gs_reload_summary">Reload configuration from disk</string>
+    <string name="gs_configured_apps">Configured games</string>
+    <string name="gs_no_apps">No games configured</string>
+    <string name="gs_no_apps_summary">Tap \"Add game\" to get started</string>
+    <string name="gs_select_app">Select app</string>
+    <string name="gs_select_profile">Select device profile</string>
+    <string name="gs_edit_props">Edit properties</string>
+    <string name="gs_change_profile">Change device profile</string>
+    <string name="gs_remove">Remove</string>
+    <string name="gs_remove_title">Remove game?</string>
+    <string name="gs_remove_message">Remove %s from game spoofing?</string>
+    <string name="gs_edit_app">Edit %s</string>
+    <string name="gs_key">Key</string>
+    <string name="gs_value">Value</string>
+    <string name="gs_save">儲存</string>
+    <string name="gs_config_saved">Configuration saved</string>
+    <string name="gs_loading_apps">Loading apps\u2026</string>
+    <string name="gs_failed">Failed: %s</string>
     <!-- == ALPHA == -->
     <!--  Alpha settings -->
     <string name="alpha_settings_title">Alpha 設定</string>
@@ -1145,57 +1224,42 @@
     <!-- Hide screen capture status -->
     <string name="hide_screen_capture_status_title">隱藏螢幕捕獲狀態</string>
     <string name="hide_screen_capture_status_summary">隱藏應用程式的螢幕擷取狀態</string>
-    <!-- Hide developer status -->
-    <string name="hide_developer_status_title">隱藏開發者狀態</string>
-    <string name="hide_developer_status_summary">對應用程式隱藏開發者狀態</string>
-    <string name="search_apps">搜尋應用程式</string>
     <!-- Max visible notification icons -->
     <string name="max_visible_notification_icons_title">通知圖示</string>
     <string name="max_visible_notification_icons_summary">狀態列上可見的最大通知圖標數</string>
-    <!-- Cutout Progress Ring -->
-    <string name="cutout_progress_title">鏤空進度環</string>
-    <string name="cutout_progress_summary">在打孔周圍顯示進度環</string>
-    <!-- Categories -->
-    <string name="cutout_progress_cat_features">特徵</string>
-    <string name="cutout_progress_cat_appearance">外貌</string>
-    <string name="cutout_progress_cat_geometry">環幾何形狀</string>
-    <string name="cutout_progress_cat_island">擴展模式</string>
-    <!-- Features -->
-    <string name="cutout_progress_download_enabled_title">啟用下載進度環</string>
-    <string name="cutout_progress_charging_ring_title">Show charging ring</string>
-    <!-- Appearance -->
-    <string name="cutout_progress_ring_color_mode_title">環色模式</string>
-    <string name="cutout_progress_ring_color_mode_accent">口音</string>
-    <string name="cutout_progress_ring_color_mode_rainbow">彩虹</string>
-    <string name="cutout_progress_ring_color_mode_custom">自訂</string>
-    <string name="cutout_progress_ring_color_title">訂製戒指顏色</string>
-    <string name="cutout_progress_ring_opacity_title">環不透明度</string>
-    <string name="cutout_progress_stroke_width_title">環厚</string>
-    <string name="cutout_progress_bg_ring_enabled_title">顯示背景軌道</string>
-    <string name="cutout_progress_charging_pulse_title">充電脈衝動畫</string>
-    <string name="cutout_progress_charging_pulse_summary">充電時以動畫方式從中心向外重複脈衝</string>
-    <!-- Ring Geometry -->
-    <string name="cutout_progress_ring_gap_title">環隙（切口間隙）</string>
-    <string name="cutout_progress_path_mode_title">遵循切口形狀</string>
-    <string name="cutout_progress_path_mode_summary">使用切口的原始長寬比，而不是將環標準化為圓形</string>
-    <string name="cutout_progress_scale_x_title">水平刻度</string>
-    <string name="cutout_progress_scale_y_title">垂直刻度</string>
-    <string name="cutout_progress_offset_x_title">水平偏移</string>
-    <string name="cutout_progress_offset_y_title">垂直偏移</string>
-    <!-- Expanded Mode -->
-    <string name="cutout_progress_island_compact_title">佈局緊湊</string>
-    <string name="cutout_progress_island_compact_summary">環繞相機切口</string>
-    <string name="cutout_progress_island_position_title">緊湊佈局對齊</string>
-    <string name="cutout_island_pos_center">中心分裂</string>
-    <string name="cutout_island_pos_left">左側</string>
-    <string name="cutout_island_pos_right">右側</string>
+    <!-- Cutout Ring Settings (Unified with Dynamic Bar) -->
     <string name="cutout_island_bg_opacity_title">背景透明度</string>
     <string name="cutout_island_timeout_title">自動折疊超時</string>
-    <!-- Hide applist -->
-    <string name="hide_applist_title">隱藏應用程式清單</string>
-    <string name="hide_applist_summary">阻止應用程式檢查應用程式清單中選定的應用程式</string>
-    <string name="menu_show_overlay">顯示疊加層</string>
-    <string name="menu_hide_overlay">隱藏疊加層</string>
+    <string name="cutout_ring_category_title">Cutout display</string>
+    <string name="cutout_ring_enabled_title">Show on cutout</string>
+    <string name="cutout_ring_enabled_summary">Move the Dynamic Bar chip to the front camera cutout position</string>
+    <string name="cutout_collapse_to_ring_title">Collapse to ring</string>
+    <string name="cutout_collapse_to_ring_summary">Collapse the pill into an animated ring around the cutout when idle</string>
+    <string name="cutout_ring_settings_title">Ring settings</string>
+    <string name="cutout_ring_settings_summary">Adjust ring geometry and opacity</string>
+    <string name="cutout_ring_gap_title">Ring gap</string>
+    <string name="cutout_ring_gap_summary">Distance between the cutout and the ring</string>
+    <string name="cutout_ring_scale_x_title">Scale X</string>
+    <string name="cutout_ring_scale_y_title">Scale Y</string>
+    <string name="cutout_ring_offset_x_title">Offset X</string>
+    <string name="cutout_ring_offset_y_title">Offset Y</string>
+    <string name="cutout_ring_opacity_title">Ring opacity</string>
+    <string name="cutout_ring_stroke_title">Stroke thickness</string>
+    <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
     <string name="volume_slider_shape_title">音量滑桿形狀</string>
+    <!-- QuickLook -->
+    <string name="quicklook_category_title">QuickLook</string>
+    <string name="quicklook_calendar_title">Calendar</string>
+    <string name="quicklook_calendar_summary">Upcoming calendar events</string>
+    <string name="quicklook_alarm_title">Next alarm</string>
+    <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
+    <string name="quicklook_media_title">Media</string>
+    <string name="quicklook_media_summary">Currently playing media info</string>
+    <string name="quicklook_now_playing_title">Now Playing</string>
+    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="quicklook_google_smartspace_title">Google Smartspace</string>
+    <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
 </resources>
