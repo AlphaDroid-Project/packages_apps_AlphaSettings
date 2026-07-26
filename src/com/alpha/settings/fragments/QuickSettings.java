@@ -162,6 +162,8 @@ public class QuickSettings extends SettingsPreferenceFragment {
                 Settings.System.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putStringForUser(resolver,
+                Settings.System.QS_TILE_ICON_SHAPE, "circle", UserHandle.USER_CURRENT);
         QsHeaderImageSettings.reset(mContext);
     }
 
