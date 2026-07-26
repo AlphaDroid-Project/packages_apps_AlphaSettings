@@ -24,7 +24,6 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.CrossWindowBlurListeners;
 
-import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
@@ -37,7 +36,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.alpha.settings.fragments.quicksettings.LayoutSettings;
 import com.alpha.settings.fragments.quicksettings.QsHeaderImageSettings;
 import com.alpha.settings.preferences.CustomSeekBarPreference;
 import com.alpha.settings.utils.DeviceUtils;
@@ -46,33 +44,20 @@ import java.util.List;
 import java.util.ArrayList;
 
 @SearchIndexable
-public class QuickSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+public class QuickSettings extends SettingsPreferenceFragment {
 
     public static final String TAG = "QuickSettings";
 
     private static final String QS_BRIGHTNESS_CATEGORY = "qs_brightness_slider_category";
     private static final String QS_LAYOUT_CATEGORY = "qs_layout_category";
-    private static final String KEY_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
-    private static final String KEY_BRIGHTNESS_SLIDER_POSITION = "qs_brightness_slider_position";
     private static final String KEY_BRIGHTNESS_SLIDER_HAPTIC = "qs_brightness_slider_haptic";
     private static final String KEY_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
     private static final String KEY_QS_TILE_HAPTIC = "qs_tile_haptic";
     private static final String KEY_QS_BLUR_INTENSITY = "qs_panel_blur_intensity";
-    private static final String KEY_QS_PANEL_STYLE = "qs_panel_style";
-    private static final String KEY_QS_TILE_SHAPE = "qs_tile_shape";
-    private static final String KEY_QS_TILE_ICON_SHAPE = "qs_tile_icon_shape";
-    private static final String KEY_QS_TILE_LABEL_HIDE = "qs_tile_label_hide";
 
-    private ListPreference mShowBrightnessSlider;
-    private ListPreference mBrightnessSliderPosition;
     private SwitchPreferenceCompat mBrightnessSliderHaptic;
     private SwitchPreferenceCompat mShowAutoBrightness;
     private SwitchPreferenceCompat mQsTileHaptic;
-    private ListPreference mQsPanelStyle;
-    private Preference mQsTileShape;
-    private Preference mQsTileIconShape;
-    private SwitchPreferenceCompat mQsTileLabelHide;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -81,26 +66,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.alpha_settings_quicksettings);
 
         final Context context = getContext();
-        final ContentResolver resolver = context.getContentResolver();
 
         PreferenceCategory brightnessCategory = (PreferenceCategory) findPreference(QS_BRIGHTNESS_CATEGORY);
         PreferenceCategory tileCategory = (PreferenceCategory) findPreference(QS_LAYOUT_CATEGORY);
-
-        mShowBrightnessSlider = findPreference(KEY_SHOW_BRIGHTNESS_SLIDER);
-        mShowBrightnessSlider.setOnPreferenceChangeListener(this);
-        boolean showSlider = Settings.System.getIntForUser(resolver,
-                Settings.System.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT) > 0;
-
-        mBrightnessSliderPosition = findPreference(KEY_BRIGHTNESS_SLIDER_POSITION);
-        mBrightnessSliderPosition.setEnabled(showSlider);
 
         mBrightnessSliderHaptic = findPreference(KEY_BRIGHTNESS_SLIDER_HAPTIC);
         mQsTileHaptic = findPreference(KEY_QS_TILE_HAPTIC);
         boolean hapticAvailable = DeviceUtils.hasVibrator(context);
 
-        if (hapticAvailable) {
-            mBrightnessSliderHaptic.setEnabled(showSlider);
-        } else {
+        if (!hapticAvailable) {
             brightnessCategory.removePreference(mBrightnessSliderHaptic);
             tileCategory.removePreference(mQsTileHaptic);
         }
@@ -109,21 +83,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         boolean automaticAvailable = context.getResources().getBoolean(
                 com.android.internal.R.bool.config_automatic_brightness_available);
 
-        if (automaticAvailable) {
-            mShowAutoBrightness.setEnabled(showSlider);
-        } else {
+        if (!automaticAvailable) {
             brightnessCategory.removePreference(mShowAutoBrightness);
         }
-
-        mQsPanelStyle = findPreference(KEY_QS_PANEL_STYLE);
-        mQsPanelStyle.setOnPreferenceChangeListener(this);
-        mQsTileShape = findPreference(KEY_QS_TILE_SHAPE);
-        mQsTileIconShape = findPreference(KEY_QS_TILE_ICON_SHAPE);
-        mQsTileLabelHide = findPreference(KEY_QS_TILE_LABEL_HIDE);
-
-        int panelStyle = Settings.System.getIntForUser(resolver,
-                Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
-        updatePanelStylePrefs(panelStyle);
 
         updateQsBlurPreferenceState(context);
     }
@@ -182,40 +144,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         }
     }
 
-    private void updatePanelStylePrefs(int panelStyle) {
-        boolean isClassic = panelStyle == 1;
-
-        if (mQsTileShape != null) {
-            mQsTileShape.setVisible(!isClassic);
-        }
-        if (mQsTileIconShape != null) {
-            mQsTileIconShape.setVisible(isClassic);
-        }
-        if (mQsTileLabelHide != null) {
-            mQsTileLabelHide.setVisible(isClassic);
-        }
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getContext().getContentResolver();
-
-        if (preference == mShowBrightnessSlider) {
-            int value = Integer.parseInt((String) newValue);
-            mBrightnessSliderPosition.setEnabled(value > 0);
-            if (mBrightnessSliderHaptic != null)
-                mBrightnessSliderHaptic.setEnabled(value > 0);
-            if (mShowAutoBrightness != null)
-                mShowAutoBrightness.setEnabled(value > 0);
-            return true;
-        } else if (preference == mQsPanelStyle) {
-            int value = Integer.parseInt((String) newValue);
-            updatePanelStylePrefs(value);
-            return true;
-        }
-        return false;
-    }
-
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
         Settings.Secure.putIntForUser(resolver,
@@ -229,32 +157,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_BRIGHTNESS_SLIDER_SHAPE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.QS_FOOTER_SHOW_SETTINGS, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_FOOTER_SHOW_EDIT, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_FOOTER_SHOW_POWER_MENU, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_SHOW_DATA_USAGE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_HAPTIC, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_TILE_SHAPE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
-        Settings.System.putStringForUser(resolver,
-                Settings.System.QS_TILE_ICON_SHAPE, "circle", UserHandle.USER_CURRENT);
-        LayoutSettings.reset(mContext);
         QsHeaderImageSettings.reset(mContext);
     }
 
