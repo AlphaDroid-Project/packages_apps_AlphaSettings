@@ -41,14 +41,6 @@
         android:key="volume_panel"
         android:title="@string/volume_panel_category" >
 
-        <com.alpha.settings.preferences.SystemSettingListPreference
-            android:key="volume_slider_shape"
-            android:icon="@drawable/ic_shapes"
-            android:title="@string/volume_slider_shape_title"
-            android:entries="@array/qs_brightness_slider_shape_entries"
-            android:entryValues="@array/qs_brightness_slider_shape_values"
-            android:defaultValue="0" />
-
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="volume_panel_on_left"
             android:icon="@drawable/ic_settings_sound"
