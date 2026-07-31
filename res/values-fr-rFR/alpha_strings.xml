@@ -865,15 +865,10 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Forme des tuiles QS</string>
     <string name="qs_tile_shape_dynamic">Dynamique</string>
-    <string name="qs_tile_shape_circle">Cercle</string>
     <string name="qs_tile_shape_rounded_square_smooth">Carré arrondi (lisse)</string>
-    <string name="qs_tile_shape_rounded_square">Carré arrondi</string>
-    <string name="qs_tile_shape_square">Carré</string>
     <!-- Force dark mode -->
     <string name="force_dark_title">Mode sombre pour les applications tierces</string>
     <string name="force_dark_summary">Forcer les couleurs sombres pour les applis qui ne possèdent pas le mode sombre. L\'écran peut sembler éteint.</string>
-    <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Forme du curseur de luminosité</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">Agrégation de transporteurs LTE</string>
     <string name="force_lte_ca_summary">Améliore la bande passante LTE en regroupant les bandes prises en charge</string>
@@ -1251,7 +1246,6 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="cutout_ring_stroke_title">Stroke thickness</string>
     <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
-    <string name="volume_slider_shape_title">Forme du curseur de volume</string>
     <!-- QuickLook -->
     <string name="quicklook_category_title">QuickLook</string>
     <string name="quicklook_calendar_title">Calendar</string>
@@ -1266,4 +1260,11 @@ Les notifications flottantes seront automatiquement désactivées.</string>
     <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
     <string name="quicklook_smartspacer_title">Smartspacer</string>
     <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
+    <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
+         has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
+    <string name="touchscreen_gesture_heart_title">Draw a heart</string>
+    <!-- Touchscreen gestures: "open an app" action -->
+    <string name="touchscreen_gesture_action_launch_app">Open app</string>
+    <string name="touchscreen_gesture_app_picker_title">Choose an app</string>
+    <string name="touchscreen_gesture_app_picker_summary">The gesture opens the app you pick here.</string>
 </resources>
