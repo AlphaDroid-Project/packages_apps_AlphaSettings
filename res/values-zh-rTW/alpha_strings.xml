@@ -861,15 +861,10 @@
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">快速設定磁貼形狀</string>
     <string name="qs_tile_shape_dynamic">動態</string>
-    <string name="qs_tile_shape_circle">圓形</string>
     <string name="qs_tile_shape_rounded_square_smooth">圓角正方形（光滑）</string>
-    <string name="qs_tile_shape_rounded_square">圓角矩形</string>
-    <string name="qs_tile_shape_square">矩形</string>
     <!-- Force dark mode -->
     <string name="force_dark_title">強制第三方應用深色模式</string>
     <string name="force_dark_summary">在缺少深色模式的應用中強制使用較深的顏色。部分畫面可能顯示異常。</string>
-    <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">亮度滑桿形狀</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">LTE 供應商聚合</string>
     <string name="force_lte_ca_summary">透過聚合支援的頻段來增強 LTE 頻寬</string>
@@ -1247,7 +1242,6 @@
     <string name="cutout_ring_stroke_title">Stroke thickness</string>
     <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
-    <string name="volume_slider_shape_title">音量滑桿形狀</string>
     <!-- QuickLook -->
     <string name="quicklook_category_title">QuickLook</string>
     <string name="quicklook_calendar_title">Calendar</string>
@@ -1262,4 +1256,11 @@
     <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
     <string name="quicklook_smartspacer_title">Smartspacer</string>
     <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
+    <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
+         has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
+    <string name="touchscreen_gesture_heart_title">Draw a heart</string>
+    <!-- Touchscreen gestures: "open an app" action -->
+    <string name="touchscreen_gesture_action_launch_app">Open app</string>
+    <string name="touchscreen_gesture_app_picker_title">Choose an app</string>
+    <string name="touchscreen_gesture_app_picker_summary">The gesture opens the app you pick here.</string>
 </resources>
