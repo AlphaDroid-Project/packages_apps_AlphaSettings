@@ -104,9 +104,7 @@ class TrickyStoreAppSettings : SettingsPreferenceFragment() {
             "com.google.android.gms",
             "com.android.vending",
         )
-        val DEFAULT_TARGET_MODES = mapOf(
-            "com.revolut.revolut" to TargetMode.CERT_GEN,
-        )
+        val DEFAULT_TARGET_MODES = emptyMap<String, TargetMode>()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
