@@ -20,7 +20,10 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.database.ContentObserver;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -33,6 +36,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.alpha.Utils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -61,10 +65,12 @@ public class Sound extends SettingsPreferenceFragment {
     private static final String KEY_ASI_NOW_PLAYING = "now_playing_enabled";
     /** Where the framework parks the switch while the master is off. */
     private static final String KEY_BMR_SAVED = "background_music_recognition_saved";
+    private static final String ASI_PACKAGE = "com.google.android.as";
 
     private SwitchPreferenceCompat mBackgroundMusicRecognition;
     private SwitchPreferenceCompat mVolumePanelLeft;
     private SwitchPreferenceCompat mVolumeHaptic;
+    private ContentObserver mAsiMasterObserver;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -101,13 +107,39 @@ public class Sound extends SettingsPreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-        if (mBackgroundMusicRecognition != null) {
-            // Background recognition has no recognizer without ASI's master, so it is only
-            // offerable while that is on. Its own value is left alone either way.
-            mBackgroundMusicRecognition.setEnabled(Settings.Secure.getIntForUser(
-                    getContext().getContentResolver(), KEY_ASI_NOW_PLAYING, 0,
-                    UserHandle.USER_CURRENT) != 0);
+        updateBackgroundMusicRecognitionEnabled();
+        if (mBackgroundMusicRecognition != null && mAsiMasterObserver == null) {
+            mAsiMasterObserver = new ContentObserver(new Handler(Looper.getMainLooper())) {
+                @Override
+                public void onChange(boolean selfChange) {
+                    updateBackgroundMusicRecognitionEnabled();
+                }
+            };
+            getContext().getContentResolver().registerContentObserver(
+                    Settings.Secure.getUriFor(KEY_ASI_NOW_PLAYING),
+                    false /* notifyForDescendants */,
+                    mAsiMasterObserver);
         }
+    }
+
+    @Override
+    public void onPause() {
+        if (mAsiMasterObserver != null) {
+            getContext().getContentResolver().unregisterContentObserver(mAsiMasterObserver);
+            mAsiMasterObserver = null;
+        }
+        super.onPause();
+    }
+
+    private void updateBackgroundMusicRecognitionEnabled() {
+        if (mBackgroundMusicRecognition == null) {
+            return;
+        }
+        // Background recognition has no recognizer without ASI's master, so it is only
+        // offerable while that is on. Its own value is left alone either way.
+        mBackgroundMusicRecognition.setEnabled(Settings.Secure.getIntForUser(
+                getContext().getContentResolver(), KEY_ASI_NOW_PLAYING, 0,
+                UserHandle.USER_CURRENT) != 0);
     }
 
     public static void reset(Context mContext) {
@@ -161,7 +193,8 @@ public class Sound extends SettingsPreferenceFragment {
                         keys.add(KEY_VOLUME_HAPTIC);
                     }
                     if (!context.getResources().getBoolean(com.android.internal.R.bool
-                            .config_supportsBackgroundMusicRecognition)) {
+                            .config_supportsBackgroundMusicRecognition)
+                            || !Utils.isPackageEnabled(context, ASI_PACKAGE)) {
                         keys.add(KEY_BACKGROUND_MUSIC_RECOGNITION);
                     }
                     return keys;
