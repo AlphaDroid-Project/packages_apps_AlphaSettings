@@ -60,11 +60,12 @@ public class Sound extends SettingsPreferenceFragment {
     private static final String KEY_VIBRATE_DISCONNECT = "vibrate_on_disconnect";
     private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
     private static final String KEY_VOLUME_HAPTIC = "volume_dialog_haptic_feedback";
-    private static final String KEY_BACKGROUND_MUSIC_RECOGNITION = "background_music_recognition";
+    private static final String KEY_BACKGROUND_MUSIC_RECOGNITION =
+            Settings.Secure.BACKGROUND_MUSIC_RECOGNITION;
     /** ASI's on-demand master. Read to gate our switch; never written here. */
     private static final String KEY_ASI_NOW_PLAYING = "now_playing_enabled";
     /** Where the framework parks the switch while the master is off. */
-    private static final String KEY_BMR_SAVED = "background_music_recognition_saved";
+    private static final String KEY_BMR_SAVED = Settings.Secure.BACKGROUND_MUSIC_RECOGNITION_SAVED;
     private static final String ASI_PACKAGE = "com.google.android.as";
 
     private SwitchPreferenceCompat mBackgroundMusicRecognition;
