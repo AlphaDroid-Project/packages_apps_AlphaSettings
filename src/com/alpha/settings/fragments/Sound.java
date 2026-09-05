@@ -56,8 +56,11 @@ public class Sound extends SettingsPreferenceFragment {
     private static final String KEY_VIBRATE_DISCONNECT = "vibrate_on_disconnect";
     private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
     private static final String KEY_VOLUME_HAPTIC = "volume_dialog_haptic_feedback";
-    private static final String KEY_NOW_PLAYING = "now_playing_enabled";
+    private static final String KEY_NOW_PLAYING = "background_music_recognition";
+    /** ASI's on-demand master. Read to gate our switch; never written here. */
+    private static final String KEY_ASI_NOW_PLAYING = "now_playing_enabled";
 
+    private SwitchPreferenceCompat mNowPlaying;
     private SwitchPreferenceCompat mVolumePanelLeft;
     private SwitchPreferenceCompat mVolumeHaptic;
 
@@ -74,6 +77,8 @@ public class Sound extends SettingsPreferenceFragment {
                 Settings.Secure.VOLUME_PANEL_ON_LEFT, 0,
                 UserHandle.USER_CURRENT) != 0;
 
+        mNowPlaying = prefScreen.findPreference(KEY_NOW_PLAYING);
+
         mVolumePanelLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
         mVolumePanelLeft.setChecked(isAudioPanelOnLeft);
 
@@ -88,6 +93,18 @@ public class Sound extends SettingsPreferenceFragment {
             final PreferenceCategory volCategory = prefScreen.findPreference(KEY_VOLUME_CATEGORY);
             mVolumeHaptic = volCategory.findPreference(KEY_VOLUME_HAPTIC);
             volCategory.removePreference(mVolumeHaptic);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mNowPlaying != null) {
+            // Background recognition has no recognizer without ASI's master, so it is only
+            // offerable while that is on. Its own value is left alone either way.
+            mNowPlaying.setEnabled(Settings.Secure.getIntForUser(
+                    getContext().getContentResolver(), KEY_ASI_NOW_PLAYING, 0,
+                    UserHandle.USER_CURRENT) != 0);
         }
     }
 
@@ -109,7 +126,7 @@ public class Sound extends SettingsPreferenceFragment {
         Settings.System.putIntForUser(resolver,
                 Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
-                "now_playing_enabled", 0, UserHandle.USER_CURRENT);
+                KEY_NOW_PLAYING, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
