@@ -864,15 +864,10 @@
     <!-- QS Tiles Style -->
     <string name="qs_tile_shape_title">Form der Schnelleinstellungskacheln</string>
     <string name="qs_tile_shape_dynamic">Dynamisch</string>
-    <string name="qs_tile_shape_circle">Kreis</string>
     <string name="qs_tile_shape_rounded_square_smooth">Abgerundetes Quadrat (sanft)</string>
-    <string name="qs_tile_shape_rounded_square">Abgerundetes Quadrat</string>
-    <string name="qs_tile_shape_square">Quadrat</string>
     <!-- Force dark mode -->
     <string name="force_dark_title">Dunkles Design für nicht unterstützte Apps</string>
     <string name="force_dark_summary">Erzwingt dunklere Farben in Apps ohne Unterstützung für dunkles Design. Kann manchmal fehlerhaft aussehen.</string>
-    <!-- Brightness Slider Style -->
-    <string name="qs_brightness_slider_shape_title">Form des Helligkeitsreglers</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca_title">LTE Carrier Aggregation</string>
     <string name="force_lte_ca_summary">Erhöht die LTE-Bandbreite durch Zusammenschalten unterstützter Bänder</string>
@@ -1250,7 +1245,6 @@
     <string name="cutout_ring_stroke_title">Stroke thickness</string>
     <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
     <!-- Volume slider shapes -->
-    <string name="volume_slider_shape_title">Form des Lautstärkereglers</string>
     <!-- QuickLook -->
     <string name="quicklook_category_title">QuickLook</string>
     <string name="quicklook_calendar_title">Calendar</string>
@@ -1265,4 +1259,11 @@
     <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
     <string name="quicklook_smartspacer_title">Smartspacer</string>
     <string name="quicklook_smartspacer_summary">Targets from the Smartspacer app</string>
+    <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
+         has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
+    <string name="touchscreen_gesture_heart_title">Draw a heart</string>
+    <!-- Touchscreen gestures: "open an app" action -->
+    <string name="touchscreen_gesture_action_launch_app">Open app</string>
+    <string name="touchscreen_gesture_app_picker_title">Choose an app</string>
+    <string name="touchscreen_gesture_app_picker_summary">The gesture opens the app you pick here.</string>
 </resources>
