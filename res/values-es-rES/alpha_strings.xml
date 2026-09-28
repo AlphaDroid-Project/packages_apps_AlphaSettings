@@ -954,8 +954,9 @@ Mantén presionado para establecer</string>
     <string name="billing_cycle_type_daily">A diario</string>
     <string name="billing_cycle_less_than_one_hour_left">Queda menos de 1 hora</string>
     <string name="billing_cycle_hours_left">{count, plural,
-        =1      {# hour left}
-        other   {# hours left}
+        one {# horas restantes}
+        =1      {# hora restante}
+        other   {# horas restantes}
         }</string>
     <string name="cycle_type_weekly_title">Día de reinicio del ciclo de uso</string>
     <string name="cycle_type_weekly_sub">Día de cada semana:\\n1 = lunes</string>
