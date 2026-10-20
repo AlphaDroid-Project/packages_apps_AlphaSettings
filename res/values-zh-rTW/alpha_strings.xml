@@ -750,8 +750,6 @@
     <string name="floating_rotation_button_title">浮動螢幕旋轉按鈕</string>
     <string name="floating_rotation_button_summary">旋轉螢幕時顯示旋轉控制按鈕</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">Wi-Fi 標準</string>
-    <string name="wifi_standard_icon_summary">在訊號圖示上顯示目前所使用的 Wi-Fi 標準</string>
     <!-- App lock -->
     <string name="app_lock_title">應用鎖</string>
     <plurals name="app_lock_summary">
@@ -961,8 +959,8 @@
     <string name="qs_panel_style_title">QS面板樣式</string>
     <string name="qs_panel_style_card">卡片樣式</string>
     <string name="qs_panel_style_classic">經典風格</string>
+    <string name="shape_dynamic">Dynamic (default)</string>
     <string name="shape_circle">圓形</string>
-    <string name="shape_square">矩形</string>
     <string name="shape_arch">拱</string>
     <string name="shape_ios_rounded_square">iOS 圓形</string>
     <string name="shape_hexagon">六邊形</string>
@@ -980,10 +978,6 @@
     <string name="dynamic_bar_enable_summary">在狀態列顯示即時活動用的動態晶片</string>
     <string name="dynamic_bar_keyguard_enable">鎖定畫面動態欄</string>
     <string name="dynamic_bar_keyguard_enable_summary">將鎖定畫面上的提示替換為動態欄晶片，並提供控制項與快速操作</string>
-    <string name="dynamic_bar_keyguard_battery_chip">鎖定螢幕上的電池訊息</string>
-    <string name="dynamic_bar_keyguard_battery_chip_disabled">永不顯示</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">僅在充電時</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">始終顯示</string>
     <string name="dynamic_bar_events">活動</string>
     <string name="dynamic_bar_event_audio_recording">錄音</string>
     <string name="dynamic_bar_event_audio_recording_summary">錄音機和音訊捕獲</string>
@@ -1241,7 +1235,6 @@
     <string name="cutout_ring_opacity_title">Ring opacity</string>
     <string name="cutout_ring_stroke_title">Stroke thickness</string>
     <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
-    <!-- Volume slider shapes -->
     <!-- QuickLook -->
     <string name="quicklook_category_title">QuickLook</string>
     <string name="quicklook_calendar_title">Calendar</string>
@@ -1250,8 +1243,8 @@
     <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
     <string name="quicklook_media_title">Media</string>
     <string name="quicklook_media_summary">Currently playing media info</string>
-    <string name="quicklook_now_playing_title">Now Playing</string>
-    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="now_playing_title">Now Playing</string>
+    <string name="now_playing_summary">Ambient music recognition from Google</string>
     <string name="quicklook_google_smartspace_title">Google Smartspace</string>
     <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
     <string name="quicklook_smartspacer_title">Smartspacer</string>
@@ -1259,8 +1252,12 @@
     <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
          has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
     <string name="touchscreen_gesture_heart_title">Draw a heart</string>
-    <!-- Touchscreen gestures: "open an app" action -->
-    <string name="touchscreen_gesture_action_launch_app">Open app</string>
-    <string name="touchscreen_gesture_app_picker_title">Choose an app</string>
-    <string name="touchscreen_gesture_app_picker_summary">The gesture opens the app you pick here.</string>
+    <!-- Lockscreen media player style -->
+    <string name="lockscreen_media_style_title">Media player style</string>
+    <string name="lockscreen_media_style_glass">Glass</string>
+    <string name="lockscreen_media_style_minimal">Minimal</string>
+    <string name="lockscreen_media_style_waveform">Waveform</string>
+    <!-- Battery saver refresh rate (Settings.System.LOW_POWER_REFRESH_RATE) -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 </resources>
