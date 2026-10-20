@@ -752,8 +752,6 @@
     <string name="floating_rotation_button_title">Kayan döndürme tuşu</string>
     <string name="floating_rotation_button_summary">Cihaz döndürüldüğünde kayan bir döndürme tuşu göster</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">WiFi standardı</string>
-    <string name="wifi_standard_icon_summary">WiFi sinyalinin yanında WiFi standardını göster</string>
     <!-- App lock -->
     <string name="app_lock_title">Uygulama kilidi</string>
     <plurals name="app_lock_summary">
@@ -964,8 +962,8 @@
     <string name="qs_panel_style_title">QS Panel stili</string>
     <string name="qs_panel_style_card">Kart stili</string>
     <string name="qs_panel_style_classic">Klasik tarz</string>
+    <string name="shape_dynamic">Dynamic (default)</string>
     <string name="shape_circle">Daire</string>
-    <string name="shape_square">Kare</string>
     <string name="shape_arch">Kemer</string>
     <string name="shape_ios_rounded_square">iOS yuvarlak şekil</string>
     <string name="shape_hexagon">Altıgen</string>
@@ -983,10 +981,6 @@
     <string name="dynamic_bar_enable_summary">Canlı etkinlikler için durum çubuğunda dinamik bir çip göster</string>
     <string name="dynamic_bar_keyguard_enable">Kilit ekranında dinamik çubuk</string>
     <string name="dynamic_bar_keyguard_enable_summary">Kilit ekranı göstergesini, kontroller ve hızlı işlemler içeren dinamik çubuk çipi ile değiştirir</string>
-    <string name="dynamic_bar_keyguard_battery_chip">Kilit ekranında pil bilgisi</string>
-    <string name="dynamic_bar_keyguard_battery_chip_disabled">Asla gösterme</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">Yalnızca şarj olurken</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">Her zaman göster</string>
     <string name="dynamic_bar_events">Olaylar</string>
     <string name="dynamic_bar_event_audio_recording">Ses kaydı</string>
     <string name="dynamic_bar_event_audio_recording_summary">Ses kaydedici ve ses yakalama</string>
@@ -1244,7 +1238,6 @@
     <string name="cutout_ring_opacity_title">Halka opaklığı</string>
     <string name="cutout_ring_stroke_title">Çizgi kalınlığı</string>
     <string name="cutout_ring_stroke_summary">Halka çizgi kalınlığı (dp) (÷10)</string>
-    <!-- Volume slider shapes -->
     <!-- QuickLook -->
     <string name="quicklook_category_title">Hızlı bakış</string>
     <string name="quicklook_calendar_title">Takvim</string>
@@ -1253,8 +1246,8 @@
     <string name="quicklook_alarm_summary">Sıradaki alarm zamanı</string>
     <string name="quicklook_media_title">Medya</string>
     <string name="quicklook_media_summary">Şu anda oynatılan medya bilgisi</string>
-    <string name="quicklook_now_playing_title">Şimdi oynatılıyor</string>
-    <string name="quicklook_now_playing_summary">Google ortam müziği tanıma</string>
+    <string name="now_playing_title">Şimdi oynatılıyor</string>
+    <string name="now_playing_summary">Google ortam müziği tanıma</string>
     <string name="quicklook_google_smartspace_title">Google Smartspace</string>
     <string name="quicklook_google_smartspace_summary">Google\'dan hava durumu, zamanlayıcılar, spor sonuçları ve daha fazlası</string>
     <string name="quicklook_smartspacer_title">Smartspacer</string>
@@ -1262,8 +1255,12 @@
     <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
          has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
     <string name="touchscreen_gesture_heart_title">Draw a heart</string>
-    <!-- Touchscreen gestures: "open an app" action -->
-    <string name="touchscreen_gesture_action_launch_app">Open app</string>
-    <string name="touchscreen_gesture_app_picker_title">Choose an app</string>
-    <string name="touchscreen_gesture_app_picker_summary">The gesture opens the app you pick here.</string>
+    <!-- Lockscreen media player style -->
+    <string name="lockscreen_media_style_title">Media player style</string>
+    <string name="lockscreen_media_style_glass">Glass</string>
+    <string name="lockscreen_media_style_minimal">Minimal</string>
+    <string name="lockscreen_media_style_waveform">Dalga formu</string>
+    <!-- Battery saver refresh rate (Settings.System.LOW_POWER_REFRESH_RATE) -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 </resources>
