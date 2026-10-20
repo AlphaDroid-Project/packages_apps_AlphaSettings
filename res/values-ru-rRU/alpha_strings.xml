@@ -756,8 +756,6 @@
     <string name="floating_rotation_button_title">Плавающая кнопка поворота</string>
     <string name="floating_rotation_button_summary">Показывать плавающую кнопку поворота при вращении устройства</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">Стандарт Wi-Fi</string>
-    <string name="wifi_standard_icon_summary">Стандарт WiFi на значке сигнала WiFi</string>
     <!-- App lock -->
     <string name="app_lock_title">Блокировка приложений</string>
     <plurals name="app_lock_summary">
@@ -970,8 +968,8 @@
     <string name="qs_panel_style_title">Стиль панели QS</string>
     <string name="qs_panel_style_card">Панель \"Карточка\"</string>
     <string name="qs_panel_style_classic">Классический стиль</string>
+    <string name="shape_dynamic">Dynamic (default)</string>
     <string name="shape_circle">Круг</string>
-    <string name="shape_square">Квадрат</string>
     <string name="shape_arch">Арка</string>
     <string name="shape_ios_rounded_square">Скруглённый квадрат как в iOS</string>
     <string name="shape_hexagon">Шестиугольник</string>
@@ -989,10 +987,6 @@
     <string name="dynamic_bar_enable_summary">Показывать динамический чип в строке состояния для текущих событий</string>
     <string name="dynamic_bar_keyguard_enable">Динамическая панель на экране блокировки</string>
     <string name="dynamic_bar_keyguard_enable_summary">Заменяет подсказку на экране блокировки на чип динамической панели с элементами управления и быстрыми действиями</string>
-    <string name="dynamic_bar_keyguard_battery_chip">Информация о батарее на экране блокировки</string>
-    <string name="dynamic_bar_keyguard_battery_chip_disabled">Не показывать</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">Только при зарядке</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">Показывать всегда</string>
     <string name="dynamic_bar_events">События</string>
     <string name="dynamic_bar_event_audio_recording">Запись звука</string>
     <string name="dynamic_bar_event_audio_recording_summary">Диктофон и захват аудио</string>
@@ -1250,7 +1244,6 @@
     <string name="cutout_ring_opacity_title">Прозрачность кольца</string>
     <string name="cutout_ring_stroke_title">Толщина обводки</string>
     <string name="cutout_ring_stroke_summary">Ширина штриха кольца в dp (÷10)</string>
-    <!-- Volume slider shapes -->
     <!-- QuickLook -->
     <string name="quicklook_category_title">Быстрый просмотр</string>
     <string name="quicklook_calendar_title">Календарь</string>
@@ -1259,8 +1252,8 @@
     <string name="quicklook_alarm_summary">Время следующего сигнала</string>
     <string name="quicklook_media_title">Медиа</string>
     <string name="quicklook_media_summary">Информация о проигрывании</string>
-    <string name="quicklook_now_playing_title">Воспроизводится</string>
-    <string name="quicklook_now_playing_summary">Распознавание музыки из Google</string>
+    <string name="now_playing_title">Now Playing</string>
+    <string name="now_playing_summary">Ambient music recognition from Google</string>
     <string name="quicklook_google_smartspace_title">Умное пространство Google</string>
     <string name="quicklook_google_smartspace_summary">Погода, таймеры, спорт, и многое другое из Google</string>
     <string name="quicklook_smartspacer_title">Умное пространство</string>
@@ -1268,8 +1261,12 @@
     <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
          has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
     <string name="touchscreen_gesture_heart_title">Нарисуйте сердце</string>
-    <!-- Touchscreen gestures: "open an app" action -->
-    <string name="touchscreen_gesture_action_launch_app">Открыть приложение</string>
-    <string name="touchscreen_gesture_app_picker_title">Выбрать приложение</string>
-    <string name="touchscreen_gesture_app_picker_summary">Жест открывает выбранное вами приложение.</string>
+    <!-- Lockscreen media player style -->
+    <string name="lockscreen_media_style_title">Media player style</string>
+    <string name="lockscreen_media_style_glass">Glass</string>
+    <string name="lockscreen_media_style_minimal">Minimal</string>
+    <string name="lockscreen_media_style_waveform">Звуковая Волна</string>
+    <!-- Battery saver refresh rate (Settings.System.LOW_POWER_REFRESH_RATE) -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 </resources>
