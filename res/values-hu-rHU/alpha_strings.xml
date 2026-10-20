@@ -752,8 +752,6 @@
     <string name="floating_rotation_button_title">Lebegő \'Elforgatás gomb\'</string>
     <string name="floating_rotation_button_summary">Egy lebegő gombbal jelzi, ha a készüléket elforgatták</string>
     <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">Wi-Fi-szabvány</string>
-    <string name="wifi_standard_icon_summary">A Wi-Fi-jel mellett a szabványt is megjeleníti</string>
     <!-- App lock -->
     <string name="app_lock_title">Alkalmazás-zár</string>
     <plurals name="app_lock_summary">
@@ -966,8 +964,8 @@
     <string name="qs_panel_style_title">QS Panel stílus</string>
     <string name="qs_panel_style_card">Kártya stílus</string>
     <string name="qs_panel_style_classic">Klasszikus stílus</string>
+    <string name="shape_dynamic">Dynamic (default)</string>
     <string name="shape_circle">Kör</string>
-    <string name="shape_square">Négyzet</string>
     <string name="shape_arch">Boltív</string>
     <string name="shape_ios_rounded_square">iOS lekerekített forma</string>
     <string name="shape_hexagon">Hatszög</string>
@@ -985,10 +983,6 @@
     <string name="dynamic_bar_enable_summary">Dinamikus chip megjelenítése az élő események állapotsorán</string>
     <string name="dynamic_bar_keyguard_enable">Dinamikus sáv a lezárási képernyőn</string>
     <string name="dynamic_bar_keyguard_enable_summary">Cserélje ki a billentyűzár jelzését dinamikus sáv chipre a lezárási képernyőn vezérlőkkel és gyors műveletekkel</string>
-    <string name="dynamic_bar_keyguard_battery_chip">Akkumulátor információ a lezárási képernyőn</string>
-    <string name="dynamic_bar_keyguard_battery_chip_disabled">Sose jelenítse meg</string>
-    <string name="dynamic_bar_keyguard_battery_chip_charging">Csak töltéskor</string>
-    <string name="dynamic_bar_keyguard_battery_chip_always">Mindig mutasd</string>
     <string name="dynamic_bar_events">Események</string>
     <string name="dynamic_bar_event_audio_recording">Hangfelvétel</string>
     <string name="dynamic_bar_event_audio_recording_summary">Hangrögzítő és hangrögzítés</string>
@@ -1246,7 +1240,6 @@
     <string name="cutout_ring_opacity_title">Ring opacity</string>
     <string name="cutout_ring_stroke_title">Stroke thickness</string>
     <string name="cutout_ring_stroke_summary">Ring stroke width in dp (÷10)</string>
-    <!-- Volume slider shapes -->
     <!-- QuickLook -->
     <string name="quicklook_category_title">QuickLook</string>
     <string name="quicklook_calendar_title">Calendar</string>
@@ -1255,8 +1248,8 @@
     <string name="quicklook_alarm_summary">Next scheduled alarm time</string>
     <string name="quicklook_media_title">Media</string>
     <string name="quicklook_media_summary">Currently playing media info</string>
-    <string name="quicklook_now_playing_title">Now Playing</string>
-    <string name="quicklook_now_playing_summary">Ambient music recognition from Google</string>
+    <string name="now_playing_title">Now Playing</string>
+    <string name="now_playing_summary">Ambient music recognition from Google</string>
     <string name="quicklook_google_smartspace_title">Google Smartspace</string>
     <string name="quicklook_google_smartspace_summary">Weather, timers, sports, and more from Google</string>
     <string name="quicklook_smartspacer_title">Smartspacer</string>
@@ -1264,8 +1257,12 @@
     <!-- Touchscreen gestures: title for the HAL's "Heart" gesture, which upstream LineageParts
          has no string for (ResourceUtils maps the HAL name to touchscreen_gesture_%s_title) -->
     <string name="touchscreen_gesture_heart_title">Draw a heart</string>
-    <!-- Touchscreen gestures: "open an app" action -->
-    <string name="touchscreen_gesture_action_launch_app">Open app</string>
-    <string name="touchscreen_gesture_app_picker_title">Choose an app</string>
-    <string name="touchscreen_gesture_app_picker_summary">The gesture opens the app you pick here.</string>
+    <!-- Lockscreen media player style -->
+    <string name="lockscreen_media_style_title">Media player style</string>
+    <string name="lockscreen_media_style_glass">Glass</string>
+    <string name="lockscreen_media_style_minimal">Minimal</string>
+    <string name="lockscreen_media_style_waveform">Waveform</string>
+    <!-- Battery saver refresh rate (Settings.System.LOW_POWER_REFRESH_RATE) -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 </resources>
